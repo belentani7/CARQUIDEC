@@ -78,13 +78,13 @@ body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;o
 .grid-desc{font-size:12px;color:var(--td);line-height:1.7}
 .gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;width:100%}
 .gallery-item{position:relative;overflow:hidden;aspect-ratio:4/3}
-.gallery-item img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.16,1,.3,1)}
+.gallery-item img{width:100%;height:100%;object-fit:contain;background:#111;transition:transform .8s cubic-bezier(.16,1,.3,1)}
 .gallery-item:hover img{transform:scale(1.05)}
 .gallery-item::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 50%,rgba(10,10,10,0.7) 100%);opacity:0;transition:opacity .4s}
 .gallery-item:hover::after{opacity:1}
 .gallery-label{position:absolute;bottom:16px;left:16px;z-index:2;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:var(--ac);opacity:0;transition:opacity .4s}
 .gallery-item:hover .gallery-label{opacity:1}
-.img-full{width:100%;height:100vh;min-height:100dvh;object-fit:cover;display:block}
+.img-full{width:100%;height:100vh;min-height:100dvh;object-fit:contain;background:#000;display:block}
 .timeline{position:relative;padding-left:40px}
 .timeline::before{content:"";position:absolute;left:0;top:0;bottom:0;width:1px;background:linear-gradient(180deg,transparent,var(--gold),transparent)}
 .timeline-item{position:relative;margin-bottom:60px}
@@ -166,6 +166,7 @@ body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;o
 <a href="#s5" data-es="Proyectos" data-en="Projects" data-ca="Projectes" data-fr="Projets">Proyectos</a>
 <a href="#s7" data-es="Metodo" data-en="Method" data-ca="Metode" data-fr="Methode">Metodo</a>
 <a href="#s9" data-es="Trayectoria" data-en="Journey" data-ca="Trajectoria" data-fr="Parcours">Trayectoria</a>
+<a href="#s13" data-es="Curriculum" data-en="Resume" data-ca="Curriculum" data-fr="Parcours">Curriculum</a>
 <a href="#s11" class="nav-cta" data-es="Contactar" data-en="Contact" data-ca="Contactar" data-fr="Contacter">Contactar</a>
 </div>
 </nav>
@@ -203,7 +204,7 @@ body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;o
 
 <!-- S2: VIDEO CASA 180 -->
 <section class="slide" id="s2" style="padding:0;background:#000">
-<video autoplay muted loop playsinline style="width:100%;height:100vh;object-fit:cover" class="clip-rv-left">
+<video autoplay muted loop playsinline style="width:100%;height:100vh;object-fit:contain;background:#000" class="clip-rv-left">
 <source src="video-casa-180.mp4" type="video/mp4">
 </video>
 <div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,rgba(10,10,10,0.8) 100%);pointer-events:none"></div>
@@ -252,26 +253,62 @@ body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;o
 <div class="gallery-item rv">
 <img src="H1.jpg" alt="Villa residencial CARQUIDEC" loading="lazy">
 <div class="gallery-label">Villa Residencial</div>
+<div class="gallery-desc">Villa de dos plantas con vistas al mar. Concreto expuesto, madera tropical y jardines que se funden con el paisaje.</div>
 </div>
 <div class="gallery-item rv">
 <img src="7.jpg" alt="Hotel boutique CARQUIDEC" loading="lazy">
 <div class="gallery-label">Hotel Boutique</div>
+<div class="gallery-desc">Entrada de hotel boutique con fuente de agua. Cada detalle invita a permanecer. Luz natural y materiales nobles.</div>
 </div>
 <div class="gallery-item rv">
 <img src="20260730221957337165.jpg" alt="Casa colonial tropical CARQUIDEC" loading="lazy">
 <div class="gallery-label">Casa Colonial</div>
+<div class="gallery-desc">Residencia con techo de barro artesanal. Fusion de tradicion local con comodidad contemporanea. Paisajismo integrado.</div>
 </div>
 <div class="gallery-item rv">
 <img src="20260730222940634241.jpg" alt="Interior comercial CARQUIDEC" loading="lazy">
 <div class="gallery-label">Interior Comercial</div>
+<div class="gallery-desc">Espacio comercial con galeria de arte integrada. Paredes grises, pisos de marmol, iluminacion focalizada.</div>
 </div>
 <div class="gallery-item rv">
 <img src="barguil.jpg" alt="Oficina ejecutiva CARQUIDEC" loading="lazy">
 <div class="gallery-label">Oficina Ejecutiva</div>
+<div class="gallery-desc">Oficina de direccion con vista panoramica. Escritorio de madera maciza, libros de arquitectos de referencia.</div>
 </div>
 <div class="gallery-item rv">
 <img src="Cavalli lavamanos 1.jpg" alt="Bano de diseno CARQUIDEC" loading="lazy">
-<div class="gallery-label">Diseno de Interiores</div>
+<div class="gallery-label">Bano de Diseno</div>
+<div class="gallery-desc">Bano residencial con lavamanos de diseno exclusivo. Marmol, madera y ceramica artesanal en armonia.</div>
+</div>
+<div class="gallery-item rv">
+<img src="20260730221736337707.png" alt="Edificio corporativo CARQUIDEC" loading="lazy">
+<div class="gallery-label">Edificio Corporativo</div>
+<div class="gallery-desc">Edificio de oficinas de 4 pisos. Fachada blanca con paneles de madera. Cristaleria panoramica.</div>
+</div>
+<div class="gallery-item rv">
+<img src="01-EDIFICIO.jpg" alt="Edificio comercial CARQUIDEC" loading="lazy">
+<div class="gallery-label">Edificio Comercial</div>
+<div class="gallery-desc">Complejo comercial con locales a la calle. Diseno moderno que se integra con el entorno urbano.</div>
+</div>
+<div class="gallery-item rv">
+<img src="54.jpg" alt="Fachada moderna CARQUIDEC" loading="lazy">
+<div class="gallery-label">Fachada Moderna</div>
+<div class="gallery-desc">Fachada contemporanea con lineas limpias. Voladores de concreto y ventanales de piso a techo.</div>
+</div>
+<div class="gallery-item rv">
+<img src="p12.jpg" alt="Proyecto residencial CARQUIDEC" loading="lazy">
+<div class="gallery-label">Residencial Lujo</div>
+<div class="gallery-desc">Residencia de lujo con piscina infinity. Espacios interiores que se abren al exterior.</div>
+</div>
+<div class="gallery-item rv">
+<img src="vista 1 2.jpg" alt="Vista panoramica CARQUIDEC" loading="lazy">
+<div class="gallery-label">Vista Panoramica</div>
+<div class="gallery-desc">Vista aerea del proyecto completo. Integracion total entre arquitectura y paisaje natural.</div>
+</div>
+<div class="gallery-item rv">
+<img src="20260730223149789515.jpg" alt="Bano de lujo CARQUIDEC" loading="lazy">
+<div class="gallery-label">Bano de Lujo</div>
+<div class="gallery-desc">Suite principal con bano de遇spa. Piedra natural, madera termotratada, ducha tipo lluvia.</div>
 </div>
 </div>
 </div>
@@ -324,6 +361,11 @@ body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;o
 </div>
 </section>
 
+<!-- S8B: HERNANDO CON FAMILIA -->
+<section class="slide" id="s8b" style="padding:0">
+<img src="ChatGPT Image 30 jul 2026, 14_33_18.png" alt="Hernando Carrillo entregando proyecto a familia" class="img-full clip-rv-right" loading="lazy">
+</section>
+
 <!-- S9: TRAYECTORIA -->
 <section class="slide slide-dark" id="s9">
 <div class="slide-inner">
@@ -364,6 +406,27 @@ body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;o
 <div class="divider rv" style="margin:40px auto"></div>
 <div class="quote rv" style="max-width:700px;margin:0 auto;border-left:none;padding-left:0;text-align:center;font-size:clamp(1.1rem,2vw,1.4rem)" data-es="Yo me dedico a eso. Ese es mi trabajo. Para eso naci. A llevar su idea, su casa del sueno, su proyecto... a la realidad." data-en="That's what I do. That's my job. That's what I was born for. To take your idea, your dream house, your project... and make it real." data-ca="Jo em dedico a aixo. Aquest es el meu treball. Per aixo vaig neixer. A portar la vostra idea, la vostra casa del somni, el vostre projecte... a la realitat." data-fr="C'est ce que je fais. C'est mon metier. C'est pour ca que je suis ne. Prendre votre idee, votre maison de reve, votre projet... et le rendre reel.">Yo me dedico a eso. Ese es mi trabajo. Para eso naci. A llevar su idea, su casa del sueno, su proyecto... a la realidad.</div>
 <p class="body" style="text-align:center;max-width:100%;margin-top:32px;font-style:italic" data-es="— Hernando Carrillo, Arquitecto" data-en="— Hernando Carrillo, Architect" data-ca="— Hernando Carrillo, Arquitecte" data-fr="— Hernando Carrillo, Architecte">— Hernando Carrillo, Arquitecto</p>
+</div>
+</section>
+
+<!-- S13: CURRICULUM -->
+<section class="slide slide-dark" id="s13" style="min-height:auto;padding:120px 48px">
+<div class="slide-inner" style="max-width:900px;margin:0 auto">
+<div class="label rv" data-es="// Curriculum" data-en="// Resume" data-ca="// Curriculum" data-fr="// Parcours">// Curriculum</div>
+<h2 class="heading rv" data-es="Hernando Carrillo<br><em>Sanchez</em>" data-en="Hernando Carrillo<br><em>Sanchez</em>" data-ca="Hernando Carrillo<br><em>Sanchez</em>" data-fr="Hernando Carrillo<br><em>Sanchez</em>">Hernando Carrillo<br><em>Sanchez</em></h2>
+
+<p class="body body-large rv" data-es="Arquitecto y constructor colombiano con mas de 38 anios de experiencia internacional. Graduado en Arquitectura por la Universidad Autonoma del Caribe (Barranquilla, 1982-1988). Desde sus primeros anos de carrera, Hernando supo que su vocacion era crear espacios que trascendieran lo funcional para convertirse en experiencias sensoriales unicas." data-en="Colombian architect and builder with over 38 years of international experience. Graduated in Architecture from Universidad Autonoma del Caribe (Barranquilla, 1982-1988). From his early years, Hernando knew his vocation was to create spaces that transcended functionality to become unique sensory experiences." data-ca="Arquitecte i constructor colombia amb mes de 38 anys d'experiencia internacional. Graduat en Arquitectura per la Universidad Autonoma del Caribe (Barranquilla, 1982-1988). Des dels primers anys de carrera, Hernando va saber que la seva vocacio era crear espais que transcendissin el functional per convertir-se en experiencies sensorials uniques." data-fr="Architecte et constructeur colombien avec plus de 38 ans d'experience internationale. Diplome en Architecture de l'Universidad Autonoma del Caribe (Barranquilla, 1982-1988). Des ses premieres annees, Hernando a su que sa vocation etait de creer des espaces qui transcendent la fonctionnalite pour devenir des experiences sensorielles uniques.">Arquitecto y constructor colombiano con mas de 38 anios de experiencia internacional. Graduado en Arquitectura por la Universidad Autonoma del Caribe (Barranquilla, 1982-1988). Desde sus primeros anos de carrera, Hernando supo que su vocacion era crear espacios que trascendieran lo funcional para convertirse en experiencias sensoriales unicas.</p>
+
+<p class="body rv" data-es="En 1995, un viaje a Japan, Italia y Costa Rica cambio su perspectiva para siempre. Descubrio el paisajismo como arte independiente y la integracion perfecta entre agua, piedra y vegetacion. Estos viajes definieron su enfoque: arquitectura que dialoga con la naturaleza, no que la domina." data-en="In 1995, a trip to Japan, Italy and Costa Rica changed his perspective forever. He discovered landscaping as an independent art and the perfect integration of water, stone and vegetation. These travels defined his approach: architecture that dialogues with nature, not dominates it." data-ca="El 1995, un viatge a Japan, Italia i Costa Rica va canviar la seva perspectiva per sempre. Va descobrir el paisatgisme com a art independent i la integracio perfecta entre aigua, pedra i vegetacio. Aquests viatges van definir el seu enfocament: arquitectura que dialoga amb la natura, no que la domina." data-fr="En 1995, un voyage au Japon, en Italie et au Costa Rica a change sa perspective pour toujours. Il a decouvert le paysagisme comme art independant et l'integration parfaite entre l'eau, la pierre et la vegetation. Ces voyages ont defini son approche: l'architecture qui dialogue avec la nature, pas qui la domine.">En 1995, un viaje a Japan, Italia y Costa Rica cambio su perspectiva para siempre. Descubrio el paisajismo como arte independiente y la integracion perfecta entre agua, piedra y vegetacion. Estos viajes definieron su enfoque: arquitectura que dialoga con la naturaleza, no que la domina.</p>
+
+<p class="body rv" data-es="A partir de 2005, su trabajo cruzo el oceano. Proyectos en Espana e Italia fusionaron la arquitectura tropical colombiana con el diseno mediterraneo. Su primer hotel boutique en la Costa Brava marco el inicio de una etapa internacional que hoy abarca tres continentes." data-en="From 2005, his work crossed the ocean. Projects in Spain and Italy fused Colombian tropical architecture with Mediterranean design. His first boutique hotel on the Costa Brava marked the beginning of an international stage that today spans three continents." data-ca="A partir de 2005, el seu treball va creuar l'oceà. Projectes a Espanya i Italia van fusionar l'arquitectura tropical colombiana amb el disseny mediterrani. El seu primer hotel boutique a la Costa Brava va marcar l'inici d'una etapa internacional que avui abasta tres continents." data-fr="A partir de 2005, son travail a traverse l'ocean. Projets en Espagne et Italie ont fusionne l'architecture tropicale colombienne avec le design mediterraneen. Son premier hotel boutique sur la Costa Brava a marque le debut d'une phase internationale qui couvre aujourd'hui trois continents.">A partir de 2005, su trabajo cruzo el oceano. Proyectos en Espana e Italia fusionaron la arquitectura tropical colombiana con el diseno mediterraneo. Su primer hotel boutique en la Costa Brava marco el inicio de una etapa internacional que hoy abarca tres continentes.</p>
+
+<p class="body rv" data-es="En 2020, fundo CARQUIDEC con una mision clara: crear arquitectura que provoque emocion. No edificios, no casas, no hoteles. Experiencias espaciales que se sienten en el cuerpo y se recuerdan en la memoria. Cada proyecto es un compromiso personal para transformar los suenos de sus clientes en realidades que perduran en el tiempo." data-en="In 2020, he founded CARQUIDEC with a clear mission: create architecture that provokes emotion. Not buildings, not houses, not hotels. Spatial experiences that are felt in the body and remembered in memory. Every project is a personal commitment to transforming his clients' dreams into realities that endure." data-ca="El 2020, va fundar CARQUIDEC amb una missio clara: crear arquitectura que provoqui emocio. No edificis, no cases, no hotels. Experiencies espacials que es senten al cos i es recorden a la memoria. Cada projecte es un compromis personal per transformar els somnis dels seus clients en realitats que perduren en el temps." data-fr="En 2020, il a fonde CARQUIDEC avec une mission claire: creer une architecture qui provoque l'emotion. Pas des batiments, pas des maisons, pas des hotels. Des experiences spatiales qui se ressentent dans le corps et se rappellent dans la memoire. Chaque projet est un engagement personnel pour transformer les reves de ses clients en realites qui durent.">En 2020, fundo CARQUIDEC con una mision clara: crear arquitectura que provoque emocion. No edificios, no casas, no hoteles. Experiencias espaciales que se sienten en el cuerpo y se recuerdan en la memoria. Cada proyecto es un compromiso personal para transformar los suenos de sus clientes en realidades que perduran en el tiempo.</p>
+
+<div class="divider rv"></div>
+
+<p class="body rv" style="font-style:italic;color:var(--gold)" data-es="Hoy, con 38 anios de experiencia, 60+ proyectos ejecutados y presencia en Colombia, Espana e Italia, Hernando sigue creando arquitectura que trasciende generaciones. Su enfoque combina el rigor tecnico con la sensibilidad artistica, la innovacion con la tradicion, lo local con lo global." data-en="Today, with 38 years of experience, 60+ executed projects and presence in Colombia, Spain and Italy, Hernando continues creating architecture that transcends generations. His approach combines technical rigor with artistic sensitivity, innovation with tradition, local with global." data-ca="Avui, amb 38 anys d'experiencia, 60+ projectes executats i presencia a Colombia, Espanya i Italia, Hernando continua creant arquitectura que transcende generacions. El seu enfocament combina el rigor tecnic amb la sensibilitat artistica, la innovacio amb la tradicio, el local amb el global." data-fr="Aujourd'hui, avec 38 ans d'experience, plus de 60 projets realises et une presence en Colombie, Espagne et Italie, Hernando continue de creer une architecture qui transcende les generations. Son approche combine le rigor technique avec la sensibilite artistique, l'innovation avec la tradition, le local avec le global.">Hoy, con 38 anios de experiencia, 60+ proyectos ejecutados y presencia en Colombia, Espana e Italia, Hernando sigue creando arquitectura que trasciende generaciones. Su enfoque combina el rigor tecnico con la sensibilidad artistica, la innovacion con la tradicion, lo local con lo global.</p>
+
 </div>
 </section>
 
