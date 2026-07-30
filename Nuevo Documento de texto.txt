@@ -1,0 +1,149 @@
+A continuación he desarrollado un concepto de marca completo y una identidad de texto masivo para tu sitio web, basado en la identidad visual del logo **CARQUIDEC**, la trayectoria de **Hernando Carrillo** (visible en tu CV), y la estética de la arquitectura moderna, eficiente y tecnológica de las imágenes.
+
+---
+
+# 🏛️ CARQUIDEC · Concepto de Marca y Desarrollo Web
+
+## 1. CONCEPTO DE MARCA (Brand Concept)
+
+**Nombre:** CARQUIDEC
+**Eslogan:** *Arquitectura & Decoración.* (Logo)
+**Esencia:** *El encuentro entre la arquitectura de vanguardia, la decoración de autor y la tecnología de datos.*
+
+**La Filosofía:**
+En CARQUIDEC, no diseñamos simplemente edificios; diseñamos **ecosistemas habitables**. Nuestra propuesta rompe la barrera entre la arquitectura tradicional y el diseño computacional. Creemos que la belleza estética debe ir acompañada de un profundo sentido de eficiencia, sostenibilidad y funcionalidad. Operamos con la certeza de que un espacio bien diseñado no solo debe verse espectacular, sino también respirar, adaptarse a su entorno y evolucionar con sus ocupantes.
+
+**El Valor Diferencial:**
+Fusionamos más de **30 años de experiencia en obra y diseño** con herramientas de **inteligencia paramétrica y bioclimática**. Esto nos permite ofrecer una tríada perfecta: **Creatividad sin límites, eficiencia energética y ejecución magistral.** Desde lujosas villas mediterráneas hasta complejos multifamiliares, cada proyecto lleva el sello de una precisión quirúrgica y un alma artística.
+
+---
+
+## 2. PALETA DE COLORES (Brand Colors)
+
+Basado en tu logo (negro + degradado oro), en el interiorismo de la villa (maderas cálidas + blancos) y en la interfaz tecnológica de tus renderizaciones (cian):
+
+*   **Negro Ónix (Logo & Contraste)**  
+    `#1A1A1A` · Usado en tipografías principales, estructuras y marcos de visión. Transmite elegancia, sofisticación y modernidad industrial.
+*   **Oro Sutil / Degradado (Logo & Lujo)**  
+    `#D4AF37` / `#F5E5B3` · Usado en acentos, iconografía y detalles del logo. Aporta calidez, exclusividad y el toque premium de la decoración.
+*   **Cian Tecnológico (CV & Datos)**  
+    `#00E5FF` · Usado en gráficos, botones de acción (CTA) e interfaces. Representa la parte paramétrica, el "diseño en tiempo real" y la innovación.
+*   **Blanco Puro (Arquitectura & Aire)**  
+    `#FFFFFF` · Usado en fondos y espacios en blanco. Refleja limpieza, minimalismo y la amplitud de sus diseños.
+*   **Madera Natural (Cálida)**  
+    `#D2A679` · Usado en texturas y fondos secundarios. Conecta el diseño con la naturaleza y el confort doméstico (como en los cielos de madera de la villa).
+*   **Agua Profunda (Agua & Natura)**  
+    `#1A485C` · Usado para secciones de sostenibilidad o naturaleza. Recuerda al color de la piscina y al bioclimatismo.
+
+---
+
+## 3. IDENTIDAD WEB · DESARROLLO DE TEXTO MASIVO (Website Copy)
+
+A continuación, desarrollamos el contenido extenso para cada sección de tu futura web.
+
+---
+
+### 🔹 PÁGINA DE INICIO (Hero Section)
+
+**Título Principal:**
+> **Arquitectura que trasciende la forma. Diseño que vive, respira y evoluciona contigo.**
+
+**Subtítulo (Value Prop):**
+> Somos CARQUIDEC. Un estudio de arquitectura y decoración donde la inteligencia paramétrica, el diseño bioclimático y el lujo consciente se fusionan para crear espacios que trascienden el tiempo.
+
+**CTA Button 1 (Principal):** *Explora nuestro ADN*
+**CTA Button 2 (Secundario):** *Solicita tu consultoría*
+
+**Texto Breve de Bienvenida (Bajo el Hero):**
+> Con más de tres décadas de trayectoria y proyectos en Colombia, España e Italia, hemos perfeccionado una metodología híbrida: la precisión del arquitecto, el ojo del interiorista y la mente del analista de datos. CARQUIDEC no es una simple firma, es una nueva manera de entender el hábitat humano.
+
+---
+
+### 🔹 SECCIÓN: NUESTRO ADN / QUÉ NOS DEFINE
+
+**Título:** **El ADN de CARQUIDEC: Estructura, Alma, Datos.**
+
+**Texto Introductorio:**
+> Durante 30 años, nuestro fundador, Hernando Carrillo, ha desafiado las convenciones de la arquitectura. Tras liderar proyectos de infraestructura cultural, hotelería de lujo y vivienda residencial, nace **CARQUIDEC**. Un nuevo movimiento arquitectónico que no separa el arte de la ciencia.
+>
+> Nuestra esencia se define por:
+>
+> 1. **Diseño Inteligente y Paramétrico:** No trabajamos con planos estáticos. Utilizamos algoritmos de diseño que optimizan cada metro cuadrado, estudiando la incidencia solar, los flujos de viento y las necesidades específicas de cada familia.
+> 2. **Sostenibilidad Bioclimática:** Creamos edificios que se enfrían solos, que iluminan con luz natural y que se conectan con su entorno. Reducimos el consumo energético desde el primer trazo.
+> 3. **Interiorismo de Autor:** La arquitectura es el esqueleto, pero el interiorismo es el alma. Trabajamos con una paleta de materiales nobles, textiles y acústica inmersiva para garantizar el bienestar.
+> 4. **Gestión de Obra y Ejecución:** No solo diseñamos, construimos con exactitud. La calidad de nuestros materiales y el control de los plazos de ejecución son nuestra garantía de satisfacción absoluta.
+
+---
+
+### 🔹 SECCIÓN: PROYECTOS DESTACADOS (Portfolio)
+
+**Título:** **Nuestra Huella: Espacios que Inspiran.**
+
+*Proyecto 1.* **Villa Contemporánea de Lujo (Montería, Colombia)**
+> *Diseño Bioclimático y Estética Limpia.* Una residencia unifamiliar que desafía el trópico. Con sistemas pasivos de refrigeración, grandes ventanales de piso a techo y una integración perfecta entre la piscina y las áreas sociales. Un oasis de calma en la ciudad.
+
+*Proyecto 2.* **Complejo Residencial Multifamiliar (Corozal, Colombia)**
+> *Urbanismo Paramétrico y Sostenibilidad Colectiva.* Un proyecto de 50+ unidades donde el diseño geométrico no solo ofrece una fachada impactante, sino que genera microclimas interiores, reduciendo el gasto energético de los residentes y creando espacios comunitarios óptimos.
+
+*Proyecto 3.* **Villa Mediterránea de Verano (Valencia, España)**
+> *Fusión Cultural y Luz.* Un proyecto internacional que rinde homenaje a la herencia mediterránea. La madera, el mármol y la luz se convierten en los protagonistas de una residencia que difumina los límites entre el interior y el exterior.
+
+*Proyecto 4.* **Remodelación y Ampliación Hotel Ibiza Central (Montería, Colombia)**
+> *Hospitalidad de Alto Nivel.* Control de calidad extremo y respeto por los plazos de entrega. Una remodelación completa que llevó a un hotel tradicional a convertirse en un referente de diseño moderno y confort.
+
+*(Estos textos pueden ser acompañados por las imágenes de renders que tienes actualmente).*
+
+---
+
+### 🔹 SECCIÓN: EL FUNDADOR / SOBRE NOSOTROS
+
+**Título:** **Hernando Carrillo · Fundador & Director Creativo**
+
+**Texto:** Arquitecto y constructor por vocación. Con una titulación en Arquitectura por la Universidad Autónoma del Caribe (Barranquilla, 1982-1988), Hernando ha dedicado su vida a la búsqueda de la excelencia espacial. Su formación no se detuvo en las aulas; ha participado en seminarios internacionales de arquitectura bioclimática, lo que le ha permitido incorporar un enfoque ecológico y de alto rendimiento en todos sus proyectos.
+> 
+> "La arquitectura que no respeta el planeta y que no entiende al ser humano es solo una escultura vacía. En CARQUIDEC, cada línea, cada textura y cada ventana cuentan una historia de eficiencia, confort y belleza."
+
+---
+
+### 🔹 SECCIÓN: NUESTROS SERVICIOS (The Offer)
+
+**Título:** **Del sueño a la realidad. Te acompañamos en cada paso.**
+
+1. **Diseño Arquitectónico Personalizado:** Desde la conceptualización hasta el plano ejecutivo. Diseños adaptados a tu estilo de vida.
+2. **Diseño Interior y Decoración:** Selección de mobiliario, paletas de colores, iluminación artística y acabados de lujo.
+3. **Consultoría Bioclimática y Paramétrica:** Análisis de datos, estudios de asoleamiento y optimización energética para tu proyecto.
+4. **Dirección de Obra y Supervisión:** Garantizamos que lo diseñado se construya con la máxima calidad, en tiempo y forma.
+
+---
+
+### 🔹 SECCIÓN: DATOS MÉTRICOS (Impacto en Números)
+
+*   **+30 Años de Experiencia**
+*   **+50 Proyectos Ejecutados**
+*   **3 Mercados Internacionales** (Colombia, España e Italia)
+*   **100% de Satisfacción del Cliente**
+
+---
+
+### 🔹 SECCIÓN: CONTACTO Y FOOTER
+
+**Título de Contacto:** **Comienza a transformar tu espacio hoy.**
+
+**Copy:** ¿Tienes un proyecto en mente? Ya sea una vivienda unifamiliar, un complejo residencial o una boutique comercial, en CARQUIDEC te ofrecemos una asesoría inicial sin compromiso para explorar las posibilidades de tu espacio.
+
+**Información de Contacto:**
+*   **Teléfono:** +34 612 484 884
+*   **Correo Electrónico:** carqdisantos@gmail.com
+*   **Base de Operaciones:** Barcelona, España (con presencia en Colombia e Italia).
+*   **Redes Sociales:** Instagram / LinkedIn (Aquí puedes enlazar a tus perfiles profesionales).
+
+**Footer Slogan (Masivo):**
+> *"CARQUIDEC: Donde la arquitectura se encuentra con la inteligencia y el diseño se convierte en una experiencia de vida.*
+> *Copyright © 2026 CARQUIDEC · Diseño Paramétrico · Bioclimático · Decoración."*
+
+---
+
+**Indicaciones para tu webmaster:**
+*   La paleta de colores sugerida debe aplicarse en todo el sitio para mantener la coherencia.
+*   Las imágenes que has subido (la del arquitecto, el holograma de datos y la villa con piscina) deben intercalarse en las secciones de *Nuestro ADN*, *Sobre Nosotros* y *Proyectos*, respectivamente.
+*   La tipografía recomendada para el sitio para darle ese toque moderno/tecnológico/arquitectónico es una combinación de una *fuente Sans-Serif moderna* (como Inter, Space Grotesk o Montserrat) para títulos, y una *fuente Monoespaciada* (como JetBrains Mono o Roboto Mono) para textos técnicos o métricas.

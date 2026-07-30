@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hernando Carrillo · DNA Architecture</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    /* ─── RESET & BASE ─── */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    :root {
+      --bg: #0B0F1A;
+      --card: #111827;
+      --card-border: rgba(0, 255, 255, 0.15);
+      --cyan: #00E5FF;
+      --pink: #FF2D95;
+      --purple: #B388FF;
+      --gold: #FFD54F;
+      --glass: rgba(255, 255, 255, 0.03);
+      --text: #E2E8F0;
+      --text-dim: #94A3B8;
+      --font-sans: 'Space Grotesk', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    html,
+    body {
+      background: #05080F;
+      font-family: var(--font-sans);
+      color: var(--text);
+      line-height: 1.5;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+      padding: 16px;
+      font-size: 10px;
+    }
+
+    .cv {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto;
+      background: var(--bg);
+      display: grid;
+      grid-template-columns: 36% 64%;
+      border: 1px solid rgba(0, 255, 255, 0.08);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 0 80px rgba(0, 229, 255, 0.04), inset 0 0 80px rgba(0, 229, 255, 0.02);
+      position: relative;
+    }
+
+    /* ─── ANIMATED GRID OVERLAY ─── */
+    .cv::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(0, 229, 255, 0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 229, 255, 0.02) 1px, transparent 1px);
+      background-size: 24px 24px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* ─── SIDEBAR ─── */
+    .sidebar {
+      background: var(--card);
+      padding: 28px 22px 24px;
+      border-right: 1px solid rgba(0, 255, 255, 0.06);
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    /* Glow line */
+    .sidebar::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: -1px;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(180deg, var(--cyan), var(--pink), var(--purple), var(--cyan));
+      opacity: 0.3;
+      filter: blur(4px);
+    }
+
+    /* ─── LOGO ─── */
+    .logo-wrap {
+      text-align: center;
+      margin-bottom: 4px;
+      position: relative;
+    }
+    .logo-wrap img {
+      max-width: 75%;
+      height: auto;
+      filter: drop-shadow(0 0 20px rgba(0, 229, 255, 0.15));
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* ─── PHOTO / DNA HELIX ─── */
+    .photo-wrap {
+      width: 130px;
+      height: 130px;
+      margin: 0 auto 10px;
+      border-radius: 50%;
+      padding: 3px;
+      background: conic-gradient(from 0deg, var(--cyan), var(--pink), var(--purple), var(--cyan));
+      box-shadow: 0 0 40px rgba(0, 229, 255, 0.2), 0 0 80px rgba(255, 45, 149, 0.08);
+      animation: pulse-glow 4s ease-in-out infinite;
+      position: relative;
+    }
+    @keyframes pulse-glow {
+      0%,
+      100% {
+        box-shadow: 0 0 40px rgba(0, 229, 255, 0.2), 0 0 80px rgba(255, 45, 149, 0.08);
+      }
+      50% {
+        box-shadow: 0 0 60px rgba(0, 229, 255, 0.3), 0 0 100px rgba(255, 45, 149, 0.15);
+      }
+    }
+    .photo {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      overflow: hidden;
+      background: var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid var(--bg);
+    }
+    .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 20%;
+      display: block;
+    }
+    .photo .initials {
+      font-family: var(--font-mono);
+      font-size: 34px;
+      font-weight: 600;
+      color: var(--cyan);
+      opacity: 0.5;
+    }
+
+    .name-title {
+      text-align: center;
+    }
+    .name-title h1 {
+      font-family: var(--font-sans);
+      font-size: 21px;
+      font-weight: 700;
+      line-height: 1.1;
+      background: linear-gradient(135deg, #fff 40%, var(--cyan));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .name-title .sub {
+      font-family: var(--font-mono);
+      font-size: 8px;
+      font-weight: 400;
+      color: var(--cyan);
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-top: 4px;
+      opacity: 0.7;
+    }
+
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--cyan), transparent);
+      opacity: 0.2;
+      margin: 6px 0;
+    }
+
+    /* ─── SIDE SECTIONS ─── */
+    .side-section {
+      margin-top: 2px;
+    }
+    .side-title {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: var(--cyan);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      opacity: 0.8;
+    }
+    .side-title .badge {
+      background: rgba(0, 229, 255, 0.08);
+      padding: 0 8px;
+      border-radius: 4px;
+      font-size: 7px;
+      color: var(--pink);
+      border: 1px solid rgba(255, 45, 149, 0.15);
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 9.5px;
+      color: var(--text-dim);
+      padding: 4px 0;
+      font-family: var(--font-mono);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    }
+    .contact-item:last-child {
+      border-bottom: none;
+    }
+    .contact-item .icon {
+      width: 22px;
+      color: var(--cyan);
+      font-size: 11px;
+      text-align: center;
+      opacity: 0.6;
+    }
+    .contact-item .label {
+      font-size: 6.5px;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      letter-spacing: 0.6px;
+      opacity: 0.5;
+    }
+
+    /* ─── SKILL BARS ─── */
+    .skill-item {
+      margin-bottom: 8px;
+    }
+    .skill-item .top {
+      display: flex;
+      justify-content: space-between;
+      font-size: 8.5px;
+      font-weight: 400;
+      color: var(--text-dim);
+      font-family: var(--font-mono);
+    }
+    .skill-item .top span:last-child {
+      color: var(--cyan);
+      font-weight: 600;
+      font-size: 8px;
+    }
+    .bar {
+      height: 3px;
+      background: rgba(255, 255, 255, 0.04);
+      border-radius: 2px;
+      overflow: hidden;
+      margin-top: 2px;
+      border: 1px solid rgba(0, 229, 255, 0.04);
+    }
+    .fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--cyan), var(--purple));
+      border-radius: 2px;
+      box-shadow: 0 0 12px rgba(0, 229, 255, 0.2);
+      width: 0%;
+    }
+
+    .lang-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 4px 0;
+      font-size: 9px;
+      font-family: var(--font-mono);
+      color: var(--text-dim);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    }
+    .lang-item:last-child {
+      border-bottom: none;
+    }
+    .lang-item .level {
+      color: var(--cyan);
+      font-size: 7.5px;
+      letter-spacing: 0.5px;
+    }
+    .lang-item .level .dot {
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--cyan);
+      margin-left: 2px;
+      box-shadow: 0 0 8px rgba(0, 229, 255, 0.3);
+    }
+
+    .tag-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+    .tag {
+      background: rgba(0, 229, 255, 0.04);
+      border: 1px solid rgba(0, 229, 255, 0.06);
+      padding: 2px 10px;
+      border-radius: 12px;
+      font-size: 7px;
+      font-weight: 400;
+      font-family: var(--font-mono);
+      color: var(--text-dim);
+      letter-spacing: 0.3px;
+      transition: all 0.2s;
+    }
+    .tag:hover {
+      border-color: var(--cyan);
+      color: var(--cyan);
+      box-shadow: 0 0 20px rgba(0, 229, 255, 0.04);
+    }
+
+    /* ─── MAIN ─── */
+    .main {
+      padding: 28px 30px 24px;
+      background: var(--bg);
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ─── HEADER ─── */
+    .header-main {
+      border-bottom: 1px solid rgba(0, 229, 255, 0.08);
+      padding-bottom: 12px;
+      margin-bottom: 20px;
+      position: relative;
+    }
+    .header-main::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      width: 80px;
+      height: 2px;
+      background: linear-gradient(90deg, var(--cyan), var(--pink));
+      filter: blur(1px);
+    }
+    .header-main h2 {
+      font-family: var(--font-sans);
+      font-size: 26px;
+      font-weight: 700;
+      background: linear-gradient(135deg, #fff 30%, var(--cyan));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1;
+    }
+    .header-main .role {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      color: var(--cyan);
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      margin-top: 4px;
+      opacity: 0.7;
+    }
+    .header-main .meta {
+      display: flex;
+      gap: 18px;
+      margin-top: 8px;
+      font-size: 8.5px;
+      font-family: var(--font-mono);
+      color: var(--text-dim);
+    }
+    .header-main .meta strong {
+      color: var(--cyan);
+      font-weight: 600;
+    }
+
+    /* ─── SECTIONS ─── */
+    .section {
+      margin-bottom: 18px;
+    }
+    .section-title {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--cyan);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      opacity: 0.8;
+    }
+    .section-title .line {
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(90deg, rgba(0, 229, 255, 0.15), transparent);
+    }
+    .section-title .code {
+      font-size: 7px;
+      color: var(--pink);
+      background: rgba(255, 45, 149, 0.05);
+      padding: 0 6px;
+      border-radius: 3px;
+      border: 1px solid rgba(255, 45, 149, 0.08);
+    }
+
+    .profile-text {
+      font-size: 10px;
+      line-height: 1.7;
+      color: var(--text-dim);
+      text-align: justify;
+      font-weight: 300;
+      padding-left: 4px;
+      border-left: 2px solid rgba(0, 229, 255, 0.08);
+      padding-left: 14px;
+    }
+    .profile-text strong {
+      color: #fff;
+      font-weight: 500;
+    }
+    .profile-text em {
+      color: var(--cyan);
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    /* ─── STATS (DNA DATA) ─── */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+    .stat {
+      background: var(--card);
+      padding: 10px 4px;
+      border-radius: 8px;
+      text-align: center;
+      border: 1px solid rgba(0, 229, 255, 0.04);
+      position: relative;
+      overflow: hidden;
+    }
+    .stat::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(90deg, var(--cyan), var(--pink));
+      opacity: 0.3;
+    }
+    .stat .number {
+      font-family: var(--font-mono);
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--cyan);
+      line-height: 1;
+      text-shadow: 0 0 30px rgba(0, 229, 255, 0.1);
+    }
+    .stat .label {
+      font-size: 7px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-dim);
+      margin-top: 2px;
+      font-weight: 300;
+    }
+
+    /* ─── TIMELINE ─── */
+    .timeline {
+      position: relative;
+      padding-left: 18px;
+    }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 4px;
+      top: 4px;
+      bottom: 4px;
+      width: 1px;
+      background: linear-gradient(180deg, var(--cyan), var(--purple), var(--pink));
+      opacity: 0.2;
+    }
+    .tl-item {
+      position: relative;
+      margin-bottom: 12px;
+      padding-left: 16px;
+    }
+    .tl-item:last-child {
+      margin-bottom: 0;
+    }
+    .tl-item::before {
+      content: '';
+      position: absolute;
+      left: -16px;
+      top: 5px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--cyan);
+      box-shadow: 0 0 20px rgba(0, 229, 255, 0.2);
+      border: 1px solid var(--bg);
+    }
+    .tl-item .year {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 8px;
+      font-weight: 600;
+      color: var(--pink);
+      letter-spacing: 0.5px;
+      margin-bottom: 2px;
+      background: rgba(255, 45, 149, 0.04);
+      padding: 0 6px;
+      border-radius: 3px;
+      border: 1px solid rgba(255, 45, 149, 0.06);
+    }
+    .tl-item .title {
+      font-family: var(--font-sans);
+      font-size: 10.5px;
+      font-weight: 600;
+      color: #fff;
+      letter-spacing: 0.2px;
+    }
+    .tl-item .location {
+      font-size: 8.5px;
+      color: var(--text-dim);
+      font-family: var(--font-mono);
+      margin-bottom: 2px;
+      opacity: 0.6;
+    }
+    .tl-item .desc {
+      font-size: 9px;
+      color: var(--text-dim);
+      line-height: 1.5;
+      font-weight: 300;
+    }
+    .tl-item .desc strong {
+      color: var(--cyan);
+      font-weight: 400;
+    }
+
+    /* ─── PROJECTS (CARDS) ─── */
+    .project-item {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      gap: 12px;
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    }
+    .project-item:last-child {
+      border-bottom: none;
+    }
+    .project-item .year {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      font-weight: 600;
+      color: var(--cyan);
+      letter-spacing: 0.5px;
+      opacity: 0.7;
+    }
+    .project-item .info .name {
+      font-family: var(--font-sans);
+      font-size: 11px;
+      font-weight: 600;
+      color: #fff;
+    }
+    .project-item .info .location {
+      font-size: 7.5px;
+      font-family: var(--font-mono);
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      opacity: 0.5;
+    }
+    .project-item .info .desc {
+      font-size: 8.5px;
+      color: var(--text-dim);
+      line-height: 1.4;
+      margin-top: 2px;
+      font-weight: 300;
+    }
+
+    /* ─── EDUCATION ─── */
+    .edu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 6px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    }
+    .edu-item:last-child {
+      border-bottom: none;
+    }
+    .edu-item .info .title {
+      font-weight: 500;
+      font-size: 9.5px;
+      color: #fff;
+    }
+    .edu-item .info .place {
+      font-size: 8px;
+      color: var(--text-dim);
+      font-weight: 300;
+    }
+    .edu-item .year {
+      font-family: var(--font-mono);
+      font-size: 7.5px;
+      color: var(--text-dim);
+      white-space: nowrap;
+      opacity: 0.6;
+    }
+
+    /* ─── FOOTER ─── */
+    .footer {
+      margin-top: 20px;
+      padding-top: 10px;
+      border-top: 1px solid rgba(0, 229, 255, 0.04);
+      display: flex;
+      justify-content: space-between;
+      font-family: var(--font-mono);
+      font-size: 7px;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--text-dim);
+      opacity: 0.4;
+    }
+    .footer strong {
+      color: var(--cyan);
+      font-weight: 600;
+    }
+
+    /* ─── RESPONSIVE ─── */
+    @media print {
+      body {
+        background: var(--bg);
+        padding: 0;
+      }
+      .cv {
+        box-shadow: none;
+        border: 1px solid rgba(0, 229, 255, 0.04);
+        border-radius: 0;
+      }
+      .cv::before {
+        display: none;
+      }
+      .sidebar::after {
+        display: none;
+      }
+      .photo-wrap {
+        animation: none;
+      }
+    }
+    @media screen and (max-width: 700px) {
+      .cv {
+        grid-template-columns: 1fr;
+        width: 100%;
+        border-radius: 0;
+      }
+      .sidebar {
+        border-right: none;
+        border-bottom: 1px solid rgba(0, 229, 255, 0.06);
+      }
+      .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .project-item {
+        grid-template-columns: 1fr;
+        gap: 4px;
+      }
+      .header-main h2 {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cv">
+
+    <!-- ===== SIDEBAR ===== -->
+    <aside class="sidebar">
+
+      <!-- Logo -->
+      <div class="logo-wrap">
+        <img src="https://i.ibb.co/0VB8KS2R/gemini-2-5-flash-image-moderniza-logo-y-hazlo-png-fondo-transparente-0.jpg" alt="CARQUIDEC" />
+      </div>
+
+      <!-- Photo / DNA Helix -->
+      <div class="photo-wrap">
+        <div class="photo">
+          <img src="https://image.qwenlm.ai/public_source/f43a05d2-1fa4-43a9-b9aa-575455132421/1f135647f-01d4-42ec-b815-acec5da991c8.png" alt="Hernando Carrillo" />
+        </div>
+      </div>
+
+      <div class="name-title">
+        <h1>Hernando Carrillo</h1>
+        <div class="sub">Architect · Director · CARQUIDEC</div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- Contact -->
+      <div class="side-section">
+        <div class="side-title">Contact <span class="badge">v2.0</span></div>
+        <div class="contact-item">
+          <span class="icon">📱</span>
+          <span><span class="label">Phone</span><br />+34 612 484 884</span>
+        </div>
+        <div class="contact-item">
+          <span class="icon">✉</span>
+          <span><span class="label">Email</span><br />carqdisantos@gmail.com</span>
+        </div>
+        <div class="contact-item">
+          <span class="icon">📍</span>
+          <span><span class="label">Base</span><br />Barcelona, Spain</span>
+        </div>
+        <div class="contact-item">
+          <span class="icon">🌐</span>
+          <span><span class="label">Markets</span><br />CO · ES · IT</span>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <div class="side-section">
+        <div class="side-title">Core DNA <span class="badge">⚡</span></div>
+        <div class="skill-item">
+          <div class="top"><span>Architectural Design</span><span>100%</span></div>
+          <div class="bar"><div class="fill" style="width:100%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="top"><span>Interior Design</span><span>100%</span></div>
+          <div class="bar"><div class="fill" style="width:100%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="top"><span>Construction Management</span><span>95%</span></div>
+          <div class="bar"><div class="fill" style="width:95%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="top"><span>Bioclimatic / Parametric</span><span>90%</span></div>
+          <div class="bar"><div class="fill" style="width:90%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="top"><span>Landscaping + Data</span><span>90%</span></div>
+          <div class="bar"><div class="fill" style="width:90%"></div></div>
+        </div>
+      </div>
+
+      <!-- Languages -->
+      <div class="side-section">
+        <div class="side-title">Languages <span class="badge">🌐</span></div>
+        <div class="lang-item">
+          <span>Spanish</span>
+          <span class="level">Native <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></span>
+        </div>
+        <div class="lang-item">
+          <span>English</span>
+          <span class="level">Professional <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></span>
+        </div>
+      </div>
+
+      <!-- Specialties -->
+      <div class="side-section">
+        <div class="side-title">Specialties <span class="badge">#</span></div>
+        <div class="tag-group">
+          <span class="tag">Contemporary</span>
+          <span class="tag">Parametric</span>
+          <span class="tag">Residential</span>
+          <span class="tag">Commercial</span>
+          <span class="tag">Hospitality</span>
+          <span class="tag">Bioclimatic</span>
+          <span class="tag">Data-driven</span>
+          <span class="tag">Landscaping</span>
+          <span class="tag">Digital Twin</span>
+        </div>
+      </div>
+
+    </aside>
+
+    <!-- ===== MAIN ===== -->
+    <main class="main">
+
+      <!-- Header -->
+      <header class="header-main">
+        <h2>Hernando Carrillo</h2>
+        <div class="role">Architect · Designer · Founder · CARQUIDEC</div>
+        <div class="meta">
+          <span>⏳ <strong>30+</strong> years</span>
+          <span>🌍 <strong>3</strong> markets</span>
+          <span>🏗️ <strong>50+</strong> projects</span>
+          <span>⚡ <strong>100%</strong> client satisfaction</span>
+        </div>
+      </header>
+
+      <!-- Profile -->
+      <section class="section">
+        <div class="section-title">Profile <span class="line"></span><span class="code">// DNA</span></div>
+        <p class="profile-text">
+          <strong>Architectural visionary with 30+ years of hybrid experience</strong> blending design, construction, and digital intelligence. Founder of <strong>CARQUIDEC</strong>, a studio that fuses <em>contemporary aesthetics</em> with <em>bioclimatic efficiency</em> and <em>parametric workflows</em>. Operating across <strong>Colombia, Spain, and Italy</strong>, I lead projects that are not only functional and elegant but also deeply rooted in environmental and cultural intelligence. My approach integrates <strong>generative design, real‑time data, and material innovation</strong> to deliver spaces that perform, adapt, and inspire.
+        </p>
+      </section>
+
+      <!-- Achievements -->
+      <section class="section">
+        <div class="section-title">Metrics <span class="line"></span><span class="code">// data</span></div>
+        <div class="stats-grid">
+          <div class="stat"><div class="number">30+</div><div class="label">Years</div></div>
+          <div class="stat"><div class="number">50+</div><div class="label">Projects</div></div>
+          <div class="stat"><div class="number">3</div><div class="label">Countries</div></div>
+          <div class="stat"><div class="number">∞</div><div class="label">Innovation</div></div>
+        </div>
+      </section>
+
+      <!-- Experience Timeline -->
+      <section class="section">
+        <div class="section-title">Experience <span class="line"></span><span class="code">// timeline</span></div>
+        <div class="timeline">
+
+          <div class="tl-item">
+            <span class="year">2024</span>
+            <div class="title">Multifamily Residential Complex</div>
+            <div class="location">Corozal, Colombia</div>
+            <div class="desc"><strong>Data‑driven architectural design</strong> optimizing circulation, energy performance, and long‑term ROI with parametric modeling.</div>
+          </div>
+
+          <div class="tl-item">
+            <span class="year">2022</span>
+            <div class="title">Luxury Contemporary Residence</div>
+            <div class="location">Montería, Colombia</div>
+            <div class="desc"><strong>Bespoke bioclimatic villa</strong> with passive strategies, premium materials, and integrated interior design.</div>
+          </div>
+
+          <div class="tl-item">
+            <span class="year">2019</span>
+            <div class="title">Mediterranean Summer Villa</div>
+            <div class="location">Valencia, Spain</div>
+            <div class="desc"><strong>International project</strong> merging Mediterranean heritage with modern landscape integration and light‑harvesting systems.</div>
+          </div>
+
+          <div class="tl-item">
+            <span class="year">2018</span>
+            <div class="title">Hotel Ibiza Central Remodeling</div>
+            <div class="location">Montería, Colombia</div>
+            <div class="desc"><strong>Full renovation and expansion</strong> with strict quality control, scheduling, and cross‑team coordination.</div>
+          </div>
+
+          <div class="tl-item">
+            <span class="year">2017</span>
+            <div class="title">Independent Cinema</div>
+            <div class="location">Barranquilla, Colombia</div>
+            <div class="desc"><strong>Cultural infrastructure</strong> with acoustic engineering and immersive lighting design.</div>
+          </div>
+
+          <div class="tl-item">
+            <span class="year">2014</span>
+            <div class="title">Commemorative Fountain & Gardens</div>
+            <div class="location">Universidad del Sinú, Colombia</div>
+            <div class="desc"><strong>Monumental landscaping</strong> integrating hydraulics, sculpture, and environmental art.</div>
+          </div>
+
+          <div class="tl-item">
+            <span class="year">2010</span>
+            <div class="title">Luxury Jewelry Boutique</div>
+            <div class="location">Montería, Colombia</div>
+            <div class="desc"><strong>High‑end retail design</strong> with meticulous lighting, display systems, and premium materiality.</div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Selected Projects (compact) -->
+      <section class="section">
+        <div class="section-title">Selected Projects <span class="line"></span><span class="code">// portfolio</span></div>
+
+        <div class="project-item">
+          <div class="year">2024</div>
+          <div class="info">
+            <div class="name">Multifamily Residential Complex</div>
+            <div class="location">Corozal, Colombia</div>
+            <div class="desc">Parametric design for optimal solar gain, natural ventilation, and community flow.</div>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="year">2022</div>
+          <div class="info">
+            <div class="name">Luxury Contemporary Residence</div>
+            <div class="location">Montería, Colombia</div>
+            <div class="desc">Bioclimatic villa with passive cooling, natural lighting, and custom interiors.</div>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="year">2019</div>
+          <div class="info">
+            <div class="name">Mediterranean Summer Villa</div>
+            <div class="location">Valencia, Spain</div>
+            <div class="desc">Indoor‑outdoor living with integrated landscape and light‑based design.</div>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="year">2018</div>
+          <div class="info">
+            <div class="name">Hotel Ibiza Central Remodeling</div>
+            <div class="location">Montería, Colombia</div>
+            <div class="desc">Complete renovation with strict quality and timeline management.</div>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="year">2017</div>
+          <div class="info">
+            <div class="name">Independent Cinema</div>
+            <div class="location">Barranquilla, Colombia</div>
+            <div class="desc">Acoustic and lighting design for an immersive cultural space.</div>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="year">2010</div>
+          <div class="info">
+            <div class="name">Luxury Jewelry Boutique</div>
+            <div class="location">Montería, Colombia</div>
+            <div class="desc">Retail design with premium materials and lighting experience.</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section class="section">
+        <div class="section-title">Education <span class="line"></span><span class="code">// academic</span></div>
+        <div class="edu-item">
+          <div class="info">
+            <div class="title">Degree in Architecture</div>
+            <div class="place">Universidad Autónoma del Caribe, Barranquilla</div>
+          </div>
+          <div class="year">1982 – 1988</div>
+        </div>
+        <div class="edu-item">
+          <div class="info">
+            <div class="title">Bioclimatic Architecture Seminar</div>
+            <div class="place">Convention Center, Montería, Colombia</div>
+          </div>
+          <div class="year">2005</div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <span>Hernando Carrillo</span>
+        <span><strong>CARQUIDEC</strong> · Architecture & Interior Design</span>
+        <span>carqdisantos@gmail.com</span>
+      </footer>
+
+    </main>
+
+  </div>
+
+</body>
+</html>

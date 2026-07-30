@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hernando Carrillo · Architect · CARQUIDEC</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    /* ——— RESET & BASE ——— */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    :root {
+      --paper: #F8F8F6;
+      --ink: #1E1E1E;
+      --gold: #B8954A;
+      --gray: #A7A7A7;
+      --light-gray: #E5E5E5;
+      --white: #FFFFFF;
+      --shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+    }
+
+    html,
+    body {
+      background: #e8e8e8;
+      font-family: 'Inter', sans-serif;
+      color: var(--ink);
+      line-height: 1.5;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+      padding: 20px;
+      font-size: 9.5px;
+    }
+
+    .cv {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto;
+      background: var(--paper);
+      display: grid;
+      grid-template-columns: 32% 68%;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      border-radius: 4px;
+    }
+
+    /* ===== SIDEBAR ===== */
+    .sidebar {
+      background: var(--white);
+      padding: 32px 22px 28px;
+      border-right: 1px solid var(--light-gray);
+    }
+
+    /* Logo */
+    .logo-wrap {
+      text-align: center;
+      margin-bottom: 16px;
+    }
+    .logo-wrap img {
+      max-width: 75%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Photo circle */
+    .photo-wrap {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto 12px;
+      border-radius: 50%;
+      padding: 4px;
+      background: var(--gold);
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+    }
+    .photo {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      overflow: hidden;
+      background: var(--paper);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 20%;
+      display: block;
+    }
+    .photo .initials {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 40px;
+      font-weight: 600;
+      color: var(--gold);
+    }
+
+    .name-title {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .name-title h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.1;
+      color: var(--ink);
+    }
+    .name-title .sub {
+      font-size: 9px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--gold);
+      margin-top: 4px;
+    }
+
+    .divider {
+      height: 1px;
+      background: var(--light-gray);
+      margin: 16px 0;
+    }
+
+    .side-section {
+      margin-bottom: 18px;
+    }
+    .side-title {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.8px;
+      color: var(--ink);
+      margin-bottom: 10px;
+      border-bottom: 1px solid var(--light-gray);
+      padding-bottom: 4px;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 9.5px;
+      color: #444;
+      padding: 4px 0;
+    }
+    .contact-item .icon {
+      width: 20px;
+      color: var(--gold);
+      font-size: 12px;
+      text-align: center;
+    }
+    .contact-item .label {
+      font-size: 7px;
+      text-transform: uppercase;
+      color: var(--gray);
+      letter-spacing: 0.5px;
+    }
+
+    .skill-item {
+      margin-bottom: 6px;
+    }
+    .skill-item .top {
+      display: flex;
+      justify-content: space-between;
+      font-size: 9px;
+      font-weight: 500;
+      color: #333;
+    }
+    .skill-item .top span:last-child {
+      color: var(--gold);
+      font-weight: 600;
+    }
+    .bar {
+      height: 3px;
+      background: var(--light-gray);
+      border-radius: 2px;
+      overflow: hidden;
+      margin-top: 2px;
+    }
+    .fill {
+      height: 100%;
+      background: var(--gold);
+      border-radius: 2px;
+    }
+
+    .lang-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 4px 0;
+      font-size: 9.5px;
+      border-bottom: 1px solid var(--light-gray);
+    }
+    .lang-item:last-child {
+      border-bottom: none;
+    }
+    .lang-item .level {
+      color: var(--gray);
+      font-style: italic;
+    }
+
+    .tag-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+    .tag {
+      background: var(--light-gray);
+      padding: 2px 10px;
+      border-radius: 12px;
+      font-size: 7.5px;
+      font-weight: 600;
+      color: #555;
+      letter-spacing: 0.3px;
+    }
+
+    /* ===== MAIN ===== */
+    .main {
+      padding: 32px 30px 28px;
+      background: var(--paper);
+    }
+
+    .header-main {
+      border-bottom: 2px solid var(--ink);
+      padding-bottom: 12px;
+      margin-bottom: 20px;
+    }
+    .header-main h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--ink);
+      line-height: 1;
+    }
+    .header-main .role {
+      font-size: 9.5px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--gold);
+      margin-top: 4px;
+    }
+    .header-main .meta {
+      display: flex;
+      gap: 16px;
+      margin-top: 8px;
+      font-size: 8.5px;
+      color: var(--gray);
+    }
+    .header-main .meta strong {
+      color: var(--ink);
+      font-weight: 700;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+    .section-title {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--ink);
+      margin-bottom: 10px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid var(--light-gray);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .section-title::before {
+      content: '';
+      display: inline-block;
+      width: 14px;
+      height: 1px;
+      background: var(--gold);
+    }
+
+    .profile-text {
+      font-size: 10px;
+      line-height: 1.7;
+      color: #444;
+      text-align: justify;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+    .stat {
+      background: var(--white);
+      padding: 8px 4px;
+      border-radius: 4px;
+      text-align: center;
+      border-top: 2px solid var(--gold);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    }
+    .stat .number {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--ink);
+      line-height: 1;
+    }
+    .stat .label {
+      font-size: 7px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--gray);
+      margin-top: 2px;
+    }
+
+    .exp-item {
+      margin-bottom: 14px;
+    }
+    .exp-item .title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--ink);
+    }
+    .exp-item .company {
+      font-size: 9.5px;
+      font-weight: 600;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+    }
+    .exp-item .date {
+      font-size: 8.5px;
+      color: var(--gray);
+      font-style: italic;
+    }
+    .exp-item .desc {
+      font-size: 9px;
+      color: #555;
+      line-height: 1.5;
+      margin-top: 4px;
+      text-align: justify;
+    }
+
+    .project-item {
+      display: grid;
+      grid-template-columns: 1fr 2.5fr;
+      gap: 12px;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--light-gray);
+    }
+    .project-item:last-child {
+      border-bottom: none;
+    }
+    .project-item .year {
+      font-size: 9px;
+      font-weight: 700;
+      color: var(--gold);
+      letter-spacing: 0.8px;
+    }
+    .project-item .info .name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--ink);
+    }
+    .project-item .info .location {
+      font-size: 8px;
+      color: var(--gray);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .project-item .info .desc {
+      font-size: 8.5px;
+      color: #555;
+      line-height: 1.4;
+      margin-top: 3px;
+    }
+
+    .edu-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 6px 0;
+      border-bottom: 1px solid var(--light-gray);
+    }
+    .edu-item:last-child {
+      border-bottom: none;
+    }
+    .edu-item .title {
+      font-weight: 600;
+      font-size: 9.5px;
+      color: var(--ink);
+    }
+    .edu-item .place {
+      font-size: 8.5px;
+      color: var(--gray);
+      font-style: italic;
+    }
+    .edu-item .year {
+      font-size: 8px;
+      color: var(--gray);
+      white-space: nowrap;
+    }
+
+    .footer {
+      margin-top: 24px;
+      padding-top: 12px;
+      border-top: 1px solid var(--ink);
+      display: flex;
+      justify-content: space-between;
+      font-size: 7.5px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--gray);
+    }
+
+    @media print {
+      body {
+        background: #fff;
+        padding: 0;
+      }
+      .cv {
+        box-shadow: none;
+        border-radius: 0;
+      }
+    }
+    @media screen and (max-width: 700px) {
+      .cv {
+        grid-template-columns: 1fr;
+        width: 100%;
+      }
+      .sidebar {
+        border-right: none;
+        border-bottom: 1px solid var(--light-gray);
+      }
+      .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .project-item {
+        grid-template-columns: 1fr;
+        gap: 4px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cv">
+
+    <!-- ===== SIDEBAR ===== -->
+    <aside class="sidebar">
+
+      <!-- Logo -->
+      <div class="logo-wrap">
+        <img src="https://i.ibb.co/0VB8KS2R/gemini-2-5-flash-image-moderniza-logo-y-hazlo-png-fondo-transparente-0.jpg" alt="CARQUIDEC" />
+      </div>
+
+      <!-- Photo -->
+      <div class="photo-wrap">
+        <div class="photo">
+          <img src="https://image.qwenlm.ai/public_source/f43a05d2-1fa4-43a9-b9aa-575455132421/1f135647f-01d4-42ec-b815-acec5da991c8.png" alt="Hernando Carrillo" />
+        </div>
+      </div>
+
+      <div class="name-title">
+        <h1>Hernando Carrillo Sánchez</h1>
+        <div class="sub">Architect · Director · Founder</div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- Contact -->
+      <div class="side-section">
+        <div class="side-title">Contact</div>
+        <div class="contact-item">
+          <span class="icon">📱</span>
+          <span><span class="label">Phone</span><br />+34 612 484 884</span>
+        </div>
+        <div class="contact-item">
+          <span class="icon">✉</span>
+          <span><span class="label">Email</span><br />carqdisantos@gmail.com</span>
+        </div>
+        <div class="contact-item">
+          <span class="icon">📍</span>
+          <span><span class="label">Location</span><br />Barcelona, Spain</span>
+        </div>
+        <div class="contact-item">
+          <span class="icon">🌐</span>
+          <span><span class="label">Markets</span><br />Colombia · Spain · Italy</span>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <div class="side-section">
+        <div class="side-title">Expertise</div>
+        <div class="skill-item">
+          <div class="top"><span>Architectural Design</span><span>100%</span></div>
+          <div class="bar"><div class="fill" style="width:100%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="top"><span>Interior Design</span><span>100%</span></div>
+          <div class="bar"><div class="fill" style="width:100%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="top"><span>Construction Management</span><span>95%</span></div>
+          <div class="bar"><div class="fill" style="width:95%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="top"><span>Bioclimatic Architecture</span><span>90%</span></div>
+          <div class="bar"><div class="fill" style="width:90%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="top"><span>Landscaping</span><span>90%</span></div>
+          <div class="bar"><div class="fill" style="width:90%"></div></div>
+        </div>
+      </div>
+
+      <!-- Languages -->
+      <div class="side-section">
+        <div class="side-title">Languages</div>
+        <div class="lang-item">
+          <span>Spanish</span>
+          <span class="level">Native</span>
+        </div>
+        <div class="lang-item">
+          <span>English</span>
+          <span class="level">Professional</span>
+        </div>
+      </div>
+
+      <!-- Specialties -->
+      <div class="side-section">
+        <div class="side-title">Specialties</div>
+        <div class="tag-group">
+          <span class="tag">Contemporary</span>
+          <span class="tag">Modern</span>
+          <span class="tag">Residential</span>
+          <span class="tag">Commercial</span>
+          <span class="tag">Hospitality</span>
+          <span class="tag">Bioclimatic</span>
+          <span class="tag">Sustainable</span>
+          <span class="tag">Landscaping</span>
+        </div>
+      </div>
+
+    </aside>
+
+    <!-- ===== MAIN ===== -->
+    <main class="main">
+
+      <!-- Header -->
+      <header class="header-main">
+        <h2>Hernando Carrillo Sánchez</h2>
+        <div class="role">Architect · Interior Designer · Founder of CARQUIDEC</div>
+        <div class="meta">
+          <span>📅 <strong>30+ years</strong> experience</span>
+          <span>🌍 <strong>3 countries</strong></span>
+          <span>✦ <strong>50+</strong> projects</span>
+        </div>
+      </header>
+
+      <!-- Profile -->
+      <section class="section">
+        <div class="section-title">Profile</div>
+        <p class="profile-text">
+          <strong>Comprehensive architect with over 30 years of experience</strong> in high‑end residential, commercial, and hospitality projects across Colombia, Spain, and Italy. Founder of <strong>CARQUIDEC</strong>, a studio with more than 20 years of legacy, specializing in <strong>contemporary architecture, premium interior design, and integrated project delivery</strong>. Known for transforming complex visions into elegant, functional spaces through a multidisciplinary approach that combines architecture, engineering, and landscape design.
+        </p>
+      </section>
+
+      <!-- Achievements -->
+      <section class="section">
+        <div class="section-title">Key Achievements</div>
+        <div class="stats-grid">
+          <div class="stat"><div class="number">30+</div><div class="label">Years</div></div>
+          <div class="stat"><div class="number">50+</div><div class="label">Projects</div></div>
+          <div class="stat"><div class="number">3</div><div class="label">Countries</div></div>
+          <div class="stat"><div class="number">100%</div><div class="label">Client Satisfaction</div></div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section class="section">
+        <div class="section-title">Experience</div>
+
+        <div class="exp-item">
+          <div class="title">Founder & Creative Director</div>
+          <div class="company">CARQUIDEC — Architecture & Interior Design</div>
+          <div class="date">2004 – Present · Colombia · Spain · Italy</div>
+          <div class="desc">
+            Principal architect leading a studio focused on premium residential, hospitality, and commercial architecture. Managing complete project lifecycles from feasibility to final delivery, with a strong emphasis on design excellence, construction quality, and client satisfaction.
+          </div>
+        </div>
+
+        <div class="exp-item">
+          <div class="title">Senior Architect · Construction Director</div>
+          <div class="company">Independent Projects · Colombia / Spain</div>
+          <div class="date">1995 – 2004</div>
+          <div class="desc">
+            Development of large‑scale architectural projects, coordination of contractors, technical supervision, and quality assurance. Specialized in luxury single‑family homes and mixed‑use buildings.
+          </div>
+        </div>
+      </section>
+
+      <!-- Selected Projects -->
+      <section class="section">
+        <div class="section-title">Selected Projects</div>
+
+        <div class="project-item">
+          <div class="year">2024</div>
+          <div class="info">
+            <div class="name">Multifamily Residential Complex</div>
+            <div class="location">Corozal, Colombia</div>
+            <div class="desc">Complete architectural design with focus on efficient circulation, environmental performance, and long‑term value.</div>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="year">2022</div>
+          <div class="info">
+            <div class="name">Luxury Contemporary Residence</div>
+            <div class="location">Montería, Colombia</div>
+            <div class="desc">Bespoke residence integrating passive climate strategies, premium materials, natural lighting, and custom interiors.</div>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="year">2019</div>
+          <div class="info">
+            <div class="name">Mediterranean Vacation Villa</div>
+            <div class="location">Valencia, Spain</div>
+            <div class="desc">International project inspired by Mediterranean architecture, maximizing light, landscape integration, and indoor‑outdoor living.</div>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="year">2018</div>
+          <div class="info">
+            <div class="name">Hotel Renovation & Expansion</div>
+            <div class="location">Montería, Colombia</div>
+            <div class="desc">Full architectural renovation, construction supervision, contractor coordination, and quality management.</div>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="year">2017</div>
+          <div class="info">
+            <div class="name">Independent Cinema</div>
+            <div class="location">Barranquilla, Colombia</div>
+            <div class="desc">Designed and managed construction of a cultural cinema with acoustic engineering and immersive lighting.</div>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="year">2010</div>
+          <div class="info">
+            <div class="name">Luxury Jewelry Boutique</div>
+            <div class="location">Montería, Colombia</div>
+            <div class="desc">Complete architectural and interior design for a premium Italian jewelry showroom focusing on luxury retail experience.</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section class="section">
+        <div class="section-title">Education</div>
+        <div class="edu-item">
+          <div>
+            <div class="title">Degree in Architecture</div>
+            <div class="place">Universidad Autónoma del Caribe, Barranquilla</div>
+          </div>
+          <div class="year">1982 – 1988</div>
+        </div>
+        <div class="edu-item">
+          <div>
+            <div class="title">Bioclimatic Architecture Seminar</div>
+            <div class="place">Convention Center, Montería, Colombia</div>
+          </div>
+          <div class="year">2005</div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <span>Hernando Carrillo Sánchez</span>
+        <span>CARQUIDEC · Architecture & Interior Design</span>
+        <span>carqdisantos@gmail.com</span>
+      </footer>
+
+    </main>
+
+  </div>
+
+</body>
+</html>

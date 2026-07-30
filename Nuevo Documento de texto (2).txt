@@ -1,0 +1,7 @@
+ en esta carpeta mesmo organiza los archivos acaba de finalizar la web completa con fotos de varias zonas de las casas,
+corrige el html de cv que hay una foto de un grisaseo de azul y el chico es el moreno y la foto esta doble. corrige la
+web que pone belentani  cosas de musica. busca generar fotos parecidas conservicio online., upscale en ellas. intenta
+crear efecto parallax, gsap google ux ui, negro moderno. que se construye mientra se hace scroll una web completivsima
+premium maximo esfuerzo lee toda la carpeta. usa winget tools si hace falta corrige colores estudia harmonia de color y
+visual equilibrio guarda la info que estudiaste en la carpeta desarolla lore de la marcañ
+Initializing agent...
