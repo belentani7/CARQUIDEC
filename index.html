@@ -3,27 +3,27 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CARQUIDEC — Arquitectura & Decoracion de Interiores | Barcelona, Espana</title>
-<meta name="description" content="Estudio de arquitectura y decoracion de interiores de lujo. 30+ anios de experiencia en residencias, hoteles y locales comerciales en Colombia, Espana e Italia. Contacto: +34 612 484 854">
-<meta name="keywords" content="arquitectura lujo, decoracion interiores, diseno residencial, Barcelona, Colombia, Espana">
-<meta property="og:title" content="CARQUIDEC — Alta Arquitectura & Diseno de Interiores">
-<meta property="og:description" content="Donde los suenos cobran vida. Mas de 30 anios materializando residencias de lujo, desarrollos comerciales y hoteleria de alta gama.">
+<title>CARQUIDEC — Alta Arquitectura & Diseno de Interiores | Barcelona, Espana</title>
+<meta name="description" content="Estudio de arquitectura de lujo fundado por Hernando Carrillo. 35+ anios creando residencias exclusivas, hoteles boutique y espacios comerciales en Colombia, Espana e Italia. Donde el deseo se convierte en piedra.">
+<meta name="keywords" content="arquitectura lujo, decoracion interiores, diseno residencial exclusivo, Barcelona, Colombia, Espana, Hernando Carrillo">
+<meta property="og:title" content="CARQUIDEC — Donde el Deseo se Convierte en Piedra">
+<meta property="og:description" content="No disenamos edificios. Creamos obsesiones espaciales. 35+ anios transformando aspiraciones en arquitectura que trasciende generaciones.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="20260730222718545141.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="CARQUIDEC — Arquitectura & Decoracion">
-<meta name="twitter:description" content="Alta arquitectura y diseno de interiores. Residencias de lujo, hoteles y comercios.">
+<meta name="twitter:title" content="CARQUIDEC — Arquitectura que Obsesiona">
+<meta name="twitter:description" content="El lujo no se declara, se siente. Hernando Carrillo — 35+ anios de excelencia espacial.">
 <meta name="twitter:image" content="20260730222718545141.jpg">
 <link rel="canonical" href="https://carquidec.com/">
 <link rel="icon" type="image/png" href="logo-carquidec-transparent.png">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"LocalBusiness","name":"CARQUIDEC","description":"Estudio de arquitectura y decoracion de interiores de lujo","image":"20260730222718545141.jpg","telephone":"+34612484854","email":"carodisantos@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Barcelona","addressCountry":"ES"},"founder":{"@type":"Person","name":"Hernando Carrillo"},"areaServed":["Colombia","Espana","Italia"],"priceRange":"$$$$"}
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"CARQUIDEC","description":"Estudio de arquitectura de lujo y decoracion de interiores exclusivos","image":"20260730222718545141.jpg","telephone":"+34612484854","email":"carodisantos@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Barcelona","addressCountry":"ES"},"founder":{"@type":"Person","name":"Hernando Carrillo","jobTitle":"Arquitecto Fundador"},"areaServed":["Colombia","Espana","Italia"],"priceRange":"$$$$","foundingDate":"2020"}
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
-:root{--bg:#0a0a0a;--s:#111;--t:#f5f5f5;--td:#777;--ac:#c9c9c9;--font-d:'Cormorant Garamond',serif;--font-b:'Space Grotesk',sans-serif}
+:root{--bg:#0a0a0a;--s:#111;--t:#f5f5f5;--td:#777;--ac:#c9c9c9;--gold:#b8a88a;--gold-dim:rgba(184,168,138,0.15);--font-d:'Cormorant Garamond',serif;--font-b:'Space Grotesk',sans-serif}
 html{background:var(--bg);scroll-snap-type:y mandatory;scroll-behavior:smooth}
 body{font-family:var(--font-b);background:var(--bg);color:var(--t);overflow-x:hidden;-webkit-font-smoothing:antialiased}
 
@@ -31,6 +31,14 @@ body{font-family:var(--font-b);background:var(--bg);color:var(--t);overflow-x:hi
 .slide{min-height:100vh;min-height:100dvh;scroll-snap-align:start;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;padding:80px 48px}
 .slide-dark{background:var(--bg)}
 .slide-surface{background:var(--s)}
+
+/* GRAIN OVERLAY */
+body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;opacity:0.03;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+/* CUSTOM CURSOR */
+.cursor{position:fixed;width:36px;height:36px;border:1px solid rgba(184,168,138,0.4);border-radius:50%;pointer-events:none;z-index:9999;transition:transform .15s ease,opacity .15s ease,mix-blend-mode .15s ease;mix-blend-mode:difference}
+.cursor-dot{position:fixed;width:4px;height:4px;background:var(--gold);border-radius:50%;pointer-events:none;z-index:9999;box-shadow:0 0 10px var(--gold)}
+@media(max-width:768px){.cursor,.cursor-dot{display:none}}
 
 /* LOADER */
 .loader{position:fixed;inset:0;z-index:9999;background:var(--bg);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:24px}
@@ -70,54 +78,75 @@ body{font-family:var(--font-b);background:var(--bg);color:var(--t);overflow-x:hi
 .slide-full-content{position:relative;z-index:2;padding:80px 64px;max-width:900px}
 
 /* TYPOGRAPHY */
-.label{font-size:9px;letter-spacing:0.4em;text-transform:uppercase;color:var(--ac);margin-bottom:16px}
+.label{font-size:9px;letter-spacing:0.4em;text-transform:uppercase;color:var(--gold);margin-bottom:16px}
 .heading{font-family:var(--font-d);font-size:clamp(2rem,5vw,4rem);font-weight:300;line-height:1.1;margin-bottom:24px}
-.heading em{font-style:italic;color:var(--ac)}
-.subheading{font-family:var(--font-d);font-size:clamp(1.2rem,2.5vw,1.8rem);font-weight:300;line-height:1.3;margin-bottom:20px;color:var(--ac)}
+.heading em{font-style:italic;color:var(--gold)}
+.subheading{font-family:var(--font-d);font-size:clamp(1.2rem,2.5vw,1.8rem);font-weight:300;line-height:1.3;margin-bottom:20px;color:var(--gold)}
 .body{font-size:14px;color:var(--td);line-height:1.9;max-width:600px;margin-bottom:20px}
 .body strong{color:var(--t);font-weight:500}
 .body-large{font-size:16px;max-width:650px}
-.quote{font-family:var(--font-d);font-size:clamp(1.3rem,2.5vw,1.8rem);font-weight:300;font-style:italic;line-height:1.6;margin-bottom:20px;padding-left:24px;border-left:2px solid var(--ac)}
+.quote{font-family:var(--font-d);font-size:clamp(1.3rem,2.5vw,1.8rem);font-weight:300;font-style:italic;line-height:1.6;margin-bottom:20px;padding-left:24px;border-left:2px solid var(--gold)}
 
 /* BUTTONS */
 .btn{padding:12px 28px;font-family:var(--font-b);font-size:10px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;text-decoration:none;border:none;cursor:pointer;transition:all .3s;display:inline-block}
-.btn-p{background:var(--ac);color:var(--bg)}.btn-p:hover{background:#fff}
-.btn-o{background:transparent;color:var(--t);border:1px solid rgba(255,255,255,0.15)}.btn-o:hover{border-color:var(--ac);color:var(--ac)}
+.btn-p{background:var(--gold);color:var(--bg)}.btn-p:hover{background:#fff}
+.btn-o{background:transparent;color:var(--t);border:1px solid rgba(255,255,255,0.15)}.btn-o:hover{border-color:var(--gold);color:var(--gold)}
 .btns{display:flex;gap:12px;margin-top:32px;flex-wrap:wrap}
 
 /* STATS ROW */
 .stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;width:100%}
 .stat-item{background:rgba(255,255,255,0.02);padding:48px 24px;text-align:center;border:1px solid rgba(255,255,255,0.03)}
-.stat-num{font-family:var(--font-d);font-size:clamp(2rem,4vw,3rem);font-weight:300;color:var(--ac);margin-bottom:8px}
+.stat-num{font-family:var(--font-d);font-size:clamp(2rem,4vw,3rem);font-weight:300;color:var(--gold);margin-bottom:8px}
 .stat-label{font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:var(--td)}
 
 /* GRID 3 COLS */
 .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;width:100%}
-.grid-item{background:rgba(255,255,255,0.02);padding:48px 32px;border:1px solid rgba(255,255,255,0.03)}
-.grid-num{font-family:var(--font-d);font-size:32px;font-weight:300;color:rgba(200,200,200,0.1);margin-bottom:12px}
+.grid-item{background:rgba(255,255,255,0.02);padding:48px 32px;border:1px solid rgba(255,255,255,0.03);transition:background .4s,border-color .4s}
+.grid-item:hover{background:rgba(184,168,138,0.03);border-color:rgba(184,168,138,0.1)}
+.grid-num{font-family:var(--font-d);font-size:32px;font-weight:300;color:rgba(184,168,138,0.15);margin-bottom:12px}
 .grid-title{font-family:var(--font-d);font-size:18px;margin-bottom:8px}
 .grid-desc{font-size:12px;color:var(--td);line-height:1.7}
 
 /* GRID 4 COLS */
 .grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;width:100%}
 
+/* GALLERY GRID */
+.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;width:100%}
+.gallery-item{position:relative;overflow:hidden;aspect-ratio:4/3}
+.gallery-item img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.16,1,.3,1)}
+.gallery-item:hover img{transform:scale(1.05)}
+.gallery-item::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 50%,rgba(10,10,10,0.7) 100%);opacity:0;transition:opacity .4s}
+.gallery-item:hover::after{opacity:1}
+.gallery-label{position:absolute;bottom:16px;left:16px;z-index:2;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:var(--ac);opacity:0;transition:opacity .4s}
+.gallery-item:hover .gallery-label{opacity:1}
+
 /* IMAGE FULL */
 .img-full{width:100%;height:100vh;min-height:100dvh;object-fit:cover;display:block}
 
+/* TIMELINE */
+.timeline{position:relative;padding-left:40px}
+.timeline::before{content:"";position:absolute;left:0;top:0;bottom:0;width:1px;background:linear-gradient(180deg,transparent,var(--gold-dim),transparent)}
+.timeline-item{position:relative;margin-bottom:60px}
+.timeline-item::before{content:"";position:absolute;left:-44px;top:8px;width:8px;height:8px;border-radius:50%;background:var(--gold);box-shadow:0 0 20px rgba(184,168,138,0.3)}
+.timeline-year{font-family:var(--font-d);font-size:32px;font-weight:300;color:var(--gold);margin-bottom:8px}
+.timeline-title{font-family:var(--font-d);font-size:18px;margin-bottom:8px}
+.timeline-desc{font-size:12px;color:var(--td);line-height:1.7;max-width:500px}
+
 /* CONTACT */
 .contact-row{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;width:100%}
-.contact-box{background:rgba(255,255,255,0.02);padding:36px;border:1px solid rgba(255,255,255,0.03);text-align:center}
+.contact-box{background:rgba(255,255,255,0.02);padding:36px;border:1px solid rgba(255,255,255,0.03);text-align:center;transition:border-color .3s}
+.contact-box:hover{border-color:rgba(184,168,138,0.2)}
 .contact-lbl{font-size:9px;letter-spacing:0.2em;text-transform:uppercase;color:var(--td);margin-bottom:8px}
 .contact-val{font-size:14px;color:var(--t)}
-.contact-val a{color:var(--ac);text-decoration:none;transition:color .3s}
+.contact-val a{color:var(--gold);text-decoration:none;transition:color .3s}
 .contact-val a:hover{color:#fff}
 
 /* FOOTER */
 .footer{padding:40px 48px;border-top:1px solid rgba(255,255,255,0.04);display:flex;align-items:center;justify-content:space-between}
-.footer-brand{font-family:var(--font-d);font-size:12px;letter-spacing:0.15em;text-transform:uppercase;color:var(--ac)}
+.footer-brand{font-family:var(--font-d);font-size:12px;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold)}
 .footer-links{display:flex;gap:16px}
 .footer-links a{font-size:10px;color:var(--td);text-decoration:none;transition:color .3s}
-.footer-links a:hover{color:var(--ac)}
+.footer-links a:hover{color:var(--gold)}
 .footer-copy{font-size:9px;color:var(--td)}
 
 /* REVEAL */
@@ -129,7 +158,10 @@ body{font-family:var(--font-b);background:var(--bg);color:var(--t);overflow-x:hi
 /* SLIDE INDICATOR */
 .slide-indicator{position:fixed;right:24px;top:50%;transform:translateY(-50%);z-index:100;display:flex;flex-direction:column;gap:8px}
 .slide-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,0.15);cursor:pointer;transition:all .3s}
-.slide-dot.active{background:var(--ac);transform:scale(1.3)}
+.slide-dot.active{background:var(--gold);transform:scale(1.3)}
+
+/* DIVIDER */
+.divider{width:60px;height:1px;background:var(--gold);margin:40px 0}
 
 @media(max-width:768px){
 .nav{padding:12px 20px}.nav-links{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(10,10,10,0.95);flex-direction:column;align-items:center;justify-content:center;gap:32px;z-index:100}
@@ -141,13 +173,17 @@ body{font-family:var(--font-b);background:var(--bg);color:var(--t);overflow-x:hi
 .slide-split>.slide-img{height:50vh}
 .slide-split>.slide-text{padding:40px 20px}
 .slide-full-content{padding:60px 20px}
-.grid-3,.grid-4,.stats-row,.contact-row{grid-template-columns:1fr}
+.grid-3,.grid-4,.stats-row,.contact-row,.gallery-grid{grid-template-columns:1fr}
 .footer{flex-direction:column;gap:16px;text-align:center}
 .slide-indicator{display:none}
 }
 </style>
 </head>
 <body>
+
+<!-- CUSTOM CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-dot" id="cursorDot"></div>
 
 <!-- LOADER -->
 <div class="loader">
@@ -167,12 +203,12 @@ body{font-family:var(--font-b);background:var(--bg);color:var(--t);overflow-x:hi
 <nav class="nav">
 <div class="nav-logo">Carquidec</div>
 <div class="nav-links">
-<a href="#s1" data-es="Inicio" data-en="Home">Inicio</a>
-<a href="#s3" data-es="Filosofia" data-en="Philosophy">Filosofia</a>
-<a href="#s6" data-es="Proyectos" data-en="Projects">Proyectos</a>
-<a href="#s9" data-es="Servicios" data-en="Services">Servicios</a>
-<a href="#s12" data-es="Contacto" data-en="Contact">Contacto</a>
-<a href="#s12" class="nav-cta" data-es="Contactar" data-en="Contact">Contactar</a>
+<a href="#s1" data-es="Inicio" data-en="Home" data-ca="Inici" data-fr="Accueil">Inicio</a>
+<a href="#s3" data-es="Filosofia" data-en="Philosophy" data-ca="Filosofia" data-fr="Philosophie">Filosofia</a>
+<a href="#s6" data-es="Proyectos" data-en="Projects" data-ca="Projectes" data-fr="Projets">Proyectos</a>
+<a href="#s9" data-es="Servicios" data-en="Services" data-ca="Serveis" data-fr="Services">Servicios</a>
+<a href="#s12" data-es="Contacto" data-en="Contact" data-ca="Contacte" data-fr="Contact">Contacto</a>
+<a href="#s12" class="nav-cta" data-es="Contactar" data-en="Contact" data-ca="Contactar" data-fr="Contacter">Contactar</a>
 </div>
 </nav>
 <div class="lang-bar">
@@ -183,10 +219,10 @@ body{font-family:var(--font-b);background:var(--bg);color:var(--t);overflow-x:hi
 </div>
 
 <!-- SCROLL TO TOP -->
-<button id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" style="position:fixed;bottom:24px;right:24px;z-index:100;width:48px;height:48px;background:rgba(10,10,10,0.85);border:1px solid rgba(255,255,255,0.1);color:#c9c9c9;font-size:20px;cursor:pointer;opacity:0;transition:opacity .3s;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(10px)">↑</button>
+<button id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" style="position:fixed;bottom:24px;right:24px;z-index:100;width:48px;height:48px;background:rgba(10,10,10,0.85);border:1px solid rgba(184,168,138,0.2);color:#b8a88a;font-size:20px;cursor:pointer;opacity:0;transition:opacity .3s;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(10px)">↑</button>
 
 <!-- MOBILE MENU -->
-<button id="menuToggle" onclick="document.querySelector('.nav-links').classList.toggle('show')" style="display:none;position:fixed;top:16px;left:20px;z-index:101;background:none;border:none;color:#c9c9c9;font-size:24px;cursor:pointer">☰</button>
+<button id="menuToggle" onclick="document.querySelector('.nav-links').classList.toggle('show')" style="display:none;position:fixed;top:16px;left:20px;z-index:101;background:none;border:none;color:#b8a88a;font-size:24px;cursor:pointer">☰</button>
 
 <!-- SLIDE INDICATOR -->
 <div class="slide-indicator" id="slideIndicator"></div>
@@ -206,57 +242,58 @@ body{font-family:var(--font-b);background:var(--bg);color:var(--t);overflow-x:hi
 </div>
 </div>
 </div>
-<div class="label rv" data-es="Colombia · Espana · Italia" data-en="Colombia · Spain · Italy">Colombia · Espana · Italia</div>
-<h1 class="heading rv" style="font-size:clamp(3rem,8vw,6rem)" data-es="Alta Arquitectura &<br><em>Diseno de Interiores</em>" data-en="High Architecture &<br><em>Interior Design</em>">Alta Arquitectura &<br><em>Diseno de Interiores</em></h1>
-<p class="body body-large rv" data-es="Donde los suenos cobran vida. Mas de 30 anios materializando residencias de lujo, desarrollos comerciales y hoteleria de alta gama." data-en="Where dreams come to life. Over 30 years materializing luxury residences, commercial developments and high-end hospitality.">Donde los suenos cobran vida. Mas de 30 anios materializando residencias de lujo, desarrollos comerciales y hoteleria de alta gama.</p>
+<div class="label rv" data-es="Colombia · Espana · Italia" data-en="Colombia · Spain · Italy" data-ca="Colombia · Espanya · Italia" data-fr="Colombie · Espagne · Italie">Colombia · Espana · Italia</div>
+<h1 class="heading rv" style="font-size:clamp(3rem,8vw,6rem)" data-es="Donde el Deseo<br>se <em>Convierte en Piedra</em>" data-en="Where Desire<br>Becomes <em>Stone</em>" data-ca="On el Desig<br>es <em>Converte en Pedra</em>" data-fr="Ou le Desir<br>devient <em>Pierre</em>">Donde el Deseo<br>se <em>Convierte en Piedra</em></h1>
+<p class="body body-large rv" data-es="No disenamos edificios. Creamos obsesiones espaciales. Mas de 35 anios transformando aspiraciones en arquitectura que trasciende generaciones." data-en="We don't design buildings. We create spatial obsessions. Over 35 years transforming aspirations into architecture that transcends generations." data-ca="No dissenyem edificis. Creem obsessions espacials. Mes de 35 anys transformant aspiracions en arquitectura que transcende generacions." data-fr="Nous ne concevons pas des batiments. Nous creons des obsessions spatiales. Plus de 35 ans a transformer des aspirations en architecture qui transcende les generations.">No disenamos edificios. Creamos obsesiones espaciales. Mas de 35 anios transformando aspiraciones en arquitectura que trasciende generaciones.</p>
 <div class="btns rv">
-<a href="#s6" class="btn btn-p" data-es="Ver Obras" data-en="View Projects">Ver Obras</a>
-<a href="#s12" class="btn btn-o" data-es="Contactar" data-en="Contact">Contactar</a>
+<a href="#s6" class="btn btn-p" data-es="Ver Obras" data-en="View Projects" data-ca="Veure Obres" data-fr="Voir Projets">Ver Obras</a>
+<a href="#s12" class="btn btn-o" data-es="Contactar" data-en="Contact" data-ca="Contactar" data-fr="Contacter">Contactar</a>
 </div>
 </div>
 </section>
 
 <!-- S2: FULL IMAGE - VILLA -->
 <section class="slide" id="s2" style="padding:0">
-<img src="20260730222718545141.jpg" alt="Villa contemporanea CARQUIDEC - diseno arquitectonico de lujo" class="img-full clip-rv" loading="lazy">
+<img src="20260730222718545141.jpg" alt="Villa contemporanea CARQUIDEC - arquitectura de lujo" class="img-full clip-rv" loading="lazy">
 </section>
 
 <!-- S3: FILOSOFIA -->
 <section class="slide slide-dark" id="s3">
 <div class="slide-inner">
 <div class="label rv" data-es="// Filosofia" data-en="// Philosophy">// Filosofia</div>
-<h2 class="heading rv" data-es="Diseno con Proposito" data-en="Design with Purpose">Diseno con Proposito</h2>
-<p class="body body-large rv" data-es="Hernando Carrillo se ha especializado en crear espacios que no solo cumplen funciones arquitectonicas, sino que narran historias. Su enfoque combina la sobriedad tecnica con la calidez del paisajismo contemporaneo." data-en="Hernando Carrillo has specialized in creating spaces that not only fulfill architectural functions, but tell stories. His approach combines technical sobriety with the warmth of contemporary landscaping.">Hernando Carrillo se ha especializado en crear espacios que no solo cumplen funciones arquitectonicas, sino que narran historias. Su enfoque combina la sobriedad tecnica con la calidez del paisajismo contemporaneo.</p>
-<p class="body rv" data-es="Cada proyecto es un compromiso personal para transformar los suenos de sus clientes en realidades que cautivan y perduran en el tiempo. No disenamos edificios, creamos ecosistemas habitables que respetan el entorno, el clima y la comunidad." data-en="Every project is a personal commitment to transforming our clients' dreams into realities that captivate and endure. We don't design buildings; we create habitable ecosystems that respect the environment, climate and community.">Cada proyecto es un compromiso personal para transformar los suenos de sus clientes en realidades que cautivan y perduran en el tiempo. No disenamos edificios, creamos ecosistemas habitables que respetan el entorno, el clima y la comunidad.</p>
-<div class="quote rv" data-es="La arquitectura que no respeta el planeta y que no entiende al ser humano es solo una escultura vacia." data-en="Architecture that does not respect the planet and does not understand human beings is just an empty sculpture.">La arquitectura que no respeta el planeta y que no entiende al ser humano es solo una escultura vacia.</div>
+<h2 class="heading rv" data-es="El Lujo no se <em>Declara</em>,<br>se <em>Siente</em>" data-en="Luxury is not <em>Declared</em>,<br>it is <em>Felt</em>">El Lujo no se <em>Declara</em>,<br>se <em>Siente</em></h2>
+<p class="body body-large rv" data-es="Cada espacio que concebimos nace de una pregunta: como hacer que quien lo habite no quiera salir nunca. No es decoracion, es psicologia aplicada al espacio. Es entender que la luz de la tarde debe caer exactamente donde el ojo descansa." data-en="Every space we conceive is born from a question: how to make whoever inhabits it never want to leave. It's not decoration, it's applied psychology to space. It's understanding that afternoon light must fall exactly where the eye rests.">Cada espacio que concebimos nace de una pregunta: como hacer que quien lo habite no quiera salir nunca. No es decoracion, es psicologia aplicada al espacio. Es entender que la luz de la tarde debe caer exactamente donde el ojo descansa.</p>
+<p class="body rv" data-es="Hernando Carrillo no cree en la arquitectura como prestigio visible. Cree en la arquitectura como experiencia sensorial: el sonido del agua sobre piedra natural, la textura del marmol bajo los dedos, la brisa que entra por un ventanal calibrado al milimetro." data-en="Hernando Carrillo doesn't believe in architecture as visible prestige. He believes in architecture as sensory experience: the sound of water over natural stone, the texture of marble under fingertips, the breeze entering through a floor-to-ceiling window calibrated to the millimeter.">Hernando Carrillo no cree en la arquitectura como prestigio visible. Cree en la arquitectura como experiencia sensorial: el sonido del agua sobre piedra natural, la textura del marmol bajo los dedos, la brisa que entra por un ventanal calibrado al milimetro.</p>
+<div class="divider rv"></div>
+<div class="quote rv" data-es="La verdadera exclusividad no es que pocos puedan permitirselo. Es que nadie mas lo haya imaginado asi." data-en="True exclusivity is not that few can afford it. It's that no one else has imagined it this way.">La verdadera exclusividad no es que pocos puedan permitirselo. Es que nadie mas lo haya imaginado asi.</div>
 </div>
 </section>
 
 <!-- S4: FULL IMAGE - HOTEL -->
 <section class="slide" id="s4" style="padding:0">
-<img src="3333f4e5-3e84-466a-acac-256138671ed0.png" alt="Hotel boutique CARQUIDEC - diseno hotelero de lujo" class="img-full clip-rv" loading="lazy">
+<img src="3333f4e5-3e84-466a-acac-256138671ed0.png" alt="Hotel boutique CARQUIDEC - hoteleria de lujo" class="img-full clip-rv" loading="lazy">
 </section>
 
 <!-- S5: PILARES -->
 <section class="slide slide-dark" id="s5">
 <div class="slide-inner">
-<div class="label rv" data-es="// Pilares" data-en="// Pillars">// Pilares</div>
-<h2 class="heading rv" data-es="Lo que nos define" data-en="What defines us">Lo que nos define</h2>
+<div class="label rv" data-es="// Valores" data-en="// Values">// Valores</div>
+<h2 class="heading rv" data-es="Lo que nos <em>Obsesiona</em>" data-en="What <em>Drives</em> Us">Lo que nos <em>Obsesiona</em></h2>
 <div class="grid-3">
 <div class="grid-item rv">
 <div class="grid-num">01</div>
-<div class="grid-title" data-es="Confianza" data-en="Trust">Confianza</div>
-<div class="grid-desc" data-es="Transparencia total en cada fase del proyecto, asegurando que la vision original se mantenga intacta desde el primer trazo hasta la entrega de llaves." data-en="Total transparency in every project phase, ensuring the original vision remains intact from first sketch to key handover.">Transparencia total en cada fase del proyecto, asegurando que la vision original se mantenga intacta desde el primer trazo hasta la entrega de llaves.</div>
+<div class="grid-title" data-es="La Prisa es Enemiga" data-en="Haste is the Enemy">La Prisa es Enemiga</div>
+<div class="grid-desc" data-es="Tres decadas ensenaron que la excelencia no se apura. Cada milimetro es una decision consciente. Cada material, una eleccion que el ojo no detecta pero el cuerpo siente." data-en="Three decades taught us that excellence cannot be rushed. Every millimeter is a conscious decision. Every material, a choice the eye doesn't detect but the body feels.">Tres decadas ensenaron que la excelencia no se apura. Cada milimetro es una decision consciente. Cada material, una eleccion que el ojo no detecta pero el cuerpo siente.</div>
 </div>
 <div class="grid-item rv">
 <div class="grid-num">02</div>
-<div class="grid-title" data-es="Sobriedad" data-en="Sobriety">Sobriedad</div>
-<div class="grid-desc" data-es="Estetica atemporal que evita lo recargado, enfocandose en la elegancia de lo esencial y bien hecho. Cada linea tiene proposito, cada material cuenta una historia." data-en="Timeless aesthetics that avoid excess, focusing on the elegance of the essential and well-crafted. Every line has purpose, every material tells a story.">Estetica atemporal que evita lo recargado, enfocandose en la elegancia de lo esencial y bien hecho. Cada linea tiene proposito, cada material cuenta una historia.</div>
+<div class="grid-title" data-es="Sin Formula Repetida" data-en="No Repeated Formula">Sin Formula Repetida</div>
+<div class="grid-desc" data-es="Cada casa es un retrato psicologico de quien la habita. No hay plantillas, no hay atajos. Escuchamos, interpretamos y traducimos identidad en piedra y luz." data-en="Every house is a psychological portrait of its inhabitant. No templates, no shortcuts. We listen, interpret and translate identity into stone and light.">Cada casa es un retrato psicologico de quien la habita. No hay plantillas, no hay atajos. Escuchamos, interpretamos y traducimos identidad en piedra y luz.</div>
 </div>
 <div class="grid-item rv">
 <div class="grid-num">03</div>
-<div class="grid-title" data-es="Sensibilidad" data-en="Sensitivity">Sensibilidad</div>
-<div class="grid-desc" data-es="Capacidad de interpretar los deseos mas sutiles para plasmarlos en formas y texturas unicas. Escuchamos, entendemos y traducimos emociones en arquitectura." data-en="Ability to interpret the most subtle wishes and materialize them in unique forms and textures. We listen, understand and translate emotions into architecture.">Capacidad de interpretar los deseos mas sutiles para plasmarlos en formas y texturas unicas. Escuchamos, entendemos y traducimos emociones en arquitectura.</div>
+<div class="grid-title" data-es="Referencia, no Algoritmo" data-en="Referral, not Algorithm">Referencia, no Algoritmo</div>
+<div class="grid-desc" data-es="Nuestros clientes no nos encontraron en Instagram. Los encontro un amigo que vivio la experiencia. El boca a boca es nuestra unica publicidad." data-en="Our clients didn't find us on Instagram. A friend who lived the experience found them. Word of mouth is our only advertising.">Nuestros clientes no nos encontraron en Instagram. Los encontro un amigo que vivio la experiencia. El boca a boca es nuestra unica publicidad.</div>
 </div>
 </div>
 </div>
@@ -264,34 +301,34 @@ body{font-family:var(--font-b);background:var(--bg);color:var(--t);overflow-x:hi
 
 <!-- S6: FULL IMAGE - COMERCIAL -->
 <section class="slide" id="s6" style="padding:0">
-<img src="4dced077-93ef-482f-9b29-41b3bc4928d4.png" alt="Local comercial CARQUIDEC - arquitectura comercial moderna" class="img-full clip-rv" loading="lazy">
+<img src="4dced077-93ef-482f-9b29-41b3bc4928d4.png" alt="Local comercial CARQUIDEC - arquitectura comercial exclusiva" class="img-full clip-rv" loading="lazy">
 </section>
 
 <!-- S7: ADN -->
 <section class="slide slide-dark" id="s7">
 <div class="slide-inner">
-<div class="label rv" data-es="// ADN" data-en="// DNA">// ADN</div>
-<h2 class="heading rv" data-es="Estructura, Alma, Datos" data-en="Structure, Soul, Data">Estructura, Alma, Datos</h2>
+<div class="label rv" data-es="// Metodo" data-en="// Method">// Metodo</div>
+<h2 class="heading rv" data-es="Como <em>Obsesionamos</em><br>los Espacios" data-en="How We <em>Obsess</em><br>Spaces">Como <em>Obsesionamos</em><br>los Espacios</h2>
 <div class="grid-4">
 <div class="grid-item rv">
 <div class="grid-num">01</div>
-<div class="grid-title" data-es="Diseno Inteligente" data-en="Intelligent Design">Diseno Inteligente</div>
-<div class="grid-desc" data-es="Algoritmos de diseno que optimizan cada metro cuadrado, estudiando la incidencia solar, los flujos de viento y las necesidades especificas de cada familia." data-en="Design algorithms that optimize every square meter, studying solar incidence, wind flows and each family's specific needs.">Algoritmos de diseno que optimizan cada metro cuadrado, estudiando la incidencia solar, los flujos de viento y las necesidades especificas de cada familia.</div>
+<div class="grid-title" data-es="Escucha Activa" data-en="Active Listening">Escucha Activa</div>
+<div class="grid-desc" data-es="No preguntamos que quieres. Preguntamos como quieres sentirte. El espacio responde a emociones, no a especificaciones tecnicas." data-en="We don't ask what you want. We ask how you want to feel. Space responds to emotions, not technical specifications.">No preguntamos que quieres. Preguntamos como quieres sentirte. El espacio responde a emociones, no a especificaciones tecnicas.</div>
 </div>
 <div class="grid-item rv">
 <div class="grid-num">02</div>
-<div class="grid-title" data-es="Sostenibilidad" data-en="Sustainability">Sostenibilidad</div>
-<div class="grid-desc" data-es="Edificios que se enfrian solos, que iluminan con luz natural y que se conectan con su entorno. Reducimos el consumo energetico desde el primer trazo." data-en="Buildings that cool themselves, that light with natural light and connect with their environment. We reduce energy consumption from the first sketch.">Edificios que se enfrian solos, que iluminan con luz natural y que se conectan con su entorno. Reducimos el consumo energetico desde el primer trazo.</div>
+<div class="grid-title" data-es="Bioclimatismo" data-en="Bioclimatism">Bioclimatismo</div>
+<div class="grid-desc" data-es="Estudiamos el sol, el viento, la humedad. Cada ventana es una decision de salud. Cada sombra es una inversion en bienestar." data-en="We study the sun, the wind, the humidity. Every window is a health decision. Every shadow is an investment in wellbeing.">Estudiamos el sol, el viento, la humedad. Cada ventana es una decision de salud. Cada sombra es una inversion en bienestar.</div>
 </div>
 <div class="grid-item rv">
 <div class="grid-num">03</div>
-<div class="grid-title" data-es="Interiorismo" data-en="Interior Design">Interiorismo</div>
-<div class="grid-desc" data-es="La arquitectura es el esqueleto, pero el interiorismo es el alma. Trabajamos con materiales nobles, textiles y acustica inmersiva para garantizar el bienestar." data-en="Architecture is the skeleton, but interior design is the soul. We work with noble materials, textiles and immersive acoustics to guarantee wellbeing.">La arquitectura es el esqueleto, pero el interiorismo es el alma. Trabajamos con materiales nobles, textiles y acustica inmersiva para garantizar el bienestar.</div>
+<div class="grid-title" data-es="Materialidad" data-en="Materiality">Materialidad</div>
+<div class="grid-desc" data-es="Marmol de Carrara, madera de pino negro, piedra volcanica. Cada material tiene una historia. Nosotros la continuamos." data-en="Carrara marble, black pine wood, volcanic stone. Each material has a story. We continue it.">Marmol de Carrara, madera de pino negro, piedra volcanica. Cada material tiene una historia. Nosotros la continuamos.</div>
 </div>
 <div class="grid-item rv">
 <div class="grid-num">04</div>
-<div class="grid-title" data-es="Gestion de Obra" data-en="Project Management">Gestion de Obra</div>
-<div class="grid-desc" data-es="Supervision tecnica rigurosa en sitio, logistica, coordinacion integral de subcontratistas y control absoluto de los estandares constructivos." data-en="Rigorous technical supervision on site, logistics, comprehensive subcontractor coordination and absolute control of construction standards.">Supervision tecnica rigurosa en sitio, logistica, coordinacion integral de subcontratistas y control absoluto de los estandares constructivos.</div>
+<div class="grid-title" data-es="Gestion Total" data-en="Total Management">Gestion Total</div>
+<div class="grid-desc" data-es="Desde el primer boceto hasta la entrega de llaves. Coordinamos cada gremio, cada plazo, cada detalle constructivo." data-en="From the first sketch to key handover. We coordinate every trade, every deadline, every construction detail.">Desde el primer boceto hasta la entrega de llaves. Coordinamos cada gremio, cada plazo, cada detalle constructivo.</div>
 </div>
 </div>
 </div>
@@ -299,39 +336,26 @@ body{font-family:var(--font-b);background:var(--bg);color:var(--t);overflow-x:hi
 
 <!-- S8: FULL IMAGE - OFICINA -->
 <section class="slide" id="s8" style="padding:0">
-<img src="BCO.8588eff7-91ee-4220-9364-8a184912909a.png" alt="Oficina corporativa CARQUIDEC - diseno de interiores ejecutivo" class="img-full clip-rv" loading="lazy">
+<img src="BCO.8588eff7-91ee-4220-9364-8a184912909a.png" alt="Oficina corporativa CARQUIDEC - interiores ejecutivos" class="img-full clip-rv" loading="lazy">
 </section>
 
 <!-- S9: SERVICIOS -->
 <section class="slide slide-dark" id="s9">
 <div class="slide-inner">
-<div class="label rv" data-es="// Servicios Integrales" data-en="// Comprehensive Services">// Servicios Integrales</div>
-<h2 class="heading rv" data-es="Del sueno a la realidad" data-en="From dream to reality">Del sueno a la realidad</h2>
-<p class="body body-large rv" data-es="Ofrecemos una gama completa de servicios para acompanar a nuestros clientes en cada fase del proyecto, desde la conceptualizacion hasta la entrega final de llaves." data-en="We offer a complete range of services to accompany our clients at every stage of the project, from conceptualization to final key handover.">Ofrecemos una gama completa de servicios para acompanar a nuestros clientes en cada fase del proyecto, desde la conceptualizacion hasta la entrega final de llaves.</p>
+<div class="label rv" data-es="// Servicios" data-en="// Services">// Servicios</div>
+<h2 class="heading rv" data-es="Del <em>Deseo</em> a la<br>Piedra" data-en="From <em>Desire</em> to<br>Stone">Del <em>Deseo</em> a la<br>Piedra</h2>
 <div class="grid-3" style="margin-top:40px">
 <div class="grid-item rv">
-<div class="grid-title" data-es="Arquitectura Residencial" data-en="Residential Architecture">Arquitectura Residencial</div>
-<div class="grid-desc" data-es="Diseno de viviendas unifamiliares y multifamiliares con estandares de lujo. Cada residencia es unica, adaptada al estilo de vida de sus ocupantes y al entorno que la rodea." data-en="Design of single-family and multi-family homes with luxury standards. Every residence is unique, adapted to the lifestyle of its occupants and the surrounding environment.">Diseno de viviendas unifamiliares y multifamiliares con estandares de lujo. Cada residencia es unica, adaptada al estilo de vida de sus ocupantes y al entorno que la rodea.</div>
+<div class="grid-title" data-es="Residencias de Autor" data-en="Signature Residences">Residencias de Autor</div>
+<div class="grid-desc" data-es="Cada casa es un retrato psicologico de quien la habita. No repetimos formulas. Escuchamos, interpretamos y traducimos identidad en madera, piedra y luz." data-en="Every house is a psychological portrait of its inhabitant. We don't repeat formulas. We listen, interpret and translate identity into wood, stone and light.">Cada casa es un retrato psicologico de quien la habita. No repetimos formulas. Escuchamos, interpretamos y traducimos identidad en madera, piedra y luz.</div>
 </div>
 <div class="grid-item rv">
-<div class="grid-title" data-es="Paisajismo de Autor" data-en="Signature Landscaping">Paisajismo de Autor</div>
-<div class="grid-desc" data-es="El paisajismo no es un complemento, es el alma del proyecto. Disenamos entornos sensoriales donde el agua y la vegetacion fluyen en armonia con la arquitectura." data-en="Landscaping is not a complement, it is the soul of the project. We design sensory environments where water and vegetation flow in harmony with architecture.">El paisajismo no es un complemento, es el alma del proyecto. Disenamos entornos sensoriales donde el agua y la vegetacion fluyen en armonia con la arquitectura.</div>
+<div class="grid-title" data-es="Paisajismo Sensorial" data-en="Sensory Landscaping">Paisajismo Sensorial</div>
+<div class="grid-desc" data-es="El agua que suena, la vegetacion que perfuma, la piedra que masa bajo los pies. Creamos jardines que activan los cinco sentidos." data-en="Water that sounds, vegetation that perfumes, stone that massages underfoot. We create gardens that activate all five senses.">El agua que suena, la vegetacion que perfuma, la piedra que masa bajo los pies. Creamos jardines que activan los cinco sentidos.</div>
 </div>
 <div class="grid-item rv">
-<div class="grid-title" data-es="Proyectos Hoteleros" data-en="Hospitality Projects">Proyectos Hoteleros</div>
-<div class="grid-desc" data-es="Espacios corporativos y boutique que invitan a la permanencia. Creamos experiencias sensoriales que convierten una estancia en un recuerdo inolvidable." data-en="Corporate and boutique spaces that invite lingering. We create sensory experiences that turn a stay into an unforgettable memory.">Espacios corporativos y boutique que invitan a la permanencia. Creamos experiencias sensoriales que convierten una estancia en un recuerdo inolvidable.</div>
-</div>
-<div class="grid-item rv">
-<div class="grid-title" data-es="Direccion y Consultoria" data-en="Management & Consulting">Direccion y Consultoria</div>
-<div class="grid-desc" data-es="Supervision experta para garantizar que cada obra cumpla la vision proyectada. Control de calidad, plazos y presupuestos con transparencia absoluta." data-en="Expert supervision to guarantee every project meets the projected vision. Quality control, deadlines and budgets with absolute transparency.">Supervision experta para garantizar que cada obra cumpla la vision proyectada. Control de calidad, plazos y presupuestos con transparencia absoluta.</div>
-</div>
-<div class="grid-item rv">
-<div class="grid-title" data-es="Diseno Bioclimatico" data-en="Bioclimatic Design">Diseno Bioclimatico</div>
-<div class="grid-desc" data-es="Arquitectura sostenible adaptada al entorno climatico regional. Maximizacion de la luz natural, ventilacion pasiva inteligente y estrategias verdes." data-en="Sustainable architecture adapted to the regional climatic environment. Maximization of natural light, intelligent passive ventilation and green strategies.">Arquitectura sostenible adaptada al entorno climatico regional. Maximizacion de la luz natural, ventilacion pasiva inteligente y estrategias verdes.</div>
-</div>
-<div class="grid-item rv">
-<div class="grid-title" data-es="Modelado BIM" data-en="BIM Modeling">Modelado BIM</div>
-<div class="grid-desc" data-es="Documentacion constructiva de maxima precision mediante metodologias Revit, planos de detalle CAD avanzados y renderizado tridimensional hiperrealista." data-en="Maximum precision construction documentation using Revit methodologies, advanced detailed CAD plans and hyperrealistic 3D rendering.">Documentacion constructiva de maxima precision mediante metodologias Revit, planos de detalle CAD avanzados y renderizado tridimensional hiperrealista.</div>
+<div class="grid-title" data-es="Hoteleria Exclusiva" data-en="Exclusive Hospitality">Hoteleria Exclusiva</div>
+<div class="grid-desc" data-es="Hoteles que no se olvidan. Donde el huésped no quiere hacer checkout. Espacios que crean adiccion al confort." data-en="Hotels that are not forgotten. Where the guest doesn't want to check out. Spaces that create addiction to comfort.">Hoteles que no se olvidan. Donde el huesped no quiere hacer checkout. Espacios que crean adiccion al confort.</div>
 </div>
 </div>
 </div>
@@ -339,59 +363,115 @@ body{font-family:var(--font-b);background:var(--bg);color:var(--t);overflow-x:hi
 
 <!-- S10: FULL IMAGE - BANO -->
 <section class="slide" id="s10" style="padding:0">
-<img src="20260730223149789515.jpg" alt="Bano de lujo CARQUIDEC - diseno interior premium" class="img-full clip-rv" loading="lazy">
+<img src="20260730223149789515.jpg" alt="Bano de lujo CARQUIDEC - interiorismo premium" class="img-full clip-rv" loading="lazy">
 </section>
 
 <!-- S11: STATS + QUOTE -->
 <section class="slide slide-dark" id="s11">
 <div class="slide-inner">
 <div class="stats-row" style="margin-bottom:80px">
-<div class="stat-item rv"><div class="stat-num">30+</div><div class="stat-label" data-es="Anios de Experiencia" data-en="Years of Experience">Anios de Experiencia</div></div>
-<div class="stat-item rv"><div class="stat-num">50+</div><div class="stat-label" data-es="Proyectos Ejecutados" data-en="Projects Executed">Proyectos Ejecutados</div></div>
-<div class="stat-item rv"><div class="stat-num">3</div><div class="stat-label" data-es="Mercados Internacionales" data-en="International Markets">Mercados Internacionales</div></div>
-<div class="stat-item rv"><div class="stat-num">100%</div><div class="stat-label" data-es="Satisfaccion del Cliente" data-en="Client Satisfaction">Satisfaccion del Cliente</div></div>
+<div class="stat-item rv"><div class="stat-num">35+</div><div class="stat-label" data-es="Anios Creando Obsesiones" data-en="Years Creating Obsessions">Anios Creando Obsesiones</div></div>
+<div class="stat-item rv"><div class="stat-num">60+</div><div class="stat-label" data-es="Proyectos Concretados" data-en="Projects Realized">Proyectos Concretados</div></div>
+<div class="stat-item rv"><div class="stat-num">3</div><div class="stat-label" data-es="Paises, Un Solo Estilo" data-en="Countries, One Style">Paises, Un Solo Estilo</div></div>
+<div class="stat-item rv"><div class="stat-num">100%</div><div class="stat-label" data-es="Clientes que Repiten" data-en="Returning Clients">Clientes que Repiten</div></div>
 </div>
-<div class="quote rv" style="max-width:800px;margin:0 auto;text-align:center;border-left:none;padding-left:0;border-top:1px solid rgba(255,255,255,0.05);padding-top:40px" data-es="La arquitectura es el arte de plasmar los suenos en la tierra, creando refugios que trascienden el tiempo." data-en="Architecture is the art of setting dreams on earth, creating shelters that transcend time.">La arquitectura es el arte de plasmar los suenos en la tierra, creando refugios que trascienden el tiempo.</div>
-<p class="body" style="text-align:center;max-width:100%;margin-top:16px" data-es="— Hernando Carrillo, Fundador de CARQUIDEC" data-en="— Hernando Carrillo, Founder of CARQUIDEC">— Hernando Carrillo, Fundador de CARQUIDEC</p>
+<div class="quote rv" style="max-width:800px;margin:0 auto;text-align:center;border-left:none;padding-left:0;border-top:1px solid rgba(184,168,138,0.15);padding-top:40px" data-es="La arquitectura que no provoca un deseo visceral de quedarse no merece el nombre de arquitectura." data-en="Architecture that doesn't provoke a visceral desire to stay doesn't deserve the name of architecture.">La arquitectura que no provoca un deseo visceral de quedarse no merece el nombre de arquitectura.</div>
+<p class="body" style="text-align:center;max-width:100%;margin-top:16px" data-es="— Hernando Carrillo, Fundador" data-en="— Hernando Carrillo, Founder">— Hernando Carrillo, Fundador</p>
 </div>
 </section>
 
 <!-- S12: FULL IMAGE - FAMILIA -->
 <section class="slide" id="s12" style="padding:0">
-<img src="ChatGPT Image 30 jul 2026, 14_33_18.png" alt="Entrega de proyecto CARQUIDEC - satisfaccion del cliente" class="img-full clip-rv" loading="lazy">
+<img src="ChatGPT Image 30 jul 2026, 14_33_18.png" alt="Entrega de proyecto CARQUIDEC - cliente satisfecho" class="img-full clip-rv" loading="lazy">
 </section>
 
-<!-- S13: TRAYECTORIA -->
+<!-- S13: GALERIA -->
 <section class="slide slide-dark" id="s13">
 <div class="slide-inner">
-<div class="label rv" data-es="// Trayectoria" data-en="// Timeline">// Trayectoria</div>
-<h2 class="heading rv" data-es="Hernando Carrillo Sanchez" data-en="Hernando Carrillo Sanchez">Hernando Carrillo Sanchez</h2>
-<p class="body body-large rv" data-es="Arquitecto y constructor por vocacion. Con una titulacion en Arquitectura por la Universidad Autonoma del Caribe (Barranquilla, 1982-1988), Hernando ha dedicado su vida a la busqueda de la excelencia espacial." data-en="Architect and builder by vocation. With a degree in Architecture from the Universidad Autonoma del Caribe (Barranquilla, 1982-1988), Hernando has dedicated his life to the pursuit of spatial excellence.">Arquitecto y constructor por vocacion. Con una titulacion en Arquitectura por la Universidad Autonoma del Caribe (Barranquilla, 1982-1988), Hernando ha dedicado su vida a la busqueda de la excelencia espacial.</p>
-<div class="grid-3" style="margin-top:40px">
-<div class="grid-item rv">
-<div class="grid-num">1988</div>
-<div class="grid-title" data-es="Graduacion" data-en="Graduation">Graduacion</div>
-<div class="grid-desc" data-es="Universidad Autonoma del Caribe. Formacion en diseno arquitectonico y construccion." data-en="Universidad Autonoma del Caribe. Training in architectural design and construction.">Universidad Autonoma del Caribe. Formacion en diseno arquitectonico y construccion.</div>
+<div class="label rv" data-es="// Galeria" data-en="// Gallery">// Galeria</div>
+<h2 class="heading rv" data-es="Obras que <em>Hablan</em>" data-en="Works that <em>Speak</em>">Obras que <em>Hablan</em></h2>
+<div class="gallery-grid" style="margin-top:40px">
+<div class="gallery-item rv">
+<img src="H1.jpg" alt="Villa residencial CARQUIDEC" loading="lazy">
+<div class="gallery-label">Villa Residencial</div>
 </div>
-<div class="grid-item rv">
-<div class="grid-num">2005</div>
-<div class="grid-title" data-es="Expansion Internacional" data-en="International Expansion">Expansion Internacional</div>
-<div class="grid-desc" data-es="Proyectos en Espana e Italia. Fusion de la arquitectura tropical con el diseno mediterraneo." data-en="Projects in Spain and Italy. Fusion of tropical architecture with Mediterranean design.">Proyectos en Espana e Italia. Fusion de la arquitectura tropical con el diseno mediterraneo.</div>
+<div class="gallery-item rv">
+<img src="7.jpg" alt="Hotel boutique CARQUIDEC" loading="lazy">
+<div class="gallery-label">Hotel Boutique</div>
 </div>
-<div class="grid-item rv">
-<div class="grid-num">2020</div>
-<div class="grid-title" data-es="Nacimiento de CARQUIDEC" data-en="Birth of CARQUIDEC">Nacimiento de CARQUIDEC</div>
-<div class="grid-desc" data-es="Creacion del estudio con enfoque en diseno parametrico, bioclimatismo y decoracion de autor." data-en="Studio creation with focus on parametric design, bioclimatism and signature decoration.">Creacion del estudio con enfoque en diseno parametrico, bioclimatismo y decoracion de autor.</div>
+<div class="gallery-item rv">
+<img src="p12.jpg" alt="Edificio comercial CARQUIDEC" loading="lazy">
+<div class="gallery-label">Comercial</div>
+</div>
+<div class="gallery-item rv">
+<img src="01-EDIFICIO.jpg" alt="Edificio corporativo CARQUIDEC" loading="lazy">
+<div class="gallery-label">Corporativo</div>
+</div>
+<div class="gallery-item rv">
+<img src="barguil.jpg" alt="Oficina ejecutiva CARQUIDEC" loading="lazy">
+<div class="gallery-label">Oficina Ejecutiva</div>
+</div>
+<div class="gallery-item rv">
+<img src="Cavalli lavamanos 1.jpg" alt="Bano de lujo CARQUIDEC" loading="lazy">
+<div class="gallery-label">Interiorismo</div>
+</div>
+<div class="gallery-item rv">
+<img src="54.jpg" alt="Fachada contemporanea CARQUIDEC" loading="lazy">
+<div class="gallery-label">Fachada</div>
+</div>
+<div class="gallery-item rv">
+<img src="vista 1 2.jpg" alt="Villa mediterranea CARQUIDEC" loading="lazy">
+<div class="gallery-label">Mediterraneo</div>
+</div>
+<div class="gallery-item rv">
+<img src="PANTALETA1.jpg" alt="Proyecto residencial CARQUIDEC" loading="lazy">
+<div class="gallery-label">Residencial</div>
 </div>
 </div>
 </div>
 </section>
 
-<!-- S14: CTA -->
+<!-- S14: TRAYECTORIA -->
 <section class="slide slide-dark" id="s14">
+<div class="slide-inner">
+<div class="label rv" data-es="// Trayectoria" data-en="// Journey">// Trayectoria</div>
+<h2 class="heading rv" data-es="Hernando Carrillo<br><em>Sanchez</em>" data-en="Hernando Carrillo<br><em>Sanchez</em>">Hernando Carrillo<br><em>Sanchez</em></h2>
+<p class="body body-large rv" data-es="Arquitecto y constructor por vocacion, no por profesion. En 1988, con 24 anios y un titulo de la Universidad Autonoma del Caribe, Hernando ya sabia que la arquitectura no era solo construir: era provocar emociones con espacios." data-en="Architect and builder by vocation, not by profession. In 1988, at 24, with a degree from Universidad Autonoma del Caribe, Hernando already knew architecture wasn't just building: it was provoking emotions with spaces.">Arquitecto y constructor por vocacion, no por profesion. En 1988, con 24 anios y un titulo de la Universidad Autonoma del Caribe, Hernando ya sabia que la arquitectura no era solo construir: era provocar emociones con espacios.</p>
+<div class="timeline" style="margin-top:48px">
+<div class="timeline-item rv">
+<div class="timeline-year">1988</div>
+<div class="timeline-title" data-es="El Primer Trazo" data-en="The First Stroke">El Primer Trazo</div>
+<div class="timeline-desc" data-es="Graduacion en Arquitectura. Universidad Autonoma del Caribe, Barranquilla. Los primeros proyectos residenciales que definieron su estilo: sobriedad tropical con elegancia mediterranea." data-en="Graduation in Architecture. Universidad Autonoma del Caribe, Barranquilla. The first residential projects that defined his style: tropical sobriety with Mediterranean elegance.">Graduacion en Arquitectura. Universidad Autonoma del Caribe, Barranquilla. Los primeros proyectos residenciales que definieron su estilo: sobriedad tropical con elegancia mediterranea.</div>
+</div>
+<div class="timeline-item rv">
+<div class="timeline-year">1995</div>
+<div class="timeline-title" data-es="La Obsesion por el Paisajismo" data-en="The Landscaping Obsession">La Obsesion por el Paisajismo</div>
+<div class="timeline-desc" data-es="Descubrimiento del paisajismo como arte independiente. Viajes a Japan, Italia y Costa Rica para estudiar la integracion agua-piedra-vegetacion." data-en="Discovery of landscaping as an independent art. Travels to Japan, Italy and Costa Rica to study water-stone-vegetation integration.">Descubrimiento del paisajismo como arte independiente. Viajes a Japan, Italia y Costa Rica para estudiar la integracion agua-piedra-vegetacion.</div>
+</div>
+<div class="timeline-item rv">
+<div class="timeline-year">2005</div>
+<div class="timeline-title" data-es="Expansion Internacional" data-en="International Expansion">Expansion Internacional</div>
+<div class="timeline-desc" data-es="Proyectos en Espana e Italia. Fusion de la arquitectura tropical colombiana con el diseno mediterraneo. Primer hotel boutique en la Costa Brava." data-en="Projects in Spain and Italy. Fusion of Colombian tropical architecture with Mediterranean design. First boutique hotel on the Costa Brava.">Proyectos en Espana e Italia. Fusion de la arquitectura tropical colombiana con el diseno mediterraneo. Primer hotel boutique en la Costa Brava.</div>
+</div>
+<div class="timeline-item rv">
+<div class="timeline-year">2015</div>
+<div class="timeline-title" data-es="El Bioclimatismo como Religion" data-en="Bioclimatism as Religion">El Bioclimatismo como Religion</div>
+<div class="timeline-desc" data-es="Adopcion del diseno bioclimatico como principio fundamental. Cada proyecto debe respirar, enfriarse y calentararse con la naturaleza, no contra ella." data-en="Adoption of bioclimatic design as a fundamental principle. Every project must breathe, cool and warm with nature, not against it.">Adopcion del diseno bioclimatico como principio fundamental. Cada proyecto debe respirar, enfriarse y calentararse con la naturaleza, no contra ella.</div>
+</div>
+<div class="timeline-item rv">
+<div class="timeline-year">2020</div>
+<div class="timeline-title" data-es="Nace CARQUIDEC" data-en="CARQUIDEC is Born">Nace CARQUIDEC</div>
+<div class="timeline-desc" data-es="Creacion del estudio con una mision clara: crear arquitectura que provoque adiccion. No clientes, sino devotees. No proyectos, sino obsesiones." data-en="Studio creation with a clear mission: create architecture that provokes addiction. Not clients, but devotees. Not projects, but obsessions.">Creacion del estudio con una mision clara: crear arquitectura que provoque adiccion. No clientes, sino devotees. No proyectos, sino obsesiones.</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- S15: CTA -->
+<section class="slide slide-dark" id="s15">
 <div class="slide-inner" style="text-align:center">
-<h2 class="heading rv" style="font-size:clamp(2.5rem,6vw,5rem)" data-es="Hagamos realidad<br>su proximo proyecto" data-en="Let's make your<br>next project real">Hagamos realidad<br>su proximo proyecto</h2>
-<p class="body body-large rv" style="margin:0 auto 40px;text-align:center" data-es="Asesoria inicial sin compromiso. Vivienda unifamiliar, complejo residencial o boutique comercial." data-en="Free initial consultation. Single-family home, residential complex or boutique commercial.">Asesoria inicial sin compromiso. Vivienda unifamiliar, complejo residencial o boutique comercial.</p>
+<h2 class="heading rv" style="font-size:clamp(2.5rem,6vw,5rem)" data-es="Su proximo espacio<br>esta <em>esperando</em>" data-en="Your next space<br>is <em>waiting</em>">Su proximo espacio<br>esta <em>esperando</em></h2>
+<p class="body body-large rv" style="margin:0 auto 40px;text-align:center" data-es="Primera consulta sin compromiso. Sin presion, sin ventas. Solo escucha y arquitectura." data-en="First consultation without commitment. No pressure, no sales. Just listening and architecture.">Primera consulta sin compromiso. Sin presion, sin ventas. Solo escucha y arquitectura.</p>
 <div class="btns rv" style="justify-content:center">
 <a href="https://wa.me/34612484854" class="btn btn-p" target="_blank" data-es="WhatsApp" data-en="WhatsApp">WhatsApp</a>
 <a href="mailto:carodisantos@gmail.com" class="btn btn-o" data-es="Email" data-en="Email">Email</a>
@@ -400,8 +480,8 @@ body{font-family:var(--font-b);background:var(--bg);color:var(--t);overflow-x:hi
 </div>
 </section>
 
-<!-- S15: CONTACTO -->
-<section class="slide slide-dark" id="s15">
+<!-- S16: CONTACTO -->
+<section class="slide slide-dark" id="s16">
 <div class="slide-inner">
 <div class="contact-row">
 <div class="contact-box rv"><div class="contact-lbl">Email</div><div class="contact-val"><a href="mailto:carodisantos@gmail.com">carodisantos@gmail.com</a></div></div>
@@ -423,7 +503,7 @@ body{font-family:var(--font-b);background:var(--bg);color:var(--t);overflow-x:hi
 <footer class="footer">
 <div class="footer-brand">Carquidec</div>
 <div class="footer-links"><a href="#">Instagram</a><a href="#">LinkedIn</a><a href="https://wa.me/34612484854" target="_blank">WhatsApp</a></div>
-<div class="footer-copy" data-es="Experiencia · Confianza · Seriedad" data-en="Experience · Trust · Seriousness">Experiencia · Confianza · Seriedad</div>
+<div class="footer-copy" data-es="Experiencia · Obsesion · Silencio" data-en="Experience · Obsession · Silence">Experiencia · Obsesion · Silencio</div>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
@@ -436,6 +516,26 @@ document.querySelectorAll('.lang-bar button').forEach(b=>b.classList.remove('act
 event.target.classList.add('active');
 document.documentElement.lang=lang;
 }
+
+// CUSTOM CURSOR
+const cursor=document.getElementById('cursor');
+const cursorDot=document.getElementById('cursorDot');
+let mouseX=0,mouseY=0,cursorX=0,cursorY=0;
+document.addEventListener('mousemove',e=>{mouseX=e.clientX;mouseY=e.clientY});
+function animateCursor(){
+cursorX+=(mouseX-cursorX)*.15;
+cursorY+=(mouseY-cursorY)*.15;
+cursor.style.left=cursorX-18+'px';
+cursor.style.top=cursorY-18+'px';
+cursorDot.style.left=mouseX-2+'px';
+cursorDot.style.top=mouseY-2+'px';
+requestAnimationFrame(animateCursor);
+}
+animateCursor();
+document.querySelectorAll('a,button,.gallery-item').forEach(el=>{
+el.addEventListener('mouseenter',()=>{cursor.style.transform='scale(1.5)';cursor.style.mixBlendMode='normal'});
+el.addEventListener('mouseleave',()=>{cursor.style.transform='scale(1)';cursor.style.mixBlendMode='difference'});
+});
 
 const lenis=new Lenis({lerp:.08,smoothWheel:true});
 lenis.on('scroll',ScrollTrigger.update);
@@ -475,12 +575,22 @@ gsap.utils.toArray('.grid-item').forEach((el,i)=>{
 gsap.from(el,{opacity:0,y:40,duration:.7,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 85%'},delay:i*.08});
 });
 
+// GALLERY STAGGER
+gsap.utils.toArray('.gallery-item').forEach((el,i)=>{
+gsap.from(el,{opacity:0,scale:.95,duration:.6,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 85%'},delay:i*.05});
+});
+
 // STATS
 document.querySelectorAll('.stat-num').forEach(s=>{
 const t=s.textContent,n=parseFloat(t),suf=t.replace(/[0-9.]/g,'');
 ScrollTrigger.create({trigger:s,start:'top 85%',onEnter:()=>{
 gsap.fromTo(s,{textContent:0},{textContent:n,duration:1.5,ease:'power3.out',snap:{textContent:1},onUpdate(){s.textContent=Math.round(parseFloat(s.textContent))+suf}});
 }});
+});
+
+// TIMELINE
+gsap.utils.toArray('.timeline-item').forEach((el,i)=>{
+gsap.from(el,{opacity:0,x:-30,duration:.7,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 85%'},delay:i*.1});
 });
 
 // SLIDE INDICATOR

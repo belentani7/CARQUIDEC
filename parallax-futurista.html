@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CARQUIDEC — Arquitectura del Futuro</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0a0a0a;--gold:#b8a88a;--cyan:#7dd3ff}
+html{background:var(--bg);scroll-behavior:smooth}
+body{font-family:'Space Grotesk',sans-serif;background:var(--bg);color:#f5f5f5;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+
+/* GRAIN */
+body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;opacity:0.04;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+/* CURSOR */
+.cursor{position:fixed;width:36px;height:36px;border:1px solid rgba(125,211,255,0.4);border-radius:50%;pointer-events:none;z-index:9999;transition:transform .15s ease,mix-blend-mode .15s ease;mix-blend-mode:difference}
+.cursor-dot{position:fixed;width:4px;height:4px;background:var(--cyan);border-radius:50%;pointer-events:none;z-index:9999;box-shadow:0 0 15px var(--cyan)}
+@media(max-width:768px){.cursor,.cursor-dot{display:none}}
+
+/* LOADER */
+.loader{position:fixed;inset:0;z-index:9999;background:var(--bg);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:24px}
+.loader-logo{width:200px;height:200px;opacity:0;filter:drop-shadow(0 0 40px rgba(184,168,138,0.4))}
+.loader-text{font-family:'Cormorant Garamond',serif;font-size:clamp(1.5rem,3vw,2.5rem);font-weight:300;color:var(--gold);letter-spacing:0.3em;text-transform:uppercase;opacity:0}
+.loader-bar{width:0;height:1px;background:linear-gradient(90deg,transparent,var(--cyan),transparent)}
+
+/* NAV */
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:16px 48px;background:rgba(10,10,10,0.85);backdrop-filter:blur(20px);border-bottom:1px solid rgba(125,211,255,0.06)}
+.nav-brand{display:flex;align-items:center;gap:12px}
+.nav-brand img{height:32px;filter:drop-shadow(0 0 10px rgba(184,168,138,0.3))}
+.nav-brand span{font-family:'Cormorant Garamond',serif;font-size:14px;letter-spacing:0.15em;color:var(--gold)}
+.nav-links{display:flex;gap:32px}
+.nav-links a{font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#777;text-decoration:none;transition:color .3s;position:relative}
+.nav-links a:hover{color:var(--cyan)}
+.nav-links a::after{content:"";position:absolute;bottom:-4px;left:0;width:0;height:1px;background:var(--cyan);transition:width .3s}
+.nav-links a:hover::after{width:100%}
+@media(max-width:768px){.nav{padding:12px 20px}.nav-links{display:none}}
+
+/* SECTIONS */
+.section{min-height:100vh;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
+
+/* HERO PARALLAX */
+.hero{height:100vh;perspective:1200px;overflow:hidden}
+.hero-layer{position:absolute;inset:0;will-change:transform}
+.hero-bg{background-size:cover;background-position:center;transform:scale(1.1)}
+.hero-overlay{background:linear-gradient(180deg,rgba(10,10,10,0.3) 0%,rgba(10,10,10,0.6) 50%,rgba(10,10,10,0.9) 100%)}
+.hero-grid{background-image:linear-gradient(rgba(125,211,255,0.06) 1px,transparent 1px),linear-gradient(90deg,rgba(125,211,255,0.06) 1px,transparent 1px);background-size:80px 80px;opacity:0;animation:gridFade 2s ease 2s forwards}
+@keyframes gridFade{to{opacity:1}}
+.hero-content{position:relative;z-index:10;padding:0 48px;max-width:1200px}
+.hero-label{font-size:9px;letter-spacing:0.5em;text-transform:uppercase;color:var(--cyan);margin-bottom:24px;opacity:0;transform:translateY(20px)}
+.hero-heading{font-family:'Cormorant Garamond',serif;font-size:clamp(3rem,8vw,7rem);font-weight:300;line-height:1;margin-bottom:24px;opacity:0;transform:translateY(40px)}
+.hero-heading em{font-style:italic;color:var(--gold)}
+.hero-sub{font-size:16px;color:#999;max-width:500px;line-height:1.8;opacity:0;transform:translateY(30px)}
+.hero-cta{margin-top:40px;display:flex;gap:16px;opacity:0;transform:translateY(20px)}
+.btn{padding:14px 32px;font-family:'Space Grotesk',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;text-decoration:none;border:none;cursor:pointer;transition:all .3s;display:inline-block}
+.btn-cyan{background:var(--cyan);color:var(--bg);box-shadow:0 0 30px rgba(125,211,255,0.2)}
+.btn-cyan:hover{background:#fff;box-shadow:0 0 40px rgba(255,255,255,0.3)}
+.btn-ghost{background:transparent;color:#f5f5f5;border:1px solid rgba(255,255,255,0.15)}
+.btn-ghost:hover{border-color:var(--cyan);color:var(--cyan)}
+
+/* FLOATING DATA */
+.hero-data{position:absolute;right:48px;top:50%;transform:translateY(-50%);z-index:10;display:flex;flex-direction:column;gap:24px;opacity:0}
+.data-item{display:flex;flex-direction:column;gap:4px}
+.data-label{font-size:8px;letter-spacing:0.2em;text-transform:uppercase;color:rgba(125,211,255,0.5)}
+.data-value{font-family:'Cormorant Garamond',serif;font-size:14px;color:var(--cyan)}
+@media(max-width:1024px){.hero-data{display:none}}
+
+/* HOLOGRAM SECTION */
+.hologram-section{min-height:100vh;display:grid;grid-template-columns:1fr 1fr;gap:0;background:var(--bg)}
+.hologram-img{position:relative;overflow:hidden}
+.hologram-img img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.16,1,.3,1)}
+.hologram-img:hover img{transform:scale(1.03)}
+.hologram-img::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 70%,var(--bg) 100%)}
+.hologram-text{display:flex;flex-direction:column;justify-content:center;padding:80px 64px}
+.label{font-size:9px;letter-spacing:0.4em;text-transform:uppercase;color:var(--gold);margin-bottom:16px}
+.heading{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4vw,3.5rem);font-weight:300;line-height:1.1;margin-bottom:24px}
+.heading em{font-style:italic;color:var(--cyan)}
+.body{font-size:14px;color:#999;line-height:1.9;max-width:500px;margin-bottom:20px}
+.body strong{color:#f5f5f5;font-weight:500}
+.quote{font-family:'Cormorant Garamond',serif;font-size:clamp(1.2rem,2vw,1.6rem);font-weight:300;font-style:italic;line-height:1.6;padding-left:24px;border-left:2px solid var(--gold);color:#ccc}
+.divider{width:60px;height:1px;background:linear-gradient(90deg,var(--gold),transparent);margin:40px 0}
+@media(max-width:768px){.hologram-section{grid-template-columns:1fr}.hologram-img{height:50vh}.hologram-text{padding:40px 20px}}
+
+/* STATS */
+.stats{padding:120px 48px;background:var(--bg);border-top:1px solid rgba(125,211,255,0.06)}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;max-width:1400px;margin:0 auto}
+.stat{background:rgba(255,255,255,0.02);padding:48px 24px;text-align:center;border:1px solid rgba(255,255,255,0.03);transition:border-color .3s}
+.stat:hover{border-color:rgba(125,211,255,0.15)}
+.stat-num{font-family:'Cormorant Garamond',serif;font-size:clamp(2.5rem,4vw,3.5rem);font-weight:300;color:var(--gold);margin-bottom:8px}
+.stat-label{font-size:9px;letter-spacing:0.2em;text-transform:uppercase;color:#777}
+@media(max-width:768px){.stats-grid{grid-template-columns:repeat(2,1fr)}}
+
+/* PORTRAIT SECTION */
+.portrait-section{min-height:100vh;display:flex;align-items:center;background:var(--bg);overflow:hidden}
+.portrait-inner{display:grid;grid-template-columns:400px 1fr;gap:80px;max-width:1400px;margin:0 auto;padding:80px 48px;align-items:center}
+.portrait-img{position:relative}
+.portrait-img img{width:100%;border-radius:2px;box-shadow:0 40px 80px rgba(0,0,0,0.5)}
+.portrait-img::before{content:"";position:absolute;inset:-20px;border:1px solid rgba(125,211,255,0.1);z-index:-1}
+.portrait-content .label{margin-bottom:16px}
+.portrait-content .heading{margin-bottom:24px}
+.portrait-content .body{margin-bottom:0}
+.timeline{margin-top:48px}
+.timeline-item{position:relative;padding-left:32px;margin-bottom:32px;border-left:1px solid rgba(125,211,255,0.15)}
+.timeline-item::before{content:"";position:absolute;left:-4px;top:8px;width:8px;height:8px;border-radius:50%;background:var(--gold)}
+.timeline-year{font-family:'Cormorant Garamond',serif;font-size:24px;color:var(--gold);margin-bottom:4px}
+.timeline-desc{font-size:12px;color:#999;line-height:1.7}
+@media(max-width:1024px){.portrait-inner{grid-template-columns:1fr;gap:40px;padding:60px 20px}.portrait-img{max-width:400px}}
+
+/* FINAL CTA */
+.cta-section{min-height:60vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(180deg,var(--bg) 0%,rgba(125,211,255,0.03) 50%,var(--bg) 100%)}
+.cta-content{max-width:800px;padding:0 48px}
+.cta-content .heading{font-size:clamp(2.5rem,5vw,4.5rem);margin-bottom:24px}
+.cta-content .body{margin:0 auto 40px;text-align:center}
+
+/* SCROLL INDICATOR */
+.scroll-indicator{position:fixed;right:24px;top:50%;transform:translateY(-50%);z-index:100;display:flex;flex-direction:column;gap:8px}
+.scroll-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,0.15);cursor:pointer;transition:all .3s}
+.scroll-dot.active{background:var(--cyan);transform:scale(1.3);box-shadow:0 0 15px var(--cyan)}
+@media(max-width:768px){.scroll-indicator{display:none}}
+
+/* REVEALS */
+.rv{opacity:0;transform:translateY(40px);transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .8s cubic-bezier(.16,1,.3,1)}
+.rv.active{opacity:1;transform:translateY(0)}
+
+/* FOOTER */
+.footer{padding:40px 48px;border-top:1px solid rgba(125,211,255,0.06);display:flex;align-items:center;justify-content:space-between}
+.footer-brand{display:flex;align-items:center;gap:12px}
+.footer-brand img{height:24px;filter:drop-shadow(0 0 8px rgba(184,168,138,0.3))}
+.footer-links{display:flex;gap:24px}
+.footer-links a{font-size:10px;color:#777;text-decoration:none;transition:color .3s}
+.footer-links a:hover{color:var(--cyan)}
+.footer-copy{font-size:9px;color:#555}
+@media(max-width:768px){.footer{flex-direction:column;gap:16px;text-align:center}}
+</style>
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+
+<!-- LOADER -->
+<div class="loader">
+<img src="cd/Copilot_20260730_165702.png" alt="CARQUIDEC" class="loader-logo">
+<div class="loader-text">Carquidec</div>
+<div class="loader-bar"></div>
+</div>
+
+<!-- NAV -->
+<nav class="nav">
+<div class="nav-brand">
+<img src="cd/Copilot_20260730_165702.png" alt="CARQUIDEC">
+<span>CARQUIDEC</span>
+</div>
+<div class="nav-links">
+<a href="#hero">Inicio</a>
+<a href="#vision">Vision</a>
+<a href="#stats">Experiencia</a>
+<a href="#trayectoria">Trayectoria</a>
+<a href="#cta">Contacto</a>
+</div>
+</nav>
+
+<!-- SCROLL INDICATOR -->
+<div class="scroll-indicator" id="scrollIndicator"></div>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+<div class="hero-layer hero-bg" data-speed="0.3" style="background-image:url('20260730222718545141.jpg')"></div>
+<div class="hero-layer hero-overlay"></div>
+<div class="hero-layer hero-grid"></div>
+<div class="hero-content">
+<div class="hero-label">Colombia · Spagna · Italia</div>
+<h1 class="hero-heading">Arquitectura del<br><em>Futuro</em></h1>
+<p class="hero-sub">35+ anios transformando aspiraciones en espacios que obsesionan. No proyectamos edificios. Creamos experiencias sensoriales que trascienden el tiempo.</p>
+<div class="hero-cta">
+<a href="#cta" class="btn btn-cyan">Contactar</a>
+<a href="#vision" class="btn btn-ghost">Descubrir</a>
+</div>
+</div>
+<div class="hero-data">
+<div class="data-item"><div class="data-label">Projects</div><div class="data-value">60+</div></div>
+<div class="data-item"><div class="data-label">Experience</div><div class="data-value">35 Anni</div></div>
+<div class="data-item"><div class="data-label">Markets</div><div class="data-value">3 Paesi</div></div>
+<div class="data-item"><div class="data-label">Satisfaction</div><div class="data-value">100%</div></div>
+</div>
+</section>
+
+<!-- HOLOGRAM SECTION -->
+<section class="hologram-section" id="vision">
+<div class="hologram-img">
+<img src="cd/hologram_cutout.png" alt="Hernando Carrillo - Vision del Futuro" loading="lazy">
+</div>
+<div class="hologram-text">
+<div class="label rv">// Vision del Futuro</div>
+<h2 class="heading rv">Donde la Tecnologia<br>se <em>Encuentra</em> con<br>la <em>Piedra</em></h2>
+<div class="divider rv"></div>
+<p class="body rv"><strong>Hernando Carrillo</strong> no cree en la arquitectura del pasado. Cree en una arquitectura que dialoga con el futuro: hologramas que previsualizan espacios antes de que existan, materiales inteligentes que responden al clima, algoritmos que optimizan cada luz natural.</p>
+<p class="body rv"><strong>Pero la tecnologia es solo una herramienta.</strong> El alma sigue siendo la piedra, la madera, el agua. El holograma es el medio; la emocion es el fin.</p>
+<div class="quote rv">"La verdadera innovacion no es reemplazar lo humano con maquinas. Es usar las maquinas para amplificar lo que solo un ser humano puede sentir."</div>
+</div>
+</section>
+
+<!-- STATS -->
+<section class="stats" id="stats">
+<div class="stats-grid">
+<div class="stat rv"><div class="stat-num">35+</div><div class="stat-label">Anni di Eccellenza</div></div>
+<div class="stat rv"><div class="stat-num">60+</div><div class="stat-label">Progetti Realizzati</div></div>
+<div class="stat rv"><div class="stat-num">3</div><div class="stat-label">Paesi, Un Solo Stile</div></div>
+<div class="stat rv"><div class="stat-num">100%</div><div class="stat-label">Clienti Fedeli</div></div>
+</div>
+</section>
+
+<!-- PORTRAIT -->
+<section class="portrait-section" id="trayectoria">
+<div class="portrait-inner">
+<div class="portrait-img rv">
+<img src="cd/c4c9c852-903c-47c2-acfc-1aae9c96e133-removebg-preview.png" alt="Hernando Carrillo - Arquitecto Fundador" loading="lazy">
+</div>
+<div class="portrait-content">
+<div class="label rv">// Il Fondatore</div>
+<h2 class="heading rv">Hernando Carrillo<br><em>Sanchez</em></h2>
+<p class="body rv"><strong>Architetto e costruttore per vocazione, non per professione.</strong> Nel 1988, con 24 anni e una laurea dalla Universidad Autonoma del Caribe, sapeva gia che l'architettura non era solo costruire: era provocare emozioni con gli spazi.</p>
+<div class="timeline rv">
+<div class="timeline-item">
+<div class="timeline-year">1988</div>
+<div class="timeline-desc">Laurea in Architettura. I primi progetti che definiscono il suo stile: sobrieta tropicale con eleganza mediterranea.</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-year">1995</div>
+<div class="timeline-desc">Scoperta del paesaggismo come arte indipendente. Viaggi in Giappone, Italia e Costa Rica.</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-year">2005</div>
+<div class="timeline-desc">Espansione internazionale. Primo hotel boutique sulla Costa Brava.</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-year">2020</div>
+<div class="timeline-desc">Nasce CARQUIDEC. Missione: architettura che provochi dipendenza.</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section" id="cta">
+<div class="cta-content">
+<div class="label rv">// Contattaci</div>
+<h2 class="heading rv" style="font-size:clamp(2.5rem,5vw,4rem)">Il suo prossimo spazio<br>e in <em>attesa</em></h2>
+<p class="body rv" style="margin:0 auto 40px;text-align:center">Prima consulenza senza impegno. Senza pressione, senza vendite. Solo ascolto e architettura.</p>
+<div class="hero-cta rv" style="justify-content:center">
+<a href="https://wa.me/34612484854" class="btn btn-cyan" target="_blank">WhatsApp</a>
+<a href="mailto:carodisantos@gmail.com" class="btn btn-ghost">Email</a>
+<a href="tel:+34612484854" class="btn btn-ghost">Chiamare</a>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+<div class="footer-brand">
+<img src="cd/Copilot_20260730_165702.png" alt="CARQUIDEC">
+<span style="font-family:'Cormorant Garamond',serif;font-size:12px;letter-spacing:0.15em;color:var(--gold)">CARQUIDEC</span>
+</div>
+<div class="footer-links">
+<a href="#">Instagram</a>
+<a href="#">LinkedIn</a>
+<a href="https://wa.me/34612484854" target="_blank">WhatsApp</a>
+</div>
+<div class="footer-copy">Esperienza · Ossessione · Silenzio</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+// CURSOR
+const cursor=document.getElementById('cursor'),cursorDot=document.getElementById('cursorDot');
+let mouseX=0,mouseY=0,cursorX=0,cursorY=0;
+document.addEventListener('mousemove',e=>{mouseX=e.clientX;mouseY=e.clientY});
+function animateCursor(){cursorX+=(mouseX-cursorX)*.15;cursorY+=(mouseY-cursorY)*.15;cursor.style.left=cursorX-18+'px';cursor.style.top=cursorY-18+'px';cursorDot.style.left=mouseX-2+'px';cursorDot.style.top=mouseY-2+'px';requestAnimationFrame(animateCursor)}
+animateCursor();
+document.querySelectorAll('a,button,.hologram-img').forEach(el=>{el.addEventListener('mouseenter',()=>{cursor.style.transform='scale(1.5)';cursor.style.mixBlendMode='normal'});el.addEventListener('mouseleave',()=>{cursor.style.transform='scale(1)';cursor.style.mixBlendMode='difference'})});
+
+// LOADER
+const loaderTl=gsap.timeline();
+loaderTl.to('.loader-logo',{opacity:1,scale:1,duration:1,ease:'back.out(1.7)'})
+.to('.loader-text',{opacity:1,y:0,duration:.8,ease:'power2.out'},'-=.3')
+.to('.loader-bar',{width:'200px',duration:1,ease:'power2.inOut'},'-=.5')
+.to('.loader-logo',{scale:1.5,opacity:0,duration:.6,ease:'power3.in'},'+=.5')
+.to('.loader-text',{opacity:0,y:-20,duration:.4},'-=.4')
+.to('.loader-bar',{width:0,opacity:0,duration:.3},'-=.3')
+.to('.loader',{opacity:0,duration:.5,onComplete:()=>{document.querySelector('.loader').style.display='none'}})
+.from('.nav',{y:-30,opacity:0,duration:.6},'-=.3');
+
+// HERO ANIMATIONS
+gsap.to('.hero-bg',{scale:1,duration:2,ease:'power3.out',delay:1.5});
+gsap.to('.hero-label',{opacity:1,y:0,duration:1,ease:'power3.out',delay:1.8});
+gsap.to('.hero-heading',{opacity:1,y:0,duration:1.2,ease:'power3.out',delay:2});
+gsap.to('.hero-sub',{opacity:1,y:0,duration:1,ease:'power3.out',delay:2.3});
+gsap.to('.hero-cta',{opacity:1,y:0,duration:1,ease:'power3.out',delay:2.5});
+gsap.to('.hero-data',{opacity:1,duration:1,ease:'power3.out',delay:2.8});
+
+// HERO PARALLAX
+gsap.to('.hero-bg',{yPercent:30,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:true}});
+gsap.to('.hero-content',{yPercent:-20,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:true}});
+gsap.to('.hero-data',{yPercent:-30,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:true}});
+
+// REVEALS
+document.querySelectorAll('.rv').forEach(el=>{ScrollTrigger.create({trigger:el,start:'top 85%',onEnter:()=>el.classList.add('active')})});
+
+// HOLOGRAM PARALLAX
+gsap.to('.hologram-img img',{yPercent:15,ease:'none',scrollTrigger:{trigger:'.hologram-section',start:'top bottom',end:'bottom top',scrub:true}});
+
+// STATS COUNTER
+document.querySelectorAll('.stat-num').forEach(s=>{
+const t=s.textContent,n=parseFloat(t),suf=t.replace(/[0-9.]/g,'');
+ScrollTrigger.create({trigger:s,start:'top 85%',onEnter:()=>{
+gsap.fromTo(s,{textContent:0},{textContent:n,duration:1.5,ease:'power3.out',snap:{textContent:1},onUpdate(){s.textContent=Math.round(parseFloat(s.textContent))+suf}});
+}})});
+
+// SCROLL INDICATOR
+const sections=document.querySelectorAll('.section,.hero,.hologram-section,.stats,.portrait-section,.cta-section');
+const indicator=document.getElementById('scrollIndicator');
+sections.forEach((_,i)=>{const dot=document.createElement('div');dot.className='scroll-dot';dot.onclick=()=>sections[i].scrollIntoView({behavior:'smooth'});indicator.appendChild(dot)});
+const dots=indicator.querySelectorAll('.scroll-dot');
+ScrollTrigger.create({trigger:'body',start:'top top',end:'bottom bottom',onUpdate:self=>{const idx=Math.round(self.progress*(sections.length-1));dots.forEach((d,i)=>d.classList.toggle('active',i===idx))}});
+</script>
+</body>
+</html>
