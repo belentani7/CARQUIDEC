@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hernando Carrillo Sánchez — Curriculum · CARQUIDEC</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+@page{size:A4;margin:0}
+:root{
+  --bg:#0A0A0A;
+  --paper:#FAF9F6;
+  --ink:#1A1A1A;
+  --gold:#C9A961;
+  --gold-dark:#B8954D;
+  --gray:#8B8680;
+  --gray-light:#B8B8B8;
+  --border:#E5E2DC;
+  --white:#FFFFFF;
+  --font-d:'Cormorant Garamond',serif;
+  --font-b:'Space Grotesk',sans-serif;
+}
+html,body{
+  background:#E8E6E2;
+  font-family:var(--font-b);
+  color:var(--ink);
+  line-height:1.5;
+  -webkit-print-color-adjust:exact;
+  print-color-adjust:exact;
+  padding:20px;
+  font-size:9.5px;
+}
+.cv{
+  width:210mm;min-height:297mm;
+  margin:0 auto;
+  background:var(--paper);
+  display:grid;
+  grid-template-columns:34% 66%;
+  box-shadow:0 12px 40px rgba(0,0,0,0.08);
+  border-radius:4px;
+  overflow:hidden;
+}
+
+/* SIDEBAR */
+.sidebar{
+  background:var(--white);
+  padding:36px 24px 30px;
+  border-right:1px solid var(--border);
+}
+.photo-wrap{
+  width:120px;height:120px;
+  margin:0 auto 16px;
+  border-radius:50%;
+  padding:3px;
+  background:var(--gold);
+  box-shadow:0 4px 14px rgba(0,0,0,0.12);
+}
+.photo{
+  width:100%;height:100%;
+  border-radius:50%;
+  overflow:hidden;
+  background:var(--paper);
+  display:flex;align-items:center;justify-content:center;
+}
+.photo img{width:100%;height:100%;object-fit:cover;object-position:center 15%;display:block}
+.sidebar-name{text-align:center;margin-bottom:20px}
+.sidebar-name h1{font-family:var(--font-d);font-size:24px;font-weight:600;line-height:1.1;color:var(--ink)}
+.sidebar-name .role{font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:2px;color:var(--gold);margin-top:4px}
+.divider{height:1px;background:var(--border);margin:16px 0}
+.sidebar-section{margin-top:20px}
+.sidebar-section h3{
+  font-size:10px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;
+  color:var(--ink);margin-bottom:12px;
+  border-bottom:1px solid var(--border);padding-bottom:5px;
+  display:flex;align-items:center;gap:8px;
+}
+.sidebar-section h3::before{content:'';display:inline-block;width:16px;height:1px;background:var(--gold)}
+
+/* Contacto */
+.contact-item{display:flex;align-items:center;gap:10px;font-size:9px;color:var(--gray);padding:4px 0}
+.contact-item .icon{width:18px;font-size:11px;text-align:center;color:var(--gold)}
+.contact-item a{color:var(--gray);text-decoration:none}
+.contact-item a:hover{color:var(--gold)}
+
+/* Perfil */
+.profile-text{font-size:9px;line-height:1.7;color:var(--gray);text-align:justify}
+
+/* Idiomas */
+.lang-row{display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid var(--border);font-size:9px}
+.lang-row:last-child{border-bottom:none}
+.lang-row .level{color:var(--gray-light);font-style:italic}
+
+/* Educacion */
+.edu-item{margin-bottom:10px}
+.edu-item .title{font-weight:700;font-size:10px;color:var(--ink)}
+.edu-item .place{font-size:9px;color:var(--gray-light);font-style:italic}
+
+/* Habilidades */
+.skill-group{margin-bottom:14px}
+.skill-group h4{font-size:9px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--gray);margin-bottom:5px}
+.skill-bar{display:flex;align-items:center;gap:8px;font-size:8.5px;color:var(--gray);padding:2px 0}
+.skill-bar .label{width:65px;flex-shrink:0;font-weight:500}
+.skill-bar .track{flex:1;height:4px;background:var(--border);border-radius:4px;overflow:hidden}
+.skill-bar .track .fill{height:100%;border-radius:4px;background:var(--gold);width:0%}
+
+/* MAIN */
+.main{padding:36px 30px 30px 26px}
+.main-header{border-bottom:2px solid var(--ink);padding-bottom:10px;margin-bottom:20px;display:flex;justify-content:space-between;align-items:flex-end}
+.main-header .name-large{font-family:var(--font-d);font-size:30px;line-height:0.9;letter-spacing:-0.5px;font-weight:600}
+.main-header .name-large span{display:block;font-weight:300;font-size:16px;color:var(--gray-light);letter-spacing:1px;margin-top:4px}
+.main-header .badge{text-align:right;font-size:8px;text-transform:uppercase;letter-spacing:1.5px;color:var(--gray-light);line-height:1.6}
+.main-header .badge strong{color:var(--ink);font-weight:600}
+
+.section{margin-bottom:24px}
+.section-title{
+  font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;
+  color:var(--ink);border-bottom:1px solid var(--border);padding-bottom:5px;margin-bottom:12px;
+  display:flex;align-items:center;gap:10px;
+}
+.section-title::before{content:'';display:inline-block;width:18px;height:2px;background:var(--gold)}
+
+/* Hitos */
+.highlights-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:4px}
+.h-item{border-left:2px solid var(--gold);padding:4px 0 4px 10px}
+.h-item .number{font-family:var(--font-d);font-size:20px;font-weight:700;line-height:1;color:var(--ink)}
+.h-item .lbl{font-size:7.5px;text-transform:uppercase;letter-spacing:0.8px;color:var(--gray-light);margin-top:2px}
+
+/* Experiencia */
+.exp-item{margin-bottom:16px}
+.exp-item .role{font-size:12px;font-weight:700;font-family:var(--font-d);color:var(--ink);line-height:1.2}
+.exp-item .company{font-size:9px;font-weight:600;color:var(--gold);text-transform:uppercase;letter-spacing:0.8px}
+.exp-item .date{font-size:8px;color:var(--gray-light);font-style:italic;margin-top:2px}
+.exp-item .desc{font-size:9px;color:var(--gray);margin-top:5px;line-height:1.6;text-align:justify}
+.exp-item .tags{display:flex;flex-wrap:wrap;gap:4px 8px;margin-top:5px}
+.exp-item .tags span{font-size:7.5px;text-transform:uppercase;letter-spacing:0.5px;color:var(--gray-light);background:var(--white);padding:2px 10px;border-radius:12px;border:1px solid var(--border)}
+
+/* Proyectos */
+.project-card{display:grid;grid-template-columns:1fr 2.5fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--border)}
+.project-card:last-child{border-bottom:none}
+.project-card .meta{font-size:8px;color:var(--gray-light);text-transform:uppercase;letter-spacing:0.8px}
+.project-card .meta .year{font-weight:700;color:var(--gold);font-size:13px;font-family:var(--font-d);display:block}
+.project-card .info .name{font-family:var(--font-d);font-size:13px;font-weight:600;color:var(--ink)}
+.project-card .info .location{font-size:8px;color:var(--gray-light);text-transform:uppercase;letter-spacing:0.8px;margin-top:2px}
+.project-card .info .desc{font-size:9px;color:var(--gray);line-height:1.5;margin-top:5px;text-align:justify}
+
+/* Footer */
+.cv-footer{margin-top:20px;padding-top:10px;border-top:1px solid var(--ink);display:flex;justify-content:space-between;font-size:7.5px;text-transform:uppercase;letter-spacing:2px;color:var(--gray-light);font-weight:500}
+
+/* Print */
+@media print{body{background:#fff;padding:0}.cv{box-shadow:none;border-radius:0}.sidebar{background:#fafafa}}
+@media screen and (max-width:800px){
+  body{padding:10px}
+  .cv{width:100%;grid-template-columns:1fr;border-radius:0}
+  .sidebar{border-right:none;border-bottom:1px solid var(--border)}
+  .project-card{grid-template-columns:1fr;gap:4px}
+}
+</style>
+</head>
+<body>
+<div class="cv">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="photo-wrap">
+      <div class="photo">
+        <img src="Nueva carpeta/444.png" alt="Hernando Carrillo Sánchez">
+      </div>
+    </div>
+
+    <div class="sidebar-name">
+      <h1>Hernando<br>Carrillo Sánchez</h1>
+      <div class="role">Arquitecto Fundador · CARQUIDEC</div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="sidebar-section">
+      <h3>Contacto</h3>
+      <div class="contact-item"><span class="icon">Barcelona, España</span><span>Colombia · España · Italia</span></div>
+      <div class="contact-item"><span class="icon">+34 612 484 854</span><a href="tel:+34612484854">+34 612 484 854</a></div>
+      <div class="contact-item"><span class="icon">carqdisantos@gmail.com</span><a href="mailto:carqdisantos@gmail.com">carqdisantos@gmail.com</a></div>
+      <div class="contact-item"><span class="icon">carquidec.com</span><span>CARQUIDEC</span></div>
+    </div>
+
+    <div class="sidebar-section">
+      <h3>Perfil</h3>
+      <p class="profile-text">
+        Arquitecto por la Universidad Autónoma del Caribe (Barranquilla, 1988) y especialista en arquitectura bioclimática. Con más de 38 años de trayectoria, Hernando ha liderado proyectos que cruzan fronteras, desde el Mediterráneo español hasta las costas de Colombia. Fundador de <strong>CARQUIDEC</strong>, estudio especializado en diseño paramétrico, bioclimático y de lujo.
+      </p>
+    </div>
+
+    <div class="sidebar-section">
+      <h3>Idiomas</h3>
+      <div class="lang-row"><span style="font-weight:600">Español</span><span class="level">Nativo</span></div>
+      <div class="lang-row"><span style="font-weight:600">Inglés</span><span class="level">Profesional</span></div>
+      <div class="lang-row"><span style="font-weight:600">Italiano</span><span class="level">Conversacional</span></div>
+    </div>
+
+    <div class="sidebar-section">
+      <h3>Educación</h3>
+      <div class="edu-item"><div class="title">Grado en Arquitectura</div><div class="place">Universidad Autónoma del Caribe, Barranquilla · 1982-1988</div></div>
+      <div class="edu-item"><div class="title">Especialización en Arquitectura Bioclimática</div><div class="place">Convention Center, Montería · 2005</div></div>
+      <div class="edu-item"><div class="title">Certificación Passivhaus Designer</div><div class="place">Passivhaus Institut, Darmstadt · 2018</div></div>
+      <div class="edu-item"><div class="title">Máster en Diseño Paramétrico</div><div class="place">IAAC, Barcelona · 2020</div></div>
+    </div>
+
+    <div class="sidebar-section">
+      <h3>Competencias</h3>
+      <div class="skill-group">
+        <h4>Diseño &amp; Modelado</h4>
+        <div class="skill-bar"><span class="label">AutoCAD</span><div class="track"><div class="fill" style="width:95%"></div></div></div>
+        <div class="skill-bar"><span class="label">Revit / BIM</span><div class="track"><div class="fill" style="width:85%"></div></div></div>
+        <div class="skill-bar"><span class="label">Rhino / Grasshopper</span><div class="track"><div class="fill" style="width:80%"></div></div></div>
+        <div class="skill-bar"><span class="label">SketchUp</span><div class="track"><div class="fill" style="width:85%"></div></div></div>
+      </div>
+      <div class="skill-group">
+        <h4>Visualización</h4>
+        <div class="skill-bar"><span class="label">V-Ray / Corona</span><div class="track"><div class="fill" style="width:90%"></div></div></div>
+        <div class="skill-bar"><span class="label">Lumion / Enscape</span><div class="track"><div class="fill" style="width:80%"></div></div></div>
+        <div class="skill-bar"><span class="label">Adobe Suite</span><div class="track"><div class="fill" style="width:85%"></div></div></div>
+      </div>
+      <div class="skill-group">
+        <h4>Análisis</h4>
+        <div class="skill-bar"><span class="label">EnergyPlus</span><div class="track"><div class="fill" style="width:75%"></div></div></div>
+        <div class="skill-bar"><span class="label">Python / IA</span><div class="track"><div class="fill" style="width:60%"></div></div></div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+    <div class="main-header">
+      <div class="name-large">
+        Hernando Carrillo
+        <span>Arquitectura · Dirección · Consultoría</span>
+      </div>
+      <div class="badge">
+        <strong>CARQUIDEC</strong><br>
+        Fundador · Director Creativo
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="section-title">Hitos profesionales</div>
+      <div class="highlights-grid">
+        <div class="h-item"><div class="number">38+</div><div class="lbl">Años de experiencia</div></div>
+        <div class="h-item"><div class="number">60+</div><div class="lbl">Proyectos ejecutados</div></div>
+        <div class="h-item"><div class="number">3</div><div class="lbl">Mercados internacionales</div></div>
+        <div class="h-item"><div class="number">100%</div><div class="lbl">Satisfacción del cliente</div></div>
+        <div class="h-item"><div class="number">2020</div><div class="lbl">Fundación CARQUIDEC</div></div>
+        <div class="h-item"><div class="number">4</div><div class="lbl">Premios internacionales</div></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Trayectoria profesional</div>
+
+      <div class="exp-item">
+        <div class="role">Fundador · Director Creativo</div>
+        <div class="company">CARQUIDEC — Arquitectura &amp; Decoración de Interiores</div>
+        <div class="date">2020 – Presente · Barcelona, España</div>
+        <div class="desc">
+          Creación del estudio con una misión clara: crear arquitectura que provoque emoción. Dirección integral de proyectos residenciales de lujo, hoteleros y comerciales en Colombia, España e Italia. Liderazgo en diseño paramétrico, bioclimático e inteligencia artificial aplicada a arquitectura.
+        </div>
+        <div class="tags"><span>Diseño paramétrico</span><span>Bioclimático</span><span>Lujo</span><span>Residencial</span><span>Hotelero</span></div>
+      </div>
+
+      <div class="exp-item">
+        <div class="role">Arquitecto Senior · Director Internacional</div>
+        <div class="company">Proyectos Independientes · España · Italia · Colombia</div>
+        <div class="date">2005 – 2020</div>
+        <div class="desc">
+          Expansión internacional con proyectos en España e Italia que fusionaron la arquitectura tropical colombiana con el diseño mediterráneo. Primer hotel boutique en la Costa Brava. Integración de tecnología BIM y gemelos digitales.
+        </div>
+        <div class="tags"><span>Internacional</span><span>Hotelero</span><span>BIM</span><span>Mediterráneo</span></div>
+      </div>
+
+      <div class="exp-item">
+        <div class="role">Arquitecto · Paisajista</div>
+        <div class="company">Proyectos Residenciales · Colombia</div>
+        <div class="date">1995 – 2005</div>
+        <div class="desc">
+          Viajes de formación a Japón, Italia y Costa Rica. Descubrimiento del paisajismo como arte independiente. Integración perfecta entre agua, piedra y vegetación. Primeros proyectos residenciales de lujo y especialización en bioclimatismo.
+        </div>
+        <div class="tags"><span>Paisajismo</span><span>Bioclimatismo</span><span>Residencial</span></div>
+      </div>
+
+      <div class="exp-item">
+        <div class="role">Arquitecto Junior</div>
+        <div class="company">Inicio de carrera · Barranquilla, Colombia</div>
+        <div class="date">1988 – 1995</div>
+        <div class="desc">
+          Graduación en Arquitectura por la Universidad Autónoma del Caribe. Primeros proyectos residenciales. Especialización en dibujo técnico artesanal y construcción tradicional caribeña.
+        </div>
+        <div class="tags"><span>Dibujo técnico</span><span>Construcción</span><span>Caribe</span></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Proyectos destacados</div>
+
+      <div class="project-card">
+        <div class="meta"><span class="year">2024</span><span>Corozal, Colombia</span></div>
+        <div class="info"><div class="name">Complejo Residencial Multifamiliar</div><div class="location">8,500 m² · 50+ unidades</div><div class="desc">Diseño paramétrico con orientación bioclimática calculada algorítmicamente. 40% de ahorro energético respecto a construcción convencional.</div></div>
+      </div>
+
+      <div class="project-card">
+        <div class="meta"><span class="year">2022</span><span>Montería, Colombia</span></div>
+        <div class="info"><div class="name">Villa Contemporánea de Lujo</div><div class="location">650 m² + 1,200 m² jardín</div><div class="desc">Villa bioclimática con estrategias pasivas de refrigeración, materiales nobles y paisajismo sensorial.</div></div>
+      </div>
+
+      <div class="project-card">
+        <div class="meta"><span class="year">2019</span><span>Valencia, España</span></div>
+        <div class="info"><div class="name">Villa Mediterránea de Verano</div><div class="location">420 m² · Alquiler vacacional premium</div><div class="desc">Reinterpretación contemporánea de la arquitectura mediterránea con patios interiores ajardinados.</div></div>
+      </div>
+
+      <div class="project-card">
+        <div class="meta"><span class="year">2018</span><span>Montería, Colombia</span></div>
+        <div class="info"><div class="name">Remodelación Hotel Boutique</div><div class="location">1,800 m² reformados · 4 estrellas</div><div class="desc">Renovación integral con materiales nobles, iluminación escenográfica y mobiliario ergonómico de alta gama.</div></div>
+      </div>
+
+      <div class="project-card" style="border-bottom:none">
+        <div class="meta"><span class="year">2017</span><span>Barranquilla, Colombia</span></div>
+        <div class="info"><div class="name">Cine Independiente</div><div class="location">850 m² · 3 salas · LEED Platinum</div><div class="desc">Diseño acústico paramétrico, sistemas de proyección 4K Dolby Vision e iluminación inmersiva.</div></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Premios y reconocimientos</div>
+      <div class="highlights-grid" style="grid-template-columns:1fr 1fr">
+        <div class="h-item"><div class="number" style="font-size:14px">2024</div><div class="lbl">Finalista Premio Latinoamericano de Arquitectura Sostenible</div></div>
+        <div class="h-item"><div class="number" style="font-size:14px">2022</div><div class="lbl">Mención de Honor Bienal de Arquitectura de Colombia</div></div>
+        <div class="h-item"><div class="number" style="font-size:14px">2019</div><div class="lbl">Premio FAD de Arquitectura Internacional</div></div>
+        <div class="h-item"><div class="number" style="font-size:14px">2017</div><div class="lbl">Certificación LEED Platinum</div></div>
+      </div>
+    </section>
+
+    <footer class="cv-footer">
+      <span>Hernando Carrillo Sánchez</span>
+      <span>Director Arquitectónico · CARQUIDEC</span>
+      <span>Arquitectura · Diseño · Gestión</span>
+    </footer>
+  </main>
+
+</div>
+</body>
+</html>
