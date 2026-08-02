@@ -52,7 +52,7 @@ body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;o
 .nav-links a:hover{color:var(--ac)}
 .nav-cta{padding:8px 16px!important;background:var(--ac)!important;color:var(--bg)!important;font-weight:600!important}
 .lang-bar{position:fixed;top:60px;right:48px;z-index:100;display:flex;gap:4px}
-.lang-bar button{background:none;border:none;color:var(--td);font-size:9px;letter-spacing:0.12em;text-transform:uppercase;cursor:pointer;padding:4px 8px;transition:color .3s;font-family:var(--font-b)}
+.lang-bar button{background:none;border:none;color:var(--td);font-size:13px;letter-spacing:0.12em;text-transform:uppercase;cursor:pointer;padding:6px 12px;transition:color .3s;font-family:var(--font-b)}
 .lang-bar button:hover,.lang-bar button.active{color:var(--ac)}
 .slide{min-height:100vh;min-height:100dvh;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;padding:80px 48px}
 .slide-dark{background:var(--bg)}
@@ -76,9 +76,13 @@ body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;o
 .btn-o{background:transparent;color:var(--t);border:1px solid rgba(255,255,255,0.15)}.btn-o:hover{border-color:var(--gold);color:var(--gold)}
 .btns{display:flex;gap:12px;margin-top:32px;flex-wrap:wrap}
 .stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;width:100%}
-.stat-item{background:rgba(255,255,255,0.02);padding:48px 24px;text-align:center;border:1px solid rgba(255,255,255,0.03)}
-.stat-num{font-family:var(--font-d);font-size:clamp(2rem,4vw,3rem);font-weight:300;color:var(--gold);margin-bottom:8px}
-.stat-label{font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:var(--td)}
+.stat-item{background:rgba(255,255,255,0.02);padding:48px 24px;text-align:center;border:1px solid rgba(255,255,255,0.03);position:relative;overflow:hidden;transition:background .4s,border-color .4s,transform .4s}
+.stat-item:hover{background:rgba(184,168,138,0.05);border-color:rgba(184,168,138,0.15);transform:translateY(-4px)}
+.stat-icon{width:38px;height:38px;margin:0 auto 16px;color:var(--gold);opacity:.9;position:relative;z-index:1}
+.stat-num{font-family:var(--font-d);font-size:clamp(3rem,6vw,4.5rem);font-weight:300;color:var(--gold);margin-bottom:8px;line-height:1;position:relative;z-index:1}
+.stat-label{font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:var(--td);position:relative;z-index:1}
+.stat-item::after{content:"";position:absolute;left:50%;bottom:0;width:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);transform:translateX(-50%);transition:width .6s cubic-bezier(.16,1,.3,1)}
+.stat-item:hover::after{width:60%}
 .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;width:100%}
 .grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;width:100%}
 .grid-item{background:rgba(255,255,255,0.02);padding:48px 32px;border:1px solid rgba(255,255,255,0.03);transition:background .4s,border-color .4s}
@@ -109,6 +113,23 @@ body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;o
 .contact-val{font-size:14px;color:var(--t)}
 .contact-val a{color:var(--gold);text-decoration:none;transition:color .3s}
 .contact-val a:hover{color:#fff}
+.podcast-shell{max-width:980px;margin:0 auto;display:grid;grid-template-columns:1fr 1.05fr;gap:24px;align-items:center}
+.phone{position:relative;width:min(340px,85vw);aspect-ratio:9/19;background:linear-gradient(180deg,#1a1a1a,#0c0c0c);border:12px solid #2d2d2d;border-radius:34px;padding:14px 10px;box-shadow:inset 0 0 0 2px #3d3d3d,0 20px 50px rgba(0,0,0,.35);margin:0 auto}
+.phone-screen{position:relative;height:100%;border-radius:26px;background:radial-gradient(circle at 50% 10%,#151515,#0b0b0b);padding:18px 14px;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;gap:14px}
+.phone-top{position:absolute;inset:8px 48px 8px 48px;border-radius:20px 20px 0 0;background:#2a2a2a;height:7px}
+.phone-speaker{height:6px;width:40px;border-radius:3px;background:#3f3f3f;margin:0 auto 8px}
+.player-title{font-family:var(--font-d);font-size:19px;letter-spacing:.02em;color:#efe9de}
+.wave{height:40px;display:grid;place-items:end center;gap:4px;grid-template-columns:repeat(16,1fr)}
+.wave span{display:block;height:var(--h,20px);width:4px;border-radius:4px;background:rgba(184,168,138,.45)}
+.track-list{display:grid;gap:10px}
+.track{display:flex;gap:12px;align-items:center;padding:12px 14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.02);cursor:pointer;transition:.25s}
+.track:hover{border-color:rgba(184,168,138,.5)}
+.track.playing{border-color:var(--gold);background:rgba(184,168,138,.09)}
+.track-number{width:24px;height:24px;border-radius:50%;display:grid;place-items:center;color:var(--gold);font-size:12px;border:1px solid rgba(184,168,138,.5)}
+.track-meta{flex:1;font-size:13px}.track-meta small{display:block;color:var(--td);font-size:11px}
+.podcast-cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:4px}
+.podcast-cta .btn{padding:10px 16px;font-size:10px}
+@media (max-width: 860px){.podcast-shell{grid-template-columns:1fr;text-align:center}.phone{margin-bottom:16px}}
 .footer{padding:40px 48px;border-top:1px solid rgba(255,255,255,0.04);display:flex;align-items:center;justify-content:space-between}
 .footer-brand{display:flex;align-items:center;gap:12px}
 .footer-brand img{height:24px}
@@ -183,26 +204,27 @@ body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;o
 <span class="nav-brand">Carquidec</span>
 </div>
 <div class="nav-links">
-<a href="#s1" data-es="Inicio" data-en="Home" data-ca="Inici" data-fr="Accueil" data-it="Home">Inicio</a>
+<a href="#top" data-es="Inicio" data-en="Home" data-ca="Inici" data-fr="Accueil" data-it="Home">Inicio</a>
 <a href="#s3" data-es="Servicios" data-en="Services" data-ca="Serveis" data-fr="Services" data-it="Servizi">Servicios</a>
 <a href="#s5" data-es="Proyectos" data-en="Projects" data-ca="Projectes" data-fr="Projets" data-it="Progetti">Proyectos</a>
 <a href="#s7" data-es="Metodo" data-en="Method" data-ca="Metode" data-fr="Methode" data-it="Metodo">Metodo</a>
-<a href="#s9" data-es="Trayectoria" data-en="Journey" data-ca="Trajectoria" data-fr="Parcours" data-it="Percorso">Trayectoria</a>
-<a href="#s13" data-es="Curriculum" data-en="Resume" data-ca="Curriculum" data-fr="Parcours" data-it="Curriculum">Curriculum</a>
-<a href="#s11" class="nav-cta" data-es="Contactar" data-en="Contact" data-ca="Contactar" data-fr="Contacter" data-it="Contatti">Contactar</a>
+<a href="#about" data-es="Acerca" data-en="About" data-ca="Sobre" data-fr="A Propos" data-it="Chi Sono">Acerca</a>
+<a href="#blog" data-es="Leer" data-en="Read" data-ca="Llegir" data-fr="Lire" data-it="Leggi">Leer</a>
+<a href="#podcast" data-es="Radio" data-ca="Ràdio" data-fr="Radio" data-it="Radio">Radio</a>
+<a href="#contacto" class="nav-cta" data-es="Contacto" data-en="Contact" data-ca="Contacte" data-fr="Contact" data-it="Contatto">Contacto</a>
 </div>
 </nav>
 <div class="lang-bar">
-<button class="active" onclick="setLang('es')">ES</button>
-<button onclick="setLang('en')">EN</button>
-<button onclick="setLang('ca')">CA</button>
-<button onclick="setLang('fr')">FR</button>
-<button onclick="setLang('it')">IT</button>
+<button class="active" data-lang="es">ES</button>
+<button data-lang="en">EN</button>
+<button data-lang="ca">CA</button>
+<button data-lang="fr">FR</button>
+<button data-lang="it">IT</button>
 </div>
 
-<button id="scrollTop" onclick="lenis.scrollTo(0)" style="position:fixed;bottom:24px;right:24px;z-index:100;width:48px;height:48px;background:rgba(10,10,10,0.85);border:1px solid rgba(184,168,138,0.2);color:#b8a88a;font-size:20px;cursor:pointer;opacity:0;transition:opacity .3s;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(10px)">↑</button>
+<button id="scrollTop" data-scroll-top style="position:fixed;bottom:24px;right:24px;z-index:100;width:48px;height:48px;background:rgba(10,10,10,0.85);border:1px solid rgba(184,168,138,0.2);color:#b8a88a;font-size:20px;cursor:pointer;opacity:0;transition:opacity .3s;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(10px)">↑</button>
 
-<button id="menuToggle" onclick="document.querySelector('.nav-links').classList.toggle('show')" style="display:none;position:fixed;top:16px;left:20px;z-index:101;background:none;border:none;color:#b8a88a;font-size:24px;cursor:pointer">☰</button>
+<button id="menuToggle" data-menu-toggle style="display:none;position:fixed;top:16px;left:20px;z-index:101;background:none;border:none;color:#b8a88a;font-size:24px;cursor:pointer">☰</button>
 
 <div class="slide-indicator" id="slideIndicator"></div>
 
@@ -211,15 +233,15 @@ body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;o
 <div class="slide-full-bg" style="background-image:url('20260730222718545141.jpg')"></div>
 <div class="slide-full-ov"></div>
 <div class="slide-full-content">
-<div class="rv" style="margin-bottom:32px">
-<img src="logo-carquidec-transparent.png" alt="CARQUIDEC" style="width:160px;height:auto;filter:drop-shadow(0 0 30px rgba(184,168,138,0.4))">
+<div class="rv" style="margin-bottom:40px;text-align:center">
+<img src="logo-carquidec-transparent.png" alt="CARQUIDEC" style="width:min(320px,70vw);height:auto;filter:drop-shadow(0 0 40px rgba(184,168,138,0.5)) drop-shadow(0 0 2px rgba(10,10,10,0.9));display:inline-block">
 </div>
 <div class="label rv" data-es="Hernando Carrillo — Arquitecto Fundador" data-en="Hernando Carrillo — Founding Architect" data-ca="Hernando Carrillo — Arquitect Fundador" data-fr="Hernando Carrillo — Architecte Fondateur" data-it="Hernando Carrillo — Architetto Fondatore">Hernando Carrillo — Arquitecto Fundador</div>
 <h1 class="heading rv" style="font-size:clamp(3rem,8vw,6rem)" data-es="CARQUIDEC<br><em>Arquitectura & Decoracion</em>" data-en="CARQUIDEC<br><em>Architecture & Interior Design</em>" data-ca="CARQUIDEC<br><em>Arquitectura & Decoracio</em>" data-fr="CARQUIDEC<br><em>Architecture & Decoration Interieure</em>" data-it="CARQUIDEC<br><em>Architettura & Decorazione</em>">CARQUIDEC<br><em>Arquitectura & Decoracion</em></h1>
 <p class="body body-large rv" data-es="Mas de 38 anios creando residencias de lujo, hoteles boutique y espacios comerciales en Colombia, Espana e Italia." data-en="Over 38 years creating luxury residences, boutique hotels and commercial spaces in Colombia, Spain and Italy." data-ca="Mes de 38 anys creant residencies de luxe, hotels boutique i espais comercials a Colombia, Espanya i Italia." data-fr="Plus de 38 ans a creer des residences de luxe, des hotels boutique et des espaces commerciaux en Colombie, Espagne et Italie." data-it="Oltre 38 anni a creare residenze di lusso, hotel boutique e spazi commerciali in Colombia, Spagna e Italia.">Mas de 38 anios creando residencias de lujo, hoteles boutique y espacios comerciales en Colombia, Espana e Italia.</p>
 <div class="btns rv">
 <a href="#s5" class="btn btn-p" data-es="Ver Proyectos" data-en="View Projects" data-ca="Veure Projectes" data-fr="Voir Projets">Ver Proyectos</a>
-<a href="#s11" class="btn btn-o" data-es="Contactar" data-en="Contact" data-ca="Contactar" data-fr="Contacter">Contactar</a>
+<a href="contacto.html" class="btn btn-o" data-es="Contactar" data-en="Contact" data-ca="Contactar" data-fr="Contacter">Contactar</a>
 </div>
 </div>
 </section>
@@ -261,210 +283,369 @@ body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;o
 </div>
 </section>
 
+
+
 <!-- S4: PROYECTO RESIDENCIAL -->
 <section class="slide" id="s4" style="padding:0">
-<img src="db512115-ddff-4a7a-9377-74c858126c24.jpg" alt="Villa residencial moderna CARQUIDEC" class="img-full clip-rv-right" loading="lazy">
+<img src="stock-photography_professional_photo_of_moderniza_logo_y_hazlo_png_Cinematic_architectural_photogr-0 (1).jpg" alt="Villa residencial moderna CARQUIDEC" class="img-full clip-rv-right" loading="lazy">
 </section>
 
-<!-- S5: GALERIA PROYECTOS -->
+<!-- ================================================================ -->
+<!-- LIMITE INICIAL: GALERIA-HEROS — ZONA PERMITIDA PARA RECONSTRUIR -->
+<!-- ================================================================ -->
+<!-- S5: GALERIA DE HEROES (cada foto = 1 diapositiva full-screen) -->
 <section class="slide slide-dark" id="s5">
 <div class="slide-inner">
 <div class="label rv" data-es="// Nuestros Proyectos" data-en="// Our Projects" data-ca="// Els Nostres Projectes" data-fr="// Nos Projets">// Nuestros Proyectos</div>
 <h2 class="heading rv" data-es="Obras <em>Destacadas</em>" data-en="Featured <em>Works</em>" data-ca="Obres <em>Destacades</em>" data-fr="Travaux <em>En Vedette</em>">Obras <em>Destacadas</em></h2>
-<div class="gallery-grid" style="margin-top:40px">
-<div class="gallery-item rv">
-<img src="H1.jpg" alt="Villa residencial CARQUIDEC" loading="lazy">
-<div class="gallery-label">Villa Residencial</div>
-<div class="gallery-desc">Villa de dos plantas con vistas al mar. Concreto expuesto, madera tropical y jardines que se funden con el paisaje.</div>
-</div>
-<div class="gallery-item rv">
-<img src="7.jpg" alt="Hotel boutique CARQUIDEC" loading="lazy">
-<div class="gallery-label">Hotel Boutique</div>
-<div class="gallery-desc">Entrada de hotel boutique con fuente de agua. Cada detalle invita a permanecer. Luz natural y materiales nobles.</div>
-</div>
-<div class="gallery-item rv">
-<img src="20260730221957337165.jpg" alt="Casa colonial tropical CARQUIDEC" loading="lazy">
-<div class="gallery-label">Casa Colonial</div>
-<div class="gallery-desc">Residencia con techo de barro artesanal. Fusion de tradicion local con comodidad contemporanea. Paisajismo integrado.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/20260730222940634241.jpg" alt="Interior comercial CARQUIDEC" loading="lazy">
-<div class="gallery-label">Interior Comercial</div>
-<div class="gallery-desc">Espacio comercial con galeria de arte integrada. Paredes grises, pisos de marmol, iluminacion focalizada.</div>
-</div>
-<div class="gallery-item rv">
-<img src="barguil.jpg" alt="Oficina ejecutiva CARQUIDEC" loading="lazy">
-<div class="gallery-label">Oficina Ejecutiva</div>
-<div class="gallery-desc">Oficina de direccion con vista panoramica. Escritorio de madera maciza, libros de arquitectos de referencia.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Cavalli lavamanos 1.jpg" alt="Bano de diseno CARQUIDEC" loading="lazy">
-<div class="gallery-label">Bano de Diseno</div>
-<div class="gallery-desc">Bano residencial con lavamanos de diseno exclusivo. Marmol, madera y ceramica artesanal en armonia.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/20260730221736337707.png" alt="Edificio corporativo CARQUIDEC" loading="lazy">
-<div class="gallery-label">Edificio Corporativo</div>
-<div class="gallery-desc">Edificio de oficinas de 4 pisos. Fachada blanca con paneles de madera. Cristaleria panoramica.</div>
-</div>
-<div class="gallery-item rv">
-<img src="01-EDIFICIO.jpg" alt="Edificio comercial CARQUIDEC" loading="lazy">
-<div class="gallery-label">Edificio Comercial</div>
-<div class="gallery-desc">Complejo comercial con locales a la calle. Diseno moderno que se integra con el entorno urbano.</div>
-</div>
-<div class="gallery-item rv">
-<img src="54.jpg" alt="Fachada moderna CARQUIDEC" loading="lazy">
-<div class="gallery-label">Fachada Moderna</div>
-<div class="gallery-desc">Fachada contemporanea con lineas limpias. Voladores de concreto y ventanales de piso a techo.</div>
-</div>
-<div class="gallery-item rv">
-<img src="p12.jpg" alt="Proyecto residencial CARQUIDEC" loading="lazy">
-<div class="gallery-label">Residencial Lujo</div>
-<div class="gallery-desc">Residencia de lujo con piscina infinity. Espacios interiores que se abren al exterior.</div>
-</div>
-<div class="gallery-item rv">
-<img src="vista 1 2.jpg" alt="Vista panoramica CARQUIDEC" loading="lazy">
-<div class="gallery-label">Vista Panoramica</div>
-<div class="gallery-desc">Vista aerea del proyecto completo. Integracion total entre arquitectura y paisaje natural.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/20260730223149789515.jpg" alt="Bano de lujo CARQUIDEC" loading="lazy">
-<div class="gallery-label">Bano de Lujo</div>
-<div class="gallery-desc">Suite principal con bano de spa. Piedra natural, madera termotratada, ducha tipo lluvia.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/3333f4e5-3e84-466a-acac-256138671ed0.png" alt="Proyecto residencial CARQUIDEC" loading="lazy">
-<div class="gallery-label">Proyecto Residencial</div>
-<div class="gallery-desc">Residencia de lujo con diseno parametrico. Integracion total con el entorno natural.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/48370623-716a-47ca-978d-6ab861a2e0b9.png" alt="Vista arquitectonica CARQUIDEC" loading="lazy">
-<div class="gallery-label">Vista Arquitectonica</div>
-<div class="gallery-desc">Volumetria contemporanea con fachada de hormigón visto y acabados de madera tropical.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/4dced077-93ef-482f-9b29-41b3bc4928d4.png" alt="Interior de diseno CARQUIDEC" loading="lazy">
-<div class="gallery-label">Interior de Diseno</div>
-<div class="gallery-desc">Espacio interior con iluminacion natural cenital y materiales nobles en armonia.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/6beb4687-8167-4121-9074-d643b0940dc7.png" alt="Render arquitectonico CARQUIDEC" loading="lazy">
-<div class="gallery-label">Render Arquitectonico</div>
-<div class="gallery-desc">Visualizacion 3D de proyecto residencial con paisajismo integrado.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/BCO.7c82120a-adeb-474c-8316-0a853ab82f12~2.jpg" alt="Bano de diseno CARQUIDEC" loading="lazy">
-<div class="gallery-label">Bano de Diseno</div>
-<div class="gallery-desc">Revestimientos de piedra natural, griferia de alta gama, iluminacion ambiental.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/BCO.8588eff7-91ee-4220-9364-8a184912909a.png" alt="Proyecto comercial CARQUIDEC" loading="lazy">
-<div class="gallery-label">Proyecto Comercial</div>
-<div class="gallery-desc">Espacio comercial con diseno interior de autor. Acabados premium y flujo optimizado.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/BCO.a64d9811-7ce1-4736-9fcb-001ae9aa405d.png" alt="Fachada moderna CARQUIDEC" loading="lazy">
-<div class="gallery-label">Fachada Moderna</div>
-<div class="gallery-desc">Fachada contemporanea con cristaleria panoramica y voladizos calculados.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/Copilot_20260730_162451.png" alt="Concepto arquitectonico CARQUIDEC" loading="lazy">
-<div class="gallery-label">Concepto Arquitectonico</div>
-<div class="gallery-desc">Vision conceptual de espacio residencial con integracion paisajistica.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/d269af69-49bc-4e8e-8cb6-4a8bac67f2ec (1).png" alt="Vista panoramica CARQUIDEC" loading="lazy">
-<div class="gallery-label">Vista Panoramica</div>
-<div class="gallery-desc">Vista aerea del proyecto completo. Integracion total entre arquitectura y paisaje.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/empty_office_interior.webp" alt="Interior corporativo CARQUIDEC" loading="lazy">
-<div class="gallery-label">Interior Corporativo</div>
-<div class="gallery-desc">Oficina ejecutiva con mobiliario de diseno y vistas panorámicas.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/fe4ded61-cb9f-4367-9ce2-adf32396f0dd.png" alt="Proyecto residencial CARQUIDEC" loading="lazy">
-<div class="gallery-label">Residencial Exclusivo</div>
-<div class="gallery-desc">Vivienda unifamiliar con estandares de lujo y eficiencia energetica.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/imagine_prompt_Architectural_photography_of_a_completed_real.jpg" alt="Fotografia arquitectonica CARQUIDEC" loading="lazy">
-<div class="gallery-label">Fotografia Arquitectonica</div>
-<div class="gallery-desc">Proyecto completado documentado con fotografia profesional de arquitectura.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/NoteGPT_Image_20260730162440.png" alt="Detalle constructivo CARQUIDEC" loading="lazy">
-<div class="gallery-label">Detalle Constructivo</div>
-<div class="gallery-desc">Detalle de acabados y materiales nobles en fase de construccion.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/stock-photography_professional_photo_of_moderniza_FOTO_DE_CASA_CON_LOGO_photography-0.jpg" alt="Residencia moderna CARQUIDEC" loading="lazy">
-<div class="gallery-label">Residencia Moderna</div>
-<div class="gallery-desc">Vivienda contemporanea con fachada de lineas limpias y jardines integrados.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/stock-photography_professional_photo_of_moderniza_FOTO_DE_CASA_CON_LOGO_photography-1.jpg" alt="Villa residencial CARQUIDEC" loading="lazy">
-<div class="gallery-label">Villa Residencial</div>
-<div class="gallery-desc">Villa de lujo con piscina infinity y conexion interior-exterior total.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/stock-photography_professional_photo_of_moderniza_FOTO_DE_CASA_CON_LOGO_photography-2.jpg" alt="Casa de diseno CARQUIDEC" loading="lazy">
-<div class="gallery-label">Casa de Diseno</div>
-<div class="gallery-desc">Residencia con materiales nobles: piedra, madera y cristal en armonia.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/stock-photography_professional_photo_of_moderniza_FOTO_DE_CASA_CON_LOGO_photography-3.jpg" alt="Proyecto completo CARQUIDEC" loading="lazy">
-<div class="gallery-label">Proyecto Completo</div>
-<div class="gallery-desc">Vista general del proyecto con paisajismo y arquitectura integrados.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/stock-photography_professional_photo_of_moderniza_logo_y_hazlo_png_Cinematic_architectural_photogr-0.jpg" alt="Render cinematico CARQUIDEC" loading="lazy">
-<div class="gallery-label">Render Cinematico</div>
-<div class="gallery-desc">Visualizacion cinematografica de proyecto residencial al atardecer.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/stock-photography_professional_photo_of_moderniza_logo_y_hazlo_png_Cinematic_architectural_photogr-2.jpg" alt="Vista nocturna CARQUIDEC" loading="lazy">
-<div class="gallery-label">Vista Nocturna</div>
-<div class="gallery-desc">Iluminacion arquitectonica nocturna. Efecto de flotacion y calidez controlada.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/stock-photography_professional_photo_of_moderniza_logo_y_hazlo_png_Cinematic_architectural_photogr-3.jpg" alt="Atardecer arquitectonico CARQUIDEC" loading="lazy">
-<div class="gallery-label">Atardecer Arquitectonico</div>
-<div class="gallery-desc">Proyecto al atardecer con luz dorada rasante resaltando texturas.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/upscalemedia-transformed.png" alt="Proyecto finalizado CARQUIDEC" loading="lazy">
-<div class="gallery-label">Proyecto Finalizado</div>
-<div class="gallery-desc">Proyecto entregado y habitado. Arquitectura que trasciende generaciones.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/hologram_cutout.png" alt="Visualizacion holografica CARQUIDEC" loading="lazy">
-<div class="gallery-label">Visualizacion Holografica</div>
-<div class="gallery-desc">Render holografico de proyecto residencial con iluminacion ambiental.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/Copilot_20260730_165702.png" alt="Detalle de proyecto CARQUIDEC" loading="lazy">
-<div class="gallery-label">Detalle de Proyecto</div>
-<div class="gallery-desc">Vista detallada de acabados y materiales en fase de desarrollo.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/Copilot_20260730_165119.png" alt="Concepto espacial CARQUIDEC" loading="lazy">
-<div class="gallery-label">Concepto Espacial</div>
-<div class="gallery-desc">Conceptualizacion de espacio interior con flujo luminoso natural.</div>
-</div>
-<div class="gallery-item rv">
-<img src="Nueva carpeta/Copilot_20260730_165023.png" alt="Vista interior CARQUIDEC" loading="lazy">
-<div class="gallery-label">Vista Interior</div>
-<div class="gallery-desc">Interior residencial con conexion total interior-exterior.</div>
-</div>
-</div>
+<p class="body rv" data-es="Cada imagen es un proyecto completo. Cada proyecto, una leccion de concepto, tecnica o valor. Deslice hacia abajo." data-en="Each image is a complete project. Each project, a lesson in concept, technique or value. Scroll down." data-ca="Cada imatge es un projecte complet. Cada projecte, una llico de concepte, tecnica o valor. Desplaceu-vos cap avall." data-fr="Chaque image est un projet complet. Chaque projet, une lecon de concept, de technique ou de valeur. Faites defiler.">Cada imagen es un proyecto completo. Cada proyecto, una leccion de concepto, tecnica o valor. Deslice hacia abajo.</p>
 </div>
 </section>
 
-<!-- S6: HERNANDO EN ESCRITORIO -->
-<section class="slide" id="s6" style="padding:0">
-<img src="c4c9c852-903c-47c2-acfc-1aae9c96e133-removebg-preview.png" alt="Hernando Carrillo en su estudio" class="img-full clip-rv-left" loading="lazy">
+<!-- HERO 01 -->
+<section class="slide" id="g01" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('H1.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Concepto" data-en="// Concept" data-ca="// Concepte" data-fr="// Concept">// Concepto</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Villa <em>Residencial</em>" data-en="Residential <em>Villa</em>" data-ca="Villa <em>Residencial</em>" data-fr="Villa <em>Residentielle</em>">Villa <em>Residencial</em></h2>
+<p class="body rv" data-es="Concreto expuesto, madera tropical y jardines que se funden con el paisaje. La casa deja de ser un objeto y se convierte en parte del terreno." data-en="Exposed concrete, tropical wood and gardens that merge with the landscape. The house stops being an object and becomes part of the land." data-ca="Formigo vist, fusta tropical i jardins que es fonen amb el paisatge. La casa deixa de ser un objecte i es converteix en part del terreny." data-fr="Beton brut, bois tropical et jardins qui se fondent dans le paysage. La maison cesse d'etre un objet et devient partie du terrain.">Concreto expuesto, madera tropical y jardines que se funden con el paisaje. La casa deja de ser un objeto y se convierte en parte del terreno.</p>
+</div>
 </section>
+
+
+
+
+
+<!-- HERO 02 -->
+<section class="slide" id="g02" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('stock-photography_professional_photo_of_moderniza_logo_y_hazlo_png_Cinematic_architectural_photogr-0 (2).jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Hoteleria" data-en="// Hospitality" data-ca="// Hoteleria" data-fr="// Hotellerie">// Hoteleria</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Hotel <em>Boutique</em>" data-en="Boutique <em>Hotel</em>" data-ca="Hotel <em>Boutique</em>" data-fr="Hotel <em>Boutique</em>">Hotel <em>Boutique</em></h2>
+<p class="body rv" data-es="Una entrada con fuente de agua que invita a permanecer. La luz natural y los materiales nobles convierten una estancia en experiencia." data-en="An entrance with a water fountain that invites lingering. Natural light and noble materials turn a stay into an experience." data-ca="Una entrada amb font d'aigua que convida a romandre. La llum natural i els materials nobles converteixen una estada en experiencia." data-fr="Une entree avec fontaine d'eau qui invite a rester. La lumiere naturelle et les materiaux nobles transforment un sejour en experience.">Una entrada con fuente de agua que invita a permanecer. La luz natural y los materiales nobles convierten una estancia en experiencia.</p>
+</div>
+</section>
+<!-- HERO 03 -->
+<section class="slide" id="g03" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('stock-photography_professional_photo_of_moderniza_logo_y_hazlo_png_Cinematic_architectural_photogr-0 (3).jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Tradicion" data-en="// Tradition" data-ca="// Tradicio" data-fr="// Tradition">// Tradicion</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Casa <em>Colonial</em>" data-en="Colonial <em>House</em>" data-ca="Casa <em>Colonial</em>" data-fr="Maison <em>Coloniale</em>">Casa <em>Colonial</em></h2>
+<p class="body rv" data-es="Techo de barro artesanal y comodidad contemporanea. Fusion de tradicion local y lenguaje moderno, con paisajismo integrado." data-en="Handmade clay roof and contemporary comfort. A fusion of local tradition and modern language, with integrated landscaping." data-ca="Teulada de fang artesanal i comoditat contemporania. Fusio de tradicio local i llenguatge modern, amb paisatgisme integrat." data-fr="Toit de terre cuite artisanale et confort contemporain. Fusion de tradition locale et de langage moderne, avec paysagisme integre.">Techo de barro artesanal y comodidad contemporanea. Fusion de tradicion local y lenguaje moderno, con paisajismo integrado.</p>
+</div>
+</section><!-- HERO 04 -->
+<section class="slide" id="g04" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/20260730222940634241.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Tecnica" data-en="// Technique" data-ca="// Tecnica" data-fr="// Technique">// Tecnica</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Interior <em>Comercial</em>" data-en="Commercial <em>Interior</em>" data-ca="Interior <em>Comercial</em>" data-fr="Interieur <em>Commercial</em>">Interior <em>Comercial</em></h2>
+<p class="body rv" data-es="Paredes grises, pisos de marmol e iluminacion focalizada. La galeria de arte integrada demuestra que el comercio tambien es cultura." data-en="Grey walls, marble floors and focused lighting. The integrated art gallery proves that commerce is also culture." data-ca="Parets grises, pisos de marbre i il.luminacio focalitzada. La galeria d'art integrada demostra que el comerç tambe es cultura." data-fr="Murs gris, sols de marbre et eclairage focalise. La galerie d'art integree prouve que le commerce est aussi de la culture.">Paredes grises, pisos de marmol e iluminacion focalizada. La galeria de arte integrada demuestra que el comercio tambien es cultura.</p>
+</div>
+</section>
+
+
+
+
+
+<!-- HERO 07 -->
+<section class="slide" id="g07" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/20260730221736337707.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Logro" data-en="// Achievement" data-ca="// Assoliment" data-fr="// Realisation">// Logro</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Edificio <em>Corporativo</em>" data-en="Corporate <em>Building</em>" data-ca="Edifici <em>Corporatiu</em>" data-fr="Immeuble <em>Corporatif</em>">Edificio <em>Corporativo</em></h2>
+<p class="body rv" data-es="Cuatro pisos de oficinas, fachada blanca con paneles de madera y cristaleria panoramica. La escala corporativa resuelta con calidez." data-en="Four office floors, white facade with wood panels and panoramic glazing. Corporate scale resolved with warmth." data-ca="Quatre pisos d'oficines, facana blanca amb panells de fusta i cristalleria panoramica. L'escala corporativa resolta amb calidesa." data-fr="Quatre etages de bureaux, facade blanche a panneaux de bois et vitrage panoramique. L'echelle corporative resolue avec chaleur.">Cuatro pisos de oficinas, fachada blanca con paneles de madera y cristaleria panoramica. La escala corporativa resuelta con calidez.</p>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+<!-- HERO 12 -->
+<section class="slide" id="g12" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/20260730223149789515.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Material" data-en="// Material" data-ca="// Material" data-fr="// Materiau">// Material</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Bano de <em>Lujo</em>" data-en="Luxury <em>Bathroom</em>" data-ca="Bany de <em>Luxe</em>" data-fr="Salle de bains <em>Luxe</em>">Bano de <em>Lujo</em></h2>
+<p class="body rv" data-es="Piedra natural, madera termotratada y ducha tipo lluvia. La suite principal se convierte en un spa privado." data-en="Natural stone, thermally treated wood and rain shower. The master suite becomes a private spa." data-ca="Pedra natural, fusta tractada termicament i dutxa tipus pluja. La suite principal es converteix en un spa privat." data-fr="Pierre naturelle, bois thermotrate et douche pluie. La suite principale devient un spa prive.">Piedra natural, madera termotratada y ducha tipo lluvia. La suite principal se convierte en un spa privado.</p>
+</div>
+</section>
+
+<!-- HERO 13 -->
+<section class="slide" id="g13" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/3333f4e5-3e84-466a-acac-256138671ed0.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Tecnica" data-en="// Technique" data-ca="// Tecnica" data-fr="// Technique">// Tecnica</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Diseno <em>Parametrico</em>" data-en="Parametric <em>Design</em>" data-ca="Disseny <em>Parametric</em>" data-fr="Design <em>Parametrique</em>">Diseno <em>Parametrico</em></h2>
+<p class="body rv" data-es="El algoritmo optimiza cada curva en funcion del sol, la brisa y la vista. La naturaleza dicta la forma." data-en="The algorithm optimizes every curve according to sun, breeze and view. Nature dictates the form." data-ca="L'algoritme optimitza cada corba en funcio del sol, la brisa i la vista. La natura dicta la forma." data-fr="L'algorithme optimise chaque courbe selon le soleil, la brise et la vue. La nature dicte la forme.">El algoritmo optimiza cada curva en funcion del sol, la brisa y la vista. La naturaleza dicta la forma.</p>
+</div>
+</section>
+
+<!-- HERO 14 -->
+<section class="slide" id="g14" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/48370623-716a-47ca-978d-6ab861a2e0b9.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Concepto" data-en="// Concept" data-ca="// Concepte" data-fr="// Concept">// Concepto</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Vista <em>Arquitectonica</em>" data-en="Architectural <em>View</em>" data-ca="Vista <em>Arquitectonica</em>" data-fr="Vue <em>Architecturale</em>">Vista <em>Arquitectonica</em></h2>
+<p class="body rv" data-es="Volumetria contemporanea con hormigon visto y acabados de madera tropical. La honestidad del material como lenguaje." data-en="Contemporary volume with exposed concrete and tropical wood finishes. The honesty of material as language." data-ca="Volumetria contemporania amb formigo vist i acabats de fusta tropical. L'honestedat del material com a llenguatge." data-fr="Volume contemporain en beton brut et finitions bois tropical. L'honnetete du materiau comme langage.">Volumetria contemporanea con hormigon visto y acabados de madera tropical. La honestidad del material como lenguaje.</p>
+</div>
+</section>
+
+<!-- HERO 15 -->
+<section class="slide" id="g15" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/4dced077-93ef-482f-9b29-41b3bc4928d4.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Tecnica" data-en="// Technique" data-ca="// Tecnica" data-fr="// Technique">// Tecnica</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Interior de <em>Diseno</em>" data-en="Design <em>Interior</em>" data-ca="Interior de <em>Disseny</em>" data-fr="Interieur <em>Design</em>">Interior de <em>Diseno</em></h2>
+<p class="body rv" data-es="Iluminacion natural cenital que recorre los materiales nobles. La luz se disena, no se anade." data-en="Cenithal natural light that travels over noble materials. Light is designed, not added." data-ca="Il.luminacio natural cenital que recorre els materials nobles. La llum es dissenya, no s'afegeix." data-fr="Lumiere naturelle cenithale qui parcourt les materiaux nobles. La lumiere se conçoit, ne s'ajoute pas.">Iluminacion natural cenital que recorre los materiales nobles. La luz se disena, no se anade.</p>
+</div>
+</section>
+
+<!-- HERO 16 -->
+<section class="slide" id="g16" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/6beb4687-8167-4121-9074-d643b0940dc7.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Logro" data-en="// Achievement" data-ca="// Assoliment" data-fr="// Realisation">// Logro</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Render <em>Arquitectonico</em>" data-en="Architectural <em>Render</em>" data-ca="Render <em>Arquitectonic</em>" data-fr="Rendu <em>Architectural</em>">Render <em>Arquitectonico</em></h2>
+<p class="body rv" data-es="Visualizacion 3D de un proyecto residencial con paisajismo integrado. El cliente ve su futuro antes de construir." data-en="3D visualization of a residential project with integrated landscaping. The client sees their future before building." data-ca="Visualitzacio 3D d'un projecte residencial amb paisatgisme integrat. El client veu el seu futur abans de construir." data-fr="Visualisation 3D d'un projet residentiel avec paysagisme integre. Le client voit son futur avant de construire.">Visualizacion 3D de un proyecto residencial con paisajismo integrado. El cliente ve su futuro antes de construir.</p>
+</div>
+</section>
+
+<!-- HERO 17 -->
+<section class="slide" id="g17" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/BCO.7c82120a-adeb-474c-8316-0a853ab82f12~2.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Material" data-en="// Material" data-ca="// Material" data-fr="// Materiau">// Material</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Piedra y <em>Griferia</em>" data-en="Stone and <em>Fixtures</em>" data-ca="Pedra i <em>Aixeteria</em>" data-fr="Pierre et <em>Robinetterie</em>">Piedra y <em>Griferia</em></h2>
+<p class="body rv" data-es="Revestimientos de piedra natural, griferia de alta gama e iluminacion ambiental. El detalle decide la categoria." data-en="Natural stone cladding, high-end fixtures and ambient lighting. The detail decides the category." data-ca="Revestiments de pedra natural, aixeteria d'alta gamma i il.luminacio ambiental. El detall decideix la categoria." data-fr="Revêtements en pierre naturelle, robinetterie haut de gamme et eclairage ambiant. Le detail decide de la categorie.">Revestimientos de piedra natural, griferia de alta gama e iluminacion ambiental. El detalle decide la categoria.</p>
+</div>
+</section>
+
+<!-- HERO 18 -->
+<section class="slide" id="g18" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/BCO.8588eff7-91ee-4220-9364-8a184912909a.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Valor" data-en="// Value" data-ca="// Valor" data-fr="// Valeur">// Valor</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Proyecto <em>Comercial</em>" data-en="Commercial <em>Project</em>" data-ca="Projecte <em>Comercial</em>" data-fr="Projet <em>Commercial</em>">Proyecto <em>Comercial</em></h2>
+<p class="body rv" data-es="Diseno interior de autor con acabados premium y flujo optimizado. El comercio que se recorre como una galeria." data-en="Signature interior design with premium finishes and optimized flow. Commerce that is traversed like a gallery." data-ca="Disseny interior d'autor amb acabats premium i flux optimitzat. El comerç que es recorre com una galeria." data-fr="Design interieur de signature avec finitions premium et flux optimise. Le commerce que l'on parcourt comme une galerie.">Diseno interior de autor con acabados premium y flujo optimizado. El comercio que se recorre como una galeria.</p>
+</div>
+</section>
+
+<!-- HERO 19 -->
+<section class="slide" id="g19" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/BCO.a64d9811-7ce1-4736-9fcb-001ae9aa405d.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Tecnica" data-en="// Technique" data-ca="// Tecnica" data-fr="// Technique">// Tecnica</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Voladizos <em>Calculados</em>" data-en="Calculated <em>Cantilevers</em>" data-ca="Voladissos <em>Calculats</em>" data-fr="Porte-a-faux <em>Calcules</em>">Voladizos <em>Calculados</em></h2>
+<p class="body rv" data-es="Cristaleria panoramica y voladizos calculados al milimetro. La estructura se vuelve ligera sin dejar de ser firme." data-en="Panoramic glazing and cantilevers calculated to the millimeter. The structure becomes light without ceasing to be firm." data-ca="Cristalleria panoramica i voladissos calculats al mil.limetre. L'estructura es torna lleugera sense deixar de ser ferma." data-fr="Vitrage panoramique et porte-a-faux calcules au millimetre. La structure devient legere sans cesser d'etre ferme.">Cristaleria panoramica y voladizos calculados al milimetro. La estructura se vuelve ligera sin dejar de ser firme.</p>
+</div>
+</section>
+
+<!-- HERO 20 -->
+<section class="slide" id="g20" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/Copilot_20260730_162451.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Concepto" data-en="// Concept" data-ca="// Concepte" data-fr="// Concept">// Concepto</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Concepto <em>Arquitectonico</em>" data-en="Architectural <em>Concept</em>" data-ca="Concepte <em>Arquitectonic</em>" data-fr="Concept <em>Architectural</em>">Concepto <em>Arquitectonico</em></h2>
+<p class="body rv" data-es="Vision conceptual de un espacio residencial con integracion paisajistica. La idea precede siempre al plano." data-en="Conceptual vision of a residential space with landscape integration. The idea always precedes the plan." data-ca="Visio conceptual d'un espai residencial amb integracio paisatgistica. La idea precedeix sempre el plà." data-fr="Vision conceptuelle d'un espace residentiel avec integration paysagere. L'idee precede toujours le plan.">Vision conceptual de un espacio residencial con integracion paisajistica. La idea precede siempre al plano.</p>
+</div>
+</section>
+
+
+
+<!-- HERO 22 -->
+<section class="slide" id="g22" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/empty_office_interior.webp')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Tecnica" data-en="// Technique" data-ca="// Tecnica" data-fr="// Technique">// Tecnica</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Interior <em>Corporativo</em>" data-en="Corporate <em>Interior</em>" data-ca="Interior <em>Corporatiu</em>" data-fr="Interieur <em>Corporatif</em>">Interior <em>Corporativo</em></h2>
+<p class="body rv" data-es="Mobiliario de diseno y vistas panoramicas. La oficina contemporanea se planifica para el encuentro, no para la fila." data-en="Designer furniture and panoramic views. The contemporary office is planned for encounter, not for the queue." data-ca="Mobiliari de disseny i vistes panoramiques. L'oficina contemporania es planifica per a la trobada, no per a la fila." data-fr="Mobilier design et vues panoramiques. Le bureau contemporain se planifie pour la rencontre, pas pour la file.">Mobiliario de diseno y vistas panoramicas. La oficina contemporanea se planifica para el encuentro, no para la fila.</p>
+</div>
+</section>
+
+<!-- HERO 23 -->
+<section class="slide" id="g23" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/fe4ded61-cb9f-4367-9ce2-adf32396f0dd.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Valor" data-en="// Value" data-ca="// Valor" data-fr="// Valeur">// Valor</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Residencial <em>Exclusivo</em>" data-en="Exclusive <em>Residence</em>" data-ca="Residencial <em>Exclusiu</em>" data-fr="Residence <em>Exclusive</em>">Residencial <em>Exclusivo</em></h2>
+<p class="body rv" data-es="Estandares de lujo con eficiencia energetica. El confort de alto nivel no tiene por que costarle caro al planeta." data-en="Luxury standards with energy efficiency. High-end comfort doesn't have to cost the planet dearly." data-ca="Estandards de luxe amb eficiencia energetica. El confort d'alt nivell no ha de costar car al planeta." data-fr="Standards de luxe avec efficacite energetique. Le confort haut de gamme ne doit pas couter cher a la planete.">Estandares de lujo con eficiencia energetica. El confort de alto nivel no tiene por que costarle caro al planeta.</p>
+</div>
+</section>
+
+<!-- HERO 24 -->
+<section class="slide" id="g24" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/imagine_prompt_Architectural_photography_of_a_completed_real.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Logro" data-en="// Achievement" data-ca="// Assoliment" data-fr="// Realisation">// Logro</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Fotografia <em>Arquitectonica</em>" data-en="Architectural <em>Photography</em>" data-ca="Fotografia <em>Arquitectonica</em>" data-fr="Photographie <em>Architecturale</em>">Fotografia <em>Arquitectonica</em></h2>
+<p class="body rv" data-es="El proyecto completado, documentado con fotografia profesional. La arquitectura que trasciende necesita registro digno." data-en="The completed project, documented with professional photography. Architecture that transcends needs worthy documentation." data-ca="El projecte completat, documentat amb fotografia professional. L'arquitectura que transcendeix necessita registre digne." data-fr="Le projet termine, documente par la photographie professionnelle. L'architecture qui transcende a besoin d'un registre digne.">El proyecto completado, documentado con fotografia profesional. La arquitectura que trasciende necesita registro digno.</p>
+</div>
+</section>
+
+<!-- HERO 25 -->
+<section class="slide" id="g25" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/NoteGPT_Image_20260730162440.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Tecnica" data-en="// Technique" data-ca="// Tecnica" data-fr="// Technique">// Tecnica</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Detalle <em>Constructivo</em>" data-en="Construction <em>Detail</em>" data-ca="Detall <em>Constructiu</em>" data-fr="Detail <em>de Construction</em>">Detalle <em>Constructivo</em></h2>
+<p class="body rv" data-es="Acabados y materiales nobles en fase de construccion. El detalle es donde el proyecto se gana o se pierde." data-en="Finishes and noble materials during construction. The detail is where the project is won or lost." data-ca="Acabats i materials nobles en fase de construccio. El detall es on el projecte es guanya o es perd." data-fr="Finitions et materiaux nobles en phase de construction. Le detail est la ou le projet se gagne ou se perd.">Acabados y materiales nobles en fase de construccion. El detalle es donde el proyecto se gana o se pierde.</p>
+</div>
+</section>
+
+<!-- HERO 26 -->
+<section class="slide" id="g26" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/stock-photography_professional_photo_of_moderniza_FOTO_DE_CASA_CON_LOGO_photography-0.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Concepto" data-en="// Concept" data-ca="// Concepte" data-fr="// Concept">// Concepto</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Residencia <em>Moderna</em>" data-en="Modern <em>Residence</em>" data-ca="Residencia <em>Moderna</em>" data-fr="Residence <em>Moderne</em>">Residencia <em>Moderna</em></h2>
+<p class="body rv" data-es="Fachada de lineas limpias y jardines integrados. La contemporaneidad entendida como serenidad, no como espectaculo." data-en="Clean-lined facade and integrated gardens. Contemporaneity understood as serenity, not spectacle." data-ca="Facana de linies netes i jardins integrats. La contemporaneitat entesa com a serenitat, no com a espectacle." data-fr="Facade aux lignes nettes et jardins integres. La contemporaneite comprise comme serenite, non comme spectacle.">Fachada de lineas limpias y jardines integrados. La contemporaneidad entendida como serenidad, no como espectaculo.</p>
+</div>
+</section>
+
+<!-- HERO 27 -->
+<section class="slide" id="g27" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/stock-photography_professional_photo_of_moderniza_FOTO_DE_CASA_CON_LOGO_photography-1.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Logro" data-en="// Achievement" data-ca="// Assoliment" data-fr="// Realisation">// Logro</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Villa <em>Residencial</em>" data-en="Residential <em>Villa</em>" data-ca="Villa <em>Residencial</em>" data-fr="Villa <em>Residentielle</em>">Villa <em>Residencial</em></h2>
+<p class="body rv" data-es="Piscina infinity y conexion interior-exterior total. La casa se expande hacia el horizonte." data-en="Infinity pool and total indoor-outdoor connection. The house expands toward the horizon." data-ca="Piscina infinity i conexio interior-exterior total. La casa s'expandeix cap a l'horitzo." data-fr="Piscine a debordement et connexion interieur-exterieur totale. La maison s'etend vers l'horizon.">Piscina infinity y conexion interior-exterior total. La casa se expande hacia el horizonte.</p>
+</div>
+</section>
+
+<!-- HERO 28 -->
+<section class="slide" id="g28" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/stock-photography_professional_photo_of_moderniza_FOTO_DE_CASA_CON_LOGO_photography-2.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Material" data-en="// Material" data-ca="// Material" data-fr="// Materiau">// Material</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Casa de <em>Diseno</em>" data-en="Design <em>House</em>" data-ca="Casa de <em>Disseny</em>" data-fr="Maison <em>Design</em>">Casa de <em>Diseno</em></h2>
+<p class="body rv" data-es="Piedra, madera y cristal en armonia. Tres materiales, una sola intencion: permanencia." data-en="Stone, wood and glass in harmony. Three materials, one intention: permanence." data-ca="Pedra, fusta i cristall en armonia. Tres materials, una sola intencio: permanencia." data-fr="Pierre, bois et verre en harmonie. Trois materiaux, une seule intention: la permanence.">Piedra, madera y cristal en armonia. Tres materiales, una sola intencion: permanencia.</p>
+</div>
+</section>
+
+<!-- HERO 29 -->
+<section class="slide" id="g29" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/stock-photography_professional_photo_of_moderniza_FOTO_DE_CASA_CON_LOGO_photography-3.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Logro" data-en="// Achievement" data-ca="// Assoliment" data-fr="// Realisation">// Logro</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Proyecto <em>Completo</em>" data-en="Complete <em>Project</em>" data-ca="Projecte <em>Complet</em>" data-fr="Projet <em>Complet</em>">Proyecto <em>Completo</em></h2>
+<p class="body rv" data-es="Vista general con paisajismo y arquitectura integrados. El proyecto completo se lee como una unidad, no como una suma." data-en="Overall view with integrated landscaping and architecture. The complete project reads as a unit, not a sum." data-ca="Vista general amb paisatgisme i arquitectura integrats. El projecte complet es llegeix com una unitat, no com una suma." data-fr="Vue generale avec paysagisme et architecture integres. Le projet complet se lit comme une unite, non comme une somme.">Vista general con paisajismo y arquitectura integrados. El proyecto completo se lee como una unidad, no como una suma.</p>
+</div>
+</section>
+
+<!-- HERO 30 -->
+<section class="slide" id="g30" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/stock-photography_professional_photo_of_moderniza_logo_y_hazlo_png_Cinematic_architectural_photogr-0.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Logro" data-en="// Achievement" data-ca="// Assoliment" data-fr="// Realisation">// Logro</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Render <em>Cinemico</em>" data-en="Cinematic <em>Render</em>" data-ca="Render <em>Cinematic</em>" data-fr="Rendu <em>Cinematographique</em>">Render <em>Cinemico</em></h2>
+<p class="body rv" data-es="Visualizacion cinematografica de un proyecto residencial al atardecer. La luz dorada cuenta la historia del espacio." data-en="Cinematic visualization of a residential project at sunset. Golden light tells the story of the space." data-ca="Visualitzacio cinematografica d'un projecte residencial al capvespre. La llum daurada explica la historia de l'espai." data-fr="Visualisation cinematographique d'un projet residentiel au coucher du soleil. La lumiere doree raconte l'histoire de l'espace.">Visualizacion cinematografica de un proyecto residencial al atardecer. La luz dorada cuenta la historia del espacio.</p>
+</div>
+</section>
+
+<!-- HERO 31 -->
+<section class="slide" id="g31" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/stock-photography_professional_photo_of_moderniza_logo_y_hazlo_png_Cinematic_architectural_photogr-2.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Tecnica" data-en="// Technique" data-ca="// Tecnica" data-fr="// Technique">// Tecnica</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Vista <em>Diurna</em>" data-en="Day <em>View</em>" data-ca="Vista <em>Diurna</em>" data-fr="Vue <em>Diurne</em>">Vista <em>Diurna</em></h2>
+<p class="body rv" data-es="Iluminacion natural diurna que revela la arquitectura en su estado mas honesto. La luz del dia es la primera materia." data-en="Natural daylight that reveals architecture in its most honest state. Daylight is the primary material." data-ca="Il.luminacio natural diurna que revela l'arquitectura en el seu estat mes honest. La llum del dia es la primera materia." data-fr="Lumiere naturelle diurne qui revele l'architecture dans son etat le plus honnete. La lumiere du jour est la premiere matiere.">Iluminacion natural diurna que revela la arquitectura en su estado mas honesto. La luz del dia es la primera materia.</p>
+</div>
+</section>
+
+<!-- HERO 32 -->
+<section class="slide" id="g32" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/stock-photography_professional_photo_of_moderniza_logo_y_hazlo_png_Cinematic_architectural_photogr-3.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Valor" data-en="// Value" data-ca="// Valor" data-fr="// Valeur">// Valor</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Atardecer <em>Arquitectonico</em>" data-en="Architectural <em>Sunset</em>" data-ca="Capvespre <em>Arquitectonic</em>" data-fr="Coucher de soleil <em>Architectural</em>">Atardecer <em>Arquitectonico</em></h2>
+<p class="body rv" data-es="Luz dorada rasante que resalta texturas y planos. La arquitectura se revela plenamente cuando el sol la roza." data-en="Raking golden light that highlights textures and planes. Architecture fully reveals itself when the sun grazes it." data-ca="Llum daurada rasante que ressalta textures i plans. L'arquitectura es revela plenament quan el sol la toca." data-fr="Lumiere doree rasante qui met en valeur textures et plans. L'architecture se revele pleinement quand le soleil l'effleure.">Luz dorada rasante que resalta texturas y planos. La arquitectura se revela plenamente cuando el sol la roza.</p>
+</div>
+</section>
+
+<!-- HERO 33 -->
+<section class="slide" id="g33" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/upscalemedia-transformed.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Logro" data-en="// Achievement" data-ca="// Assoliment" data-fr="// Realisation">// Logro</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Proyecto <em>Finalizado</em>" data-en="Completed <em>Project</em>" data-ca="Projecte <em>Finalitzat</em>" data-fr="Projet <em>Termine</em>">Proyecto <em>Finalizado</em></h2>
+<p class="body rv" data-es="Entregado y habitado. Arquitectura que trasciende generaciones: este es el momento que justifica todo el proceso." data-en="Delivered and inhabited. Architecture that transcends generations: this is the moment that justifies the whole process." data-ca="Entregat i habitat. Arquitectura que transcendeix generacions: aquest es el moment que justifica tot el proces." data-fr="Livre et habite. Architecture qui transcende les generations: c'est le moment qui justifie tout le processus.">Entregado y habitado. Arquitectura que trasciende generaciones: este es el momento que justifica todo el proceso.</p>
+</div>
+</section>
+
+<!-- HERO 34 -->
+<section class="slide" id="g34" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/hologram_cutout.png')"></div>
+<div class="slide-full-ov"></div>
+</section>
+
+<!-- HERO 35 -->
+<section class="slide" id="g35" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/Copilot_20260730_165702.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Tecnica" data-en="// Technique" data-ca="// Tecnica" data-fr="// Technique">// Tecnica</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Detalle de <em>Proyecto</em>" data-en="Project <em>Detail</em>" data-ca="Detall de <em>Projecte</em>" data-fr="Detail de <em>Projet</em>">Detalle de <em>Proyecto</em></h2>
+<p class="body rv" data-es="Acabados y materiales en fase de desarrollo. Cada union, cada junta, cada decision constructiva queda a la vista." data-en="Finishes and materials in development phase. Every joint, every seam, every constructive decision is on display." data-ca="Acabats i materials en fase de desenvolupament. Cada unio, cada junta, cada decisio constructiva queda a la vista." data-fr="Finitions et materiaux en phase de developpement. Chaque joint, chaque soudure, chaque decision constructive est visible.">Acabados y materiales en fase de desarrollo. Cada union, cada junta, cada decision constructiva queda a la vista.</p>
+</div>
+</section>
+
+<!-- HERO 36 -->
+<section class="slide" id="g36" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/Copilot_20260730_165119.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Concepto" data-en="// Concept" data-ca="// Concepte" data-fr="// Concept">// Concepto</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Concepto <em>Espacial</em>" data-en="Spatial <em>Concept</em>" data-ca="Concepte <em>Espacial</em>" data-fr="Concept <em>Spatial</em>">Concepto <em>Espacial</em></h2>
+<p class="body rv" data-es="Un espacio interior con flujo luminoso natural. La conceptualizacion define la atmosfera antes de que exista la pared." data-en="An interior space with natural luminous flow. Conceptualization defines the atmosphere before the wall exists." data-ca="Un espai interior amb flux luminos natural. La conceptualitzacio defineix l'atmosfera abans que existeixi la paret." data-fr="Un espace interieur a flux lumineux naturel. La conceptualisation definit l'atmosphere avant que le mur n'existe.">Un espacio interior con flujo luminoso natural. La conceptualizacion define la atmosfera antes de que exista la pared.</p>
+</div>
+</section>
+
+<!-- HERO 37 -->
+<section class="slide" id="g37" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/Copilot_20260730_165023.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Valor" data-en="// Value" data-ca="// Valor" data-fr="// Valeur">// Valor</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Vista <em>Interior</em>" data-en="Interior <em>View</em>" data-ca="Vista <em>Interior</em>" data-fr="Vue <em>Interieure</em>">Vista <em>Interior</em></h2>
+<p class="body rv" data-es="Interior residencial con conexion total interior-exterior. Vivir adentro y afuera, al mismo tiempo." data-en="Residential interior with total indoor-outdoor connection. Living inside and outside, at the same time." data-ca="Interior residencial amb conexio total interior-exterior. Viure dins i fora, alhora." data-fr="Interieur residentiel avec connexion totale interieur-exterieur. Vivre dedans et dehors, en meme temps.">Interior residencial con conexion total interior-exterior. Vivir adentro y afuera, al mismo tiempo.</p>
+</div>
+</section>
+
+<!-- ================================================================ -->
+<!-- LIMITE FINAL: GALERIA-HEROS — NO TOCAR DESPUES DE ESTA MARCA -->
+<!-- ================================================================ -->
+
 
 <!-- S7: METODO -->
 <section class="slide slide-dark" id="s7">
@@ -500,116 +681,101 @@ body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;o
 <section class="slide slide-dark" id="s8">
 <div class="slide-inner">
 <div class="stats-row">
-<div class="stat-item rv"><div class="stat-num">38+</div><div class="stat-label" data-es="Anios de Experiencia" data-en="Years of Experience" data-ca="Anys d'Experiencia" data-fr="Annees d'Experience">Anios de Experiencia</div></div>
-<div class="stat-item rv"><div class="stat-num">60+</div><div class="stat-label" data-es="Proyectos Ejecutados" data-en="Projects Executed" data-ca="Projectes Executats" data-fr="Projets Executes">Proyectos Ejecutados</div></div>
-<div class="stat-item rv"><div class="stat-num">3</div><div class="stat-label" data-es="Paises" data-en="Countries" data-ca="Paisos" data-fr="Pays">Paises</div></div>
-<div class="stat-item rv"><div class="stat-num">100%</div><div class="stat-label" data-es="Clientes Satisfechos" data-en="Satisfied Clients" data-ca="Clients Satisfets" data-fr="Clients Satisfaits">Clientes Satisfechos</div></div>
+<div class="stat-item rv"><svg class="stat-icon" viewBox="0 0 38 38" fill="none" stroke="currentColor" stroke-width="1"><circle cx="19" cy="19" r="17"></circle><circle cx="19" cy="19" r="12" stroke-dasharray="2 3"></circle><circle cx="19" cy="19" r="4"></circle></svg><div class="stat-num">38+</div><div class="stat-label" data-es="Anios de Experiencia" data-en="Years of Experience" data-ca="Anys d'Experiencia" data-fr="Annees d'Experience">Anios de Experiencia</div></div>
+<div class="stat-item rv"><svg class="stat-icon" viewBox="0 0 38 38" fill="none" stroke="currentColor" stroke-width="1"><path d="M5 33V15l14-10 14 10v18"></path><path d="M14 33V21h10v12"></path></svg><div class="stat-num">60+</div><div class="stat-label" data-es="Proyectos Ejecutados" data-en="Projects Executed" data-ca="Projectes Executats" data-fr="Projets Executes">Proyectos Ejecutados</div></div>
+<div class="stat-item rv"><svg class="stat-icon" viewBox="0 0 38 38" fill="none" stroke="currentColor" stroke-width="1"><path d="M19 3C10 3 3 10 3 19s7 16 16 16 16-7 16-16S28 3 19 3Z"></path><path d="M19 8v22M8 19h22"></path></svg><div class="stat-num">3</div><div class="stat-label" data-es="Paises" data-en="Countries" data-ca="Paisos" data-fr="Pays">Paises</div></div>
+<div class="stat-item rv"><svg class="stat-icon" viewBox="0 0 38 38" fill="none" stroke="currentColor" stroke-width="1"><path d="M5 19h9l3-7 6 14 3-7h7"></path></svg><div class="stat-num">100%</div><div class="stat-label" data-es="Clientes Satisfechos" data-en="Satisfied Clients" data-ca="Clients Satisfets" data-fr="Clients Satisfaits">Clientes Satisfechos</div></div>
 </div>
 </div>
 </section>
 
-<!-- S8B: HERNANDO CON FAMILIA -->
-<section class="slide" id="s8b" style="padding:0">
-<img src="Nueva carpeta/ChatGPT Image 30 jul 2026, 14_33_18.png" alt="Hernando Carrillo entregando proyecto a familia" class="img-full clip-rv-right" loading="lazy">
-</section>
-
-<!-- S9: TRAYECTORIA -->
-<section class="slide slide-dark" id="s9">
-<div class="slide-inner">
-<div class="label rv" data-es="// Trayectoria" data-en="// Journey" data-ca="// Trajectoria" data-fr="// Parcours">// Trayectoria</div>
-<h2 class="heading rv" data-es="Hernando Carrillo<br><em>Sanchez</em>" data-en="Hernando Carrillo<br><em>Sanchez</em>" data-ca="Hernando Carrillo<br><em>Sanchez</em>" data-fr="Hernando Carrillo<br><em>Sanchez</em>">Hernando Carrillo<br><em>Sanchez</em></h2>
-<p class="body body-large rv" data-es="Arquitecto y constructor por vocacion. En 1988, con 24 anios y un titulo de la Universidad Autonoma del Caribe, ya sabia que la arquitectura no era solo construir: era crear experiencias con espacios." data-en="Architect and builder by vocation. In 1988, at 24, with a degree from Universidad Autonoma del Caribe, he already knew architecture wasn't just building: it was creating experiences with spaces." data-ca="Arquitecte i constructor per vocacio. El 1988, amb 24 anys i un titol de la Universidad Autonoma del Caribe, ja sabia que l'arquitectura no era mes que construir: era crear experiencies amb espais." data-fr="Architecte et constructeur par vocation. En 1988, a 24 ans, avec un diplome de l'Universidad Autonoma del Caribe, il savait deja que l'architecture n'etait pas seulement construire: c'etait creer des experiences avec les espaces.">Arquitecto y constructor por vocacion. En 1988, con 24 anios y un titulo de la Universidad Autonoma del Caribe, ya sabia que la arquitectura no era solo construir: era crear experiencias con espacios.</p>
-<div class="timeline" style="margin-top:48px">
-<div class="timeline-item rv">
-<div class="timeline-year">1988</div>
-<div class="timeline-title" data-es="Graduacion" data-en="Graduation" data-ca="Graduacio" data-fr="Diplome">Graduacion</div>
-<div class="timeline-desc" data-es="Universidad Autonoma del Caribe. Primeros proyectos residenciales." data-en="Universidad Autonoma del Caribe. First residential projects." data-ca="Universidad Autonoma del Caribe. Primers projectes residencials." data-fr="Universidad Autonoma del Caribe. Premiers projets residentiels.">Universidad Autonoma del Caribe. Primeros proyectos residenciales.</div>
-</div>
-<div class="timeline-item rv">
-<div class="timeline-year">1995</div>
-<div class="timeline-title" data-es="Paisajismo" data-en="Landscaping" data-ca="Paisatgisme" data-fr="Paysagisme">Paisajismo</div>
-<div class="timeline-desc" data-es="Viajes a Japan, Italia y Costa Rica. Integracion agua-piedra-vegetacion." data-en="Travels to Japan, Italy and Costa Rica. Water-stone-vegetation integration." data-ca="Viatges a Japan, Italia i Costa Rica. Integracio aigua-pedra-vegetacio." data-fr="Voyages au Japon, en Italie et au Costa Rica. Integration eau-pierre-vegetation.">Viajes a Japan, Italia y Costa Rica. Integracion agua-piedra-vegetacion.</div>
-</div>
-<div class="timeline-item rv">
-<div class="timeline-year">2005</div>
-<div class="timeline-title" data-es="Internacional" data-en="International" data-ca="Internacional" data-fr="International">Internacional</div>
-<div class="timeline-desc" data-es="Proyectos en Espana e Italia. Primer hotel boutique en la Costa Brava." data-en="Projects in Spain and Italy. First boutique hotel on the Costa Brava." data-ca="Projectes a Espanya i Italia. Primer hotel boutique a la Costa Brava." data-fr="Projets en Espagne et Italie. Premier hotel boutique sur la Costa Brava.">Proyectos en Espana e Italia. Primer hotel boutique en la Costa Brava.</div>
-</div>
-<div class="timeline-item rv">
-<div class="timeline-year">2020</div>
-<div class="timeline-title" data-es="CARQUIDEC" data-en="CARQUIDEC" data-ca="CARQUIDEC" data-fr="CARQUIDEC">CARQUIDEC</div>
-<div class="timeline-desc" data-es="Creacion del estudio. Mision: crear arquitectura que trascienda." data-en="Studio creation. Mission: create architecture that transcends." data-ca="Creacio de l'estudi. Missio: crear arquitectura que trascendeixi." data-fr="Creation de l'etude. Mission: creer une architecture qui transcende.">Creacion del estudio. Mision: crear arquitectura que trascienda.</div>
-</div>
-</div>
-</div>
-</section>
-
-<!-- S10: ANECDOTA ASPIRACIONAL -->
-<section class="slide slide-dark" id="s10" style="min-height:80vh">
-<div class="slide-inner" style="max-width:900px;margin:0 auto;text-align:center;padding:80px 48px">
-<div class="label rv" data-es="// Una Pregunta" data-en="// A Question" data-ca="// Una Pregunta" data-fr="// Une Question">// Una Pregunta</div>
-<h2 class="heading rv" style="font-size:clamp(1.8rem,4vw,3rem);margin-bottom:40px" data-es="¿Y si pudiera<br><em>vivir ahi</em>?" data-en="What if you could<br><em>live there</em>?" data-ca="I si poguesis<br><em>vivir alli</em>?" data-fr="Et si vous pouviez<br><em>y vivre</em>?">¿Y si pudiera<br><em>vivir ahi</em>?</h2>
-<p class="body rv" style="max-width:700px;margin:0 auto 32px;text-align:center;font-size:16px;line-height:2" data-es="Esa imagen que tiene en la cabeza. Esa casa que imagina cuando cierra los ojos. Ese lugar donde todo seria perfecto. ¿Será que es solo una idea? ¿O es que alguien puede hacer que eso sea realidad?" data-en="That image in your head. That house you imagine when you close your eyes. That place where everything would be perfect. Is it just an idea? Or can someone make it real?" data-ca="Aquesta imatge que teniu al cap. Aquesta casa que imagineu quan tanqueu els ulls. Aquest lloc on tot seria perfecte. Es que es nomes una idea? O es que algú pot fer que aixo sigui realitat?" data-fr="Cette image dans votre tete. Cette maison que vous imaginez quand vous fermez les yeux. Ce lieu ou tout serait parfait. Est-ce qu'une simple idée? Ou quelqu'un peut-il la realiser?">Esa imagen que tiene en la cabeza. Esa casa que imagina cuando cierra los ojos. Ese lugar donde todo seria perfecto. ¿Será que es solo una idea? ¿O es que alguien puede hacer que eso sea realidad?</p>
-<div class="divider rv" style="margin:40px auto"></div>
-<div class="quote rv" style="max-width:700px;margin:0 auto;border-left:none;padding-left:0;text-align:center;font-size:clamp(1.1rem,2vw,1.4rem)" data-es="Yo me dedico a eso. Ese es mi trabajo. Para eso naci. A llevar su idea, su casa del sueno, su proyecto... a la realidad." data-en="That's what I do. That's my job. That's what I was born for. To take your idea, your dream house, your project... and make it real." data-ca="Jo em dedico a aixo. Aquest es el meu treball. Per aixo vaig neixer. A portar la vostra idea, la vostra casa del somni, el vostre projecte... a la realitat." data-fr="C'est ce que je fais. C'est mon metier. C'est pour ca que je suis ne. Prendre votre idee, votre maison de reve, votre projet... et le rendre reel.">Yo me dedico a eso. Ese es mi trabajo. Para eso naci. A llevar su idea, su casa del sueno, su proyecto... a la realidad.</div>
-<p class="body" style="text-align:center;max-width:100%;margin-top:32px;font-style:italic" data-es="— Hernando Carrillo, Arquitecto" data-en="— Hernando Carrillo, Architect" data-ca="— Hernando Carrillo, Arquitecte" data-fr="— Hernando Carrillo, Architecte">— Hernando Carrillo, Arquitecto</p>
-</div>
-</section>
-
-<!-- S13: CURRICULUM -->
-<section class="slide slide-dark" id="s13" style="min-height:auto;padding:120px 48px">
-<div class="slide-inner" style="max-width:900px;margin:0 auto">
-<div class="label rv" data-es="// Curriculum" data-en="// Resume" data-ca="// Curriculum" data-fr="// Parcours">// Curriculum</div>
-<h2 class="heading rv" data-es="Hernando Carrillo<br><em>Sanchez</em>" data-en="Hernando Carrillo<br><em>Sanchez</em>" data-ca="Hernando Carrillo<br><em>Sanchez</em>" data-fr="Hernando Carrillo<br><em>Sanchez</em>">Hernando Carrillo<br><em>Sanchez</em></h2>
-
-<p class="body body-large rv" data-es="Arquitecto y constructor colombiano con mas de 38 anios de experiencia internacional. Graduado en Arquitectura por la Universidad Autonoma del Caribe (Barranquilla, 1982-1988). Desde sus primeros anos de carrera, Hernando supo que su vocacion era crear espacios que trascendieran lo funcional para convertirse en experiencias sensoriales unicas." data-en="Colombian architect and builder with over 38 years of international experience. Graduated in Architecture from Universidad Autonoma del Caribe (Barranquilla, 1982-1988). From his early years, Hernando knew his vocation was to create spaces that transcended functionality to become unique sensory experiences." data-ca="Arquitecte i constructor colombia amb mes de 38 anys d'experiencia internacional. Graduat en Arquitectura per la Universidad Autonoma del Caribe (Barranquilla, 1982-1988). Des dels primers anys de carrera, Hernando va saber que la seva vocacio era crear espais que transcendissin el functional per convertir-se en experiencies sensorials uniques." data-fr="Architecte et constructeur colombien avec plus de 38 ans d'experience internationale. Diplome en Architecture de l'Universidad Autonoma del Caribe (Barranquilla, 1982-1988). Des ses premieres annees, Hernando a su que sa vocation etait de creer des espaces qui transcendent la fonctionnalite pour devenir des experiences sensorielles uniques.">Arquitecto y constructor colombiano con mas de 38 anios de experiencia internacional. Graduado en Arquitectura por la Universidad Autonoma del Caribe (Barranquilla, 1982-1988). Desde sus primeros anos de carrera, Hernando supo que su vocacion era crear espacios que trascendieran lo funcional para convertirse en experiencias sensoriales unicas.</p>
-
-<p class="body rv" data-es="En 1995, un viaje a Japan, Italia y Costa Rica cambio su perspectiva para siempre. Descubrio el paisajismo como arte independiente y la integracion perfecta entre agua, piedra y vegetacion. Estos viajes definieron su enfoque: arquitectura que dialoga con la naturaleza, no que la domina." data-en="In 1995, a trip to Japan, Italy and Costa Rica changed his perspective forever. He discovered landscaping as an independent art and the perfect integration of water, stone and vegetation. These travels defined his approach: architecture that dialogues with nature, not dominates it." data-ca="El 1995, un viatge a Japan, Italia i Costa Rica va canviar la seva perspectiva per sempre. Va descobrir el paisatgisme com a art independent i la integracio perfecta entre aigua, pedra i vegetacio. Aquests viatges van definir el seu enfocament: arquitectura que dialoga amb la natura, no que la domina." data-fr="En 1995, un voyage au Japon, en Italie et au Costa Rica a change sa perspective pour toujours. Il a decouvert le paysagisme comme art independant et l'integration parfaite entre l'eau, la pierre et la vegetation. Ces voyages ont defini son approche: l'architecture qui dialogue avec la nature, pas qui la domine.">En 1995, un viaje a Japan, Italia y Costa Rica cambio su perspectiva para siempre. Descubrio el paisajismo como arte independiente y la integracion perfecta entre agua, piedra y vegetacion. Estos viajes definieron su enfoque: arquitectura que dialoga con la naturaleza, no que la domina.</p>
-
-<p class="body rv" data-es="A partir de 2005, su trabajo cruzo el oceano. Proyectos en Espana e Italia fusionaron la arquitectura tropical colombiana con el diseno mediterraneo. Su primer hotel boutique en la Costa Brava marco el inicio de una etapa internacional que hoy abarca tres continentes." data-en="From 2005, his work crossed the ocean. Projects in Spain and Italy fused Colombian tropical architecture with Mediterranean design. His first boutique hotel on the Costa Brava marked the beginning of an international stage that today spans three continents." data-ca="A partir de 2005, el seu treball va creuar l'oceà. Projectes a Espanya i Italia van fusionar l'arquitectura tropical colombiana amb el disseny mediterrani. El seu primer hotel boutique a la Costa Brava va marcar l'inici d'una etapa internacional que avui abasta tres continents." data-fr="A partir de 2005, son travail a traverse l'ocean. Projets en Espagne et Italie ont fusionne l'architecture tropicale colombienne avec le design mediterraneen. Son premier hotel boutique sur la Costa Brava a marque le debut d'une phase internationale qui couvre aujourd'hui trois continents.">A partir de 2005, su trabajo cruzo el oceano. Proyectos en Espana e Italia fusionaron la arquitectura tropical colombiana con el diseno mediterraneo. Su primer hotel boutique en la Costa Brava marco el inicio de una etapa internacional que hoy abarca tres continentes.</p>
-
-<p class="body rv" data-es="En 2020, fundo CARQUIDEC con una mision clara: crear arquitectura que provoque emocion. No edificios, no casas, no hoteles. Experiencias espaciales que se sienten en el cuerpo y se recuerdan en la memoria. Cada proyecto es un compromiso personal para transformar los suenos de sus clientes en realidades que perduran en el tiempo." data-en="In 2020, he founded CARQUIDEC with a clear mission: create architecture that provokes emotion. Not buildings, not houses, not hotels. Spatial experiences that are felt in the body and remembered in memory. Every project is a personal commitment to transforming his clients' dreams into realities that endure." data-ca="El 2020, va fundar CARQUIDEC amb una missio clara: crear arquitectura que provoqui emocio. No edificis, no cases, no hotels. Experiencies espacials que es senten al cos i es recorden a la memoria. Cada projecte es un compromis personal per transformar els somnis dels seus clients en realitats que perduren en el temps." data-fr="En 2020, il a fonde CARQUIDEC avec une mission claire: creer une architecture qui provoque l'emotion. Pas des batiments, pas des maisons, pas des hotels. Des experiences spatiales qui se ressentent dans le corps et se rappellent dans la memoire. Chaque projet est un engagement personnel pour transformer les reves de ses clients en realites qui durent.">En 2020, fundo CARQUIDEC con una mision clara: crear arquitectura que provoque emocion. No edificios, no casas, no hoteles. Experiencias espaciales que se sienten en el cuerpo y se recuerdan en la memoria. Cada proyecto es un compromiso personal para transformar los suenos de sus clientes en realidades que perduran en el tiempo.</p>
-
-<div class="divider rv"></div>
-
-<p class="body rv" style="font-style:italic;color:var(--gold)" data-es="Hoy, con 38 anios de experiencia, 60+ proyectos ejecutados y presencia en Colombia, Espana e Italia, Hernando sigue creando arquitectura que trasciende generaciones. Su enfoque combina el rigor tecnico con la sensibilidad artistica, la innovacion con la tradicion, lo local con lo global." data-en="Today, with 38 years of experience, 60+ executed projects and presence in Colombia, Spain and Italy, Hernando continues creating architecture that transcends generations. His approach combines technical rigor with artistic sensitivity, innovation with tradition, local with global." data-ca="Avui, amb 38 anys d'experiencia, 60+ projectes executats i presencia a Colombia, Espanya i Italia, Hernando continua creant arquitectura que transcende generacions. El seu enfocament combina el rigor tecnic amb la sensibilitat artistica, la innovacio amb la tradicio, el local amb el global." data-fr="Aujourd'hui, avec 38 ans d'experience, plus de 60 projets realises et une presence en Colombie, Espagne et Italie, Hernando continue de creer une architecture qui transcende les generations. Son approche combine le rigor technique avec la sensibilite artistique, l'innovation avec la tradition, le local avec le global.">Hoy, con 38 anios de experiencia, 60+ proyectos ejecutados y presencia en Colombia, Espana e Italia, Hernando sigue creando arquitectura que trasciende generaciones. Su enfoque combina el rigor tecnico con la sensibilidad artistica, la innovacion con la tradicion, lo local con lo global.</p>
-
-</div>
-</section>
-
-<!-- S11: CTA -->
-<section class="slide slide-dark" id="s11">
-<div class="slide-inner" style="text-align:center">
+<!-- CTA FINAL -->
+<section class="slide slide-dark" id="s10" style="min-height:70vh">
+<div class="slide-inner" style="text-align:center;max-width:900px">
 <div class="label rv" data-es="// Contacto" data-en="// Contact" data-ca="// Contacte" data-fr="// Contact">// Contacto</div>
 <h2 class="heading rv" style="font-size:clamp(2.5rem,6vw,5rem)" data-es="Hagamos realidad<br>su proximo proyecto" data-en="Let's make your<br>next project real" data-ca="Fem realitat<br>el vostre proper projecte" data-fr="Realisons<br>votre prochain projet" data-it="Realizziamo<br>il vostro prossimo progetto">Hagamos realidad<br>su proximo proyecto</h2>
 <div class="btns rv" style="justify-content:center">
-<a href="https://wa.me/34612484884" class="btn btn-p" target="_blank">WhatsApp</a>
-<a href="mailto:carqdisantos@gmail.com" class="btn btn-o">Email</a>
-<a href="tel:+34612484884" class="btn btn-o" data-es="Llamar" data-en="Call" data-ca="Trucar" data-fr="Appeler">Llamar</a>
+<a href="#contacto" class="btn btn-p" data-es="Escribenos" data-en="Write Us" data-ca="Escriu-nos" data-fr="Ecrivez-nous">Escribenos</a>
+<a href="https://wa.me/34612484884" class="btn btn-o" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+<a href="#about" class="btn btn-o" data-es="Conoce al Arquitecto" data-en="Meet the Architect" data-ca="Coneix l'Arquitecte" data-fr="Rencontrez l'Architecte">Conoce al Arquitecto</a>
 </div>
 </div>
 </section>
 
-<!-- S12: CONTACTO -->
-<section class="slide slide-dark" id="s12">
+<section class="slide" id="about">
 <div class="slide-inner">
-<div class="contact-row">
-<div class="contact-box rv"><div class="contact-lbl">Email</div><div class="contact-val"><a href="mailto:carqdisantos@gmail.com">carqdisantos@gmail.com</a></div></div>
-<div class="contact-box rv"><div class="contact-lbl">WhatsApp</div><div class="contact-val"><a href="https://wa.me/34612484884" target="_blank">+34 612 484 884</a></div></div>
-<div class="contact-box rv"><div class="contact-lbl" data-es="Ubicacion" data-en="Location" data-ca="Ubicacio" data-fr="Localisation" data-it="Sede">Ubicacion</div><div class="contact-val" data-es="Barcelona, Espana" data-en="Barcelona, Spain" data-ca="Barcelona, Espanya" data-fr="Barcelone, Espagne" data-it="Barcellona, Spagna">Barcelona, Espana</div></div>
+<div class="label rv" data-es="// Arquitectura" data-en="// Architecture" data-ca="// Arquitectura" data-fr="// Architecture" data-it="// Architettura">// Arquitectura</div>
+<h2 class="heading rv" data-es="Hernando Carrillo<br><em>Sanchez</em>" data-en="Hernando Carrillo<br><em>Sanchez</em>" data-ca="Hernando Carrillo<br><em>Sanchez</em>" data-fr="Hernando Carrillo<br><em>Sanchez</em>" data-it="Hernando Carrillo<br><em>Sanchez</em>">Hernando Carrillo<br><em>Sanchez</em></h2>
+<p class="body rv" data-es="Arquitecto y constructor por vocacion. En 1988, con 24 años y un titulo de la Universidad Autonoma del Caribe, entendio que la arquitectura no es solo construir: es crear experiencias con espacios." data-en="Architect and builder by vocation. In 1988, at 24, with a degree from Universidad Autonoma del Caribe, he understood architecture is not only building, but creating spatial experiences." data-ca="Arquitecte i constructor per vocacio. El 1988... va entendre que l'arquitectura no es només construir, sino crear experiències espacials." data-fr="Architecte et constructeur par vocation. En 1988... a compris que l'architecture n'est pas seulement construire: c'est creer des experiences." data-it="Architetto e costruttore per vocazione. Nel 1988, a 24 anni... ha capito che l'architettura non è solo costruire, ma creare esperienze.">Arquitecto y constructor por vocacion. En 1988, con 24 anios y un titulo de la Universidad Autonoma del Caribe, entendio que la arquitectura no es solo construir: es crear experiencias con espacios.</p>
 </div>
-<div style="max-width:600px;margin:60px auto 0">
-<!-- CONFIGURAR: Reemplazar YOUR_FORM_ID con el ID real de Formspree -->
-<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style="display:flex;flex-direction:column;gap:16px">
-<label class="f-label" for="f-nombre" data-es="Nombre" data-en="Name" data-ca="Nom" data-fr="Nom">Nombre</label>
+</section>
+
+<section class="slide slide-dark" id="blog">
+<div class="slide-inner">
+<div class="label rv" data-es="// Pensamiento" data-en="// Notes" data-ca="// Pensament" data-fr="// Notes" data-it="// Riflessioni">// Pensamiento</div>
+<h2 class="heading rv" data-es="Leer<br><em>Arquitectura</em>" data-en="Reading<br><em>Architecture</em>" data-ca="Llegir<br><em>Arquitectura</em>" data-fr="Lire<br><em>l'Architecture</em>" data-it="Leggere<br><em>Architettura</em>">Leer<br><em>Arquitectura</em></h2>
+<p class="body body-large rv" data-es="Reflexiones sobre espacios, materiales y emociones. Escritas desde el estudio, para quienes creen que una casa puede ser una experiencia." data-en="Reflections on spaces, materials and emotions. Written from the studio, for those who believe a house can be an experience." data-ca="Reflexions sobre espais, materials i emocions. Escrites des de l'estudi, per a qui creu que una casa pot ser una experiència." data-fr="Reflexions sur les espaces, les matèriaux et les émotions. Ecrites depuis le studio, pour ceux qui croient qu'une maison peut être une expérience." data-it="Riflessioni su spazi, materiali ed emozioni. Scritte dallo studio, per chi crede che una casa possa essere un'esperienza.">Reflexiones sobre espacios, materiales y emociones. Escritas desde el estudio, para quienes creen que una casa puede ser una experiencia.</p>
+</div>
+</section>
+
+<section class="slide slide-dark" id="podcast">
+<div class="slide-inner">
+<div class="label rv" data-es="// Audio" data-en="// Audio" data-ca="// Àudio" data-fr="// Audio" data-it="// Audio">// Audio</div>
+<div class="podcast-shell">
+<div class="phone rv">
+<div class="phone-screen">
+<div class="phone-top"></div>
+<div class="phone-speaker"></div>
+<div><div class="player-title" id="nowTitle">Emisión en vivo Carquidec</div><div class="body" id="nowDesc">Conectando con el archivo de proyectos y reflexiones.</div></div>
+<div class="wave" aria-hidden="true">
+<span style="--h:10px"></span><span style="--h:16px"></span><span style="--h:22px"></span><span style="--h:14px"></span><span style="--h:28px"></span><span style="--h:18px"></span><span style="--h:12px"></span><span style="--h:26px"></span>
+<span style="--h:24px"></span><span style="--h:15px"></span><span style="--h:18px"></span><span style="--h:22px"></span><span style="--h:12px"></span><span style="--h:26px"></span><span style="--h:16px"></span><span style="--h:14px"></span>
+</div>
+<div class="podcast-cta">
+<button class="btn btn-p" id="podcastPlayBtn" type="button">Play/Pause</button>
+<button class="btn btn-o" id="podcastStopBtn" type="button">Detener</button>
+</div>
+</div>
+</div>
+<div class="rv">
+<div class="label" data-es="// Emisión de estudio" data-en="// Studio broadcast" data-ca="// Emissió d'estudi" data-fr="// Émission studio" data-it="// Trasmissione in studio">// Emisión de estudio</div>
+<h2 class="heading" data-es="Radio<br><em>Carquidec</em>" data-en="Carquidec<br><em>Radio</em>" data-ca="Radio<br><em>Carquidec</em>" data-fr="Radio<br><em>Carquidec</em>" data-it="Radio<br><em>Carquidec</em>">Radio<br><em>Carquidec</em></h2>
+<p class="body body-large" data-es="Dos episodios cortos: arquitectura, materiales y anécdotas de obra. Si los subes a un host, reemplaza los links." data-en="Two short episodes: architecture, materials and work stories. Replace links after hosting." data-ca="Dos episodis curts: arquitectura, materials i anècdotes." data-fr="Deux épisodes courts: architecture, matériaux et récits de chantier." data-it="Due episodi brevi: architettura, materiali e storie di cantiere.">Dos episodios cortos: arquitectura, materiales y anécdotas de obra. Si los subes a un host, reemplaza los links.</p>
+<div class="track-list rv">
+<button class="track" type="button" data-track-title="Algoritmos para casas que respiran" data-track-src="Algoritmos_para_casas_que_respiran.mp3">
+<span class="track-number">01</span>
+<span class="track-meta">Algoritmos para casas que respiran<small data-es="Publicado en estudio" data-en="Studio drop" data-ca="Publicat a studio" data-fr="Publié en studio" data-it="Pubblicato nello studio">Publicado en estudio</small></span>
+</button>
+<button class="track" type="button" data-track-title="De hologramas digitales a logias masónicas" data-track-src="De_hologramas_digitales_a_logias_masónicas (1).mp3">
+<span class="track-number">02</span>
+<span class="track-meta">De hologramas digitales a logias masónicas<small data-es="Versión de archivo" data-en="Raw archive version" data-ca="Versió d'arxiu" data-fr="Version archive" data-it="Versione archivio">Versión de archivo</small></span>
+</button>
+</div>
+<audio id="podcastAudio" preload="none"></audio>
+</div>
+</div>
+</div>
+</section>
+
+<section class="slide slide-dark" id="contacto">
+<div class="slide-inner">
+<div class="label rv" data-es="// Contacto" data-en="// Contact" data-ca="// Contacte" data-fr="// Contact" data-it="// Contatto">// Contacto</div>
+<h2 class="heading rv" style="font-size:clamp(2.4rem,6vw,4.5rem)" data-es="Hagamos realidad<br>su proximo proyecto" data-en="Let's make your<br>next project real" data-ca="Fem realitat<br>el vostre proper projecte" data-fr="Rendsons réel<br>votre prochain projet" data-it="Realizziamo<br>il vostro prossimo progetto">Hagamos realidad<br>su proximo proyecto</h2>
+<p class="body rv" data-es="Cuentenos sobre su casa, hotel o espacio comercial. Respondemos en menos de 24 horas." data-en="Tell us about your house, hotel or commercial space. We reply in less than 24 hours." data-ca="Explica'ns la teva casa, hotel o espai comercial. Respondrem en menys de 24 hores." data-fr="Parlez-nous de votre maison, hôtel ou espace commercial. Nous répondons en moins de 24h." data-it="Raccontaci della tua casa, hotel o spazio commerciale. Rispondiamo in meno di 24 ore.">Cuentenos sobre su casa, hotel o espacio comercial. Respondemos en menos de 24 horas.</p>
+<div class="contact-row rv" style="margin:24px auto 32px;max-width:960px">
+<div class="contact-box"><div class="contact-lbl">Email</div><div class="contact-val"><a href="mailto:carqdisantos@gmail.com">carqdisantos@gmail.com</a></div></div>
+<div class="contact-box"><div class="contact-lbl">WhatsApp</div><div class="contact-val"><a href="https://wa.me/34612484884" target="_blank" rel="noopener noreferrer">+34 612 484 884</a></div></div>
+<div class="contact-box"><div class="contact-lbl" data-es="Ubicacion" data-en="Location" data-ca="Ubicacio" data-fr="Localisation" data-it="Sede">Ubicacion</div><div class="contact-val" data-es="Barcelona, Espana" data-en="Barcelona, Spain" data-ca="Barcelona, Espanya" data-fr="Barcelone, Espagne" data-it="Barcellona, Spagna">Barcelona, Espana</div></div>
+</div>
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style="display:flex;flex-direction:column;gap:16px;max-width:600px;margin:0 auto" id="contactForm">
+<label class="f-label" for="f-nombre" data-es="Nombre" data-en="Name" data-ca="Nom" data-fr="Nom" data-it="Nome">Nombre</label>
 <input type="text" id="f-nombre" name="nombre" placeholder="Tu nombre completo" required style="padding:12px 16px;background:#111;border:1px solid rgba(255,255,255,0.1);color:#f5f5f5;font-family:var(--font-b);font-size:14px">
 <label class="f-label" for="f-email">Email</label>
 <input type="email" id="f-email" name="email" placeholder="tu@email.com" required style="padding:12px 16px;background:#111;border:1px solid rgba(255,255,255,0.1);color:#f5f5f5;font-family:var(--font-b);font-size:14px">
-<label class="f-label" for="f-mensaje" data-es="Mensaje" data-en="Message" data-ca="Missatge" data-fr="Message">Mensaje</label>
+<label class="f-label" for="f-mensaje" data-es="Mensaje" data-en="Message" data-ca="Missatge" data-fr="Message" data-it="Messaggio">Mensaje</label>
 <textarea id="f-mensaje" name="mensaje" placeholder="Cuéntanos sobre tu proyecto..." rows="4" required style="padding:12px 16px;background:#111;border:1px solid rgba(255,255,255,0.1);color:#f5f5f5;font-family:var(--font-b);font-size:14px;resize:vertical"></textarea>
 <button type="submit" class="btn btn-p" style="width:100%">Enviar Mensaje</button>
 </form>
-</div>
 </div>
 </section>
 
@@ -619,7 +785,7 @@ body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;o
 <img src="logo-carquidec-transparent.png" alt="CARQUIDEC">
 <span class="footer-name">Carquidec</span>
 </div>
-<div class="footer-links"><a href="#">Instagram</a><a href="#">LinkedIn</a><a href="https://wa.me/34612484884" target="_blank">WhatsApp</a></div>
+<div class="footer-links"><a href="#">Instagram</a><a href="#">LinkedIn</a><a href="https://wa.me/34612484884" target="_blank" rel="noopener noreferrer">WhatsApp</a></div>
 <div class="footer-copy" data-es="Experiencia · Confianza · Seriedad" data-en="Experience · Trust · Seriousness" data-ca="Experiencia · Confianca · Serietat" data-fr="Experience · Confiance · Seriosite" data-it="Esperienza · Fiducia · Serieta">Experiencia · Confianza · Seriedad</div>
 </footer>
 
@@ -628,22 +794,30 @@ body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;o
 <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
 <script>
 function setLang(lang){
-document.querySelectorAll('[data-'+lang+']').forEach(el=>{el.innerHTML=el.getAttribute('data-'+lang)});
+document.querySelectorAll('[data-es]').forEach(el=>{const v=el.getAttribute('data-'+lang)||el.getAttribute('data-es');if(v)el.innerHTML=v});
 document.querySelectorAll('.lang-bar button').forEach(b=>{b.classList.remove('active');if(b.textContent.trim().toLowerCase()===lang)b.classList.add('active')});
 document.documentElement.lang=lang;
-lenis.scrollTo(0);
+if (lenis && lenis.scrollTo) { lenis.scrollTo(0); } else { window.scrollTo(0,0); }
 }
 
-const cursor=document.getElementById('cursor'),cursorDot=document.getElementById('cursorDot');
+const cursor=document.getElementById('cursor');
+const cursorDot=document.getElementById('cursorDot');
 let mouseX=0,mouseY=0,cursorX=0,cursorY=0;
 document.addEventListener('mousemove',e=>{mouseX=e.clientX;mouseY=e.clientY});
-function animateCursor(){cursorX+=(mouseX-cursorX)*.15;cursorY+=(mouseY-cursorY)*.15;cursor.style.left=cursorX-18+'px';cursor.style.top=cursorY-18+'px';cursorDot.style.left=mouseX-2+'px';cursorDot.style.top=mouseY-2+'px';requestAnimationFrame(animateCursor)}
-animateCursor();
-document.querySelectorAll('a,button,.gallery-item').forEach(el=>{el.addEventListener('mouseenter',()=>{cursor.style.transform='scale(1.5)';cursor.style.mixBlendMode='normal'});el.addEventListener('mouseleave',()=>{cursor.style.transform='scale(1)';cursor.style.mixBlendMode='difference'})});
-
-// SWISH SOUND
-function playSwish(){const ctx=new(window.AudioContext||window.webkitAudioContext)();const osc=ctx.createOscillator();const gain=ctx.createGain();osc.connect(gain);gain.connect(ctx.destination);osc.type='sine';osc.frequency.setValueAtTime(800,ctx.currentTime);osc.frequency.exponentialRampToValueAtTime(200,ctx.currentTime+0.15);gain.gain.setValueAtTime(0.3,ctx.currentTime);gain.gain.exponentialRampToValueAtTime(0.01,ctx.currentTime+0.15);osc.start(ctx.currentTime);osc.stop(ctx.currentTime+0.15)}
-setTimeout(()=>{try{playSwish()}catch(e){}},3500);
+function animateCursor(){
+  if (!cursor || !cursorDot) return;
+  cursorX+=(mouseX-cursorX)*.15;
+  cursorY+=(mouseY-cursorY)*.15;
+  cursor.style.left=(cursorX-18)+'px';
+  cursor.style.top=(cursorY-18)+'px';
+  cursorDot.style.left=(mouseX-2)+'px';
+  cursorDot.style.top=(mouseY-2)+'px';
+  requestAnimationFrame(animateCursor);
+}
+if (cursor && cursorDot) {
+  animateCursor();
+  document.querySelectorAll('a,button,.gallery-item').forEach(el=>{el.addEventListener('mouseenter',()=>{cursor.style.transform='scale(1.5)';cursor.style.mixBlendMode='normal'});el.addEventListener('mouseleave',()=>{cursor.style.transform='scale(1)';cursor.style.mixBlendMode='difference'})});
+}
 
 const loaderTl=gsap.timeline();
 loaderTl.to('.loader-medallon',{opacity:1,scale:1,duration:1,ease:'back.out(1.7)'})
@@ -670,25 +844,63 @@ gsap.utils.toArray('.timeline-item').forEach((el,i)=>{gsap.from(el,{opacity:0,x:
 
 const slides=document.querySelectorAll('.slide');
 const indicator=document.getElementById('slideIndicator');
-slides.forEach((_,i)=>{const dot=document.createElement('div');dot.className='slide-dot';dot.onclick=()=>slides[i].scrollIntoView({behavior:'smooth'});indicator.appendChild(dot)});
+slides.forEach((_, i) => {
+  const dot = document.createElement('div');
+  dot.className = 'slide-dot';
+  dot.addEventListener('click', () => {
+    const targetSlide = slides[i];
+    if (targetSlide) {
+      targetSlide.scrollIntoView({behavior: 'smooth'});
+    }
+  });
+  indicator.appendChild(dot);
+});
 const dots=indicator.querySelectorAll('.slide-dot');
 ScrollTrigger.create({trigger:'body',start:'top top',end:'bottom bottom',onUpdate:self=>{const idx=Math.round(self.progress*(slides.length-1));dots.forEach((d,i)=>d.classList.toggle('active',i===idx))}});
 
 const scrollBtn=document.getElementById('scrollTop');
+const scrollToTopSafe = () => {
+  if (!scrollBtn) return;
+  if (lenis && lenis.scrollTo) {
+    lenis.scrollTo(0);
+    return;
+  }
+  window.scrollTo({top: 0, behavior: 'smooth'});
+};
+const menuToggleButton = document.getElementById('menuToggle');
+const navLinks = document.querySelector('.nav-links');
+document.querySelectorAll('[data-lang]').forEach(btn => {
+  btn.addEventListener('click', () => setLang(btn.dataset.lang));
+});
+if (scrollBtn) {
+  scrollBtn.addEventListener('click', scrollToTopSafe);
+}
+if (menuToggleButton) {
+  menuToggleButton.addEventListener('click', () => {
+    if (navLinks) navLinks.classList.toggle('show');
+  });
+}
 window.addEventListener('scroll',()=>{scrollBtn.style.opacity=window.scrollY>500?'1':'0'});
 document.querySelectorAll('.nav-links a').forEach(a=>{a.addEventListener('click',()=>{document.querySelector('.nav-links').classList.remove('show')})});
-document.querySelector('form').addEventListener('submit',async(e)=>{e.preventDefault();const form=e.target;const data=new FormData(form);try{const r=await fetch(form.action,{method:'POST',body:data,headers:{'Accept':'application/json'}});if(r.ok){form.reset();alert('Mensaje enviado. Gracias!')}else{alert('Error al enviar. Intente de nuevo.')}}catch(err){alert('Error de conexion. Intente de nuevo.')}});
+const contactForm=document.querySelector('form');
+if(contactForm)contactForm.addEventListener('submit',async(e)=>{e.preventDefault();const form=e.target;const data=new FormData(form);try{const r=await fetch(form.action,{method:'POST',body:data,headers:{'Accept':'application/json'}});if(r.ok){form.reset();alert('Mensaje enviado. Gracias!')}else{alert('Error al enviar. Intente de nuevo.')}}catch(err){alert('Error de conexion. Intente de nuevo.')}});
 
 /* === LENIS SMOOTH SCROLL === */
-const lenis=new Lenis({lerp:.1,smoothWheel:true});
-lenis.on('scroll',ScrollTrigger.update);
-gsap.ticker.add(time=>{lenis.raf(time*1000)});
+let lenis = null;
+try {
+  if (typeof Lenis === 'function') {
+    lenis = new Lenis({lerp: 0.1, smoothWheel: true});
+  }
+} catch (error) {
+  lenis = null;
+}
+if (lenis && ScrollTrigger) {
+  lenis.on('scroll', ScrollTrigger.update);
+}
+if (lenis) {
+  gsap.ticker.add(time => {lenis.raf(time * 1000);});
+}
 gsap.ticker.lagSmoothing(0);
-
-/* === SWISH SOUND ON SECTION TRANSITIONS === */
-let lastSection='';
-function playSwish(){try{const ctx=new(window.AudioContext||window.webkitAudioContext)();const osc=ctx.createOscillator();const gain=ctx.createGain();osc.connect(gain);gain.connect(ctx.destination);osc.type='sine';osc.frequency.setValueAtTime(800,ctx.currentTime);osc.frequency.exponentialRampToValueAtTime(200,ctx.currentTime+.12);gain.gain.setValueAtTime(.25,ctx.currentTime);gain.gain.exponentialRampToValueAtTime(.01,ctx.currentTime+.12);osc.start(ctx.currentTime);osc.stop(ctx.currentTime+.12)}catch(e){}}
-document.querySelectorAll('.slide').forEach(s=>{ScrollTrigger.create({trigger:s,start:'top 50%',onEnter:()=>{const id=s.id;if(id!==lastSection){lastSection=id;playSwish()}},onEnterBack:()=>{const id=s.id;if(id!==lastSection){lastSection=id;playSwish()}}})});
 
 /* === SCROLL PROGRESS BAR === */
 window.addEventListener('scroll',()=>{const h=document.documentElement.scrollHeight-window.innerHeight;const p=(window.scrollY/h)*100;document.getElementById('scrollProgress').style.width=p+'%'});
