@@ -1,2 +1,6 @@
 node_modules/
 outputs/
+
+# Google Photos web download artifacts
+Foto - Google Fotos_files/
+
