@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CARQUIDEC — Hotel Condominio</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0a0a0a;--t:#f5f5f5;--td:#777;--ac:#c9c9c9;--font-d:'Cormorant Garamond',serif;--font-b:'Space Grotesk',sans-serif}
+body{font-family:var(--font-b);background:var(--bg);color:var(--t);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+.hero-full{position:relative;height:100vh;min-height:100dvh;overflow:hidden}
+.hero-full img{width:100%;height:100%;object-fit:cover;transform:scale(1.1);will-change:transform}
+.hero-ov{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,10,0.1) 0%,rgba(10,10,10,0.6) 100%)}
+.hero-nav{position:absolute;top:0;left:0;right:0;z-index:10;display:flex;align-items:center;justify-content:space-between;padding:24px 48px}
+.hero-nav a{color:var(--ac);text-decoration:none;font-size:11px;letter-spacing:0.15em;text-transform:uppercase;transition:color .3s}
+.hero-nav a:hover{color:#fff}
+.hero-info{position:absolute;bottom:0;left:0;right:0;padding:48px;z-index:10}
+.hero-cat{font-size:9px;letter-spacing:0.35em;text-transform:uppercase;color:var(--ac);margin-bottom:8px}
+.hero-title{font-family:var(--font-d);font-size:clamp(2rem,5vw,4rem);font-weight:300;line-height:1.1;margin-bottom:8px}
+.hero-loc{font-size:12px;color:var(--td)}
+.content{max-width:1400px;margin:0 auto;padding:80px 48px}
+.content-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}
+.content-text p{font-size:14px;color:var(--td);line-height:1.8;margin-bottom:20px}
+.content-text p:first-child{font-size:16px;color:var(--t)}
+.content-label{font-size:9px;letter-spacing:0.35em;text-transform:uppercase;color:var(--ac);margin-bottom:12px}
+.content-title{font-family:var(--font-d);font-size:28px;font-weight:300;margin-bottom:16px}
+.content-img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.specs{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;max-width:1400px;margin:0 auto}
+.spec{background:#111;padding:32px;border:1px solid rgba(255,255,255,0.03)}
+.spec-label{font-size:9px;letter-spacing:0.2em;text-transform:uppercase;color:var(--td);margin-bottom:6px}
+.spec-val{font-family:var(--font-d);font-size:20px;color:var(--ac)}
+.ai-section{max-width:1400px;margin:0 auto;padding:48px}
+.ai-box{background:#111;border:1px solid rgba(200,200,200,0.1);padding:32px}
+.ai-title{font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:var(--ac);margin-bottom:12px}
+.ai-prompt{font-size:12px;color:var(--td);line-height:1.7;background:#1a1a1a;padding:16px;margin-top:8px;font-family:monospace}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;max-width:1400px;margin:0 auto}
+.gallery img{width:100%;aspect-ratio:16/10;object-fit:cover;transition:transform .8s cubic-bezier(.16,1,.3,1)}
+.gallery img:hover{transform:scale(1.03)}
+.footer{padding:40px 48px;border-top:1px solid rgba(255,255,255,0.04);display:flex;align-items:center;justify-content:space-between;max-width:1400px;margin:0 auto}
+.footer-brand{font-family:var(--font-d);font-size:12px;letter-spacing:0.15em;text-transform:uppercase;color:var(--ac)}
+.footer-links{display:flex;gap:16px}
+.footer-links a{font-size:10px;color:var(--td);text-decoration:none;transition:color .3s}
+.footer-links a:hover{color:var(--ac)}
+.rv{opacity:0;transform:translateY(25px);transition:opacity .7s cubic-bezier(.16,1,.3,1),transform .7s cubic-bezier(.16,1,.3,1)}
+.rv.active{opacity:1;transform:translateY(0)}
+@media(max-width:768px){.hero-nav{padding:16px 20px}.hero-info{padding:24px}.content{padding:40px 20px}.content-grid{grid-template-columns:1fr;gap:40px}.specs{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.footer{flex-direction:column;gap:16px;text-align:center}}
+</style>
+</head>
+<body>
+<div class="hero-full">
+<img src="3333f4e5-3e84-466a-acac-256138671ed0.png" alt="Hotel Condominio">
+<div class="hero-ov"></div>
+<div class="hero-nav"><a href="index.html">← Volver</a><a href="proyecto-03-comercial.html">Siguiente →</a></div>
+<div class="hero-info">
+<div class="hero-cat rv">Proyecto 02 / Hotelero</div>
+<h1 class="hero-title rv">Hotel Condominio</h1>
+<div class="hero-loc rv">Lagos de Santa Rita, Colombia</div>
+</div>
+</div>
+<div class="content">
+<div class="content-grid">
+<div class="rv">
+<div class="content-label">Concepto</div>
+<div class="content-title">Hospitalidad de Alto Nivel</div>
+<div class="content-text">
+<p>Entrada con cascada artificial que genera una experiencia sensorial desde el primer momento. La iluminacion led integrada en la fachada crea un ambiente de lujo contemporaneo.</p>
+<p>Cada espacio comun esta disenado para invitar a la permanencia. El lobby, las areas de descanso y los pasillos cuentan una historia de elegancia y confort.</p>
+<p>La integracion del agua como elemento arquitectonico fundamental conecta al huesped con la naturaleza y la tranquilidad.</p>
+</div>
+</div>
+<div><img src="vista templo 2.jpg" alt="Interior hotel" class="content-img rv"></div>
+</div>
+</div>
+<div class="specs rv">
+<div class="spec"><div class="spec-label">Habitaciones</div><div class="spec-val">32</div></div>
+<div class="spec"><div class="spec-label">Piscina</div><div class="spec-val">2</div></div>
+<div class="spec"><div class="spec-label">Restaurantes</div><div class="spec-val">2</div></div>
+<div class="spec"><div class="spec-label">Spa</div><div class="spec-val">Si</div></div>
+<div class="spec"><div class="spec-label">Estacionamiento</div><div class="spec-val">40 autos</div></div>
+<div class="spec"><div class="spec-label">Areas Verdes</div><div class="spec-val">2000 m2</div></div>
+</div>
+<div class="ai-section rv">
+<div class="ai-box">
+<div class="ai-title">Herramienta AI para Transformar en Foto Realista</div>
+<p style="font-size:12px;color:var(--td);margin-bottom:8px">Sube el render a <strong style="color:var(--ac)">Archmaster</strong> con este prompt:</p>
+<div class="ai-prompt">photorealistic architectural photograph, luxury hotel entrance, waterfall feature, night lighting, stone facade, tropical palms, professional architectural photography, 8k</div>
+</div>
+</div>
+<div class="gallery rv">
+<img src="vista 2 2.jpg" alt="Vista 1">
+<img src="vista templo.jpg" alt="Vista 2">
+<img src="p12.jpg" alt="Vista 3">
+</div>
+<footer class="footer">
+<div class="footer-brand">Carquidec</div>
+<div class="footer-links"><a href="index.html">Inicio</a><a href="https://wa.me/34612484854" target="_blank">WhatsApp</a><a href="mailto:carodisantos@gmail.com">Email</a></div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+<script>
+gsap.registerPlugin(ScrollTrigger);const lenis=new Lenis({lerp:.08,smoothWheel:true});lenis.on('scroll',ScrollTrigger.update);gsap.ticker.add(t=>{lenis.raf(t*1000)});gsap.ticker.lagSmoothing(0);
+gsap.to('.hero-full img',{scale:1,duration:2,ease:'power2.out'});
+gsap.to('.hero-full img',{yPercent:20,ease:'none',scrollTrigger:{trigger:'.hero-full',start:'top top',end:'bottom top',scrub:true}});
+document.querySelectorAll('.rv').forEach(el=>{ScrollTrigger.create({trigger:el,start:'top 85%',onEnter:()=>el.classList.add('active')})});
+</script>
+</body>
+</html>

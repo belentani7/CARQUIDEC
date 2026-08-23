@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="es" id="top">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CARQUIDEC — Arquitectura & Decoracion de Interiores | Barcelona, Espana</title>
+<meta name="description" content="Estudio de arquitectura de lujo fundado por Hernando Carrillo. 38+ anios creando residencias exclusivas, hoteles boutique y espacios comerciales en Colombia, Espana e Italia.">
+<meta name="keywords" content="arquitectura lujo, decoracion interiores, diseno residencial exclusivo, Barcelona, Colombia, Espana, Hernando Carrillo">
+<meta property="og:title" content="CARQUIDEC — Alta Arquitectura & Diseno de Interiores">
+<meta property="og:description" content="Hernando Carrillo. 38+ anios de excelencia en arquitectura residencial, hotelera y comercial.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="20260730222718545141.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CARQUIDEC — Arquitectura de Lujo">
+<meta name="twitter:description" content="Hernando Carrillo — 38+ anios creando espacios que trascienden.">
+<meta name="twitter:image" content="20260730222718545141.jpg">
+<link rel="canonical" href="https://carquidec.com/">
+<link rel="icon" type="image/png" href="logo-carquidec-transparent.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"CARQUIDEC","description":"Estudio de arquitectura de lujo y decoracion de interiores exclusivos","image":"20260730222718545141.jpg","telephone":"+34612484884","email":"carqdisantos@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Barcelona","addressCountry":"ES"},"founder":{"@type":"Person","name":"Hernando Carrillo","jobTitle":"Arquitecto Fundador"},"areaServed":["Colombia","Espana","Italia"],"priceRange":"$$$$","foundingDate":"2020"}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0a0a0a;--s:#111;--t:#f5f5f5;--td:#777;--ac:#c9c9c9;--gold:#b8a88a;--font-d:'Cormorant Garamond',serif;--font-b:'Space Grotesk',sans-serif}
+html{background:var(--bg)}
+body{font-family:var(--font-b);background:var(--bg);color:var(--t);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;opacity:0.03;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.cursor{position:fixed;width:36px;height:36px;border:1px solid rgba(184,168,138,0.4);border-radius:50%;pointer-events:none;z-index:9999;transition:transform .15s ease,mix-blend-mode .15s ease;mix-blend-mode:difference}
+.cursor-dot{position:fixed;width:4px;height:4px;background:var(--gold);border-radius:50%;pointer-events:none;z-index:9999;box-shadow:0 0 10px var(--gold)}
+@media(max-width:768px){.cursor,.cursor-dot{display:none}}
+.loader{position:fixed;inset:0;z-index:9999;background:var(--bg);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:24px}
+.loader-medallon{width:180px;height:180px;perspective:800px;opacity:0}
+.loader-medallon-inner{width:100%;height:100%;position:relative;transform-style:preserve-3d;animation:loaderSpin 3s cubic-bezier(.4,0,.2,1) infinite}
+.loader-face{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;backface-visibility:hidden;border-radius:50%;overflow:hidden}
+.loader-face img{width:100%;height:100%;object-fit:contain;padding:15px;filter:drop-shadow(0 0 20px rgba(184,168,138,0.5))}
+.loader-front{transform:translateZ(15px)}
+.loader-back{transform:rotateY(180deg) translateZ(15px)}
+.loader-edge{position:absolute;width:100%;height:100%;border-radius:50%;background:linear-gradient(135deg,#8a7a5a,#b8a88a,#8a7a5a);box-shadow:0 0 40px rgba(184,168,138,0.3),inset 0 0 30px rgba(0,0,0,0.3)}
+.loader-shine{position:absolute;width:100%;height:100%;border-radius:50%;background:linear-gradient(135deg,transparent 30%,rgba(255,255,255,0.08) 50%,transparent 70%);animation:shineRot 3s linear infinite;pointer-events:none}
+@keyframes loaderSpin{0%{transform:rotateY(0deg) rotateX(5deg)}50%{transform:rotateY(180deg) rotateX(-5deg)}100%{transform:rotateY(360deg) rotateX(5deg)}}
+@keyframes shineRot{to{transform:rotate(360deg)}}
+.loader-text{font-family:var(--font-d);font-size:clamp(1.5rem,3vw,2.5rem);font-weight:300;color:var(--ac);letter-spacing:0.3em;text-transform:uppercase;opacity:0}
+.loader-line{width:0;height:1px;background:linear-gradient(90deg,transparent,var(--ac),transparent)}
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:16px 48px;background:rgba(10,10,10,0.85);backdrop-filter:blur(20px);border-bottom:1px solid rgba(255,255,255,0.04)}
+.nav-logo{display:flex;align-items:center;gap:12px}
+.nav-logo img{height:28px;filter:drop-shadow(0 0 8px rgba(184,168,138,0.3))}
+.nav-brand{font-family:var(--font-d);font-size:14px;font-weight:500;letter-spacing:0.15em;text-transform:uppercase;color:var(--ac)}
+.nav-links{display:flex;gap:24px;align-items:center}
+.nav-links a{font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:var(--td);text-decoration:none;transition:color .3s}
+.nav-links a:hover{color:var(--ac)}
+.nav-cta{padding:8px 16px!important;background:var(--ac)!important;color:var(--bg)!important;font-weight:600!important}
+.lang-bar{position:fixed;top:60px;right:48px;z-index:100;display:flex;gap:4px}
+.lang-bar button{background:none;border:none;color:var(--td);font-size:13px;letter-spacing:0.12em;text-transform:uppercase;cursor:pointer;padding:6px 12px;transition:color .3s;font-family:var(--font-b)}
+.lang-bar button:hover,.lang-bar button.active{color:var(--ac)}
+.slide{min-height:100vh;min-height:100dvh;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;padding:80px 48px}
+.slide-dark{background:var(--bg)}
+.slide-inner{max-width:1400px;width:100%;margin:0 auto;position:relative;z-index:2}
+.slide-full-bg{position:absolute;inset:0;background-size:cover;background-position:center;transform:scale(1.1);will-change:transform}
+.slide-full-ov{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,10,0.2) 0%,rgba(10,10,10,0.8) 100%)}
+.slide-full-content{position:relative;z-index:2;padding:80px 64px;max-width:900px}
+.slide-split{display:grid;grid-template-columns:1fr 1fr;gap:0;min-height:100vh}
+.slide-split img{width:100%;height:100%;object-fit:cover}
+.slide-split-text{display:flex;flex-direction:column;justify-content:center;padding:80px 64px}
+.label{font-size:9px;letter-spacing:0.4em;text-transform:uppercase;color:var(--gold);margin-bottom:16px}
+.heading{font-family:var(--font-d);font-size:clamp(2rem,5vw,4rem);font-weight:300;line-height:1.1;margin-bottom:24px}
+.heading em{font-style:italic;color:var(--gold)}
+.body{font-size:14px;color:var(--td);line-height:1.9;max-width:600px;margin-bottom:20px}
+.body strong{color:var(--t);font-weight:500}
+.body-large{font-size:16px;max-width:650px}
+.quote{font-family:var(--font-d);font-size:clamp(1.3rem,2.5vw,1.8rem);font-weight:300;font-style:italic;line-height:1.6;margin-bottom:20px;padding-left:24px;border-left:2px solid var(--gold)}
+.divider{width:60px;height:1px;background:var(--gold);margin:40px 0}
+.btn{padding:12px 28px;font-family:var(--font-b);font-size:10px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;text-decoration:none;border:none;cursor:pointer;transition:all .3s;display:inline-block}
+.btn-p{background:var(--gold);color:var(--bg)}.btn-p:hover{background:#fff}
+.btn-o{background:transparent;color:var(--t);border:1px solid rgba(255,255,255,0.15)}.btn-o:hover{border-color:var(--gold);color:var(--gold)}
+.btns{display:flex;gap:12px;margin-top:32px;flex-wrap:wrap}
+.stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;width:100%}
+.stat-item{background:rgba(255,255,255,0.02);padding:48px 24px;text-align:center;border:1px solid rgba(255,255,255,0.03);position:relative;overflow:hidden;transition:background .4s,border-color .4s,transform .4s}
+.stat-item:hover{background:rgba(184,168,138,0.05);border-color:rgba(184,168,138,0.15);transform:translateY(-4px)}
+.stat-icon{width:38px;height:38px;margin:0 auto 16px;color:var(--gold);opacity:.9;position:relative;z-index:1}
+.stat-num{font-family:var(--font-d);font-size:clamp(3rem,6vw,4.5rem);font-weight:300;color:var(--gold);margin-bottom:8px;line-height:1;position:relative;z-index:1}
+.stat-label{font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:var(--td);position:relative;z-index:1}
+.stat-item::after{content:"";position:absolute;left:50%;bottom:0;width:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);transform:translateX(-50%);transition:width .6s cubic-bezier(.16,1,.3,1)}
+.stat-item:hover::after{width:60%}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;width:100%}
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;width:100%}
+.grid-item{background:rgba(255,255,255,0.02);padding:48px 32px;border:1px solid rgba(255,255,255,0.03);transition:background .4s,border-color .4s}
+.grid-item:hover{background:rgba(184,168,138,0.03);border-color:rgba(184,168,138,0.1)}
+.grid-num{font-family:var(--font-d);font-size:32px;font-weight:300;color:rgba(184,168,138,0.15);margin-bottom:12px}
+.grid-title{font-family:var(--font-d);font-size:18px;margin-bottom:8px}
+.grid-desc{font-size:12px;color:var(--td);line-height:1.7}
+.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;width:100%}
+.gallery-item{position:relative;overflow:hidden;aspect-ratio:4/3}
+.gallery-item img{width:100%;height:100%;object-fit:cover;background:#111;transition:transform .8s cubic-bezier(.16,1,.3,1)}
+.gallery-item:hover img{transform:scale(1.05)}
+.gallery-item::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 50%,rgba(10,10,10,0.7) 100%);opacity:0;transition:opacity .4s}
+.gallery-item:hover::after{opacity:1}
+.gallery-label{position:absolute;bottom:16px;left:16px;z-index:2;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:var(--ac);opacity:0;transition:opacity .4s}
+.gallery-item:hover .gallery-label{opacity:1}
+.img-full{width:100%;height:100vh;min-height:100dvh;object-fit:contain;background:#000;display:block}
+.timeline{position:relative;padding-left:40px}
+.timeline::before{content:"";position:absolute;left:0;top:0;bottom:0;width:1px;background:linear-gradient(180deg,transparent,var(--gold),transparent)}
+.timeline-item{position:relative;margin-bottom:60px}
+.timeline-item::before{content:"";position:absolute;left:-44px;top:8px;width:8px;height:8px;border-radius:50%;background:var(--gold);box-shadow:0 0 20px rgba(184,168,138,0.3)}
+.timeline-year{font-family:var(--font-d);font-size:32px;font-weight:300;color:var(--gold);margin-bottom:8px}
+.timeline-title{font-family:var(--font-d);font-size:18px;margin-bottom:8px}
+.timeline-desc{font-size:12px;color:var(--td);line-height:1.7;max-width:500px}
+.contact-row{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;width:100%}
+.contact-box{background:rgba(255,255,255,0.02);padding:36px;border:1px solid rgba(255,255,255,0.03);text-align:center;transition:border-color .3s}
+.contact-box:hover{border-color:rgba(184,168,138,0.2)}
+.contact-lbl{font-size:9px;letter-spacing:0.2em;text-transform:uppercase;color:var(--td);margin-bottom:8px}
+.contact-val{font-size:14px;color:var(--t)}
+.contact-val a{color:var(--gold);text-decoration:none;transition:color .3s}
+.contact-val a:hover{color:#fff}
+.podcast-shell{max-width:980px;margin:0 auto;display:grid;grid-template-columns:1fr 1.05fr;gap:24px;align-items:center}
+.phone{position:relative;width:min(340px,85vw);aspect-ratio:9/19;background:linear-gradient(180deg,#1a1a1a,#0c0c0c);border:12px solid #2d2d2d;border-radius:34px;padding:14px 10px;box-shadow:inset 0 0 0 2px #3d3d3d,0 20px 50px rgba(0,0,0,.35);margin:0 auto}
+.phone-screen{position:relative;height:100%;border-radius:26px;background:radial-gradient(circle at 50% 10%,#151515,#0b0b0b);padding:18px 14px;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;gap:14px}
+.phone-top{position:absolute;inset:8px 48px 8px 48px;border-radius:20px 20px 0 0;background:#2a2a2a;height:7px}
+.phone-speaker{height:6px;width:40px;border-radius:3px;background:#3f3f3f;margin:0 auto 8px}
+.player-title{font-family:var(--font-d);font-size:19px;letter-spacing:.02em;color:#efe9de}
+.player-state{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-top:6px}
+.wave{height:40px;display:grid;place-items:end center;gap:4px;grid-template-columns:repeat(16,1fr)}
+.wave span{display:block;height:var(--h,20px);width:4px;border-radius:4px;background:rgba(184,168,138,.45)}
+.track-list{display:grid;gap:10px}
+.track{display:flex;gap:12px;align-items:center;padding:12px 14px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.02);cursor:pointer;transition:.25s}
+.track:hover{border-color:rgba(184,168,138,.5)}
+.track.playing{border-color:var(--gold);background:rgba(184,168,138,.09)}
+.track-number{width:24px;height:24px;border-radius:50%;display:grid;place-items:center;color:var(--gold);font-size:12px;border:1px solid rgba(184,168,138,.5)}
+.track-meta{flex:1;font-size:13px}.track-meta small{display:block;color:var(--td);font-size:11px}
+.podcast-cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:4px}
+.podcast-cta .btn{padding:10px 16px;font-size:10px}
+@media (max-width: 860px){.podcast-shell{grid-template-columns:1fr;text-align:center}.phone{margin-bottom:16px}}
+.footer{padding:40px 48px;border-top:1px solid rgba(255,255,255,0.04);display:flex;align-items:center;justify-content:space-between}
+.footer-brand{display:flex;align-items:center;gap:12px}
+.footer-brand img{height:24px}
+.footer-name{font-family:var(--font-d);font-size:12px;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold)}
+.footer-links{display:flex;gap:16px}
+.footer-links a{font-size:10px;color:var(--td);text-decoration:none;transition:color .3s}
+.footer-links a:hover{color:var(--gold)}
+.footer-copy{font-size:9px;color:var(--td)}
+.footer-signature{font-size:8px;letter-spacing:.22em;text-transform:uppercase;color:rgba(184,168,138,0.52)}
+.rv{opacity:0;transform:translateY(40px);transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .8s cubic-bezier(.16,1,.3,1)}
+.rv.active{opacity:1;transform:translateY(0)}
+.rv-left{opacity:0;transform:translateX(-60px);transition:opacity .9s cubic-bezier(.16,1,.3,1),transform .9s cubic-bezier(.16,1,.3,1)}
+.rv-left.active{opacity:1;transform:translateX(0)}
+.rv-right{opacity:0;transform:translateX(60px);transition:opacity .9s cubic-bezier(.16,1,.3,1),transform .9s cubic-bezier(.16,1,.3,1)}
+.rv-right.active{opacity:1;transform:translateX(0)}
+.rv-scale{opacity:0;transform:scale(.85);transition:opacity 1s cubic-bezier(.16,1,.3,1),transform 1s cubic-bezier(.16,1,.3,1)}
+.rv-scale.active{opacity:1;transform:scale(1)}
+.rv-rotate{opacity:0;transform:rotate(-3deg) translateY(30px);transition:opacity .9s cubic-bezier(.16,1,.3,1),transform .9s cubic-bezier(.16,1,.3,1)}
+.rv-rotate.active{opacity:1;transform:rotate(0) translateY(0)}
+.clip-rv{clip-path:inset(0 0 100% 0);transition:clip-path 1.2s cubic-bezier(.77,0,.175,1)}
+.clip-rv.active{clip-path:inset(0 0 0% 0)}
+.clip-rv-left{clip-path:inset(0 100% 0 0);transition:clip-path 1.2s cubic-bezier(.77,0,.175,1)}
+.clip-rv-left.active{clip-path:inset(0 0 0 0)}
+.clip-rv-right{clip-path:inset(0 0 0 100%);transition:clip-path 1.2s cubic-bezier(.77,0,.175,1)}
+.clip-rv-right.active{clip-path:inset(0 0 0 0)}
+.slide-indicator{position:fixed;right:24px;top:50%;transform:translateY(-50%);z-index:100;display:flex;flex-direction:column;gap:8px}
+.slide-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,0.15);cursor:pointer;transition:all .3s}
+.slide-dot.active{background:var(--gold);transform:scale(1.3)}
+@media(max-width:768px){
+.nav{padding:12px 20px}.nav-links{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(10,10,10,0.95);flex-direction:column;align-items:center;justify-content:center;gap:32px;z-index:100}
+.nav-links.show{display:flex}
+#menuToggle{display:block!important}
+.lang-bar{right:20px;top:56px}
+.slide{padding:60px 20px}
+.slide-split{grid-template-columns:1fr}
+.slide-split img{height:50vh}
+.slide-split-text{padding:40px 20px}
+.slide-full-content{padding:60px 20px}
+.grid-3,.grid-4,.stats-row,.contact-row,.gallery-grid{grid-template-columns:1fr}
+.footer{flex-direction:column;gap:16px;text-align:center}
+.slide-indicator{display:none}
+.podcast-shell{gap:18px}
+.phone{width:min(300px,92vw);border-width:10px}
+.player-title{font-size:17px}
+.body{font-size:13px;line-height:1.75}
+.btn{width:100%;justify-content:center}
+.btns,.podcast-cta{width:100%}
+.track{padding:14px}
+.track-meta{font-size:12px}
+}
+/*scroll progress*/.scroll-progress{position:fixed;top:0;left:0;width:0;height:2px;background:linear-gradient(90deg,var(--gold),#fff);z-index:101;transition:width .1s linear}
+/*text split*/.split-reveal .word{display:inline-block;overflow:hidden;vertical-align:bottom}.split-reveal .word span{display:inline-block;transform:translateY(110%);transition:transform .6s cubic-bezier(.16,1,.3,1)}.split-reveal.active .word span{transform:translateY(0)}
+/*form labels*/.f-label{display:block;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--td);margin-bottom:6px}
+/*reduced motion*/@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.rv,.rv-left,.rv-right,.rv-scale,.rv-rotate,.clip-rv,.clip-rv-left,.clip-rv-right{opacity:1!important;transform:none!important;clip-path:none!important}.split-reveal .word span{transform:none!important}}
+</style>
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+
+<!-- LOADER -->
+<div class="loader">
+<div class="loader-medallon">
+<div class="loader-medallon-inner">
+<div class="loader-face loader-front"><img src="logo-carquidec-transparent.png" alt="CARQUIDEC"></div>
+<div class="loader-face loader-back"><img src="logo-carquidec-transparent.png" alt="CARQUIDEC"></div>
+<div class="loader-edge"></div>
+<div class="loader-shine"></div>
+</div>
+</div>
+<div class="loader-text">Carquidec</div>
+<div class="loader-line"></div>
+</div>
+
+<!-- NAV -->
+<nav class="nav">
+<div class="nav-logo">
+<img src="logo-carquidec-transparent.png" alt="CARQUIDEC">
+<span class="nav-brand">Carquidec</span>
+</div>
+<div class="nav-links">
+<a href="#top" data-es="Inicio" data-en="Home" data-ca="Inici" data-fr="Accueil" data-it="Home">Inicio</a>
+<a href="#s3" data-es="Servicios" data-en="Services" data-ca="Serveis" data-fr="Services" data-it="Servizi">Servicios</a>
+<a href="#s5" data-es="Proyectos" data-en="Projects" data-ca="Projectes" data-fr="Projets" data-it="Progetti">Proyectos</a>
+<a href="#cine-media" data-es="Cine & Media" data-en="Cinema & Media" data-ca="Cine & Media" data-fr="Cinéma & Média" data-it="Cinema & Media">Cine & Media</a>
+<a href="#s7" data-es="Metodo" data-en="Method" data-ca="Metode" data-fr="Methode" data-it="Metodo">Metodo</a>
+<a href="#about" data-es="Acerca" data-en="About" data-ca="Sobre" data-fr="A Propos" data-it="Chi Sono">Acerca</a>
+<a href="#blog" data-es="Leer" data-en="Read" data-ca="Llegir" data-fr="Lire" data-it="Leggi">Leer</a>
+<a href="#podcast" data-es="Radio" data-ca="Ràdio" data-fr="Radio" data-it="Radio">Radio</a>
+<a href="#contacto" class="nav-cta" data-es="Contacto" data-en="Contact" data-ca="Contacte" data-fr="Contact" data-it="Contatto">Contacto</a>
+</div>
+</nav>
+<div class="lang-bar">
+<button class="active" data-lang="es">ES</button>
+<button data-lang="en">EN</button>
+<button data-lang="ca">CA</button>
+<button data-lang="fr">FR</button>
+<button data-lang="it">IT</button>
+</div>
+
+<button id="scrollTop" data-scroll-top style="position:fixed;bottom:24px;right:24px;z-index:100;width:48px;height:48px;background:rgba(10,10,10,0.85);border:1px solid rgba(184,168,138,0.2);color:#b8a88a;font-size:20px;cursor:pointer;opacity:0;transition:opacity .3s;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(10px)">↑</button>
+
+<button id="menuToggle" data-menu-toggle style="display:none;position:fixed;top:16px;left:20px;z-index:101;background:none;border:none;color:#b8a88a;font-size:24px;cursor:pointer">☰</button>
+
+<div class="slide-indicator" id="slideIndicator"></div>
+
+<!-- S1: HERO -->
+<section class="slide" id="s1">
+<div class="slide-full-bg" style="background-image:url('20260730222718545141.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content">
+<div class="rv" style="margin-bottom:40px;text-align:center">
+<img src="logo-carquidec-transparent.png" alt="CARQUIDEC" style="width:min(320px,70vw);height:auto;filter:drop-shadow(0 0 40px rgba(184,168,138,0.5)) drop-shadow(0 0 2px rgba(10,10,10,0.9));display:inline-block">
+</div>
+<div class="label rv" data-es="Hernando Carrillo — Arquitecto Fundador" data-en="Hernando Carrillo — Founding Architect" data-ca="Hernando Carrillo — Arquitect Fundador" data-fr="Hernando Carrillo — Architecte Fondateur" data-it="Hernando Carrillo — Architetto Fondatore">Hernando Carrillo — Arquitecto Fundador</div>
+<h1 class="heading rv" style="font-size:clamp(3rem,8vw,6rem)" data-es="CARQUIDEC<br><em>Arquitectura & Decoracion</em>" data-en="CARQUIDEC<br><em>Architecture & Interior Design</em>" data-ca="CARQUIDEC<br><em>Arquitectura & Decoracio</em>" data-fr="CARQUIDEC<br><em>Architecture & Decoration Interieure</em>" data-it="CARQUIDEC<br><em>Architettura & Decorazione</em>">CARQUIDEC<br><em>Arquitectura & Decoracion</em></h1>
+<p class="body body-large rv" data-es="Mas de 38 anios creando residencias de lujo, hoteles boutique y espacios comerciales en Colombia, Espana e Italia." data-en="Over 38 years creating luxury residences, boutique hotels and commercial spaces in Colombia, Spain and Italy." data-ca="Mes de 38 anys creant residencies de luxe, hotels boutique i espais comercials a Colombia, Espanya i Italia." data-fr="Plus de 38 ans a creer des residences de luxe, des hotels boutique et des espaces commerciaux en Colombie, Espagne et Italie." data-it="Oltre 38 anni a creare residenze di lusso, hotel boutique e spazi commerciali in Colombia, Spagna e Italia.">Mas de 38 anios creando residencias de lujo, hoteles boutique y espacios comerciales en Colombia, Espana e Italia.</p>
+<div class="btns rv">
+<a href="#s5" class="btn btn-p" data-es="Ver Proyectos" data-en="View Projects" data-ca="Veure Projectes" data-fr="Voir Projets">Ver Proyectos</a>
+<a href="contacto.html" class="btn btn-o" data-es="Contactar" data-en="Contact" data-ca="Contactar" data-fr="Contacter">Contactar</a>
+</div>
+</div>
+</section>
+
+<!-- S2: VIDEO CASA 180 -->
+<section class="slide" id="s2" style="padding:0;background:#000">
+<video autoplay muted loop playsinline poster="20260730222718545141.jpg" style="width:100%;height:100vh;object-fit:contain;background:#000" class="clip-rv-left">
+<source src="Nueva carpeta/video-casa-180.mp4" type="video/mp4">
+</video>
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,rgba(10,10,10,0.8) 100%);pointer-events:none"></div>
+<div class="slide-full-content" style="position:absolute;bottom:80px;left:64px;right:64px;top:auto;max-width:600px">
+<div class="label rv" data-es="// Visualizacion 3D" data-en="// 3D Visualization" data-ca="// Visualitzacio 3D" data-fr="// Visualisation 3D" data-it="// Visualizzazione 3D">// Visualizacion 3D</div>
+<h2 class="heading rv" style="font-size:clamp(1.5rem,3vw,2.5rem)" data-es="Cada proyecto cobra<br><em>vida antes de existir</em>" data-en="Every project comes<br><em>alive before existing</em>" data-ca="Cada projecte cobra<br><em>vida abans d'existir</em>" data-fr="Chaque projet prend<br><em> vie avant d'exister</em>" data-it="Ogni progetto prende<br><em>prima di esistere</em>">Cada proyecto cobra<br><em>vida antes de existir</em></h2>
+</div>
+</section>
+
+<!-- S3: SERVICIOS -->
+<section class="slide slide-dark" id="s3">
+<div class="slide-inner">
+<div class="label rv-left" data-es="// Nuestros Servicios" data-en="// Our Services" data-ca="// Els Nostres Serveis" data-fr="// Nos Services">// Nuestros Servicios</div>
+<h2 class="heading rv-scale" data-es="Que <em>Hacemos</em>" data-en="What We <em>Do</em>" data-ca="Que <em>Fem</em>" data-fr="Ce Que Nous <em>Faisons</em>">Que <em>Hacemos</em></h2>
+<div class="grid-3">
+<div class="grid-item rv">
+<div class="grid-num">01</div>
+<div class="grid-title" data-es="Arquitectura Residencial" data-en="Residential Architecture" data-ca="Arquitectura Residencial" data-fr="Architecture Residentielle">Arquitectura Residencial</div>
+<div class="grid-desc" data-es="Diseno de viviendas unifamiliares y multifamiliares con estandares de lujo. Cada casa es unica, adaptada al estilo de vida de sus ocupantes." data-en="Design of single-family and multi-family homes with luxury standards. Every house is unique, adapted to the lifestyle of its occupants." data-ca="Disseny de vivendes unifamiliars i multifamiliars amb estandards de luxe. Cada casa es unica, adaptada al estil de vida dels seus ocupants." data-fr="Conception de maisons individuelles et collectives avec des standards de luxe. Chaque maison est unique, adaptee au style de vie de ses occupants.">Diseno de viviendas unifamiliares y multifamiliares con estandares de lujo. Cada casa es unica, adaptada al estilo de vida de sus ocupantes.</div>
+</div>
+<div class="grid-item rv">
+<div class="grid-num">02</div>
+<div class="grid-title" data-es="Paisajismo" data-en="Landscaping" data-ca="Paisatgisme" data-fr="Paysagisme">Paisajismo</div>
+<div class="grid-desc" data-es="El paisajismo no es un complemento, es el alma del proyecto. Disenamos entornos sensoriales donde el agua y la vegetacion fluyen en armonia." data-en="Landscaping is not a complement, it's the soul of the project. We design sensory environments where water and vegetation flow in harmony." data-ca="El paisatgisme no es un complement, es l'anima del projecte. Dissenyem entorns sensorials on l'aigua i la vegetacio flueixen en harmonia." data-fr="Le paysagisme n'est pas un complement, c'est l'ame du projet. Nous concevons des environnements sensoriels ou l'eau et la vegetation s'ecoulent en harmonie.">El paisajismo no es un complemento, es el alma del proyecto. Disenamos entornos sensoriales donde el agua y la vegetacion fluyen en armonia.</div>
+</div>
+<div class="grid-item rv">
+<div class="grid-num">03</div>
+<div class="grid-title" data-es="Hoteleria" data-en="Hospitality" data-ca="Hoteleria" data-fr="Hotellerie">Hoteleria</div>
+<div class="grid-desc" data-es="Hoteles boutique que invitan a la permanencia. Espacios que convierten una estancia en una experiencia memorable." data-en="Boutique hotels that invite lingering. Spaces that turn a stay into a memorable experience." data-ca="Hotels boutique que conviden a la permanencia. Espais que converteixen una estada en una experiencia memorable." data-fr="Hotels boutique qui invitent a la duree. Espaces qui transforment un sejour en une experience memorable.">Hoteles boutique que invitan a la permanencia. Espacios que convierten una estancia en una experiencia memorable.</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<!-- S4: PROYECTO RESIDENCIAL -->
+<section class="slide" id="s4" style="padding:0">
+<img src="stock-photography_professional_photo_of_moderniza_logo_y_hazlo_png_Cinematic_architectural_photogr-0 (1).jpg" alt="Villa residencial moderna CARQUIDEC" class="img-full clip-rv-right" loading="lazy">
+</section>
+
+<!-- ================================================================ -->
+<!-- LIMITE INICIAL: GALERIA-HEROS — ZONA PERMITIDA PARA RECONSTRUIR -->
+<!-- ================================================================ -->
+<!-- S5: GALERIA DE HEROES (cada foto = 1 diapositiva full-screen) -->
+<section class="slide slide-dark" id="s5">
+<div class="slide-inner">
+<div class="label rv" data-es="// Nuestros Proyectos" data-en="// Our Projects" data-ca="// Els Nostres Projectes" data-fr="// Nos Projets">// Nuestros Proyectos</div>
+<h2 class="heading rv" data-es="Obras <em>Destacadas</em>" data-en="Featured <em>Works</em>" data-ca="Obres <em>Destacades</em>" data-fr="Travaux <em>En Vedette</em>">Obras <em>Destacadas</em></h2>
+<p class="body rv" data-es="Cada imagen es un proyecto completo. Cada proyecto, una leccion de concepto, tecnica o valor. Deslice hacia abajo." data-en="Each image is a complete project. Each project, a lesson in concept, technique or value. Scroll down." data-ca="Cada imatge es un projecte complet. Cada projecte, una llico de concepte, tecnica o valor. Desplaceu-vos cap avall." data-fr="Chaque image est un projet complet. Chaque projet, une lecon de concept, de technique ou de valeur. Faites defiler.">Cada imagen es un proyecto completo. Cada proyecto, una leccion de concepto, tecnica o valor. Deslice hacia abajo.</p>
+</div>
+</section>
+
+<!-- HERO 01 -->
+<section class="slide" id="g01" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('H1.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Concepto" data-en="// Concept" data-ca="// Concepte" data-fr="// Concept">// Concepto</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Villa <em>Residencial</em>" data-en="Residential <em>Villa</em>" data-ca="Villa <em>Residencial</em>" data-fr="Villa <em>Residentielle</em>">Villa <em>Residencial</em></h2>
+<p class="body rv" data-es="Concreto expuesto, madera tropical y jardines que se funden con el paisaje. La casa deja de ser un objeto y se convierte en parte del terreno." data-en="Exposed concrete, tropical wood and gardens that merge with the landscape. The house stops being an object and becomes part of the land." data-ca="Formigo vist, fusta tropical i jardins que es fonen amb el paisatge. La casa deixa de ser un objecte i es converteix en part del terreny." data-fr="Beton brut, bois tropical et jardins qui se fondent dans le paysage. La maison cesse d'etre un objet et devient partie du terrain.">Concreto expuesto, madera tropical y jardines que se funden con el paisaje. La casa deja de ser un objeto y se convierte en parte del terreno.</p>
+</div>
+</section>
+
+
+
+
+
+<!-- HERO 02 -->
+<section class="slide" id="g02" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('stock-photography_professional_photo_of_moderniza_logo_y_hazlo_png_Cinematic_architectural_photogr-0 (2).jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Hoteleria" data-en="// Hospitality" data-ca="// Hoteleria" data-fr="// Hotellerie">// Hoteleria</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Hotel <em>Boutique</em>" data-en="Boutique <em>Hotel</em>" data-ca="Hotel <em>Boutique</em>" data-fr="Hotel <em>Boutique</em>">Hotel <em>Boutique</em></h2>
+<p class="body rv" data-es="Una entrada con fuente de agua que invita a permanecer. La luz natural y los materiales nobles convierten una estancia en experiencia." data-en="An entrance with a water fountain that invites lingering. Natural light and noble materials turn a stay into an experience." data-ca="Una entrada amb font d'aigua que convida a romandre. La llum natural i els materials nobles converteixen una estada en experiencia." data-fr="Une entree avec fontaine d'eau qui invite a rester. La lumiere naturelle et les materiaux nobles transforment un sejour en experience.">Una entrada con fuente de agua que invita a permanecer. La luz natural y los materiales nobles convierten una estancia en experiencia.</p>
+</div>
+</section>
+<!-- HERO 03 -->
+<section class="slide" id="g03" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('stock-photography_professional_photo_of_moderniza_logo_y_hazlo_png_Cinematic_architectural_photogr-0 (3).jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Tradicion" data-en="// Tradition" data-ca="// Tradicio" data-fr="// Tradition">// Tradicion</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Casa <em>Colonial</em>" data-en="Colonial <em>House</em>" data-ca="Casa <em>Colonial</em>" data-fr="Maison <em>Coloniale</em>">Casa <em>Colonial</em></h2>
+<p class="body rv" data-es="Techo de barro artesanal y comodidad contemporanea. Fusion de tradicion local y lenguaje moderno, con paisajismo integrado." data-en="Handmade clay roof and contemporary comfort. A fusion of local tradition and modern language, with integrated landscaping." data-ca="Teulada de fang artesanal i comoditat contemporania. Fusio de tradicio local i llenguatge modern, amb paisatgisme integrat." data-fr="Toit de terre cuite artisanale et confort contemporain. Fusion de tradition locale et de langage moderne, avec paysagisme integre.">Techo de barro artesanal y comodidad contemporanea. Fusion de tradicion local y lenguaje moderno, con paisajismo integrado.</p>
+</div>
+</section><!-- HERO 04 -->
+<section class="slide" id="g04" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/20260730222940634241.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Tecnica" data-en="// Technique" data-ca="// Tecnica" data-fr="// Technique">// Tecnica</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Interior <em>Comercial</em>" data-en="Commercial <em>Interior</em>" data-ca="Interior <em>Comercial</em>" data-fr="Interieur <em>Commercial</em>">Interior <em>Comercial</em></h2>
+<p class="body rv" data-es="Paredes grises, pisos de marmol e iluminacion focalizada. La galeria de arte integrada demuestra que el comercio tambien es cultura." data-en="Grey walls, marble floors and focused lighting. The integrated art gallery proves that commerce is also culture." data-ca="Parets grises, pisos de marbre i il.luminacio focalitzada. La galeria d'art integrada demostra que el comerç tambe es cultura." data-fr="Murs gris, sols de marbre et eclairage focalise. La galerie d'art integree prouve que le commerce est aussi de la culture.">Paredes grises, pisos de marmol e iluminacion focalizada. La galeria de arte integrada demuestra que el comercio tambien es cultura.</p>
+</div>
+</section>
+
+
+
+
+
+<!-- HERO 07 -->
+<section class="slide" id="g07" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/20260730221736337707.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Logro" data-en="// Achievement" data-ca="// Assoliment" data-fr="// Realisation">// Logro</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Edificio <em>Corporativo</em>" data-en="Corporate <em>Building</em>" data-ca="Edifici <em>Corporatiu</em>" data-fr="Immeuble <em>Corporatif</em>">Edificio <em>Corporativo</em></h2>
+<p class="body rv" data-es="Cuatro pisos de oficinas, fachada blanca con paneles de madera y cristaleria panoramica. La escala corporativa resuelta con calidez." data-en="Four office floors, white facade with wood panels and panoramic glazing. Corporate scale resolved with warmth." data-ca="Quatre pisos d'oficines, facana blanca amb panells de fusta i cristalleria panoramica. L'escala corporativa resolta amb calidesa." data-fr="Quatre etages de bureaux, facade blanche a panneaux de bois et vitrage panoramique. L'echelle corporative resolue avec chaleur.">Cuatro pisos de oficinas, fachada blanca con paneles de madera y cristaleria panoramica. La escala corporativa resuelta con calidez.</p>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+<!-- HERO 12 -->
+<section class="slide" id="g12" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/20260730223149789515.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Material" data-en="// Material" data-ca="// Material" data-fr="// Materiau">// Material</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Bano de <em>Lujo</em>" data-en="Luxury <em>Bathroom</em>" data-ca="Bany de <em>Luxe</em>" data-fr="Salle de bains <em>Luxe</em>">Bano de <em>Lujo</em></h2>
+<p class="body rv" data-es="Piedra natural, madera termotratada y ducha tipo lluvia. La suite principal se convierte en un spa privado." data-en="Natural stone, thermally treated wood and rain shower. The master suite becomes a private spa." data-ca="Pedra natural, fusta tractada termicament i dutxa tipus pluja. La suite principal es converteix en un spa privat." data-fr="Pierre naturelle, bois thermotrate et douche pluie. La suite principale devient un spa prive.">Piedra natural, madera termotratada y ducha tipo lluvia. La suite principal se convierte en un spa privado.</p>
+</div>
+</section>
+
+<!-- HERO 13 -->
+<section class="slide" id="g13" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/3333f4e5-3e84-466a-acac-256138671ed0.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Tecnica" data-en="// Technique" data-ca="// Tecnica" data-fr="// Technique">// Tecnica</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Diseno <em>Parametrico</em>" data-en="Parametric <em>Design</em>" data-ca="Disseny <em>Parametric</em>" data-fr="Design <em>Parametrique</em>">Diseno <em>Parametrico</em></h2>
+<p class="body rv" data-es="El algoritmo optimiza cada curva en funcion del sol, la brisa y la vista. La naturaleza dicta la forma." data-en="The algorithm optimizes every curve according to sun, breeze and view. Nature dictates the form." data-ca="L'algoritme optimitza cada corba en funcio del sol, la brisa i la vista. La natura dicta la forma." data-fr="L'algorithme optimise chaque courbe selon le soleil, la brise et la vue. La nature dicte la forme.">El algoritmo optimiza cada curva en funcion del sol, la brisa y la vista. La naturaleza dicta la forma.</p>
+</div>
+</section>
+
+<!-- HERO 14 -->
+<section class="slide" id="g14" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/48370623-716a-47ca-978d-6ab861a2e0b9.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Concepto" data-en="// Concept" data-ca="// Concepte" data-fr="// Concept">// Concepto</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Vista <em>Arquitectonica</em>" data-en="Architectural <em>View</em>" data-ca="Vista <em>Arquitectonica</em>" data-fr="Vue <em>Architecturale</em>">Vista <em>Arquitectonica</em></h2>
+<p class="body rv" data-es="Volumetria contemporanea con hormigon visto y acabados de madera tropical. La honestidad del material como lenguaje." data-en="Contemporary volume with exposed concrete and tropical wood finishes. The honesty of material as language." data-ca="Volumetria contemporania amb formigo vist i acabats de fusta tropical. L'honestedat del material com a llenguatge." data-fr="Volume contemporain en beton brut et finitions bois tropical. L'honnetete du materiau comme langage.">Volumetria contemporanea con hormigon visto y acabados de madera tropical. La honestidad del material como lenguaje.</p>
+</div>
+</section>
+
+<!-- HERO 15 -->
+<section class="slide" id="g15" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/4dced077-93ef-482f-9b29-41b3bc4928d4.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Tecnica" data-en="// Technique" data-ca="// Tecnica" data-fr="// Technique">// Tecnica</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Interior de <em>Diseno</em>" data-en="Design <em>Interior</em>" data-ca="Interior de <em>Disseny</em>" data-fr="Interieur <em>Design</em>">Interior de <em>Diseno</em></h2>
+<p class="body rv" data-es="Iluminacion natural cenital que recorre los materiales nobles. La luz se disena, no se anade." data-en="Cenithal natural light that travels over noble materials. Light is designed, not added." data-ca="Il.luminacio natural cenital que recorre els materials nobles. La llum es dissenya, no s'afegeix." data-fr="Lumiere naturelle cenithale qui parcourt les materiaux nobles. La lumiere se conçoit, ne s'ajoute pas.">Iluminacion natural cenital que recorre los materiales nobles. La luz se disena, no se anade.</p>
+</div>
+</section>
+
+<!-- HERO 16 -->
+<section class="slide" id="g16" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/6beb4687-8167-4121-9074-d643b0940dc7.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Logro" data-en="// Achievement" data-ca="// Assoliment" data-fr="// Realisation">// Logro</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Render <em>Arquitectonico</em>" data-en="Architectural <em>Render</em>" data-ca="Render <em>Arquitectonic</em>" data-fr="Rendu <em>Architectural</em>">Render <em>Arquitectonico</em></h2>
+<p class="body rv" data-es="Visualizacion 3D de un proyecto residencial con paisajismo integrado. El cliente ve su futuro antes de construir." data-en="3D visualization of a residential project with integrated landscaping. The client sees their future before building." data-ca="Visualitzacio 3D d'un projecte residencial amb paisatgisme integrat. El client veu el seu futur abans de construir." data-fr="Visualisation 3D d'un projet residentiel avec paysagisme integre. Le client voit son futur avant de construire.">Visualizacion 3D de un proyecto residencial con paisajismo integrado. El cliente ve su futuro antes de construir.</p>
+</div>
+</section>
+
+<!-- HERO 17 -->
+<section class="slide" id="g17" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/BCO.7c82120a-adeb-474c-8316-0a853ab82f12~2.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Material" data-en="// Material" data-ca="// Material" data-fr="// Materiau">// Material</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Piedra y <em>Griferia</em>" data-en="Stone and <em>Fixtures</em>" data-ca="Pedra i <em>Aixeteria</em>" data-fr="Pierre et <em>Robinetterie</em>">Piedra y <em>Griferia</em></h2>
+<p class="body rv" data-es="Revestimientos de piedra natural, griferia de alta gama e iluminacion ambiental. El detalle decide la categoria." data-en="Natural stone cladding, high-end fixtures and ambient lighting. The detail decides the category." data-ca="Revestiments de pedra natural, aixeteria d'alta gamma i il.luminacio ambiental. El detall decideix la categoria." data-fr="Revêtements en pierre naturelle, robinetterie haut de gamme et eclairage ambiant. Le detail decide de la categorie.">Revestimientos de piedra natural, griferia de alta gama e iluminacion ambiental. El detalle decide la categoria.</p>
+</div>
+</section>
+
+<!-- HERO 18 -->
+<section class="slide" id="g18" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/BCO.8588eff7-91ee-4220-9364-8a184912909a.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Valor" data-en="// Value" data-ca="// Valor" data-fr="// Valeur">// Valor</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Proyecto <em>Comercial</em>" data-en="Commercial <em>Project</em>" data-ca="Projecte <em>Comercial</em>" data-fr="Projet <em>Commercial</em>">Proyecto <em>Comercial</em></h2>
+<p class="body rv" data-es="Diseno interior de autor con acabados premium y flujo optimizado. El comercio que se recorre como una galeria." data-en="Signature interior design with premium finishes and optimized flow. Commerce that is traversed like a gallery." data-ca="Disseny interior d'autor amb acabats premium i flux optimitzat. El comerç que es recorre com una galeria." data-fr="Design interieur de signature avec finitions premium et flux optimise. Le commerce que l'on parcourt comme une galerie.">Diseno interior de autor con acabados premium y flujo optimizado. El comercio que se recorre como una galeria.</p>
+</div>
+</section>
+
+<!-- HERO 19 -->
+<section class="slide" id="g19" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/BCO.a64d9811-7ce1-4736-9fcb-001ae9aa405d.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Tecnica" data-en="// Technique" data-ca="// Tecnica" data-fr="// Technique">// Tecnica</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Voladizos <em>Calculados</em>" data-en="Calculated <em>Cantilevers</em>" data-ca="Voladissos <em>Calculats</em>" data-fr="Porte-a-faux <em>Calcules</em>">Voladizos <em>Calculados</em></h2>
+<p class="body rv" data-es="Cristaleria panoramica y voladizos calculados al milimetro. La estructura se vuelve ligera sin dejar de ser firme." data-en="Panoramic glazing and cantilevers calculated to the millimeter. The structure becomes light without ceasing to be firm." data-ca="Cristalleria panoramica i voladissos calculats al mil.limetre. L'estructura es torna lleugera sense deixar de ser ferma." data-fr="Vitrage panoramique et porte-a-faux calcules au millimetre. La structure devient legere sans cesser d'etre ferme.">Cristaleria panoramica y voladizos calculados al milimetro. La estructura se vuelve ligera sin dejar de ser firme.</p>
+</div>
+</section>
+
+<!-- HERO 20 -->
+<section class="slide" id="g20" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/Copilot_20260730_162451.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Concepto" data-en="// Concept" data-ca="// Concepte" data-fr="// Concept">// Concepto</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Concepto <em>Arquitectonico</em>" data-en="Architectural <em>Concept</em>" data-ca="Concepte <em>Arquitectonic</em>" data-fr="Concept <em>Architectural</em>">Concepto <em>Arquitectonico</em></h2>
+<p class="body rv" data-es="Vision conceptual de un espacio residencial con integracion paisajistica. La idea precede siempre al plano." data-en="Conceptual vision of a residential space with landscape integration. The idea always precedes the plan." data-ca="Visio conceptual d'un espai residencial amb integracio paisatgistica. La idea precedeix sempre el plà." data-fr="Vision conceptuelle d'un espace residentiel avec integration paysagere. L'idee precede toujours le plan.">Vision conceptual de un espacio residencial con integracion paisajistica. La idea precede siempre al plano.</p>
+</div>
+</section>
+
+
+
+<!-- HERO 22 -->
+<section class="slide" id="g22" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/empty_office_interior.webp')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Tecnica" data-en="// Technique" data-ca="// Tecnica" data-fr="// Technique">// Tecnica</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Interior <em>Corporativo</em>" data-en="Corporate <em>Interior</em>" data-ca="Interior <em>Corporatiu</em>" data-fr="Interieur <em>Corporatif</em>">Interior <em>Corporativo</em></h2>
+<p class="body rv" data-es="Mobiliario de diseno y vistas panoramicas. La oficina contemporanea se planifica para el encuentro, no para la fila." data-en="Designer furniture and panoramic views. The contemporary office is planned for encounter, not for the queue." data-ca="Mobiliari de disseny i vistes panoramiques. L'oficina contemporania es planifica per a la trobada, no per a la fila." data-fr="Mobilier design et vues panoramiques. Le bureau contemporain se planifie pour la rencontre, pas pour la file.">Mobiliario de diseno y vistas panoramicas. La oficina contemporanea se planifica para el encuentro, no para la fila.</p>
+</div>
+</section>
+
+<!-- HERO 23 -->
+<section class="slide" id="g23" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/fe4ded61-cb9f-4367-9ce2-adf32396f0dd.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Valor" data-en="// Value" data-ca="// Valor" data-fr="// Valeur">// Valor</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Residencial <em>Exclusivo</em>" data-en="Exclusive <em>Residence</em>" data-ca="Residencial <em>Exclusiu</em>" data-fr="Residence <em>Exclusive</em>">Residencial <em>Exclusivo</em></h2>
+<p class="body rv" data-es="Estandares de lujo con eficiencia energetica. El confort de alto nivel no tiene por que costarle caro al planeta." data-en="Luxury standards with energy efficiency. High-end comfort doesn't have to cost the planet dearly." data-ca="Estandards de luxe amb eficiencia energetica. El confort d'alt nivell no ha de costar car al planeta." data-fr="Standards de luxe avec efficacite energetique. Le confort haut de gamme ne doit pas couter cher a la planete.">Estandares de lujo con eficiencia energetica. El confort de alto nivel no tiene por que costarle caro al planeta.</p>
+</div>
+</section>
+
+<!-- HERO 24 -->
+<section class="slide" id="g24" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/imagine_prompt_Architectural_photography_of_a_completed_real.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Logro" data-en="// Achievement" data-ca="// Assoliment" data-fr="// Realisation">// Logro</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Fotografia <em>Arquitectonica</em>" data-en="Architectural <em>Photography</em>" data-ca="Fotografia <em>Arquitectonica</em>" data-fr="Photographie <em>Architecturale</em>">Fotografia <em>Arquitectonica</em></h2>
+<p class="body rv" data-es="El proyecto completado, documentado con fotografia profesional. La arquitectura que trasciende necesita registro digno." data-en="The completed project, documented with professional photography. Architecture that transcends needs worthy documentation." data-ca="El projecte completat, documentat amb fotografia professional. L'arquitectura que transcendeix necessita registre digne." data-fr="Le projet termine, documente par la photographie professionnelle. L'architecture qui transcende a besoin d'un registre digne.">El proyecto completado, documentado con fotografia profesional. La arquitectura que trasciende necesita registro digno.</p>
+</div>
+</section>
+
+<!-- HERO 25 -->
+<section class="slide" id="g25" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/NoteGPT_Image_20260730162440.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Tecnica" data-en="// Technique" data-ca="// Tecnica" data-fr="// Technique">// Tecnica</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Detalle <em>Constructivo</em>" data-en="Construction <em>Detail</em>" data-ca="Detall <em>Constructiu</em>" data-fr="Detail <em>de Construction</em>">Detalle <em>Constructivo</em></h2>
+<p class="body rv" data-es="Acabados y materiales nobles en fase de construccion. El detalle es donde el proyecto se gana o se pierde." data-en="Finishes and noble materials during construction. The detail is where the project is won or lost." data-ca="Acabats i materials nobles en fase de construccio. El detall es on el projecte es guanya o es perd." data-fr="Finitions et materiaux nobles en phase de construction. Le detail est la ou le projet se gagne ou se perd.">Acabados y materiales nobles en fase de construccion. El detalle es donde el proyecto se gana o se pierde.</p>
+</div>
+</section>
+
+<!-- HERO 26 -->
+<section class="slide" id="g26" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/stock-photography_professional_photo_of_moderniza_FOTO_DE_CASA_CON_LOGO_photography-0.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Concepto" data-en="// Concept" data-ca="// Concepte" data-fr="// Concept">// Concepto</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Residencia <em>Moderna</em>" data-en="Modern <em>Residence</em>" data-ca="Residencia <em>Moderna</em>" data-fr="Residence <em>Moderne</em>">Residencia <em>Moderna</em></h2>
+<p class="body rv" data-es="Fachada de lineas limpias y jardines integrados. La contemporaneidad entendida como serenidad, no como espectaculo." data-en="Clean-lined facade and integrated gardens. Contemporaneity understood as serenity, not spectacle." data-ca="Facana de linies netes i jardins integrats. La contemporaneitat entesa com a serenitat, no com a espectacle." data-fr="Facade aux lignes nettes et jardins integres. La contemporaneite comprise comme serenite, non comme spectacle.">Fachada de lineas limpias y jardines integrados. La contemporaneidad entendida como serenidad, no como espectaculo.</p>
+</div>
+</section>
+
+<!-- HERO 27 -->
+<section class="slide" id="g27" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/stock-photography_professional_photo_of_moderniza_FOTO_DE_CASA_CON_LOGO_photography-1.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Logro" data-en="// Achievement" data-ca="// Assoliment" data-fr="// Realisation">// Logro</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Villa <em>Residencial</em>" data-en="Residential <em>Villa</em>" data-ca="Villa <em>Residencial</em>" data-fr="Villa <em>Residentielle</em>">Villa <em>Residencial</em></h2>
+<p class="body rv" data-es="Piscina infinity y conexion interior-exterior total. La casa se expande hacia el horizonte." data-en="Infinity pool and total indoor-outdoor connection. The house expands toward the horizon." data-ca="Piscina infinity i conexio interior-exterior total. La casa s'expandeix cap a l'horitzo." data-fr="Piscine a debordement et connexion interieur-exterieur totale. La maison s'etend vers l'horizon.">Piscina infinity y conexion interior-exterior total. La casa se expande hacia el horizonte.</p>
+</div>
+</section>
+
+<!-- HERO 28 -->
+<section class="slide" id="g28" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/stock-photography_professional_photo_of_moderniza_FOTO_DE_CASA_CON_LOGO_photography-2.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Material" data-en="// Material" data-ca="// Material" data-fr="// Materiau">// Material</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Casa de <em>Diseno</em>" data-en="Design <em>House</em>" data-ca="Casa de <em>Disseny</em>" data-fr="Maison <em>Design</em>">Casa de <em>Diseno</em></h2>
+<p class="body rv" data-es="Piedra, madera y cristal en armonia. Tres materiales, una sola intencion: permanencia." data-en="Stone, wood and glass in harmony. Three materials, one intention: permanence." data-ca="Pedra, fusta i cristall en armonia. Tres materials, una sola intencio: permanencia." data-fr="Pierre, bois et verre en harmonie. Trois materiaux, une seule intention: la permanence.">Piedra, madera y cristal en armonia. Tres materiales, una sola intencion: permanencia.</p>
+</div>
+</section>
+
+<!-- HERO 29 -->
+<section class="slide" id="g29" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/stock-photography_professional_photo_of_moderniza_FOTO_DE_CASA_CON_LOGO_photography-3.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Logro" data-en="// Achievement" data-ca="// Assoliment" data-fr="// Realisation">// Logro</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Proyecto <em>Completo</em>" data-en="Complete <em>Project</em>" data-ca="Projecte <em>Complet</em>" data-fr="Projet <em>Complet</em>">Proyecto <em>Completo</em></h2>
+<p class="body rv" data-es="Vista general con paisajismo y arquitectura integrados. El proyecto completo se lee como una unidad, no como una suma." data-en="Overall view with integrated landscaping and architecture. The complete project reads as a unit, not a sum." data-ca="Vista general amb paisatgisme i arquitectura integrats. El projecte complet es llegeix com una unitat, no com una suma." data-fr="Vue generale avec paysagisme et architecture integres. Le projet complet se lit comme une unite, non comme une somme.">Vista general con paisajismo y arquitectura integrados. El proyecto completo se lee como una unidad, no como una suma.</p>
+</div>
+</section>
+
+<!-- HERO 30 -->
+<section class="slide" id="g30" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/stock-photography_professional_photo_of_moderniza_logo_y_hazlo_png_Cinematic_architectural_photogr-0.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Logro" data-en="// Achievement" data-ca="// Assoliment" data-fr="// Realisation">// Logro</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Render <em>Cinemico</em>" data-en="Cinematic <em>Render</em>" data-ca="Render <em>Cinematic</em>" data-fr="Rendu <em>Cinematographique</em>">Render <em>Cinemico</em></h2>
+<p class="body rv" data-es="Visualizacion cinematografica de un proyecto residencial al atardecer. La luz dorada cuenta la historia del espacio." data-en="Cinematic visualization of a residential project at sunset. Golden light tells the story of the space." data-ca="Visualitzacio cinematografica d'un projecte residencial al capvespre. La llum daurada explica la historia de l'espai." data-fr="Visualisation cinematographique d'un projet residentiel au coucher du soleil. La lumiere doree raconte l'histoire de l'espace.">Visualizacion cinematografica de un proyecto residencial al atardecer. La luz dorada cuenta la historia del espacio.</p>
+</div>
+</section>
+
+<!-- HERO 31 -->
+<section class="slide" id="g31" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/stock-photography_professional_photo_of_moderniza_logo_y_hazlo_png_Cinematic_architectural_photogr-2.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Tecnica" data-en="// Technique" data-ca="// Tecnica" data-fr="// Technique">// Tecnica</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Vista <em>Diurna</em>" data-en="Day <em>View</em>" data-ca="Vista <em>Diurna</em>" data-fr="Vue <em>Diurne</em>">Vista <em>Diurna</em></h2>
+<p class="body rv" data-es="Iluminacion natural diurna que revela la arquitectura en su estado mas honesto. La luz del dia es la primera materia." data-en="Natural daylight that reveals architecture in its most honest state. Daylight is the primary material." data-ca="Il.luminacio natural diurna que revela l'arquitectura en el seu estat mes honest. La llum del dia es la primera materia." data-fr="Lumiere naturelle diurne qui revele l'architecture dans son etat le plus honnete. La lumiere du jour est la premiere matiere.">Iluminacion natural diurna que revela la arquitectura en su estado mas honesto. La luz del dia es la primera materia.</p>
+</div>
+</section>
+
+<!-- HERO 32 -->
+<section class="slide" id="g32" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/stock-photography_professional_photo_of_moderniza_logo_y_hazlo_png_Cinematic_architectural_photogr-3.jpg')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Valor" data-en="// Value" data-ca="// Valor" data-fr="// Valeur">// Valor</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Atardecer <em>Arquitectonico</em>" data-en="Architectural <em>Sunset</em>" data-ca="Capvespre <em>Arquitectonic</em>" data-fr="Coucher de soleil <em>Architectural</em>">Atardecer <em>Arquitectonico</em></h2>
+<p class="body rv" data-es="Luz dorada rasante que resalta texturas y planos. La arquitectura se revela plenamente cuando el sol la roza." data-en="Raking golden light that highlights textures and planes. Architecture fully reveals itself when the sun grazes it." data-ca="Llum daurada rasante que ressalta textures i plans. L'arquitectura es revela plenament quan el sol la toca." data-fr="Lumiere doree rasante qui met en valeur textures et plans. L'architecture se revele pleinement quand le soleil l'effleure.">Luz dorada rasante que resalta texturas y planos. La arquitectura se revela plenamente cuando el sol la roza.</p>
+</div>
+</section>
+
+<!-- HERO 33 -->
+<section class="slide" id="g33" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/upscalemedia-transformed.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Logro" data-en="// Achievement" data-ca="// Assoliment" data-fr="// Realisation">// Logro</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Proyecto <em>Finalizado</em>" data-en="Completed <em>Project</em>" data-ca="Projecte <em>Finalitzat</em>" data-fr="Projet <em>Termine</em>">Proyecto <em>Finalizado</em></h2>
+<p class="body rv" data-es="Entregado y habitado. Arquitectura que trasciende generaciones: este es el momento que justifica todo el proceso." data-en="Delivered and inhabited. Architecture that transcends generations: this is the moment that justifies the whole process." data-ca="Entregat i habitat. Arquitectura que transcendeix generacions: aquest es el moment que justifica tot el proces." data-fr="Livre et habite. Architecture qui transcende les generations: c'est le moment qui justifie tout le processus.">Entregado y habitado. Arquitectura que trasciende generaciones: este es el momento que justifica todo el proceso.</p>
+</div>
+</section>
+
+<!-- HERO 34 -->
+<section class="slide" id="g34" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/hologram_cutout.png')"></div>
+<div class="slide-full-ov"></div>
+</section>
+
+<!-- HERO 35 -->
+<section class="slide" id="g35" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/Copilot_20260730_165702.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Tecnica" data-en="// Technique" data-ca="// Tecnica" data-fr="// Technique">// Tecnica</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Detalle de <em>Proyecto</em>" data-en="Project <em>Detail</em>" data-ca="Detall de <em>Projecte</em>" data-fr="Detail de <em>Projet</em>">Detalle de <em>Proyecto</em></h2>
+<p class="body rv" data-es="Acabados y materiales en fase de desarrollo. Cada union, cada junta, cada decision constructiva queda a la vista." data-en="Finishes and materials in development phase. Every joint, every seam, every constructive decision is on display." data-ca="Acabats i materials en fase de desenvolupament. Cada unio, cada junta, cada decisio constructiva queda a la vista." data-fr="Finitions et materiaux en phase de developpement. Chaque joint, chaque soudure, chaque decision constructive est visible.">Acabados y materiales en fase de desarrollo. Cada union, cada junta, cada decision constructiva queda a la vista.</p>
+</div>
+</section>
+
+<!-- HERO 36 -->
+<section class="slide" id="g36" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/Copilot_20260730_165119.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Concepto" data-en="// Concept" data-ca="// Concepte" data-fr="// Concept">// Concepto</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Concepto <em>Espacial</em>" data-en="Spatial <em>Concept</em>" data-ca="Concepte <em>Espacial</em>" data-fr="Concept <em>Spatial</em>">Concepto <em>Espacial</em></h2>
+<p class="body rv" data-es="Un espacio interior con flujo luminoso natural. La conceptualizacion define la atmosfera antes de que exista la pared." data-en="An interior space with natural luminous flow. Conceptualization defines the atmosphere before the wall exists." data-ca="Un espai interior amb flux luminos natural. La conceptualitzacio defineix l'atmosfera abans que existeixi la paret." data-fr="Un espace interieur a flux lumineux naturel. La conceptualisation definit l'atmosphere avant que le mur n'existe.">Un espacio interior con flujo luminoso natural. La conceptualizacion define la atmosfera antes de que exista la pared.</p>
+</div>
+</section>
+
+<!-- HERO 37 -->
+<section class="slide" id="g37" style="padding:0">
+<div class="slide-full-bg" style="background-image:url('Nueva carpeta/Copilot_20260730_165023.png')"></div>
+<div class="slide-full-ov"></div>
+<div class="slide-full-content" style="position:absolute;bottom:64px;left:64px;right:64px;top:auto;max-width:640px">
+<div class="label rv" data-es="// Valor" data-en="// Value" data-ca="// Valor" data-fr="// Valeur">// Valor</div>
+<h2 class="heading rv" style="font-size:clamp(1.6rem,3.4vw,2.8rem)" data-es="Vista <em>Interior</em>" data-en="Interior <em>View</em>" data-ca="Vista <em>Interior</em>" data-fr="Vue <em>Interieure</em>">Vista <em>Interior</em></h2>
+<p class="body rv" data-es="Interior residencial con conexion total interior-exterior. Vivir adentro y afuera, al mismo tiempo." data-en="Residential interior with total indoor-outdoor connection. Living inside and outside, at the same time." data-ca="Interior residencial amb conexio total interior-exterior. Viure dins i fora, alhora." data-fr="Interieur residentiel avec connexion totale interieur-exterieur. Vivre dedans et dehors, en meme temps.">Interior residencial con conexion total interior-exterior. Vivir adentro y afuera, al mismo tiempo.</p>
+</div>
+</section>
+
+<!-- ================================================================ -->
+<!-- LIMITE FINAL: GALERIA-HEROS — NO TOCAR DESPUES DE ESTA MARCA -->
+<!-- ================================================================ -->
+
+
+<!-- S7: METODO -->
+<section class="slide slide-dark" id="s7">
+<div class="slide-inner">
+<div class="label rv" data-es="// Como Trabajamos" data-en="// How We Work" data-ca="Com Treballem" data-fr="Comment Nous Travaillons">// Como Trabajamos</div>
+<h2 class="heading rv" data-es="Nuestro <em>Proceso</em>" data-en="Our <em>Process</em>" data-ca="El Nostre <em>Proces</em>" data-fr="Notre <em>Processus</em>">Nuestro <em>Proceso</em></h2>
+<div class="grid-4">
+<div class="grid-item rv">
+<div class="grid-num">01</div>
+<div class="grid-title" data-es="Escucha" data-en="Listening" data-ca="Escolta" data-fr="Ecoute">Escucha</div>
+<div class="grid-desc" data-es="No preguntamos que quieres. Preguntamos como quieres sentirte en tu espacio." data-en="We don't ask what you want. We ask how you want to feel in your space." data-ca="No preguntem que vols. Preguntem com vols sentirte al teu espai." data-fr="Nous ne demandons pas ce que vous voulez. Nous demandons comment vous voulez vous sentir dans votre espace.">No preguntamos que quieres. Preguntamos como quieres sentirte en tu espacio.</div>
+</div>
+<div class="grid-item rv">
+<div class="grid-num">02</div>
+<div class="grid-title" data-es="Diseno" data-en="Design" data-ca="Disseny" data-fr="Conception">Diseno</div>
+<div class="grid-desc" data-es="Planos, renders 3D, seleccion de materiales. Cada detalle es una decision consciente." data-en="Plans, 3D renders, material selection. Every detail is a conscious decision." data-ca="Plànols, renders 3D, seleccio de materials. Cada detall es una deciso conscient." data-fr="Plans, rendus 3D, selection de materiaux. Chaque detail est une decision consciente.">Planos, renders 3D, seleccion de materiales. Cada detalle es una decision consciente.</div>
+</div>
+<div class="grid-item rv">
+<div class="grid-num">03</div>
+<div class="grid-title" data-es="Construccion" data-en="Construction" data-ca="Construccio" data-fr="Construction">Construccion</div>
+<div class="grid-desc" data-es="Supervision tecnica rigurosa en sitio. Coordinacion integral de subcontratistas." data-en="Rigorous technical supervision on site. Comprehensive subcontractor coordination." data-ca="Supervisio tecnica rigorosa en lloc. Coordinacio integral de subcontractistes." data-fr="Supervision technique rigoureuse sur site. Coordination integratrice des sous-traitants.">Supervision tecnica rigurosa en sitio. Coordinacion integral de subcontratistas.</div>
+</div>
+<div class="grid-item rv">
+<div class="grid-num">04</div>
+<div class="grid-title" data-es="Entrega" data-en="Delivery" data-ca="Entrega" data-fr="Livraison">Entrega</div>
+<div class="grid-desc" data-es="Entrega de llaves con el cliente. Cada espacio esta listo para ser vivido." data-en="Key handover with the client. Every space is ready to be lived in." data-ca="Entrega de claus amb el client. Cada espai esta llest per ser viscut." data-fr="Remise des cles au client. Chaque espace est pret a etre habite.">Entrega de llaves con el cliente. Cada espacio esta listo para ser vivido.</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- S8: STATS -->
+<section class="slide slide-dark" id="s8">
+<div class="slide-inner">
+<div class="stats-row">
+<div class="stat-item rv"><svg class="stat-icon" viewBox="0 0 38 38" fill="none" stroke="currentColor" stroke-width="1"><circle cx="19" cy="19" r="17"></circle><circle cx="19" cy="19" r="12" stroke-dasharray="2 3"></circle><circle cx="19" cy="19" r="4"></circle></svg><div class="stat-num">38+</div><div class="stat-label" data-es="Anios de Experiencia" data-en="Years of Experience" data-ca="Anys d'Experiencia" data-fr="Annees d'Experience">Anios de Experiencia</div></div>
+<div class="stat-item rv"><svg class="stat-icon" viewBox="0 0 38 38" fill="none" stroke="currentColor" stroke-width="1"><path d="M5 33V15l14-10 14 10v18"></path><path d="M14 33V21h10v12"></path></svg><div class="stat-num">60+</div><div class="stat-label" data-es="Proyectos Ejecutados" data-en="Projects Executed" data-ca="Projectes Executats" data-fr="Projets Executes">Proyectos Ejecutados</div></div>
+<div class="stat-item rv"><svg class="stat-icon" viewBox="0 0 38 38" fill="none" stroke="currentColor" stroke-width="1"><path d="M19 3C10 3 3 10 3 19s7 16 16 16 16-7 16-16S28 3 19 3Z"></path><path d="M19 8v22M8 19h22"></path></svg><div class="stat-num">3</div><div class="stat-label" data-es="Paises" data-en="Countries" data-ca="Paisos" data-fr="Pays">Paises</div></div>
+<div class="stat-item rv"><svg class="stat-icon" viewBox="0 0 38 38" fill="none" stroke="currentColor" stroke-width="1"><path d="M5 19h9l3-7 6 14 3-7h7"></path></svg><div class="stat-num">100%</div><div class="stat-label" data-es="Clientes Satisfechos" data-en="Satisfied Clients" data-ca="Clients Satisfets" data-fr="Clients Satisfaits">Clientes Satisfechos</div></div>
+</div>
+</div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="slide slide-dark" id="s10" style="min-height:70vh">
+<div class="slide-inner" style="text-align:center;max-width:900px">
+<div class="label rv" data-es="// Contacto" data-en="// Contact" data-ca="// Contacte" data-fr="// Contact">// Contacto</div>
+<h2 class="heading rv" style="font-size:clamp(2.5rem,6vw,5rem)" data-es="Hagamos realidad<br>su proximo proyecto" data-en="Let's make your<br>next project real" data-ca="Fem realitat<br>el vostre proper projecte" data-fr="Realisons<br>votre prochain projet" data-it="Realizziamo<br>il vostro prossimo progetto">Hagamos realidad<br>su proximo proyecto</h2>
+<div class="btns rv" style="justify-content:center">
+<a href="#contacto" class="btn btn-p" data-es="Escribenos" data-en="Write Us" data-ca="Escriu-nos" data-fr="Ecrivez-nous">Escribenos</a>
+<a href="https://wa.me/34612484884" class="btn btn-o" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+<a href="#about" class="btn btn-o" data-es="Conoce al Arquitecto" data-en="Meet the Architect" data-ca="Coneix l'Arquitecte" data-fr="Rencontrez l'Architecte">Conoce al Arquitecto</a>
+</div>
+</div>
+</section>
+
+<section class="slide" id="about">
+<div class="slide-inner">
+<div class="label rv" data-es="// Arquitectura" data-en="// Architecture" data-ca="// Arquitectura" data-fr="// Architecture" data-it="// Architettura">// Arquitectura</div>
+<h2 class="heading rv" data-es="Hernando Carrillo<br><em>Sanchez</em>" data-en="Hernando Carrillo<br><em>Sanchez</em>" data-ca="Hernando Carrillo<br><em>Sanchez</em>" data-fr="Hernando Carrillo<br><em>Sanchez</em>" data-it="Hernando Carrillo<br><em>Sanchez</em>">Hernando Carrillo<br><em>Sanchez</em></h2>
+<p class="body rv" data-es="Arquitecto y constructor por vocacion. En 1988, con 24 años y un titulo de la Universidad Autonoma del Caribe, entendio que la arquitectura no es solo construir: es crear experiencias con espacios." data-en="Architect and builder by vocation. In 1988, at 24, with a degree from Universidad Autonoma del Caribe, he understood architecture is not only building, but creating spatial experiences." data-ca="Arquitecte i constructor per vocacio. El 1988... va entendre que l'arquitectura no es només construir, sino crear experiències espacials." data-fr="Architecte et constructeur par vocation. En 1988... a compris que l'architecture n'est pas seulement construire: c'est creer des experiences." data-it="Architetto e costruttore per vocazione. Nel 1988, a 24 anni... ha capito che l'architettura non è solo costruire, ma creare esperienze.">Arquitecto y constructor por vocacion. En 1988, con 24 anios y un titulo de la Universidad Autonoma del Caribe, entendio que la arquitectura no es solo construir: es crear experiencias con espacios.</p>
+</div>
+</section>
+
+<section class="slide slide-dark" id="blog">
+<div class="slide-inner">
+<div class="label rv" data-es="// Pensamiento" data-en="// Notes" data-ca="// Pensament" data-fr="// Notes" data-it="// Riflessioni">// Pensamiento</div>
+<h2 class="heading rv" data-es="Leer<br><em>Arquitectura</em>" data-en="Reading<br><em>Architecture</em>" data-ca="Llegir<br><em>Arquitectura</em>" data-fr="Lire<br><em>l'Architecture</em>" data-it="Leggere<br><em>Architettura</em>">Leer<br><em>Arquitectura</em></h2>
+<p class="body body-large rv" data-es="Reflexiones sobre espacios, materiales y emociones. Escritas desde el estudio, para quienes creen que una casa puede ser una experiencia." data-en="Reflections on spaces, materials and emotions. Written from the studio, for those who believe a house can be an experience." data-ca="Reflexions sobre espais, materials i emocions. Escrites des de l'estudi, per a qui creu que una casa pot ser una experiència." data-fr="Reflexions sur les espaces, les matèriaux et les émotions. Ecrites depuis le studio, pour ceux qui croient qu'une maison peut être une expérience." data-it="Riflessioni su spazi, materiali ed emozioni. Scritte dallo studio, per chi crede che una casa possa essere un'esperienza.">Reflexiones sobre espacios, materiales y emociones. Escritas desde el estudio, para quienes creen que una casa puede ser una experiencia.</p>
+</div>
+</section>
+
+<section class="slide slide-dark" id="cine-media">
+<div class="slide-inner">
+<div class="label rv" data-es="// Recorrido Audiovisual" data-en="// Audiovisual Tour" data-ca="// Recorregut Audiovisual" data-fr="// Tournée Audiovisuelle" data-it="// Tour Audiovisivo">// Recorrido Audiovisual</div>
+<h2 class="heading rv" data-es="Cine <em>Arquitectónico</em>" data-en="Architectural <em>Cinema</em>" data-ca="Cine <em>Arquitectònic</em>" data-fr="Cinéma <em>Architectural</em>" data-it="Cinema <em>Architettonico</em>">Cine <em>Arquitectónico</em></h2>
+<p class="body body-large rv" data-es="Muestra en movimiento de obras residenciales, paisajismo sensorial y modelado 3D de alta definición." data-en="Moving showcase of residential works, sensory landscaping and high-definition 3D modeling.">Muestra en movimiento de obras residenciales, paisajismo sensorial y modelado 3D de alta definición.</p>
+
+<div class="grid-3" style="margin-top:32px">
+  <div class="grid-item rv" style="padding:16px;background:rgba(255,255,255,0.02)">
+    <video controls preload="metadata" poster="20260730222718545141.jpg" style="width:100%;height:240px;object-fit:cover;border:1px solid rgba(184,168,138,0.2);margin-bottom:12px">
+      <source src="Arquitectura_Viva_CARQUIDEC.mp4" type="video/mp4">
+      <source src="Nueva carpeta/video-casa-180.mp4" type="video/mp4">
+    </video>
+    <div class="grid-title" style="font-size:16px">Arquitectura Viva CARQUIDEC</div>
+    <div class="grid-desc">Recorrido dinámico por residencias exclusivas y paisajismo integrado.</div>
+  </div>
+
+  <div class="grid-item rv" style="padding:16px;background:rgba(255,255,255,0.02)">
+    <video controls preload="metadata" poster="Hernando_Carrillo__Arquitectura_que_Evoluciona.png" style="width:100%;height:240px;object-fit:cover;border:1px solid rgba(184,168,138,0.2);margin-bottom:12px">
+      <source src="YouCut_20260731_092614242.mp4" type="video/mp4">
+      <source src="49f5132e-de8d-448e-b4fc-a17c49a2a02b.mp4" type="video/mp4">
+    </video>
+    <div class="grid-title" style="font-size:16px">Villa Residencial 3D</div>
+    <div class="grid-desc">Modelado espacial de volúmenes, hormigón y luz natural.</div>
+  </div>
+
+  <div class="grid-item rv" style="padding:16px;background:rgba(255,255,255,0.02)">
+    <video controls preload="metadata" poster="Copilot_20260731_223204.png" style="width:100%;height:240px;object-fit:cover;border:1px solid rgba(184,168,138,0.2);margin-bottom:12px">
+      <source src="352d1b0c-a217-46ff-81d5-c67b48073756.mp4" type="video/mp4">
+      <source src="c4815d05-ed26-4648-9500-82bed8a5fb6b.mp4" type="video/mp4">
+    </video>
+    <div class="grid-title" style="font-size:16px">Diseño de Interiores & Mármoles</div>
+    <div class="grid-desc">Detalle constructivo de baños principales, suites y spas.</div>
+  </div>
+
+  <div class="grid-item rv" style="padding:16px;background:rgba(255,255,255,0.02)">
+    <video controls preload="metadata" poster="Copilot_20260731_223358.png" style="width:100%;height:240px;object-fit:cover;border:1px solid rgba(184,168,138,0.2);margin-bottom:12px">
+      <source src="YouCut_20260731_093323928.mp4" type="video/mp4">
+      <source src="4c49592f-8465-4fcd-98db-9c0272c1520d.mp4" type="video/mp4">
+    </video>
+    <div class="grid-title" style="font-size:16px">Concepto Paramétrico</div>
+    <div class="grid-desc">Optimización climática y voladizos calculados al milímetro.</div>
+  </div>
+
+  <div class="grid-item rv" style="padding:16px;background:rgba(255,255,255,0.02)">
+    <video controls preload="metadata" poster="Trayectoria_de_Hernando_Carrillo_Sánchez.png" style="width:100%;height:240px;object-fit:cover;border:1px solid rgba(184,168,138,0.2);margin-bottom:12px">
+      <source src="18956dae-ebf1-4351-96ac-4f7bbb4a04b7.mp4" type="video/mp4">
+      <source src="VID-20260728-WA0025.mp4" type="video/mp4">
+    </video>
+    <div class="grid-title" style="font-size:16px">Obra Viva & Fachadas</div>
+    <div class="grid-desc">Registro real de avances en obra y acabados de madera tropical.</div>
+  </div>
+
+  <div class="grid-item rv" style="padding:16px;background:rgba(255,255,255,0.02)">
+    <video controls preload="metadata" poster="Perfil_de_Hernando_Carrillo_Sánchez.png" style="width:100%;height:240px;object-fit:cover;border:1px solid rgba(184,168,138,0.2);margin-bottom:12px">
+      <source src="9a909715-a6d3-4b8a-9c1e-d47cbd26a66b.mp4" type="video/mp4">
+      <source src="8c0c3942-2309-4178-9f41-347d5e44b385.mp4" type="video/mp4">
+    </video>
+    <div class="grid-title" style="font-size:16px">Hoteles Boutique & Paisajismo</div>
+    <div class="grid-desc">Entornos sensoriales con espejos de agua y vegetación nativa.</div>
+  </div>
+</div>
+</div>
+</section>
+
+<section class="slide slide-dark" id="podcast">
+<div class="slide-inner">
+<div class="label rv" data-es="// Audio" data-en="// Audio" data-ca="// Àudio" data-fr="// Audio" data-it="// Audio">// Audio</div>
+<div class="podcast-shell">
+<div class="phone rv">
+<div class="phone-screen">
+<div class="phone-top"></div>
+<div class="phone-speaker"></div>
+<div><div class="player-title" id="nowTitle">Emisión en vivo Carquidec</div><div class="body" id="nowDesc">Conectando con el archivo de proyectos y reflexiones.</div><div class="player-state" id="nowState">Listo</div></div>
+<div class="wave" aria-hidden="true">
+<span style="--h:10px"></span><span style="--h:16px"></span><span style="--h:22px"></span><span style="--h:14px"></span><span style="--h:28px"></span><span style="--h:18px"></span><span style="--h:12px"></span><span style="--h:26px"></span>
+<span style="--h:24px"></span><span style="--h:15px"></span><span style="--h:18px"></span><span style="--h:22px"></span><span style="--h:12px"></span><span style="--h:26px"></span><span style="--h:16px"></span><span style="--h:14px"></span>
+</div>
+<div class="podcast-cta">
+<button class="btn btn-p" id="podcastPlayBtn" type="button">Play/Pause</button>
+<button class="btn btn-o" id="podcastStopBtn" type="button">Detener</button>
+</div>
+</div>
+</div>
+<div class="rv">
+<div class="label" data-es="// Emisión de estudio" data-en="// Studio broadcast" data-ca="// Emissió d'estudi" data-fr="// Émission studio" data-it="// Trasmissione in studio">// Emisión de estudio</div>
+<h2 class="heading" data-es="Radio<br><em>Carquidec</em>" data-en="Carquidec<br><em>Radio</em>" data-ca="Radio<br><em>Carquidec</em>" data-fr="Radio<br><em>Carquidec</em>" data-it="Radio<br><em>Carquidec</em>">Radio<br><em>Carquidec</em></h2>
+<p class="body body-large" data-es="Episodios y lecciones magistrales: arquitectura, materiales y anécdotas de obra." data-en="Episodes and masterclasses: architecture, materials and work stories.">Episodios y lecciones magistrales: arquitectura, materiales y anécdotas de obra.</p>
+<div class="track-list rv">
+<button class="track" type="button" data-track-title="Algoritmos para casas que respiran" data-track-src="Algoritmos_para_casas_que_respiran.mp3">
+<span class="track-number">01</span>
+<span class="track-meta">Algoritmos para casas que respiran<small data-es="Publicado en estudio" data-en="Studio drop" data-ca="Publicat a studio" data-fr="Publié en studio" data-it="Pubblicato nello studio">Publicado en estudio</small></span>
+</button>
+<button class="track" type="button" data-track-title="De hologramas digitales a logias masónicas" data-track-src="De_hologramas_digitales_a_logias_masónicas (1).mp3">
+<span class="track-number">02</span>
+<span class="track-meta">De hologramas digitales a logias masónicas<small data-es="Versión de archivo" data-en="Raw archive version" data-ca="Versió d'arxiu" data-fr="Version archive" data-it="Versione archivio">Versión de archivo</small></span>
+</button>
+<button class="track" type="button" data-track-title="Del dibujo a mano al diseño paramétrico" data-track-src="Del_dibujo_a_mano_al_diseño_paramétrico.m4a">
+<span class="track-number">03</span>
+<span class="track-meta">Del dibujo a mano al diseño paramétrico<small data-es="Magistral de arquitectura" data-en="Architectural masterclass" data-ca="Magistral d'arquitectura" data-fr="Masterclass architecture" data-it="Masterclass architettura">Magistral de arquitectura</small></span>
+</button>
+</div>
+<audio id="podcastAudio" preload="metadata" playsinline></audio>
+</div>
+</div>
+</div>
+</section>
+
+<section class="slide slide-dark" id="contacto">
+<div class="slide-inner">
+<div class="label rv" data-es="// Contacto" data-en="// Contact" data-ca="// Contacte" data-fr="// Contact" data-it="// Contatto">// Contacto</div>
+<h2 class="heading rv" style="font-size:clamp(2.4rem,6vw,4.5rem)" data-es="Hagamos realidad<br>su proximo proyecto" data-en="Let's make your<br>next project real" data-ca="Fem realitat<br>el vostre proper projecte" data-fr="Rendsons réel<br>votre prochain projet" data-it="Realizziamo<br>il vostro prossimo progetto">Hagamos realidad<br>su proximo proyecto</h2>
+<p class="body rv" data-es="Cuentenos sobre su casa, hotel o espacio comercial. Respondemos en menos de 24 horas." data-en="Tell us about your house, hotel or commercial space. We reply in less than 24 hours." data-ca="Explica'ns la teva casa, hotel o espai comercial. Respondrem en menys de 24 hores." data-fr="Parlez-nous de votre maison, hôtel ou espace commercial. Nous répondons en moins de 24h." data-it="Raccontaci della tua casa, hotel o spazio commerciale. Rispondiamo in meno di 24 ore.">Cuentenos sobre su casa, hotel o espacio comercial. Respondemos en menos de 24 horas.</p>
+<div class="contact-row rv" style="margin:24px auto 32px;max-width:960px">
+<div class="contact-box"><div class="contact-lbl">Email</div><div class="contact-val"><a href="mailto:carqdisantos@gmail.com">carqdisantos@gmail.com</a></div></div>
+<div class="contact-box"><div class="contact-lbl">WhatsApp</div><div class="contact-val"><a href="https://wa.me/34612484884" target="_blank" rel="noopener noreferrer">+34 612 484 884</a></div></div>
+<div class="contact-box"><div class="contact-lbl" data-es="Ubicacion" data-en="Location" data-ca="Ubicacio" data-fr="Localisation" data-it="Sede">Ubicacion</div><div class="contact-val" data-es="Barcelona, Espana" data-en="Barcelona, Spain" data-ca="Barcelona, Espanya" data-fr="Barcelone, Espagne" data-it="Barcellona, Spagna">Barcelona, Espana</div></div>
+</div>
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style="display:flex;flex-direction:column;gap:16px;max-width:600px;margin:0 auto" id="contactForm">
+<label class="f-label" for="f-nombre" data-es="Nombre" data-en="Name" data-ca="Nom" data-fr="Nom" data-it="Nome">Nombre</label>
+<input type="text" id="f-nombre" name="nombre" placeholder="Tu nombre completo" required style="padding:12px 16px;background:#111;border:1px solid rgba(255,255,255,0.1);color:#f5f5f5;font-family:var(--font-b);font-size:14px">
+<label class="f-label" for="f-email">Email</label>
+<input type="email" id="f-email" name="email" placeholder="tu@email.com" required style="padding:12px 16px;background:#111;border:1px solid rgba(255,255,255,0.1);color:#f5f5f5;font-family:var(--font-b);font-size:14px">
+<label class="f-label" for="f-mensaje" data-es="Mensaje" data-en="Message" data-ca="Missatge" data-fr="Message" data-it="Messaggio">Mensaje</label>
+<textarea id="f-mensaje" name="mensaje" placeholder="Cuéntanos sobre tu proyecto..." rows="4" required style="padding:12px 16px;background:#111;border:1px solid rgba(255,255,255,0.1);color:#f5f5f5;font-family:var(--font-b);font-size:14px;resize:vertical"></textarea>
+<button type="submit" class="btn btn-p" style="width:100%">Enviar Mensaje</button>
+</form>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+<div class="footer-brand">
+<img src="logo-carquidec-transparent.png" alt="CARQUIDEC">
+<span class="footer-name">Carquidec</span>
+</div>
+<div class="footer-links"><a href="#">Instagram</a><a href="#">LinkedIn</a><a href="https://wa.me/34612484884" target="_blank" rel="noopener noreferrer">WhatsApp</a></div>
+<div class="footer-copy" data-es="Experiencia · Confianza · Seriedad" data-en="Experience · Trust · Seriousness" data-ca="Experiencia · Confianca · Serietat" data-fr="Experience · Confiance · Seriosite" data-it="Esperienza · Fiducia · Serieta">Experiencia · Confianza · Seriedad</div>
+<div class="footer-signature">Belentani · NOIACORE · noiacore.com</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+<script>
+function setLang(lang){
+document.querySelectorAll('[data-es]').forEach(el=>{const v=el.getAttribute('data-'+lang)||el.getAttribute('data-es');if(v)el.innerHTML=v});
+document.querySelectorAll('.lang-bar button').forEach(b=>{b.classList.remove('active');if(b.textContent.trim().toLowerCase()===lang)b.classList.add('active')});
+document.documentElement.lang=lang;
+if (lenis && lenis.scrollTo) { lenis.scrollTo(0); } else { window.scrollTo(0,0); }
+}
+
+const cursor=document.getElementById('cursor');
+const cursorDot=document.getElementById('cursorDot');
+let mouseX=0,mouseY=0,cursorX=0,cursorY=0;
+document.addEventListener('mousemove',e=>{mouseX=e.clientX;mouseY=e.clientY});
+function animateCursor(){
+  if (!cursor || !cursorDot) return;
+  cursorX+=(mouseX-cursorX)*.15;
+  cursorY+=(mouseY-cursorY)*.15;
+  cursor.style.left=(cursorX-18)+'px';
+  cursor.style.top=(cursorY-18)+'px';
+  cursorDot.style.left=(mouseX-2)+'px';
+  cursorDot.style.top=(mouseY-2)+'px';
+  requestAnimationFrame(animateCursor);
+}
+if (cursor && cursorDot) {
+  animateCursor();
+  document.querySelectorAll('a,button,.gallery-item').forEach(el=>{el.addEventListener('mouseenter',()=>{cursor.style.transform='scale(1.5)';cursor.style.mixBlendMode='normal'});el.addEventListener('mouseleave',()=>{cursor.style.transform='scale(1)';cursor.style.mixBlendMode='difference'})});
+}
+
+const loaderTl=gsap.timeline();
+loaderTl.to('.loader-medallon',{opacity:1,scale:1,duration:1,ease:'back.out(1.7)'})
+.to('.loader-text',{opacity:1,y:0,duration:.8,ease:'power2.out'},'-=.3')
+.to('.loader-line',{width:'200px',duration:1,ease:'power2.inOut'},'-=.5')
+.to('.loader-medallon',{scale:1.5,opacity:0,duration:.6,ease:'power3.in'},'+=.5')
+.to('.loader-text',{opacity:0,y:-20,duration:.4},'-=.4')
+.to('.loader-line',{width:0,opacity:0,duration:.3},'-=.3')
+.to('.loader',{opacity:0,duration:.5,onComplete:()=>{document.querySelector('.loader').style.display='none'}})
+.from('.nav',{y:-30,opacity:0,duration:.6},'-=.3');
+
+gsap.to('#s1 .slide-full-bg',{scale:1,duration:2.5,ease:'power3.out',delay:1.5});
+gsap.from('#s1 .heading',{opacity:0,y:80,clipPath:'inset(0 0 100% 0)',duration:1.5,ease:'power3.out',delay:2});
+gsap.to('#s1 .rv',{opacity:1,y:0,duration:1,ease:'power3.out',delay:1.8,stagger:0.2});
+gsap.to('#s1 .slide-full-bg',{yPercent:30,ease:'none',scrollTrigger:{trigger:'#s1',start:'top top',end:'bottom top',scrub:true}});
+
+document.querySelectorAll('.rv,.rv-left,.rv-right,.rv-scale,.rv-rotate').forEach(el=>{ScrollTrigger.create({trigger:el,start:'top 85%',onEnter:()=>el.classList.add('active')})});
+document.querySelectorAll('.clip-rv,.clip-rv-left,.clip-rv-right').forEach(el=>{ScrollTrigger.create({trigger:el,start:'top 80%',onEnter:()=>el.classList.add('active')})});
+document.querySelectorAll('.img-full').forEach(img=>{gsap.to(img,{yPercent:15,ease:'none',scrollTrigger:{trigger:img,start:'top bottom',end:'bottom top',scrub:true}})});
+gsap.utils.toArray('.grid-item').forEach((el,i)=>{gsap.from(el,{opacity:0,y:40,duration:.7,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 85%'},delay:i*.08})});
+gsap.utils.toArray('.gallery-item').forEach((el,i)=>{gsap.from(el,{opacity:0,scale:.95,duration:.6,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 85%'},delay:i*.05})});
+document.querySelectorAll('.stat-num').forEach(s=>{const t=s.textContent,n=parseFloat(t),suf=t.replace(/[0-9.]/g,'');ScrollTrigger.create({trigger:s,start:'top 85%',onEnter:()=>{gsap.fromTo(s,{textContent:0},{textContent:n,duration:1.5,ease:'power3.out',snap:{textContent:1},onUpdate(){s.textContent=Math.round(parseFloat(s.textContent))+suf}})}})});
+gsap.utils.toArray('.timeline-item').forEach((el,i)=>{gsap.from(el,{opacity:0,x:-30,duration:.7,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 85%'},delay:i*.1})});
+
+const slides=document.querySelectorAll('.slide');
+const indicator=document.getElementById('slideIndicator');
+slides.forEach((_, i) => {
+  const dot = document.createElement('div');
+  dot.className = 'slide-dot';
+  dot.addEventListener('click', () => {
+    const targetSlide = slides[i];
+    if (targetSlide) {
+      targetSlide.scrollIntoView({behavior: 'smooth'});
+    }
+  });
+  indicator.appendChild(dot);
+});
+const dots=indicator.querySelectorAll('.slide-dot');
+ScrollTrigger.create({trigger:'body',start:'top top',end:'bottom bottom',onUpdate:self=>{const idx=Math.round(self.progress*(slides.length-1));dots.forEach((d,i)=>d.classList.toggle('active',i===idx))}});
+
+const scrollBtn=document.getElementById('scrollTop');
+const scrollToTopSafe = () => {
+  if (!scrollBtn) return;
+  if (lenis && lenis.scrollTo) {
+    lenis.scrollTo(0);
+    return;
+  }
+  window.scrollTo({top: 0, behavior: 'smooth'});
+};
+const menuToggleButton = document.getElementById('menuToggle');
+const navLinks = document.querySelector('.nav-links');
+const podcastAudio = document.getElementById('podcastAudio');
+const podcastPlayBtn = document.getElementById('podcastPlayBtn');
+const podcastStopBtn = document.getElementById('podcastStopBtn');
+const nowTitle = document.getElementById('nowTitle');
+const nowDesc = document.getElementById('nowDesc');
+const nowState = document.getElementById('nowState');
+const tracks = Array.from(document.querySelectorAll('.track'));
+let activeTrack = null;
+
+function setTrackState(track, playing) {
+  tracks.forEach(t => t.classList.toggle('playing', t === track && playing));
+  if (track) {
+    const title = track.dataset.trackTitle || 'Emisión en vivo Carquidec';
+    if (nowTitle) nowTitle.textContent = title;
+  }
+  if (nowDesc && track) {
+    nowDesc.textContent = playing ? 'Reproduciendo ahora en la radio.' : 'Pista cargada. Pulsa play.';
+  }
+  if (nowState) nowState.textContent = playing ? 'En emisión' : 'Pausado';
+}
+
+async function playTrack(track) {
+  if (!podcastAudio || !track) return;
+  const src = track.dataset.trackSrc;
+  if (!src) return;
+  activeTrack = track;
+  podcastAudio.src = encodeURI(src);
+  podcastAudio.load();
+  try {
+    await podcastAudio.play();
+    setTrackState(track, true);
+  } catch (error) {
+    setTrackState(track, false);
+  }
+}
+
+function togglePodcast() {
+  if (!podcastAudio) return;
+  if (podcastAudio.paused) {
+    if (activeTrack) {
+      playTrack(activeTrack);
+    } else if (tracks[0]) {
+      playTrack(tracks[0]);
+    }
+    return;
+  }
+  podcastAudio.pause();
+  setTrackState(activeTrack, false);
+}
+
+function stopPodcast() {
+  if (!podcastAudio) return;
+  podcastAudio.pause();
+  podcastAudio.currentTime = 0;
+  setTrackState(activeTrack, false);
+  if (nowState) nowState.textContent = 'Detenido';
+}
+
+document.querySelectorAll('[data-lang]').forEach(btn => {
+  btn.addEventListener('click', () => setLang(btn.dataset.lang));
+});
+if (scrollBtn) {
+  scrollBtn.addEventListener('click', scrollToTopSafe);
+}
+if (menuToggleButton) {
+  menuToggleButton.addEventListener('click', () => {
+    if (navLinks) navLinks.classList.toggle('show');
+  });
+}
+if (podcastPlayBtn) podcastPlayBtn.addEventListener('click', togglePodcast);
+if (podcastStopBtn) podcastStopBtn.addEventListener('click', stopPodcast);
+tracks.forEach(track => {
+  track.addEventListener('click', () => playTrack(track));
+});
+if (podcastAudio) {
+  podcastAudio.addEventListener('ended', () => setTrackState(activeTrack, false));
+  podcastAudio.addEventListener('pause', () => setTrackState(activeTrack, false));
+  podcastAudio.addEventListener('play', () => setTrackState(activeTrack, true));
+}
+window.addEventListener('scroll',()=>{if(scrollBtn) scrollBtn.style.opacity=window.scrollY>500?'1':'0'});
+document.querySelectorAll('.nav-links a').forEach(a=>{a.addEventListener('click',()=>{document.querySelector('.nav-links').classList.remove('show')})});
+const contactForm=document.querySelector('form');
+if(contactForm)contactForm.addEventListener('submit',async(e)=>{e.preventDefault();const form=e.target;const data=new FormData(form);try{const r=await fetch(form.action,{method:'POST',body:data,headers:{'Accept':'application/json'}});if(r.ok){form.reset();alert('Mensaje enviado. Gracias!')}else{alert('Error al enviar. Intente de nuevo.')}}catch(err){alert('Error de conexion. Intente de nuevo.')}});
+
+/* === LENIS SMOOTH SCROLL === */
+let lenis = null;
+try {
+  if (typeof Lenis === 'function') {
+    lenis = new Lenis({lerp: 0.1, smoothWheel: true});
+  }
+} catch (error) {
+  lenis = null;
+}
+if (lenis && ScrollTrigger) {
+  lenis.on('scroll', ScrollTrigger.update);
+}
+if (lenis) {
+  gsap.ticker.add(time => {lenis.raf(time * 1000);});
+}
+gsap.ticker.lagSmoothing(0);
+
+/* === SCROLL PROGRESS BAR === */
+window.addEventListener('scroll',()=>{const h=document.documentElement.scrollHeight-window.innerHeight;const p=(window.scrollY/h)*100;document.getElementById('scrollProgress').style.width=p+'%'});
+
+/* === MAGNETIC BUTTONS === */
+document.querySelectorAll('.btn').forEach(btn=>{
+btn.addEventListener('mousemove',e=>{
+const r=btn.getBoundingClientRect();
+const x=e.clientX-r.left-r.width/2;
+const y=e.clientY-r.top-r.height/2;
+gsap.to(btn,{x:x*.3,y:y*.3,duration:.4,ease:'power2.out'});
+});
+btn.addEventListener('mouseleave',()=>{gsap.to(btn,{x:0,y:0,duration:.6,ease:'elastic.out(1,.5)'})});
+});
+
+/* === PARALLAX MULTI-LAYER === */
+gsap.utils.toArray('.slide-full-bg').forEach(bg=>{
+gsap.to(bg,{yPercent:20,ease:'none',scrollTrigger:{trigger:bg.closest('.slide'),start:'top bottom',end:'bottom top',scrub:true}});
+});
+gsap.utils.toArray('.gallery-item img').forEach(img=>{
+gsap.to(img,{yPercent:-8,scale:1.08,ease:'none',scrollTrigger:{trigger:img.closest('.gallery-item'),start:'top bottom',end:'bottom top',scrub:true}});
+});
+
+/* === HEADING TEXT REVEAL === */
+gsap.utils.toArray('.heading').forEach(h=>{
+const words=h.textContent.trim().split(/\s+/);
+h.innerHTML=words.map(w=>`<span class="word"><span>${w}</span></span>`).join(' ');
+h.classList.add('split-reveal');
+ScrollTrigger.create({trigger:h,start:'top 85%',onEnter:()=>h.classList.add('active')});
+});
+
+/* === MAGNETIC CURSOR ENHANCEMENT === */
+document.querySelectorAll('.gallery-item').forEach(item=>{
+item.addEventListener('mouseenter',()=>{gsap.to(item.querySelector('img'),{scale:1.06,duration:.6,ease:'power2.out'})});
+item.addEventListener('mouseleave',()=>{gsap.to(item.querySelector('img'),{scale:1,duration:.6,ease:'power2.out'})});
+});
+
+/* === SECTION DIVIDER LINES === */
+gsap.utils.toArray('.divider').forEach(d=>{
+gsap.from(d,{width:0,scrollTrigger:{trigger:d,start:'top 85%',end:'top 60%',scrub:true}});
+});
+
+/* === QUOTE BORDER ANIMATION === */
+gsap.utils.toArray('.quote').forEach(q=>{
+gsap.from(q,{borderLeftColor:'transparent',scrollTrigger:{trigger:q,start:'top 80%',end:'top 50%',scrub:true}});
+});
+</script>
+</body>
+</html>
