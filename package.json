@@ -1,4 +1,8 @@
 {
+  "private": true,
+  "scripts": {
+    "test": "node scripts/smoke-test.mjs"
+  },
   "dependencies": {
     "docx": "^9.7.1"
   }
