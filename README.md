@@ -1,25 +1,28 @@
 # CARQUIDEC
 
-Parametric architecture studio — AI-driven bioclimatic design and energy optimization
+Estudio de arquitectura paramétrica: diseño bioclimático asistido por IA.
 
-**Topics:** `ai-architecture`, `architecture`, `parametric-design`
+## Qué es
 
-## Stack
+Un estudio de arquitectura que trabaja con **diseño paramétrico**: las formas se generan a
+partir de reglas y datos del clima, no se dibujan a mano. La web presenta el estudio y su
+método.
 
-- Primary language: HTML
-- Node project (`package.json` present)
+En línea: <https://carquidec.vercel.app>
 
-## Getting started
+## Aviso importante sobre este repositorio
 
-```bash
-git clone https://github.com/belentani7/CARQUIDEC.git
+En la raíz hay archivos `.mp4` sueltos (`0c39da25-....mp4` y dos copias). Son material pesado
+sin relación clara con el sitio. **Conviene moverlos a `assets/video/` con nombres legibles o
+sacarlos del repositorio**: inflan el tamaño y no aportan a quien lee el código.
+
+## Estructura
+
+```
+100-REF...   referencias del proyecto
+index.html   sitio
 ```
 
-```bash
-npm install
-npm run dev
-```
+## Licencia
 
----
-
-License: not specified
+Sin licencia declarada.
