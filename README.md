@@ -48,6 +48,20 @@ npm run build          # todo en orden
 > Si editas uno a mano, `npm run build:pages` producirá diferencias y la
 > integración continua lo señalará. Edita el original (git), no el resultado.
 
+La construcción lee siempre de git, no del fichero en disco, y todo lo que
+añade (cabecera gestionada, imágenes responsivas, componentes) se reemplaza en
+cada pasada en lugar de acumularse. Dos consecuencias prácticas:
+
+```bash
+# comprobar que sigue siendo idempotente (las dos sumas deben coincidir)
+npm run build:pages && md5sum *.html | md5sum
+npm run build:pages && md5sum *.html | md5sum
+
+# reconstruir el sitio entero desde una versión anterior del repositorio
+# (útil si una construcción defectuosa llegó a commitearse)
+CQ_SOURCE_REF=aa67626 npm run build:pages
+```
+
 ### Auditorías
 
 ```bash

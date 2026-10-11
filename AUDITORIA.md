@@ -187,11 +187,17 @@ con la fórmula WCAG, y pesos reales de transferencia sumando ficheros.
 deliberadas:
 
 1. **Idempotencia**: ejecutar la construcción cien veces da el mismo resultado,
-   nunca acumula parches.
+   nunca acumula parches. La cabecera gestionada viaja entre marcas
+   (`<!-- cq:head -->` … `<!-- /cq:head -->`) que se sustituyen enteras, y las
+   imágenes tienen un único generador de `<picture>`: el paso que convierte los
+   fondos a sangre deja una `<img>` llana y el paso siguiente es el único que
+   envuelve. Verificado en CI con `git diff --exit-code -- '*.html'`.
 2. **Trazabilidad**: el original vive en git, y cada transformación está
    declarada y comentada en un único fichero.
 3. **Verificación en CI**: si alguien edita a mano un HTML final, la construcción
-   produce diferencias y la integración continua lo detecta.
+   produce diferencias y la integración continua lo detecta. Con
+   `CQ_SOURCE_REF=<commit> npm run build:pages` puede reconstruirse el sitio
+   completo desde una referencia anterior del repositorio.
 
 ```bash
 npm run build          # imágenes + identidad + páginas
