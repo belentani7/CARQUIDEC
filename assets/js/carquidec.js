@@ -324,6 +324,25 @@
       var action = form.getAttribute('action') || '';
       var isPlaceholder = /YOUR_FORM_ID|ejemplo|example/i.test(action);
 
+      /* Sin endpoint configurado el formulario no puede quedarse inerte: se
+         compone el mensaje y se ofrece enviarlo por correo (mailto) o por
+         WhatsApp, que es donde el estudio responde de verdad. */
+      var CONTACTO = { email: 'carqdisantos@gmail.com', whatsapp: '34612484884' };
+      var componerMensaje = function () {
+        var valor = function (nombre) {
+          var campo = form.querySelector('[name="' + nombre + '"]');
+          return campo && campo.value ? campo.value.trim() : '';
+        };
+        var nombre = valor('nombre');
+        var email = valor('email');
+        var texto = valor('mensaje');
+        return {
+          asunto: 'Nueva consulta desde carquidec.com' + (nombre ? ' — ' + nombre : ''),
+          cuerpo: [texto, '', '—', nombre ? 'Nombre: ' + nombre : '', email ? 'Email: ' + email : '']
+            .filter(Boolean).join('\n')
+        };
+      };
+
       form.addEventListener('submit', function (e) {
         e.preventDefault();
         if (!form.checkValidity()) {
@@ -332,7 +351,28 @@
           return;
         }
         if (isPlaceholder) {
-          say('Formulario listo para conectar: sustituye la URL de envío en el atributo action.', 'error');
+          var datos = componerMensaje();
+          var mailto = 'mailto:' + CONTACTO.email +
+            '?subject=' + encodeURIComponent(datos.asunto) +
+            '&body=' + encodeURIComponent(datos.cuerpo);
+          var wa = 'https://wa.me/' + CONTACTO.whatsapp +
+            '?text=' + encodeURIComponent(datos.asunto + '\n\n' + datos.cuerpo);
+          var enlace = document.createElement('a');
+          enlace.href = mailto;
+          enlace.className = 'cq-form-send';
+          enlace.textContent = 'Abrir mi correo con el mensaje';
+          var waLink = document.createElement('a');
+          waLink.href = wa;
+          waLink.className = 'cq-form-send';
+          waLink.target = '_blank';
+          waLink.rel = 'noopener noreferrer';
+          waLink.textContent = 'Enviar por WhatsApp';
+          status.textContent = 'Recogemos tu mensaje para enviarlo por el canal que prefieras: ';
+          status.hidden = false;
+          status.setAttribute('data-state', 'ok');
+          status.appendChild(enlace);
+          status.appendChild(document.createTextNode(' · '));
+          status.appendChild(waLink);
           return;
         }
         var button = form.querySelector('[type="submit"]');

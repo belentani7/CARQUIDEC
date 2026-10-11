@@ -378,29 +378,9 @@ if (menuToggleButton) {
 }
 window.addEventListener('scroll',()=>{scrollBtn.style.opacity=window.scrollY>500?'1':'0'});
 document.querySelectorAll('.nav-links a').forEach(a=>{a.addEventListener('click',()=>{document.querySelector('.nav-links').classList.remove('show')})});
-const contactForm=document.querySelector('form#contactForm');
-if (contactForm) {
-  contactForm.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const form = e.target;
-    if (!form.action || String(form.action).includes('YOUR_FORM_ID')) {
-      alert('Formulario sin endpoint de envío configurado. Reemplaza YOUR_FORM_ID en contacto.html.');
-      return;
-    }
-    const data = new FormData(form);
-    try {
-      const r = await fetch(form.action,{method:'POST',body:data,headers:{'Accept':'application/json'}});
-      if (r.ok) {
-        form.reset();
-        alert('Mensaje enviado. Gracias!');
-      } else {
-        alert('Error al enviar. Intente de nuevo.');
-      }
-    } catch (err) {
-      alert('Error de conexion. Intente de nuevo.');
-    }
-  });
-}
+/* El envío lo gestiona assets/js/carquidec.js (initForms): estado inline
+   anunciado con role=status, sin alert() y con alternativa por correo o
+   WhatsApp mientras no haya endpoint configurado. */
 
 /* === LENIS SMOOTH SCROLL === */
 let lenis = null;

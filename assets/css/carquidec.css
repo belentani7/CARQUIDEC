@@ -742,6 +742,8 @@ textarea:user-invalid { border-color: #d98b7a !important; }
 }
 .cq-form-status[data-state='error'] { border-left-color: #d98b7a; background: rgba(217, 139, 122, 0.08); }
 .cq-form-status[hidden] { display: none; }
+.cq-form-send { color: var(--ac); text-decoration: underline; text-underline-offset: 3px; }
+.cq-form-send:hover { color: #e0d3b4; }
 
 /* --- Reproductor de audio (portada de estudio) -------------------------- */
 .phone {
