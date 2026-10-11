@@ -5,7 +5,7 @@ Informe de la intervención sobre el sitio del estudio (commit de partida
 
 ```bash
 npm ci
-npm run audit          # marcado + estilos + accesibilidad + enlaces + calidad
+npm run audit          # marcado + estilos + accesibilidad + enlaces + calidad + material
 node tools/audit/a11y.mjs --baseline   # cómo estaba antes
 node tools/audit/smoke.mjs             # la web arranca de verdad (jsdom)
 ```
@@ -26,9 +26,12 @@ node tools/audit/smoke.mjs             # la web arranca de verdad (jsdom)
 | Contraste del logotipo sobre negro | 1,46:1 (invisible) | **16,95:1** |
 | Intro de carga en cada visita | ~4,1 s | **~1,8 s** (0 s con *reduce motion*) |
 | Ficheros de medios en carpetas tipo Windows | sí (`Nueva carpeta/`) | **no** (`assets/media/…`) |
+| Copias del material duplicadas en la raíz | **18 ficheros · 277 MB** | **0** (ninguna copia byte a byte) |
+| Pistas de radio con el contenedor mal declarado | **2 de 3** (`.mp3` sobre MP4/AAC) | **0** (`.m4a`) |
+| Integridad del material (contenedor, referencias, duplicados) | sin comprobar | **242 ficheros · 0 incidencias** |
 | Números de WhatsApp / correos distintos | 2 / 2 | **1 / 1** |
 | Páginas de proyecto enlazadas desde la portada | 0 (huérfanas) | **5** |
-| Pruebas automatizadas | 0 | **42 comprobaciones funcionales + 5 auditorías** |
+| Pruebas automatizadas | 0 | **42 comprobaciones funcionales + 6 auditorías** |
 
 ---
 
@@ -44,6 +47,7 @@ proyecto, de modo que cualquiera puede repetir las mediciones:
 | **stylelint** | Estilo y errores en las hojas de CSS | <https://github.com/stylelint/stylelint> |
 | **jsdom** | Entorno DOM sin navegador para auditorías y pruebas funcionales | <https://github.com/jsdom/jsdom> |
 | **sharp** | Conversión AVIF/WebP, recortes, LQIP y generación de identidad | <https://github.com/lovell/sharp> |
+| `tools/audit/media.mjs` (propio) | Firma real de cada fichero, referencias y duplicados | — |
 | **@fontsource** | Fuentes autoalojadas (subset latino) | <https://github.com/fontsource/fontsource> |
 | **GSAP + ScrollTrigger** | Animación (ya en uso; ahora local) | <https://github.com/greensock/GSAP> |
 | **Lenis** | Desplazamiento suave (ya en uso; ahora local) | <https://github.com/darkroomengineering/lenis> |
@@ -119,6 +123,14 @@ con la fórmula WCAG, y pesos reales de transferencia sumando ficheros.
   reserva para CLS ≈ 0.
 - Intro comprimida a ~1,8 s y **suprimida por completo** si el usuario pide menos
   movimiento.
+- **Material sin copias**: 18 ficheros de la raíz (277 MB) eran idénticos byte a
+  byte a su copia publicada en `assets/media/`; se retiran y los inventarios
+  (`asset_manifest.json`, `selected_assets.json`) pasan a apuntar a la copia
+  publicada, de modo que el material sigue siendo trazable.
+- **Contenedor real**: las tres grabaciones de la radio son MP4 fragmentado con
+  pista AAC, pero dos se servían como `.mp3` (`audio/mpeg`) y el navegador no
+  podía reproducirlas. Pasan a `.m4a`; `tools/audit/media.mjs` compara la firma
+  de cada fichero con su extensión para que no vuelva a ocurrir.
 
 ### 3.3 Contenido, marca y estructura
 
@@ -178,8 +190,8 @@ con la fórmula WCAG, y pesos reales de transferencia sumando ficheros.
 │   ├── build-images.mjs                 Canal de imágenes (descubre desde git, idempotente)
 │   ├── build-brand.mjs                  Identidad para fondo oscuro + imagen social
 │   └── build.mjs                        Construye las páginas desde git HEAD
-├── tools/audit/                         a11y · links · quality · smoke
-└── .github/workflows/ci.yml             Construcción reproducible + 5 auditorías
+├── tools/audit/                         a11y · links · quality · media · smoke
+└── .github/workflows/ci.yml             Construcción reproducible + 6 auditorías
 ```
 
 **Principio de construcción.** El HTML de las páginas se **genera** desde
@@ -227,7 +239,7 @@ la intervención sobre los que son verificables sin navegador:
 | 61-64 · Presupuestos | ✅ | Medidos y verificados en cada `push` |
 | 71-85 · Contrato de accesibilidad | ✅ | Salto, foco visible, contraste, idioma anunciado, 44 px |
 | 86-100 · Contenido y narrativa | 🟡 | Se añade índice de proyectos y metadatos; el texto de fondo es del estudio |
-| 107-110 · CI/CD, seguridad | ✅ | CI con 5 auditorías, cabeceras de seguridad en `vercel.json` |
+| 107-110 · CI/CD, seguridad | ✅ | CI con 6 auditorías, cabeceras de seguridad en `vercel.json` |
 | 111-120 · Especialización CARQUIDEC | 🟡 | Base lista (datos estructurados, índice); el portal de cliente o las fichas paramétricas quedan fuera de este alcance |
 
 ---

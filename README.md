@@ -65,15 +65,16 @@ CQ_SOURCE_REF=aa67626 npm run build:pages
 ### Auditorías
 
 ```bash
-npm run audit              # marcado + CSS + accesibilidad + enlaces + calidad
+npm run audit              # marcado + CSS + accesibilidad + enlaces + calidad + material
 npm run audit:a11y         # axe-core (WCAG 2.1 AA) + contraste calculado
 npm run audit:links        # enlaces, anclas y recursos rotos
 npm run audit:quality      # SEO técnico y presupuesto de rendimiento
+npm run audit:media        # contenedor real (firma de cada fichero), referencias y duplicados
 node tools/audit/a11y.mjs --baseline   # compara con el commit anterior
 node tools/audit/smoke.mjs             # arranca la web en jsdom y la comprueba
 ```
 
-Estado actual: **0 errores** en las cinco auditorías y **42 de 42**
+Estado actual: **0 errores** en las seis auditorías y **42 de 42**
 comprobaciones funcionales. El detalle, con el antes y el después, está en
 [`AUDITORIA.md`](AUDITORIA.md).
 
@@ -106,7 +107,7 @@ finales de [`AUDITORIA.md`](AUDITORIA.md#6--lo-que-queda-pendiente-recomendacion
 1. Rama con prefijo `feat/`, `fix/` o `docs/`.
 2. Cambios pequeños, mensajes claros.
 3. `npm run build && npm run audit` antes de abrir el *pull request*.
-4. El CI debe pasar (construcción sin diferencias + cinco auditorías).
+4. El CI debe pasar (construcción sin diferencias + seis auditorías).
 
 ## Licencia
 
