@@ -377,7 +377,11 @@ function transform(page, html, cfg) {
     if (/fonts\.(googleapis|gstatic)\.com/i.test(tag)) return '';               // terceros
     return null;
   });
-  html = replaceTags(html, 'meta', (tag) => (/name="theme-color"/i.test(tag) ? '' : null));
+  html = replaceTags(html, 'meta', (tag) =>
+    (/name="theme-color"|name="robots"|name="author"/i.test(tag) ? '' : null));
+  html = replaceTags(html, 'link', (tag) => (/rel="canonical"/i.test(tag) ? '' : null));
+  html = html.replace(/<!-- cq:ld -->[\s\S]*?<!-- \/cq:ld -->[ \t]*\n?/g, '');
+  html = html.replace(/\s*<script type="application\/ld\+json">[\s\S]*?<\/script>/gi, '');
   head.push(
     `<meta name="theme-color" content="#0a0a09">`,
     `<link rel="icon" href="${depth}assets/img/favicon-32.png" sizes="32x32" type="image/png">`,
@@ -428,32 +432,15 @@ function transform(page, html, cfg) {
     html = html.replace(/<\/title>/i, `</title>\n${descTag}`);
   }
   html = html.replace(/\s*<meta\s+name="keywords"[^>]*>/i, '');
-  const canonical = `<link rel="canonical" href="${SITE}/${page === 'index.html' ? '' : page}">`;
-  let hadCanonical = false;
-  html = replaceTags(html, 'link', (tag) => {
-    if (!/rel="canonical"/i.test(tag)) return null;
-    hadCanonical = true;
-    return canonical;
-  });
-  if (!hadCanonical) html = html.replace(/<\/title>/i, `</title>\n${canonical}`);
+  head.push(`<link rel="canonical" href="${SITE}/${page === 'index.html' ? '' : page}">`);
   found.push('título, descripción y canónica');
 
-  // robots
-  if (/<meta\s+name="robots"[^>]*>/i.test(html)) {
-    html = html.replace(/<meta\s+name="robots"[^>]*>/i, `<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">`);
-  } else {
-    html = html.replace(/<\/title>/i, `</title>\n<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">`);
-  }
+  head.push(`<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">`);
+  head.push(`<meta name="author" content="Hernando Carrillo — CARQUIDEC">`);
 
-  // datos estructurados (sustituye al JSON-LD antiguo)
-  html = html.replace(/\s*<script type="application\/ld\+json">[\s\S]*?<\/script>/gi, '');
-  html = html.replace(/<\/title>/i, `</title>\n${schemaBlock(page, cfg.schema, cfg)}`);
+  // datos estructurados (sustituye al JSON-LD antiguo de la página)
+  head.push(`<!-- cq:ld -->\n${schemaBlock(page, cfg.schema, cfg)}\n<!-- /cq:ld -->`);
   found.push('datos estructurados');
-
-  // meta author / geo opcionales (útiles para el negocio local)
-  if (!/name="author"/i.test(html)) {
-    html = html.replace(/<\/title>/i, `</title>\n<meta name="author" content="Hernando Carrillo — CARQUIDEC">`);
-  }
 
   // inyección en <head>: todo lo anterior + hoja de estilo del sistema
   const extraHead = head.join('\n');
