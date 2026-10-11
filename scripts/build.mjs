@@ -356,9 +356,13 @@ function transform(page, html, cfg) {
   const head = [];
 
   // ---------------------------------------------------------------------------
-  // Higiene de <head>: se retira TODO lo que gestiona esta construcción para
-  // poder repetirla sin acumular etiquetas duplicadas (idempotencia real).
+  // Higiene de <head>
+  // El bloque que gestiona esta construcción viaja entre dos marcas, de modo
+  // que se puede retirar completo y volver a escribir sin acumular etiquetas ni
+  // dejar líneas huérfanas: así la construcción es idempotente de verdad.
   // ---------------------------------------------------------------------------
+  html = html.replace(/<!-- cq:head -->[\s\S]*?<!-- \/cq:head -->[ \t]*\n?/g, '');
+
   html = replaceTags(html, 'link', (tag) => {
     if (/rel="(?:icon|apple-touch-icon|shortcut icon)"/i.test(tag)) return '';  // favicons
     if (/rel="manifest"/i.test(tag)) return '';                                  // manifiesto PWA
@@ -459,7 +463,7 @@ function transform(page, html, cfg) {
     html = html.replace(/<\/head>/i, styleLink + '\n</head>');
   }
 
-  html = html.replace(/<\/head>/i, extraHead + '\n</head>');
+  html = html.replace(/<\/head>/i, `<!-- cq:head -->\n${extraHead}\n<!-- /cq:head -->\n</head>`);
 
   /* --- 2 · Enlace de salto y estructura --------------------------------- */
   const skipTarget = /<section[^>]*class="slide/.test(html) ? 'contenido' : 'contenido';
