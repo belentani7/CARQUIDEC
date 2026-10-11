@@ -28,9 +28,14 @@ JavaScript la web sigue siendo legible (el sistema de diseño contempla
 ## Cómo trabajar
 
 ```bash
-npm ci                 # dependencias de desarrollo (sharp, auditores…)
-npm run serve          # servidor local en http://localhost:4173
+npm ci --prefix tools       # dependencias de desarrollo (sharp, auditores…)
+npm --prefix tools run serve  # servidor local en http://localhost:4173
 ```
+
+> Las herramientas de desarrollo viven en `tools/package.json`, **no** en el
+> manifiesto de la raíz. El de la raíz se mantiene mínimo a propósito: es el que
+> lee la plataforma de despliegue, y cualquier `build` o dependencia pesada ahí
+> hace que la publicación falle. Ver §Despliegue.
 
 ### Construcción
 
@@ -38,14 +43,14 @@ Las páginas se construyen a partir de la versión de `git HEAD`, de modo que el
 proceso es idempotente y cada transformación está declarada en un solo fichero:
 
 ```bash
-npm run build:images   # AVIF/WebP/JPEG + LQIP + iconos  (lento, ~2 min)
-npm run build:brand    # identidad para fondo oscuro + imagen social
-npm run build:pages    # HTML final (segundos)
-npm run build          # todo en orden
+npm --prefix tools run build:images   # AVIF/WebP/JPEG + LQIP + iconos  (lento, ~2 min)
+npm --prefix tools run build:brand    # identidad para fondo oscuro + imagen social
+npm --prefix tools run build:pages    # HTML final (segundos)
+npm --prefix tools run build          # todo en orden
 ```
 
 > **Importante:** los HTML de la raíz son **resultado de la construcción**.
-> Si editas uno a mano, `npm run build:pages` producirá diferencias y la
+> Si editas uno a mano, `npm --prefix tools run build:pages` producirá diferencias y la
 > integración continua lo señalará. Edita el original (git), no el resultado.
 
 La construcción lee siempre de git, no del fichero en disco, y todo lo que
@@ -54,22 +59,22 @@ cada pasada en lugar de acumularse. Dos consecuencias prácticas:
 
 ```bash
 # comprobar que sigue siendo idempotente (las dos sumas deben coincidir)
-npm run build:pages && md5sum *.html | md5sum
-npm run build:pages && md5sum *.html | md5sum
+npm --prefix tools run build:pages && md5sum *.html | md5sum
+npm --prefix tools run build:pages && md5sum *.html | md5sum
 
 # reconstruir el sitio entero desde una versión anterior del repositorio
 # (útil si una construcción defectuosa llegó a commitearse)
-CQ_SOURCE_REF=aa67626 npm run build:pages
+CQ_SOURCE_REF=aa67626 npm --prefix tools run build:pages
 ```
 
 ### Auditorías
 
 ```bash
-npm run audit              # marcado + CSS + accesibilidad + enlaces + calidad + material
-npm run audit:a11y         # axe-core (WCAG 2.1 AA) + contraste calculado
-npm run audit:links        # enlaces, anclas y recursos rotos
-npm run audit:quality      # SEO técnico y presupuesto de rendimiento
-npm run audit:media        # contenedor real (firma de cada fichero), referencias y duplicados
+npm --prefix tools run audit         # marcado + CSS + accesibilidad + enlaces + calidad + material
+npm --prefix tools run audit:a11y    # axe-core (WCAG 2.1 AA) + contraste calculado
+npm --prefix tools run audit:links   # enlaces, anclas y recursos rotos
+npm --prefix tools run audit:quality # SEO técnico y presupuesto de rendimiento
+npm --prefix tools run audit:media   # contenedor real (firma de cada fichero), referencias y duplicados
 node tools/audit/a11y.mjs --baseline   # compara con el commit anterior
 node tools/audit/smoke.mjs             # arranca la web en jsdom y la comprueba
 ```
@@ -77,6 +82,21 @@ node tools/audit/smoke.mjs             # arranca la web en jsdom y la comprueba
 Estado actual: **0 errores** en las seis auditorías y **42 de 42**
 comprobaciones funcionales. El detalle, con el antes y el después, está en
 [`AUDITORIA.md`](AUDITORIA.md).
+
+## Despliegue
+
+El sitio es **estático**: los HTML se publican tal y como están versionados.
+Vercel (producción), Netlify y GitHub Pages sirven el repositorio.
+
+Reglas aprendidas de la integración con Vercel:
+
+- El `package.json` de la **raíz** debe quedarse mínimo. Si declara un script
+  `build` o dependencias pesadas, la plataforma intenta instalarlas y
+  compilar, y el despliegue falla; con el manifiesto mínimo publica bien.
+  Las herramientas viven por eso en `tools/package.json`.
+- `.vercelignore` deja fuera el material de archivo (medios de la raíz,
+  `Nueva carpeta/`, entregables): la publicación pasa de ~1 GB a ~32 MB.
+- `vercel.json` sólo aporta cabeceras (caché, HSTS, `nosniff`, políticas).
 
 ## Estructura
 
