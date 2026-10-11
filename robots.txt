@@ -1,3 +1,17 @@
+# CARQUIDEC — https://carquidec.com
 User-agent: *
 Allow: /
+
+# Los prototipos y variantes antiguas no deben indexarse
+Disallow: /index-ultra.html
+Disallow: /index-enhanced.html
+Disallow: /index-it.html
+Disallow: /GEMINI_index.html
+Disallow: /revision.html
+Disallow: /logo-3d.html
+Disallow: /parallax-futurista.html
+Disallow: /CARQUIDEC-ARCHITECT-MASTER.html
+Disallow: /curriculum
+Disallow: /Business%20Pricing
+
 Sitemap: https://carquidec.com/sitemap.xml

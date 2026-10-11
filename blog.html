@@ -3,12 +3,52 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Leer — CARQUIDEC | Arquitectura & Diseno</title>
-<meta name="description" content="Ideas, ensayos y reflexiones sobre arquitectura, diseno y paisajismo por Hernando Carrillo y CARQUIDEC.">
+<title>Leer — Notas de arquitectura | CARQUIDEC</title>
+<meta name="author" content="Hernando Carrillo — CARQUIDEC">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://carquidec.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Leer",
+          "item": "https://carquidec.com/blog.html"
+        }
+      ]
+    }
+  ]
+}
+</script>
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta name="twitter:image" content="https://carquidec.com/assets/img/og-carquidec.jpg">
+<meta name="twitter:description" content="Ensayos y notas de obra sobre espacio, material y luz, escritos desde el estudio de CARQUIDEC en Barcelona.">
+<meta name="twitter:title" content="Leer — Notas de arquitectura | CARQUIDEC">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:image:alt" content="CARQUIDEC — arquitectura y decoración de interiores">
+<meta property="og:image:height" content="630">
+<meta property="og:image:width" content="1200">
+<meta property="og:image" content="https://carquidec.com/assets/img/og-carquidec.jpg">
+<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="CARQUIDEC">
+<meta property="og:url" content="https://carquidec.com/blog.html">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Ensayos y notas de obra sobre espacio, material y luz, escritos desde el estudio de CARQUIDEC en Barcelona.">
+<meta property="og:title" content="Leer — Notas de arquitectura | CARQUIDEC">
+<meta name="description" content="Ensayos y notas de obra sobre espacio, material y luz, escritos desde el estudio de CARQUIDEC en Barcelona.">
 <link rel="canonical" href="https://carquidec.com/blog.html">
-<link rel="icon" type="image/png" href="logo-carquidec-transparent.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 :root{--bg:#0a0a0a;--s:#111;--t:#f5f5f5;--td:#777;--ac:#c9c9c9;--gold:#b8a88a;--font-d:'Cormorant Garamond',serif;--font-b:'Space Grotesk',sans-serif}
@@ -94,8 +134,18 @@ body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;o
 /*text split*/.split-reveal .word{display:inline-block;overflow:hidden;vertical-align:bottom}.split-reveal .word span{display:inline-block;transform:translateY(110%);transition:transform .6s cubic-bezier(.16,1,.3,1)}.split-reveal.active .word span{transform:translateY(0)}
 /*reduced motion*/@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.rv,.rv-left,.rv-scale{opacity:1!important;transform:none!important}.split-reveal .word span{transform:none!important}}
 </style>
+<link rel="stylesheet" href="assets/css/carquidec.css">
+<meta name="theme-color" content="#0a0a09">
+<link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="assets/img/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/space-grotesk-latin-400-normal.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/cormorant-garamond-latin-300-normal.woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/fonts.css">
 </head>
 <body>
+<a class="cq-skip" href="#contenido">Saltar al contenido principal</a>
 
 <div class="scroll-progress" id="scrollProgress"></div>
 <div class="cursor" id="cursor"></div>
@@ -105,8 +155,8 @@ body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;o
 <div class="loader">
 <div class="loader-medallon">
 <div class="loader-medallon-inner">
-<div class="loader-face loader-front"><img src="logo-carquidec-transparent.png" alt="CARQUIDEC"></div>
-<div class="loader-face loader-back"><img src="logo-carquidec-transparent.png" alt="CARQUIDEC"></div>
+<div class="loader-face loader-front"><picture><source type="image/avif" srcset="assets/img/logo-carquidec-160.avif 160w, assets/img/logo-carquidec-320.avif 320w" sizes="320px"><source type="image/webp" srcset="assets/img/logo-carquidec-160.webp 160w, assets/img/logo-carquidec-320.webp 320w" sizes="320px"><img src="assets/img/logo-carquidec-320.jpg" srcset="assets/img/logo-carquidec-160.jpg 160w, assets/img/logo-carquidec-320.jpg 320w" sizes="320px" width="1024" height="1024" loading="eager" decoding="async" fetchpriority="high" alt="CARQUIDEC" style="background-image:url('data:image/webp;base64,UklGRhQBAABXRUJQVlA4WAoAAAAQAAAADwAADwAAQUxQSH0AAAABmTJE9D80bhuwbaTP+6+bc56AwrVP6GqB9UEDSH3EBEzALH5xjsSZ9Gwh1kJHByd6xKVhJSmrPfcHQ28MKd/6Tw+QGZ2JehRBQpmkl5uTAZQrsltWAlNmkynHMWQC5DaVKXtsEpJXuUvIGDoAryqXCGQ2AcnccU8SAITvAgBWUDggcAAAAFACAJ0BKhAAEAAEAGglqAJ0gTGCoLGj5TmpAAD+26tj2sN5t7JTMHSbj/d1W5pnO6XJErPmlGfIwhhtaiihOsipuLmQSqzjL/QM18quxt/j8LV2ab4FG6xD8ostBjdDNAa/ZScrUjtKjuZyXesAAAA=');background-size:cover;background-position:center"></picture></div>
+<div class="loader-face loader-back"><picture><source type="image/avif" srcset="assets/img/logo-carquidec-160.avif 160w, assets/img/logo-carquidec-320.avif 320w" sizes="320px"><source type="image/webp" srcset="assets/img/logo-carquidec-160.webp 160w, assets/img/logo-carquidec-320.webp 320w" sizes="320px"><img src="assets/img/logo-carquidec-320.jpg" srcset="assets/img/logo-carquidec-160.jpg 160w, assets/img/logo-carquidec-320.jpg 320w" sizes="320px" width="1024" height="1024" loading="eager" decoding="async" fetchpriority="high" alt="CARQUIDEC" style="background-image:url('data:image/webp;base64,UklGRhQBAABXRUJQVlA4WAoAAAAQAAAADwAADwAAQUxQSH0AAAABmTJE9D80bhuwbaTP+6+bc56AwrVP6GqB9UEDSH3EBEzALH5xjsSZ9Gwh1kJHByd6xKVhJSmrPfcHQ28MKd/6Tw+QGZ2JehRBQpmkl5uTAZQrsltWAlNmkynHMWQC5DaVKXtsEpJXuUvIGDoAryqXCGQ2AcnccU8SAITvAgBWUDggcAAAAFACAJ0BKhAAEAAEAGglqAJ0gTGCoLGj5TmpAAD+26tj2sN5t7JTMHSbj/d1W5pnO6XJErPmlGfIwhhtaiihOsipuLmQSqzjL/QM18quxt/j8LV2ab4FG6xD8ostBjdDNAa/ZScrUjtKjuZyXesAAAA=');background-size:cover;background-position:center"></picture></div>
 <div class="loader-edge"></div>
 <div class="loader-shine"></div>
 </div>
@@ -116,12 +166,12 @@ body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;o
 </div>
 
 <!-- NAV -->
-<nav class="nav">
+<nav class="nav" aria-label="Navegación principal">
 <div class="nav-logo">
-<a href="index.html"><img src="logo-carquidec-transparent.png" alt="CARQUIDEC"></a>
+<a href="index.html"><picture><source type="image/avif" srcset="assets/img/logo-carquidec-160.avif 160w, assets/img/logo-carquidec-320.avif 320w" sizes="320px"><source type="image/webp" srcset="assets/img/logo-carquidec-160.webp 160w, assets/img/logo-carquidec-320.webp 320w" sizes="320px"><img src="assets/img/logo-carquidec-320.jpg" srcset="assets/img/logo-carquidec-160.jpg 160w, assets/img/logo-carquidec-320.jpg 320w" sizes="320px" width="1024" height="1024" loading="eager" decoding="async" fetchpriority="high" alt="CARQUIDEC" style="background-image:url('data:image/webp;base64,UklGRhQBAABXRUJQVlA4WAoAAAAQAAAADwAADwAAQUxQSH0AAAABmTJE9D80bhuwbaTP+6+bc56AwrVP6GqB9UEDSH3EBEzALH5xjsSZ9Gwh1kJHByd6xKVhJSmrPfcHQ28MKd/6Tw+QGZ2JehRBQpmkl5uTAZQrsltWAlNmkynHMWQC5DaVKXtsEpJXuUvIGDoAryqXCGQ2AcnccU8SAITvAgBWUDggcAAAAFACAJ0BKhAAEAAEAGglqAJ0gTGCoLGj5TmpAAD+26tj2sN5t7JTMHSbj/d1W5pnO6XJErPmlGfIwhhtaiihOsipuLmQSqzjL/QM18quxt/j8LV2ab4FG6xD8ostBjdDNAa/ZScrUjtKjuZyXesAAAA=');background-size:cover;background-position:center"></picture></a>
 <span class="nav-brand">Carquidec</span>
 </div>
-<div class="nav-links">
+<div class="nav-links" id="menu-principal">
 <a href="index.html" data-es="Inicio" data-en="Home" data-ca="Inici" data-fr="Accueil" data-it="Home">Inicio</a>
 <a href="index.html#s3" data-es="Servicios" data-en="Services" data-ca="Serveis" data-fr="Services" data-it="Servizi">Servicios</a>
 <a href="index.html#s5" data-es="Proyectos" data-en="Projects" data-ca="Projectes" data-fr="Projets" data-it="Progetti">Proyectos</a>
@@ -131,24 +181,25 @@ body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;o
 <a href="contacto.html" class="nav-cta" data-es="Contacto" data-en="Contact" data-ca="Contacte" data-fr="Contact" data-it="Contatto">Contacto</a>
 </div>
 </nav>
-<div class="lang-bar">
-<button class="active" data-lang="es">ES</button>
-<button data-lang="en">EN</button>
-<button data-lang="ca">CA</button>
-<button data-lang="fr">FR</button>
-<button data-lang="it">IT</button>
+<div class="lang-bar" role="group" aria-label="Selección de idioma">
+<button type="button" class="active" data-lang="es">ES</button>
+<button type="button" data-lang="en">EN</button>
+<button type="button" data-lang="ca">CA</button>
+<button type="button" data-lang="fr">FR</button>
+<button type="button" data-lang="it">IT</button>
 </div>
 
-<button id="scrollTop" data-scroll-top style="position:fixed;bottom:24px;right:24px;z-index:100;width:48px;height:48px;background:rgba(10,10,10,0.85);border:1px solid rgba(184,168,138,0.2);color:#b8a88a;font-size:20px;cursor:pointer;opacity:0;transition:opacity .3s;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(10px)">↑</button>
+<button type="button" id="scrollTop" data-scroll-top style="position:fixed;bottom:24px;right:24px;z-index:100;width:48px;height:48px;background:rgba(10,10,10,0.85);border:1px solid rgba(184,168,138,0.2);color:#b8a88a;font-size:20px;cursor:pointer;opacity:0;transition:opacity .3s;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(10px)">↑</button>
 
-<button id="menuToggle" data-menu-toggle style="display:none;position:fixed;top:16px;left:20px;z-index:101;background:none;border:none;color:#b8a88a;font-size:24px;cursor:pointer">☰</button>
+<button id="menuToggle" type="button" aria-controls="menu-principal" aria-expanded="false" aria-label="Abrir menú de navegación">☰</button>
 
 <!-- HERO LEER -->
+<main id="contenido">
 <section class="slide" id="s1">
-<div class="slide-full-bg" style="background-image:url('Nueva carpeta/empty_office_interior.webp')"></div>
+<picture><source type="image/avif" srcset="assets/img/vista-16-768.avif 768w, assets/img/vista-16-1280.avif 1280w, assets/img/vista-16-1920.avif 1920w" sizes="100vw"><source type="image/webp" srcset="assets/img/vista-16-768.webp 768w, assets/img/vista-16-1280.webp 1280w, assets/img/vista-16-1920.webp 1920w" sizes="100vw"></picture>
 <div class="slide-full-ov"></div>
 <div class="slide-full-content" style="max-width:720px">
-<div class="label rv" data-es="// Ideas & Ensayos" data-en="// Ideas & Essays" data-ca="// Idees & Assaigs" data-fr="// Idees & Essais">// Ideas & Ensayos</div>
+<div class="label rv" data-es="// Ideas &amp; Ensayos" data-en="// Ideas &amp; Essays" data-ca="// Idees &amp; Assaigs" data-fr="// Idees &amp; Essais">// Ideas &amp; Ensayos</div>
 <h1 class="heading rv" style="font-size:clamp(2.5rem,6vw,4.5rem)" data-es="Leer<br><em>Arquitectura</em>" data-en="Reading<br><em>Architecture</em>" data-ca="Llegir<br><em>Arquitectura</em>" data-fr="Lire<br><em>l'Architecture</em>">Leer<br><em>Arquitectura</em></h1>
 <p class="body body-large rv" data-es="Reflexiones sobre espacios, materiales y emociones. Escritas desde el estudio, para quienes creen que una casa puede ser una experiencia." data-en="Reflections on spaces, materials and emotions. Written from the studio, for those who believe a house can be an experience." data-ca="Reflexions sobre espais, materials i emocions. Escrites des de l'estudi, per a qui creu que una casa pot ser una experiencia." data-fr="Reflexions sur les espaces, les materiaux et les emotions. Ecrits depuis le studio, pour ceux qui croient qu'une maison peut etre une experience.">Reflexiones sobre espacios, materiales y emociones. Escritas desde el estudio, para quienes creen que una casa puede ser una experiencia.</p>
 </div>
@@ -206,18 +257,19 @@ body::after{content:"";position:fixed;inset:0;z-index:9998;pointer-events:none;o
 </section>
 
 <!-- FOOTER -->
+</main>
 <footer class="footer">
 <div class="footer-brand">
-<img src="logo-carquidec-transparent.png" alt="CARQUIDEC">
+<picture><source type="image/avif" srcset="assets/img/logo-carquidec-160.avif 160w, assets/img/logo-carquidec-320.avif 320w" sizes="320px"><source type="image/webp" srcset="assets/img/logo-carquidec-160.webp 160w, assets/img/logo-carquidec-320.webp 320w" sizes="320px"><img src="assets/img/logo-carquidec-320.jpg" srcset="assets/img/logo-carquidec-160.jpg 160w, assets/img/logo-carquidec-320.jpg 320w" sizes="320px" width="1024" height="1024" loading="eager" decoding="async" fetchpriority="high" alt="CARQUIDEC" style="background-image:url('data:image/webp;base64,UklGRhQBAABXRUJQVlA4WAoAAAAQAAAADwAADwAAQUxQSH0AAAABmTJE9D80bhuwbaTP+6+bc56AwrVP6GqB9UEDSH3EBEzALH5xjsSZ9Gwh1kJHByd6xKVhJSmrPfcHQ28MKd/6Tw+QGZ2JehRBQpmkl5uTAZQrsltWAlNmkynHMWQC5DaVKXtsEpJXuUvIGDoAryqXCGQ2AcnccU8SAITvAgBWUDggcAAAAFACAJ0BKhAAEAAEAGglqAJ0gTGCoLGj5TmpAAD+26tj2sN5t7JTMHSbj/d1W5pnO6XJErPmlGfIwhhtaiihOsipuLmQSqzjL/QM18quxt/j8LV2ab4FG6xD8ostBjdDNAa/ZScrUjtKjuZyXesAAAA=');background-size:cover;background-position:center"></picture>
 <span class="footer-name">Carquidec</span>
 </div>
-<div class="footer-links"><a href="#">Instagram</a><a href="#">LinkedIn</a><a href="https://wa.me/34612484884" target="_blank" rel="noopener noreferrer">WhatsApp</a></div>
+<div class="footer-links"><a href="index.html#s5">Proyectos</a><a href="blog.html">Leer</a><a href="contacto.html">Contacto</a><a href="https://wa.me/34612484884" target="_blank" rel="noopener noreferrer">WhatsApp</a></div>
 <div class="footer-copy" data-es="Experiencia · Confianza · Seriedad" data-en="Experience · Trust · Seriousness" data-ca="Experiencia · Confianca · Serietat" data-fr="Experience · Confiance · Seriosite" data-it="Esperienza · Fiducia · Serieta">Experiencia · Confianza · Seriedad</div>
 </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-<script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/lenis.min.js"></script>
 <script>
 function setLang(lang){
 document.querySelectorAll('[data-'+lang+']').forEach(el=>{el.innerHTML=el.getAttribute('data-'+lang)});
@@ -245,19 +297,20 @@ if (cursor && cursorDot) {
   document.querySelectorAll('a,button,.grid-item').forEach(el=>{el.addEventListener('mouseenter',()=>{cursor.style.transform='scale(1.5)';cursor.style.mixBlendMode='normal'});el.addEventListener('mouseleave',()=>{cursor.style.transform='scale(1)';cursor.style.mixBlendMode='difference'})});
 }
 
-const loaderTl=gsap.timeline();
-loaderTl.to('.loader-medallon',{opacity:1,scale:1,duration:1,ease:'back.out(1.7)'})
-.to('.loader-text',{opacity:1,y:0,duration:.8,ease:'power2.out'},'-=.3')
-.to('.loader-line',{width:'200px',duration:1,ease:'power2.inOut'},'-=.5')
-.to('.loader-medallon',{scale:1.5,opacity:0,duration:.6,ease:'power3.in'},'+=.5')
-.to('.loader-text',{opacity:0,y:-20,duration:.4},'-=.4')
-.to('.loader-line',{width:0,opacity:0,duration:.3},'-=.3')
-.to('.loader',{opacity:0,duration:.5,onComplete:()=>{document.querySelector('.loader').style.display='none'}})
+if(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches){var _l=document.querySelector('.loader');if(_l)_l.style.display='none';}
+const loaderTl=gsap.timeline({defaults:{ease:'power2.out'}});
+loaderTl.to('.loader-medallon',{opacity:1,scale:1,duration:.55,ease:'back.out(1.6)'})
+.to('.loader-text',{opacity:1,y:0,duration:.4},'-=.35')
+.to('.loader-line',{width:'200px',duration:.5,ease:'power2.inOut'},'-=.3')
+.to('.loader-medallon',{scale:1.35,opacity:0,duration:.4,ease:'power3.in'},'+=.15')
+.to('.loader-text',{opacity:0,y:-16,duration:.3},'-=.3')
+.to('.loader-line',{width:0,opacity:0,duration:.25},'-=.25')
+.to('.loader',{opacity:0,duration:.35,onComplete:()=>{const l=document.querySelector('.loader');if(l)l.style.display='none'}})
 .from('.nav',{y:-30,opacity:0,duration:.6},'-=.3');
 
-gsap.to('#s1 .slide-full-bg',{scale:1,duration:2.5,ease:'power3.out',delay:1.5});
-gsap.from('#s1 .heading',{opacity:0,y:80,clipPath:'inset(0 0 100% 0)',duration:1.5,ease:'power3.out',delay:2});
-gsap.to('#s1 .rv',{opacity:1,y:0,duration:1,ease:'power3.out',delay:1.8,stagger:0.2});
+gsap.to('#s1 .slide-full-bg',{scale:1,duration:1.6,ease:'power3.out',delay:.2});
+gsap.from('#s1 .heading',{opacity:0,y:60,clipPath:'inset(0 0 100% 0)',duration:1.1,ease:'power3.out',delay:.5});
+gsap.to('#s1 .rv',{opacity:1,y:0,duration:.9,ease:'power3.out',delay:.35,stagger:.14});
 gsap.to('#s1 .slide-full-bg',{yPercent:30,ease:'none',scrollTrigger:{trigger:'#s1',start:'top top',end:'bottom top',scrub:true}});
 
 document.querySelectorAll('.rv,.rv-left,.rv-scale').forEach(el=>{ScrollTrigger.create({trigger:el,start:'top 85%',onEnter:()=>el.classList.add('active')})});
@@ -332,5 +385,6 @@ gsap.utils.toArray('.divider').forEach(d=>{
 gsap.from(d,{width:0,scrollTrigger:{trigger:d,start:'top 85%',end:'top 60%',scrub:true}});
 });
 </script>
+<script src="assets/js/carquidec.js" defer></script>
 </body>
 </html>
