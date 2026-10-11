@@ -158,7 +158,17 @@ con la fórmula WCAG, y pesos reales de transferencia sumando ficheros.
   `Nueva carpeta/` a `assets/media/{video,audio}` con nombres legibles
   (`casa-180-recorrido.mp4` en vez de un UUID).
 
-### 3.4 SEO técnico
+### 3.4 Formulario de contacto
+
+El formulario de `contacto.html` convivía con **dos manejadores del envío**: el
+accesible de `assets/js/carquidec.js` (estado inline anunciado con
+`role=status`) y uno heredado con `alert()` que, además, sólo advertía de que
+faltaba configurar Formspree. Se retira el heredado y, mientras no haya
+endpoint, el formulario **funciona**: compone el mensaje con los datos
+introducidos y ofrece enviarlo por correo (`mailto:`) o por WhatsApp, con acuse
+en la propia página, sin diálogos del sistema ni campos que se pierdan.
+
+### 3.5 SEO técnico
 
 - Título, descripción, canónica y robots únicos y coherentes por página.
 - Open Graph y Twitter completos, con imagen social propia 1200×630.
@@ -253,11 +263,14 @@ la intervención sobre los que son verificables sin navegador:
 2. **Vídeo con licencia y peso.** Los `mp4` suman ~300 MB en el repositorio.
    Recomendado: transcodificar a AV1/WebM (≈ −60 %), subir a un servicio de
    vídeo y dejar en el repositorio solo póster + enlace.
-3. **Formulario conectado.** El `action` sigue siendo un marcador
-   (`formspree.io/f/YOUR_FORM_ID`); la interfaz ya informa con claridad de que
-   falta configurarlo. Sustituir por el endpoint real.
-4. **Limpiar duplicados del repositorio.** Hay 40+ ficheros duplicados
-   (`… (1).mp4`, `… (2).pdf`) que no usa ninguna página. Se pueden archivar con
-   `git rm` sin afectar al sitio.
+3. **Formulario conectado.** Ya no queda inerte: sin endpoint compone el mensaje
+   y lo entrega por correo o WhatsApp (§3.4). Para recibirlo además por
+   Formspree basta con sustituir `YOUR_FORM_ID` por el identificador real del
+   formulario; el resto del circuito ya está probado.
+4. **Archivo original.** El material que sólo alimenta el canal de imágenes
+   (medios de la raíz, `Nueva carpeta/`, entregables) ya está fuera del
+   despliegue gracias a `.vercelignore`, que reduce la publicación de ~1 GB a
+   ~32 MB. Siguiente paso, opcional: moverlo a un almacén externo y dejarlo
+   fuera del repositorio.
 5. **Portal de cliente y fichas paramétricas** (criterios 114-118 del pliego):
    siguiente fase de producto, no de acabado.
