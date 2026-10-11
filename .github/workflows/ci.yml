@@ -69,38 +69,39 @@ jobs:
         with:
           node-version: '20'
           cache: npm
+          cache-dependency-path: tools/package-lock.json
 
-      - name: Instalar dependencias
-        run: npm ci --no-audit --no-fund
+      - name: Instalar dependencias de desarrollo
+        run: npm ci --prefix tools --no-audit --no-fund
 
       - name: La construcción no debe producir diferencias
         run: |
-          npm run build:pages
+          npm --prefix tools run build:pages
           if ! git diff --quiet -- '*.html'; then
             echo "::error::Los HTML no coinciden con el resultado de la construcción."
-            echo "Ejecuta «npm run build:pages» y confirma el resultado antes de subir."
+            echo "Ejecuta «npm --prefix tools run build:pages» y confirma el resultado antes de subir."
             git diff --stat -- '*.html'
             exit 1
           fi
           echo "Construcción reproducible: los HTML están sincronizados."
 
       - name: Validez del marcado (html-validate)
-        run: npm run audit:html
+        run: npm --prefix tools run audit:html
 
       - name: Estilo de las hojas de estilo (stylelint)
-        run: npm run audit:css
+        run: npm --prefix tools run audit:css
 
       - name: Accesibilidad (axe-core + comprobaciones propias)
-        run: npm run audit:a11y
+        run: npm --prefix tools run audit:a11y
 
       - name: Enlaces y recursos
-        run: npm run audit:links
+        run: npm --prefix tools run audit:links
 
       - name: SEO técnico y presupuesto de rendimiento
-        run: npm run audit:quality
+        run: npm --prefix tools run audit:quality
 
       - name: Material multimedia (contenedor, referencias y duplicados)
-        run: npm run audit:media
+        run: npm --prefix tools run audit:media
 
       - name: Prueba funcional (jsdom con los scripts reales)
         run: node tools/audit/smoke.mjs

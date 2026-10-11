@@ -1,0 +1,40 @@
+{
+  "name": "carquidec",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Sitio del estudio CARQUIDEC — arquitectura y decoración de interiores. Manifiesto de DESARROLLO: canal de activos, construcción de páginas y auditorías. La raíz del repositorio se publica como sitio estático y su package.json debe permanecer mínimo (ver README §Despliegue).",
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "npm run build:images && npm run build:brand && npm run build:pages",
+    "build:images": "node ../scripts/build-images.mjs",
+    "build:images:force": "node ../scripts/build-images.mjs --force",
+    "build:brand": "node ../scripts/build-brand.mjs",
+    "build:pages": "node ../scripts/build.mjs",
+    "audit": "npm run audit:html && npm run audit:css && npm run audit:a11y && npm run audit:links && npm run audit:quality && npm run audit:media",
+    "audit:html": "html-validate '../index.html' '../about.html' '../blog.html' '../contacto.html' '../ecosistema.html' '../proyecto-*.html'",
+    "audit:css": "stylelint '../assets/css/*.css'",
+    "audit:a11y": "node ../tools/audit/a11y.mjs",
+    "audit:a11y:strict": "node ../tools/audit/a11y.mjs --strict",
+    "audit:links": "node ../tools/audit/links.mjs",
+    "audit:quality": "node ../tools/audit/quality.mjs",
+    "audit:media": "node ../tools/audit/media.mjs",
+    "audit:json": "node ../tools/audit/a11y.mjs --json > ../informes/a11y.json && node ../tools/audit/links.mjs --json > ../informes/links.json && node ../tools/audit/quality.mjs --json > ../informes/quality.json",
+    "serve": "npx --yes serve -l 4173 ..",
+    "preview": "npx --yes serve -l 4173 .."
+  },
+  "devDependencies": {
+    "axe-core": "^4.11.1",
+    "html-validate": "^9.7.1",
+    "jsdom": "^25.0.1",
+    "sharp": "^0.33.5",
+    "stylelint": "^16.26.1",
+    "stylelint-config-standard": "^36.0.1"
+  },
+  "dependencies": {
+    "docx": "^9.7.1"
+  }
+}

@@ -218,14 +218,22 @@ deliberadas:
    declarada y comentada en un único fichero.
 3. **Verificación en CI**: si alguien edita a mano un HTML final, la construcción
    produce diferencias y la integración continua lo detecta. Con
-   `CQ_SOURCE_REF=<commit> npm run build:pages` puede reconstruirse el sitio
-   completo desde una referencia anterior del repositorio.
+   `CQ_SOURCE_REF=<commit> npm --prefix tools run build:pages` puede
+   reconstruirse el sitio completo desde una referencia anterior.
+
+**Manifiestos separados (despliegue).** El `package.json` de la raíz es el que
+lee la plataforma de publicación; se mantiene mínimo (como estaba) porque es el
+único punto que hacía fallar el despliegue de Vercel. Las herramientas de
+desarrollo —canal de activos, construcción y auditorías— viven en
+`tools/package.json`, con su propio `package-lock.json`. Así el servicio
+publica los HTML tal y como están versionados, sin instalar ni compilar nada.
 
 ```bash
-npm run build          # imágenes + identidad + páginas
-npm run build:pages    # sólo las páginas (segundos)
-npm run audit          # todas las auditorías
-npm run serve          # servidor local en http://localhost:4173
+npm ci --prefix tools               # dependencias de desarrollo (manifiesto en tools/)
+npm --prefix tools run build        # imágenes + identidad + páginas
+npm --prefix tools run build:pages  # sólo las páginas (segundos)
+npm --prefix tools run audit        # todas las auditorías
+npm --prefix tools run serve        # servidor local en http://localhost:4173
 ```
 
 ---
