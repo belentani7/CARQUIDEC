@@ -355,9 +355,19 @@ function transform(page, html, cfg) {
   /* --- 1 · <head> ------------------------------------------------------- */
   const head = [];
 
-  // favicons + manifiesto + theme-color
-  html = replaceTags(html, 'link', (tag) =>
-    /rel="(?:icon|apple-touch-icon|shortcut icon)"/i.test(tag) ? '' : null);
+  // ---------------------------------------------------------------------------
+  // Higiene de <head>: se retira TODO lo que gestiona esta construcción para
+  // poder repetirla sin acumular etiquetas duplicadas (idempotencia real).
+  // ---------------------------------------------------------------------------
+  html = replaceTags(html, 'link', (tag) => {
+    if (/rel="(?:icon|apple-touch-icon|shortcut icon)"/i.test(tag)) return '';  // favicons
+    if (/rel="manifest"/i.test(tag)) return '';                                  // manifiesto PWA
+    if (/as="font"/i.test(tag)) return '';                                       // precargas de fuente
+    if (/assets\/css\/fonts\.css/.test(tag)) return '';                        // hoja tipográfica
+    if (/fonts\.(googleapis|gstatic)\.com/i.test(tag)) return '';               // terceros
+    return null;
+  });
+  html = replaceTags(html, 'meta', (tag) => (/name="theme-color"/i.test(tag) ? '' : null));
   head.push(
     `<meta name="theme-color" content="#0a0a09">`,
     `<link rel="icon" href="${depth}assets/img/favicon-32.png" sizes="32x32" type="image/png">`,
@@ -367,9 +377,7 @@ function transform(page, html, cfg) {
   );
   found.push('iconos y manifiesto');
 
-  // tipografía autoalojada
-  html = replaceTags(html, 'link', (tag) =>
-    /fonts\.(googleapis|gstatic)\.com/i.test(tag) ? '' : null);
+  // tipografía autoalojada (las etiquetas antiguas ya se han retirado arriba)
   head.push(FONT_PRELOAD(page));
   found.push('tipografía autoalojada');
 
