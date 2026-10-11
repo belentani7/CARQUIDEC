@@ -175,8 +175,8 @@ const MEDIA = {
   '4c49592f-8465-4fcd-98db-9c0272c1520d.mp4': 'assets/media/video/media-4c49592f.mp4',
   'VID-20260728-WA0025.mp4': 'assets/media/video/obra-registro-whatsapp.mp4',
   '8c0c3942-2309-4178-9f41-347d5e44b385.mp4': 'assets/media/video/media-8c0c3942.mp4',
-  'Algoritmos_para_casas_que_respiran.mp3': 'assets/media/audio/01-algoritmos-para-casas-que-respiran.mp3',
-  'De_hologramas_digitales_a_logias_masónicas (1).mp3': 'assets/media/audio/02-de-hologramas-a-logias.mp3',
+  'Algoritmos_para_casas_que_respiran.m4a': 'assets/media/audio/01-algoritmos-para-casas-que-respiran.m4a',
+  'De_hologramas_digitales_a_logias_masónicas (1).m4a': 'assets/media/audio/02-de-hologramas-a-logias.m4a',
   'Del_dibujo_a_mano_al_diseño_paramétrico.m4a': 'assets/media/audio/03-del-dibujo-a-mano-al-parametrico.m4a'
 };
 

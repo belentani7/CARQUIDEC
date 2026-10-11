@@ -99,6 +99,9 @@ jobs:
       - name: SEO técnico y presupuesto de rendimiento
         run: npm run audit:quality
 
+      - name: Material multimedia (contenedor, referencias y duplicados)
+        run: npm run audit:media
+
       - name: Prueba funcional (jsdom con los scripts reales)
         run: node tools/audit/smoke.mjs
 
@@ -113,6 +116,7 @@ jobs:
             echo "- Accesibilidad: axe-core (WCAG 2.1 AA) + contraste calculado"
             echo "- Enlaces: integridad de enlaces, anclas y recursos"
             echo "- Calidad: SEO técnico y presupuesto de rendimiento"
+            echo "- Material: contenedor real, referencias y duplicados"
             echo "- Funcional: arranque real de la web en jsdom"
             echo ""
             echo "Ficheros auditados: $(git ls-files '*.html' | wc -l) HTML · $(git ls-files 'assets/css/*.css' | wc -l) CSS"
