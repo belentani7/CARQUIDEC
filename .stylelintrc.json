@@ -1,0 +1,44 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "ignoreFiles": [
+    "node_modules/**",
+    "assets/vendor/**",
+    "assets/img/**",
+    "Business Pricing _ OpenAI.html",
+    "*.html"
+  ],
+  "rules": {
+    "comment-empty-line-before": null,
+    "declaration-empty-line-before": null,
+    "custom-property-empty-line-before": null,
+    "rule-empty-line-before": null,
+    "at-rule-empty-line-before": null,
+    "no-descending-specificity": null,
+    "selector-class-pattern": null,
+    "custom-property-pattern": null,
+    "color-function-notation": null,
+    "color-function-alias-notation": null,
+    "alpha-value-notation": null,
+    "value-keyword-case": ["lower", { "ignoreProperties": ["composes", "font-family", "font", "-webkit-font-smoothing"], "ignoreKeywords": ["Georgia", "BlinkMacSystemFont", "Arial", "optimizeLegibility"] }],
+    "selector-id-pattern": null,
+    "declaration-block-single-line-max-declarations": null,
+    "media-query-no-invalid": null,
+    "font-family-name-quotes": null,
+    "shorthand-property-no-redundant-values": null,
+    "declaration-property-value-no-unknown": null,
+    "media-feature-range-notation": null,
+    "property-no-vendor-prefix": null,
+    "value-no-vendor-prefix": null,
+    "number-max-precision": 5,
+    "no-duplicate-selectors": true,
+    "declaration-block-no-duplicate-properties": [
+      true,
+      { "ignore": ["consecutive-duplicates-with-different-values"] }
+    ],
+    "selector-pseudo-class-no-unknown": [true, { "ignorePseudoClasses": ["global", "local"] }],
+    "keyframes-name-pattern": null,
+    "custom-media-pattern": null,
+    "rule-selector-property-disallowed-list": null,
+    "no-invalid-position-at-import-rule": true
+  }
+}

@@ -1,0 +1,15 @@
+# Material de archivo: no se sirve en el sitio, sólo alimenta el canal de imágenes.
+# Mantenerlo fuera del despliegue reduce cientos de MB por publicación.
+/*.mp4
+/*.m4a
+/*.mp3
+/*.mov
+/*.jpg
+/*.jpeg
+/*.png
+/*.webp
+/*.avif
+/Nueva carpeta/
+/*.zip
+/*.pptx
+/*.pdf

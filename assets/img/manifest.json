@@ -1,0 +1,1895 @@
+{
+  "logo-carquidec": {
+    "slug": "logo-carquidec",
+    "role": "logo",
+    "source": "logo-carquidec-transparent.png",
+    "width": 1024,
+    "height": 1024,
+    "aspect": 1,
+    "sizes": "320px",
+    "lqip": "data:image/webp;base64,UklGRhQBAABXRUJQVlA4WAoAAAAQAAAADwAADwAAQUxQSH0AAAABmTJE9D80bhuwbaTP+6+bc56AwrVP6GqB9UEDSH3EBEzALH5xjsSZ9Gwh1kJHByd6xKVhJSmrPfcHQ28MKd/6Tw+QGZ2JehRBQpmkl5uTAZQrsltWAlNmkynHMWQC5DaVKXtsEpJXuUvIGDoAryqXCGQ2AcnccU8SAITvAgBWUDggcAAAAFACAJ0BKhAAEAAEAGglqAJ0gTGCoLGj5TmpAAD+26tj2sN5t7JTMHSbj/d1W5pnO6XJErPmlGfIwhhtaiihOsipuLmQSqzjL/QM18quxt/j8LV2ab4FG6xD8ostBjdDNAa/ZScrUjtKjuZyXesAAAA=",
+    "sources": {
+      "avif": [
+        {
+          "w": 160,
+          "file": "assets/img/logo-carquidec-160.avif",
+          "bytes": 6219
+        },
+        {
+          "w": 320,
+          "file": "assets/img/logo-carquidec-320.avif",
+          "bytes": 13477
+        }
+      ],
+      "webp": [
+        {
+          "w": 160,
+          "file": "assets/img/logo-carquidec-160.webp",
+          "bytes": 5650
+        },
+        {
+          "w": 320,
+          "file": "assets/img/logo-carquidec-320.webp",
+          "bytes": 13762
+        }
+      ],
+      "jpg": [
+        {
+          "w": 160,
+          "file": "assets/img/logo-carquidec-160.jpg",
+          "bytes": 2122
+        },
+        {
+          "w": 320,
+          "file": "assets/img/logo-carquidec-320.jpg",
+          "bytes": 5732
+        }
+      ]
+    }
+  },
+  "proyecto-01": {
+    "slug": "proyecto-01",
+    "role": "wide",
+    "source": "stock-photography_professional_photo_of_moderniza_logo_y_hazlo_png_Cinematic_architectural_photogr-0 (1).jpg",
+    "width": 1184,
+    "height": 664,
+    "aspect": 1.7831,
+    "sizes": "(max-width: 900px) 100vw, 66vw",
+    "lqip": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACQAQCdASoQAAkABABoJYwAAk4qzgAA/tAItmFjPTf0d6MBL9bbZyXUAAA=",
+    "sources": {
+      "avif": [
+        {
+          "w": 640,
+          "file": "assets/img/proyecto-01-640.avif",
+          "bytes": 26631
+        },
+        {
+          "w": 1024,
+          "file": "assets/img/proyecto-01-1024.avif",
+          "bytes": 48853
+        }
+      ],
+      "webp": [
+        {
+          "w": 640,
+          "file": "assets/img/proyecto-01-640.webp",
+          "bytes": 31020
+        },
+        {
+          "w": 1024,
+          "file": "assets/img/proyecto-01-1024.webp",
+          "bytes": 60294
+        }
+      ],
+      "jpg": [
+        {
+          "w": 640,
+          "file": "assets/img/proyecto-01-640.jpg",
+          "bytes": 38635
+        },
+        {
+          "w": 1024,
+          "file": "assets/img/proyecto-01-1024.jpg",
+          "bytes": 81765
+        }
+      ]
+    }
+  },
+  "estudio-hero": {
+    "slug": "estudio-hero",
+    "role": "hero",
+    "source": "20260730222718545141.jpg",
+    "width": 1536,
+    "height": 704,
+    "aspect": 2.1818,
+    "cropped": {
+      "left": 0,
+      "top": 21,
+      "width": 1536,
+      "height": 493
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADwAQCdASoQAAUABABoJQBOgCPzk6YxJAAA/LSWoss41G5O07zwhpMTiugAAA==",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/estudio-hero-768.avif",
+          "bytes": 19860
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/estudio-hero-1280.avif",
+          "bytes": 34487
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/estudio-hero-768.webp",
+          "bytes": 24518
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/estudio-hero-1280.webp",
+          "bytes": 47492
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/estudio-hero-768.jpg",
+          "bytes": 30448
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/estudio-hero-1280.jpg",
+          "bytes": 66238
+        }
+      ]
+    }
+  },
+  "vista-02": {
+    "slug": "vista-02",
+    "role": "hero",
+    "source": "H1.jpg",
+    "width": 1300,
+    "height": 536,
+    "aspect": 2.4254,
+    "cropped": {
+      "left": 0,
+      "top": 16,
+      "width": 1300,
+      "height": 375
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAACQAQCdASoQAAUABABoJQBdgCDQzSwA/mFGOfMwWpfrHAkzwengvAAA",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-02-768.avif",
+          "bytes": 12007
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-02-1280.avif",
+          "bytes": 23728
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-02-768.webp",
+          "bytes": 14296
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-02-1280.webp",
+          "bytes": 30066
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-02-768.jpg",
+          "bytes": 19439
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-02-1280.jpg",
+          "bytes": 43080
+        }
+      ]
+    }
+  },
+  "vista-03": {
+    "slug": "vista-03",
+    "role": "hero",
+    "source": "stock-photography_professional_photo_of_moderniza_logo_y_hazlo_png_Cinematic_architectural_photogr-0 (2).jpg",
+    "width": 1184,
+    "height": 664,
+    "aspect": 1.7831,
+    "cropped": {
+      "left": 0,
+      "top": 20,
+      "width": 1184,
+      "height": 465
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAACwAQCdASoQAAYABABoJYwAAp1XmdMIAP7QxfBCEcaW+iXKrWiAAA==",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-03-768.avif",
+          "bytes": 21175
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-03-768.webp",
+          "bytes": 24868
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-03-768.jpg",
+          "bytes": 32932
+        }
+      ]
+    }
+  },
+  "vista-04": {
+    "slug": "vista-04",
+    "role": "hero",
+    "source": "stock-photography_professional_photo_of_moderniza_logo_y_hazlo_png_Cinematic_architectural_photogr-0 (3).jpg",
+    "width": 1184,
+    "height": 664,
+    "aspect": 1.7831,
+    "cropped": {
+      "left": 0,
+      "top": 20,
+      "width": 1184,
+      "height": 465
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAACQAQCdASoQAAYABABoJQBOgBQbtrAAzjZEnntwMLdocPLRv+SFanwA",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-04-768.avif",
+          "bytes": 17712
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-04-768.webp",
+          "bytes": 21934
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-04-768.jpg",
+          "bytes": 31654
+        }
+      ]
+    }
+  },
+  "vista-05": {
+    "slug": "vista-05",
+    "role": "hero",
+    "source": "Nueva carpeta/20260730222940634241.jpg",
+    "width": 1312,
+    "height": 736,
+    "aspect": 1.7826,
+    "cropped": {
+      "left": 0,
+      "top": 22,
+      "width": 1312,
+      "height": 515
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjAAAABXRUJQVlA4ICQAAACQAQCdASoQAAYABABoJZwAAhqpqAAA/RhdN6YkIII+i4AAAAA=",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-05-768.avif",
+          "bytes": 15456
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-05-1280.avif",
+          "bytes": 25719
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-05-768.webp",
+          "bytes": 21064
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-05-1280.webp",
+          "bytes": 39250
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-05-768.jpg",
+          "bytes": 28705
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-05-1280.jpg",
+          "bytes": 60444
+        }
+      ]
+    }
+  },
+  "vista-06": {
+    "slug": "vista-06",
+    "role": "hero",
+    "source": "Nueva carpeta/20260730221736337707.png",
+    "width": 1056,
+    "height": 992,
+    "aspect": 1.0645,
+    "cropped": {
+      "left": 0,
+      "top": 30,
+      "width": 1056,
+      "height": 694
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoQAAsABABoJYwAAjQZMGyGAAD+7Uw3idFaOVSYxs/qsEhx2+ipdS/rq7lQ2AAA",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-06-768.avif",
+          "bytes": 25984
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-06-768.webp",
+          "bytes": 32222
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-06-768.jpg",
+          "bytes": 43919
+        }
+      ]
+    }
+  },
+  "vista-07": {
+    "slug": "vista-07",
+    "role": "hero",
+    "source": "Nueva carpeta/20260730223149789515.jpg",
+    "width": 1472,
+    "height": 704,
+    "aspect": 2.0909,
+    "cropped": {
+      "left": 0,
+      "top": 21,
+      "width": 1472,
+      "height": 493
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACQAQCdASoQAAUABABoJQBOgBZNZIAA+pu2g4iV3zuwXa+EUOKXlHIJQAA=",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-07-768.avif",
+          "bytes": 11248
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-07-1280.avif",
+          "bytes": 20902
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-07-768.webp",
+          "bytes": 16244
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-07-1280.webp",
+          "bytes": 33156
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-07-768.jpg",
+          "bytes": 23023
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-07-1280.jpg",
+          "bytes": 50322
+        }
+      ]
+    }
+  },
+  "vista-08": {
+    "slug": "vista-08",
+    "role": "hero",
+    "source": "Nueva carpeta/3333f4e5-3e84-466a-acac-256138671ed0.png",
+    "width": 1152,
+    "height": 864,
+    "aspect": 1.3333,
+    "cropped": {
+      "left": 0,
+      "top": 26,
+      "width": 1152,
+      "height": 605
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACwAQCdASoQAAgABABoJQBOgCBROR5AAPz3YdovWn9V9IpQOD7V685aXDoAAA==",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-08-768.avif",
+          "bytes": 25571
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-08-768.webp",
+          "bytes": 33894
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-08-768.jpg",
+          "bytes": 43061
+        }
+      ]
+    }
+  },
+  "vista-09": {
+    "slug": "vista-09",
+    "role": "hero",
+    "source": "Nueva carpeta/48370623-716a-47ca-978d-6ab861a2e0b9.png",
+    "width": 952,
+    "height": 1040,
+    "aspect": 0.9154,
+    "cropped": {
+      "left": 0,
+      "top": 31,
+      "width": 952,
+      "height": 728
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoQAAwABABoJQBdgBawJHbYQAD9KhHM2wzocaKCG2YZ1JtOK1+OSPJtyw8j0saeloi0AA==",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-09-768.avif",
+          "bytes": 39127
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-09-768.webp",
+          "bytes": 47702
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-09-768.jpg",
+          "bytes": 61004
+        }
+      ]
+    }
+  },
+  "vista-10": {
+    "slug": "vista-10",
+    "role": "hero",
+    "source": "Nueva carpeta/4dced077-93ef-482f-9b29-41b3bc4928d4.png",
+    "width": 1152,
+    "height": 864,
+    "aspect": 1.3333,
+    "cropped": {
+      "left": 0,
+      "top": 26,
+      "width": 1152,
+      "height": 605
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACwAQCdASoQAAgABABoJZQAAo3YdDQAAP7Xgppy4f7PJDjXhCNkLf9jbDH4AAAA",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-10-768.avif",
+          "bytes": 19486
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-10-768.webp",
+          "bytes": 25352
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-10-768.jpg",
+          "bytes": 34353
+        }
+      ]
+    }
+  },
+  "vista-11": {
+    "slug": "vista-11",
+    "role": "hero",
+    "source": "Nueva carpeta/6beb4687-8167-4121-9074-d643b0940dc7.png",
+    "width": 744,
+    "height": 1328,
+    "aspect": 0.5602,
+    "cropped": {
+      "left": 0,
+      "top": 40,
+      "width": 744,
+      "height": 930
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoQABQAPxFysFAsJqSisAgBgCIJQBfJAy41pai/XTipTzAA/n4DMbzzBeBRx5fKkBJ01CYGs0jB/++dBR2AMPtczkUKc5nxFbgAAA==",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-11-768.avif",
+          "bytes": 62707
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-11-768.webp",
+          "bytes": 83434
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-11-768.jpg",
+          "bytes": 105315
+        }
+      ]
+    }
+  },
+  "vista-12": {
+    "slug": "vista-12",
+    "role": "hero",
+    "source": "Nueva carpeta/BCO.7c82120a-adeb-474c-8316-0a853ab82f12~2.jpg",
+    "width": 1536,
+    "height": 1024,
+    "aspect": 1.5,
+    "cropped": {
+      "left": 0,
+      "top": 31,
+      "width": 1536,
+      "height": 717
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAACQAQCdASoQAAcABABoJZQAAWspuVgA+OI/2QqOgYpz17O4EPKMdwAA",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-12-768.avif",
+          "bytes": 34854
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-12-1280.avif",
+          "bytes": 79726
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-12-768.webp",
+          "bytes": 39918
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-12-1280.webp",
+          "bytes": 93918
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-12-768.jpg",
+          "bytes": 45126
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-12-1280.jpg",
+          "bytes": 108826
+        }
+      ]
+    }
+  },
+  "vista-13": {
+    "slug": "vista-13",
+    "role": "hero",
+    "source": "Nueva carpeta/BCO.8588eff7-91ee-4220-9364-8a184912909a.png",
+    "width": 1536,
+    "height": 1024,
+    "aspect": 1.5,
+    "cropped": {
+      "left": 0,
+      "top": 31,
+      "width": 1536,
+      "height": 717
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAADwAQCdASoQAAcABABoJZQCsAEKuIj2cYAA/stXn8uvKJS5CxrgAA==",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-13-768.avif",
+          "bytes": 13927
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-13-1280.avif",
+          "bytes": 28487
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-13-768.webp",
+          "bytes": 19554
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-13-1280.webp",
+          "bytes": 48076
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-13-768.jpg",
+          "bytes": 31683
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-13-1280.jpg",
+          "bytes": 75904
+        }
+      ]
+    }
+  },
+  "vista-14": {
+    "slug": "vista-14",
+    "role": "hero",
+    "source": "Nueva carpeta/BCO.a64d9811-7ce1-4736-9fcb-001ae9aa405d.png",
+    "width": 1536,
+    "height": 1024,
+    "aspect": 1.5,
+    "cropped": {
+      "left": 0,
+      "top": 31,
+      "width": 1536,
+      "height": 717
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjAAAABXRUJQVlA4ICQAAACwAQCdASoQAAcABABoJZwAAp0huf+AAPaiAxEj6aTedZAQEAA=",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-14-768.avif",
+          "bytes": 33864
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-14-1280.avif",
+          "bytes": 75223
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-14-768.webp",
+          "bytes": 40416
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-14-1280.webp",
+          "bytes": 95506
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-14-768.jpg",
+          "bytes": 47366
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-14-1280.jpg",
+          "bytes": 114683
+        }
+      ]
+    }
+  },
+  "vista-15": {
+    "slug": "vista-15",
+    "role": "hero",
+    "source": "Nueva carpeta/Copilot_20260730_162451.png",
+    "width": 1536,
+    "height": 1024,
+    "aspect": 1.5,
+    "cropped": {
+      "left": 0,
+      "top": 31,
+      "width": 1536,
+      "height": 717
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACQAQCdASoQAAcABABoJYwCdAB/ivgA/qn+2mkkdEHbgI4FObyw5H0ucaAAAA==",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-15-768.avif",
+          "bytes": 52560
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-15-1280.avif",
+          "bytes": 121724
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-15-768.webp",
+          "bytes": 64242
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-15-1280.webp",
+          "bytes": 152326
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-15-768.jpg",
+          "bytes": 61416
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-15-1280.jpg",
+          "bytes": 155504
+        }
+      ]
+    }
+  },
+  "vista-16": {
+    "slug": "vista-16",
+    "role": "hero",
+    "source": "Nueva carpeta/empty_office_interior.webp",
+    "width": 1920,
+    "height": 1280,
+    "aspect": 1.5,
+    "cropped": {
+      "left": 0,
+      "top": 38,
+      "width": 1920,
+      "height": 896
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAACwAQCdASoQAAcABABoJaQAAlmZzTkAAP7Goj1L1KTL0elwXL8AAA==",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-16-768.avif",
+          "bytes": 8071
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-16-1280.avif",
+          "bytes": 12957
+        },
+        {
+          "w": 1920,
+          "file": "assets/img/vista-16-1920.avif",
+          "bytes": 19342
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-16-768.webp",
+          "bytes": 12456
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-16-1280.webp",
+          "bytes": 22578
+        },
+        {
+          "w": 1920,
+          "file": "assets/img/vista-16-1920.webp",
+          "bytes": 36942
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-16-768.jpg",
+          "bytes": 23526
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-16-1280.jpg",
+          "bytes": 47034
+        },
+        {
+          "w": 1920,
+          "file": "assets/img/vista-16-1920.jpg",
+          "bytes": 82455
+        }
+      ]
+    }
+  },
+  "vista-17": {
+    "slug": "vista-17",
+    "role": "hero",
+    "source": "Nueva carpeta/fe4ded61-cb9f-4367-9ce2-adf32396f0dd.png",
+    "width": 1328,
+    "height": 744,
+    "aspect": 1.7849,
+    "cropped": {
+      "left": 0,
+      "top": 22,
+      "width": 1328,
+      "height": 521
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAADQAQCdASoQAAYABABoJYwC7AEOlkiPwAD8jom84eFOhRUZamrlm1uOAAA=",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-17-768.avif",
+          "bytes": 13401
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-17-1280.avif",
+          "bytes": 24812
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-17-768.webp",
+          "bytes": 18230
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-17-1280.webp",
+          "bytes": 36500
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-17-768.jpg",
+          "bytes": 26672
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-17-1280.jpg",
+          "bytes": 58010
+        }
+      ]
+    }
+  },
+  "vista-18": {
+    "slug": "vista-18",
+    "role": "hero",
+    "source": "Nueva carpeta/imagine_prompt_Architectural_photography_of_a_completed_real.jpg",
+    "width": 1024,
+    "height": 1024,
+    "aspect": 1,
+    "cropped": {
+      "left": 0,
+      "top": 31,
+      "width": 1024,
+      "height": 717
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoQAAsABABoJQBOgBn5vUo1SAD+mqbXjgpIOODETYEyAiZzHdSfV3AAAAA=",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-18-768.avif",
+          "bytes": 32982
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-18-768.webp",
+          "bytes": 42508
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-18-768.jpg",
+          "bytes": 57849
+        }
+      ]
+    }
+  },
+  "vista-19": {
+    "slug": "vista-19",
+    "role": "hero",
+    "source": "Nueva carpeta/NoteGPT_Image_20260730162440.png",
+    "width": 1672,
+    "height": 941,
+    "aspect": 1.7768,
+    "cropped": {
+      "left": 0,
+      "top": 28,
+      "width": 1672,
+      "height": 659
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACwAQCdASoQAAYABABoJQBOgCIdL/4AAP00UMHZnvKJylUVV74L46wAAAA=",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-19-768.avif",
+          "bytes": 25829
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-19-1280.avif",
+          "bytes": 52277
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-19-768.webp",
+          "bytes": 30582
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-19-1280.webp",
+          "bytes": 66878
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-19-768.jpg",
+          "bytes": 38917
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-19-1280.jpg",
+          "bytes": 90125
+        }
+      ]
+    }
+  },
+  "vista-20": {
+    "slug": "vista-20",
+    "role": "hero",
+    "source": "Nueva carpeta/stock-photography_professional_photo_of_moderniza_FOTO_DE_CASA_CON_LOGO_photography-0.jpg",
+    "width": 1184,
+    "height": 664,
+    "aspect": 1.7831,
+    "cropped": {
+      "left": 0,
+      "top": 20,
+      "width": 1184,
+      "height": 465
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAADwAQCdASoQAAYABABoJYwCdAD0dNDGTbAA/ZLb2NoHue2FILvqpZJQAAA=",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-20-768.avif",
+          "bytes": 9207
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-20-768.webp",
+          "bytes": 14014
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-20-768.jpg",
+          "bytes": 24338
+        }
+      ]
+    }
+  },
+  "vista-21": {
+    "slug": "vista-21",
+    "role": "hero",
+    "source": "Nueva carpeta/stock-photography_professional_photo_of_moderniza_FOTO_DE_CASA_CON_LOGO_photography-1.jpg",
+    "width": 1184,
+    "height": 664,
+    "aspect": 1.7831,
+    "cropped": {
+      "left": 0,
+      "top": 20,
+      "width": 1184,
+      "height": 465
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAADQAQCdASoQAAYABABoJZwAAq+WSE4iQAD0OH4OzCF/gIVyeNAAAA==",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-21-768.avif",
+          "bytes": 12061
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-21-768.webp",
+          "bytes": 15808
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-21-768.jpg",
+          "bytes": 24613
+        }
+      ]
+    }
+  },
+  "vista-22": {
+    "slug": "vista-22",
+    "role": "hero",
+    "source": "Nueva carpeta/stock-photography_professional_photo_of_moderniza_FOTO_DE_CASA_CON_LOGO_photography-2.jpg",
+    "width": 1184,
+    "height": 664,
+    "aspect": 1.7831,
+    "cropped": {
+      "left": 0,
+      "top": 20,
+      "width": 1184,
+      "height": 465
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAAAQAgCdASoQAAYABABoJYwCxC8AFXAxlhzAAP7D7b3BBJiBtqMw7k71ihagfZfwAAA=",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-22-768.avif",
+          "bytes": 8576
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-22-768.webp",
+          "bytes": 11868
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-22-768.jpg",
+          "bytes": 21112
+        }
+      ]
+    }
+  },
+  "vista-23": {
+    "slug": "vista-23",
+    "role": "hero",
+    "source": "Nueva carpeta/stock-photography_professional_photo_of_moderniza_FOTO_DE_CASA_CON_LOGO_photography-3.jpg",
+    "width": 1184,
+    "height": 664,
+    "aspect": 1.7831,
+    "cropped": {
+      "left": 0,
+      "top": 20,
+      "width": 1184,
+      "height": 465
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjAAAABXRUJQVlA4ICQAAACwAQCdASoQAAYABABoJZQAAuYw1cegAMs+lR8HXJLyIkgIAAA=",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-23-768.avif",
+          "bytes": 11882
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-23-768.webp",
+          "bytes": 16268
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-23-768.jpg",
+          "bytes": 26404
+        }
+      ]
+    }
+  },
+  "vista-24": {
+    "slug": "vista-24",
+    "role": "hero",
+    "source": "Nueva carpeta/stock-photography_professional_photo_of_moderniza_logo_y_hazlo_png_Cinematic_architectural_photogr-0.jpg",
+    "width": 1184,
+    "height": 664,
+    "aspect": 1.7831,
+    "cropped": {
+      "left": 0,
+      "top": 20,
+      "width": 1184,
+      "height": 465
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACQAQCdASoQAAYABABoJQBOgBQZ2mAAzEiyHfcc6q5DtNewUgKYD+wIAAA=",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-24-768.avif",
+          "bytes": 13649
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-24-768.webp",
+          "bytes": 17884
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-24-768.jpg",
+          "bytes": 28553
+        }
+      ]
+    }
+  },
+  "vista-25": {
+    "slug": "vista-25",
+    "role": "hero",
+    "source": "Nueva carpeta/stock-photography_professional_photo_of_moderniza_logo_y_hazlo_png_Cinematic_architectural_photogr-2.jpg",
+    "width": 1184,
+    "height": 664,
+    "aspect": 1.7831,
+    "cropped": {
+      "left": 0,
+      "top": 20,
+      "width": 1184,
+      "height": 465
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADwAQCdASoQAAYABABoJZQCdAD2BJqp0MAA/sbfjZuxdZqNZI0z+IPQ0AAAAA==",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-25-768.avif",
+          "bytes": 7996
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-25-768.webp",
+          "bytes": 11458
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-25-768.jpg",
+          "bytes": 19994
+        }
+      ]
+    }
+  },
+  "vista-26": {
+    "slug": "vista-26",
+    "role": "hero",
+    "source": "Nueva carpeta/stock-photography_professional_photo_of_moderniza_logo_y_hazlo_png_Cinematic_architectural_photogr-3.jpg",
+    "width": 1184,
+    "height": 664,
+    "aspect": 1.7831,
+    "cropped": {
+      "left": 0,
+      "top": 20,
+      "width": 1184,
+      "height": 465
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADQAQCdASoQAAYABABoJYwCw7D2GW2cAAD+1GSTkRC0d/BGJl5zRRvA7qhAAA==",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-26-768.avif",
+          "bytes": 15325
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-26-768.webp",
+          "bytes": 21530
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-26-768.jpg",
+          "bytes": 28738
+        }
+      ]
+    }
+  },
+  "vista-27": {
+    "slug": "vista-27",
+    "role": "hero",
+    "source": "Nueva carpeta/upscalemedia-transformed.png",
+    "width": 3072,
+    "height": 2048,
+    "aspect": 1.5,
+    "cropped": {
+      "left": 0,
+      "top": 61,
+      "width": 3072,
+      "height": 1434
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADwAQCdASoQAAcABABoJZQC7ADcFmbBgAAA/t+FTWbUYTMcGhrCZgeId0ygAA==",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-27-768.avif",
+          "bytes": 12335
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-27-1280.avif",
+          "bytes": 21757
+        },
+        {
+          "w": 1920,
+          "file": "assets/img/vista-27-1920.avif",
+          "bytes": 32366
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-27-768.webp",
+          "bytes": 16964
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-27-1280.webp",
+          "bytes": 32680
+        },
+        {
+          "w": 1920,
+          "file": "assets/img/vista-27-1920.webp",
+          "bytes": 53060
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-27-768.jpg",
+          "bytes": 27537
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-27-1280.jpg",
+          "bytes": 56777
+        },
+        {
+          "w": 1920,
+          "file": "assets/img/vista-27-1920.jpg",
+          "bytes": 98327
+        }
+      ]
+    }
+  },
+  "vista-28": {
+    "slug": "vista-28",
+    "role": "hero",
+    "source": "Nueva carpeta/hologram_cutout.png",
+    "width": 1536,
+    "height": 1024,
+    "aspect": 1.5,
+    "cropped": {
+      "left": 0,
+      "top": 31,
+      "width": 1536,
+      "height": 717
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4WAoAAAAQAAAADwAABgAAQUxQSFsAAAABmTJE9D8MrGLbVnIFJwYN6EdHCEAD/XJ5aIdzIyZgAoq5TGrQqFVK6JwIAAEVCEXUYWQL5wVlnkBIHGaT3QcjSpiHnXZm5N85OYwI9sUc4hwcCOALcHAAEeoLAFZQOCAqAAAAkAEAnQEqEAAHAAQAaCWkAAJYuxTgAP7VYQLOJI9Qz20hKYJQIM5OSAAA",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-28-768.avif",
+          "bytes": 9232
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-28-1280.avif",
+          "bytes": 18638
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-28-768.webp",
+          "bytes": 11610
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-28-1280.webp",
+          "bytes": 25838
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-28-768.jpg",
+          "bytes": 15685
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-28-1280.jpg",
+          "bytes": 35730
+        }
+      ]
+    }
+  },
+  "vista-29": {
+    "slug": "vista-29",
+    "role": "hero",
+    "source": "Nueva carpeta/Copilot_20260730_165702.png",
+    "width": 1024,
+    "height": 1024,
+    "aspect": 1,
+    "cropped": {
+      "left": 0,
+      "top": 31,
+      "width": 1024,
+      "height": 717
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRuQAAABXRUJQVlA4WAoAAAAQAAAADwAACgAAQUxQSGYAAAANmS5E9D80cBtJciQd9d9gzm3IwcmJ1hslP8aAeT1iAnKTL3sH8+qMt62byAkXOwJqhWGvRtDGXvDXEWCCdhbVDSSxaw4SAK2YpkeSUhws+r+OalmdThiWc+a3lISQYLBDhBI1wQ5WUDggWAAAAPABAJ0BKhAACwAEAGglsAJ0BiwVnsGJQAD+wPyL2FW1+Qj1Pq/ucB6EHZK2mHC5Be7xJew0WSHVox9k/B0wSoAJgE1fZVqw6cGHlzclE5QS9Mv2o7wAAAA=",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-29-768.avif",
+          "bytes": 26521
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-29-768.webp",
+          "bytes": 48508
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-29-768.jpg",
+          "bytes": 17865
+        }
+      ]
+    }
+  },
+  "vista-30": {
+    "slug": "vista-30",
+    "role": "hero",
+    "source": "Nueva carpeta/Copilot_20260730_165119.png",
+    "width": 1536,
+    "height": 1024,
+    "aspect": 1.5,
+    "cropped": {
+      "left": 0,
+      "top": 31,
+      "width": 1536,
+      "height": 717
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoQAAcABABoJYgCdAC4J89WAAD+q1oRyUsmrwc6bGydlb8ZOnyQJwAA",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-30-768.avif",
+          "bytes": 16173
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-30-1280.avif",
+          "bytes": 34531
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-30-768.webp",
+          "bytes": 23390
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-30-1280.webp",
+          "bytes": 60106
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-30-768.jpg",
+          "bytes": 34059
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-30-1280.jpg",
+          "bytes": 81406
+        }
+      ]
+    }
+  },
+  "vista-31": {
+    "slug": "vista-31",
+    "role": "hero",
+    "source": "Nueva carpeta/Copilot_20260730_165023.png",
+    "width": 1536,
+    "height": 1024,
+    "aspect": 1.5,
+    "cropped": {
+      "left": 0,
+      "top": 31,
+      "width": 1536,
+      "height": 717
+    },
+    "sizes": "100vw",
+    "lqip": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADQAQCdASoQAAcABABoJZACdAEMwRrWAADNhmE1EkisIAZetFbxTXS5LoAAAA==",
+    "sources": {
+      "avif": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-31-768.avif",
+          "bytes": 15302
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-31-1280.avif",
+          "bytes": 29926
+        }
+      ],
+      "webp": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-31-768.webp",
+          "bytes": 21454
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-31-1280.webp",
+          "bytes": 45522
+        }
+      ],
+      "jpg": [
+        {
+          "w": 768,
+          "file": "assets/img/vista-31-768.jpg",
+          "bytes": 32039
+        },
+        {
+          "w": 1280,
+          "file": "assets/img/vista-31-1280.jpg",
+          "bytes": 73343
+        }
+      ]
+    }
+  },
+  "retrato-arquitectura": {
+    "slug": "retrato-arquitectura",
+    "role": "wide",
+    "source": "Hernando_Carrillo__Arquitectura_que_Evoluciona.png",
+    "width": 2752,
+    "height": 1536,
+    "aspect": 1.7917,
+    "sizes": "(max-width: 900px) 100vw, 66vw",
+    "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4WAoAAAAQAAAADwAACAAAQUxQSBkAAAABD0CQbePPvO3XiIjgEAgk+VNtt0JE/9MHAFZQOCAoAAAA0AEAnQEqEAAJAAQAaCWcAALnDTDxYgAA/u1QoJt1DtPkZGd8AAAAAA==",
+    "sources": {
+      "avif": [
+        {
+          "w": 640,
+          "file": "assets/img/retrato-arquitectura-640.avif",
+          "bytes": 35953
+        },
+        {
+          "w": 1024,
+          "file": "assets/img/retrato-arquitectura-1024.avif",
+          "bytes": 66312
+        },
+        {
+          "w": 1536,
+          "file": "assets/img/retrato-arquitectura-1536.avif",
+          "bytes": 105726
+        }
+      ],
+      "webp": [
+        {
+          "w": 640,
+          "file": "assets/img/retrato-arquitectura-640.webp",
+          "bytes": 41404
+        },
+        {
+          "w": 1024,
+          "file": "assets/img/retrato-arquitectura-1024.webp",
+          "bytes": 84364
+        },
+        {
+          "w": 1536,
+          "file": "assets/img/retrato-arquitectura-1536.webp",
+          "bytes": 148256
+        }
+      ],
+      "jpg": [
+        {
+          "w": 640,
+          "file": "assets/img/retrato-arquitectura-640.jpg",
+          "bytes": 45427
+        },
+        {
+          "w": 1024,
+          "file": "assets/img/retrato-arquitectura-1024.jpg",
+          "bytes": 98713
+        },
+        {
+          "w": 1536,
+          "file": "assets/img/retrato-arquitectura-1536.jpg",
+          "bytes": 185941
+        }
+      ]
+    }
+  },
+  "poster-marmoles": {
+    "slug": "poster-marmoles",
+    "role": "poster",
+    "source": "Copilot_20260731_223204.png",
+    "width": 1536,
+    "height": 1024,
+    "aspect": 1.5,
+    "sizes": "(max-width: 900px) 100vw, 33vw",
+    "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4WAoAAAAQAAAADwAACgAAQUxQSAoAAAABB9D9iAhERP8DVlA4IDAAAADwAQCdASoQAAsABABoJYgCdAD0uWFO+QAA/uogCnU/H5+Uci9JgeJtk2t4ADtAAAA=",
+    "sources": {
+      "avif": [
+        {
+          "w": 480,
+          "file": "assets/img/poster-marmoles-480.avif",
+          "bytes": 31259
+        },
+        {
+          "w": 800,
+          "file": "assets/img/poster-marmoles-800.avif",
+          "bytes": 79550
+        }
+      ],
+      "webp": [
+        {
+          "w": 480,
+          "file": "assets/img/poster-marmoles-480.webp",
+          "bytes": 35436
+        },
+        {
+          "w": 800,
+          "file": "assets/img/poster-marmoles-800.webp",
+          "bytes": 89726
+        }
+      ],
+      "jpg": [
+        {
+          "w": 480,
+          "file": "assets/img/poster-marmoles-480.jpg",
+          "bytes": 33455
+        },
+        {
+          "w": 800,
+          "file": "assets/img/poster-marmoles-800.jpg",
+          "bytes": 87601
+        }
+      ]
+    }
+  },
+  "poster-parametrico": {
+    "slug": "poster-parametrico",
+    "role": "poster",
+    "source": "Copilot_20260731_223358.png",
+    "width": 1536,
+    "height": 1024,
+    "aspect": 1.5,
+    "sizes": "(max-width: 900px) 100vw, 33vw",
+    "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4WAoAAAAQAAAADwAACgAAQUxQSAoAAAABB9D9iAhERP8DVlA4IC4AAADwAQCdASoQAAsABABoJYgCdAD0ujUFroAA/uogCm/3s0P2XrLNFivLxv8O0AAA",
+    "sources": {
+      "avif": [
+        {
+          "w": 480,
+          "file": "assets/img/poster-parametrico-480.avif",
+          "bytes": 31215
+        },
+        {
+          "w": 800,
+          "file": "assets/img/poster-parametrico-800.avif",
+          "bytes": 79594
+        }
+      ],
+      "webp": [
+        {
+          "w": 480,
+          "file": "assets/img/poster-parametrico-480.webp",
+          "bytes": 35440
+        },
+        {
+          "w": 800,
+          "file": "assets/img/poster-parametrico-800.webp",
+          "bytes": 89302
+        }
+      ],
+      "jpg": [
+        {
+          "w": 480,
+          "file": "assets/img/poster-parametrico-480.jpg",
+          "bytes": 33509
+        },
+        {
+          "w": 800,
+          "file": "assets/img/poster-parametrico-800.jpg",
+          "bytes": 87655
+        }
+      ]
+    }
+  },
+  "retrato-trayectoria": {
+    "slug": "retrato-trayectoria",
+    "role": "wide",
+    "source": "Trayectoria_de_Hernando_Carrillo_Sánchez.png",
+    "width": 2752,
+    "height": 1536,
+    "aspect": 1.7917,
+    "sizes": "(max-width: 900px) 100vw, 66vw",
+    "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4WAoAAAAQAAAADwAACAAAQUxQSBkAAAABD0CQbePPvO3XiIjgEAgk+VNtt0JE/9MHAFZQOCAgAAAAMAEAnQEqEAAJAAQAaCWcAANwAP7v2BtHlBk2CUbCAAA=",
+    "sources": {
+      "avif": [
+        {
+          "w": 640,
+          "file": "assets/img/retrato-trayectoria-640.avif",
+          "bytes": 39205
+        },
+        {
+          "w": 1024,
+          "file": "assets/img/retrato-trayectoria-1024.avif",
+          "bytes": 74282
+        },
+        {
+          "w": 1536,
+          "file": "assets/img/retrato-trayectoria-1536.avif",
+          "bytes": 115561
+        }
+      ],
+      "webp": [
+        {
+          "w": 640,
+          "file": "assets/img/retrato-trayectoria-640.webp",
+          "bytes": 45644
+        },
+        {
+          "w": 1024,
+          "file": "assets/img/retrato-trayectoria-1024.webp",
+          "bytes": 93816
+        },
+        {
+          "w": 1536,
+          "file": "assets/img/retrato-trayectoria-1536.webp",
+          "bytes": 161256
+        }
+      ],
+      "jpg": [
+        {
+          "w": 640,
+          "file": "assets/img/retrato-trayectoria-640.jpg",
+          "bytes": 49750
+        },
+        {
+          "w": 1024,
+          "file": "assets/img/retrato-trayectoria-1024.jpg",
+          "bytes": 107267
+        },
+        {
+          "w": 1536,
+          "file": "assets/img/retrato-trayectoria-1536.jpg",
+          "bytes": 198954
+        }
+      ]
+    }
+  },
+  "retrato-perfil": {
+    "slug": "retrato-perfil",
+    "role": "wide",
+    "source": "Perfil_de_Hernando_Carrillo_Sánchez.png",
+    "width": 1536,
+    "height": 2752,
+    "aspect": 0.5581,
+    "sizes": "(max-width: 900px) 100vw, 66vw",
+    "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4WAoAAAAQAAAADwAAHAAAQUxQSBoAAAABD0CQbePPvO3XiIjgEAgQ0qX6MRDR/+SSAFZQOCBEAAAAUAMAnQEqEAAdAD8RcrFQLCakorAIAYAiCWlf9lngE5drMAAA/uyuAL71XkPBXiVug2MXceUbYefk6a20WirlQ+SAAAA=",
+    "sources": {
+      "avif": [
+        {
+          "w": 640,
+          "file": "assets/img/retrato-perfil-640.avif",
+          "bytes": 108947
+        },
+        {
+          "w": 1024,
+          "file": "assets/img/retrato-perfil-1024.avif",
+          "bytes": 201619
+        },
+        {
+          "w": 1536,
+          "file": "assets/img/retrato-perfil-1536.avif",
+          "bytes": 344369
+        }
+      ],
+      "webp": [
+        {
+          "w": 640,
+          "file": "assets/img/retrato-perfil-640.webp",
+          "bytes": 133620
+        },
+        {
+          "w": 1024,
+          "file": "assets/img/retrato-perfil-1024.webp",
+          "bytes": 262244
+        },
+        {
+          "w": 1536,
+          "file": "assets/img/retrato-perfil-1536.webp",
+          "bytes": 462270
+        }
+      ],
+      "jpg": [
+        {
+          "w": 640,
+          "file": "assets/img/retrato-perfil-640.jpg",
+          "bytes": 142488
+        },
+        {
+          "w": 1024,
+          "file": "assets/img/retrato-perfil-1024.jpg",
+          "bytes": 298185
+        },
+        {
+          "w": 1536,
+          "file": "assets/img/retrato-perfil-1536.jpg",
+          "bytes": 537555
+        }
+      ]
+    }
+  },
+  "poster-obra": {
+    "slug": "poster-obra",
+    "role": "poster",
+    "source": "Copilot_20260730_115359.png",
+    "width": 1536,
+    "height": 1024,
+    "aspect": 1.5,
+    "sizes": "(max-width: 900px) 100vw, 33vw",
+    "lqip": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAABQAQCdASoQAAsABABoJZQAAXwAAP38XFJ6gnkKRW66tSQGEcCqIBqX+AAAAA==",
+    "sources": {
+      "avif": [
+        {
+          "w": 480,
+          "file": "assets/img/poster-obra-480.avif",
+          "bytes": 23194
+        },
+        {
+          "w": 800,
+          "file": "assets/img/poster-obra-800.avif",
+          "bytes": 56959
+        }
+      ],
+      "webp": [
+        {
+          "w": 480,
+          "file": "assets/img/poster-obra-480.webp",
+          "bytes": 26344
+        },
+        {
+          "w": 800,
+          "file": "assets/img/poster-obra-800.webp",
+          "bytes": 67598
+        }
+      ],
+      "jpg": [
+        {
+          "w": 480,
+          "file": "assets/img/poster-obra-480.jpg",
+          "bytes": 28390
+        },
+        {
+          "w": 800,
+          "file": "assets/img/poster-obra-800.jpg",
+          "bytes": 73016
+        }
+      ]
+    }
+  }
+}
