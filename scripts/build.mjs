@@ -22,9 +22,9 @@
  *     · Sistema de diseño y capa JS de mejoras progresivas (assets/css, assets/js)
  *
  *   Uso
- *     node scripts/build.mjs            # aplica sobre la versión de git HEAD
- *     node scripts/build.mjs --check     # solo informa, no escribe
- *     node scripts/build.mjs --stats
+ *     node scripts/build.mjs                     # aplica sobre la versión de git HEAD
+ *     node scripts/build.mjs --check              # solo informa, no escribe
+ *     CQ_SOURCE_REF=<ref> node scripts/build.mjs  # reconstruye desde otra referencia
  *
  * La fuente es `git show HEAD:<fichero>`: así el proceso siempre parte del
  * original y se puede repetir tantas veces como haga falta sin acumular
@@ -36,6 +36,12 @@ import path from 'node:path';
 
 const ROOT = path.resolve(new URL('..', import.meta.url).pathname);
 const CHECK = process.argv.includes('--check');
+/**
+ * Referencia de git desde la que se lee el material original. Por defecto HEAD
+ * (la construcción es idempotente sobre su propia salida). Permite reconstruir
+ * desde una base anterior, p. ej. `CQ_SOURCE_REF=aa67626 npm run build:pages`.
+ */
+const SOURCE_REF = process.env.CQ_SOURCE_REF || 'HEAD';
 const SITE = 'https://carquidec.com';
 
 /* ---------------------------------------------------------------------------
@@ -133,7 +139,7 @@ const decode = (u) => decodeURIComponent(u).replace(/^\.\//, '').trim();
 
 function gitShow(file) {
   try {
-    return execSync(`git show HEAD:${JSON.stringify(file)}`, { cwd: ROOT, maxBuffer: 64 * 1024 * 1024 })
+    return execSync(`git show ${SOURCE_REF}:${JSON.stringify(file)}`, { cwd: ROOT, maxBuffer: 64 * 1024 * 1024 })
       .toString('utf8');
   } catch {
     return null; // fichero nuevo (no está en git)
@@ -554,66 +560,107 @@ function transform(page, html, cfg) {
   let pictures = 0;
   let poolCursor = 0;
 
-  // 4a · Fondos a sangre (.slide-full-bg) → imagen responsive real
-  //      La primera es el LCP: se sirve con prioridad alta y sin diferir.
-  let heroes = 0;
+  // 4.0 · Deshacer las envolturas <picture> de una construcción anterior.
+  //       Sin este paso, reconstruir sobre el HTML ya generado anidaría
+  //       <picture> dentro de <picture>. Se recupera la ruta de origen real
+  //       desde el manifest para volver a derivar todo desde cero.
+  const unwrap = (match, attrs) => {
+    const src = (attrs.match(/\bsrc="([^"]+)"/) || [, ''])[1];
+    const slug = src.split('/').pop().replace(/-\d+\.(?:jpg|webp|avif)$/, '');
+    const entry = manifest[slug];
+    const alt = (attrs.match(/\balt="([^"]*)"/) || [, ''])[1];
+    const cls = (attrs.match(/\bclass="([^"]*)"/) || [, ''])[1];
+    const original = entry ? entry.source : src;
+    return `<img src="${original}"${alt ? ` alt="${alt}"` : ''}${cls ? ` class="${cls}"` : ''}>`;
+  };
+  let guard = 0;
+  let before;
+  do {
+    before = html.length;
+    html = html.replace(/<picture>(?:<source[^>]*>)*<img\b([^>]*)><\/picture>/g, unwrap);
+    // Restos de una construcción anterior que quedaron sin <img> dentro
+    // (síntoma de un origen ya degradado: conviene avisar, no borrar en silencio)
+    html = html.replace(/<picture>(?:<source[^>]*>)*<\/picture>/g, () => {
+      console.warn(`  ! ${page}: se descarta un <picture> sin imagen dentro (origen degradado)`);
+      return '';
+    });
+    guard += 1;
+  } while (html.length !== before && guard < 6);
+
+  // 4a · Fondos a sangre (.slide-full-bg) → <img> llano con su ruta de origen.
+  //       Se deja como imagen normal para que el paso 4b la convierta, y así no
+  //       haya dos generadores de <picture> pisándose entre sí.
   html = html.replace(
     /<div class="slide-full-bg"([^>]*)style="background-image:url\('([^']+)'\)"><\/div>/gi,
     (m, pre, url) => {
-      const entry = bySource.get(decode(url));
-      if (!entry) return m;
-      pictures++;
-      heroes++;
-      const first = heroes === 1;
-      return picture(entry, {
-        depth,
-        className: 'slide-full-bg',
-        alt: first ? 'Fachada de vivienda contemporánea proyectada por CARQUIDEC' : 'Proyecto de CARQUIDEC',
-        loading: first ? 'eager' : 'lazy',
-        fetchpriority: first ? 'high' : undefined
-      });
+      const clean = decode(url);
+      if (!bySource.has(clean)) return m;
+      pictures += 1;
+      return `<img src="${url}" class="slide-full-bg" alt="Proyecto de CARQUIDEC" loading="lazy">`;
     }
   );
 
-  // 4b · Todas las <img> locales → <picture> con AVIF/WebP/srcset/lazy
+  // 4b · Todas las <img> locales → <picture> con AVIF/WebP/srcset/LQIP.
+  //      Una sola pasada sobre el documento: lo que este paso escribe no se
+  //      vuelve a analizar (evita <picture> anidados al reconstruir).
+  let heroes = 0;
   html = html.replace(/<img\b[^>]*>/gi, (tag) => {
     const srcMatch = tag.match(/\bsrc="([^"]+)"/i);
     if (!srcMatch) return tag;
     const raw = srcMatch[1];
     if (/^(https?:|data:)/.test(raw)) return tag;
+    // Salida de una construcción anterior sin desenvolver: se respeta tal cual
+    if (/^assets\//.test(raw)) return tag;
+
     let entry = bySource.get(decode(raw));
     if (!entry) {
       // La referencia no existe en el repositorio (imágenes perdidas del
       // material original). Se sustituye por una pieza real del fondo de esta
       // página y se anota la reparación. Ver AUDITORIA.md §recursos.
-      if (!cfg.pool || !cfg.pool.length) return '';
+      if (!cfg.pool || !cfg.pool.length) {
+        if (process.env.CQ_DEBUG) console.error(`    [debug] ${page}: img descartada «${raw}» (sin fondo de reserva)`);
+        return '';
+      }
       const slug = cfg.pool[poolCursor % cfg.pool.length];
       poolCursor += 1;
       entry = manifest[slug];
-      if (!entry) return '';
+      if (!entry) {
+        if (process.env.CQ_DEBUG) console.error(`    [debug] ${page}: sustitución «${slug}» inexistente para «${raw}»`);
+        return '';
+      }
       note(page, `imagen perdida «${raw}» sustituida por ${slug}`);
     }
 
     const alt = (tag.match(/\balt="([^"]*)"/i) || [, ''])[1];
     const cls = (tag.match(/\bclass="([^"]*)"/i) || [, ''])[1];
+    const isHero = /slide-full-bg/.test(cls);
     const isFull = /\bimg-full\b/.test(cls);
-    const inGallery = /gallery|slide-split/.test(cls);
-    const lazy = /\beager\b/.test(cls) || /logo|loader/i.test(raw) ? 'eager' : 'lazy';
-    const fpr = /logo/i.test(raw) ? 'high' : undefined;
+    const isLogo = /logo/i.test(raw);
+    const lazy = /\beager\b/.test(cls) || isLogo ? 'eager' : 'lazy';
 
-    pictures++;
-    // Conservamos la clase original para que el CSS y GSAP sigan funcionando
-    const className = cls || (isFull ? 'img-full' : inGallery ? 'gallery-img' : '');
+    // La primera imagen a sangre es el LCP: prioridad alta y sin diferir
+    let fetchpriority;
+    let loading = lazy;
+    if (isHero) {
+      heroes += 1;
+      loading = heroes === 1 ? 'eager' : 'lazy';
+      fetchpriority = heroes === 1 ? 'high' : undefined;
+    } else if (isLogo) {
+      fetchpriority = 'high';
+    }
+
+    pictures += 1;
+    const className = cls || (isFull ? 'img-full' : '');
+    const passthrough = tag.match(/\sdata-[\w-]+="[^"]*"/g);
     return picture(entry, {
       depth,
       className: className || undefined,
-      alt,
-      loading: lazy,
-      fetchpriority: fpr,
-      attrs: /data-/.test(tag) ? tag.match(/\sdata-[\w-]+="[^"]*"/g).join(' ') : ''
+      alt: alt || (isHero ? 'Proyecto de CARQUIDEC' : ''),
+      loading,
+      fetchpriority,
+      attrs: passthrough ? passthrough.join(' ') : ''
     });
   });
-  if (pictures) found.push(`${pictures} imágenes responsivas (AVIF/WebP/LQIP)`);
 
   /* --- 5 · Vídeo -------------------------------------------------------- */
   // Referencias de medios al directorio nuevo
