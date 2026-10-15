@@ -1,3 +1,26 @@
 name: CI
-on: [push, pull_request]
-jobs: { lint-test: { runs-on: ubuntu-latest, steps: [{ uses: actions/checkout@v4 }, { uses: actions/setup-node@v4, with: { node-version: '20' } }, { run: npm ci || npm install }] } } }
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+jobs:
+  audit:
+    name: Auditoria real del sitio
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: tools
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: tools/package-lock.json
+      - name: Instalar herramientas de auditoria
+        run: npm ci
+      # El repositorio YA tiene un gate real de calidad en tools/:
+      # HTML valido, CSS con stylelint, accesibilidad con axe-core,
+      # enlaces, calidad documental y peso de medios.
+      - name: Auditar (html, css, a11y, enlaces, calidad, medios)
+        run: npm run audit
