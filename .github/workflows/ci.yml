@@ -4,26 +4,23 @@ on:
     branches: [main, master]
   pull_request:
 jobs:
-  smoke:
-    name: Humo del repositorio
+  audit:
+    name: Auditoria real del sitio
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: tools
     steps:
       - uses: actions/checkout@v5
-      - name: Instalar dependencias
-        run: npm ci || npm install
-      - name: Build (informativo)
-        #Este repositorio es mayoritariamente estatico y su build no es
-        # reproducible desde un runner limpio. Se ejecuta de forma advisory:
-        # informa del estado real sin poner el repo entero en rojo.
-        run: npm run build --if-present
-        continue-on-error: true
-      - name: Ficheros JSON validos
-        run: |
-          mal=0
-          for f in $(git ls-files '*.json' | head -50); do
-            if ! node -e "JSON.parse(require('fs').readFileSync(process.argv[1],'utf8'))" "$f" 2>/dev/null; then
-              echo "::warning file=$f::JSON no parseable"
-              mal=1
-            fi
-          done
-          [ "$mal" -eq 0 ] && echo "ok   JSON valido"
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: tools/package-lock.json
+      - name: Instalar herramientas de auditoria
+        run: npm ci
+      # El repositorio YA tiene un gate real de calidad en tools/:
+      # HTML valido, CSS con stylelint, accesibilidad con axe-core,
+      # enlaces, calidad documental y peso de medios.
+      - name: Auditar (html, css, a11y, enlaces, calidad, medios)
+        run: npm run audit
