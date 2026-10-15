@@ -6,3 +6,16 @@ informes/
 # Sistema
 .DS_Store
 Thumbs.db
+
+
+# --- limpieza 2026-10-15 (auditoria de perfil) ---
+# Copias locales de paginas de terceros: material con copyright ajeno
+Business Pricing _ OpenAI.html
+Business Pricing _ OpenAI_files/
+# El navegador guarda esto al "Guardar pagina como..."
+*.html_files/
+*_files/
+# Media pesada de trabajo: pese a .gitignore, se habian versionado
+YouCut_*.mp4
+*.zip
+Nueva carpeta/
