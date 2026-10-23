@@ -4,7 +4,7 @@ import { resolve } from 'node:path';
 import { test } from 'node:test';
 import { JSDOM } from 'jsdom';
 
-const source = readFileSync(resolve('assets/js/carquidec.js'), 'utf8');
+const source = readFileSync(new URL('../../assets/js/carquidec.js', import.meta.url), 'utf8');
 
 const contactMarkup = (action) => [
   '<!doctype html><html lang="es"><body>',
