@@ -24,7 +24,8 @@
     "audit:media": "node ../tools/audit/media.mjs",
     "audit:json": "node ../tools/audit/a11y.mjs --json > ../informes/a11y.json && node ../tools/audit/links.mjs --json > ../informes/links.json && node ../tools/audit/quality.mjs --json > ../informes/quality.json",
     "serve": "npx --yes serve -l 4173 ..",
-    "preview": "npx --yes serve -l 4173 .."
+    "preview": "npx --yes serve -l 4173 ..",
+    "test:forms": "node --test tests/form-fallback.test.mjs"
   },
   "devDependencies": {
     "axe-core": "^4.11.1",
