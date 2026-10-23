@@ -322,7 +322,8 @@
       });
 
       var action = form.getAttribute('action') || '';
-      var isPlaceholder = /YOUR_FORM_ID|ejemplo|example/i.test(action);
+      var isPlaceholder = !action.trim() || action.trim() === '#' ||
+        /YOUR_FORM_ID|ejemplo|example/i.test(action) || /^javascript:/i.test(action);
 
       /* Sin endpoint configurado el formulario no puede quedarse inerte: se
          compone el mensaje y se ofrece enviarlo por correo (mailto) o por
@@ -350,7 +351,7 @@
           say('Revisa los campos marcados: falta información por completar.', 'error');
           return;
         }
-        if (isPlaceholder) {
+        var offerManualSend = function () {
           var datos = componerMensaje();
           var mailto = 'mailto:' + CONTACTO.email +
             '?subject=' + encodeURIComponent(datos.asunto) +
@@ -367,33 +368,48 @@
           waLink.target = '_blank';
           waLink.rel = 'noopener noreferrer';
           waLink.textContent = 'Enviar por WhatsApp';
-          status.textContent = 'Recogemos tu mensaje para enviarlo por el canal que prefieras: ';
+          status.textContent = 'El mensaje no se ha enviado todavía. Selecciona un canal para enviarlo: ';
           status.hidden = false;
-          status.setAttribute('data-state', 'ok');
+          status.setAttribute('data-state', 'error');
           status.appendChild(enlace);
           status.appendChild(document.createTextNode(' · '));
           status.appendChild(waLink);
+        };
+
+        if (isPlaceholder) {
+          offerManualSend();
           return;
         }
+
         var button = form.querySelector('[type="submit"]');
+        if (button && button.disabled) return;
         var original = button ? button.textContent : '';
         if (button) { button.disabled = true; button.textContent = 'Enviando…'; }
         say('Enviando tu mensaje…', 'ok');
 
+        var controller = typeof AbortController === 'function' ? new AbortController() : null;
+        var timer = controller ? window.setTimeout(function () { controller.abort(); }, 12000) : null;
         fetch(action, {
           method: 'POST',
           body: new FormData(form),
-          headers: { Accept: 'application/json' }
+          headers: { Accept: 'application/json' },
+          signal: controller ? controller.signal : undefined
         })
           .then(function (r) {
-            if (!r.ok) throw new Error('HTTP ' + r.status);
+            // Un 200 con HTML puede ser el fallback de una SPA, no una entrega.
+            if (!r.ok || !(r.headers.get('content-type') || '').toLowerCase().includes('application/json')) {
+              throw new Error('Missing delivery confirmation');
+            }
+            return r.json();
+          })
+          .then(function (receipt) {
+            if (!receipt || receipt.ok !== true) throw new Error('No delivery receipt');
             form.reset();
-            say('Mensaje enviado. Gracias: te responderemos en menos de 24 horas.', 'ok');
+            say('Mensaje enviado y confirmado. Gracias por escribirnos.', 'ok');
           })
-          .catch(function () {
-            say('No se pudo enviar. Escríbenos por WhatsApp o email y lo resolvemos enseguida.', 'error');
-          })
+          .catch(function () { offerManualSend(); })
           .finally(function () {
+            if (timer !== null) window.clearTimeout(timer);
             if (button) { button.disabled = false; button.textContent = original; }
           });
       });
