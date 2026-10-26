@@ -21,7 +21,8 @@ JavaScript la web sigue siendo legible (el sistema de diseño contempla
 - **Capa de mejoras progresivas** — `assets/js/carquidec.js` (navegación
   accesible, i18n ES/EN/CA/FR/IT, formularios, vídeo diferido, radio del estudio).
 - **Imágenes** — `assets/img/`: AVIF + WebP + JPEG por anchura, con
-  `width`/`height` y miniatura difuminada (LQIP) descrita en `manifest.json`.
+  `width`/`height` y miniatura difuminada (LQIP) descrita en
+  `assets/img/manifest.json`.
 - **Medios del estudio** — `assets/media/video` y `assets/media/audio`.
 - **Librerías** — `assets/vendor/`: GSAP, ScrollTrigger y Lenis servidos en local.
 
@@ -131,7 +132,9 @@ finales de [`AUDITORIA.md`](AUDITORIA.md#6--lo-que-queda-pendiente-recomendacion
 
 ## Licencia
 
-Sin licencia declarada. Todo el contenido, textos, imágenes y marca pertenecen a
-CARQUIDEC. Las fuentes (Cormorant Garamond, Space Grotesk) y las librerías
-(GSAP, ScrollTrigger, Lenis) se distribuyen bajo sus propias licencias, incluidas
-en `assets/vendor` y en los paquetes de `@fontsource`.
+El repositorio se distribuye bajo licencia MIT (ver
+[`LICENSE`](LICENSE)). Con todo, el contenido del sitio —textos, imágenes y
+marca— pertenece a CARQUIDEC y no puede reutilizarse como material propio. Las
+fuentes (Cormorant Garamond, Space Grotesk) y las librerías (GSAP,
+ScrollTrigger, Lenis) se distribuyen bajo sus propias licencias, incluidas en
+`assets/vendor` y en los paquetes de `@fontsource`.
