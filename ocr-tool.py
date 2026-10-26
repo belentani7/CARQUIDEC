@@ -63,7 +63,6 @@ def main():
     parser.add_argument('input', help='Ruta a imagen o video')
     parser.add_argument('--lang', default='spa+eng', help='Idiomas (default: spa+eng)')
     parser.add_argument('--interval', type=float, default=1, help='Intervalo de muestreo en segundos (videos)')
-    parser.add_argument('--output', help='Guardar resultado en archivo')
     
     args = parser.parse_args()
     
@@ -93,11 +92,10 @@ def main():
         print(f"Imagenes: {', '.join(image_exts)}")
         print(f"Videos: {', '.join(video_exts)}")
         return
-    
-    if args.output:
-        with open(args.output, 'w', encoding='utf-8') as f:
-            f.write(result)
-        print(f"\nGuardado en: {args.output}")
+
+    # Sin escritura a archivo: redirige la salida si la necesitas (python ocr-tool.py img.png > resultado.txt)
+    print()
+    print(result)
 
 if __name__ == '__main__':
     main()
