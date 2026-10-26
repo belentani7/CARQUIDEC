@@ -3,7 +3,7 @@
 Sitio del estudio de arquitectura y decoración de interiores **CARQUIDEC**
 (Hernando Carrillo — Barcelona · Colombia · Italia).
 
-En línea: <https://carquidec.com>
+En línea: <https://carquidec.vercel.app>
 
 ---
 
