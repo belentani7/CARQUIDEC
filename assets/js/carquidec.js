@@ -321,9 +321,15 @@
         if (e.target && e.target.removeAttribute) e.target.removeAttribute('aria-invalid');
       });
 
-      var action = form.getAttribute('action') || '';
-      var isPlaceholder = !action.trim() || action.trim() === '#' ||
-        /YOUR_FORM_ID|ejemplo|example/i.test(action) || /^javascript:/i.test(action);
+      var action = (form.getAttribute('action') || '').trim();
+      var endpoint = null;
+      try { endpoint = new window.URL(action, window.location.href); } catch (e) { /* sin URL válida */ }
+      // Nunca enviar datos privados al documento HTML, esquemas no HTTP o HTTP inseguro.
+      var isPlaceholder = !action || action.charAt(0) === '#' ||
+        /YOUR_FORM_ID|ejemplo|example/i.test(action) ||
+        !endpoint || !/^https?:$/.test(endpoint.protocol) ||
+        (window.location.protocol === 'https:' && endpoint.protocol !== 'https:') ||
+        (endpoint.origin === window.location.origin && endpoint.pathname === window.location.pathname);
 
       /* Sin endpoint configurado el formulario no puede quedarse inerte: se
          compone el mensaje y se ofrece enviarlo por correo (mailto) o por
@@ -389,11 +395,13 @@
 
         var controller = typeof AbortController === 'function' ? new AbortController() : null;
         var timer = controller ? window.setTimeout(function () { controller.abort(); }, 12000) : null;
-        fetch(action, {
-          method: 'POST',
-          body: new FormData(form),
-          headers: { Accept: 'application/json' },
-          signal: controller ? controller.signal : undefined
+        Promise.resolve().then(function () {
+          return fetch(action, {
+            method: 'POST',
+            body: new FormData(form),
+            headers: { Accept: 'application/json' },
+            signal: controller ? controller.signal : undefined
+          });
         })
           .then(function (r) {
             // Un 200 con HTML puede ser el fallback de una SPA, no una entrega.

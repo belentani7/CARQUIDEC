@@ -29,14 +29,15 @@ async function submit(action, fetchStub) {
   const form = window.document.querySelector('form');
   assert.ok(form.checkValidity(), 'valid contact details required by this test');
   form.dispatchEvent(new window.Event('submit', { cancelable: true, bubbles: true }));
-  for (let i = 0; i < 8; i += 1) await Promise.resolve();
+  for (let i = 0; i < 12; i += 1) await Promise.resolve();
   const status = form.querySelector('.cq-form-status');
   const result = {
     state: status?.getAttribute('data-state'),
     text: status?.textContent || '',
     email: form.querySelector('[name="email"]').value,
     emailLink: status?.querySelector('a[href^="mailto:"]')?.getAttribute('href'),
-    whatsappLink: status?.querySelector('a[href^="https://wa.me/"]')?.getAttribute('href')
+    whatsappLink: status?.querySelector('a[href^="https://wa.me/"]')?.getAttribute('href'),
+    submitDisabled: form.querySelector('button[type="submit"]')?.disabled
   };
   window.close();
   return result;
@@ -87,4 +88,34 @@ test('unconfirmed JSON and network errors preserve the text and offer fallback',
     assert.equal(result.email, 'ana@example.org');
     assert.ok(result.emailLink);
   }
+});
+
+test('unconfigured, same-document and unsafe actions never POST personal data', async () => {
+  const actions = ['', '#', 'contacto.html', '?draft=1',
+    'mailto:carqdisantos@gmail.com', 'javascript:alert(1)',
+    'http://insecure.test/submit'];
+  for (const action of actions) {
+    let calls = 0;
+    const result = await submit(action, async () => {
+      calls += 1;
+      return response('application/json', true, { ok: true });
+    });
+    assert.equal(calls, 0, 'unexpected network request for ' + JSON.stringify(action));
+    assert.equal(result.state, 'error', action);
+    assert.match(result.text, /no se ha enviado todavía/i);
+    assert.equal(result.email, 'ana@example.org');
+    assert.ok(result.emailLink);
+    assert.equal(result.submitDisabled, false);
+  }
+});
+
+test('synchronous fetch errors preserve enquiry and restore the submit button', async () => {
+  const result = await submit('https://formspree.io/f/abc123', () => {
+    throw new TypeError('fetch unavailable');
+  });
+  assert.equal(result.state, 'error');
+  assert.match(result.text, /no se ha enviado todavía/i);
+  assert.equal(result.email, 'ana@example.org');
+  assert.ok(result.emailLink);
+  assert.equal(result.submitDisabled, false);
 });
