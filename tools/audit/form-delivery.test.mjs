@@ -9,9 +9,9 @@ const source = readFileSync(new URL('../../assets/js/carquidec.js', import.meta.
 const contactMarkup = (action) => [
   '<!doctype html><html lang="es"><body>',
   '<form action="' + action + '">',
-  '<input name="nombre" required value="Ana" />',
-  '<input name="email" type="email" required value="ana@example.org" />',
-  '<textarea name="mensaje" required>Mi consulta privada</textarea>',
+  '<input name="nombre" required />',
+  '<input name="email" type="email" required />',
+  '<textarea name="mensaje" required></textarea>',
   '<button type="submit">Enviar</button>',
   '</form></body></html>'
 ].join('');
@@ -27,6 +27,10 @@ async function submit(action, fetchStub) {
   window.eval(source);
   window.document.dispatchEvent(new window.Event('DOMContentLoaded', { bubbles: true }));
   const form = window.document.querySelector('form');
+  // Populate like a visitor, not as HTML defaults: form.reset() must clear values.
+  form.elements.namedItem('nombre').value = 'Ana';
+  form.elements.namedItem('email').value = 'ana@example.org';
+  form.elements.namedItem('mensaje').value = 'Mi consulta privada';
   assert.ok(form.checkValidity(), 'valid contact details required by this test');
   form.dispatchEvent(new window.Event('submit', { cancelable: true, bubbles: true }));
   for (let i = 0; i < 12; i += 1) await Promise.resolve();
