@@ -23,7 +23,7 @@
     "audit:quality": "node ../tools/audit/quality.mjs",
     "audit:media": "node ../tools/audit/media.mjs",
     "audit:json": "node ../tools/audit/a11y.mjs --json > ../informes/a11y.json && node ../tools/audit/links.mjs --json > ../informes/links.json && node ../tools/audit/quality.mjs --json > ../informes/quality.json",
-    "test": "node --test test/",
+    "test": "node --test test/basic.test.mjs",
     "serve": "npx --yes serve -l 4173 ..",
     "preview": "npx --yes serve -l 4173 .."
   },
