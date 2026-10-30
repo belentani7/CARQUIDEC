@@ -21,9 +21,10 @@
  */
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
 
-const ROOT = path.resolve(new URL('..', import.meta.url).pathname);
+const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const SRC = path.join(ROOT, 'logo-carquidec-transparent.png');
 const OUT = path.join(ROOT, 'assets', 'img');
 const HERO = path.join(ROOT, 'assets', 'img', 'estudio-hero-1280.jpg');

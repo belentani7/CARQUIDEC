@@ -17,9 +17,10 @@
  */
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { JSDOM, VirtualConsole, ResourceLoader } from 'jsdom';
 
-const ROOT = path.resolve(new URL('../..', import.meta.url).pathname);
+const ROOT = fileURLToPath(new URL('../..', import.meta.url));
 const STRICT = process.argv.includes('--strict');
 
 /** Carga recursos locales desde el disco (jsdom no lee file:// por defecto). */

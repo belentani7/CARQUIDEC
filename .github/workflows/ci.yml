@@ -3,6 +3,7 @@ on:
   push:
     branches: [main, master]
   pull_request:
+  workflow_dispatch:
 jobs:
   audit:
     name: Auditoria real del sitio
@@ -24,3 +25,15 @@ jobs:
       # enlaces, calidad documental y peso de medios.
       - name: Auditar (html, css, a11y, enlaces, calidad, medios)
         run: npm run audit
+      # Tests unitarios (node:test) de las utilidades del canal de construccion
+      # e integridad del sitemap. Verificados en local antes de activarlos.
+      - name: Tests unitarios
+        run: npm test
+      # Contrato del README: la construccion debe ser reproducible — reconstruir
+      # las paginas desde git HEAD no produce ninguna diferencia.
+      # (:(top) es necesario: este job corre con working-directory: tools y los
+      # pathspec de git son relativos al directorio actual.)
+      - name: Construccion sin diferencias
+        run: |
+          npm run build:pages
+          git diff --exit-code ':(top)*.html'

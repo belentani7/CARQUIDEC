@@ -33,8 +33,10 @@
 import { execSync } from 'node:child_process';
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { decode, esc, replaceTags } from './lib/html.mjs';
 
-const ROOT = path.resolve(new URL('..', import.meta.url).pathname);
+const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const CHECK = process.argv.includes('--check');
 /**
  * Referencia de git desde la que se lee el material original. Por defecto HEAD
@@ -134,8 +136,8 @@ const NOINDEX = [
    ------------------------------------------------------------------------ */
 const read = async (p) => fs.readFile(path.join(ROOT, p), 'utf8');
 const write = async (p, s) => fs.writeFile(path.join(ROOT, p), s);
-const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-const decode = (u) => decodeURIComponent(u).replace(/^\.\//, '').trim();
+/* esc, decode y replaceTags viven en scripts/lib/html.mjs (utilidades puras
+   compartidas y cubiertas por tools/test/basic.test.mjs). */
 
 function gitShow(file) {
   try {
@@ -220,39 +222,6 @@ function picture(entry, opts = {}) {
     : '';
 
   return `<picture>${sources}<source type="image/webp" srcset="${set('webp')}" sizes="${opts.sizes || entry.sizes}"><img ${attrs}></picture>`;
-}
-
-/* ---------------------------------------------------------------------------
-   Escáner de etiquetas consciente de comillas
-   Nuestro propio favicon es un SVG en data-URI que contiene ">": las expresiones
-   regulares ingenuas rompen el documento. Este ayudante recorre la etiqueta
-   respetando los valores entrecomillados.
-   ------------------------------------------------------------------------ */
-function replaceTags(html, name, test) {
-  const open = new RegExp('<' + name + '\\b', 'gi');
-  let out = '';
-  let cursor = 0;
-  let m;
-  while ((m = open.exec(html))) {
-    const start = m.index;
-    if (start < cursor) continue;
-    let i = start + m[0].length;
-    let quote = null;
-    while (i < html.length) {
-      const ch = html[i];
-      if (quote) { if (ch === quote) quote = null; }
-      else if (ch === '"' || ch === "'") quote = ch;
-      else if (ch === '>') break;
-      i++;
-    }
-    const tag = html.slice(start, i + 1);
-    out += html.slice(cursor, start);
-    const replacement = test(tag);
-    out += replacement === null ? tag : replacement;
-    cursor = i + 1;
-  }
-  out += html.slice(cursor);
-  return out;
 }
 
 /* ---------------------------------------------------------------------------

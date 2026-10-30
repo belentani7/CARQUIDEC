@@ -26,8 +26,9 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import { fileURLToPath } from 'node:url';
 
-const ROOT = path.resolve(new URL('../..', import.meta.url).pathname);
+const ROOT = fileURLToPath(new URL('../..', import.meta.url));
 const JSON_OUT = process.argv.includes('--json');
 
 const PAGES = [
