@@ -1,0 +1,990 @@
+{
+ "id": "10ce596a-408a-48b9-b79d-4d311767dfd5",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Intercambio Facial Hiperrealista",
+ "chat": {
+  "history": {
+   "messages": {
+    "fca23ecd-4d4b-4f59-af51-297dfd376945": {
+     "id": "fca23ecd-4d4b-4f59-af51-297dfd376945",
+     "role": "user",
+     "content": "Actúa como un editor de fotos profesional experto en intercambio facial hiperrealista.\r\n\r\nRecibirás 3 imágenes (adjúntalas en este orden):\r\n1. Imagen A: Foto casual de madre e hija juntas (debe tener 2 rostros).\r\n2. Imagen B: Foto de la abuela sola (debe tener 1 rostro).\r\n3. Imagen C: Foto objetivo donde aparecen las 3 juntas (madre, hija y abuela).\r\n\r\nINSTRUCCIONES PASO A PASO:\r\n\r\n1. Extrae de la Imagen A el rostro de la MADRE y el rostro de la HIJA.\r\n2. Extrae de la Imagen B el rostro de la ABUELA.\r\n3. Identifica en la Imagen C los 3 cuerpos correspondientes (madre, hija y abuela).\r\n4. Coloca el rostro de la madre (de Imagen A) sobre el cuerpo de la madre en Imagen C.\r\n5. Coloca el rostro de la hija (de Imagen A) sobre el cuerpo de la hija en Imagen C.\r\n6. Coloca el rostro de la abuela (de Imagen B) sobre el cuerpo de la abuela en Imagen C.\r\n\r\n🔴 **RESTRICCIÓN OBLIGATORIA Y ABSOLUTA (NO NEGOCIABLE)**:\r\n- **PROHIBIDO TERMINANTEMENTE** hacer cualquier tipo de \"blender\", fusión, morphing, promedio de rasgos o mezcla de facciones.\r\n- No quiero que los rostros se superpongan de forma translúcida ni que se distorsionen al mezclarse con la estructura ósea del destino.\r\n- El reemplazo debe ser un **SWAP DURO (hard swap)**: el rostro extraído debe sustituir al rostro original de la imagen C al 100%, manteniendo la integridad total de los rasgos (forma de ojos, nariz, boca, proporciones) de cada persona de las fotos A y B.\r\n\r\nCONSIDERACIONES TÉCNICAS PARA EL REALISMO (sin romper la regla anterior):\r\n- Ajusta únicamente la iluminación, el tono de piel (color grading) y la perspectiva/ángulo del rostro para que coincidan con la foto C, pero SIN deformar los rasgos identitarios.\r\n- Difumina suavemente los bordes del cuello, orejas y línea del cabello con una máscara de alta definición para que el encaje se vea natural, pero sin invadir ni fundir los rasgos internos del rostro.\r\n- La imagen final debe verse como una fotografía real tomada en el mismo estudio, donde se reconozca al instante a la madre, la hija y la abuela por sus rostros originales, sin rastros de edición digital.",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2i",
+     "sub_chat_type": "t2i",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2i",
+       "size": "auto",
+       "model": "qwen-image-3.0-pro"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "384629e8-b6c9-4206-81d7-c4a8cc38f584"
+     ],
+     "files": [
+      {
+       "id": "0ed5dbaf-7d97-4108-af18-bf5916f3eccb",
+       "name": "PhotoGrid_Site_1787610570306.jpg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 309458,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/0ed5dbaf-7d97-4108-af18-bf5916f3eccb_PhotoGrid_Site_1787610570306.jpg?key=[SECRETO_REDACTADO]",
+       "file": {
+        "created_at": 1787649200646,
+        "data": {},
+        "filename": "PhotoGrid_Site_1787610570306.jpg",
+        "hash": null,
+        "id": "0ed5dbaf-7d97-4108-af18-bf5916f3eccb",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "PhotoGrid_Site_1787610570306.jpg",
+         "size": 309458,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1787649200646,
+        "lastModified": 1787647113550,
+        "name": "PhotoGrid_Site_1787610570306.jpg",
+        "webkitRelativePath": "",
+        "size": 309458,
+        "type": "image/jpeg"
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "eb22bb15-6922-4289-a033-34b3457047cb",
+       "showType": "image",
+       "uploadTaskId": "90d161e7-4682-4749-9a13-1db5a09f44f0"
+      },
+      {
+       "id": "020dd279-266c-4035-88dd-d82d0a69c2eb",
+       "name": "FB_IMG_1787610112765 (1).jpg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 291151,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/020dd279-266c-4035-88dd-d82d0a69c2eb_FB_IMG_1787610112765 (1).jpg?key=[SECRETO_REDACTADO]",
+       "file": {
+        "created_at": 1787649200656,
+        "data": {},
+        "filename": "FB_IMG_1787610112765 (1).jpg",
+        "hash": null,
+        "id": "020dd279-266c-4035-88dd-d82d0a69c2eb",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "FB_IMG_1787610112765 (1).jpg",
+         "size": 291151,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1787649200656,
+        "lastModified": 1787647145463,
+        "name": "FB_IMG_1787610112765 (1).jpg",
+        "webkitRelativePath": "",
+        "size": 291151,
+        "type": "image/jpeg"
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "b787e3cd-c2dd-43e1-8dc8-a5733c84f2b9",
+       "showType": "image",
+       "uploadTaskId": "68a371d3-9bca-4aad-bcc1-4e1796d8ac06"
+      },
+      {
+       "id": "887accc5-696d-4fd2-99f7-bdf4915c5645",
+       "name": "PhotoGrid_Site_1787610616237.jpg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 339632,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/887accc5-696d-4fd2-99f7-bdf4915c5645_PhotoGrid_Site_1787610616237.jpg?key=[SECRETO_REDACTADO]",
+       "file": {
+        "created_at": 1787649200685,
+        "data": {},
+        "filename": "PhotoGrid_Site_1787610616237.jpg",
+        "hash": null,
+        "id": "887accc5-696d-4fd2-99f7-bdf4915c5645",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "PhotoGrid_Site_1787610616237.jpg",
+         "size": 339632,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1787649200685,
+        "lastModified": 1787647099301,
+        "name": "PhotoGrid_Site_1787610616237.jpg",
+        "webkitRelativePath": "",
+        "size": 339632,
+        "type": "image/jpeg"
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "66515b10-f96c-4e1d-8162-cf390d5d4e8f",
+       "showType": "image",
+       "uploadTaskId": "62df6749-19fa-47f4-b9d2-2fbe4df32354"
+      },
+      {
+       "id": "ebef41f3-c394-4877-93d5-777ba1ab074d",
+       "name": "ChatGPT Image 25 ago 2026, 10_37_46.png",
+       "file_type": "image/png",
+       "type": "image",
+       "file_class": "vision",
+       "size": 2438480,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/ebef41f3-c394-4877-93d5-777ba1ab074d_ChatGPT Image 25 ago 2026, 10_37_46.png?key=[SECRETO_REDACTADO]",
+       "file": {
+        "created_at": 1787649202378,
+        "data": {},
+        "filename": "ChatGPT Image 25 ago 2026, 10_37_46.png",
+        "hash": null,
+        "id": "ebef41f3-c394-4877-93d5-777ba1ab074d",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "ChatGPT Image 25 ago 2026, 10_37_46.png",
+         "size": 2438480,
+         "content_type": "image/png"
+        },
+        "update_at": 1787649202378,
+        "lastModified": 1787647067080,
+        "name": "ChatGPT Image 25 ago 2026, 10_37_46.png",
+        "webkitRelativePath": "",
+        "size": 2438480,
+        "type": "image/png"
+       },
+       "collection_name": "",
+       "progress": 100,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "c40967e5-cc00-4c3f-9e71-315fab5de30d",
+       "showType": "image",
+       "uploadTaskId": "22530140-f5c1-478b-9723-af57d17309f3"
+      }
+     ],
+     "timestamp": 1787649236
+    },
+    "384629e8-b6c9-4206-81d7-c4a8cc38f584": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2i",
+     "sub_chat_type": "t2i",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "384629e8-b6c9-4206-81d7-c4a8cc38f584",
+     "parentId": "fca23ecd-4d4b-4f59-af51-297dfd376945",
+     "childrenIds": [
+      "63dc96b4-a433-46ad-af83-69a8310964e6"
+     ],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/384629e8-b6c9-4206-81d7-c4a8cc38f584/178764950455c5.png?key=[SECRETO_REDACTADO]",
+       "phase": "image_gen",
+       "status": "finished",
+       "extra": {
+        "output_image_hw": [
+         [
+          1536,
+          2720
+         ]
+        ]
+       },
+       "role": "assistant",
+       "response_id": "384629e8-b6c9-4206-81d7-c4a8cc38f584",
+       "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "characters": 0,
+        "output_image_count": 1,
+        "output_image_type": "qima_output_2k",
+        "output_width": 2720,
+        "input_image_count": 3,
+        "input_image_type": "qima_input_2k",
+        "output_height": 1536
+       },
+       "timestamp": 1787649505
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2i",
+       "size": "auto",
+       "model": "qwen-image-3.0-pro"
+      },
+      "endTime": 1787649505.7483547
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1787649236
+    },
+    "63dc96b4-a433-46ad-af83-69a8310964e6": {
+     "id": "63dc96b4-a433-46ad-af83-69a8310964e6",
+     "role": "user",
+     "content": "es para crear la foto de ellas en en salon",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2i",
+     "sub_chat_type": "t2i",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2i",
+       "size": "16:9",
+       "model": "qwen-image-3.0-pro"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "parentId": "384629e8-b6c9-4206-81d7-c4a8cc38f584",
+     "turn_id": null,
+     "childrenIds": [
+      "d3e15c18-301e-49ed-95a9-1f779652dbc7"
+     ],
+     "files": [
+      {
+       "id": null,
+       "name": "example.png",
+       "file_type": "image/png",
+       "type": "image",
+       "file_class": "vision",
+       "size": null,
+       "url": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/384629e8-b6c9-4206-81d7-c4a8cc38f584/178764950455c5.png?key=[SECRETO_REDACTADO]",
+       "showType": "image",
+       "status": "uploaded",
+       "isQuote": true
+      },
+      {
+       "id": "097eddb3-d88d-461f-b1f1-a6050649340c",
+       "name": "FB_IMG_1787610112765 (1).jpg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 291151,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/097eddb3-d88d-461f-b1f1-a6050649340c_FB_IMG_1787610112765 (1).jpg?key=[SECRETO_REDACTADO]",
+       "file": {
+        "created_at": 1787652368907,
+        "data": {},
+        "filename": "FB_IMG_1787610112765 (1).jpg",
+        "hash": null,
+        "id": "097eddb3-d88d-461f-b1f1-a6050649340c",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "FB_IMG_1787610112765 (1).jpg",
+         "size": 291151,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1787652368907,
+        "lastModified": 1787647145463,
+        "name": "FB_IMG_1787610112765 (1).jpg",
+        "webkitRelativePath": "",
+        "size": 291151,
+        "type": "image/jpeg"
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "efc11025-fb3d-4911-910c-0427baf101a3",
+       "showType": "image",
+       "uploadTaskId": "7b9c283d-e4e1-4759-a6d7-cc6aef4c1650"
+      },
+      {
+       "id": "e36008f8-fb93-4e80-9726-45e07ebff8c5",
+       "name": "PhotoGrid_Site_1787610570306 (1).jpg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 309458,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/e36008f8-fb93-4e80-9726-45e07ebff8c5_PhotoGrid_Site_1787610570306 (1).jpg?key=[SECRETO_REDACTADO]",
+       "file": {
+        "created_at": 1787652368919,
+        "data": {},
+        "filename": "PhotoGrid_Site_1787610570306 (1).jpg",
+        "hash": null,
+        "id": "e36008f8-fb93-4e80-9726-45e07ebff8c5",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "PhotoGrid_Site_1787610570306 (1).jpg",
+         "size": 309458,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1787652368919,
+        "lastModified": 1787647139003,
+        "name": "PhotoGrid_Site_1787610570306 (1).jpg",
+        "webkitRelativePath": "",
+        "size": 309458,
+        "type": "image/jpeg"
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "ca8f172f-8c3d-4236-ab57-5ac933231753",
+       "showType": "image",
+       "uploadTaskId": "84cdc675-974e-4ad4-a579-9adca2b50681"
+      },
+      {
+       "id": "4d2e23d3-b83f-4464-8f2c-3ea9670fa073",
+       "name": "ffe1120e-b924-46c5-85f6-ff01ff7d9e39.png",
+       "file_type": "image/png",
+       "type": "image",
+       "file_class": "vision",
+       "size": 2066386,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/4d2e23d3-b83f-4464-8f2c-3ea9670fa073_ffe1120e-b924-46c5-85f6-ff01ff7d9e39.png?key=[SECRETO_REDACTADO]",
+       "file": {
+        "created_at": 1787652369114,
+        "data": {},
+        "filename": "ffe1120e-b924-46c5-85f6-ff01ff7d9e39.png",
+        "hash": null,
+        "id": "4d2e23d3-b83f-4464-8f2c-3ea9670fa073",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "ffe1120e-b924-46c5-85f6-ff01ff7d9e39.png",
+         "size": 2066386,
+         "content_type": "image/png"
+        },
+        "update_at": 1787652369114,
+        "lastModified": 1787647123479,
+        "name": "ffe1120e-b924-46c5-85f6-ff01ff7d9e39.png",
+        "webkitRelativePath": "",
+        "size": 2066386,
+        "type": "image/png"
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "0c837eef-526e-4d21-abac-3f2da9190f21",
+       "showType": "image",
+       "uploadTaskId": "5c3fa7e1-b3f9-4ac8-bd5c-2f36bfaca63e"
+      }
+     ],
+     "timestamp": 1787652377
+    },
+    "d3e15c18-301e-49ed-95a9-1f779652dbc7": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2i",
+     "sub_chat_type": "t2i",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "d3e15c18-301e-49ed-95a9-1f779652dbc7",
+     "parentId": "63dc96b4-a433-46ad-af83-69a8310964e6",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/d3e15c18-301e-49ed-95a9-1f779652dbc7/1787652609f72d.png?key=[SECRETO_REDACTADO]",
+       "phase": "image_gen",
+       "status": "finished",
+       "extra": {
+        "output_image_hw": [
+         [
+          1664,
+          2496
+         ]
+        ]
+       },
+       "role": "assistant",
+       "response_id": "d3e15c18-301e-49ed-95a9-1f779652dbc7",
+       "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "characters": 0,
+        "output_image_count": 1,
+        "output_image_type": "qima_output_2k",
+        "output_width": 2496,
+        "input_image_count": 3,
+        "input_image_type": "qima_input_2k",
+        "output_height": 1664
+       },
+       "timestamp": 1787652610
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2i",
+       "size": "16:9",
+       "model": "qwen-image-3.0-pro"
+      },
+      "endTime": 1787652610.2799644
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1787652377
+    }
+   },
+   "currentId": "d3e15c18-301e-49ed-95a9-1f779652dbc7",
+   "currentResponseIds": [
+    "d3e15c18-301e-49ed-95a9-1f779652dbc7"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.7-plus"
+  ],
+  "messages": [
+   {
+    "id": "fca23ecd-4d4b-4f59-af51-297dfd376945",
+    "role": "user",
+    "content": "Actúa como un editor de fotos profesional experto en intercambio facial hiperrealista.\r\n\r\nRecibirás 3 imágenes (adjúntalas en este orden):\r\n1. Imagen A: Foto casual de madre e hija juntas (debe tener 2 rostros).\r\n2. Imagen B: Foto de la abuela sola (debe tener 1 rostro).\r\n3. Imagen C: Foto objetivo donde aparecen las 3 juntas (madre, hija y abuela).\r\n\r\nINSTRUCCIONES PASO A PASO:\r\n\r\n1. Extrae de la Imagen A el rostro de la MADRE y el rostro de la HIJA.\r\n2. Extrae de la Imagen B el rostro de la ABUELA.\r\n3. Identifica en la Imagen C los 3 cuerpos correspondientes (madre, hija y abuela).\r\n4. Coloca el rostro de la madre (de Imagen A) sobre el cuerpo de la madre en Imagen C.\r\n5. Coloca el rostro de la hija (de Imagen A) sobre el cuerpo de la hija en Imagen C.\r\n6. Coloca el rostro de la abuela (de Imagen B) sobre el cuerpo de la abuela en Imagen C.\r\n\r\n🔴 **RESTRICCIÓN OBLIGATORIA Y ABSOLUTA (NO NEGOCIABLE)**:\r\n- **PROHIBIDO TERMINANTEMENTE** hacer cualquier tipo de \"blender\", fusión, morphing, promedio de rasgos o mezcla de facciones.\r\n- No quiero que los rostros se superpongan de forma translúcida ni que se distorsionen al mezclarse con la estructura ósea del destino.\r\n- El reemplazo debe ser un **SWAP DURO (hard swap)**: el rostro extraído debe sustituir al rostro original de la imagen C al 100%, manteniendo la integridad total de los rasgos (forma de ojos, nariz, boca, proporciones) de cada persona de las fotos A y B.\r\n\r\nCONSIDERACIONES TÉCNICAS PARA EL REALISMO (sin romper la regla anterior):\r\n- Ajusta únicamente la iluminación, el tono de piel (color grading) y la perspectiva/ángulo del rostro para que coincidan con la foto C, pero SIN deformar los rasgos identitarios.\r\n- Difumina suavemente los bordes del cuello, orejas y línea del cabello con una máscara de alta definición para que el encaje se vea natural, pero sin invadir ni fundir los rasgos internos del rostro.\r\n- La imagen final debe verse como una fotografía real tomada en el mismo estudio, donde se reconozca al instante a la madre, la hija y la abuela por sus rostros originales, sin rastros de edición digital.",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2i",
+    "sub_chat_type": "t2i",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2i",
+      "size": "auto",
+      "model": "qwen-image-3.0-pro"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "384629e8-b6c9-4206-81d7-c4a8cc38f584"
+    ],
+    "files": [
+     {
+      "id": "0ed5dbaf-7d97-4108-af18-bf5916f3eccb",
+      "name": "PhotoGrid_Site_1787610570306.jpg",
+      "file_type": "image/jpeg",
+      "type": "image",
+      "file_class": "vision",
+      "size": 309458,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/0ed5dbaf-7d97-4108-af18-bf5916f3eccb_PhotoGrid_Site_1787610570306.jpg?key=[SECRETO_REDACTADO]",
+      "file": {
+       "created_at": 1787649200646,
+       "data": {},
+       "filename": "PhotoGrid_Site_1787610570306.jpg",
+       "hash": null,
+       "id": "0ed5dbaf-7d97-4108-af18-bf5916f3eccb",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "PhotoGrid_Site_1787610570306.jpg",
+        "size": 309458,
+        "content_type": "image/jpeg"
+       },
+       "update_at": 1787649200646,
+       "lastModified": 1787647113550,
+       "name": "PhotoGrid_Site_1787610570306.jpg",
+       "webkitRelativePath": "",
+       "size": 309458,
+       "type": "image/jpeg"
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "eb22bb15-6922-4289-a033-34b3457047cb",
+      "showType": "image",
+      "uploadTaskId": "90d161e7-4682-4749-9a13-1db5a09f44f0"
+     },
+     {
+      "id": "020dd279-266c-4035-88dd-d82d0a69c2eb",
+      "name": "FB_IMG_1787610112765 (1).jpg",
+      "file_type": "image/jpeg",
+      "type": "image",
+      "file_class": "vision",
+      "size": 291151,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/020dd279-266c-4035-88dd-d82d0a69c2eb_FB_IMG_1787610112765 (1).jpg?key=[SECRETO_REDACTADO]",
+      "file": {
+       "created_at": 1787649200656,
+       "data": {},
+       "filename": "FB_IMG_1787610112765 (1).jpg",
+       "hash": null,
+       "id": "020dd279-266c-4035-88dd-d82d0a69c2eb",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "FB_IMG_1787610112765 (1).jpg",
+        "size": 291151,
+        "content_type": "image/jpeg"
+       },
+       "update_at": 1787649200656,
+       "lastModified": 1787647145463,
+       "name": "FB_IMG_1787610112765 (1).jpg",
+       "webkitRelativePath": "",
+       "size": 291151,
+       "type": "image/jpeg"
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "b787e3cd-c2dd-43e1-8dc8-a5733c84f2b9",
+      "showType": "image",
+      "uploadTaskId": "68a371d3-9bca-4aad-bcc1-4e1796d8ac06"
+     },
+     {
+      "id": "887accc5-696d-4fd2-99f7-bdf4915c5645",
+      "name": "PhotoGrid_Site_1787610616237.jpg",
+      "file_type": "image/jpeg",
+      "type": "image",
+      "file_class": "vision",
+      "size": 339632,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/887accc5-696d-4fd2-99f7-bdf4915c5645_PhotoGrid_Site_1787610616237.jpg?key=[SECRETO_REDACTADO]",
+      "file": {
+       "created_at": 1787649200685,
+       "data": {},
+       "filename": "PhotoGrid_Site_1787610616237.jpg",
+       "hash": null,
+       "id": "887accc5-696d-4fd2-99f7-bdf4915c5645",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "PhotoGrid_Site_1787610616237.jpg",
+        "size": 339632,
+        "content_type": "image/jpeg"
+       },
+       "update_at": 1787649200685,
+       "lastModified": 1787647099301,
+       "name": "PhotoGrid_Site_1787610616237.jpg",
+       "webkitRelativePath": "",
+       "size": 339632,
+       "type": "image/jpeg"
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "66515b10-f96c-4e1d-8162-cf390d5d4e8f",
+      "showType": "image",
+      "uploadTaskId": "62df6749-19fa-47f4-b9d2-2fbe4df32354"
+     },
+     {
+      "id": "ebef41f3-c394-4877-93d5-777ba1ab074d",
+      "name": "ChatGPT Image 25 ago 2026, 10_37_46.png",
+      "file_type": "image/png",
+      "type": "image",
+      "file_class": "vision",
+      "size": 2438480,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/ebef41f3-c394-4877-93d5-777ba1ab074d_ChatGPT Image 25 ago 2026, 10_37_46.png?key=[SECRETO_REDACTADO]",
+      "file": {
+       "created_at": 1787649202378,
+       "data": {},
+       "filename": "ChatGPT Image 25 ago 2026, 10_37_46.png",
+       "hash": null,
+       "id": "ebef41f3-c394-4877-93d5-777ba1ab074d",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "ChatGPT Image 25 ago 2026, 10_37_46.png",
+        "size": 2438480,
+        "content_type": "image/png"
+       },
+       "update_at": 1787649202378,
+       "lastModified": 1787647067080,
+       "name": "ChatGPT Image 25 ago 2026, 10_37_46.png",
+       "webkitRelativePath": "",
+       "size": 2438480,
+       "type": "image/png"
+      },
+      "collection_name": "",
+      "progress": 100,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "c40967e5-cc00-4c3f-9e71-315fab5de30d",
+      "showType": "image",
+      "uploadTaskId": "22530140-f5c1-478b-9723-af57d17309f3"
+     }
+    ],
+    "timestamp": 1787649236
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2i",
+    "sub_chat_type": "t2i",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "384629e8-b6c9-4206-81d7-c4a8cc38f584",
+    "parentId": "fca23ecd-4d4b-4f59-af51-297dfd376945",
+    "childrenIds": [
+     "63dc96b4-a433-46ad-af83-69a8310964e6"
+    ],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/384629e8-b6c9-4206-81d7-c4a8cc38f584/178764950455c5.png?key=[SECRETO_REDACTADO]",
+      "phase": "image_gen",
+      "status": "finished",
+      "extra": {
+       "output_image_hw": [
+        [
+         1536,
+         2720
+        ]
+       ]
+      },
+      "role": "assistant",
+      "response_id": "384629e8-b6c9-4206-81d7-c4a8cc38f584",
+      "usage": {
+       "input_tokens": 0,
+       "output_tokens": 0,
+       "characters": 0,
+       "output_image_count": 1,
+       "output_image_type": "qima_output_2k",
+       "output_width": 2720,
+       "input_image_count": 3,
+       "input_image_type": "qima_input_2k",
+       "output_height": 1536
+      },
+      "timestamp": 1787649505
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2i",
+      "size": "auto",
+      "model": "qwen-image-3.0-pro"
+     },
+     "endTime": 1787649505.7483547
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1787649236
+   },
+   {
+    "id": "63dc96b4-a433-46ad-af83-69a8310964e6",
+    "role": "user",
+    "content": "es para crear la foto de ellas en en salon",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2i",
+    "sub_chat_type": "t2i",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2i",
+      "size": "16:9",
+      "model": "qwen-image-3.0-pro"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "parentId": "384629e8-b6c9-4206-81d7-c4a8cc38f584",
+    "turn_id": null,
+    "childrenIds": [
+     "d3e15c18-301e-49ed-95a9-1f779652dbc7"
+    ],
+    "files": [
+     {
+      "id": null,
+      "name": "example.png",
+      "file_type": "image/png",
+      "type": "image",
+      "file_class": "vision",
+      "size": null,
+      "url": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/384629e8-b6c9-4206-81d7-c4a8cc38f584/178764950455c5.png?key=[SECRETO_REDACTADO]",
+      "showType": "image",
+      "status": "uploaded",
+      "isQuote": true
+     },
+     {
+      "id": "097eddb3-d88d-461f-b1f1-a6050649340c",
+      "name": "FB_IMG_1787610112765 (1).jpg",
+      "file_type": "image/jpeg",
+      "type": "image",
+      "file_class": "vision",
+      "size": 291151,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/097eddb3-d88d-461f-b1f1-a6050649340c_FB_IMG_1787610112765 (1).jpg?key=[SECRETO_REDACTADO]",
+      "file": {
+       "created_at": 1787652368907,
+       "data": {},
+       "filename": "FB_IMG_1787610112765 (1).jpg",
+       "hash": null,
+       "id": "097eddb3-d88d-461f-b1f1-a6050649340c",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "FB_IMG_1787610112765 (1).jpg",
+        "size": 291151,
+        "content_type": "image/jpeg"
+       },
+       "update_at": 1787652368907,
+       "lastModified": 1787647145463,
+       "name": "FB_IMG_1787610112765 (1).jpg",
+       "webkitRelativePath": "",
+       "size": 291151,
+       "type": "image/jpeg"
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "efc11025-fb3d-4911-910c-0427baf101a3",
+      "showType": "image",
+      "uploadTaskId": "7b9c283d-e4e1-4759-a6d7-cc6aef4c1650"
+     },
+     {
+      "id": "e36008f8-fb93-4e80-9726-45e07ebff8c5",
+      "name": "PhotoGrid_Site_1787610570306 (1).jpg",
+      "file_type": "image/jpeg",
+      "type": "image",
+      "file_class": "vision",
+      "size": 309458,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/e36008f8-fb93-4e80-9726-45e07ebff8c5_PhotoGrid_Site_1787610570306 (1).jpg?key=[SECRETO_REDACTADO]",
+      "file": {
+       "created_at": 1787652368919,
+       "data": {},
+       "filename": "PhotoGrid_Site_1787610570306 (1).jpg",
+       "hash": null,
+       "id": "e36008f8-fb93-4e80-9726-45e07ebff8c5",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "PhotoGrid_Site_1787610570306 (1).jpg",
+        "size": 309458,
+        "content_type": "image/jpeg"
+       },
+       "update_at": 1787652368919,
+       "lastModified": 1787647139003,
+       "name": "PhotoGrid_Site_1787610570306 (1).jpg",
+       "webkitRelativePath": "",
+       "size": 309458,
+       "type": "image/jpeg"
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "ca8f172f-8c3d-4236-ab57-5ac933231753",
+      "showType": "image",
+      "uploadTaskId": "84cdc675-974e-4ad4-a579-9adca2b50681"
+     },
+     {
+      "id": "4d2e23d3-b83f-4464-8f2c-3ea9670fa073",
+      "name": "ffe1120e-b924-46c5-85f6-ff01ff7d9e39.png",
+      "file_type": "image/png",
+      "type": "image",
+      "file_class": "vision",
+      "size": 2066386,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/4d2e23d3-b83f-4464-8f2c-3ea9670fa073_ffe1120e-b924-46c5-85f6-ff01ff7d9e39.png?key=[SECRETO_REDACTADO]",
+      "file": {
+       "created_at": 1787652369114,
+       "data": {},
+       "filename": "ffe1120e-b924-46c5-85f6-ff01ff7d9e39.png",
+       "hash": null,
+       "id": "4d2e23d3-b83f-4464-8f2c-3ea9670fa073",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "ffe1120e-b924-46c5-85f6-ff01ff7d9e39.png",
+        "size": 2066386,
+        "content_type": "image/png"
+       },
+       "update_at": 1787652369114,
+       "lastModified": 1787647123479,
+       "name": "ffe1120e-b924-46c5-85f6-ff01ff7d9e39.png",
+       "webkitRelativePath": "",
+       "size": 2066386,
+       "type": "image/png"
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "0c837eef-526e-4d21-abac-3f2da9190f21",
+      "showType": "image",
+      "uploadTaskId": "5c3fa7e1-b3f9-4ac8-bd5c-2f36bfaca63e"
+     }
+    ],
+    "timestamp": 1787652377
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2i",
+    "sub_chat_type": "t2i",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "d3e15c18-301e-49ed-95a9-1f779652dbc7",
+    "parentId": "63dc96b4-a433-46ad-af83-69a8310964e6",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/d3e15c18-301e-49ed-95a9-1f779652dbc7/1787652609f72d.png?key=[SECRETO_REDACTADO]",
+      "phase": "image_gen",
+      "status": "finished",
+      "extra": {
+       "output_image_hw": [
+        [
+         1664,
+         2496
+        ]
+       ]
+      },
+      "role": "assistant",
+      "response_id": "d3e15c18-301e-49ed-95a9-1f779652dbc7",
+      "usage": {
+       "input_tokens": 0,
+       "output_tokens": 0,
+       "characters": 0,
+       "output_image_count": 1,
+       "output_image_type": "qima_output_2k",
+       "output_width": 2496,
+       "input_image_count": 3,
+       "input_image_type": "qima_input_2k",
+       "output_height": 1664
+      },
+      "timestamp": 1787652610
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2i",
+      "size": "16:9",
+      "model": "qwen-image-3.0-pro"
+     },
+     "endTime": 1787652610.2799644
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1787652377
+   }
+  ]
+ },
+ "updated_at": 1787652377,
+ "created_at": 1787649237,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1787649235533
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "d3e15c18-301e-49ed-95a9-1f779652dbc7"
+ ],
+ "currentId": "d3e15c18-301e-49ed-95a9-1f779652dbc7",
+ "chat_type": "t2i",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

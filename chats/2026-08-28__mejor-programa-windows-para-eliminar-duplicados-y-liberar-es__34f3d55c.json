@@ -1,0 +1,338 @@
+{
+ "id": "34f3d55c-85e0-40f9-a907-a690aa5ed809",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Mejor Programa Windows para Eliminar Duplicados y Liberar Espacio",
+ "chat": {
+  "history": {
+   "messages": {
+    "50a71355-a103-445b-955d-529886a50ead": {
+     "id": "50a71355-a103-445b-955d-529886a50ead",
+     "role": "user",
+     "content": "cuao esel mejor programa winfdows eliminar duplicados, liberar espacio. github",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "541f8694-f016-43e9-aa83-1a8569a5064f"
+     ],
+     "files": [],
+     "timestamp": 1787949125
+    },
+    "541f8694-f016-43e9-aa83-1a8569a5064f": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "541f8694-f016-43e9-aa83-1a8569a5064f",
+     "parentId": "50a71355-a103-445b-955d-529886a50ead",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Seeking the optimal open-source solution for eliminating duplicate files and reclaiming disk space on Windows.",
+          "Buscar soluciones abiertas y confiables para eliminar archivos duplicados en Windows",
+          "Evaluating tools for cross-platform file management and duplicate detection",
+          "Assessing tools for identifying and managing redundant data",
+          "Assessing the tools for file management and system cleanup",
+          "Identificar la herramienta más adecuada para la gestión de archivos y limpieza de espacio en disco.",
+          "Analyzing the most trusted tools for file management on Windows through community consensus and technical reliability",
+          "Prioritize precision and depth in addressing the query about space management tools."
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am evaluating GitHub-hosted tools that align with the goal of efficiently identifying and removing redundant data.  \nMy focus is on programs that are actively maintained, user-friendly, and designed specifically for file deduplication.  \nI aim to recommend a trustworthy, transparent, and effective tool that meets these criteria without relying on proprietary software.",
+          "Estoy evaluando herramientas de código abierto disponibles en GitHub que ofrezcan una funcionalidad robusta y verificada para identificar y eliminar duplicados, con el fin de liberar espacio en disco.  \nMe centro en proyectos bien establecidos y ampliamente utilizados, como dupeGuru, por su reputación, mantenimiento activo y soporte comunitario.  \nLa selección se basa en criterios de eficacia, seguridad y compatibilidad con el entorno Windows.",
+          "I'm assessing the landscape of available utilities, focusing on those that balance performance, openness, and ongoing development.  \nAmong them, a Rust-based solution stands out for its speed and active maintenance, while others lack transparency or have questionable reputations.  \nI prioritize options that align with open-source principles and sustained community support.",
+          "I am evaluating various utilities that help reclaim storage space by detecting duplicates, analyzing file structures, and cleaning unnecessary data. Among them, one stands out as particularly comprehensive, offering multiple features including duplicate detection, identification of large files, and removal of empty folders. It aligns well with the need for a powerful, open-source solution that delivers both precision and versatility.",
+          "I'm evaluating a suite of open-source utilities designed to optimize digital storage and enhance system performance. Among them, one stands out for its speed and comprehensive capabilities, leveraging modern programming principles to deliver efficient duplicate detection and file analysis across multiple categories. Another offers intuitive design tailored specifically for media files, while a third focuses on secure data erasure and temporary file removal, providing a trustworthy alternative to commercial solutions.",
+          "Evalúo cuidadosamente las opciones disponibles, centrándome en rendimiento, funcionalidad y confiabilidad basada en métricas de popularidad y retroalimentación comunitaria.  \nDestaco Czkawka como la solución óptima por su velocidad, diseño eficiente y amplio conjunto de funciones, mientras considero alternativas especializadas según necesidades específicas.  \nFinalmente, reforzó el uso responsable de estas herramientas, enfatizando la importancia de respaldar datos y verificar antes de eliminar cualquier archivo.",
+          "I evaluate each solution by its core functionality, underlying technology, and real-world applicability across different user needs  \nI distinguish between intelligent duplicate detection using cryptographic hashing and systematic junk cleanup to prevent confusion  \nI emphasize safety practices and context-aware recommendations to ensure users maintain data integrity while optimizing storage",
+          "I am evaluating the most authoritative open-source solutions for disk cleanup, focusing on GitHub repositories with strong community validation through stars, activity, and technical credibility.  \nCzkawka stands out as the definitive tool for identifying and removing duplicate files, leveraging Rust's performance and reliability, while BleachBit excels in comprehensive system-wide space optimization across diverse file types and caches.  \nMy analysis ensures no redundancy or filler, delivering a concise yet exhaustive comparison grounded in real-world usage, architecture, and developer consensus."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "541f8694-f016-43e9-aa83-1a8569a5064f",
+       "usage": {
+        "input_tokens": 83,
+        "output_tokens": 1725,
+        "characters": 0,
+        "total_tokens": 1808,
+        "input_tokens_details": {
+         "text_tokens": 83
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 1720,
+         "text_tokens": 1725
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1787949156
+      },
+      {
+       "content": "Basado en el consenso de la comunidad de desarrollo, foros técnicos especializados (como Reddit y Hacker News) y la actividad directa en GitHub, no existe una única herramienta que haga *todo* perfectamente, sino **dos proyectos de código abierto dominantes** que cubren exactamente tus necesidades: uno para **eliminar duplicados** y otro para **limpiar archivos basura y liberar espacio**.\n\nA continuación, se detalla la mejor opción para cada caso, respaldada por su arquitectura técnica y repositorios oficiales.\n\n---\n\n### 1. El Mejor para Eliminar Duplicados: **Czkawka**\n\nSi buscas específicamente encontrar y eliminar archivos duplicados desde un repositorio de GitHub, **Czkawka** (pronunciado \"ch-kav-ka\", que significa \"hipo\" en polaco) es actualmente la herramienta definitiva y más recomendada en la comunidad de código abierto.\n\n*   **Repositorio oficial en GitHub:** `qarmin/czkawka`\n*   **Lenguaje de programación:** Rust.\n*   **Por qué es el mejor (Confirmación técnica):** A diferencia de las herramientas antiguas escritas en Python o C++ que consumen mucha RAM y son lentas, Czkawka está escrito en **Rust**. Esto garantiza que sea extremadamente rápido, seguro en cuanto a la memoria y altamente eficiente. No tiene anuncios, es 100% de código abierto y multiplataforma.\n\n#### Características principales para liberar espacio:\n1.  **Duplicados por Hash:** No solo compara el nombre o el tamaño del archivo (lo cual puede dar falsos positivos), sino que calcula el *hash* (la huella digital matemática) del archivo para garantizar que son idénticos al 100%.\n2.  **Archivos Vacíos y Carpetas Vacías:** Detecta y elimina directorios que no contienen nada, liberando espacio de forma indirecta y organizando el disco.\n3.  **Archivos Grandes (Big Files):** Escanea el disco y te muestra una lista ordenada de los archivos que más espacio consumen, permitiéndote decidir cuáles borrar.\n4.  **Imágenes Similares:** Utiliza algoritmos de percepción visual (como *hash* de diferencia) para encontrar fotos que son visualmente idénticas pero que pueden tener diferente tamaño, formato o ligeros recortes (muy útil para limpiar galerías de fotos).\n5.  **Archivos Rotos/Corruptos:** Encuentra videos o imágenes que no se pueden abrir correctamente para que puedas eliminarlos.\n\n**Cómo usarlo de forma segura:** Czkawka tiene un sistema de \"Hardlinks\" y \"Symlinks\". Si tienes dos archivos duplicados en diferentes carpetas, en lugar de borrar uno y perder el acceso, puedes crear un enlace duro (Hardlink). Esto hace que ambos apunten al mismo espacio físico en el disco, liberando espacio sin romper los accesos directos de tus programas.\n\n---\n\n### 2. La Mejor Alternativa para Duplicados de Medios: **dupeGuru**\n\nSi tu enfoque principal no es el sistema en general, sino **liberar espacio en colecciones específicas de música o fotografías**, dupeGuru es la alternativa histórica y más robusta en GitHub.\n\n*   **Repositorio oficial en GitHub:** `arsenetar/dupeguru`\n*   **Lenguaje de programación:** Python / Objective-C (dependiendo de la versión).\n\n#### Características principales:\nA diferencia de Czkawka que es una \"navaja suiza\", dupeGuru se divide en tres modos especializados:\n1.  **Estándar:** Busca duplicados exactos por contenido (hash).\n2.  **Picture (Imágenes):** Encuentra imágenes similares, incluso si han sido redimensionadas, rotadas o tienen marcas de agua diferentes.\n3.  **Music (Música):** Lee las **etiquetas ID3 (metadatos)** de los archivos MP3/FLAC. Puede encontrar canciones duplicadas aunque el nombre del archivo sea diferente, basándose en el artista, álbum y título. Además, permite fusionar etiquetas antes de borrar.\n\n*Nota:* Aunque es excelente para medios, es notablemente más lento que Czkawka al escanear millones de archivos de sistema debido a su arquitectura en Python.\n\n---\n\n### 3. El Mejor para Limpiar Archivos Basura (Liberar Espacio General): **BleachBit**\n\nEs crucial aclarar una distinción técnica: **los buscadores de duplicados no limpian la caché del sistema, los archivos temporales de Windows ni las cookies**. Para \"liberar espacio\" de forma general, la comunidad de código abierto recomienda unánimemente **BleachBit** como el reemplazo ético y seguro de CCleaner.\n\n*   **Repositorio oficial en GitHub:** `bleachbit/bleachbit`\n*   **Lenguaje de programación:** Python.\n\n#### Características principales:\n1.  **Limpieza profunda:** Elimina caché, registros (logs), cookies, historial, archivos temporales de Windows, memoria caché de navegadores (Chrome, Firefox, Edge) y archivos de actualizaciones antiguas.\n2.  **Trituradora de archivos (File Shredder):** No solo borra los archivos, sino que sobrescribe los sectores del disco duro para que sean irrecuperables (útil si vas a vender o donar el PC).\n3.  **Limpieza de espacio libre:** Rellena el espacio libre del disco con ceros para ocultar archivos previamente borrados.\n4.  **Código abierto y sin telemetría:** A diferencia de CCleaner (que ha sido criticado por incluir bloatware y telemetría en sus versiones gratuitas), BleachBit es completamente transparente, auditable en GitHub y respeta la privacidad.\n\n---\n\n### Resumen de Recomendación y Flujo de Trabajo Óptimo\n\nPara obtener el máximo rendimiento y liberar la mayor cantidad de espacio en Windows utilizando solo software verificado en GitHub, sigue este flujo de trabajo:\n\n1.  **Paso 1 (Limpieza de Basura):** Descarga **BleachBit** desde su GitHub. Ejecútalo como Administrador. Selecciona las casillas de \"Windows\", \"Sistema\" y tus navegadores. Esto liberará gigabytes de archivos temporales y caché de forma segura.\n2.  **Paso 2 (Identificación de Espacio):** Descarga **Czkawka**. Usa la función de \"Big Files\" (Archivos grandes) para identificar qué carpetas están consumiendo tu disco (ej. carpetas de descargas olvidadas, videos pesados, ISOs antiguas).\n3.  **Paso 3 (Eliminación de Duplicados):** En **Czkawka**, usa la función \"Duplicates\". Selecciona tus carpetas de usuario (Documentos, Imágenes, Descargas). **Nunca escanees la carpeta `C:\\Windows` o `C:\\Program Files`**, ya que algunos programas requieren archivos duplicados para funcionar. Configura Czkawka para que busque por \"Hash\" (tamaño + contenido) y elimina los duplicados.\n\n### Advertencias de Seguridad (Fuentes y Buenas Prácticas)\n*   **No escanee el disco entero (C:\\):** Al buscar duplicados, excluya siempre las carpetas del sistema operativo (`Windows`, `Program Files`, `ProgramData`). Muchos programas instalan DLLs duplicadas a propósito en diferentes directorios para evitar conflictos de versiones.\n*   **Verifique antes de borrar:** Tanto Czkawka como dupeGuru permiten previsualizar los archivos. Asegúrese de que el archivo que va a marcar para borrar no sea la versión \"original\" que necesita.\n*   **Descarga exclusiva de GitHub:** Dado que solicitaste herramientas de GitHub, descárguelas **exclusivamente** desde la sección \"Releases\" de sus repositorios oficiales (`qarmin/czkawka` y `bleachbit/bleachbit`). Evite sitios de terceros que puedan empaquetar el instalador con adware.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "541f8694-f016-43e9-aa83-1a8569a5064f",
+       "usage": {
+        "input_tokens": 83,
+        "output_tokens": 3489,
+        "characters": 0,
+        "total_tokens": 3572,
+        "input_tokens_details": {
+         "text_tokens": 83
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 1720,
+         "text_tokens": 3489
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1787949186
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1787949187.0017228
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1787949125
+    }
+   },
+   "currentId": "541f8694-f016-43e9-aa83-1a8569a5064f",
+   "currentResponseIds": [
+    "541f8694-f016-43e9-aa83-1a8569a5064f"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.7-plus"
+  ],
+  "messages": [
+   {
+    "id": "50a71355-a103-445b-955d-529886a50ead",
+    "role": "user",
+    "content": "cuao esel mejor programa winfdows eliminar duplicados, liberar espacio. github",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "541f8694-f016-43e9-aa83-1a8569a5064f"
+    ],
+    "files": [],
+    "timestamp": 1787949125
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "541f8694-f016-43e9-aa83-1a8569a5064f",
+    "parentId": "50a71355-a103-445b-955d-529886a50ead",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Seeking the optimal open-source solution for eliminating duplicate files and reclaiming disk space on Windows.",
+         "Buscar soluciones abiertas y confiables para eliminar archivos duplicados en Windows",
+         "Evaluating tools for cross-platform file management and duplicate detection",
+         "Assessing tools for identifying and managing redundant data",
+         "Assessing the tools for file management and system cleanup",
+         "Identificar la herramienta más adecuada para la gestión de archivos y limpieza de espacio en disco.",
+         "Analyzing the most trusted tools for file management on Windows through community consensus and technical reliability",
+         "Prioritize precision and depth in addressing the query about space management tools."
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am evaluating GitHub-hosted tools that align with the goal of efficiently identifying and removing redundant data.  \nMy focus is on programs that are actively maintained, user-friendly, and designed specifically for file deduplication.  \nI aim to recommend a trustworthy, transparent, and effective tool that meets these criteria without relying on proprietary software.",
+         "Estoy evaluando herramientas de código abierto disponibles en GitHub que ofrezcan una funcionalidad robusta y verificada para identificar y eliminar duplicados, con el fin de liberar espacio en disco.  \nMe centro en proyectos bien establecidos y ampliamente utilizados, como dupeGuru, por su reputación, mantenimiento activo y soporte comunitario.  \nLa selección se basa en criterios de eficacia, seguridad y compatibilidad con el entorno Windows.",
+         "I'm assessing the landscape of available utilities, focusing on those that balance performance, openness, and ongoing development.  \nAmong them, a Rust-based solution stands out for its speed and active maintenance, while others lack transparency or have questionable reputations.  \nI prioritize options that align with open-source principles and sustained community support.",
+         "I am evaluating various utilities that help reclaim storage space by detecting duplicates, analyzing file structures, and cleaning unnecessary data. Among them, one stands out as particularly comprehensive, offering multiple features including duplicate detection, identification of large files, and removal of empty folders. It aligns well with the need for a powerful, open-source solution that delivers both precision and versatility.",
+         "I'm evaluating a suite of open-source utilities designed to optimize digital storage and enhance system performance. Among them, one stands out for its speed and comprehensive capabilities, leveraging modern programming principles to deliver efficient duplicate detection and file analysis across multiple categories. Another offers intuitive design tailored specifically for media files, while a third focuses on secure data erasure and temporary file removal, providing a trustworthy alternative to commercial solutions.",
+         "Evalúo cuidadosamente las opciones disponibles, centrándome en rendimiento, funcionalidad y confiabilidad basada en métricas de popularidad y retroalimentación comunitaria.  \nDestaco Czkawka como la solución óptima por su velocidad, diseño eficiente y amplio conjunto de funciones, mientras considero alternativas especializadas según necesidades específicas.  \nFinalmente, reforzó el uso responsable de estas herramientas, enfatizando la importancia de respaldar datos y verificar antes de eliminar cualquier archivo.",
+         "I evaluate each solution by its core functionality, underlying technology, and real-world applicability across different user needs  \nI distinguish between intelligent duplicate detection using cryptographic hashing and systematic junk cleanup to prevent confusion  \nI emphasize safety practices and context-aware recommendations to ensure users maintain data integrity while optimizing storage",
+         "I am evaluating the most authoritative open-source solutions for disk cleanup, focusing on GitHub repositories with strong community validation through stars, activity, and technical credibility.  \nCzkawka stands out as the definitive tool for identifying and removing duplicate files, leveraging Rust's performance and reliability, while BleachBit excels in comprehensive system-wide space optimization across diverse file types and caches.  \nMy analysis ensures no redundancy or filler, delivering a concise yet exhaustive comparison grounded in real-world usage, architecture, and developer consensus."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "541f8694-f016-43e9-aa83-1a8569a5064f",
+      "usage": {
+       "input_tokens": 83,
+       "output_tokens": 1725,
+       "characters": 0,
+       "total_tokens": 1808,
+       "input_tokens_details": {
+        "text_tokens": 83
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 1720,
+        "text_tokens": 1725
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1787949156
+     },
+     {
+      "content": "Basado en el consenso de la comunidad de desarrollo, foros técnicos especializados (como Reddit y Hacker News) y la actividad directa en GitHub, no existe una única herramienta que haga *todo* perfectamente, sino **dos proyectos de código abierto dominantes** que cubren exactamente tus necesidades: uno para **eliminar duplicados** y otro para **limpiar archivos basura y liberar espacio**.\n\nA continuación, se detalla la mejor opción para cada caso, respaldada por su arquitectura técnica y repositorios oficiales.\n\n---\n\n### 1. El Mejor para Eliminar Duplicados: **Czkawka**\n\nSi buscas específicamente encontrar y eliminar archivos duplicados desde un repositorio de GitHub, **Czkawka** (pronunciado \"ch-kav-ka\", que significa \"hipo\" en polaco) es actualmente la herramienta definitiva y más recomendada en la comunidad de código abierto.\n\n*   **Repositorio oficial en GitHub:** `qarmin/czkawka`\n*   **Lenguaje de programación:** Rust.\n*   **Por qué es el mejor (Confirmación técnica):** A diferencia de las herramientas antiguas escritas en Python o C++ que consumen mucha RAM y son lentas, Czkawka está escrito en **Rust**. Esto garantiza que sea extremadamente rápido, seguro en cuanto a la memoria y altamente eficiente. No tiene anuncios, es 100% de código abierto y multiplataforma.\n\n#### Características principales para liberar espacio:\n1.  **Duplicados por Hash:** No solo compara el nombre o el tamaño del archivo (lo cual puede dar falsos positivos), sino que calcula el *hash* (la huella digital matemática) del archivo para garantizar que son idénticos al 100%.\n2.  **Archivos Vacíos y Carpetas Vacías:** Detecta y elimina directorios que no contienen nada, liberando espacio de forma indirecta y organizando el disco.\n3.  **Archivos Grandes (Big Files):** Escanea el disco y te muestra una lista ordenada de los archivos que más espacio consumen, permitiéndote decidir cuáles borrar.\n4.  **Imágenes Similares:** Utiliza algoritmos de percepción visual (como *hash* de diferencia) para encontrar fotos que son visualmente idénticas pero que pueden tener diferente tamaño, formato o ligeros recortes (muy útil para limpiar galerías de fotos).\n5.  **Archivos Rotos/Corruptos:** Encuentra videos o imágenes que no se pueden abrir correctamente para que puedas eliminarlos.\n\n**Cómo usarlo de forma segura:** Czkawka tiene un sistema de \"Hardlinks\" y \"Symlinks\". Si tienes dos archivos duplicados en diferentes carpetas, en lugar de borrar uno y perder el acceso, puedes crear un enlace duro (Hardlink). Esto hace que ambos apunten al mismo espacio físico en el disco, liberando espacio sin romper los accesos directos de tus programas.\n\n---\n\n### 2. La Mejor Alternativa para Duplicados de Medios: **dupeGuru**\n\nSi tu enfoque principal no es el sistema en general, sino **liberar espacio en colecciones específicas de música o fotografías**, dupeGuru es la alternativa histórica y más robusta en GitHub.\n\n*   **Repositorio oficial en GitHub:** `arsenetar/dupeguru`\n*   **Lenguaje de programación:** Python / Objective-C (dependiendo de la versión).\n\n#### Características principales:\nA diferencia de Czkawka que es una \"navaja suiza\", dupeGuru se divide en tres modos especializados:\n1.  **Estándar:** Busca duplicados exactos por contenido (hash).\n2.  **Picture (Imágenes):** Encuentra imágenes similares, incluso si han sido redimensionadas, rotadas o tienen marcas de agua diferentes.\n3.  **Music (Música):** Lee las **etiquetas ID3 (metadatos)** de los archivos MP3/FLAC. Puede encontrar canciones duplicadas aunque el nombre del archivo sea diferente, basándose en el artista, álbum y título. Además, permite fusionar etiquetas antes de borrar.\n\n*Nota:* Aunque es excelente para medios, es notablemente más lento que Czkawka al escanear millones de archivos de sistema debido a su arquitectura en Python.\n\n---\n\n### 3. El Mejor para Limpiar Archivos Basura (Liberar Espacio General): **BleachBit**\n\nEs crucial aclarar una distinción técnica: **los buscadores de duplicados no limpian la caché del sistema, los archivos temporales de Windows ni las cookies**. Para \"liberar espacio\" de forma general, la comunidad de código abierto recomienda unánimemente **BleachBit** como el reemplazo ético y seguro de CCleaner.\n\n*   **Repositorio oficial en GitHub:** `bleachbit/bleachbit`\n*   **Lenguaje de programación:** Python.\n\n#### Características principales:\n1.  **Limpieza profunda:** Elimina caché, registros (logs), cookies, historial, archivos temporales de Windows, memoria caché de navegadores (Chrome, Firefox, Edge) y archivos de actualizaciones antiguas.\n2.  **Trituradora de archivos (File Shredder):** No solo borra los archivos, sino que sobrescribe los sectores del disco duro para que sean irrecuperables (útil si vas a vender o donar el PC).\n3.  **Limpieza de espacio libre:** Rellena el espacio libre del disco con ceros para ocultar archivos previamente borrados.\n4.  **Código abierto y sin telemetría:** A diferencia de CCleaner (que ha sido criticado por incluir bloatware y telemetría en sus versiones gratuitas), BleachBit es completamente transparente, auditable en GitHub y respeta la privacidad.\n\n---\n\n### Resumen de Recomendación y Flujo de Trabajo Óptimo\n\nPara obtener el máximo rendimiento y liberar la mayor cantidad de espacio en Windows utilizando solo software verificado en GitHub, sigue este flujo de trabajo:\n\n1.  **Paso 1 (Limpieza de Basura):** Descarga **BleachBit** desde su GitHub. Ejecútalo como Administrador. Selecciona las casillas de \"Windows\", \"Sistema\" y tus navegadores. Esto liberará gigabytes de archivos temporales y caché de forma segura.\n2.  **Paso 2 (Identificación de Espacio):** Descarga **Czkawka**. Usa la función de \"Big Files\" (Archivos grandes) para identificar qué carpetas están consumiendo tu disco (ej. carpetas de descargas olvidadas, videos pesados, ISOs antiguas).\n3.  **Paso 3 (Eliminación de Duplicados):** En **Czkawka**, usa la función \"Duplicates\". Selecciona tus carpetas de usuario (Documentos, Imágenes, Descargas). **Nunca escanees la carpeta `C:\\Windows` o `C:\\Program Files`**, ya que algunos programas requieren archivos duplicados para funcionar. Configura Czkawka para que busque por \"Hash\" (tamaño + contenido) y elimina los duplicados.\n\n### Advertencias de Seguridad (Fuentes y Buenas Prácticas)\n*   **No escanee el disco entero (C:\\):** Al buscar duplicados, excluya siempre las carpetas del sistema operativo (`Windows`, `Program Files`, `ProgramData`). Muchos programas instalan DLLs duplicadas a propósito en diferentes directorios para evitar conflictos de versiones.\n*   **Verifique antes de borrar:** Tanto Czkawka como dupeGuru permiten previsualizar los archivos. Asegúrese de que el archivo que va a marcar para borrar no sea la versión \"original\" que necesita.\n*   **Descarga exclusiva de GitHub:** Dado que solicitaste herramientas de GitHub, descárguelas **exclusivamente** desde la sección \"Releases\" de sus repositorios oficiales (`qarmin/czkawka` y `bleachbit/bleachbit`). Evite sitios de terceros que puedan empaquetar el instalador con adware.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "541f8694-f016-43e9-aa83-1a8569a5064f",
+      "usage": {
+       "input_tokens": 83,
+       "output_tokens": 3489,
+       "characters": 0,
+       "total_tokens": 3572,
+       "input_tokens_details": {
+        "text_tokens": 83
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 1720,
+        "text_tokens": 3489
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1787949186
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1787949187.0017228
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1787949125
+   }
+  ]
+ },
+ "updated_at": 1787949187,
+ "created_at": 1787949125,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1787949123504
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "541f8694-f016-43e9-aa83-1a8569a5064f"
+ ],
+ "currentId": "541f8694-f016-43e9-aa83-1a8569a5064f",
+ "chat_type": "t2t",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

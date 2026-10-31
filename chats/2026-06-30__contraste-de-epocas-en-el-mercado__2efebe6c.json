@@ -1,0 +1,2620 @@
+{
+ "id": "2efebe6c-3cb1-43b5-b96e-4068a9ed98b9",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Contraste de Épocas en el Mercado",
+ "chat": {
+  "history": {
+   "messages": {
+    "1e29b504-a086-41f8-b237-267ff02c1014": {
+     "id": "1e29b504-a086-41f8-b237-267ff02c1014",
+     "role": "user",
+     "content": "Hombre pelo largo rizado oscuro 194cm con mujer vesrita en ropas llena de pedras brillantes epoca mesopotamica. El hombre no es de esa epoca la mujer si . Van andando en un mercadonde la epoca y sobre todo el destaca por en contraste de colores ya que mayoria va en beige y marron oscuro. Esten caminando pero miran hacia atras parece que vigilan si les persigue. Ella se apoya en un hombro y se tapa mitad del rostro con el velo que lleva",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2i",
+     "sub_chat_type": "t2i",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2i",
+       "size": "9:16"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "62b8af5f-f63a-4ad2-b647-94d477e18172"
+     ],
+     "files": [
+      {
+       "id": "5c864ab3-d6e3-41d2-a0b7-b1d3c6abf53f",
+       "name": "file_00000000b91871f483cd75a42b79e9d9.png",
+       "file_type": "image/png",
+       "type": "image",
+       "file_class": "vision",
+       "size": 2310762,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/5c864ab3-d6e3-41d2-a0b7-b1d3c6abf53f_file_00000000b91871f483cd75a42b79e9d9.png?key=[SECRETO_REDACTADO]",
+       "file": {
+        "created_at": 1782826690482,
+        "data": {},
+        "filename": "file_00000000b91871f483cd75a42b79e9d9.png",
+        "hash": null,
+        "id": "5c864ab3-d6e3-41d2-a0b7-b1d3c6abf53f",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "file_00000000b91871f483cd75a42b79e9d9.png",
+         "size": 2310762,
+         "content_type": "image/png"
+        },
+        "update_at": 1782826690482,
+        "lastModified": 1779843606860,
+        "name": "file_00000000b91871f483cd75a42b79e9d9.png",
+        "webkitRelativePath": "",
+        "size": 2310762,
+        "type": "image/png"
+       },
+       "collection_name": "",
+       "progress": 100,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "2de68b2b-bf17-4eaf-9626-2817a09a182f",
+       "showType": "image",
+       "uploadTaskId": "8cf05ae6-8ccf-457d-baae-229a3442173b"
+      }
+     ],
+     "timestamp": 1782826821
+    },
+    "62b8af5f-f63a-4ad2-b647-94d477e18172": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2i",
+     "sub_chat_type": "t2i",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "62b8af5f-f63a-4ad2-b647-94d477e18172",
+     "parentId": "1e29b504-a086-41f8-b237-267ff02c1014",
+     "childrenIds": [
+      "f808a608-67bc-48da-ac67-5cac2e4d85c7"
+     ],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/62b8af5f-f63a-4ad2-b647-94d477e18172/178282684219c2.png?key=[SECRETO_REDACTADO]",
+       "phase": "image_gen",
+       "status": "finished",
+       "extra": {
+        "output_image_hw": [
+         [
+          1024,
+          1024
+         ]
+        ]
+       },
+       "role": "assistant",
+       "response_id": "62b8af5f-f63a-4ad2-b647-94d477e18172",
+       "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "characters": 0,
+        "width": 1024,
+        "image_count": 1,
+        "height": 1024
+       },
+       "timestamp": 1782826842
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2i",
+       "size": "9:16"
+      },
+      "endTime": 1782826843.486949
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1782826821
+    },
+    "f808a608-67bc-48da-ac67-5cac2e4d85c7": {
+     "id": "f808a608-67bc-48da-ac67-5cac2e4d85c7",
+     "role": "user",
+     "content": "Prompt mejorado detalle extremo",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "62b8af5f-f63a-4ad2-b647-94d477e18172",
+     "turn_id": null,
+     "childrenIds": [
+      "c311e6a4-68d2-4f40-b95f-45aeb05f2191"
+     ],
+     "files": [],
+     "timestamp": 1782826866
+    },
+    "c311e6a4-68d2-4f40-b95f-45aeb05f2191": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "c311e6a4-68d2-4f40-b95f-45aeb05f2191",
+     "parentId": "f808a608-67bc-48da-ac67-5cac2e4d85c7",
+     "childrenIds": [
+      "8ed33424-8305-409a-8c88-5d0d98b5fb2d"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Refinando la imagen con detalles extremos",
+          "Visualizando la figura con precisión",
+          "Observando el escenario con atención",
+          "Visualizing a hyper-detailed cinematic scene with intense realism and emotional tension",
+          "Visualizando la escena con precisión y profundidad",
+          "Visualizando la escena con detalle extremo",
+          "Crafting a vivid cinematic scene with meticulous attention to atmosphere and detail",
+          "Crafting a vivid, hyper-detailed cinematic scene with dramatic contrast and immersive atmosphere.",
+          "Conjuntando imágenes visuales y emociones en un instante cargado de tensión y belleza"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "Estoy profundizando en cada elemento visual del personaje, centrándome en la textura y volumen de su cabello rizado, que se despliega como ondas de humo oscuro bajo una luz tenue. Cada rizo es un relámpago de sombra y brillo, interactuando con el aire circundante como si tuviera vida propia. La piel revela finas líneas de expresión, marcadas por la luz que juega entre las arrugas y los pliegues del rostro, mientras sus ojos reflejan un mundo interior insondable.",
+          "Estoy configurando una imagen de un hombre de gran estatura, cuya presencia domina el entorno por su altura de 194 cm.  \nSu chaqueta roja brillante, con textura metálica o futurista, contrasta intensamente con el fondo oscuro, mientras su mirada seria y alerta, dirigida hacia atrás, transmite una sensación de vigilancia sutil.  \nLa barba oscura y bien cuidada añade un toque de intensidad a su rostro, reforzando una imagen de autoridad silenciosa y misterio contenidos.",
+          "Estoy imaginando una escena histórica vibrante, donde la mujer mesopotámica se desliza entre la multitud con elegancia y sigilo, su velo ocultando parte de su rostro mientras apoya levemente su peso en el hombro del hombre.  \nLa riqueza de sus joyas brillantes contrasta con el fondo terroso de los mercaderes, cada piedra reflejando la luz como un susurro de poder antiguo.  \nEl hombre, envuelto en un rojo intenso, destaca como una llama entre sombras, ambos moviéndose con cautela, vigilando el pasado que tal vez ya no puede escapar.",
+          "I am constructing a vivid image where a towering figure in a futuristic metallic red jacket stands out against the earthy tones of an ancient Mesopotamian marketplace, his presence both anachronistic and commanding  \nBeside him, a veiled woman with ornate jewelry leans subtly into his frame, her half-hidden gaze fixed behind them with wary anticipation, as if sensing unseen danger  \nThe atmosphere hums with suspense—every texture of skin, fabric, and stone rendered in lifelike precision under dramatic lighting that amplifies the stark contrast between the vibrant red and the muted desert hues",
+          "Estoy construyendo una imagen que fusiona lo antiguo con lo futurista, donde el hombre de cabello oscuro y barba densa destaca con su chaqueta roja metálica brillante, contrastando con el ambiente polvoriento y vibrante de un mercado mesopotámico.  \nCada detalle está cuidadosamente definido: el relieve de los bordados dorados y gemas en la vestimenta de la mujer, la textura del cuero brillante de la chaqueta, y el reflejo realista del rayo de luz sobre superficies pulidas.  \nLa atmósfera está cargada de tensión, capturada en sus miradas hacia atrás, mientras el entorno se desdibuja en una mezcla de sombras profundas y tonos terrosos, todo bajo una iluminación precisa que resalta cada imperfección y brillo.",
+          "Estoy construyendo una imagen narrativa que combina elementos anacrónicos y arcaicos con precisión poética. El hombre de estatura imponente, con cabello oscuro rizado y barba espesa, domina el encuadre con una mirada intensa que desafía al espectador. A su lado, la mujer del antiguo Mesopotamia, envuelta en sedas brillantes y joyas incrustadas, apoya su rostro cubierto por un velo fino mientras lo mira con temor, integrándose en el bullicio de un mercado de ladrillo crudo donde las siluetas en túnicas beis y marrones se mueven como sombras de otro tiempo.",
+          "I am envisioning a moment charged with tension, where ancient and futuristic elements collide in a bustling marketplace.  \nThe man’s imposing figure and radiant red jacket stand out against the earthy tones of the crowd, while the woman’s jeweled attire glimmers under dramatic lighting.  \nBoth characters convey urgency and vigilance, their expressions frozen in a silent plea as they glance back, caught between worlds.",
+          "I am envisioning a powerful narrative moment where a striking figure stands in stark contrast to his ancient surroundings, his presence both anachronistic and commanding.  \nThe interplay of light and texture—glossy metallic fabric against weathered stone, wild hair catching the golden glow—anchors the realism and emotional weight.  \nI am refining every element to evoke not just visual splendor but a story etched in shadow and hue.",
+          "I visualizo una escena cinematográfica donde la luz dramática y el detalle extremo dan vida a dos figuras en fuga, cada rasgo de piel y tejido cargado de significado  \nEl contraste entre el rojo vibrante del abrigo y el tono apagado del mercado mesopotámico intensifica la urgencia, mientras el velo y la postura de la mujer revelan vulnerabilidad y confianza entrelazadas  \nMi atención se centra en la expresión de vigilancia mutua, como si cada mirada hacia atrás fuera un susurro de peligro que no puede ser ignorado"
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "c311e6a4-68d2-4f40-b95f-45aeb05f2191",
+       "usage": {
+        "input_tokens": 2698,
+        "output_tokens": 1909,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2549,
+         "text_tokens": 149
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        },
+        "total_tokens": 4607,
+        "output_tokens_details": {
+         "reasoning_tokens": 1902,
+         "text_tokens": 7
+        },
+        "image_tokens": 2549
+       },
+       "timestamp": 1782826906
+      },
+      {
+       "content": "Aquí tienes una propuesta de prompt optimizado para obtener un resultado de **detalle extremo** (fotorrealista, cinematográfico y con alta resolución), basado en tu descripción y las imágenes de referencia.\n\nEste prompt está diseñado en inglés, ya que es el idioma que mejor interpretan las IAs generadoras de imágenes (como Midjourney, Stable Diffusion o DALL-E 3) para lograr el máximo nivel de detalle.\n\n### Prompt Mejorado (Inglés - Recomendado)\n\n> **Hyper-realistic cinematic masterpiece, 8k resolution, extreme detail. A towering 194cm man with long, voluminous dark curly hair and a groomed beard, wearing a striking, glossy metallic red futuristic jacket that contrasts sharply with the environment. He is walking through a bustling ancient Mesopotamian marketplace. Beside him, a woman in authentic ancient Mesopotamian attire, her dress heavily encrusted with sparkling gemstones, gold, and jewels, leans her head on his shoulder. She wears a sheer veil covering the lower half of her face. Both characters are looking back over their shoulders with intense, vigilant expressions, as if fleeing or being pursued. The background is filled with people in earthy beige and dark brown robes, blurred slightly to emphasize the subjects. The lighting highlights the shine of the red jacket and the sparkle of the woman's jewels. Dusty atmosphere, volumetric lighting, sharp focus, subsurface scattering on skin, color contrast.**\n\n---\n\n### Desglose de los elementos clave para el \"Detalle Extremo\":\n\n1.  **El Contraste (Color & Texture):** Se enfatiza la chaqueta \"glossy metallic red\" (roja metálica brillante) frente a los tonos \"earthy beige and dark brown\" (beige tierra y marrón oscuro) del fondo. Esto crea el impacto visual que pediste.\n2.  **La Anatomía y Rostro:** Se especifica \"194cm\" (towering/imponente) y \"long voluminous dark curly hair\" para capturar la melena de la primera imagen.\n3.  **La Época y Ropa de Ella:** \"Authentic ancient Mesopotamian attire... encrusted with sparkling gemstones\" asegura que la ropa de ella tenga ese aspecto de joyería pesada y antigua.\n4.  **La Acción y Emoción:** \"Looking back over their shoulders with intense, vigilant expressions\" (Mirando hacia atrás con expresiones intensas y vigilantes) captura la tensión de la huida.\n5.  **Calidad Técnica:** Palabras como \"8k resolution\", \"subsurface scattering\" (para la piel realista) y \"volumetric lighting\" (iluminación con volumen/polvo) aseguran que no parezca un dibujo, sino una foto de película.\n\n### Versión en Español (Para IAs que lo soporten)\n\n> **Obra maestra cinematográfica hiperrealista, resolución 8k, detalle extremo. Un hombre imponente de 194cm con pelo largo, rizado y oscuro, y barba, vistiendo una chaqueta roja metálica brillante y futurista que contrasta fuertemente con el entorno. Camina por un mercado de la época mesopotámica. A su lado, una mujer con vestimenta auténtica mesopotámica llena de piedras brillantes y joyas, con un velo que le cubre la mitad del rostro, se apoya en su hombro. Ambos miran hacia atrás con expresión de alerta y vigilancia, como si huyeran. El fondo muestra un mercado con gente en tonos beige y marrón oscuro. Iluminación dramática, texturas de piel y ropa ultra detalladas, contraste de color vibrante, atmósfera polvorienta.**",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "c311e6a4-68d2-4f40-b95f-45aeb05f2191",
+       "usage": {
+        "input_tokens": 2698,
+        "output_tokens": 2698,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2549,
+         "text_tokens": 149
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        },
+        "total_tokens": 5396,
+        "output_tokens_details": {
+         "reasoning_tokens": 1902,
+         "text_tokens": 796
+        },
+        "image_tokens": 2549
+       },
+       "timestamp": 1782826919
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1782826919.990913
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1782826866
+    },
+    "8ed33424-8305-409a-8c88-5d0d98b5fb2d": {
+     "id": "8ed33424-8305-409a-8c88-5d0d98b5fb2d",
+     "role": "user",
+     "content": "Ella esta el lado de el a su derecha y es la foto 9:17 van hacia la dereche perpendiculas diagonal de izquirrda arriba a dereccccha medio . Estilo poster movimiento efect todo el trake de el es rojo",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "c311e6a4-68d2-4f40-b95f-45aeb05f2191",
+     "turn_id": null,
+     "childrenIds": [
+      "80ac96e3-7241-4344-8d92-42803272ae72",
+      "045ace66-36ed-4476-8f50-f1a651a09136"
+     ],
+     "files": [],
+     "timestamp": 1782827415
+    },
+    "80ac96e3-7241-4344-8d92-42803272ae72": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "80ac96e3-7241-4344-8d92-42803272ae72",
+     "parentId": "8ed33424-8305-409a-8c88-5d0d98b5fb2d",
+     "childrenIds": [
+      "4c12c1bc-1103-41d9-994c-c8b3c27b5191"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Adjusting the composition to reflect the woman's position on the man's right side",
+          "Positioning the figures within the frame based on directional movement and spatial relationship.",
+          "Positioning the figures according to spatial relationships in the scene",
+          "Moving dynamically across the frame from top-left to middle-right",
+          "Walking through a cinematic vision of contrast and motion",
+          "Crafting a vivid cinematic scene with deliberate contrast and motion",
+          "Crafting a vivid cinematic vision with precision and artistry"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am reimagining the spatial arrangement to place the woman precisely to the man's right from the viewer’s perspective  \nThis shift enhances the narrative intimacy and visual balance of the scene  \nI am ensuring the new positioning aligns with the intended emotional and aesthetic tone",
+          "I am considering how relative positioning—such as one person being to the other’s right—affects visual composition when they move toward or away from the frame's edge.  \nI interpret that if he is on the left and she is on his right, she would appear slightly behind or beside him depending on the angle of motion.  \nI assume a standard cinematic layout where the man leads on the left and the woman follows on his right side.",
+          "I consider the directional alignment based on the man’s orientation and the frame’s perspective, ensuring the woman stands to his right within the composition  \nI maintain a vertical framing that enhances the narrative intimacy of the couple’s movement  \nI guide their motion along a perpendicular path, preserving natural flow and visual balance",
+          "I am interpreting the directional movement as a diagonal trajectory from the upper left toward the center-right, emphasizing forward momentum.  \nThe cinematic poster style with motion effects suggests incorporating dynamic blur and dramatic posing to enhance visual impact.  \nHis entire outfit is rendered in red, reinforcing a bold, cohesive visual identity.",
+          "I envision a towering man with dark curls and beard, clad head to toe in a bold red modern ensemble, his presence sharp against the ancient stillness of a woman draped in jeweled regalia and veiled mystery.  \nWe move diagonally across the frame, he glancing back with quiet vigilance, she nestled close at his side, her silhouette a whisper of history beside his electric stride.  \nThe composition pulses with dynamic energy—motion blur, dramatic angle, and a 9:17 ratio shaping a moment that feels both fleeting and eternal.",
+          "I am merging modern and ancient elements into a single dynamic composition, where the man’s bold red tracksuit stands out against the timeless elegance of the woman’s gem-studded attire.  \nThe diagonal movement from top-left to mid-right creates urgency and perspective, drawing the eye through the frame as if capturing a fleeting moment of escape.  \nTogether, their profiles turned back in alarm, they become symbols of collision across eras, anchored by a blurred, earth-toned Mesopotamian market that whispers history beneath the present.",
+          "I am envisioning a dynamic, high-impact scene where form and motion converge in rich detail.  \nThe man strides with commanding presence, his glossy red attire glowing under dramatic lighting, while the woman, veiled and adorned in ancient splendor, leans into his shadow with quiet intensity.  \nTogether they move diagonally across the frame, their gaze turning back with silent narrative weight, set against an austere yet textured ancient market."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "80ac96e3-7241-4344-8d92-42803272ae72",
+       "usage": {
+        "input_tokens": 3549,
+        "output_tokens": 1341,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2549,
+         "text_tokens": 1000
+        },
+        "prompt_tokens_details": {},
+        "total_tokens": 4890,
+        "output_tokens_details": {
+         "reasoning_tokens": 1336,
+         "text_tokens": 5
+        },
+        "image_tokens": 2549
+       },
+       "timestamp": 1782827455
+      },
+      {
+       "content": "Aquí tienes el prompt ajustado con todas las correcciones: el hombre lleva **todo el traje rojo** (no solo la chaqueta), la mujer está a su derecha, la composición es en diagonal (de arriba-izquierda a medio-derecha), formato vertical **9:17** y estilo póster con efecto de movimiento.\n\n### Prompt Optimizado (Inglés - Para mejor calidad)\n\n> **Cinematic movie poster style, vertical 9:17 aspect ratio. Dynamic motion effect. A towering 194cm man with long voluminous dark curly hair and beard, wearing a full glossy red modern tracksuit (jacket and pants), walking diagonally from the top left towards the middle right. On his right side, a woman in authentic ancient Mesopotamian clothing heavily adorned with sparkling gemstones and gold, wearing a veil covering half her face, leans against him. Both look back over their shoulders with intense vigilance as if fleeing. The background is a bustling ancient market in earthy beige and brown tones, slightly blurred to emphasize motion and depth. High contrast between the man's bright red outfit and the ancient surroundings. 8k, highly detailed, dramatic lighting, action shot.**\n\n### Traducción / Explicación de los cambios:\n*   **Full glossy red modern tracksuit:** Ahora especifica que lleva el traje completo (chaqueta y pantalón) rojo y brillante, para maximizar el contraste con el entorno beige.\n*   **Vertical 9:17 aspect ratio:** Fuerza el formato vertical alargado que pediste.\n*   **Walking diagonally from the top left towards the middle right:** Coloca la acción en la diagonal exacta que describiste.\n*   **On his right side:** Asegura que ella esté posicionada a la derecha de él.\n*   **Dynamic motion effect / blurred background:** Añade el estilo de póster de acción con sensación de movimiento.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "80ac96e3-7241-4344-8d92-42803272ae72",
+       "usage": {
+        "input_tokens": 3549,
+        "output_tokens": 1746,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2549,
+         "text_tokens": 1000
+        },
+        "prompt_tokens_details": {},
+        "total_tokens": 5295,
+        "output_tokens_details": {
+         "reasoning_tokens": 1336,
+         "text_tokens": 410
+        },
+        "image_tokens": 2549
+       },
+       "timestamp": 1782827464
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1782827464.8994727
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1782827415
+    },
+    "045ace66-36ed-4476-8f50-f1a651a09136": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "045ace66-36ed-4476-8f50-f1a651a09136",
+     "parentId": "8ed33424-8305-409a-8c88-5d0d98b5fb2d",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Adjusting the spatial relationship between the characters based on the user's clarification.",
+          "Reorient the composition to reflect spatial clarity and directional intent",
+          "Analizando la descripción del movimiento y el contexto visual"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am reevaluating the positioning to ensure she is correctly placed to his right from the viewer’s perspective.  \nThis involves refining the visual composition to reflect the intended orientation accurately.  \nThe goal is to maintain clarity and consistency in the narrative scene.",
+          "I am adjusting the visual arrangement to ensure that the subject's position aligns with the intended spatial logic, placing her to the right relative to the focal figure.  \nThe frame is being structured in a vertical 9:16 format, optimized for mobile or cinematic presentation.  \nMovement is implied diagonally from upper-left to lower-right, reinforcing forward momentum and dynamic flow within the scene.",
+          "Estoy interpretando la dirección del desplazamiento como una trayectoria diagonal que parte desde la esquina superior izquierda hacia el centro o parte inferior derecha de la imagen  \nConsidero que el término \"perpendiculares\" podría referirse a la orientación relativa de la cámara o al efecto visual, pero priorizo la idea de un movimiento dinámico en diagonal  \nEl estilo sugerido combina elementos de póster con un desenfoque de movimiento que realza la sensación de acción y dinamismo"
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "045ace66-36ed-4476-8f50-f1a651a09136",
+       "usage": {
+        "input_tokens": 3553,
+        "output_tokens": 529,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2549,
+         "text_tokens": 1004
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 2176
+        },
+        "total_tokens": 4082,
+        "output_tokens_details": {
+         "reasoning_tokens": 520,
+         "text_tokens": 9
+        },
+        "image_tokens": 2549
+       },
+       "timestamp": 1782827430
+      },
+      {
+       "content": "Aquí tienes el prompt ajustado con los nuevos detalles de composición, movimiento y formato vertical (tipo póster). He integrado la dirección diagonal y el estilo dinámico.\n\n### Prompt Optimizado (Inglés - Para Midjourney / Stable Diffusion)\n\n> **Cinematic movie poster style, vertical 9:16 aspect ratio. Extreme detail, photorealistic. A dynamic shot of a towering 194cm man with long dark curly hair and a beard, wearing a fully glossy metallic red futuristic jacket. He is walking diagonally from the top-left to the mid-right of the frame, creating a strong sense of movement. Beside him on his right, a woman in ancient Mesopotamian royal attire encrusted with sparkling gemstones and gold leans on his shoulder, her face half-covered by a sheer veil. Both are looking back over their shoulders with intense, vigilant expressions as if being chased. The background is a bustling ancient Mesopotamian market in earthy beige and brown tones, with heavy motion blur to emphasize their speed and the contrast of the bright red jacket. Dramatic lighting, high contrast, sharp focus on faces, motion blur on background, masterpiece.**\n\n### Cambios clave aplicados:\n*   **Formato 9:16:** Ideal para pósters verticales o fondos de pantalla.\n*   **Composición Diagonal:** \"Walking diagonally from the top-left to the mid-right\" (Caminando en diagonal de arriba-izquierda a medio-derecha) para dar esa sensación de movimiento y dirección que pediste.\n*   **Posición:** Ella ahora está a su derecha (\"Beside him on his right\").\n*   **Efecto Movimiento:** \"Heavy motion blur to emphasize their speed\" (Desenfoque de movimiento fuerte para enfatizar la velocidad).\n*   **Color:** Se reafirma que toda la chaqueta es roja brillante (\"fully glossy metallic red\").\n\n**Nota para Midjourney:** Si usas Midjourney, añade `--ar 9:16 --style raw --v 6.0` al final del prompt para asegurar el formato vertical y el realismo.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "045ace66-36ed-4476-8f50-f1a651a09136",
+       "usage": {
+        "input_tokens": 3553,
+        "output_tokens": 977,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2549,
+         "text_tokens": 1004
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 2176
+        },
+        "total_tokens": 4530,
+        "output_tokens_details": {
+         "reasoning_tokens": 520,
+         "text_tokens": 457
+        },
+        "image_tokens": 2549
+       },
+       "timestamp": 1782827438
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1782827438.5133471
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1782827415
+    },
+    "4c12c1bc-1103-41d9-994c-c8b3c27b5191": {
+     "id": "4c12c1bc-1103-41d9-994c-c8b3c27b5191",
+     "role": "user",
+     "content": "Aquí tienes una propuesta de prompt optimizado para obtener un resultado de **detalle extremo** (fotorrealista, cinematográfico y con alta resolución), basado en tu descripción y las imágenes de referencia.\n\nEste prompt está diseñado en inglés, ya que es el idioma que mejor interpretan las IAs generadoras de imágenes (como Midjourney, Stable Diffusion o DALL-E 3) para lograr el máximo nivel de detalle.\n\n### Prompt Mejorado (Inglés - Recomendado)\n\n> **Hyper-realistic cinematic masterpiece, 8k resolution, extreme detail. A towering 194cm man with long, voluminous dark curly hair and a groomed beard, wearing a striking, glossy metallic red futuristic jacket that contrasts sharply with the environment. He is walking through a bustling ancient Mesopotamian marketplace. Beside him, a woman in authentic ancient Mesopotamian attire, her dress heavily encrusted with sparkling gemstones, gold, and jewels, leans her head on his shoulder. She wears a sheer veil covering the lower half of her face. Both characters are looking back over their shoulders with intense, vigilant expressions, as if fleeing or being pursued. The background is filled with people in earthy beige and dark brown robes, blurred slightly to emphasize the subjects. The lighting highlights the shine of the red jacket and the sparkle of the woman's jewels. Dusty atmosphere, volumetric lighting, sharp focus, subsurface scattering on skin, color contrast.**\n\n---\n\n### Desglose de los elementos clave para el \"Detalle Extremo\":\n\n1.  **El Contraste (Color & Texture):** Se enfatiza la chaqueta \"glossy metallic red\" (roja metálica brillante) frente a los tonos \"earthy beige and dark brown\" (beige tierra y marrón oscuro) del fondo. Esto crea el impacto visual que pediste.\n2.  **La Anatomía y Rostro:** Se especifica \"194cm\" (towering/imponente) y \"long voluminous dark curly hair\" para capturar la melena de la primera imagen.\n3.  **La Época y Ropa de Ella:** \"Authentic ancient Mesopotamian attire... encrusted with sparkling gemstones\" asegura que la ropa de ella tenga ese aspecto de joyería pesada y antigua.\n4.  **La Acción y Emoción:** \"Looking back over their shoulders with intense, vigilant expressions\" (Mirando hacia atrás con expresiones intensas y vigilantes) captura la tensión de la huida.\n5.  **Calidad Técnica:** Palabras como \"8k resolution\", \"subsurface scattering\" (para la piel realista) y \"volumetric lighting\" (iluminación con volumen/polvo) aseguran que no parezca un dibujo, sino una foto de película.\n\n### Versión en Español (Para IAs que lo soporten)\n\n> **Obra maestra cinematográfica hiperrealista, resolución 8k, detalle extremo. Un hombre imponente de 194cm con pelo largo, rizado y oscuro, y barba, vistiendo una chaqueta roja metálica brillante y futurista que contrasta fuertemente con el entorno. Camina por un mercado de la época mesopotámica. A su lado, una mujer con vestimenta auténtica mesopotámica llena de piedras brillantes y joyas, con un velo que le cubre la mitad del rostro, se apoya en su hombro. Ambos miran hacia atrás con expresión de alerta y vigilancia, como si huyeran. El fondo muestra un mercado con gente en tonos beige y marrón oscuro. Iluminación dramática, texturas de piel y ropa ultra detalladas, contraste de color vibrante, atmósfera polvorienta.**Aquí tienes el prompt ajustado con todas las correcciones: el hombre lleva **todo el traje rojo** (no solo la chaqueta), la mujer está a su derecha, la composición es en diagonal (de arriba-izquierda a medio-derecha), formato vertical **9:17** y estilo póster con efecto de movimiento.\n\n### Prompt Optimizado (Inglés - Para mejor calidad)\n\n> **Cinematic movie poster style, vertical 9:17 aspect ratio. Dynamic motion effect. A towering 194cm man with long voluminous dark curly hair and beard, wearing a full glossy red modern tracksuit (jacket and pants), walking diagonally from the top left towards the middle right. On his right side, a woman in authentic ancient Mesopotamian clothing heavily adorned with sparkling gemstones and gold, wearing a veil covering half her face, leans against him. Both look back over their shoulders with intense vigilance as if fleeing. The background is a bustling ancient market in earthy beige and brown tones, slightly blurred to emphasize motion and depth. High contrast between the man's bright red outfit and the ancient surroundings. 8k, highly detailed, dramatic lighting, action shot.**\n\n### Traducción / Explicación de los cambios:\n*   **Full glossy red modern tracksuit:** Ahora especifica que lleva el traje completo (chaqueta y pantalón) rojo y brillante, para maximizar el contraste con el entorno beige.\n*   **Vertical 9:17 aspect ratio:** Fuerza el formato vertical alargado que pediste.\n*   **Walking diagonally from the top left towards the middle right:** Coloca la acción en la diagonal exacta que describiste.\n*   **On his right side:** Asegura que ella esté posicionada a la derecha de él.\n*   **Dynamic motion effect / blurred background:** Añade el estilo de póster de acción con sensación de movimiento.",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "80ac96e3-7241-4344-8d92-42803272ae72",
+     "turn_id": null,
+     "childrenIds": [
+      "abd48889-c276-47fc-9142-e3718ee1bcc7"
+     ],
+     "files": [],
+     "timestamp": 1782827490
+    },
+    "abd48889-c276-47fc-9142-e3718ee1bcc7": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "abd48889-c276-47fc-9142-e3718ee1bcc7",
+     "parentId": "4c12c1bc-1103-41d9-994c-c8b3c27b5191",
+     "childrenIds": [
+      "5462be83-385f-4a73-9aad-e88a03899385"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Synthesizing insights from prior reflections to deliver a cohesive, refined response."
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am integrating layered understandings into a unified perspective.  \nEach element is carefully woven to reflect depth and coherence.  \nThe result emerges as a seamless expression of accumulated insight."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "abd48889-c276-47fc-9142-e3718ee1bcc7",
+       "usage": {
+        "input_tokens": 5167,
+        "output_tokens": 95,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2549,
+         "text_tokens": 2618
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 2176
+        },
+        "total_tokens": 5262,
+        "output_tokens_details": {
+         "reasoning_tokens": 91,
+         "text_tokens": 4
+        },
+        "image_tokens": 2549
+       },
+       "timestamp": 1782827497
+      },
+      {
+       "content": "# 🎬 Prompt Final Definitivo (Combinado y Optimizado)\n\nAquí tienes el **prompt maestro** que fusiona el detalle extremo de la primera versión con todas las correcciones de composición, vestimenta y formato de la segunda:\n\n---\n\n### ✅ PROMPT FINAL EN INGLÉS (Recomendado para Midjourney / DALL-E 3 / Stable Diffusion)\n\n> **Cinematic movie poster style, vertical 9:17 aspect ratio, dynamic motion blur effect. Hyper-realistic 8k resolution, extreme detail. A towering 194cm man with long voluminous dark curly hair and groomed beard, wearing a full glossy metallic red modern tracksuit (jacket and pants), walking diagonally from the top left towards the middle right of the frame. On his right side, a woman in authentic ancient Mesopotamian attire heavily encrusted with sparkling gemstones, gold, and jewels, wearing a sheer veil covering the lower half of her face, leans her head on his shoulder. Both characters look back over their shoulders with intense, vigilant expressions as if fleeing or being pursued. The background is a bustling ancient Mesopotamian marketplace filled with people in earthy beige and dark brown robes, slightly blurred to emphasize motion and depth. High color contrast between the man's bright red outfit and the ancient surroundings. Dramatic volumetric lighting, dusty atmosphere, subsurface scattering on skin, sharp focus on faces, action shot masterpiece.**\n\n---\n\n### ✅ PROMPT FINAL EN ESPAÑOL\n\n> **Estilo póster de película cinematográfica, formato vertical 9:17, efecto de movimiento dinámico. Hiperrealista, resolución 8k, detalle extremo. Un hombre imponente de 194cm con pelo largo, rizado y oscuro, y barba cuidada, vistiendo un chándal moderno rojo metálico brillante completo (chaqueta y pantalón), caminando en diagonal desde la parte superior izquierda hacia el centro-derecha del encuadre. A su derecha, una mujer con vestimenta auténtica mesopotámica antigua, ricamente adornada con piedras brillantes, oro y joyas, con un velo transparente que le cubre la mitad inferior del rostro, apoya su cabeza en su hombro. Ambos miran hacia atrás sobre sus hombros con expresiones intensas y vigilantes, como si huyeran o fueran perseguidos. El fondo es un bullicioso mercado mesopotámico antiguo lleno de gente con túnicas en tonos beige tierra y marrón oscuro, ligeramente desenfocado para enfatizar el movimiento y la profundidad. Alto contraste de color entre el outfit rojo brillante del hombre y el entorno antiguo. Iluminación dramática volumétrica, atmósfera polvorienta, dispersión subsuperficial en la piel, enfoque nítido en los rostros, obra maestra de acción.**\n\n---\n\n### 📋 Resumen de todo lo incluido:\n\n| Elemento | Detalle |\n|---|---|\n| **Formato** | Vertical 9:17 (póster) |\n| **Composición** | Diagonal: arriba-izquierda → centro-derecha |\n| **Él** | 194cm, pelo largo rizado oscuro, barba, **traje completo rojo metálico brillante** |\n| **Ella** | Ropa mesopotámica con piedras brillantes, velo mitad del rostro, apoyada en su hombro derecho |\n| **Acción** | Caminan pero miran hacia atrás, vigilantes, como si huyeran |\n| **Entorno** | Mercado mesopotámico, gente en beige y marrón oscuro (contraste con el rojo) |\n| **Estilo** | Póster cinematográfico, efecto movimiento, 8k, hiperrealista, iluminación dramática |\n\n> 💡 **Tip:** Si usas **Midjourney**, añade al final del prompt: `--ar 9:17 --style raw --v 6.1` para forzar el formato y máximo realismo.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "abd48889-c276-47fc-9142-e3718ee1bcc7",
+       "usage": {
+        "input_tokens": 5167,
+        "output_tokens": 956,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2549,
+         "text_tokens": 2618
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 2176
+        },
+        "total_tokens": 6123,
+        "output_tokens_details": {
+         "reasoning_tokens": 91,
+         "text_tokens": 865
+        },
+        "image_tokens": 2549
+       },
+       "timestamp": 1782827512
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1782827512.3516238
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1782827490
+    },
+    "5462be83-385f-4a73-9aad-e88a03899385": {
+     "id": "5462be83-385f-4a73-9aad-e88a03899385",
+     "role": "user",
+     "content": "Solo ingles. Maximo uniendo y dando maximo detalle",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "abd48889-c276-47fc-9142-e3718ee1bcc7",
+     "turn_id": null,
+     "childrenIds": [
+      "022217d8-48eb-4d48-99c2-6f12a7058029"
+     ],
+     "files": [],
+     "timestamp": 1782827526
+    },
+    "022217d8-48eb-4d48-99c2-6f12a7058029": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "022217d8-48eb-4d48-99c2-6f12a7058029",
+     "parentId": "5462be83-385f-4a73-9aad-e88a03899385",
+     "childrenIds": [
+      "36e643a7-0362-4612-b1f9-7308df633fba"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Crafting a comprehensive and refined directive",
+          "Crafting a cinematic vertical poster with precise visual storytelling",
+          "Rendering a vivid fusion of ancient and modern aesthetics",
+          "Crafting a vivid cinematic vision with meticulous attention to atmosphere and detail",
+          "Crafting a vivid cinematic vision"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am synthesizing all prior guidance into a singular, intricately detailed instruction.  \nMy focus is on achieving maximal clarity and precision within the constraints of natural language.  \nThe result is an elegant, cohesive expression designed to elicit the most accurate and nuanced response.",
+          "I am envisioning a towering male figure, 194cm tall, his dark curly hair cascading like storm clouds, beard meticulously shaped to frame a determined expression.  \nHe strides diagonally across the frame, from top-left to middle-right, each step charged with quiet intensity, his posture radiating purpose and presence.  \nThe composition is rendered in a dramatic 9:17 ratio, layered with motion effects that suggest momentum and narrative depth, all within a polished movie poster aesthetic.",
+          "I am envisioning a striking visual narrative where contemporary luxury meets timeless antiquity, blending the sleek sheen of a modern tracksuit with the opulent grandeur of Mesopotamian regalia.  \nThe female figure, draped in radiant gemstone-encrusted garments and veiled in delicate transparency, leans into the male form with quiet urgency, her gaze sharp with vigilance.  \nAgainst a dynamic backdrop of a bustling marketplace, I amplify the contrast between past and present through dramatic lighting and layered depth, capturing a moment suspended between flight and fate.",
+          "I am envisioning a dynamic, hyper-realistic scene where contrasting elements converge—vibrant crimson against weathered earth tones, light sculpted through dust-laden air, skin rendered with lifelike subsurface glow.  \nThe composition unfolds with deliberate motion, capturing a towering figure in glossy red tracksuit moving diagonally across the frame, while beside him, a woman adorned in ancient Mesopotamian splendor radiates timeless grandeur.  \nEvery element is layered with precision—focusing on facial clarity, fluid motion blur, and an immersive depth that breathes life into the image.",
+          "I am shaping a moment of intense urgency and dramatic tension, where form and emotion converge in rich detail.  \nThe man’s radiant red attire cuts through the earthy tones of an ancient marketplace, his silhouette defined by volumetric light and hyper-realistic textures.  \nEvery element—motion blur, subsurface skin scattering, and the veil-clad woman’s watchful gaze—serves to heighten the narrative’s gravity and visual splendor."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "022217d8-48eb-4d48-99c2-6f12a7058029",
+       "usage": {
+        "input_tokens": 6050,
+        "output_tokens": 900,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2549,
+         "text_tokens": 3501
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 4352
+        },
+        "total_tokens": 6950,
+        "output_tokens_details": {
+         "reasoning_tokens": 896,
+         "text_tokens": 4
+        },
+        "image_tokens": 2549
+       },
+       "timestamp": 1782827546
+      },
+      {
+       "content": "Cinematic movie poster style, vertical 9:17 aspect ratio, dynamic motion blur effect, hyper-realistic 8k resolution, extreme detail. A towering 194cm man with long voluminous dark curly hair and a groomed beard, wearing a full glossy metallic red modern tracksuit (jacket and pants), walking diagonally from the top left towards the middle right of the frame. On his right side, a woman in authentic ancient Mesopotamian attire heavily encrusted with sparkling gemstones, gold, and intricate jewels, wearing a sheer veil covering the lower half of her face, leans her head intimately on his shoulder. Both characters look back over their shoulders with intense, vigilant expressions as if fleeing or being pursued. The background is a bustling ancient Mesopotamian marketplace filled with people in earthy beige and dark brown robes, slightly blurred to emphasize motion and depth. High color contrast between the man's bright red outfit and the ancient surroundings, dramatic volumetric lighting, dusty atmosphere, subsurface scattering on skin, sharp focus on faces, action shot masterpiece.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "022217d8-48eb-4d48-99c2-6f12a7058029",
+       "usage": {
+        "input_tokens": 6050,
+        "output_tokens": 1121,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2549,
+         "text_tokens": 3501
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 4352
+        },
+        "total_tokens": 7171,
+        "output_tokens_details": {
+         "reasoning_tokens": 896,
+         "text_tokens": 225
+        },
+        "image_tokens": 2549
+       },
+       "timestamp": 1782827550
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1782827550.856392
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1782827526
+    },
+    "36e643a7-0362-4612-b1f9-7308df633fba": {
+     "id": "36e643a7-0362-4612-b1f9-7308df633fba",
+     "role": "user",
+     "content": "Maximo detalle",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "022217d8-48eb-4d48-99c2-6f12a7058029",
+     "turn_id": null,
+     "childrenIds": [
+      "fc5a96a4-2abf-41fc-8350-4275ab13c6e2"
+     ],
+     "files": [],
+     "timestamp": 1782827558
+    },
+    "fc5a96a4-2abf-41fc-8350-4275ab13c6e2": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "fc5a96a4-2abf-41fc-8350-4275ab13c6e2",
+     "parentId": "36e643a7-0362-4612-b1f9-7308df633fba",
+     "childrenIds": [
+      "96006c74-168f-4e53-9744-da6f30c8b26f"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Crafting a vivid, detailed image prompt in English",
+          "Visualizing a dynamic scene of two figures in striking contrast",
+          "Crafting a vivid cinematic vision with unparalleled precision",
+          "Rendering a cinematic vision with precision and artistry",
+          "Crafting a vivid cinematic vision with deliberate artistic intent",
+          "Rendering a vivid narrative scene",
+          "Crafting a vivid, immersive visual narrative with meticulous attention to detail and atmospheric depth"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am meticulously refining the description to maximize visual richness and specificity.  \nI focus on capturing the essence of a towering figure with elongated features, ensuring every element contributes to a lifelike and immersive depiction.  \nMy aim is to evoke a compelling, cinematic presence through precise, evocative language.",
+          "I am conjuring a moment where ancient grandeur meets modern boldness, their forms intertwined by movement and gaze  \nThe man’s metallic red tracksuit gleams under unseen light, his dark curls and beard framing a determined expression  \nThe woman’s jeweled headdress glints as she leans into him, her veiled face turned with fierce alertness, both stepping forward with purpose",
+          "I am meticulously rendering the scene’s atmosphere, layering textures of weathered stone and woven fabric to evoke ancient Mesopotamian life.  \nLight spills in dramatic contrast—crimson hues of the protagonist’s suit blazing against the earthy tones of the crowd, illuminated by a high-contrast chiaroscuro that sculpts every shadow and gleam.  \nThrough dynamic motion blur and hyper-detailed depth, I capture the urgency of flight, as if frozen mid-chase in a single breathless moment.",
+          "I am conjuring a scene rich in contrast and emotion, where light dances through dust-laden air, sculpting form and mood.  \nThe man stands tall, his presence defined by the interplay of shadow and gleam, his crimson tracksuit shimmering like molten fire.  \nThe woman, veiled in ancient splendor, holds a gaze both haunted and resolute, her jewels catching the light like distant stars.",
+          "I am shaping a powerful visual narrative centered on a towering figure leaning heavily on his right shoulder, embodying both strength and strain.  \nThe scene unfolds in an ancient marketplace alive with movement—mud-brick structures, swirling dust, and blurred forms in rough linen robes—rendered with photorealistic precision.  \nThrough dynamic diagonal composition and layered motion blur, I evoke urgency and tension, guiding the eye toward a focal point of raw human presence.",
+          "I envision two figures locked in a moment of urgent flight, their forms illuminated by the interplay of ancient and modern elements. The man’s sleek crimson tracksuit gleams with reflective precision, his dark curls catching the light like molten thread, while beside him the woman’s royal garb shimmers with lapis lazuli and gold, her veil whispering secrets against his shoulder. Both turn sharply, eyes wide with dread, as the marketplace pulses around them—mud-brick walls and awnings blurring into motion, the air thick with unseen threat.",
+          "I am meticulously weaving together a tapestry of sensory elements—textures, light, color, and movement—ensuring every component aligns with the envisioned scene.  \nI am harmonizing contrasting tones: the bold vibrancy of metallic red against the earthy stillness of ancient ruins, while grounding the composition in cinematic realism through chiaroscuro, volumetric rays, and subsurface skin rendering.  \nI am refining the prompt into a seamless, richly layered description that channels artistic precision and emotional resonance, optimized for visual generation without compromise."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "fc5a96a4-2abf-41fc-8350-4275ab13c6e2",
+       "usage": {
+        "input_tokens": 6284,
+        "output_tokens": 1226,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2549,
+         "text_tokens": 3735
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 4352
+        },
+        "total_tokens": 7510,
+        "output_tokens_details": {
+         "reasoning_tokens": 1214,
+         "text_tokens": 12
+        },
+        "image_tokens": 2549
+       },
+       "timestamp": 1782827586
+      },
+      {
+       "content": "Cinematic movie poster masterpiece, vertical 9:17 aspect ratio, shot on ARRI Alexa 65, 35mm anamorphic lens, 8k resolution, photorealistic, extreme detail. Dynamic diagonal composition leading from the top-left to the middle-right, intense motion blur effect on the periphery to convey speed and urgency. A towering 194cm man with a muscular build, featuring hyper-detailed skin texture with visible pores and subtle sweat. He has long, voluminous, dark curly hair with individual strands catching the rim light, and a thick, groomed beard. He is wearing a full, glossy, metallic crimson-red modern tracksuit, with hyper-realistic fabric folds, reflective specular highlights, and detailed zipper textures. On his right side, a woman in authentic ancient Mesopotamian royal attire. Her clothing is heavily encrusted with sparkling lapis lazuli, carnelian gemstones, and intricate gold filigree. She wears a sheer, gossamer veil with gold threading covering the lower half of her face, and she leans intimately against his shoulder. Both characters are looking sharply back over their shoulders with intense, vigilant, and fearful expressions, as if fleeing from a pursuer. The background is a bustling ancient Mesopotamian marketplace with mud-brick architecture and woven awnings, filled with blurred figures in rough-spun earthy beige and dark brown linen robes. Extreme high color contrast between the vibrant metallic red tracksuit and the muted ancient surroundings. Dramatic chiaroscuro lighting, volumetric god rays piercing through swirling market dust, subsurface scattering on skin, cinematic color grading, sharp focus on the faces, award-winning photography, masterpiece.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "fc5a96a4-2abf-41fc-8350-4275ab13c6e2",
+       "usage": {
+        "input_tokens": 6284,
+        "output_tokens": 1565,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2549,
+         "text_tokens": 3735
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 4352
+        },
+        "total_tokens": 7849,
+        "output_tokens_details": {
+         "reasoning_tokens": 1214,
+         "text_tokens": 351
+        },
+        "image_tokens": 2549
+       },
+       "timestamp": 1782827592
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1782827592.316291
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1782827558
+    },
+    "96006c74-168f-4e53-9744-da6f30c8b26f": {
+     "id": "96006c74-168f-4e53-9744-da6f30c8b26f",
+     "role": "user",
+     "content": "El triple de largo",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "fc5a96a4-2abf-41fc-8350-4275ab13c6e2",
+     "turn_id": null,
+     "childrenIds": [
+      "18394b99-665e-403d-9d06-2623c291bb7f"
+     ],
+     "files": [],
+     "timestamp": 1782827604
+    },
+    "18394b99-665e-403d-9d06-2623c291bb7f": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "18394b99-665e-403d-9d06-2623c291bb7f",
+     "parentId": "96006c74-168f-4e53-9744-da6f30c8b26f",
+     "childrenIds": [
+      "5b84d257-7a54-40b9-b596-4fee70c6a8fb"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Crafting a vivid visual narrative",
+          "Rendering a cinematic scene of flight and tension",
+          "Expanding the prompt with meticulous detail and atmospheric depth",
+          "Rendering a vivid, immersive scene with meticulous attention to detail",
+          "Crafting a vivid cinematic vision with meticulous attention to atmosphere and detail",
+          "Rendering a vivid, emotionally charged scene with meticulous attention to detail and atmosphere.",
+          "Rendering a vivid, cinematic scene of an ancient Mesopotamian marketplace."
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am envisioning a striking figure of imposing stature, his presence defined by flowing dark curls and a sleek, reflective crimson coat that gleams with modern elegance.  \nThe atmosphere hums with quiet intensity, each detail shaped to convey both power and refinement.  \nI am shaping the scene with precision, ensuring every element resonates with cinematic depth and emotional weight.",
+          "I envision a figure in a tracksuit moving diagonally across the frame, his motion suggesting urgency and purpose. Beside him, a woman adorned in ancient Mesopotamian regalia, her form shimmering with gold and jewels, leans on his shoulder with a veil concealing half her face, both glancing back with wary eyes. The blurred backdrop pulses with life—a bustling market from antiquity—its warm earth tones contrasting sharply with the high-contrast drama of their escape.",
+          "I am enriching the narrative by layering intricate visual elements, from the finest textures of skin to the subtle interplay of light and shadow.  \nI am crafting a cinematic atmosphere through precise camera specifications, lens characteristics, and rendering techniques that evoke a hyper-realistic ambiance.  \nEach element is meticulously described to amplify scale, emotion, and immersion, transforming the scene into a vast, living tapestry of sensory experience.",
+          "I am crafting a richly textured narrative that brings every element to life through precise visual and emotional depth.  \nI focus on the interplay of light and shadow, the authenticity of materials, and the subtle language of posture and gaze to convey unspoken tension.  \nThe environment unfolds as a living tapestry, where scent, sound, and texture emerge from the details of daily life in ancient Mesopotamia.",
+          "I am envisioning a powerful, immersive scene where every element—from the interplay of light and shadow to the texture of skin and hair—conveys intensity and realism.  \nI am layering in atmospheric depth through subtle fog, drifting dust, and nuanced color temperature shifts that enhance mood and dimension.  \nI am refining the visual language with rich post-processing textures, filmic grain, and a distinct artistic style that elevates the image into a timeless cinematic moment.",
+          "I am conjuring a moment of intense suspense, where the interplay of light and texture amplifies the characters' vulnerability and urgency.  \nThe crimson-red tracksuit glows with lifelike realism, contrasting sharply with the ancient regalia of the woman whose jeweled attire shimmers under ambient glow.  \nTogether, we inhabit a tense narrative suspended between past and present, where every fiber and gemstone speaks of fear, flight, and fragile connection.",
+          "I am meticulously crafting a visual narrative where a striking red tracksuit stands out against the earthy, muted tones of the historical setting.  \nI amplify the drama through dynamic lighting, volumetric rays, and rich color grading to evoke emotional depth and artistic excellence.  \nThe final image emerges as a masterful blend of realism and artistry, poised for acclaim on digital platforms."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "18394b99-665e-403d-9d06-2623c291bb7f",
+       "usage": {
+        "input_tokens": 6645,
+        "output_tokens": 1267,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2549,
+         "text_tokens": 4096
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 4352
+        },
+        "total_tokens": 7912,
+        "output_tokens_details": {
+         "reasoning_tokens": 1252,
+         "text_tokens": 15
+        },
+        "image_tokens": 2549
+       },
+       "timestamp": 1782827631
+      },
+      {
+       "content": "Ultra-high-definition cinematic movie poster masterpiece, vertical 9:17 aspect ratio, shot on ARRI Alexa 65 with Panavision Ultra Vista lenses, 35mm anamorphic format, 8k resolution, photorealistic, extreme microscopic detail. Dynamic diagonal composition leading from the top-left to the middle-right, intense motion blur effect on the periphery to convey speed and urgency, shallow depth of field f/1.4. A towering 194cm man with a powerful, athletic build, featuring hyper-detailed skin texture with visible pores, subtle sweat droplets, and realistic subsurface scattering. He has long, voluminous, dark curly hair cascading down his back, with individual strands catching the warm rim light, and a thick, perfectly groomed beard and mustache. He is wearing a full, glossy, metallic crimson-red modern tracksuit, showcasing hyper-realistic fabric folds, deep reflective specular highlights, detailed zipper textures, and tight stitching, with the red material reflecting the ambient market light to create a striking visual anchor. On his right side, a stunning woman in authentic ancient Mesopotamian royal attire. Her clothing is heavily encrusted with sparkling lapis lazuli, carnelian gemstones, turquoise, and intricate gold filigree, with every single jewel catching the light. She wears a sheer, gossamer veil with delicate gold threading covering the lower half of her face, revealing only her expressive, wide, and fearful eyes, and she leans intimately against his shoulder, her posture conveying exhaustion and reliance. Both characters are looking sharply back over their shoulders with intense, vigilant, and fearful expressions, their muscles tensed as if fleeing from a dangerous pursuer, with palpable psychological tension in their facial micro-expressions. The background is a bustling, highly detailed ancient Mesopotamian marketplace with towering mud-brick architecture, woven awnings, and clay pottery stalls, filled with blurred figures in rough-spun earthy beige, terracotta, and dark brown linen robes, creating a sea of neutral tones. Extreme high color contrast between the vibrant metallic red tracksuit and the muted ancient surroundings. Dramatic chiaroscuro lighting, volumetric god rays piercing through swirling market dust and sand particles, golden hour color temperature mixed with cool shadow tones, cinematic color grading, subtle film grain, sharp focus on the faces, award-winning photography, Unreal Engine 5 render style, masterpiece, trending on ArtStation, 8k UHD.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "18394b99-665e-403d-9d06-2623c291bb7f",
+       "usage": {
+        "input_tokens": 6645,
+        "output_tokens": 1759,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2549,
+         "text_tokens": 4096
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 4352
+        },
+        "total_tokens": 8404,
+        "output_tokens_details": {
+         "reasoning_tokens": 1252,
+         "text_tokens": 507
+        },
+        "image_tokens": 2549
+       },
+       "timestamp": 1782827639
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1782827639.6685784
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1782827604
+    },
+    "5b84d257-7a54-40b9-b596-4fee70c6a8fb": {
+     "id": "5b84d257-7a54-40b9-b596-4fee70c6a8fb",
+     "role": "user",
+     "content": "Ellos corren 9:16 ruido de mercadillo, caballos, ",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "i2v",
+       "size": "16:9"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "parentId": "18394b99-665e-403d-9d06-2623c291bb7f",
+     "turn_id": null,
+     "childrenIds": [
+      "5b16d732-af32-47ca-aa05-32862b58202f"
+     ],
+     "files": [
+      {
+       "id": "412bf326-255a-4abf-b651-d1105e5e0de7",
+       "name": "file_00000000889871f4afd11b9eff9bd553.png",
+       "file_type": "image/png",
+       "type": "image",
+       "file_class": "vision",
+       "size": 2343106,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/412bf326-255a-4abf-b651-d1105e5e0de7_file_00000000889871f4afd11b9eff9bd553.png?key=[SECRETO_REDACTADO]",
+       "file": {
+        "created_at": 1782827933038,
+        "data": {},
+        "filename": "file_00000000889871f4afd11b9eff9bd553.png",
+        "hash": null,
+        "id": "412bf326-255a-4abf-b651-d1105e5e0de7",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "file_00000000889871f4afd11b9eff9bd553.png",
+         "size": 2343106,
+         "content_type": "image/png"
+        },
+        "update_at": 1782827933038,
+        "lastModified": 1782827886000,
+        "name": "file_00000000889871f4afd11b9eff9bd553.png",
+        "webkitRelativePath": "",
+        "size": 2343106,
+        "type": "image/png"
+       },
+       "collection_name": "",
+       "progress": 100,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "d38cb820-f231-4c44-8a21-356262d2636b",
+       "showType": "image",
+       "uploadTaskId": "77eb94cf-3001-42e0-9266-f7637520d126"
+      }
+     ],
+     "timestamp": 1782827946
+    },
+    "5b16d732-af32-47ca-aa05-32862b58202f": {
+     "role": "assistant",
+     "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/5b16d732-af32-47ca-aa05-32862b58202f/5c20c76d-3db1-463a-af8b-cadb1228edc9.mp4?key=[SECRETO_REDACTADO]",
+     "reasoning_content": null,
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "5b16d732-af32-47ca-aa05-32862b58202f",
+     "parentId": "5b84d257-7a54-40b9-b596-4fee70c6a8fb",
+     "childrenIds": [
+      "928a4fa2-eee6-461f-b4d8-9974ee661e40"
+     ],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "content_list": null,
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "wanx": {
+       "task_id": "5c20c76d-3db1-463a-af8b-cadb1228edc9"
+      },
+      "endTime": 1782827947.4054756
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": {
+      "size": "16:9"
+     },
+     "timestamp": 1782827946
+    },
+    "928a4fa2-eee6-461f-b4d8-9974ee661e40": {
+     "id": "928a4fa2-eee6-461f-b4d8-9974ee661e40",
+     "role": "user",
+     "content": "Puedes recuperar fotos del archivo hacer un video donde a cada medio secundo cambia de escena como si fuera un mini trailer. Con efecto de transicion",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2v",
+     "sub_chat_type": "t2v",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2v",
+       "size": "16:9"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "parentId": "5b16d732-af32-47ca-aa05-32862b58202f",
+     "turn_id": null,
+     "childrenIds": [
+      "24463899-9728-430c-ad5b-94e6f455acb0"
+     ],
+     "files": [],
+     "timestamp": 1782834469
+    },
+    "24463899-9728-430c-ad5b-94e6f455acb0": {
+     "role": "assistant",
+     "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2v/24463899-9728-430c-ad5b-94e6f455acb0/00c66667-68ce-434b-a0bd-f0bb1062d187.mp4?key=[SECRETO_REDACTADO]",
+     "reasoning_content": null,
+     "chat_type": "t2v",
+     "sub_chat_type": "t2v",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "24463899-9728-430c-ad5b-94e6f455acb0",
+     "parentId": "928a4fa2-eee6-461f-b4d8-9974ee661e40",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "content_list": null,
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "wanx": {
+       "task_id": "00c66667-68ce-434b-a0bd-f0bb1062d187"
+      },
+      "endTime": 1782834471.1414063
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": {
+      "size": "16:9"
+     },
+     "timestamp": 1782834469
+    }
+   },
+   "currentId": "24463899-9728-430c-ad5b-94e6f455acb0",
+   "currentResponseIds": [
+    "24463899-9728-430c-ad5b-94e6f455acb0"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.7-plus"
+  ],
+  "messages": [
+   {
+    "id": "1e29b504-a086-41f8-b237-267ff02c1014",
+    "role": "user",
+    "content": "Hombre pelo largo rizado oscuro 194cm con mujer vesrita en ropas llena de pedras brillantes epoca mesopotamica. El hombre no es de esa epoca la mujer si . Van andando en un mercadonde la epoca y sobre todo el destaca por en contraste de colores ya que mayoria va en beige y marron oscuro. Esten caminando pero miran hacia atras parece que vigilan si les persigue. Ella se apoya en un hombro y se tapa mitad del rostro con el velo que lleva",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2i",
+    "sub_chat_type": "t2i",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2i",
+      "size": "9:16"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "62b8af5f-f63a-4ad2-b647-94d477e18172"
+    ],
+    "files": [
+     {
+      "id": "5c864ab3-d6e3-41d2-a0b7-b1d3c6abf53f",
+      "name": "file_00000000b91871f483cd75a42b79e9d9.png",
+      "file_type": "image/png",
+      "type": "image",
+      "file_class": "vision",
+      "size": 2310762,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/5c864ab3-d6e3-41d2-a0b7-b1d3c6abf53f_file_00000000b91871f483cd75a42b79e9d9.png?key=[SECRETO_REDACTADO]",
+      "file": {
+       "created_at": 1782826690482,
+       "data": {},
+       "filename": "file_00000000b91871f483cd75a42b79e9d9.png",
+       "hash": null,
+       "id": "5c864ab3-d6e3-41d2-a0b7-b1d3c6abf53f",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "file_00000000b91871f483cd75a42b79e9d9.png",
+        "size": 2310762,
+        "content_type": "image/png"
+       },
+       "update_at": 1782826690482,
+       "lastModified": 1779843606860,
+       "name": "file_00000000b91871f483cd75a42b79e9d9.png",
+       "webkitRelativePath": "",
+       "size": 2310762,
+       "type": "image/png"
+      },
+      "collection_name": "",
+      "progress": 100,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "2de68b2b-bf17-4eaf-9626-2817a09a182f",
+      "showType": "image",
+      "uploadTaskId": "8cf05ae6-8ccf-457d-baae-229a3442173b"
+     }
+    ],
+    "timestamp": 1782826821
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2i",
+    "sub_chat_type": "t2i",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "62b8af5f-f63a-4ad2-b647-94d477e18172",
+    "parentId": "1e29b504-a086-41f8-b237-267ff02c1014",
+    "childrenIds": [
+     "f808a608-67bc-48da-ac67-5cac2e4d85c7"
+    ],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/62b8af5f-f63a-4ad2-b647-94d477e18172/178282684219c2.png?key=[SECRETO_REDACTADO]",
+      "phase": "image_gen",
+      "status": "finished",
+      "extra": {
+       "output_image_hw": [
+        [
+         1024,
+         1024
+        ]
+       ]
+      },
+      "role": "assistant",
+      "response_id": "62b8af5f-f63a-4ad2-b647-94d477e18172",
+      "usage": {
+       "input_tokens": 0,
+       "output_tokens": 0,
+       "characters": 0,
+       "width": 1024,
+       "image_count": 1,
+       "height": 1024
+      },
+      "timestamp": 1782826842
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2i",
+      "size": "9:16"
+     },
+     "endTime": 1782826843.486949
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1782826821
+   },
+   {
+    "id": "f808a608-67bc-48da-ac67-5cac2e4d85c7",
+    "role": "user",
+    "content": "Prompt mejorado detalle extremo",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "62b8af5f-f63a-4ad2-b647-94d477e18172",
+    "turn_id": null,
+    "childrenIds": [
+     "c311e6a4-68d2-4f40-b95f-45aeb05f2191"
+    ],
+    "files": [],
+    "timestamp": 1782826866
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "c311e6a4-68d2-4f40-b95f-45aeb05f2191",
+    "parentId": "f808a608-67bc-48da-ac67-5cac2e4d85c7",
+    "childrenIds": [
+     "8ed33424-8305-409a-8c88-5d0d98b5fb2d"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Refinando la imagen con detalles extremos",
+         "Visualizando la figura con precisión",
+         "Observando el escenario con atención",
+         "Visualizing a hyper-detailed cinematic scene with intense realism and emotional tension",
+         "Visualizando la escena con precisión y profundidad",
+         "Visualizando la escena con detalle extremo",
+         "Crafting a vivid cinematic scene with meticulous attention to atmosphere and detail",
+         "Crafting a vivid, hyper-detailed cinematic scene with dramatic contrast and immersive atmosphere.",
+         "Conjuntando imágenes visuales y emociones en un instante cargado de tensión y belleza"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "Estoy profundizando en cada elemento visual del personaje, centrándome en la textura y volumen de su cabello rizado, que se despliega como ondas de humo oscuro bajo una luz tenue. Cada rizo es un relámpago de sombra y brillo, interactuando con el aire circundante como si tuviera vida propia. La piel revela finas líneas de expresión, marcadas por la luz que juega entre las arrugas y los pliegues del rostro, mientras sus ojos reflejan un mundo interior insondable.",
+         "Estoy configurando una imagen de un hombre de gran estatura, cuya presencia domina el entorno por su altura de 194 cm.  \nSu chaqueta roja brillante, con textura metálica o futurista, contrasta intensamente con el fondo oscuro, mientras su mirada seria y alerta, dirigida hacia atrás, transmite una sensación de vigilancia sutil.  \nLa barba oscura y bien cuidada añade un toque de intensidad a su rostro, reforzando una imagen de autoridad silenciosa y misterio contenidos.",
+         "Estoy imaginando una escena histórica vibrante, donde la mujer mesopotámica se desliza entre la multitud con elegancia y sigilo, su velo ocultando parte de su rostro mientras apoya levemente su peso en el hombro del hombre.  \nLa riqueza de sus joyas brillantes contrasta con el fondo terroso de los mercaderes, cada piedra reflejando la luz como un susurro de poder antiguo.  \nEl hombre, envuelto en un rojo intenso, destaca como una llama entre sombras, ambos moviéndose con cautela, vigilando el pasado que tal vez ya no puede escapar.",
+         "I am constructing a vivid image where a towering figure in a futuristic metallic red jacket stands out against the earthy tones of an ancient Mesopotamian marketplace, his presence both anachronistic and commanding  \nBeside him, a veiled woman with ornate jewelry leans subtly into his frame, her half-hidden gaze fixed behind them with wary anticipation, as if sensing unseen danger  \nThe atmosphere hums with suspense—every texture of skin, fabric, and stone rendered in lifelike precision under dramatic lighting that amplifies the stark contrast between the vibrant red and the muted desert hues",
+         "Estoy construyendo una imagen que fusiona lo antiguo con lo futurista, donde el hombre de cabello oscuro y barba densa destaca con su chaqueta roja metálica brillante, contrastando con el ambiente polvoriento y vibrante de un mercado mesopotámico.  \nCada detalle está cuidadosamente definido: el relieve de los bordados dorados y gemas en la vestimenta de la mujer, la textura del cuero brillante de la chaqueta, y el reflejo realista del rayo de luz sobre superficies pulidas.  \nLa atmósfera está cargada de tensión, capturada en sus miradas hacia atrás, mientras el entorno se desdibuja en una mezcla de sombras profundas y tonos terrosos, todo bajo una iluminación precisa que resalta cada imperfección y brillo.",
+         "Estoy construyendo una imagen narrativa que combina elementos anacrónicos y arcaicos con precisión poética. El hombre de estatura imponente, con cabello oscuro rizado y barba espesa, domina el encuadre con una mirada intensa que desafía al espectador. A su lado, la mujer del antiguo Mesopotamia, envuelta en sedas brillantes y joyas incrustadas, apoya su rostro cubierto por un velo fino mientras lo mira con temor, integrándose en el bullicio de un mercado de ladrillo crudo donde las siluetas en túnicas beis y marrones se mueven como sombras de otro tiempo.",
+         "I am envisioning a moment charged with tension, where ancient and futuristic elements collide in a bustling marketplace.  \nThe man’s imposing figure and radiant red jacket stand out against the earthy tones of the crowd, while the woman’s jeweled attire glimmers under dramatic lighting.  \nBoth characters convey urgency and vigilance, their expressions frozen in a silent plea as they glance back, caught between worlds.",
+         "I am envisioning a powerful narrative moment where a striking figure stands in stark contrast to his ancient surroundings, his presence both anachronistic and commanding.  \nThe interplay of light and texture—glossy metallic fabric against weathered stone, wild hair catching the golden glow—anchors the realism and emotional weight.  \nI am refining every element to evoke not just visual splendor but a story etched in shadow and hue.",
+         "I visualizo una escena cinematográfica donde la luz dramática y el detalle extremo dan vida a dos figuras en fuga, cada rasgo de piel y tejido cargado de significado  \nEl contraste entre el rojo vibrante del abrigo y el tono apagado del mercado mesopotámico intensifica la urgencia, mientras el velo y la postura de la mujer revelan vulnerabilidad y confianza entrelazadas  \nMi atención se centra en la expresión de vigilancia mutua, como si cada mirada hacia atrás fuera un susurro de peligro que no puede ser ignorado"
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "c311e6a4-68d2-4f40-b95f-45aeb05f2191",
+      "usage": {
+       "input_tokens": 2698,
+       "output_tokens": 1909,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2549,
+        "text_tokens": 149
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       },
+       "total_tokens": 4607,
+       "output_tokens_details": {
+        "reasoning_tokens": 1902,
+        "text_tokens": 7
+       },
+       "image_tokens": 2549
+      },
+      "timestamp": 1782826906
+     },
+     {
+      "content": "Aquí tienes una propuesta de prompt optimizado para obtener un resultado de **detalle extremo** (fotorrealista, cinematográfico y con alta resolución), basado en tu descripción y las imágenes de referencia.\n\nEste prompt está diseñado en inglés, ya que es el idioma que mejor interpretan las IAs generadoras de imágenes (como Midjourney, Stable Diffusion o DALL-E 3) para lograr el máximo nivel de detalle.\n\n### Prompt Mejorado (Inglés - Recomendado)\n\n> **Hyper-realistic cinematic masterpiece, 8k resolution, extreme detail. A towering 194cm man with long, voluminous dark curly hair and a groomed beard, wearing a striking, glossy metallic red futuristic jacket that contrasts sharply with the environment. He is walking through a bustling ancient Mesopotamian marketplace. Beside him, a woman in authentic ancient Mesopotamian attire, her dress heavily encrusted with sparkling gemstones, gold, and jewels, leans her head on his shoulder. She wears a sheer veil covering the lower half of her face. Both characters are looking back over their shoulders with intense, vigilant expressions, as if fleeing or being pursued. The background is filled with people in earthy beige and dark brown robes, blurred slightly to emphasize the subjects. The lighting highlights the shine of the red jacket and the sparkle of the woman's jewels. Dusty atmosphere, volumetric lighting, sharp focus, subsurface scattering on skin, color contrast.**\n\n---\n\n### Desglose de los elementos clave para el \"Detalle Extremo\":\n\n1.  **El Contraste (Color & Texture):** Se enfatiza la chaqueta \"glossy metallic red\" (roja metálica brillante) frente a los tonos \"earthy beige and dark brown\" (beige tierra y marrón oscuro) del fondo. Esto crea el impacto visual que pediste.\n2.  **La Anatomía y Rostro:** Se especifica \"194cm\" (towering/imponente) y \"long voluminous dark curly hair\" para capturar la melena de la primera imagen.\n3.  **La Época y Ropa de Ella:** \"Authentic ancient Mesopotamian attire... encrusted with sparkling gemstones\" asegura que la ropa de ella tenga ese aspecto de joyería pesada y antigua.\n4.  **La Acción y Emoción:** \"Looking back over their shoulders with intense, vigilant expressions\" (Mirando hacia atrás con expresiones intensas y vigilantes) captura la tensión de la huida.\n5.  **Calidad Técnica:** Palabras como \"8k resolution\", \"subsurface scattering\" (para la piel realista) y \"volumetric lighting\" (iluminación con volumen/polvo) aseguran que no parezca un dibujo, sino una foto de película.\n\n### Versión en Español (Para IAs que lo soporten)\n\n> **Obra maestra cinematográfica hiperrealista, resolución 8k, detalle extremo. Un hombre imponente de 194cm con pelo largo, rizado y oscuro, y barba, vistiendo una chaqueta roja metálica brillante y futurista que contrasta fuertemente con el entorno. Camina por un mercado de la época mesopotámica. A su lado, una mujer con vestimenta auténtica mesopotámica llena de piedras brillantes y joyas, con un velo que le cubre la mitad del rostro, se apoya en su hombro. Ambos miran hacia atrás con expresión de alerta y vigilancia, como si huyeran. El fondo muestra un mercado con gente en tonos beige y marrón oscuro. Iluminación dramática, texturas de piel y ropa ultra detalladas, contraste de color vibrante, atmósfera polvorienta.**",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "c311e6a4-68d2-4f40-b95f-45aeb05f2191",
+      "usage": {
+       "input_tokens": 2698,
+       "output_tokens": 2698,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2549,
+        "text_tokens": 149
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       },
+       "total_tokens": 5396,
+       "output_tokens_details": {
+        "reasoning_tokens": 1902,
+        "text_tokens": 796
+       },
+       "image_tokens": 2549
+      },
+      "timestamp": 1782826919
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1782826919.990913
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1782826866
+   },
+   {
+    "id": "8ed33424-8305-409a-8c88-5d0d98b5fb2d",
+    "role": "user",
+    "content": "Ella esta el lado de el a su derecha y es la foto 9:17 van hacia la dereche perpendiculas diagonal de izquirrda arriba a dereccccha medio . Estilo poster movimiento efect todo el trake de el es rojo",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "c311e6a4-68d2-4f40-b95f-45aeb05f2191",
+    "turn_id": null,
+    "childrenIds": [
+     "80ac96e3-7241-4344-8d92-42803272ae72",
+     "045ace66-36ed-4476-8f50-f1a651a09136"
+    ],
+    "files": [],
+    "timestamp": 1782827415
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "80ac96e3-7241-4344-8d92-42803272ae72",
+    "parentId": "8ed33424-8305-409a-8c88-5d0d98b5fb2d",
+    "childrenIds": [
+     "4c12c1bc-1103-41d9-994c-c8b3c27b5191"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Adjusting the composition to reflect the woman's position on the man's right side",
+         "Positioning the figures within the frame based on directional movement and spatial relationship.",
+         "Positioning the figures according to spatial relationships in the scene",
+         "Moving dynamically across the frame from top-left to middle-right",
+         "Walking through a cinematic vision of contrast and motion",
+         "Crafting a vivid cinematic scene with deliberate contrast and motion",
+         "Crafting a vivid cinematic vision with precision and artistry"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am reimagining the spatial arrangement to place the woman precisely to the man's right from the viewer’s perspective  \nThis shift enhances the narrative intimacy and visual balance of the scene  \nI am ensuring the new positioning aligns with the intended emotional and aesthetic tone",
+         "I am considering how relative positioning—such as one person being to the other’s right—affects visual composition when they move toward or away from the frame's edge.  \nI interpret that if he is on the left and she is on his right, she would appear slightly behind or beside him depending on the angle of motion.  \nI assume a standard cinematic layout where the man leads on the left and the woman follows on his right side.",
+         "I consider the directional alignment based on the man’s orientation and the frame’s perspective, ensuring the woman stands to his right within the composition  \nI maintain a vertical framing that enhances the narrative intimacy of the couple’s movement  \nI guide their motion along a perpendicular path, preserving natural flow and visual balance",
+         "I am interpreting the directional movement as a diagonal trajectory from the upper left toward the center-right, emphasizing forward momentum.  \nThe cinematic poster style with motion effects suggests incorporating dynamic blur and dramatic posing to enhance visual impact.  \nHis entire outfit is rendered in red, reinforcing a bold, cohesive visual identity.",
+         "I envision a towering man with dark curls and beard, clad head to toe in a bold red modern ensemble, his presence sharp against the ancient stillness of a woman draped in jeweled regalia and veiled mystery.  \nWe move diagonally across the frame, he glancing back with quiet vigilance, she nestled close at his side, her silhouette a whisper of history beside his electric stride.  \nThe composition pulses with dynamic energy—motion blur, dramatic angle, and a 9:17 ratio shaping a moment that feels both fleeting and eternal.",
+         "I am merging modern and ancient elements into a single dynamic composition, where the man’s bold red tracksuit stands out against the timeless elegance of the woman’s gem-studded attire.  \nThe diagonal movement from top-left to mid-right creates urgency and perspective, drawing the eye through the frame as if capturing a fleeting moment of escape.  \nTogether, their profiles turned back in alarm, they become symbols of collision across eras, anchored by a blurred, earth-toned Mesopotamian market that whispers history beneath the present.",
+         "I am envisioning a dynamic, high-impact scene where form and motion converge in rich detail.  \nThe man strides with commanding presence, his glossy red attire glowing under dramatic lighting, while the woman, veiled and adorned in ancient splendor, leans into his shadow with quiet intensity.  \nTogether they move diagonally across the frame, their gaze turning back with silent narrative weight, set against an austere yet textured ancient market."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "80ac96e3-7241-4344-8d92-42803272ae72",
+      "usage": {
+       "input_tokens": 3549,
+       "output_tokens": 1341,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2549,
+        "text_tokens": 1000
+       },
+       "prompt_tokens_details": {},
+       "total_tokens": 4890,
+       "output_tokens_details": {
+        "reasoning_tokens": 1336,
+        "text_tokens": 5
+       },
+       "image_tokens": 2549
+      },
+      "timestamp": 1782827455
+     },
+     {
+      "content": "Aquí tienes el prompt ajustado con todas las correcciones: el hombre lleva **todo el traje rojo** (no solo la chaqueta), la mujer está a su derecha, la composición es en diagonal (de arriba-izquierda a medio-derecha), formato vertical **9:17** y estilo póster con efecto de movimiento.\n\n### Prompt Optimizado (Inglés - Para mejor calidad)\n\n> **Cinematic movie poster style, vertical 9:17 aspect ratio. Dynamic motion effect. A towering 194cm man with long voluminous dark curly hair and beard, wearing a full glossy red modern tracksuit (jacket and pants), walking diagonally from the top left towards the middle right. On his right side, a woman in authentic ancient Mesopotamian clothing heavily adorned with sparkling gemstones and gold, wearing a veil covering half her face, leans against him. Both look back over their shoulders with intense vigilance as if fleeing. The background is a bustling ancient market in earthy beige and brown tones, slightly blurred to emphasize motion and depth. High contrast between the man's bright red outfit and the ancient surroundings. 8k, highly detailed, dramatic lighting, action shot.**\n\n### Traducción / Explicación de los cambios:\n*   **Full glossy red modern tracksuit:** Ahora especifica que lleva el traje completo (chaqueta y pantalón) rojo y brillante, para maximizar el contraste con el entorno beige.\n*   **Vertical 9:17 aspect ratio:** Fuerza el formato vertical alargado que pediste.\n*   **Walking diagonally from the top left towards the middle right:** Coloca la acción en la diagonal exacta que describiste.\n*   **On his right side:** Asegura que ella esté posicionada a la derecha de él.\n*   **Dynamic motion effect / blurred background:** Añade el estilo de póster de acción con sensación de movimiento.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "80ac96e3-7241-4344-8d92-42803272ae72",
+      "usage": {
+       "input_tokens": 3549,
+       "output_tokens": 1746,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2549,
+        "text_tokens": 1000
+       },
+       "prompt_tokens_details": {},
+       "total_tokens": 5295,
+       "output_tokens_details": {
+        "reasoning_tokens": 1336,
+        "text_tokens": 410
+       },
+       "image_tokens": 2549
+      },
+      "timestamp": 1782827464
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1782827464.8994727
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1782827415
+   },
+   {
+    "id": "4c12c1bc-1103-41d9-994c-c8b3c27b5191",
+    "role": "user",
+    "content": "Aquí tienes una propuesta de prompt optimizado para obtener un resultado de **detalle extremo** (fotorrealista, cinematográfico y con alta resolución), basado en tu descripción y las imágenes de referencia.\n\nEste prompt está diseñado en inglés, ya que es el idioma que mejor interpretan las IAs generadoras de imágenes (como Midjourney, Stable Diffusion o DALL-E 3) para lograr el máximo nivel de detalle.\n\n### Prompt Mejorado (Inglés - Recomendado)\n\n> **Hyper-realistic cinematic masterpiece, 8k resolution, extreme detail. A towering 194cm man with long, voluminous dark curly hair and a groomed beard, wearing a striking, glossy metallic red futuristic jacket that contrasts sharply with the environment. He is walking through a bustling ancient Mesopotamian marketplace. Beside him, a woman in authentic ancient Mesopotamian attire, her dress heavily encrusted with sparkling gemstones, gold, and jewels, leans her head on his shoulder. She wears a sheer veil covering the lower half of her face. Both characters are looking back over their shoulders with intense, vigilant expressions, as if fleeing or being pursued. The background is filled with people in earthy beige and dark brown robes, blurred slightly to emphasize the subjects. The lighting highlights the shine of the red jacket and the sparkle of the woman's jewels. Dusty atmosphere, volumetric lighting, sharp focus, subsurface scattering on skin, color contrast.**\n\n---\n\n### Desglose de los elementos clave para el \"Detalle Extremo\":\n\n1.  **El Contraste (Color & Texture):** Se enfatiza la chaqueta \"glossy metallic red\" (roja metálica brillante) frente a los tonos \"earthy beige and dark brown\" (beige tierra y marrón oscuro) del fondo. Esto crea el impacto visual que pediste.\n2.  **La Anatomía y Rostro:** Se especifica \"194cm\" (towering/imponente) y \"long voluminous dark curly hair\" para capturar la melena de la primera imagen.\n3.  **La Época y Ropa de Ella:** \"Authentic ancient Mesopotamian attire... encrusted with sparkling gemstones\" asegura que la ropa de ella tenga ese aspecto de joyería pesada y antigua.\n4.  **La Acción y Emoción:** \"Looking back over their shoulders with intense, vigilant expressions\" (Mirando hacia atrás con expresiones intensas y vigilantes) captura la tensión de la huida.\n5.  **Calidad Técnica:** Palabras como \"8k resolution\", \"subsurface scattering\" (para la piel realista) y \"volumetric lighting\" (iluminación con volumen/polvo) aseguran que no parezca un dibujo, sino una foto de película.\n\n### Versión en Español (Para IAs que lo soporten)\n\n> **Obra maestra cinematográfica hiperrealista, resolución 8k, detalle extremo. Un hombre imponente de 194cm con pelo largo, rizado y oscuro, y barba, vistiendo una chaqueta roja metálica brillante y futurista que contrasta fuertemente con el entorno. Camina por un mercado de la época mesopotámica. A su lado, una mujer con vestimenta auténtica mesopotámica llena de piedras brillantes y joyas, con un velo que le cubre la mitad del rostro, se apoya en su hombro. Ambos miran hacia atrás con expresión de alerta y vigilancia, como si huyeran. El fondo muestra un mercado con gente en tonos beige y marrón oscuro. Iluminación dramática, texturas de piel y ropa ultra detalladas, contraste de color vibrante, atmósfera polvorienta.**Aquí tienes el prompt ajustado con todas las correcciones: el hombre lleva **todo el traje rojo** (no solo la chaqueta), la mujer está a su derecha, la composición es en diagonal (de arriba-izquierda a medio-derecha), formato vertical **9:17** y estilo póster con efecto de movimiento.\n\n### Prompt Optimizado (Inglés - Para mejor calidad)\n\n> **Cinematic movie poster style, vertical 9:17 aspect ratio. Dynamic motion effect. A towering 194cm man with long voluminous dark curly hair and beard, wearing a full glossy red modern tracksuit (jacket and pants), walking diagonally from the top left towards the middle right. On his right side, a woman in authentic ancient Mesopotamian clothing heavily adorned with sparkling gemstones and gold, wearing a veil covering half her face, leans against him. Both look back over their shoulders with intense vigilance as if fleeing. The background is a bustling ancient market in earthy beige and brown tones, slightly blurred to emphasize motion and depth. High contrast between the man's bright red outfit and the ancient surroundings. 8k, highly detailed, dramatic lighting, action shot.**\n\n### Traducción / Explicación de los cambios:\n*   **Full glossy red modern tracksuit:** Ahora especifica que lleva el traje completo (chaqueta y pantalón) rojo y brillante, para maximizar el contraste con el entorno beige.\n*   **Vertical 9:17 aspect ratio:** Fuerza el formato vertical alargado que pediste.\n*   **Walking diagonally from the top left towards the middle right:** Coloca la acción en la diagonal exacta que describiste.\n*   **On his right side:** Asegura que ella esté posicionada a la derecha de él.\n*   **Dynamic motion effect / blurred background:** Añade el estilo de póster de acción con sensación de movimiento.",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "80ac96e3-7241-4344-8d92-42803272ae72",
+    "turn_id": null,
+    "childrenIds": [
+     "abd48889-c276-47fc-9142-e3718ee1bcc7"
+    ],
+    "files": [],
+    "timestamp": 1782827490
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "abd48889-c276-47fc-9142-e3718ee1bcc7",
+    "parentId": "4c12c1bc-1103-41d9-994c-c8b3c27b5191",
+    "childrenIds": [
+     "5462be83-385f-4a73-9aad-e88a03899385"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Synthesizing insights from prior reflections to deliver a cohesive, refined response."
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am integrating layered understandings into a unified perspective.  \nEach element is carefully woven to reflect depth and coherence.  \nThe result emerges as a seamless expression of accumulated insight."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "abd48889-c276-47fc-9142-e3718ee1bcc7",
+      "usage": {
+       "input_tokens": 5167,
+       "output_tokens": 95,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2549,
+        "text_tokens": 2618
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 2176
+       },
+       "total_tokens": 5262,
+       "output_tokens_details": {
+        "reasoning_tokens": 91,
+        "text_tokens": 4
+       },
+       "image_tokens": 2549
+      },
+      "timestamp": 1782827497
+     },
+     {
+      "content": "# 🎬 Prompt Final Definitivo (Combinado y Optimizado)\n\nAquí tienes el **prompt maestro** que fusiona el detalle extremo de la primera versión con todas las correcciones de composición, vestimenta y formato de la segunda:\n\n---\n\n### ✅ PROMPT FINAL EN INGLÉS (Recomendado para Midjourney / DALL-E 3 / Stable Diffusion)\n\n> **Cinematic movie poster style, vertical 9:17 aspect ratio, dynamic motion blur effect. Hyper-realistic 8k resolution, extreme detail. A towering 194cm man with long voluminous dark curly hair and groomed beard, wearing a full glossy metallic red modern tracksuit (jacket and pants), walking diagonally from the top left towards the middle right of the frame. On his right side, a woman in authentic ancient Mesopotamian attire heavily encrusted with sparkling gemstones, gold, and jewels, wearing a sheer veil covering the lower half of her face, leans her head on his shoulder. Both characters look back over their shoulders with intense, vigilant expressions as if fleeing or being pursued. The background is a bustling ancient Mesopotamian marketplace filled with people in earthy beige and dark brown robes, slightly blurred to emphasize motion and depth. High color contrast between the man's bright red outfit and the ancient surroundings. Dramatic volumetric lighting, dusty atmosphere, subsurface scattering on skin, sharp focus on faces, action shot masterpiece.**\n\n---\n\n### ✅ PROMPT FINAL EN ESPAÑOL\n\n> **Estilo póster de película cinematográfica, formato vertical 9:17, efecto de movimiento dinámico. Hiperrealista, resolución 8k, detalle extremo. Un hombre imponente de 194cm con pelo largo, rizado y oscuro, y barba cuidada, vistiendo un chándal moderno rojo metálico brillante completo (chaqueta y pantalón), caminando en diagonal desde la parte superior izquierda hacia el centro-derecha del encuadre. A su derecha, una mujer con vestimenta auténtica mesopotámica antigua, ricamente adornada con piedras brillantes, oro y joyas, con un velo transparente que le cubre la mitad inferior del rostro, apoya su cabeza en su hombro. Ambos miran hacia atrás sobre sus hombros con expresiones intensas y vigilantes, como si huyeran o fueran perseguidos. El fondo es un bullicioso mercado mesopotámico antiguo lleno de gente con túnicas en tonos beige tierra y marrón oscuro, ligeramente desenfocado para enfatizar el movimiento y la profundidad. Alto contraste de color entre el outfit rojo brillante del hombre y el entorno antiguo. Iluminación dramática volumétrica, atmósfera polvorienta, dispersión subsuperficial en la piel, enfoque nítido en los rostros, obra maestra de acción.**\n\n---\n\n### 📋 Resumen de todo lo incluido:\n\n| Elemento | Detalle |\n|---|---|\n| **Formato** | Vertical 9:17 (póster) |\n| **Composición** | Diagonal: arriba-izquierda → centro-derecha |\n| **Él** | 194cm, pelo largo rizado oscuro, barba, **traje completo rojo metálico brillante** |\n| **Ella** | Ropa mesopotámica con piedras brillantes, velo mitad del rostro, apoyada en su hombro derecho |\n| **Acción** | Caminan pero miran hacia atrás, vigilantes, como si huyeran |\n| **Entorno** | Mercado mesopotámico, gente en beige y marrón oscuro (contraste con el rojo) |\n| **Estilo** | Póster cinematográfico, efecto movimiento, 8k, hiperrealista, iluminación dramática |\n\n> 💡 **Tip:** Si usas **Midjourney**, añade al final del prompt: `--ar 9:17 --style raw --v 6.1` para forzar el formato y máximo realismo.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "abd48889-c276-47fc-9142-e3718ee1bcc7",
+      "usage": {
+       "input_tokens": 5167,
+       "output_tokens": 956,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2549,
+        "text_tokens": 2618
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 2176
+       },
+       "total_tokens": 6123,
+       "output_tokens_details": {
+        "reasoning_tokens": 91,
+        "text_tokens": 865
+       },
+       "image_tokens": 2549
+      },
+      "timestamp": 1782827512
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1782827512.3516238
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1782827490
+   },
+   {
+    "id": "5462be83-385f-4a73-9aad-e88a03899385",
+    "role": "user",
+    "content": "Solo ingles. Maximo uniendo y dando maximo detalle",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "abd48889-c276-47fc-9142-e3718ee1bcc7",
+    "turn_id": null,
+    "childrenIds": [
+     "022217d8-48eb-4d48-99c2-6f12a7058029"
+    ],
+    "files": [],
+    "timestamp": 1782827526
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "022217d8-48eb-4d48-99c2-6f12a7058029",
+    "parentId": "5462be83-385f-4a73-9aad-e88a03899385",
+    "childrenIds": [
+     "36e643a7-0362-4612-b1f9-7308df633fba"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Crafting a comprehensive and refined directive",
+         "Crafting a cinematic vertical poster with precise visual storytelling",
+         "Rendering a vivid fusion of ancient and modern aesthetics",
+         "Crafting a vivid cinematic vision with meticulous attention to atmosphere and detail",
+         "Crafting a vivid cinematic vision"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am synthesizing all prior guidance into a singular, intricately detailed instruction.  \nMy focus is on achieving maximal clarity and precision within the constraints of natural language.  \nThe result is an elegant, cohesive expression designed to elicit the most accurate and nuanced response.",
+         "I am envisioning a towering male figure, 194cm tall, his dark curly hair cascading like storm clouds, beard meticulously shaped to frame a determined expression.  \nHe strides diagonally across the frame, from top-left to middle-right, each step charged with quiet intensity, his posture radiating purpose and presence.  \nThe composition is rendered in a dramatic 9:17 ratio, layered with motion effects that suggest momentum and narrative depth, all within a polished movie poster aesthetic.",
+         "I am envisioning a striking visual narrative where contemporary luxury meets timeless antiquity, blending the sleek sheen of a modern tracksuit with the opulent grandeur of Mesopotamian regalia.  \nThe female figure, draped in radiant gemstone-encrusted garments and veiled in delicate transparency, leans into the male form with quiet urgency, her gaze sharp with vigilance.  \nAgainst a dynamic backdrop of a bustling marketplace, I amplify the contrast between past and present through dramatic lighting and layered depth, capturing a moment suspended between flight and fate.",
+         "I am envisioning a dynamic, hyper-realistic scene where contrasting elements converge—vibrant crimson against weathered earth tones, light sculpted through dust-laden air, skin rendered with lifelike subsurface glow.  \nThe composition unfolds with deliberate motion, capturing a towering figure in glossy red tracksuit moving diagonally across the frame, while beside him, a woman adorned in ancient Mesopotamian splendor radiates timeless grandeur.  \nEvery element is layered with precision—focusing on facial clarity, fluid motion blur, and an immersive depth that breathes life into the image.",
+         "I am shaping a moment of intense urgency and dramatic tension, where form and emotion converge in rich detail.  \nThe man’s radiant red attire cuts through the earthy tones of an ancient marketplace, his silhouette defined by volumetric light and hyper-realistic textures.  \nEvery element—motion blur, subsurface skin scattering, and the veil-clad woman’s watchful gaze—serves to heighten the narrative’s gravity and visual splendor."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "022217d8-48eb-4d48-99c2-6f12a7058029",
+      "usage": {
+       "input_tokens": 6050,
+       "output_tokens": 900,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2549,
+        "text_tokens": 3501
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 4352
+       },
+       "total_tokens": 6950,
+       "output_tokens_details": {
+        "reasoning_tokens": 896,
+        "text_tokens": 4
+       },
+       "image_tokens": 2549
+      },
+      "timestamp": 1782827546
+     },
+     {
+      "content": "Cinematic movie poster style, vertical 9:17 aspect ratio, dynamic motion blur effect, hyper-realistic 8k resolution, extreme detail. A towering 194cm man with long voluminous dark curly hair and a groomed beard, wearing a full glossy metallic red modern tracksuit (jacket and pants), walking diagonally from the top left towards the middle right of the frame. On his right side, a woman in authentic ancient Mesopotamian attire heavily encrusted with sparkling gemstones, gold, and intricate jewels, wearing a sheer veil covering the lower half of her face, leans her head intimately on his shoulder. Both characters look back over their shoulders with intense, vigilant expressions as if fleeing or being pursued. The background is a bustling ancient Mesopotamian marketplace filled with people in earthy beige and dark brown robes, slightly blurred to emphasize motion and depth. High color contrast between the man's bright red outfit and the ancient surroundings, dramatic volumetric lighting, dusty atmosphere, subsurface scattering on skin, sharp focus on faces, action shot masterpiece.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "022217d8-48eb-4d48-99c2-6f12a7058029",
+      "usage": {
+       "input_tokens": 6050,
+       "output_tokens": 1121,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2549,
+        "text_tokens": 3501
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 4352
+       },
+       "total_tokens": 7171,
+       "output_tokens_details": {
+        "reasoning_tokens": 896,
+        "text_tokens": 225
+       },
+       "image_tokens": 2549
+      },
+      "timestamp": 1782827550
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1782827550.856392
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1782827526
+   },
+   {
+    "id": "36e643a7-0362-4612-b1f9-7308df633fba",
+    "role": "user",
+    "content": "Maximo detalle",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "022217d8-48eb-4d48-99c2-6f12a7058029",
+    "turn_id": null,
+    "childrenIds": [
+     "fc5a96a4-2abf-41fc-8350-4275ab13c6e2"
+    ],
+    "files": [],
+    "timestamp": 1782827558
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "fc5a96a4-2abf-41fc-8350-4275ab13c6e2",
+    "parentId": "36e643a7-0362-4612-b1f9-7308df633fba",
+    "childrenIds": [
+     "96006c74-168f-4e53-9744-da6f30c8b26f"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Crafting a vivid, detailed image prompt in English",
+         "Visualizing a dynamic scene of two figures in striking contrast",
+         "Crafting a vivid cinematic vision with unparalleled precision",
+         "Rendering a cinematic vision with precision and artistry",
+         "Crafting a vivid cinematic vision with deliberate artistic intent",
+         "Rendering a vivid narrative scene",
+         "Crafting a vivid, immersive visual narrative with meticulous attention to detail and atmospheric depth"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am meticulously refining the description to maximize visual richness and specificity.  \nI focus on capturing the essence of a towering figure with elongated features, ensuring every element contributes to a lifelike and immersive depiction.  \nMy aim is to evoke a compelling, cinematic presence through precise, evocative language.",
+         "I am conjuring a moment where ancient grandeur meets modern boldness, their forms intertwined by movement and gaze  \nThe man’s metallic red tracksuit gleams under unseen light, his dark curls and beard framing a determined expression  \nThe woman’s jeweled headdress glints as she leans into him, her veiled face turned with fierce alertness, both stepping forward with purpose",
+         "I am meticulously rendering the scene’s atmosphere, layering textures of weathered stone and woven fabric to evoke ancient Mesopotamian life.  \nLight spills in dramatic contrast—crimson hues of the protagonist’s suit blazing against the earthy tones of the crowd, illuminated by a high-contrast chiaroscuro that sculpts every shadow and gleam.  \nThrough dynamic motion blur and hyper-detailed depth, I capture the urgency of flight, as if frozen mid-chase in a single breathless moment.",
+         "I am conjuring a scene rich in contrast and emotion, where light dances through dust-laden air, sculpting form and mood.  \nThe man stands tall, his presence defined by the interplay of shadow and gleam, his crimson tracksuit shimmering like molten fire.  \nThe woman, veiled in ancient splendor, holds a gaze both haunted and resolute, her jewels catching the light like distant stars.",
+         "I am shaping a powerful visual narrative centered on a towering figure leaning heavily on his right shoulder, embodying both strength and strain.  \nThe scene unfolds in an ancient marketplace alive with movement—mud-brick structures, swirling dust, and blurred forms in rough linen robes—rendered with photorealistic precision.  \nThrough dynamic diagonal composition and layered motion blur, I evoke urgency and tension, guiding the eye toward a focal point of raw human presence.",
+         "I envision two figures locked in a moment of urgent flight, their forms illuminated by the interplay of ancient and modern elements. The man’s sleek crimson tracksuit gleams with reflective precision, his dark curls catching the light like molten thread, while beside him the woman’s royal garb shimmers with lapis lazuli and gold, her veil whispering secrets against his shoulder. Both turn sharply, eyes wide with dread, as the marketplace pulses around them—mud-brick walls and awnings blurring into motion, the air thick with unseen threat.",
+         "I am meticulously weaving together a tapestry of sensory elements—textures, light, color, and movement—ensuring every component aligns with the envisioned scene.  \nI am harmonizing contrasting tones: the bold vibrancy of metallic red against the earthy stillness of ancient ruins, while grounding the composition in cinematic realism through chiaroscuro, volumetric rays, and subsurface skin rendering.  \nI am refining the prompt into a seamless, richly layered description that channels artistic precision and emotional resonance, optimized for visual generation without compromise."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "fc5a96a4-2abf-41fc-8350-4275ab13c6e2",
+      "usage": {
+       "input_tokens": 6284,
+       "output_tokens": 1226,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2549,
+        "text_tokens": 3735
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 4352
+       },
+       "total_tokens": 7510,
+       "output_tokens_details": {
+        "reasoning_tokens": 1214,
+        "text_tokens": 12
+       },
+       "image_tokens": 2549
+      },
+      "timestamp": 1782827586
+     },
+     {
+      "content": "Cinematic movie poster masterpiece, vertical 9:17 aspect ratio, shot on ARRI Alexa 65, 35mm anamorphic lens, 8k resolution, photorealistic, extreme detail. Dynamic diagonal composition leading from the top-left to the middle-right, intense motion blur effect on the periphery to convey speed and urgency. A towering 194cm man with a muscular build, featuring hyper-detailed skin texture with visible pores and subtle sweat. He has long, voluminous, dark curly hair with individual strands catching the rim light, and a thick, groomed beard. He is wearing a full, glossy, metallic crimson-red modern tracksuit, with hyper-realistic fabric folds, reflective specular highlights, and detailed zipper textures. On his right side, a woman in authentic ancient Mesopotamian royal attire. Her clothing is heavily encrusted with sparkling lapis lazuli, carnelian gemstones, and intricate gold filigree. She wears a sheer, gossamer veil with gold threading covering the lower half of her face, and she leans intimately against his shoulder. Both characters are looking sharply back over their shoulders with intense, vigilant, and fearful expressions, as if fleeing from a pursuer. The background is a bustling ancient Mesopotamian marketplace with mud-brick architecture and woven awnings, filled with blurred figures in rough-spun earthy beige and dark brown linen robes. Extreme high color contrast between the vibrant metallic red tracksuit and the muted ancient surroundings. Dramatic chiaroscuro lighting, volumetric god rays piercing through swirling market dust, subsurface scattering on skin, cinematic color grading, sharp focus on the faces, award-winning photography, masterpiece.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "fc5a96a4-2abf-41fc-8350-4275ab13c6e2",
+      "usage": {
+       "input_tokens": 6284,
+       "output_tokens": 1565,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2549,
+        "text_tokens": 3735
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 4352
+       },
+       "total_tokens": 7849,
+       "output_tokens_details": {
+        "reasoning_tokens": 1214,
+        "text_tokens": 351
+       },
+       "image_tokens": 2549
+      },
+      "timestamp": 1782827592
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1782827592.316291
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1782827558
+   },
+   {
+    "id": "96006c74-168f-4e53-9744-da6f30c8b26f",
+    "role": "user",
+    "content": "El triple de largo",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "fc5a96a4-2abf-41fc-8350-4275ab13c6e2",
+    "turn_id": null,
+    "childrenIds": [
+     "18394b99-665e-403d-9d06-2623c291bb7f"
+    ],
+    "files": [],
+    "timestamp": 1782827604
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "18394b99-665e-403d-9d06-2623c291bb7f",
+    "parentId": "96006c74-168f-4e53-9744-da6f30c8b26f",
+    "childrenIds": [
+     "5b84d257-7a54-40b9-b596-4fee70c6a8fb"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Crafting a vivid visual narrative",
+         "Rendering a cinematic scene of flight and tension",
+         "Expanding the prompt with meticulous detail and atmospheric depth",
+         "Rendering a vivid, immersive scene with meticulous attention to detail",
+         "Crafting a vivid cinematic vision with meticulous attention to atmosphere and detail",
+         "Rendering a vivid, emotionally charged scene with meticulous attention to detail and atmosphere.",
+         "Rendering a vivid, cinematic scene of an ancient Mesopotamian marketplace."
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am envisioning a striking figure of imposing stature, his presence defined by flowing dark curls and a sleek, reflective crimson coat that gleams with modern elegance.  \nThe atmosphere hums with quiet intensity, each detail shaped to convey both power and refinement.  \nI am shaping the scene with precision, ensuring every element resonates with cinematic depth and emotional weight.",
+         "I envision a figure in a tracksuit moving diagonally across the frame, his motion suggesting urgency and purpose. Beside him, a woman adorned in ancient Mesopotamian regalia, her form shimmering with gold and jewels, leans on his shoulder with a veil concealing half her face, both glancing back with wary eyes. The blurred backdrop pulses with life—a bustling market from antiquity—its warm earth tones contrasting sharply with the high-contrast drama of their escape.",
+         "I am enriching the narrative by layering intricate visual elements, from the finest textures of skin to the subtle interplay of light and shadow.  \nI am crafting a cinematic atmosphere through precise camera specifications, lens characteristics, and rendering techniques that evoke a hyper-realistic ambiance.  \nEach element is meticulously described to amplify scale, emotion, and immersion, transforming the scene into a vast, living tapestry of sensory experience.",
+         "I am crafting a richly textured narrative that brings every element to life through precise visual and emotional depth.  \nI focus on the interplay of light and shadow, the authenticity of materials, and the subtle language of posture and gaze to convey unspoken tension.  \nThe environment unfolds as a living tapestry, where scent, sound, and texture emerge from the details of daily life in ancient Mesopotamia.",
+         "I am envisioning a powerful, immersive scene where every element—from the interplay of light and shadow to the texture of skin and hair—conveys intensity and realism.  \nI am layering in atmospheric depth through subtle fog, drifting dust, and nuanced color temperature shifts that enhance mood and dimension.  \nI am refining the visual language with rich post-processing textures, filmic grain, and a distinct artistic style that elevates the image into a timeless cinematic moment.",
+         "I am conjuring a moment of intense suspense, where the interplay of light and texture amplifies the characters' vulnerability and urgency.  \nThe crimson-red tracksuit glows with lifelike realism, contrasting sharply with the ancient regalia of the woman whose jeweled attire shimmers under ambient glow.  \nTogether, we inhabit a tense narrative suspended between past and present, where every fiber and gemstone speaks of fear, flight, and fragile connection.",
+         "I am meticulously crafting a visual narrative where a striking red tracksuit stands out against the earthy, muted tones of the historical setting.  \nI amplify the drama through dynamic lighting, volumetric rays, and rich color grading to evoke emotional depth and artistic excellence.  \nThe final image emerges as a masterful blend of realism and artistry, poised for acclaim on digital platforms."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "18394b99-665e-403d-9d06-2623c291bb7f",
+      "usage": {
+       "input_tokens": 6645,
+       "output_tokens": 1267,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2549,
+        "text_tokens": 4096
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 4352
+       },
+       "total_tokens": 7912,
+       "output_tokens_details": {
+        "reasoning_tokens": 1252,
+        "text_tokens": 15
+       },
+       "image_tokens": 2549
+      },
+      "timestamp": 1782827631
+     },
+     {
+      "content": "Ultra-high-definition cinematic movie poster masterpiece, vertical 9:17 aspect ratio, shot on ARRI Alexa 65 with Panavision Ultra Vista lenses, 35mm anamorphic format, 8k resolution, photorealistic, extreme microscopic detail. Dynamic diagonal composition leading from the top-left to the middle-right, intense motion blur effect on the periphery to convey speed and urgency, shallow depth of field f/1.4. A towering 194cm man with a powerful, athletic build, featuring hyper-detailed skin texture with visible pores, subtle sweat droplets, and realistic subsurface scattering. He has long, voluminous, dark curly hair cascading down his back, with individual strands catching the warm rim light, and a thick, perfectly groomed beard and mustache. He is wearing a full, glossy, metallic crimson-red modern tracksuit, showcasing hyper-realistic fabric folds, deep reflective specular highlights, detailed zipper textures, and tight stitching, with the red material reflecting the ambient market light to create a striking visual anchor. On his right side, a stunning woman in authentic ancient Mesopotamian royal attire. Her clothing is heavily encrusted with sparkling lapis lazuli, carnelian gemstones, turquoise, and intricate gold filigree, with every single jewel catching the light. She wears a sheer, gossamer veil with delicate gold threading covering the lower half of her face, revealing only her expressive, wide, and fearful eyes, and she leans intimately against his shoulder, her posture conveying exhaustion and reliance. Both characters are looking sharply back over their shoulders with intense, vigilant, and fearful expressions, their muscles tensed as if fleeing from a dangerous pursuer, with palpable psychological tension in their facial micro-expressions. The background is a bustling, highly detailed ancient Mesopotamian marketplace with towering mud-brick architecture, woven awnings, and clay pottery stalls, filled with blurred figures in rough-spun earthy beige, terracotta, and dark brown linen robes, creating a sea of neutral tones. Extreme high color contrast between the vibrant metallic red tracksuit and the muted ancient surroundings. Dramatic chiaroscuro lighting, volumetric god rays piercing through swirling market dust and sand particles, golden hour color temperature mixed with cool shadow tones, cinematic color grading, subtle film grain, sharp focus on the faces, award-winning photography, Unreal Engine 5 render style, masterpiece, trending on ArtStation, 8k UHD.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "18394b99-665e-403d-9d06-2623c291bb7f",
+      "usage": {
+       "input_tokens": 6645,
+       "output_tokens": 1759,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2549,
+        "text_tokens": 4096
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 4352
+       },
+       "total_tokens": 8404,
+       "output_tokens_details": {
+        "reasoning_tokens": 1252,
+        "text_tokens": 507
+       },
+       "image_tokens": 2549
+      },
+      "timestamp": 1782827639
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1782827639.6685784
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1782827604
+   },
+   {
+    "id": "5b84d257-7a54-40b9-b596-4fee70c6a8fb",
+    "role": "user",
+    "content": "Ellos corren 9:16 ruido de mercadillo, caballos, ",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "i2v",
+    "sub_chat_type": "i2v",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "i2v",
+      "size": "16:9"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "parentId": "18394b99-665e-403d-9d06-2623c291bb7f",
+    "turn_id": null,
+    "childrenIds": [
+     "5b16d732-af32-47ca-aa05-32862b58202f"
+    ],
+    "files": [
+     {
+      "id": "412bf326-255a-4abf-b651-d1105e5e0de7",
+      "name": "file_00000000889871f4afd11b9eff9bd553.png",
+      "file_type": "image/png",
+      "type": "image",
+      "file_class": "vision",
+      "size": 2343106,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/412bf326-255a-4abf-b651-d1105e5e0de7_file_00000000889871f4afd11b9eff9bd553.png?key=[SECRETO_REDACTADO]",
+      "file": {
+       "created_at": 1782827933038,
+       "data": {},
+       "filename": "file_00000000889871f4afd11b9eff9bd553.png",
+       "hash": null,
+       "id": "412bf326-255a-4abf-b651-d1105e5e0de7",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "file_00000000889871f4afd11b9eff9bd553.png",
+        "size": 2343106,
+        "content_type": "image/png"
+       },
+       "update_at": 1782827933038,
+       "lastModified": 1782827886000,
+       "name": "file_00000000889871f4afd11b9eff9bd553.png",
+       "webkitRelativePath": "",
+       "size": 2343106,
+       "type": "image/png"
+      },
+      "collection_name": "",
+      "progress": 100,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "d38cb820-f231-4c44-8a21-356262d2636b",
+      "showType": "image",
+      "uploadTaskId": "77eb94cf-3001-42e0-9266-f7637520d126"
+     }
+    ],
+    "timestamp": 1782827946
+   },
+   {
+    "role": "assistant",
+    "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/5b16d732-af32-47ca-aa05-32862b58202f/5c20c76d-3db1-463a-af8b-cadb1228edc9.mp4?key=[SECRETO_REDACTADO]",
+    "reasoning_content": null,
+    "chat_type": "i2v",
+    "sub_chat_type": "i2v",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "5b16d732-af32-47ca-aa05-32862b58202f",
+    "parentId": "5b84d257-7a54-40b9-b596-4fee70c6a8fb",
+    "childrenIds": [
+     "928a4fa2-eee6-461f-b4d8-9974ee661e40"
+    ],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "content_list": null,
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "wanx": {
+      "task_id": "5c20c76d-3db1-463a-af8b-cadb1228edc9"
+     },
+     "endTime": 1782827947.4054756
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": {
+     "size": "16:9"
+    },
+    "timestamp": 1782827946
+   },
+   {
+    "id": "928a4fa2-eee6-461f-b4d8-9974ee661e40",
+    "role": "user",
+    "content": "Puedes recuperar fotos del archivo hacer un video donde a cada medio secundo cambia de escena como si fuera un mini trailer. Con efecto de transicion",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2v",
+    "sub_chat_type": "t2v",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2v",
+      "size": "16:9"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "parentId": "5b16d732-af32-47ca-aa05-32862b58202f",
+    "turn_id": null,
+    "childrenIds": [
+     "24463899-9728-430c-ad5b-94e6f455acb0"
+    ],
+    "files": [],
+    "timestamp": 1782834469
+   },
+   {
+    "role": "assistant",
+    "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2v/24463899-9728-430c-ad5b-94e6f455acb0/00c66667-68ce-434b-a0bd-f0bb1062d187.mp4?key=[SECRETO_REDACTADO]",
+    "reasoning_content": null,
+    "chat_type": "t2v",
+    "sub_chat_type": "t2v",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "24463899-9728-430c-ad5b-94e6f455acb0",
+    "parentId": "928a4fa2-eee6-461f-b4d8-9974ee661e40",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "content_list": null,
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "wanx": {
+      "task_id": "00c66667-68ce-434b-a0bd-f0bb1062d187"
+     },
+     "endTime": 1782834471.1414063
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": {
+     "size": "16:9"
+    },
+    "timestamp": 1782834469
+   }
+  ]
+ },
+ "updated_at": 1782834470,
+ "created_at": 1782826821,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1782826819939
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "24463899-9728-430c-ad5b-94e6f455acb0"
+ ],
+ "currentId": "24463899-9728-430c-ad5b-94e6f455acb0",
+ "chat_type": "t2v",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

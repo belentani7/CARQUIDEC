@@ -1,0 +1,2176 @@
+{
+ "id": "aaad046c-ac5b-4e99-91e5-ae4fe70bae4a",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Declaración de la Renta Simplificada",
+ "chat": {
+  "history": {
+   "messages": {
+    "d4655996-0801-46ed-b7f8-c9714ae30e35": {
+     "id": "d4655996-0801-46ed-b7f8-c9714ae30e35",
+     "role": "user",
+     "content": "en treinta traducir todos los términos que hay dentro del proceso de hacerse la declaración de la renta a términos más conocidos al extremo todos los que en todo el proceso luz los los eh números de procedimiento infinito todo",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "e0e9eaad-983c-40f9-990f-9eb3d8c19d2c"
+     ],
+     "files": [],
+     "timestamp": 1781649362
+    },
+    "e0e9eaad-983c-40f9-990f-9eb3d8c19d2c": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "e0e9eaad-983c-40f9-990f-9eb3d8c19d2c",
+     "parentId": "d4655996-0801-46ed-b7f8-c9714ae30e35",
+     "childrenIds": [
+      "18234dd4-fea4-449f-8a0a-0bb56392f119"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Considering the task at hand",
+          "Presentar los términos más comunes del proceso de forma clara y directa",
+          "Organizing the tax filing journey step by step",
+          "Resumiendo el proceso fiscal de manera clara y precisa",
+          "Organizando la información clave sobre la declaración de la renta.",
+          "Organizando las ideas con claridad y precisión",
+          "Organizing the tax process into clear, relatable concepts"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am focusing on identifying and rendering the most commonly used terms related to tax filing in a natural, accessible manner.  \nMy aim is to ensure clarity and familiarity by aligning with everyday language people actually use.  \nThis involves distilling technical jargon into expressions that resonate intuitively with the general public.",
+          "Estoy seleccionando treinta expresiones clave que abarcan todo el recorrido, desde los pasos procedimentales hasta los infinitos detalles involucrados.  \nMi enfoque es mantener un tono cercano, coloquial y fácil de entender, evitando cualquier formalidad o tecnicismo innecesario.  \nTodo esto con el objetivo de que cada palabra suene como algo que alguien diría en una conversación real.",
+          "I am mapping out the process of submitting a tax return by breaking it into clear, logical stages—from gathering documents to receiving a refund.  \nEach phase is being described in plain, relatable terms to make complex financial procedures feel accessible and intuitive.  \nI’m translating technical jargon into everyday language, ensuring clarity and connection with real-life experiences.",
+          "Estoy organizando la información sobre el sistema tributario con un enfoque lógico y didáctico, desglosando cada concepto clave para facilitar su comprensión.  \nCada término se presenta con una definición concisa que refleja su función dentro del marco legal y económico del impuesto sobre la renta.  \nEl objetivo es ofrecer una visión coherente y accesible del ciclo fiscal desde la base imponible hasta el resultado final de la declaración.",
+          "Estoy estructurando los conceptos esenciales con claridad y precisión, destacando cada elemento fundamental del proceso fiscal.  \nCada término se presenta con una definición concisa y directa, facilitando su comprensión sin tecnicismos innecesarios.  \nEl enfoque busca transmitir confianza y transparencia, como si guiara al usuario por un camino claro hacia el entendimiento completo.",
+          "Estoy estructurando la información de forma coherente, destacando los conceptos clave relacionados con la declaración de la renta.  \nCada término se explica con un enfoque cercano y directo, evitando tecnicismos innecesarios.  \nMi objetivo es facilitar la comprensión sin perder el rigor ni la naturalidad del lenguaje.",
+          "I am translating complex fiscal procedures into everyday metaphors to enhance understanding and recall  \nEach concept is anchored in common experience, making abstract ideas tangible and memorable  \nThe structure ensures comprehensive coverage while maintaining a natural, conversational flow"
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "e0e9eaad-983c-40f9-990f-9eb3d8c19d2c",
+       "usage": {
+        "input_tokens": 63,
+        "output_tokens": 1560,
+        "characters": 0,
+        "total_tokens": 1623,
+        "input_tokens_details": {
+         "text_tokens": 63
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 1551,
+         "text_tokens": 1560
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1781649391
+      },
+      {
+       "content": "Aquí tienes una traducción al \"español de la calle\" de 30 términos clave de la Declaración de la Renta, explicados de forma extrema, sencilla y sin ningún tipo de jerga burocrática, cubriendo todo el proceso desde que entras en la web hasta que te cobran o te pagan.\n\n### **1. El inicio y el acceso**\n1. **Declaración de la Renta (IRPF):** El \"ajuste de cuentas\" anual con el Estado para ver si te han quitado demasiado dinero o demasiado poco durante el año.\n2. **Hacienda (Agencia Tributaria):** El \"cobrador del frac\" del Estado; la oficina que lleva la cuenta de lo que ganas y lo que debes.\n3. **Contribuyente:** Tú. La persona que tiene que rellenar el papeleo y, al final, soltar la pasta o pedir que se la devuelvan.\n4. **Certificado Digital / Cl@ve PIN:** Tu \"llave maestra\" o DNI digital. Es la forma de demostrarle a la web de Hacienda que eres tú y no un hacker.\n5. **Número de referencia:** El código secreto de un solo uso que Hacienda te manda al móvil para dejarte entrar. Es como el código del banco.\n6. **Datos fiscales:** El \"expediente\" o el \"cotilleo\" que Hacienda ya tiene sobre ti: tu sueldo, tu casa, tus hipotecas y tus coches.\n\n### **2. El documento y el borrador**\n7. **Modelo 100:** El \"formulario madre\". Es el documento oficial con todos los cuadraditos donde se pone la información.\n8. **Borrador de la declaración:** La \"pre-cuenta\" que Hacienda hace por ti. Es un avance, pero **ojo**: casi siempre tiene errores o le faltan cosas, así que hay que revisarlo.\n9. **Casilla:** Cada uno de los cuadraditos o apartados del formulario donde tienes que escribir un número.\n10. **Presentación telemática:** Hacer todo el trámite desde el sofá con el ordenador o el móvil, sin tener que ir físicamente a una oficina a que te miren mal.\n\n### **3. Lo que ganas (Ingresos)**\n11. **Rendimientos del trabajo:** Tu sueldo. Todo lo que te da tu jefe: nóminas, pagas extra y horas extra.\n12. **Rendimientos del capital mobiliario:** Lo que te da tu dinero por estar quieto. Por ejemplo, los intereses que te da el banco o los dividendos de acciones.\n13. **Rendimientos del capital inmobiliario:** El dinero que sacas de tener ladrillos, normalmente lo que cobras por alquilar un piso o un local.\n14. **Ganancias y pérdidas patrimoniales:** Lo que ganas o pierdes al vender cosas caras. Si vendes un piso más caro de lo que te costó, ganas; si lo vendes más barato, pierdes.\n15. **Imputación de rentas:** Un \"impuesto fantasma\". Hacienda te cobra un poco por tener un segundo piso vacío, porque asume que, en teoría, podrías estar ganando dinero alquilándolo.\n\n### **4. Lo que te quitas de en medio (Restas)**\n16. **Base imponible:** Todo el dinero que has ganado en el año en bruto, antes de que te apliquen ningún descuento.\n17. **Reducciones:** Los primeros \"descuentos\" que te aplica la ley antes de calcular el impuesto (por ejemplo, por cotizar a la Seguridad Social).\n18. **Base liquidable:** El dinero que *realmente* cuenta para Hacienda después de restar todos los gastos y descuentos legales. Es la cifra sobre la que te van a calcular el impuesto.\n19. **Mínimo personal y familiar:** La cantidad de dinero que Hacienda considera que necesitas solo para sobrevivir (y más si tienes hijos, nietos o padres mayores a tu cargo). Por esa cantidad, no te cobran impuestos.\n20. **Deducciones:** Los \"cupones de descuento\" oficiales. Cosas como la hipoteca de tu primera vivienda, donaciones a ONG o gastos de guardería que te permiten pagar menos.\n\n### **5. El cálculo final (La hora de la verdad)**\n21. **Tipo impositivo:** El porcentaje de \"mordida\" que te aplica Hacienda. Cuanto más ganas, más alto es este porcentaje (es lo que llaman \"progresivo\").\n22. **Cuota íntegra:** Lo que te tocaría pagar en teoría, calculado sobre tu base liquidable, pero *antes* de tener en cuenta lo que ya has pagado durante el año.\n23. **Retenciones:** El dinero que ya te han quitado de la nómina mes a mes. Es un \"pago a cuenta\" que hiciste sin darte cuenta.\n24. **Regularización:** El momento de la verdad. Es la operación matemática final: (Lo que deberías pagar) menos (Lo que ya te han quitado en las nóminas).\n\n### **6. El resultado y el pago**\n25. **Resultado a devolver:** ¡Fiesta! Significa que te han quitado más dinero del que debías durante el año. Hacienda te tiene que devolver la diferencia.\n26. **Resultado a ingresar:** Malas noticias. Significa que no te han quitado suficiente dinero durante el año y ahora te toca pagar la diferencia de tu bolsillo.\n27. **Domiciliación bancaria:** La orden que le das a tu banco: \"Oye, deja que Hacienda me cobre esto de mi cuenta\" o \"Oye, ingresa la devolución aquí\".\n28. **Fraccionamiento del pago:** Pedirle a Hacienda, por favor, que te deje pagar la deuda en dos plazos (por ejemplo, el 60% en junio y el 40% en noviembre) porque no tienes todo el dinero junto.\n\n### **7. Los números de procedimiento y los problemas**\n29. **Número de justificante / Número de presentación:** El \"ticket de compra\" o resguardo. Es el número largo que te dan al final. **Guárdalo**, es la única prueba de que hiciste el trámite.\n30. **Requerimiento:** La \"carta amarilla\" o aviso de que a Hacienda le huele algo raro en tus cuentas y te exigen explicaciones o papeles extra. Si te llega esto, no lo ignores.\n\n---\n**Resumen del proceso en una frase:** Entras con tu **llave (3/4)**, revisas el **borrador (8)** del **formulario (7)**, sumas tu **sueldo (11)**, le restas los **descuentos (20)**, y al hacer la **cuenta final (24)** descubres si te toca **celebrar (25)** o **pagar (26)**, guardando siempre el **ticket final (29)** por si acaso.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "e0e9eaad-983c-40f9-990f-9eb3d8c19d2c",
+       "usage": {
+        "input_tokens": 63,
+        "output_tokens": 3084,
+        "characters": 0,
+        "total_tokens": 3147,
+        "input_tokens_details": {
+         "text_tokens": 63
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 1551,
+         "text_tokens": 3084
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1781649419
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1781649419.8126082
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1781649362
+    },
+    "18234dd4-fea4-449f-8a0a-0bb56392f119": {
+     "id": "18234dd4-fea4-449f-8a0a-0bb56392f119",
+     "role": "user",
+     "content": "imagínate que estás en el móvil y estás intentando hacerlo entonces vas a explicar paso a paso cómo se hace la declaración de la renta de una persona que tuvo un empleo y entonces eh oh bueno tú cuáles son la cuenta ajena no sé cuáles son todos los tipos explicar el paso a paso para hacer será declaración del año en la página web y traduciendo los términos y explicando que son cada cosa los números de los eh documentos en fin",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "e0e9eaad-983c-40f9-990f-9eb3d8c19d2c",
+     "turn_id": null,
+     "childrenIds": [
+      "b410b8b5-81cc-4f96-9f48-0fdff616a77c"
+     ],
+     "files": [],
+     "timestamp": 1781649460
+    },
+    "b410b8b5-81cc-4f96-9f48-0fdff616a77c": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "b410b8b5-81cc-4f96-9f48-0fdff616a77c",
+     "parentId": "18234dd4-fea4-449f-8a0a-0bb56392f119",
+     "childrenIds": [
+      "19dfe60d-2a34-4a78-bdc3-dce23ada353c",
+      "df54c2ca-6784-4582-a1a3-35ffd600d812"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Iniciando la declaración de la renta desde el móvil con enfoque en empleo por cuenta ajena",
+          "Simular paso a paso el acceso a la web de la Agencia Tributaria desde un móvil"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "Estoy guiando paso a paso el proceso como si estuviera realizándolo en tiempo real, centrado en la experiencia del usuario.  \nAseguro que cada acción sea clara y natural, adaptando el flujo a un entorno móvil sin perder precisión ni coherencia.  \nMi objetivo es transmitir confianza y simplicidad, haciendo que el procedimiento se sienta fluido y accesible.",
+          "Estoy imaginando cada interacción como si estuviera deslizando el dedo por la pantalla, deteniéndome en cada botón y texto clave.  \nVoy traduciendo los términos al español cotidiano, señalando números de documentos o casillas que aparecen en pantalla, como si los estuviera señalando con el dedo.  \nTodo está pensado para que parezca una guía real, clara y práctica, como si alguien me explicara desde su teléfono."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "b410b8b5-81cc-4f96-9f48-0fdff616a77c",
+       "usage": {
+        "input_tokens": 6761,
+        "output_tokens": 196,
+        "characters": 0,
+        "total_tokens": 6957,
+        "input_tokens_details": {
+         "text_tokens": 6761
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 194,
+         "text_tokens": 196
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 2176
+        }
+       },
+       "timestamp": 1781649468
+      },
+      {
+       "content": "",
+       "phase": "web_search",
+       "status": "finished",
+       "extra": {
+        "display_position": "think",
+        "web_search_info": [
+         {
+          "url": "https://asesoresumbrella.com/la-importancia-de-las-casillas-en-la-declaracion-de-la-renta/",
+          "title": "La importancia de las casillas en la Declaración de la Renta",
+          "snippet": "Si eres trabajador por cuenta ajena tus ingresos son declarados en la casilla correspondiente a rendimientos de trabajo. En el caso de los autónomos la",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.rtve.es/noticias/20240404/declaracion-renta-2024-casillas-fijarme-autonomo-trabajo-empresa/16040058.shtml",
+          "title": "Declaración de la renta 2024 | Consejos para autónomos y ",
+          "snippet": "Te explicamos qué casillas debes mirar con más atencion antes de presentar la Declaración de la renta 2024 si trabajas para una empresa o si",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2024-04-04)"
+         },
+         {
+          "url": "https://transparencia.ayto-humanesdemadrid.es/storage/uploads/1761812714Mart%C3%ADn%20Renta%202024_censurado.pdf",
+          "title": "[PDF] Modelo 100 Ejercicio 2024",
+          "snippet": "RETENCIONES Y DEMÁS PAGOS A CUENTA. Por rendimientos del trabajo. 6.994,86 0596. Por rendimientos del capital mobiliario. 152,29 0597. Total",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2025-11-05)"
+         },
+         {
+          "url": "https://declarando.es/modelo-100",
+          "title": "Modelo 100: guía 2026 para ahorrar en tu renta de autónomo",
+          "snippet": "¿Trabajas en casa? Puedes deducir el alquiler en esta casilla (0192), con el límite de la superficie que usas para trabajar. Por ejemplo, si",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2025-04-11)"
+         },
+         {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/Ayuda/24Presentacion/100.html",
+          "title": "Modelo 100. Declaración del Impuesto sobre la Renta de las ",
+          "snippet": "Modelo 100. Declaración del Impuesto sobre la Renta de las Personas Físicas 2024 · 1. Introducción · 2. Obligación de declarar · 3. Cuestiones",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-05-06)"
+         },
+         {
+          "url": "https://www.fiscal-impuestos.com/files-fiscal/modelo-100.pdf",
+          "title": "[PDF] modelo-100.pdf - Fiscal Impuestos",
+          "snippet": "Rendimientos procedentes de rentas que tengan por causa la imposición de capitales y otros rendimientos del capital mobiliario a integrar en la base imponible",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://grupoeas.com/casillas-declaracion-renta-2024/",
+          "title": "Casillas clave en la Declaración de la Renta 2024: Guía - Grupo EAS",
+          "snippet": "Casilla 0012: Recoge el total de los rendimientos íntegros del trabajo. Incluye sueldos, salarios, prestaciones por desempleo o pensiones.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2025-05-29)"
+         },
+         {
+          "url": "https://quaderno.io/es/articulos/declaracion-renta-autonomos-paso-a-paso/",
+          "title": "Cómo hacer la declaración de la Renta para autónomos, paso a paso",
+          "snippet": "Casilla 166 a 168: Estas casillas se reservan para especificar si tu estimación de ingresos es directa u objetiva (módulos), y si es directa, si",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2024-08-09)"
+         },
+         {
+          "url": "https://taxdown.es/casilla-renta",
+          "title": "Casillas de la Declaración de la Renta 2026 - Guía Completa",
+          "snippet": "Rendimientos del Trabajo: Casillas 11-100: Estas casillas recogen los ingresos por salarios, pensiones, prestaciones, y otros beneficios, así como",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.larazon.es/tecnologia-consumo/como-hacer-declaracion-renta-2024-movil-guia-paso-paso-app-agencia-tributaria_2025040467effcc4eec2d3000145eba1.html",
+          "title": "Cómo hacer la declaración de la Renta 2024 desde el móvil",
+          "snippet": "Cómo hacer la declaración de la Renta 2024 desde el móvil: guía paso a paso con la app de la Agencia Tributaria · Trámite telemático con la",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://taxdown.es/como-hacer-declaracion-renta",
+          "title": "Cómo hacer la Declaración de la Renta 2025/2026",
+          "snippet": "1. Accede a la página web de Hacienda y busca el apartado correspondiente a la «Renta 2024» en la web de la Agencia Tributaria. 2. Identifícate",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.facebook.com/Cibervoluntarios/videos/sab%C3%ADas-que-ya-puedes-hacer-tu-declaraci%C3%B3n-de-la-renta-desde-el-m%C3%B3vilen-este-cibe/670965142345293/",
+          "title": "📱¿Sabías que ya puedes hacer tu declaración de la Renta ",
+          "snippet": "Solo necesitas tu móvil, revisar el borrador, aplicar las deducciones que te correspondan (así te ahorras un dinerito) y presentarla. Todo sin",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.facebook.com/groups/2997995050253141/posts/26797989083160404/",
+          "title": "Cuál es la forma correcta de presentar mi declaración de 2024 y ",
+          "snippet": "Para declaraciones del año 2024 y anteriores es necesario solicitar devolución manual mediante el formato de devoluciones FED, para ello se",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-04-23)"
+         },
+         {
+          "url": "https://profact.com.mx/declaracion-anual-2024-todo-lo-que-necesitas-saber/",
+          "title": "Declaración Anual 2024: Todo lo que Necesitas Saber | ProFact",
+          "snippet": "La Declaración Anual del Impuesto sobre la Renta (ISR) del año 2024 es un informe anual que detalla los ingresos y gastos derivados de la actividad",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/consultas-informaticas/renta-ayuda-tecnica/presentar-borrador-declaracion-mediante-renta-pin.html",
+          "title": "Cómo presentar borrador o declaración mediante Renta ",
+          "snippet": "Será necesario introducir también el factor de autenticación establecido para el dispositivo móvil (huella, PIN, patrón, reconocimiento facial,",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.gob.mx/sat/articulos/declaracion-anual-2024-de-personas",
+          "title": "Declaración Anual 2024 de personas - Gob MX",
+          "snippet": "Conoce los beneficios, mejoras y toda la información necesaria para presentar tu Declaración Anual 2024 de personas.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.bbva.com/es/salud-financiera/los-cinco-primeros-pasos-la-declaracion-la-renta-internet/",
+          "title": "Los cinco primeros pasos para hacer la declaración de ",
+          "snippet": "Los cinco primeros pasos para hacer la declaración de la renta por internet · 1. Acceso a la web de Hacienda · 2. Identificación y acceso al",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.siigo.com/mx/blog/obligaciones-fiscales/como-hacer-mi-declaracion-anual-de-impuestos/?srsltid=AfmBOorNHXdD5UuaBk6xBGbxITksKw881djHCn7VJaN0g2Msdllz9P0K",
+          "title": "Guía para hacer tu Declaración Anual 2026 en México | Siigo Aspel",
+          "snippet": "Paso a paso: ¿cómo hacer la Declaración Anual de impuestos? · 1. Ingresa al portal del SAT y dirígete a “Declaraciones para personas”. · 2. Despliega las opciones",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.dailymotion.com/video/x8w7t4c",
+          "title": "Cómo conseguir el número de referencia para hacer la declaración ",
+          "snippet": "Este miércoles 3 de abril de 2024 comienza el plazo para presentar online la declaración de Renta correspondiente al ejercicio 2023,",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2024-04-03)"
+         },
+         {
+          "url": "https://english.beijing.gov.cn/workinginbeijing/individualincometax/",
+          "title": "Declaration of Individual Income Tax - Beijing - 北京市人民政府",
+          "snippet": "Basic Documents: Two copies of\"Individual Income Tax Annual Self-Declaration Return\". Required documents may differ on a case-by-case basis. +. Where taxpayers",
+          "hostname": "中国政府网",
+          "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01uVLQQ51guZF6NjXhP_!!6000000004202-55-tps-32-32.svg",
+          "date": ""
+         },
+         {
+          "url": "https://www.ciat.org/pre-prepared-tax-statements-an-instrument-of-facilitation-and-control/?lang=en",
+          "title": "Pre-prepared Tax Statements: An Instrument of Facilitation and Control",
+          "snippet": "The draft declarations represent the culmination of the strategy of many TAs that focus on increasing the levels of “voluntary” compliance of taxpayers.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2021-05-28)"
+         },
+         {
+          "url": "https://www.bajajlifeinsurance.com/life-insurance-guide/tax/income-tax-declaration-form.html",
+          "title": "Income Tax Declaration Form: Filing Process, Benefits & Importance",
+          "snippet": "An income tax declaration is a document employees submit to their employer that details their total income, expenses, and eligible tax-saving",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2025-04-23)"
+         },
+         {
+          "url": "https://teamsystem.es/magazine/consultar-declaraciones-renta-anteriores/",
+          "title": "▷ ¿Cómo consultar las declaraciones de la renta anteriores?",
+          "snippet": "Entra en la página de trámites del modelo 100 · Clave PIN: es imprescindible solicitarla a través de la página web. · Número de referencia: cuando",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2024-03-04)"
+         },
+         {
+          "url": "https://www.tataaig.com/health-insurance/income-tax-declaration",
+          "title": "Complete Guide to Income Tax Declaration (ITD) | Tata AIG",
+          "snippet": "This declaration is crucial for determining the amount of taxes owed or refundable to the taxpayer. It serves as a means for taxpayers to comply with tax laws",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://dostupnyadvokat.cz/en/blog/income-tax-declaration",
+          "title": "How to fill in the income tax declaration - Dostupný advokát",
+          "snippet": "This declaration is used to determine how income tax is paid. After all, it is also in their interest as it allows them to benefit from tax",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2024-05-21)"
+         },
+         {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/consultas-informaticas/renta-ayuda-tecnica/copia-declaracion/obtencion-copia-consulta-declaraciones-presentadas-renta.html",
+          "title": "Cómo obtener una copia de la declaración presentada",
+          "snippet": "En \"Gestiones destacadas\" de Renta, accede a \"Todas las gestiones\" y pulsa \"Consulta de declaraciones presentadas\". Consulta de declaraciones",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-06-01)"
+         },
+         {
+          "url": "https://akriviahcm.com/resources/hr-glossary/it-declaration",
+          "title": "What is Income Tax Declaration? | Meaning & Definition | Akrivia HCM",
+          "snippet": "Income tax declaration is a form that an individual must fill in to declare their income and taxes paid during the year.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.camerfirma.com/modelo-100-que-es-como-presentarlo/",
+          "title": "Modelo 100 IRPF ¿qué es y quién tiene que presentarlo?",
+          "snippet": "El modelo 100 permite hacer la devolución o ingreso del IRPF; es el modelo conocido como \"Declaración de la Renta\". Te ayudamos con tus dudas.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         }
+        ],
+        "tool_result": {
+         "docs": [
+          {
+           "url": "https://asesoresumbrella.com/la-importancia-de-las-casillas-en-la-declaracion-de-la-renta/",
+           "title": "La importancia de las casillas en la Declaración de la Renta",
+           "snippet": "Si eres trabajador por cuenta ajena tus ingresos son declarados en la casilla correspondiente a rendimientos de trabajo. En el caso de los autónomos la",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://www.rtve.es/noticias/20240404/declaracion-renta-2024-casillas-fijarme-autonomo-trabajo-empresa/16040058.shtml",
+           "title": "Declaración de la renta 2024 | Consejos para autónomos y ",
+           "snippet": "Te explicamos qué casillas debes mirar con más atencion antes de presentar la Declaración de la renta 2024 si trabajas para una empresa o si",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2024-04-04)"
+          },
+          {
+           "url": "https://transparencia.ayto-humanesdemadrid.es/storage/uploads/1761812714Mart%C3%ADn%20Renta%202024_censurado.pdf",
+           "title": "[PDF] Modelo 100 Ejercicio 2024",
+           "snippet": "RETENCIONES Y DEMÁS PAGOS A CUENTA. Por rendimientos del trabajo. 6.994,86 0596. Por rendimientos del capital mobiliario. 152,29 0597. Total",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2025-11-05)"
+          },
+          {
+           "url": "https://declarando.es/modelo-100",
+           "title": "Modelo 100: guía 2026 para ahorrar en tu renta de autónomo",
+           "snippet": "¿Trabajas en casa? Puedes deducir el alquiler en esta casilla (0192), con el límite de la superficie que usas para trabajar. Por ejemplo, si",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2025-04-11)"
+          },
+          {
+           "url": "https://sede.agenciatributaria.gob.es/Sede/Ayuda/24Presentacion/100.html",
+           "title": "Modelo 100. Declaración del Impuesto sobre la Renta de las ",
+           "snippet": "Modelo 100. Declaración del Impuesto sobre la Renta de las Personas Físicas 2024 · 1. Introducción · 2. Obligación de declarar · 3. Cuestiones",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2026-05-06)"
+          },
+          {
+           "url": "https://www.fiscal-impuestos.com/files-fiscal/modelo-100.pdf",
+           "title": "[PDF] modelo-100.pdf - Fiscal Impuestos",
+           "snippet": "Rendimientos procedentes de rentas que tengan por causa la imposición de capitales y otros rendimientos del capital mobiliario a integrar en la base imponible",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://grupoeas.com/casillas-declaracion-renta-2024/",
+           "title": "Casillas clave en la Declaración de la Renta 2024: Guía - Grupo EAS",
+           "snippet": "Casilla 0012: Recoge el total de los rendimientos íntegros del trabajo. Incluye sueldos, salarios, prestaciones por desempleo o pensiones.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2025-05-29)"
+          },
+          {
+           "url": "https://quaderno.io/es/articulos/declaracion-renta-autonomos-paso-a-paso/",
+           "title": "Cómo hacer la declaración de la Renta para autónomos, paso a paso",
+           "snippet": "Casilla 166 a 168: Estas casillas se reservan para especificar si tu estimación de ingresos es directa u objetiva (módulos), y si es directa, si",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2024-08-09)"
+          },
+          {
+           "url": "https://taxdown.es/casilla-renta",
+           "title": "Casillas de la Declaración de la Renta 2026 - Guía Completa",
+           "snippet": "Rendimientos del Trabajo: Casillas 11-100: Estas casillas recogen los ingresos por salarios, pensiones, prestaciones, y otros beneficios, así como",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://www.larazon.es/tecnologia-consumo/como-hacer-declaracion-renta-2024-movil-guia-paso-paso-app-agencia-tributaria_2025040467effcc4eec2d3000145eba1.html",
+           "title": "Cómo hacer la declaración de la Renta 2024 desde el móvil",
+           "snippet": "Cómo hacer la declaración de la Renta 2024 desde el móvil: guía paso a paso con la app de la Agencia Tributaria · Trámite telemático con la",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://taxdown.es/como-hacer-declaracion-renta",
+           "title": "Cómo hacer la Declaración de la Renta 2025/2026",
+           "snippet": "1. Accede a la página web de Hacienda y busca el apartado correspondiente a la «Renta 2024» en la web de la Agencia Tributaria. 2. Identifícate",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://www.facebook.com/Cibervoluntarios/videos/sab%C3%ADas-que-ya-puedes-hacer-tu-declaraci%C3%B3n-de-la-renta-desde-el-m%C3%B3vilen-este-cibe/670965142345293/",
+           "title": "📱¿Sabías que ya puedes hacer tu declaración de la Renta ",
+           "snippet": "Solo necesitas tu móvil, revisar el borrador, aplicar las deducciones que te correspondan (así te ahorras un dinerito) y presentarla. Todo sin",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://www.facebook.com/groups/2997995050253141/posts/26797989083160404/",
+           "title": "Cuál es la forma correcta de presentar mi declaración de 2024 y ",
+           "snippet": "Para declaraciones del año 2024 y anteriores es necesario solicitar devolución manual mediante el formato de devoluciones FED, para ello se",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2026-04-23)"
+          },
+          {
+           "url": "https://profact.com.mx/declaracion-anual-2024-todo-lo-que-necesitas-saber/",
+           "title": "Declaración Anual 2024: Todo lo que Necesitas Saber | ProFact",
+           "snippet": "La Declaración Anual del Impuesto sobre la Renta (ISR) del año 2024 es un informe anual que detalla los ingresos y gastos derivados de la actividad",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/consultas-informaticas/renta-ayuda-tecnica/presentar-borrador-declaracion-mediante-renta-pin.html",
+           "title": "Cómo presentar borrador o declaración mediante Renta ",
+           "snippet": "Será necesario introducir también el factor de autenticación establecido para el dispositivo móvil (huella, PIN, patrón, reconocimiento facial,",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://www.gob.mx/sat/articulos/declaracion-anual-2024-de-personas",
+           "title": "Declaración Anual 2024 de personas - Gob MX",
+           "snippet": "Conoce los beneficios, mejoras y toda la información necesaria para presentar tu Declaración Anual 2024 de personas.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://www.bbva.com/es/salud-financiera/los-cinco-primeros-pasos-la-declaracion-la-renta-internet/",
+           "title": "Los cinco primeros pasos para hacer la declaración de ",
+           "snippet": "Los cinco primeros pasos para hacer la declaración de la renta por internet · 1. Acceso a la web de Hacienda · 2. Identificación y acceso al",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://www.siigo.com/mx/blog/obligaciones-fiscales/como-hacer-mi-declaracion-anual-de-impuestos/?srsltid=AfmBOorNHXdD5UuaBk6xBGbxITksKw881djHCn7VJaN0g2Msdllz9P0K",
+           "title": "Guía para hacer tu Declaración Anual 2026 en México | Siigo Aspel",
+           "snippet": "Paso a paso: ¿cómo hacer la Declaración Anual de impuestos? · 1. Ingresa al portal del SAT y dirígete a “Declaraciones para personas”. · 2. Despliega las opciones",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://www.dailymotion.com/video/x8w7t4c",
+           "title": "Cómo conseguir el número de referencia para hacer la declaración ",
+           "snippet": "Este miércoles 3 de abril de 2024 comienza el plazo para presentar online la declaración de Renta correspondiente al ejercicio 2023,",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2024-04-03)"
+          },
+          {
+           "url": "https://english.beijing.gov.cn/workinginbeijing/individualincometax/",
+           "title": "Declaration of Individual Income Tax - Beijing - 北京市人民政府",
+           "snippet": "Basic Documents: Two copies of\"Individual Income Tax Annual Self-Declaration Return\". Required documents may differ on a case-by-case basis. +. Where taxpayers",
+           "hostname": "中国政府网",
+           "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01uVLQQ51guZF6NjXhP_!!6000000004202-55-tps-32-32.svg",
+           "date": ""
+          },
+          {
+           "url": "https://www.ciat.org/pre-prepared-tax-statements-an-instrument-of-facilitation-and-control/?lang=en",
+           "title": "Pre-prepared Tax Statements: An Instrument of Facilitation and Control",
+           "snippet": "The draft declarations represent the culmination of the strategy of many TAs that focus on increasing the levels of “voluntary” compliance of taxpayers.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2021-05-28)"
+          },
+          {
+           "url": "https://www.bajajlifeinsurance.com/life-insurance-guide/tax/income-tax-declaration-form.html",
+           "title": "Income Tax Declaration Form: Filing Process, Benefits & Importance",
+           "snippet": "An income tax declaration is a document employees submit to their employer that details their total income, expenses, and eligible tax-saving",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2025-04-23)"
+          },
+          {
+           "url": "https://teamsystem.es/magazine/consultar-declaraciones-renta-anteriores/",
+           "title": "▷ ¿Cómo consultar las declaraciones de la renta anteriores?",
+           "snippet": "Entra en la página de trámites del modelo 100 · Clave PIN: es imprescindible solicitarla a través de la página web. · Número de referencia: cuando",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2024-03-04)"
+          },
+          {
+           "url": "https://www.tataaig.com/health-insurance/income-tax-declaration",
+           "title": "Complete Guide to Income Tax Declaration (ITD) | Tata AIG",
+           "snippet": "This declaration is crucial for determining the amount of taxes owed or refundable to the taxpayer. It serves as a means for taxpayers to comply with tax laws",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://dostupnyadvokat.cz/en/blog/income-tax-declaration",
+           "title": "How to fill in the income tax declaration - Dostupný advokát",
+           "snippet": "This declaration is used to determine how income tax is paid. After all, it is also in their interest as it allows them to benefit from tax",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2024-05-21)"
+          },
+          {
+           "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/consultas-informaticas/renta-ayuda-tecnica/copia-declaracion/obtencion-copia-consulta-declaraciones-presentadas-renta.html",
+           "title": "Cómo obtener una copia de la declaración presentada",
+           "snippet": "En \"Gestiones destacadas\" de Renta, accede a \"Todas las gestiones\" y pulsa \"Consulta de declaraciones presentadas\". Consulta de declaraciones",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2026-06-01)"
+          },
+          {
+           "url": "https://akriviahcm.com/resources/hr-glossary/it-declaration",
+           "title": "What is Income Tax Declaration? | Meaning & Definition | Akrivia HCM",
+           "snippet": "Income tax declaration is a form that an individual must fill in to declare their income and taxes paid during the year.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://www.camerfirma.com/modelo-100-que-es-como-presentarlo/",
+           "title": "Modelo 100 IRPF ¿qué es y quién tiene que presentarlo?",
+           "snippet": "El modelo 100 permite hacer la devolución o ingreso del IRPF; es el modelo conocido como \"Declaración de la Renta\". Te ayudamos con tus dudas.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          }
+         ],
+         "used_id": 29,
+         "tool_call_metrics": {
+          "success": [
+           1,
+           1,
+           1
+          ]
+         },
+         "tool_observation": "```\n[1] https://asesoresumbrella.com/la-importancia-de-las-casillas-en-la-declaracion-de-la-renta/ \"La importancia de las casillas en la Declaración de la Renta\nSi eres trabajador por cuenta ajena tus ingresos son declarados en la casilla correspondiente a rendimientos de trabajo. En el caso de los autónomos la\" \n\n[2] https://www.rtve.es/noticias/20240404/declaracion-renta-2024-casillas-fijarme-autonomo-trabajo-empresa/16040058.shtml \"Declaración de la renta 2024 | Consejos para autónomos y \nTe explicamos qué casillas debes mirar con más atencion antes de presentar la Declaración de la renta 2024 si trabajas para una empresa o si\"  (2024-04-04)\n\n[3] https://transparencia.ayto-humanesdemadrid.es/storage/uploads/1761812714Mart%C3%ADn%20Renta%202024_censurado.pdf \"[PDF] Modelo 100 Ejercicio 2024\nRETENCIONES Y DEMÁS PAGOS A CUENTA. Por rendimientos del trabajo. 6.994,86 0596. Por rendimientos del capital mobiliario. 152,29 0597. Total\"  (2025-11-05)\n\n[4] https://declarando.es/modelo-100 \"Modelo 100: guía 2026 para ahorrar en tu renta de autónomo\n¿Trabajas en casa? Puedes deducir el alquiler en esta casilla (0192), con el límite de la superficie que usas para trabajar. Por ejemplo, si\"  (2025-04-11)\n\n[5] https://sede.agenciatributaria.gob.es/Sede/Ayuda/24Presentacion/100.html \"Modelo 100. Declaración del Impuesto sobre la Renta de las \nModelo 100. Declaración del Impuesto sobre la Renta de las Personas Físicas 2024 · 1. Introducción · 2. Obligación de declarar · 3. Cuestiones\"  (2026-05-06)\n\n[6] https://www.fiscal-impuestos.com/files-fiscal/modelo-100.pdf \"[PDF] modelo-100.pdf - Fiscal Impuestos\nRendimientos procedentes de rentas que tengan por causa la imposición de capitales y otros rendimientos del capital mobiliario a integrar en la base imponible\" \n\n[7] https://grupoeas.com/casillas-declaracion-renta-2024/ \"Casillas clave en la Declaración de la Renta 2024: Guía - Grupo EAS\nCasilla 0012: Recoge el total de los rendimientos íntegros del trabajo. Incluye sueldos, salarios, prestaciones por desempleo o pensiones.\"  (2025-05-29)\n\n[8] https://quaderno.io/es/articulos/declaracion-renta-autonomos-paso-a-paso/ \"Cómo hacer la declaración de la Renta para autónomos, paso a paso\nCasilla 166 a 168: Estas casillas se reservan para especificar si tu estimación de ingresos es directa u objetiva (módulos), y si es directa, si\"  (2024-08-09)\n\n[9] https://taxdown.es/casilla-renta \"Casillas de la Declaración de la Renta 2026 - Guía Completa\nRendimientos del Trabajo: Casillas 11-100: Estas casillas recogen los ingresos por salarios, pensiones, prestaciones, y otros beneficios, así como\" \n\n[10] https://www.larazon.es/tecnologia-consumo/como-hacer-declaracion-renta-2024-movil-guia-paso-paso-app-agencia-tributaria_2025040467effcc4eec2d3000145eba1.html \"Cómo hacer la declaración de la Renta 2024 desde el móvil\nCómo hacer la declaración de la Renta 2024 desde el móvil: guía paso a paso con la app de la Agencia Tributaria · Trámite telemático con la\" \n\n[11] https://taxdown.es/como-hacer-declaracion-renta \"Cómo hacer la Declaración de la Renta 2025/2026\n1. Accede a la página web de Hacienda y busca el apartado correspondiente a la «Renta 2024» en la web de la Agencia Tributaria. 2. Identifícate\" \n\n[12] https://www.facebook.com/Cibervoluntarios/videos/sab%C3%ADas-que-ya-puedes-hacer-tu-declaraci%C3%B3n-de-la-renta-desde-el-m%C3%B3vilen-este-cibe/670965142345293/ \"📱¿Sabías que ya puedes hacer tu declaración de la Renta \nSolo necesitas tu móvil, revisar el borrador, aplicar las deducciones que te correspondan (así te ahorras un dinerito) y presentarla. Todo sin\" \n\n[13] https://www.facebook.com/groups/2997995050253141/posts/26797989083160404/ \"Cuál es la forma correcta de presentar mi declaración de 2024 y \nPara declaraciones del año 2024 y anteriores es necesario solicitar devolución manual mediante el formato de devoluciones FED, para ello se\"  (2026-04-23)\n\n[14] https://profact.com.mx/declaracion-anual-2024-todo-lo-que-necesitas-saber/ \"Declaración Anual 2024: Todo lo que Necesitas Saber | ProFact\nLa Declaración Anual del Impuesto sobre la Renta (ISR) del año 2024 es un informe anual que detalla los ingresos y gastos derivados de la actividad\" \n\n[15] https://sede.agenciatributaria.gob.es/Sede/ayuda/consultas-informaticas/renta-ayuda-tecnica/presentar-borrador-declaracion-mediante-renta-pin.html \"Cómo presentar borrador o declaración mediante Renta \nSerá necesario introducir también el factor de autenticación establecido para el dispositivo móvil (huella, PIN, patrón, reconocimiento facial,\" \n\n[16] https://www.gob.mx/sat/articulos/declaracion-anual-2024-de-personas \"Declaración Anual 2024 de personas - Gob MX\nConoce los beneficios, mejoras y toda la información necesaria para presentar tu Declaración Anual 2024 de personas.\" \n\n[17] https://www.bbva.com/es/salud-financiera/los-cinco-primeros-pasos-la-declaracion-la-renta-internet/ \"Los cinco primeros pasos para hacer la declaración de \nLos cinco primeros pasos para hacer la declaración de la renta por internet · 1. Acceso a la web de Hacienda · 2. Identificación y acceso al\" \n\n[18] https://www.siigo.com/mx/blog/obligaciones-fiscales/como-hacer-mi-declaracion-anual-de-impuestos/?srsltid=AfmBOorNHXdD5UuaBk6xBGbxITksKw881djHCn7VJaN0g2Msdllz9P0K \"Guía para hacer tu Declaración Anual 2026 en México | Siigo Aspel\nPaso a paso: ¿cómo hacer la Declaración Anual de impuestos? · 1. Ingresa al portal del SAT y dirígete a “Declaraciones para personas”. · 2. Despliega las opciones\" \n\n[19] https://www.dailymotion.com/video/x8w7t4c \"Cómo conseguir el número de referencia para hacer la declaración \nEste miércoles 3 de abril de 2024 comienza el plazo para presentar online la declaración de Renta correspondiente al ejercicio 2023,\"  (2024-04-03)\n\n[20] https://english.beijing.gov.cn/workinginbeijing/individualincometax/ \"Declaration of Individual Income Tax - Beijing - 北京市人民政府\nBasic Documents: Two copies of\"Individual Income Tax Annual Self-Declaration Return\". Required documents may differ on a case-by-case basis. +. Where taxpayers\" \n\n[21] https://www.ciat.org/pre-prepared-tax-statements-an-instrument-of-facilitation-and-control/?lang=en \"Pre-prepared Tax Statements: An Instrument of Facilitation and Control\nThe draft declarations represent the culmination of the strategy of many TAs that focus on increasing the levels of “voluntary” compliance of taxpayers.\"  (2021-05-28)\n\n[22] https://www.bajajlifeinsurance.com/life-insurance-guide/tax/income-tax-declaration-form.html \"Income Tax Declaration Form: Filing Process, Benefits & Importance\nAn income tax declaration is a document employees submit to their employer that details their total income, expenses, and eligible tax-saving\"  (2025-04-23)\n\n[23] https://teamsystem.es/magazine/consultar-declaraciones-renta-anteriores/ \"▷ ¿Cómo consultar las declaraciones de la renta anteriores?\nEntra en la página de trámites del modelo 100 · Clave PIN: es imprescindible solicitarla a través de la página web. · Número de referencia: cuando\"  (2024-03-04)\n\n[24] https://www.tataaig.com/health-insurance/income-tax-declaration \"Complete Guide to Income Tax Declaration (ITD) | Tata AIG\nThis declaration is crucial for determining the amount of taxes owed or refundable to the taxpayer. It serves as a means for taxpayers to comply with tax laws\" \n\n[25] https://dostupnyadvokat.cz/en/blog/income-tax-declaration \"How to fill in the income tax declaration - Dostupný advokát\nThis declaration is used to determine how income tax is paid. After all, it is also in their interest as it allows them to benefit from tax\"  (2024-05-21)\n\n[26] https://sede.agenciatributaria.gob.es/Sede/ayuda/consultas-informaticas/renta-ayuda-tecnica/copia-declaracion/obtencion-copia-consulta-declaraciones-presentadas-renta.html \"Cómo obtener una copia de la declaración presentada\nEn \"Gestiones destacadas\" de Renta, accede a \"Todas las gestiones\" y pulsa \"Consulta de declaraciones presentadas\". Consulta de declaraciones\"  (2026-06-01)\n\n[27] https://akriviahcm.com/resources/hr-glossary/it-declaration \"What is Income Tax Declaration? | Meaning & Definition | Akrivia HCM\nIncome tax declaration is a form that an individual must fill in to declare their income and taxes paid during the year.\" \n\n[28] https://www.camerfirma.com/modelo-100-que-es-como-presentarlo/ \"Modelo 100 IRPF ¿qué es y quién tiene que presentarlo?\nEl modelo 100 permite hacer la devolución o ingreso del IRPF; es el modelo conocido como \"Declaración de la Renta\". Te ayudamos con tus dudas.\" \n```"
+        }
+       },
+       "role": "function",
+       "name": "web_search",
+       "function_id": "round_0_call_f7c35c0cd286407187e0d338",
+       "function_call": {
+        "name": "web_search",
+        "arguments": "{\"queries\": \n[\n  \"casillas modelo 100 renta 2024 trabajador por cuenta ajena explicadas\",\n  \"paso a paso declaración de la renta 2024 móvil sede agencia tributaria\",\n  \"números justificante presentación declaración de la renta\"\n]\n\n}"
+       },
+       "response_id": "b410b8b5-81cc-4f96-9f48-0fdff616a77c",
+       "usage": {}
+      },
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Simulando la declaración de la renta desde un dispositivo móvil como trabajador por cuenta ajena"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "Estoy organizando la información necesaria para guiar paso a paso el proceso de declaración, centrándome en las casillas clave del modelo oficial.  \nAseguro que cada dato se interpreta correctamente dentro del contexto de los rendimientos y retenciones del trabajo, respetando las relaciones entre base liquidable, cuotas estatales y autonómicas.  \nFinalmente, calculo el resultado neto con precisión, asegurando que el usuario entienda claramente su situación fiscal al final del proceso."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "b410b8b5-81cc-4f96-9f48-0fdff616a77c",
+       "usage": {
+        "input_tokens": 6761,
+        "output_tokens": 240,
+        "characters": 0,
+        "total_tokens": 7001,
+        "input_tokens_details": {
+         "text_tokens": 6761
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 233,
+         "text_tokens": 240
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 2176
+        }
+       },
+       "timestamp": 1781649484
+      },
+      {
+       "content": "# 📱 **Guía paso a paso: Haciendo la Renta en el móvil (Trabajador por cuenta ajena)**\n\n*Imagina que estás sentado en el sofá, con el móvil en la mano, y vamos a hacer la declaración juntos. Te voy a decir exactamente qué tocar y qué significa cada cosa.*\n\n---\n\n## **PASO 1: Entrar en la web de Hacienda**\n\nAbres el navegador de tu móvil (Chrome, Safari, etc.) y escribes:\n👉 **sede.agenciatributaria.gob.es**\n\nVerás la página principal de la Sede Electrónica. Busca el banner grande que pone:\n🔹 **\"Renta 2024\"** (o el año que toque)\n\nPulsas ahí y te lleva a la página principal de la campaña de la Renta.\n\n---\n\n## **PASO 2: Identificarte (demostrar que eres tú)**\n\nTe aparecen tres opciones grandes para entrar:\n\n### **Opción A: Con Cl@ve PIN o Cl@ve Permanente** (la más cómoda)\n- Si ya la tienes activada, pulsas \"Cl@ve PIN\"\n- Te pide tu DNI y la contraseña\n- Si es Cl@ve PIN, te mandan un SMS con un código de 6 dígitos que metes en el móvil\n\n### **Opción B: Con Certificado Digital**\n- Si lo tienes instalado en el móvil, te reconoce automáticamente\n\n### **Opción C: Con Número de Referencia** (si no tienes nada de lo anterior)\n- Pulsas \"Número de referencia\"\n- Te pide:\n  - **Casilla 505** de la declaración del año anterior (el \"código secreto\" que te guardaste)\n  - Tu DNI\n  - La fecha de validez del DNI\n- Te mandan un SMS con un código de 42 caracteres (el \"número de referencia\") que te deja entrar solo una vez\n\n**🎯 En lenguaje llano:** Es como cuando entras en el banco. Tienes que demostrar que eres tú y no otra persona.\n\n---\n\n## **PASO 3: Acceder al servicio \"Renta WEB\"**\n\nUna vez dentro, te aparece un menú con opciones. Buscas y pulsas:\n🔹 **\"Acceder a Renta WEB\"**\n\nSe carga la aplicación web de Hacienda. Arriba verás:\n- **Tus datos personales** (nombre, DNI, dirección)\n- **El año del ejercicio** (por ejemplo, \"Ejercicio 2024\")\n- **Un menú lateral** con todas las secciones\n\n---\n\n## **PASO 4: Revisar el Borrador (la \"pre-cuenta\")**\n\nHacienda ya te ha hecho los deberes. Te aparece el **borrador de tu declaración**.\n\n⚠️ **IMPORTANTE:** No le des a \"Presentar\" todavía. Tienes que revisar TODO.\n\n### **Lo primero que ves: \"Datos identificativos\"**\n- Tu nombre, DNI, dirección, estado civil\n- **Comprueba que todo esté correcto**\n\n---\n\n## **PASO 5: Revisar tus Ingresos (lo que ganaste)**\n\nVas al menú lateral y pulsas:\n🔹 **\"Rendimientos del trabajo\"**\n\nAquí es donde está tu sueldo. Verás una tabla con:\n\n### **Casilla 0001: \"Rendimientos íntegros del trabajo\"**\n- Es tu **sueldo bruto total** del año\n- Incluye: nóminas, pagas extra, horas extra, bonos\n- **Ejemplo:** Si ganaste 28.000€ brutos al año, aquí pone 28.000\n\n### **Casilla 0002: \"Gastos deducibles\"**\n- Son los gastos que Hacienda te deja restar automáticamente\n- Normalmente son **2.000€ fijos** (por \"otros gastos\")\n- Si tienes discapacidad, pueden ser más\n\n### **Casilla 0012: \"Rendimientos netos del trabajo\"**\n- Es la resta: **Casilla 0001 - Casilla 0002**\n- **Ejemplo:** 28.000 - 2.000 = 26.000€\n- Esta es la cifra sobre la que te van a calcular el impuesto\n\n### **Casilla 0596: \"Retenciones del trabajo\"**\n- Es el dinero que **ya te han quitado** de la nómina mes a mes\n- **Ejemplo:** Si en cada nómina te quitaron 400€ de IRPF, aquí pondrá: 400 x 12 = 4.800€\n- **🎯 En lenguaje llano:** Es el \"pago a cuenta\" que ya hiciste durante el año\n\n---\n\n## **PASO 6: Revisar otros ingresos (si los tienes)**\n\nSi solo tuviste un empleo por cuenta ajena, puedes saltarte esto. Pero si tienes:\n\n### **\"Rendimientos del capital mobiliario\"**\n- Intereses de cuentas bancarias\n- Dividendos de acciones\n- **Casilla 0027:** Importe total\n\n### **\"Ganancias patrimoniales\"**\n- Si vendiste acciones, fondos de inversión, criptomonedas\n- **Casilla 0267:** Ganancias\n- **Casilla 0277:** Pérdidas\n\n### **\"Imputación de rentas\"**\n- Si tienes un segundo piso vacío (no tu vivienda habitual)\n- Hacienda te cobra un \"impuesto fantasma\" por tenerlo\n- **Casilla 0092:** Importe imputado\n\n---\n\n## **PASO 7: Revisar las Deducciones (los \"cupones descuento\")**\n\nVas al menú lateral y pulsas:\n🔹 **\"Deducciones\"**\n\nAquí es donde puedes **ahorrar dinero**. Las más comunes:\n\n### **Deducción por vivienda habitual**\n- Solo si compraste tu casa **antes del 1 de enero de 2013**\n- **Casilla 0698:** Importe deducible\n- Te puedes deducir el **15%** de lo que pagaste de hipoteca (capital + intereses)\n- **Máximo:** 1.356€ al año\n\n### **Deducción por donativos**\n- Si donaste a ONGs, iglesias, etc.\n- **Casilla 0703:** Importe donado\n- Te deducen el **80%** de los primeros 150€ y el **40%** del resto\n\n### **Deducción por maternidad**\n- Si tienes hijos menores de 3 años y trabajas\n- **Casilla 0715:** Importe a deducir\n- Son **1.200€ al año** por hijo\n\n### **Deducciones autonómicas**\n- Cada comunidad autónoma tiene las suyas\n- **Ejemplos en Cataluña:**\n  - Deducción por alquiler de vivienda\n  - Deducción por gastos de educación\n  - Deducción por cuidado de hijos\n- **Casilla 0720 y siguientes:** Importe de cada deducción\n\n---\n\n## **PASO 8: Revisar los Datos personales y familiares**\n\nVas al menú y pulsas:\n🔹 **\"Datos personales y familiares\"**\n\nAquí es donde metes:\n\n### **Mínimo personal**\n- **Casilla 0515:** 5.550€ (para todos)\n- Si tienes más de 65 años: +1.150€\n- Si tienes más de 75 años: +1.400€\n\n### **Mínimo por hijos**\n- **Casilla 0517:** Por cada hijo\n  - Primer hijo: 2.400€\n  - Segundo hijo: 2.700€\n  - Tercer hijo: 4.000€\n  - Cuarto y siguientes: 4.500€\n- Si el hijo es menor de 3 años: +2.800€ adicionales\n\n### **Mínimo por descendientes o ascendientes con discapacidad**\n- Cantidades adicionales según el grado de discapacidad\n\n---\n\n## **PASO 9: Ver el Resultado (la \"hora de la verdad\")**\n\nVuelves a la pantalla principal de Renta WEB y bajas hasta el final.\n\nVerás un resumen con estos números:\n\n### **Casilla 0505: \"Base liquidable general\"**\n- Es todo lo que has ganado, menos los gastos y deducciones\n- **Ejemplo:** 26.000€ (rendimientos netos del trabajo)\n\n### **Casilla 0595: \"Cuota íntegra estatal\"**\n- Es lo que te tocaría pagar **antes** de aplicar retenciones ni deducciones\n- Se calcula aplicando el **tipo impositivo** (el porcentaje) a tu base liquidable\n- **Ejemplo:** Si tu tipo es del 20%, serían 5.200€\n\n### **Casilla 0597: \"Cuota íntegra autonómica\"**\n- Lo mismo, pero para la comunidad autónoma\n- **Ejemplo:** 2.600€\n\n### **Casilla 0598: \"Cuota líquida\"**\n- Es la suma: **Casilla 0595 + Casilla 0597**\n- **Ejemplo:** 5.200 + 2.600 = 7.800€\n\n### **Casilla 0698: \"Total de deducciones\"**\n- Todos los \"cupones descuento\" que has aplicado\n- **Ejemplo:** 1.356€ (por vivienda habitual)\n\n### **Casilla 0699: \"Cuota diferencial\"**\n- Es la resta: **Casilla 0598 - Casilla 0698**\n- **Ejemplo:** 7.800 - 1.356 = 6.444€\n- **Esto es lo que deberías pagar en total**\n\n### **Casilla 0697: \"Retenciones y pagos a cuenta\"**\n- Es el dinero que **ya te han quitado** durante el año\n- **Ejemplo:** 4.800€ (casilla 0596)\n\n### **Casilla 0700: \"Resultado de la declaración\"**\n- Es la resta final: **Casilla 0699 - Casilla 0697**\n- **Ejemplo:** 6.444 - 4.800 = **1.644€**\n\n---\n\n## **PASO 10: Ver si te toca pagar o te devuelven**\n\nArriba a la derecha, verás un recuadro grande con el resultado:\n\n### **Si pone \"A DEVOLVER\" (en verde)**\n- 🎉 **¡Fiesta!** Hacienda te debe dinero\n- Te ingresan la diferencia en tu cuenta bancaria\n- **Ejemplo:** \"A devolver: 350€\"\n\n### **Si pone \"A INGRESAR\" (en rojo)**\n- 💸 Te toca pagar\n- **Ejemplo:** \"A ingresar: 1.644€\"\n\n### **Si pone \"Resultado cero\"**\n- Estás en equilibrio: ni te deben ni debes\n\n---\n\n## **PASO 11: Presentar la declaración**\n\nSi todo está correcto, pulsas el botón:\n🔹 **\"Presentar declaración\"**\n\nTe pide:\n1. **Domiciliación bancaria:** El IBAN de tu cuenta (para que te ingresen o te cobren)\n2. **Si te toca pagar:** Puedes elegir:\n   - **Pago único:** Te cobran todo de una vez\n   - **Fraccionamiento:** Pagas el 60% ahora y el 40% en noviembre\n\nPulsas **\"Confirmar\"** y te pide que firmes electrónicamente (con Cl@ve, certificado o código SMS).\n\n---\n\n## **PASO 12: El Justificante (el \"ticket de compra\")**\n\nUna vez presentada, te aparece una pantalla con:\n\n### **Número de Justificante**\n- Es un código largo (ejemplo: **123456789012345**)\n- **🎯 GUÁRDALO:** Es la única prueba de que presentaste la declaración\n\n### **CSV (Código Seguro de Verificación)**\n- Otro código para verificar que el documento es auténtico\n\n### **Fecha y hora de presentación**\n- **Ejemplo:** \"Presentada el 15/06/2026 a las 18:45\"\n\n### **Resultado**\n- \"A devolver: 350€\" o \"A ingresar: 1.644€\"\n\nPuedes:\n- **Descargar el PDF** del justificante\n- **Enviarlo por email** a tu correo\n\n---\n\n## **PASO 13: ¿Y ahora qué?**\n\n### **Si te toca devolución:**\n- Hacienda tiene **6 meses** para ingresarte el dinero\n- Normalmente lo hacen en **1-3 semanas**\n- Te llega un SMS/email avisando: \"Su devolución ha sido ordenada\"\n\n### **Si te toca pagar:**\n- Te cobran en la fecha que elegiste\n- Te llega un SMS/email: \"Se ha efectuado el cargo\"\n\n### **Si te llega un Requerimiento:**\n- ⚠️ **No te asustes**\n- Es una carta de Hacienda pidiendo aclaraciones\n- Puedes responder desde Renta WEB, en el apartado **\"Contestar requerimientos\"**\n\n---\n\n## **🎯 Resumen visual del proceso en el móvil:**\n\n```\n1. sede.agenciatributaria.gob.es → \"Renta 2024\"\n2. Identificarte (Cl@ve / Referencia / Certificado)\n3. Acceder a \"Renta WEB\"\n4. Revisar \"Datos identificativos\"\n5. Revisar \"Rendimientos del trabajo\" (tu sueldo)\n6. Revisar \"Deducciones\" (tus descuentos)\n7. Revisar \"Datos personales y familiares\"\n8. Ver el \"Resultado\" (¿a devolver o a ingresar?)\n9. Pulsar \"Presentar declaración\"\n10. Meter el IBAN y confirmar\n11. Guardar el \"Número de Justificante\"\n12. ¡Listo!\n```\n\n---\n\n## **💡 Consejos finales:**\n\n✅ **Revisa TODO** antes de presentar. El borrador puede tener errores.\n✅ **Guarda el justificante** (el número largo) por si acaso.\n✅ **No presentes fuera de plazo** (normalmente abril-junio).\n✅ **Si te toca pagar y no puedes**, pide el fraccionamiento.\n✅ **Si tienes dudas**, puedes pedir cita previa con Hacienda para que te ayuden.\n\n---\n\n**¿Quieres que te explique alguna casilla o paso en más detalle?** 📱",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "b410b8b5-81cc-4f96-9f48-0fdff616a77c",
+       "usage": {
+        "input_tokens": 6761,
+        "output_tokens": 3617,
+        "characters": 0,
+        "total_tokens": 10378,
+        "input_tokens_details": {
+         "text_tokens": 6761
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 233,
+         "text_tokens": 3617
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 2176
+        }
+       },
+       "timestamp": 1781649544
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1781649544.2186332
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1781649460
+    },
+    "df54c2ca-6784-4582-a1a3-35ffd600d812": {
+     "id": "df54c2ca-6784-4582-a1a3-35ffd600d812",
+     "role": "user",
+     "content": "para que son los diferentes numeros de expientes. los campos que aparece quien tiene que rellenar intents hscerlo mentalmente y le cxplicas como a un niño de 6 años todos los escenarios posibles",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "b410b8b5-81cc-4f96-9f48-0fdff616a77c",
+     "turn_id": null,
+     "childrenIds": [
+      "96fe3327-8d25-44eb-8e91-87e45f33e0f9"
+     ],
+     "files": [],
+     "timestamp": 1781649629
+    },
+    "96fe3327-8d25-44eb-8e91-87e45f33e0f9": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "96fe3327-8d25-44eb-8e91-87e45f33e0f9",
+     "parentId": "df54c2ca-6784-4582-a1a3-35ffd600d812",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Analizando la solicitud del usuario con atención",
+          "Pensar como un niño de 6 años para explicar todo con analogías simples"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "Estoy interpretando la necesidad de simplificar información compleja sobre números de expediente en la declaración de la renta, priorizando claridad y accesibilidad.  \nMe enfoco en explicar cada número de forma directa, sin tecnicismos, como si lo hiciera a alguien que no entiende nada del tema.  \nMi objetivo es garantizar que el mensaje sea comprensible, natural y útil desde el primer momento.",
+          "Imagino cada número de expediente como una etiqueta en una caja de juguetes, que ayuda a Hacienda a saber qué juguete es de quién.  \nAl principio, el niño (el usuario) pone su nombre y datos, pero los números importantes los ponen Hacienda, como si fueran marcas en las cajas.  \nDurante el proceso, esos números son como señales que guían cada paso, y al final, sirven para confirmar que todo está bien y listo, como cuando se cierra la caja del juguete después de jugar."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "96fe3327-8d25-44eb-8e91-87e45f33e0f9",
+       "usage": {
+        "input_tokens": 7102,
+        "output_tokens": 177,
+        "characters": 0,
+        "total_tokens": 7279,
+        "input_tokens_details": {
+         "text_tokens": 7102
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 168,
+         "text_tokens": 177
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 2176
+        }
+       },
+       "timestamp": 1781649637
+      },
+      {
+       "content": "# 🎟️ **Los Números de Expediente Explicados para un Niño de 6 Años**\n\n*Imagínate que hacer la declaración de la renta es como ir a un parque de atracciones gigante. Cada número es como un ticket diferente que te dan en distintas partes del parque.*\n\n---\n\n## **🎫 LOS NÚMEROS QUE TE DAN AL ENTRAR (Para identificarte)**\n\n### **1. Número de Referencia (42 caracteres)**\n**🎯 ¿Qué es?** Es como el **ticket de entrada** al parque.\n**👶 Para un niño:** Es el código secreto que te da el guarda del parque para dejarte entrar. Solo sirve una vez.\n**🧑 ¿Quién lo rellena?** **HACIENDA** te lo da a ti.\n**📝 ¿Cuándo aparece?** Al principio, cuando intentas entrar en la web.\n**⚠️ ¿Qué pasa si lo pierdes?** Tienes que pedir otro nuevo, porque este ya no sirve.\n\n**Ejemplo:** `ABC123-XYZ789-456DEF-789GHI-012JKL-345MNO-678PQR`\n\n---\n\n### **2. Número de Expediente**\n**🎯 ¿Qué es?** Es como tu **pulsera identificativa** del parque.\n**👶 Para un niño:** Es el número que te pone Hacienda en la muñeca para saber quién eres durante todo el día.\n**🧑 ¿Quién lo rellena?** **HACIENDA** te lo asigna automáticamente.\n**📝 ¿Cuándo aparece?** Desde que entras hasta que sales. Siempre está ahí.\n**💡 ¿Para qué sirve?** Para que Hacienda sepa de quién es esta declaración.\n\n**Ejemplo:** `2024-12345678-1`\n\n---\n\n## **🎟️ LOS NÚMEROS QUE APARECEN DURANTE EL PROCESO (Los tickets de las atracciones)**\n\n### **3. Número de Borrador**\n**🎯 ¿Qué es?** Es el **borrador de tu dibujo** antes de pasarlo a limpio.\n**👶 Para un niño:** Es como cuando la profe te hace un dibujo a lápiz y tú solo tienes que repasar con rotulador.\n**🧑 ¿Quién lo rellena?** **HACIENDA** hace el dibujo (el borrador), **TÚ** lo revisas y lo corriges.\n**📝 ¿Cuándo aparece?** Cuando entras en Renta WEB por primera vez.\n**💡 ¿Para qué sirve?** Para que no tengas que empezar desde cero. Hacienda ya ha hecho los deberes por ti.\n\n**Ejemplo:** `BOR-2024-987654321`\n\n---\n\n### **4. Número de Casilla**\n**🎯 ¿Qué es?** Son los **cuadraditos del formulario** donde escribes números.\n**👶 Para un niño:** Son como las casillas de una hoja de cálculos o los cuadraditos de un Sudoku.\n**🧑 ¿Quién lo rellena?** **HACIENDA** pone algunos (los que ya sabe), **TÚ** pones otros (los que solo tú sabes).\n**📝 ¿Cuándo aparecen?** Durante todo el proceso, en cada pantalla.\n**💡 ¿Para qué sirven?** Para organizar la información. Cada casilla tiene un número para que Hacienda sepa qué significa.\n\n**Ejemplos:**\n- **Casilla 0001:** Tu sueldo total\n- **Casilla 0002:** Los gastos que te descuentan\n- **Casilla 0505:** El resultado final\n\n---\n\n### **5. Número de Justificante de Presentación**\n**🎯 ¿Qué es?** Es el **ticket final** que te dan cuando terminas todas las atracciones.\n**👶 Para un niño:** Es como el ticket que te dan al salir del parque para demostrar que has estado allí.\n**🧑 ¿Quién lo rellena?** **HACIENDA** te lo da automáticamente cuando terminas.\n**📝 ¿Cuándo aparece?** Al final, cuando pulsas \"Presentar declaración\".\n**⚠️ ¿Qué pasa si lo pierdes?** **MUY IMPORTANTE:** Si lo pierdes, no puedes demostrar que hiciste la declaración. ¡Guárdalo como un tesoro!\n\n**Ejemplo:** `123456789012345-2026-06-17T18:45:32`\n\n---\n\n## **🎨 LOS NÚMEROS QUE APARECEN SI HAY PROBLEMAS (Los tickets de incidencias)**\n\n### **6. Número de Requerimiento**\n**🎯 ¿Qué es?** Es una **carta de Hacienda** diciendo que algo no está bien.\n**👶 Para un niño:** Es como cuando la profe te dice: \"Oye, este ejercicio está mal, revísalo\".\n**🧑 ¿Quién lo rellena?** **HACIENDA** te lo manda a ti.\n**📝 ¿Cuándo aparece?** Semanas o meses después de presentar la declaración, si Hacienda detecta un error.\n**⚠️ ¿Qué pasa si lo ignoras?** Te pueden multar. Tienes que contestar.\n**💡 ¿Para qué sirve?** Para que corrijas el error o expliques por qué está bien.\n\n**Ejemplo:** `REQ-2026-555666777`\n\n---\n\n### **7. Número de Liquidación**\n**🎯 ¿Qué es?** Es el **cálculo final** de lo que tienes que pagar o te tienen que devolver.\n**👶 Para un niño:** Es como cuando la profe corrige tu examen y te pone la nota final.\n**🧑 ¿Quién lo rellena?** **HACIENDA** lo calcula automáticamente.\n**📝 ¿Cuándo aparece?** Al final de la declaración, en el resultado.\n**💡 ¿Para qué sirve?** Para saber si te toca pagar o te devuelven dinero.\n\n**Ejemplo:** `LIQ-2024-123456789-A-DEVOLVER`\n\n---\n\n### **8. Número de Devolución**\n**🎯 ¿Qué es?** Es el **ticket de que te van a pagar**.\n**👶 Para un niño:** Es como el vale que te dan en el parque para que te devuelvan el dinero de la entrada.\n**🧑 ¿Quién lo rellena?** **HACIENDA** te lo da cuando aprueba la devolución.\n**📝 ¿Cuándo aparece?** Semanas después de presentar la declaración, si te toca devolución.\n**💡 ¿Para qué sirve?** Para hacer seguimiento de cuándo te van a ingresar el dinero.\n\n**Ejemplo:** `DEV-2026-999888777`\n\n---\n\n### **9. Número de Pago / Cargo**\n**🎯 ¿Qué es?** Es el **recibo de que te han cobrado**.\n**👶 Para un niño:** Es como el ticket de la caja del supermercado cuando pagas.\n**🧑 ¿Quién lo rellena?** **HACIENDA** te lo da cuando te cobra.\n**📝 ¿Cuándo aparece?** En la fecha que elegiste para pagar (junio o noviembre).\n**💡 ¿Para qué sirve?** Para demostrar que ya pagaste.\n\n**Ejemplo:** `PAG-2026-111222333-1644EUR`\n\n---\n\n## **🎯 RESUMEN VISUAL: ¿Quién rellena qué?**\n\n| **Número** | **¿Quién lo rellena?** | **¿Cuándo aparece?** | **¿Para qué sirve?** |\n|------------|------------------------|----------------------|----------------------|\n| **Referencia** | Hacienda te lo da | Al entrar | Para identificarte |\n| **Expediente** | Hacienda te lo asigna | Durante todo el proceso | Para saber de quién es |\n| **Borrador** | Hacienda lo hace, tú lo revisas | Al empezar | Para no empezar desde cero |\n| **Casillas** | Hacienda y tú | Durante todo el proceso | Para organizar la info |\n| **Justificante** | Hacienda te lo da | Al finalizar | Para demostrar que lo hiciste |\n| **Requerimiento** | Hacienda te lo manda | Semanas/meses después | Para corregir errores |\n| **Liquidación** | Hacienda lo calcula | Al final | Para saber el resultado |\n| **Devolución** | Hacienda te lo da | Semanas después | Para cobrar |\n| **Pago** | Hacienda te lo da | En la fecha de pago | Para demostrar que pagaste |\n\n---\n\n## **🎨 ANALOGÍA FINAL: El Parque de Atracciones**\n\nImagínate que vas a un parque de atracciones:\n\n1. **En la entrada:** Te dan un **ticket de entrada** (Número de Referencia)\n2. **Te ponen una pulsera:** Con tu nombre y número (Número de Expediente)\n3. **En cada atracción:** Te dan un **ticket** de que has estado allí (Número de Casilla)\n4. **Al salir:** Te dan un **ticket final** con tu foto (Número de Justificante)\n5. **Si algo salió mal:** Te mandan una **carta** pidiendo explicaciones (Número de Requerimiento)\n6. **Si te deben dinero:** Te dan un **vale** para cobrarlo (Número de Devolución)\n7. **Si tienes que pagar:** Te dan un **recibo** de que pagaste (Número de Pago)\n\n---\n\n## **⚠️ LOS NÚMEROS MÁS IMPORTANTES QUE DEBES GUARDAR**\n\n### **🏆 TOP 3:**\n1. **Número de Justificante:** Demuestra que presentaste la declaración\n2. **Número de Expediente:** Para cualquier trámite futuro\n3. **Número de Devolución/Pago:** Para hacer seguimiento del dinero\n\n**💡 CONSEJO:** Haz una foto a la pantalla final o descarga el PDF del justificante. ¡Es tu seguro de vida!\n\n---\n\n## **🎯 ESCENARIOS POSIBLES:**\n\n### **Escenario 1: Todo va bien**\n- Te dan: Referencia → Expediente → Borrador → Justificante → Devolución\n- **Resultado:** ¡Te ingresan dinero en tu cuenta! 🎉\n\n### **Escenario 2: Te toca pagar**\n- Te dan: Referencia → Expediente → Borrador → Justificante → Pago\n- **Resultado:** Te cobran de tu cuenta 💸\n\n### **Escenario 3: Hacienda detecta un error**\n- Te dan: Referencia → Expediente → Borrador → Justificante → Requerimiento\n- **Resultado:** Tienes que contestar y corregir el error 📝\n\n### **Escenario 4: Pierdes el justificante**\n- **Problema:** No puedes demostrar que presentaste la declaración\n- **Solución:** Puedes pedir un duplicado en la web de Hacienda con tu número de expediente\n\n---\n\n**¿Te ha quedado claro? ¿Quieres que te explique algún número en más detalle?** 🎟️",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "96fe3327-8d25-44eb-8e91-87e45f33e0f9",
+       "usage": {
+        "input_tokens": 7102,
+        "output_tokens": 2711,
+        "characters": 0,
+        "total_tokens": 9813,
+        "input_tokens_details": {
+         "text_tokens": 7102
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 168,
+         "text_tokens": 2711
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 2176
+        }
+       },
+       "timestamp": 1781649690
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1781649690.7961342
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1781649629
+    },
+    "19dfe60d-2a34-4a78-bdc3-dce23ada353c": {
+     "id": "19dfe60d-2a34-4a78-bdc3-dce23ada353c",
+     "role": "user",
+     "content": "vuelve a explicarlos conceptos complicados y solos de tiente detente cuando creas que hayas explicado todos",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "b410b8b5-81cc-4f96-9f48-0fdff616a77c",
+     "turn_id": null,
+     "childrenIds": [
+      "d673ec2a-1c70-4373-ae5a-f8663b56137d",
+      "b6e29412-72d7-4f8f-83c3-7c780118dd7d"
+     ],
+     "files": [],
+     "timestamp": 1781652261
+    },
+    "d673ec2a-1c70-4373-ae5a-f8663b56137d": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "d673ec2a-1c70-4373-ae5a-f8663b56137d",
+     "parentId": "19dfe60d-2a34-4a78-bdc3-dce23ada353c",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Revisiting the intricate aspects of the Spanish tax return explanation",
+          "Explicando los conceptos clave de forma clara y cercana",
+          "Navigating complex tax terminology with clarity and precision",
+          "Refining explanations to make complex concepts accessible",
+          "Clarifying complex tax concepts through vivid, everyday analogies",
+          "Simplificando lo complejo para entender mejor el sistema fiscal",
+          "Simplifying complex tax concepts through vivid everyday analogies"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am focusing on clarifying the more complex elements from the prior discussion, ensuring they are conveyed with precision and clarity.  \nMy aim is to simplify nuanced concepts without losing their essential meaning.  \nI am refining my explanation to enhance understanding through thoughtful phrasing and logical flow.",
+          "Estoy enfocado en aclarar solo las ideas más complejas, sin rodeos ni tecnicismos.  \nMi objetivo es que entiendas cada parte como si te la explicara un amigo de confianza.  \nCuando sientas que ya tienes todo claro, detengo la explicación.",
+          "I am carefully distinguishing between nuanced concepts like taxable income and actual tax liability, ensuring each term is explained in a way that reflects its real-world impact.  \nI focus on clarifying the layered calculations involved in tax bills, from initial assessments to final payments, while highlighting safeguards such as personal and family allowances.  \nI also differentiate between advance withholdings and eligible reductions, making sure the user understands how each element shapes their overall tax obligation.",
+          "I am simplifying intricate financial and tax ideas by transforming them into vivid, everyday metaphors that resonate intuitively.  \nEach concept is being distilled into a clear image—like a funnel or a sack—to reveal how money flows and what remains after deductions.  \nThe goal is to turn abstract rules into tangible stories that anyone can grasp.",
+          "I am translating abstract fiscal mechanisms into relatable scenarios that mirror real-life experiences  \nEach concept is unpacked with a street-level metaphor to reveal its underlying logic and emotional weight  \nThe goal is to demystify bureaucratic language by anchoring it in tangible, human truths",
+          "Estoy transformando conceptos fiscales abstractos en metáforas cotidianas que resuenan con la experiencia real de las personas.  \nUtilizo analogías como escudos de supervivencia, adelantos y cupones para desentrañar confusión entre retenciones y deducciones.  \nMi objetivo es hacer accesible el lenguaje de Hacienda, mostrando cómo cada regla afecta directamente la vida diaria.",
+          "I am distilling intricate financial terminology into relatable, intuitive ideas using metaphors like a funnel, shield, coupons, and ghost tax to make them accessible.  \nEach concept—whether about income sources or capital gains—is framed as a familiar experience, helping clarify how money moves and is taxed in real life.  \nThe focus remains on clarity and relevance, ensuring only the most confusing elements are addressed with precision and grace."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "d673ec2a-1c70-4373-ae5a-f8663b56137d",
+       "usage": {
+        "input_tokens": 5630,
+        "output_tokens": 1577,
+        "total_tokens": 7207,
+        "output_tokens_details": {
+         "reasoning_tokens": 1569
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1781652292
+      },
+      {
+       "content": "Aquí tienes la \"traducción extrema\" solo de los conceptos que de verdad lían a la gente. Los he aislado y explicado con ejemplos de la vida real para que no quede ni una sola duda. \n\nCuando termines de leer esto, pararé.\n\n---\n\n### 1. El \"Embudo\" de Hacienda: Base Imponible vs. Base Liquidable\nLa gente siempre las confunde, pero es muy fácil si imaginas un embudo:\n*   **Base Imponible (La boca del embudo):** Es el saco gigante donde metes **TODO** lo que has ganado en el año (tu sueldo bruto, lo que te pagó el inquilino, los intereses del banco). Es la cifra bruta, sin filtros.\n*   **Base Liquidable (La salida del embudo):** Es lo que cae al final después de que Hacienda te deje \"colar\" algunos gastos obligatorios (como lo que pagaste a la Seguridad Social). **Sobre esta cifra es sobre la que te van a calcular el impuesto real.**\n\n### 2. La Sopa de Letras de las \"Cuotas\" (El cálculo de la factura)\nEs la cascada matemática que hace el sistema para llegar a la factura final.\n*   **Cuota Íntegra (La factura teórica):** Hacienda mira tu *Base Liquidable* y dice: *\"Por ganar esto, según mis tablas, me debes 5.000€\"*. Es el precio de etiqueta antes de cualquier rebaja.\n*   **Cuota Líquida (La factura con rebajas):** Aquí aplican tus circunstancias personales. *\"Como tienes familia numerosa o discapacidad, te aplico un descuento directo y la factura baja a 4.000€\"*.\n*   **Cuota Diferencial (El ajuste de cuentas):** Es la resta final. *\"La factura real era de 4.000€, pero tu jefe ya me adelantó 4.500€ de tu nómina durante el año. Resultado: te tengo que devolver 500€\"*. \n\n### 3. La \"Imputación de Rentas\" (El impuesto fantasma)\nEste es el que más cabrea a la gente porque te cobran por algo que no has cobrado.\n*   **¿Qué es?** Si tienes una segunda vivienda (el piso de la playa, la casa del pueblo) y **está vacía** (no la alquilas ni vives en ella), Hacienda te castiga. \n*   **La lógica de Hacienda:** *\"Ese piso podría estar dándote dinero si lo alquilaras. Como lo tienes parado, me invento un ingreso ficticio (un 1% o 2% del valor catastral) y te cobro impuestos por ese dinero imaginario\"*. Es un impuesto a tener el ladrillo improductivo.\n\n### 4. El \"Mínimo Personal y Familiar\" (El escudo de supervivencia)\nNo es un descuento, es una **zona libre de impuestos**.\n*   **¿Qué es?** Hacienda asume que hay una cantidad de dinero que necesitas SÍ O SÍ para sobrevivir (comer, pagar la luz, vestirte). A ese dinero **no le meten mano**.\n*   **Cómo funciona:** Si eres soltero y sin hijos, tu escudo es de 5.550€. Si ganas 20.000€, Hacienda solo te calculará impuestos sobre 14.450€. Si tienes 3 hijos, el escudo se hace gigante, porque Hacienda entiende que necesitas más dinero solo para que tu familia sobreviva, por lo que te cobrarán muchísimo menos.\n\n### 5. Retenciones vs. Deducciones (El adelanto vs. El cupón)\nParecen lo mismo, pero son conceptos opuestos:\n*   **Retención (El adelanto):** Es dinero **tuyo** que tu jefe le ingresa a Hacienda cada mes en tu nombre. Es como si le dijeras al Estado: *\"Toma, quédate 200€ de mi sueldo cada mes guardados en un cajón, para ir pagando la factura final de la Renta\"*.\n*   **Deducción (El cupón descuento):** Es un regalo del Estado por hacer cosas buenas. Si donas sangre, te haces un plan de pensiones o rehabilitas tu casa, Hacienda te dice: *\"Como has hecho esto, te perdono pagar 300€ de tu factura final\"*. La retención es dinero que ya pagaste; la deducción es dinero que te ahorras.\n\n### 6. Rendimientos del Capital (Mobiliario vs. Inmobiliario)\nEs simplemente la forma en la que tu patrimonio te da dinero sin que tengas que ir a una oficina a trabajar:\n*   **Mobiliario (Tu dinero trabajando):** Los céntimos que te da el banco por tener la nómina ahí, o los dividendos que te paga Apple por tener acciones suyas.\n*   **Inmobiliario (Tus ladrillos trabajando):** El dinero que te ingresa tu inquilino el día 5 de cada mes por alquilarle tu piso.\n\n### 7. Ganancias y Pérdidas Patrimoniales (El \"pelotazo\" o el \"sablazo\")\nEsto no tiene nada que ver con tu sueldo ni con tus alquileres. Se activa **solo cuando te deshaces de algo**.\n*   **Ganancia:** Compraste unas acciones de Amazon por 1.000€ y las vendes por 3.000€. Esos 2.000€ de beneficio son una ganancia patrimonial. Hacienda quiere su mordida.\n*   **Pérdida:** Compraste un piso por 200.000€ y, con la crisis, lo tienes que vender por 150.000€. Has perdido 50.000€. **Ojo:** A Hacienda le tienes que avisar de esta pérdida, porque te sirve para \"compensar\" y pagar menos impuestos por otras ganancias que hayas tenido.\n\n---\n\nCon estos 7 conceptos dominas el 99% de la jerga incomprensible de la Declaración de la Renta. Si los entiendes, puedes enfrentarte a cualquier página de la web de Hacienda sin que te tiemble el pulso.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "d673ec2a-1c70-4373-ae5a-f8663b56137d",
+       "usage": {
+        "input_tokens": 5630,
+        "output_tokens": 2940,
+        "total_tokens": 8570,
+        "output_tokens_details": {
+         "reasoning_tokens": 1569
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1781652316
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1781652316.7852395
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1781652261
+    },
+    "b6e29412-72d7-4f8f-83c3-7c780118dd7d": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "b6e29412-72d7-4f8f-83c3-7c780118dd7d",
+     "parentId": "19dfe60d-2a34-4a78-bdc3-dce23ada353c",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Revisando y profundizando la explicación de los conceptos clave de la declaración de la renta",
+          "Revisando los conceptos fiscales más confusos para principiantes",
+          "Explicar cada concepto clave del IRPF de forma clara y sencilla"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "Estoy analizando con cuidado cada elemento técnico para asegurar una comprensión clara y completa, sin dejar espacio a ambigüedades.  \nMe detengo cuando considero que todos los aspectos esenciales han sido cubiertos con rigor y precisión.  \nMi objetivo es ofrecer una guía fluida, accesible y exhaustiva, como si cada detalle fuera fundamental para el entendimiento total.",
+          "Estoy analizando las dificultades que enfrentan quienes se enfrentan por primera vez al proceso de declaración de la renta, centrándome en términos que suelen generar equívocos.  \nMe detengo especialmente en distinciones clave como la base imponible y la base liquidable, el tipo impositivo marginal frente al medio, y el funcionamiento real del mínimo personal y familiar.  \nTambién considero cómo se calculan las retenciones y por qué existen, buscando una explicación clara y accesible que elimine la confusión.",
+          "Estoy organizando la información para que sea fácil de entender, usando ejemplos cotidianos y un lenguaje cercano.  \nMe aseguro de distinguir bien términos confusos como deducciones frente a reducciones, o rentas del trabajo frente a otras rentas.  \nCada punto se aborda con precisión, manteniendo el enfoque en ayudar al usuario a comprender sin sobrecargarlo con tecnicismos."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "b6e29412-72d7-4f8f-83c3-7c780118dd7d",
+       "usage": {
+        "input_tokens": 7083,
+        "output_tokens": 380,
+        "characters": 0,
+        "total_tokens": 7463,
+        "input_tokens_details": {
+         "text_tokens": 7083
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 372,
+         "text_tokens": 380
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1781652275
+      },
+      {
+       "content": "# 📚 **Guía definitiva: Todos los conceptos complicados de la Renta explicados a fondo**\n\n*Voy a explicarte TODO lo que suele liar a la gente, con ejemplos concretos, hasta que no quede ninguna duda.*\n\n---\n\n## **BLOQUE 1: Los conceptos FUNDAMENTALES (la base de todo)**\n\n### **1.1. ¿Qué es el IRPF realmente?**\n\nEl **Impuesto sobre la Renta de las Personas Físicas** es un impuesto **directo, personal y progresivo**.\n\n- **Directo:** Te lo cobran directamente a ti (no a través de un producto como el IVA)\n- **Personal:** Se calcula según TU situación (no es igual para todos)\n- **Progresivo:** Cuanto más ganas, mayor porcentaje pagas\n\n**🎯 Ejemplo:** Si ganas 20.000€, pagas un 15%. Si ganas 100.000€, pagas un 45%. No es lo mismo.\n\n---\n\n### **1.2. El \"Ejercicio Fiscal\"**\n\nEs el **año natural** (del 1 de enero al 31 de diciembre) sobre el que declaras.\n\n- **Ejercicio 2024:** Declaras lo que ganaste entre el 1/01/2024 y el 31/12/2024\n- **Campaña de Renta 2024:** Se hace entre abril y junio de 2025\n\n**⚠️ OJO:** La declaración que haces en 2025 es sobre lo que ganaste en 2024. Siempre vas un año por detrás.\n\n---\n\n### **1.3. ¿Quién está obligado a declarar?**\n\nNo todo el mundo tiene que hacer la renta. Estás obligado si:\n\n- **Tuviste un solo pagador** (una sola empresa) y ganaste **más de 22.000€** brutos\n- **Tuviste dos o más pagadores** y el segundo (y siguientes) te pagaron **más de 1.500€** en total, y ganaste **más de 15.000€**\n- **Tuviste rendimientos del capital** (intereses, dividendos) con un límite de **1.600€**\n- **Tuviste ganancias patrimoniales** (ventas de acciones, pisos) con un límite de **1.600€**\n- **Autónomos** que hayan facturado más de 1.000€\n\n**🎯 Ejemplo práctico:**\n- Pedro trabaja en una empresa y ganó 25.000€ → **OBLIGADO**\n- María trabajó en dos empresas: la primera le pagó 18.000€ y la segunda 2.000€ → **OBLIGADA** (supera 15.000€ y el segundo pagador supera 1.500€)\n- Juan trabajó en dos empresas: la primera le pagó 20.000€ y la segunda 800€ → **NO OBLIGADO** (el segundo pagador no llega a 1.500€)\n\n---\n\n## **BLOQUE 2: La estructura del cálculo (cómo se llega al resultado)**\n\n### **2.1. Base Imponible (el \"punto de partida\")**\n\nEs **TODO lo que has ganado** en el año, sumando:\n- Rendimientos del trabajo (sueldo)\n- Rendimientos del capital (intereses, dividendos)\n- Rendimientos inmobiliarios (alquileres)\n- Ganancias patrimoniales (ventas con beneficio)\n- Imputaciones de rentas\n\n**🎯 Ejemplo:**\n- Sueldo: 30.000€\n- Intereses del banco: 200€\n- Alquiler de un piso: 6.000€\n- **Base imponible: 36.200€**\n\n---\n\n### **2.2. Base Liquidable (lo que realmente cuenta)**\n\nA la base imponible le restas las **reducciones**. Las reducciones son gastos que Hacienda te deja restar ANTES de calcular el impuesto.\n\n**Las reducciones más comunes:**\n- **Cotizaciones a la Seguridad Social** (lo que te quitan de la nómina)\n- **Aportaciones a planes de pensiones** (máximo 1.500€ al año)\n- **Pensiones compensatorias** (si pagas pensión a tu ex-cónyuge)\n\n**🎯 Ejemplo:**\n- Base imponible: 36.200€\n- Cotizaciones a la Seguridad Social: -3.500€\n- Aportación a plan de pensiones: -1.500€\n- **Base liquidable: 31.200€**\n\n**⚠️ DIFERENCIA CLAVE:**\n- **Reducciones:** Se restan ANTES de calcular el impuesto (reducen la base)\n- **Deducciones:** Se restan DESPUÉS de calcular el impuesto (reducen lo que pagas)\n\n---\n\n### **2.3. Los Tramos del IRPF (el sistema de \"escalones\")**\n\nEl IRPF no aplica un porcentaje fijo. Funciona por **tramos**: cada euro que ganas se grava según el tramo en el que cae.\n\n**Tramos estatales + autonómicos (ejemplo general 2024):**\n\n| Base liquidable | Tipo estatal | Tipo autonómico | Tipo TOTAL |\n|-----------------|--------------|-----------------|------------|\n| Hasta 12.450€ | 9,50% | Variable | ~19% |\n| 12.450€ - 20.200€ | 12% | Variable | ~24% |\n| 20.200€ - 35.200€ | 15% | Variable | ~30% |\n| 35.200€ - 60.000€ | 18,50% | Variable | ~37% |\n| 60.000€ - 300.000€ | 22,50% | Variable | ~45% |\n| Más de 300.000€ | 24,50% | Variable | ~47% |\n\n**🎯 Ejemplo práctico (base liquidable de 31.200€):**\n- Primeros 12.450€ → 19% = 2.365,50€\n- Siguientes 7.750€ (de 12.450 a 20.200) → 24% = 1.860€\n- Siguientes 11.000€ (de 20.200 a 31.200) → 30% = 3.300€\n- **Total cuota íntegra: 7.525,50€**\n\n**⚠️ CONCEPTO CLAVE: Tipo marginal vs Tipo medio**\n\n- **Tipo marginal:** El porcentaje del último tramo donde estás (en el ejemplo, 30%). Es el que te aplicarían si ganaras 1€ más.\n- **Tipo medio:** El porcentaje real que pagas sobre el total. En el ejemplo: 7.525,50 / 31.200 = **24,12%**\n\n**🎯 Por qué importa:** Mucha gente piensa que si sube de tramo, \"pierde dinero\". FALSO. Solo pagas más por los euros que superan el tramo, no por todos.\n\n---\n\n### **2.4. Mínimo Personal y Familiar (el \"escudo\" tributario)**\n\nEs la cantidad de dinero que Hacienda considera que necesitas para **vivir dignamente**. Esa cantidad **no paga impuestos**.\n\n**Mínimo personal:**\n- Contribuyente general: **5.550€**\n- Mayores de 65 años: **+1.150€** (total 6.700€)\n- Mayores de 75 años: **+1.400€** (total 8.100€)\n\n**Mínimo por descendientes (hijos):**\n- Primer hijo: **2.400€**\n- Segundo hijo: **2.700€**\n- Tercer hijo: **4.000€**\n- Cuarto y siguientes: **4.500€**\n- Menores de 3 años: **+2.800€** adicionales\n\n**Mínimo por ascendientes (padres/abuelos):**\n- Mayores de 65 años a tu cargo: **1.150€**\n- Mayores de 75 años a tu cargo: **+1.400€**\n\n**Mínimo por discapacidad:**\n- Discapacidad del 33% al 65%: **+3.000€**\n- Discapacidad superior al 65%: **+9.000€**\n\n**🎯 Ejemplo:**\n- Pedro, 35 años, con 2 hijos (uno de 2 años y otro de 8):\n  - Mínimo personal: 5.550€\n  - Primer hijo: 2.400€\n  - Segundo hijo: 2.700€\n  - El pequeño (menor de 3 años): +2.800€\n  - **Total mínimo: 13.450€**\n\n**⚠️ IMPORTANTE:** Estos mínimos se aplican sobre la base liquidable. Si tu base liquidable es 31.200€ y tu mínimo es 13.450€, solo pagas impuestos por **17.750€**.\n\n---\n\n### **2.5. Cuota Íntegra (lo que te toca pagar \"en teoría\")**\n\nEs el resultado de aplicar los **tramos del IRPF** a tu base liquidable, después de restar los mínimos.\n\n**🎯 Ejemplo:**\n- Base liquidable: 31.200€\n- Mínimo personal y familiar: -13.450€\n- Base sobre la que se calcula: 17.750€\n- Aplicando tramos → **Cuota íntegra: 4.200€**\n\n**⚠️ OJO:** La cuota íntegra se divide en:\n- **Cuota íntegra estatal:** La parte que va al Estado\n- **Cuota íntegra autonómica:** La parte que va a tu comunidad autónoma\n\nCada comunidad tiene sus propios tramos autonómicos, por lo que no pagas lo mismo en Madrid que en Cataluña o Andalucía.\n\n---\n\n### **2.6. Cuota Líquida (después de las deducciones)**\n\nA la cuota íntegra le restas las **deducciones** (los \"cupones descuento\").\n\n**🎯 Ejemplo:**\n- Cuota íntegra: 4.200€\n- Deducción por vivienda habitual: -1.356€\n- Deducción por donativos: -120€\n- **Cuota líquida: 2.724€**\n\n---\n\n### **2.7. Cuota Diferencial (el resultado FINAL antes de retenciones)**\n\nEs lo mismo que la cuota líquida, pero ajustada con otros elementos (como rentas del ahorro).\n\n**🎯 En la práctica:** Para la mayoría de trabajadores por cuenta ajena, la cuota diferencial es igual a la cuota líquida.\n\n---\n\n### **2.8. Resultado de la Declaración (la hora de la verdad)**\n\nAquí es donde se decide si te devuelven o te toca pagar.\n\n**Fórmula:**\n```\nCuota diferencial (lo que deberías pagar)\n  - Retenciones (lo que ya te quitaron)\n  - Pagos a cuenta (anticipos que hiciste)\n  + Cuotas de otros impuestos\n  = Resultado de la declaración\n```\n\n**🎯 Ejemplo 1 (a devolver):**\n- Cuota diferencial: 4.200€\n- Retenciones de la nómina: -5.500€\n- **Resultado: -1.300€ (A DEVOLVER)**\n\n**🎯 Ejemplo 2 (a ingresar):**\n- Cuota diferencial: 4.200€\n- Retenciones de la nómina: -3.000€\n- **Resultado: +1.200€ (A INGRESAR)**\n\n---\n\n## **BLOQUE 3: Las Retenciones (el \"pago a cuenta\")**\n\n### **3.1. ¿Qué son las retenciones?**\n\nEs el dinero que tu empresa te quita de la nómina cada mes y se lo entrega directamente a Hacienda. Es un **adelanto** del impuesto que pagarás al final del año.\n\n**🎯 Ejemplo:**\n- Sueldo bruto mensual: 2.500€\n- Retención del 15%: -375€\n- Sueldo neto: 2.125€\n- Al año: 375€ × 12 = **4.500€ de retenciones**\n\n---\n\n### **3.2. ¿Cómo calcula la empresa el porcentaje de retención?**\n\nLa empresa calcula el porcentaje según:\n- Tu sueldo bruto anual\n- Tu situación familiar (soltero, casado, hijos)\n- El tipo de contrato\n\n**⚠️ PROBLEMA FRECUENTE:**\nSi tu situación cambia durante el año (te casas, tienes un hijo, te divorcias) y no avisas a la empresa, las retenciones pueden ser incorrectas.\n\n**🎯 Ejemplo:**\n- Pedro es soltero y le retienen un 15%\n- En marzo se casa y tiene un hijo\n- No avisa a la empresa\n- Al hacer la renta, descubre que debería haberle retenido solo un 10%\n- **Resultado:** Le han quitado demasiado → **A devolver**\n\n---\n\n### **3.3. ¿Por qué a veces te toca pagar aunque te hayan retenido?**\n\nPuede pasar por varias razones:\n\n1. **Tuviste dos pagadores:** Cada empresa calculó las retenciones como si fuera tu único trabajo, y al sumar ambos sueldos, subes de tramo.\n   \n2. **Cobraste una prestación por desempleo:** El SEPE aplica retenciones muy bajas (a veces 2%), y al sumarlas a tu sueldo, el cálculo final es mayor.\n\n3. **Tuviste ganancias patrimoniales:** Vendiste acciones o un piso y no te retuvieron nada.\n\n4. **Las retenciones fueron incorrectas:** Tu empresa aplicó un porcentaje demasiado bajo.\n\n**🎯 Ejemplo del problema de los dos pagadores:**\n- Empresa A: 20.000€ (retención 12%)\n- Empresa B: 5.000€ (retención 8%)\n- Total ganado: 25.000€\n- Retenciones totales: 2.400 + 400 = 2.800€\n- Pero por ganar 25.000€, te tocaría pagar unos 4.500€\n- **Resultado: A ingresar 1.700€**\n\n---\n\n## **BLOQUE 4: Los diferentes tipos de rentas**\n\n### **4.1. Rendimientos del Trabajo**\n\nTodo lo que recibes por trabajar por cuenta ajena:\n- Sueldo base\n- Pagas extras\n- Horas extra\n- Bonos y comisiones\n- Indemnizaciones por despido (si superan el mínimo exento)\n- Prestaciones por desempleo\n- Pensiones de la Seguridad Social\n\n**Gastos deducibles automáticos:**\n- **2.000€** fijos por \"otros gastos\" (sin necesidad de justificar)\n- **2.000€ adicionales** si eres desempleado y has encontrado trabajo nuevo en el año\n- **2.000€ adicionales** si tienes discapacidad\n- **3.500€ adicionales** para trabajadores activos con discapacidad que necesiten ayuda de terceros o movilidad\n\n---\n\n### **4.2. Rendimientos del Capital Mobiliario**\n\nLo que te da tu dinero por estar invertido:\n- **Intereses de cuentas bancarias**\n- **Dividendos de acciones**\n- **Intereses de seguros de vida**\n- **Intereses de bonos y obligaciones**\n\n**⚠️ OJO:** Estos rendimientos tributan aparte, en la **base del ahorro**, con tipos diferentes:\n- Hasta 6.000€: **19%**\n- De 6.000€ a 50.000€: **21%**\n- De 50.000€ a 200.000€: **23%**\n- De 200.000€ a 300.000€: **27%**\n- Más de 300.000€: **28%**\n\n---\n\n### **4.3. Rendimientos del Capital Inmobiliario**\n\nLo que ganas alquilando propiedades.\n\n**Fórmula:**\n```\nIngresos brutos del alquiler\n  - Gastos deducibles (IBI, comunidad, seguros, reparaciones, intereses de hipoteca)\n  - Amortización del inmueble (3% del valor de construcción)\n  = Rendimiento neto inmobiliario\n```\n\n**⚠️ REDUCCIÓN DEL 60%:**\nSi alquilas una vivienda para uso habitual del inquilino, puedes reducir el rendimiento neto en un **60%**.\n\n**🎯 Ejemplo:**\n- Ingresos del alquiler: 10.000€\n- Gastos deducibles: -3.000€\n- Rendimiento neto: 7.000€\n- Reducción del 60%: -4.200€\n- **Rendimiento neto reducido: 2.800€**\n\n---\n\n### **4.4. Ganancias y Pérdidas Patrimoniales**\n\nLo que ganas o pierdes al **vender algo** (que no sea tu actividad económica).\n\n**Fórmula:**\n```\nValor de venta\n  - Valor de compra (ajustado con inflación)\n  = Ganancia o pérdida patrimonial\n```\n\n**Tipos de ganancias patrimoniales:**\n\n**A) Integradas en la base general (tributan como el trabajo):**\n- Venta de inmuebles (pisos, locales)\n- Venta de participaciones en fondos de inversión\n- Premios de lotería (si superan 40.000€)\n- Subvenciones\n\n**B) Integradas en la base del ahorro (tributan aparte):**\n- Venta de acciones y participaciones\n- Venta de criptomonedas\n- Apuestas deportivas online\n- Juegos de azar\n\n**🎯 Ejemplo:**\n- Compraste acciones por 5.000€\n- Las vendiste por 8.000€\n- **Ganancia patrimonial: 3.000€** (tributa en base del ahorro al 19%)\n\n---\n\n### **4.5. Imputación de Rentas (el \"impuesto fantasma\")**\n\nEs un concepto muy raro: Hacienda te cobra un impuesto por tener **inmuebles que no producen renta** (segundas viviendas vacías).\n\n**¿Por qué?** Hacienda asume que, en teoría, podrías estar ganando dinero con ellos (alquilándolos o usándolos).\n\n**Fórmula:**\n```\nValor catastral del inmueble\n  × 2% (o 1,1% si el valor catastral fue revisado)\n  = Imputación de renta\n```\n\n**⚠️ EXCEPCIONES:**\n- Tu vivienda habitual (no paga)\n- Inmuebles que estén generando renta (alquilados)\n- Inmuebles afectos a una actividad económica\n- Inmuebles en construcción\n\n**🎯 Ejemplo:**\n- Tienes un piso de playa con valor catastral de 100.000€\n- Imputación de renta: 100.000 × 2% = **2.000€**\n- Esos 2.000€ se suman a tu base imponible y pagan impuestos\n\n---\n\n## **BLOQUE 5: Las Deducciones (los \"cupones descuento\")**\n\n### **5.1. Deducción por Inversión en Vivienda Habitual**\n\nSolo aplica si compraste tu casa **antes del 1 de enero de 2013**.\n\n**Condiciones:**\n- Debe ser tu vivienda habitual (vivir ahí al menos 3 años)\n- Puedes deducir el **15%** de las cantidades aportadas para la compra\n- **Máximo:** 9.040€ de base × 15% = **1.356€ al año**\n\n**🎯 Qué incluye:**\n- Amortización del préstamo hipotecario (capital)\n- Intereses\n- Amortización\n- Seguros vinculados al préstamo (solo si son obligatorios)\n\n**⚠️ OJO:** Si dejaste de vivir ahí más de 3 años, pierdes el derecho.\n\n---\n\n### **5.2. Deducciones por Familia**\n\n**A) Por maternidad:**\n- Mujeres trabajadoras con hijos menores de 3 años\n- **1.200€ al año** por hijo\n- Se puede cobrar por adelantado (100€ al mes)\n\n**B) Por familia numerosa:**\n- Familia numerosa general: **1.200€ al año**\n- Familia numerosa especial: **2.400€ al año**\n\n**C) Por descendientes o ascendientes con discapacidad:**\n- **1.200€ al año** por cada persona con discapacidad a cargo\n\n---\n\n### **5.3. Deducciones por Donativos**\n\n**A la Iglesia Católica:**\n- **10%** de los primeros 150€\n- **25%** del exceso\n\n**A otras ONGs (Cruz Roja, UNICEF, etc.):**\n- **80%** de los primeros 150€\n- **40%** del exceso (si eres donante habitual)\n- **35%** del exceso (si no eres donante habitual)\n\n**🎯 Ejemplo:**\n- Donaste 300€ a Cruz Roja\n- Primeros 150€: 150 × 80% = 120€\n- Resto: 150 × 40% = 60€\n- **Deducción total: 180€**\n\n---\n\n### **5.4. Deducciones Autonómicas**\n\nCada comunidad autónoma tiene las suyas. **Ejemplos de Cataluña:**\n\n**A) Por alquiler de vivienda:**\n- Si eres menor de 32 años\n- Base liquidable inferior a 26.682€ (individual) o 36.716€ (conjunta)\n- **Deducción: 10% del alquiler** (máximo 600€)\n\n**B) Por gastos de educación:**\n- Gastos de escolaridad, libros, material\n- **Deducción: 15%** (máximo 300€ por hijo)\n\n**C) Por cuidado de hijos:**\n- Gastos de guardería o centro de primer ciclo\n- **Deducción: 15%** (máximo 600€ por hijo)\n\n**D) Por nacimiento o adopción:**\n- **150€** por hijo nacido o adoptado\n\n---\n\n## **BLOQUE 6: El proceso de pago y devolución**\n\n### **6.1. Fraccionamiento del pago**\n\nSi te toca pagar, puedes pedir pagar en **dos plazos**:\n- **60%** al presentar la declaración (junio)\n- **40%** el 5 de noviembre\n\n**⚠️ OJO:**\n- El segundo plazo **no genera intereses**\n- Debes solicitarlo al presentar la declaración\n- Si el resultado es menor de 120€, no puedes fraccionar\n\n---\n\n### **6.2. La devolución**\n\nSi te toca a devolver, Hacienda tiene **6 meses** para ingresarte el dinero.\n\n**Plazos habituales:**\n- Si presentas antes de abril: **1-3 semanas**\n- Si presentas en mayo-junio: **1-2 meses**\n\n**¿Qué pasa si tardan más de 6 meses?**\n- Hacienda debe pagarte **intereses de demora** (actualmente 4,0625%)\n\n---\n\n### **6.3. Domiciliación bancaria**\n\nDebes indicar un IBAN para:\n- Que te ingresen la devolución\n- Que te cobren si te toca pagar\n\n**⚠️ IMPORTANTE:**\n- La cuenta debe estar a tu nombre (o ser cotitular)\n- Si la cambias, debes comunicarlo a Hacienda\n\n---\n\n## **BLOQUE 7: Problemas y situaciones especiales**\n\n### **7.1. Requerimientos de Hacienda**\n\nEs una **carta o notificación** en la que Hacienda te pide aclaraciones o documentos.\n\n**Motivos frecuentes:**\n- Datos que no cuadran\n- Deducciones que no están justificadas\n- Ingresos no declarados\n\n**¿Qué hacer?**\n1. **No ignores el requerimiento**\n2. Tienes **10 días hábiles** para responder\n3. Puedes responder desde Renta WEB, en \"Contestar requerimientos\"\n4. Si no respondes, Hacienda puede hacer una **liquidación provisional**\n\n---\n\n### **7.2. Declaración Complementaria**\n\nSi te das cuenta de que cometiste un error en la declaración presentada, puedes hacer una **declaración complementaria**.\n\n**¿Cuándo hacerla?**\n- Olvidaste declarar un ingreso\n- No aplicaste una deducción que te correspondía\n- Metiste mal un dato\n\n**⚠️ OJO:**\n- Si la haces **fuera de plazo** y te toca pagar más, tendrás que pagar **recargos e intereses**\n- Si la haces **dentro de plazo** (antes de que termine la campaña), no hay recargos\n\n---\n\n### **7.3. Sanciones**\n\nSi no presentas la declaración o presentas datos falsos:\n\n**A) No presentar (sin requerimiento previo):**\n- **Recargo del 5%** si presentas en el mes siguiente\n- **Recargo del 10%** si presentas en los 3 meses siguientes\n- **Recargo del 15%** si presentas después\n- **Recargo del 20%** si no presentas y Hacienda te lo requiere\n\n**B) Infracción leve (datos incorrectos sin intención):**\n- **Multa del 50%** de la deuda no pagada\n\n**C) Infracción grave (negligencia):**\n- **Multa del 50% al 100%**\n\n**D) Infracción muy grave (fraude):**\n- **Multa del 100% al 150%**\n- Posible **delito fiscal** si la cuota defraudada supera 120.000€\n\n---\n\n## **BLOQUE 8: Situaciones especiales**\n\n### **8.1. Trabajadores con múltiples pagadores**\n\nSi tuviste **dos o más empresas** en el año:\n\n**Problema:** Cada empresa calculó las retenciones como si fuera tu único trabajo.\n\n**Solución:**\n- Al hacer la renta, se suman todos los ingresos\n- Se recalcula el impuesto sobre el total\n- Se restan todas las retenciones\n- **Resultado:** Casi siempre te toca pagar más\n\n**🎯 Ejemplo:**\n- Empresa A: 18.000€ (retención 10% = 1.800€)\n- Empresa B: 7.000€ (retención 5% = 350€)\n- Total: 25.000€\n- Retenciones: 2.150€\n- Impuesto real: 4.500€\n- **Resultado: A ingresar 2.350€**\n\n---\n\n### **8.2. Autónomos**\n\nSi eres autónomo, debes declarar:\n\n**A) Rendimientos de actividades económicas:**\n- Ingresos brutos\n- Gastos deducibles (suministros, material, seguros, etc.)\n- **Rendimiento neto = Ingresos - Gastos**\n\n**B) Pagos fraccionados:**\n- Cada trimestre pagas un anticipo del IRPF (modelo 130)\n- Esos pagos se restan al hacer la renta\n\n**C) Régimen de estimación:**\n- **Estimación directa:** Declaras ingresos y gastos reales\n- **Estimación objetiva (módulos):** Hacienda calcula tus ingresos según módulos (metros cuadrados, empleados, etc.)\n\n---\n\n### **8.3. No residentes**\n\nSi vives fuera de España pero tienes ingresos aquí:\n\n**Impuesto sobre la Renta de No Residentes (IRNR):**\n- Tipo fijo del **19%** para residentes en la UE\n- Tipo fijo del **24%** para residentes fuera de la UE\n\n**Obligaciones:**\n- Declarar alquileres de inmuebles en España\n- Declarar ganancias por venta de inmuebles\n\n---\n\n## **BLOQUE 9: Consejos prácticos y errores comunes**\n\n### **9.1. Errores frecuentes**\n\n1. **No revisar el borrador:** A Hacienda se le escapan deducciones, hijos, etc.\n2. **Olvidar el segundo pagador:** Si cobraste del paro, debes declararlo.\n3. **No guardar justificantes:** Si Hacienda te pide documentos, debes tenerlos.\n4. **Confundir deducciones y reducciones:** Son cosas diferentes.\n5. **No actualizar datos personales:** Si tienes un hijo, avisa para que te apliquen el mínimo.\n\n---\n\n### **9.2. Consejos para pagar menos (legalmente)**\n\n1. **Aporta a un plan de pensiones:** Hasta 1.500€ al año reducen tu base.\n2. **Aplica todas las deducciones autonómicas:** Muchas gente las olvida.\n3. **Dona a ONGs:** Además de ayudar, te deduces hasta el 80%.\n4. **Si alquilas un piso, aplica la reducción del 60%.**\n5. **Compensa ganancias y pérdidas:** Si ganaste 1.000€ en acciones y perdiste 800€, solo pagas por 200€.\n\n---\n\n### **9.3. Cuándo pedir ayuda**\n\n**Pide cita previa con Hacienda si:**\n- Tu situación es compleja (varios inmuebles, inversiones, etc.)\n- No entiendes el borrador\n- Te ha llegado un requerimiento\n- Tuviste una herencia\n\n**Pide ayuda a un gestor si:**\n- Eres autónomo\n- Tienes ingresos del extranjero\n- Tienes un patrimonio complejo\n- No tienes tiempo\n\n---\n\n## **🎯 RESUMEN FINAL: El proceso completo en 10 pasos**\n\n```\n1. Identificarte (Cl@ve, certificado o referencia)\n2. Acceder a Renta WEB\n3. Revisar datos personales y familiares\n4. Revisar rendimientos del trabajo (tu sueldo)\n5. Revisar otros ingresos (alquileres, inversiones, ventas)\n6. Aplicar deducciones (vivienda, donativos, autonómicas)\n7. Verificar el cálculo de retenciones\n8. Comprobar el resultado (¿a devolver o a ingresar?)\n9. Presentar la declaración\n10. Guardar el justificante (número de presentación)\n```\n\n---\n\n## **💡 GLOSARIO RÁPIDO DE CONCEPTOS CLAVE**\n\n- **Base imponible:** Todo lo que ganaste\n- **Base liquidable:** Lo que ganaste menos reducciones\n- **Mínimo personal/familiar:** Lo que no paga impuestos\n- **Cuota íntegra:** Lo que te toca pagar antes de deducciones\n- **Cuota líquida:** Lo que te toca pagar después de deducciones\n- **Retenciones:** Lo que ya te quitaron durante el año\n- **Resultado:** Cuota líquida menos retenciones\n- **Tipo marginal:** El porcentaje del último tramo\n- **Tipo medio:** El porcentaje real que pagas\n- **Imputación de rentas:** Impuesto por inmuebles vacíos\n- **Fraccionamiento:** Pagar en dos plazos\n- **Requerimiento:** Hacienda te pide aclaraciones\n- **Complementaria:** Corregir una declaración ya presentada\n\n---\n\n**¿Te ha quedado claro todo?** Si hay algún concepto que todavía te genera dudas, dímelo y lo explico con más ejemplos. 📚",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "b6e29412-72d7-4f8f-83c3-7c780118dd7d",
+       "usage": {
+        "input_tokens": 7083,
+        "output_tokens": 7884,
+        "characters": 0,
+        "total_tokens": 14967,
+        "input_tokens_details": {
+         "text_tokens": 7083
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 372,
+         "text_tokens": 7884
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1781652412
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1781652412.700366
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1781652261
+    }
+   },
+   "currentId": "d673ec2a-1c70-4373-ae5a-f8663b56137d",
+   "currentResponseIds": [
+    "b6e29412-72d7-4f8f-83c3-7c780118dd7d",
+    "d673ec2a-1c70-4373-ae5a-f8663b56137d"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.7-plus"
+  ],
+  "messages": [
+   {
+    "id": "d4655996-0801-46ed-b7f8-c9714ae30e35",
+    "role": "user",
+    "content": "en treinta traducir todos los términos que hay dentro del proceso de hacerse la declaración de la renta a términos más conocidos al extremo todos los que en todo el proceso luz los los eh números de procedimiento infinito todo",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "e0e9eaad-983c-40f9-990f-9eb3d8c19d2c"
+    ],
+    "files": [],
+    "timestamp": 1781649362
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "e0e9eaad-983c-40f9-990f-9eb3d8c19d2c",
+    "parentId": "d4655996-0801-46ed-b7f8-c9714ae30e35",
+    "childrenIds": [
+     "18234dd4-fea4-449f-8a0a-0bb56392f119"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Considering the task at hand",
+         "Presentar los términos más comunes del proceso de forma clara y directa",
+         "Organizing the tax filing journey step by step",
+         "Resumiendo el proceso fiscal de manera clara y precisa",
+         "Organizando la información clave sobre la declaración de la renta.",
+         "Organizando las ideas con claridad y precisión",
+         "Organizing the tax process into clear, relatable concepts"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am focusing on identifying and rendering the most commonly used terms related to tax filing in a natural, accessible manner.  \nMy aim is to ensure clarity and familiarity by aligning with everyday language people actually use.  \nThis involves distilling technical jargon into expressions that resonate intuitively with the general public.",
+         "Estoy seleccionando treinta expresiones clave que abarcan todo el recorrido, desde los pasos procedimentales hasta los infinitos detalles involucrados.  \nMi enfoque es mantener un tono cercano, coloquial y fácil de entender, evitando cualquier formalidad o tecnicismo innecesario.  \nTodo esto con el objetivo de que cada palabra suene como algo que alguien diría en una conversación real.",
+         "I am mapping out the process of submitting a tax return by breaking it into clear, logical stages—from gathering documents to receiving a refund.  \nEach phase is being described in plain, relatable terms to make complex financial procedures feel accessible and intuitive.  \nI’m translating technical jargon into everyday language, ensuring clarity and connection with real-life experiences.",
+         "Estoy organizando la información sobre el sistema tributario con un enfoque lógico y didáctico, desglosando cada concepto clave para facilitar su comprensión.  \nCada término se presenta con una definición concisa que refleja su función dentro del marco legal y económico del impuesto sobre la renta.  \nEl objetivo es ofrecer una visión coherente y accesible del ciclo fiscal desde la base imponible hasta el resultado final de la declaración.",
+         "Estoy estructurando los conceptos esenciales con claridad y precisión, destacando cada elemento fundamental del proceso fiscal.  \nCada término se presenta con una definición concisa y directa, facilitando su comprensión sin tecnicismos innecesarios.  \nEl enfoque busca transmitir confianza y transparencia, como si guiara al usuario por un camino claro hacia el entendimiento completo.",
+         "Estoy estructurando la información de forma coherente, destacando los conceptos clave relacionados con la declaración de la renta.  \nCada término se explica con un enfoque cercano y directo, evitando tecnicismos innecesarios.  \nMi objetivo es facilitar la comprensión sin perder el rigor ni la naturalidad del lenguaje.",
+         "I am translating complex fiscal procedures into everyday metaphors to enhance understanding and recall  \nEach concept is anchored in common experience, making abstract ideas tangible and memorable  \nThe structure ensures comprehensive coverage while maintaining a natural, conversational flow"
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "e0e9eaad-983c-40f9-990f-9eb3d8c19d2c",
+      "usage": {
+       "input_tokens": 63,
+       "output_tokens": 1560,
+       "characters": 0,
+       "total_tokens": 1623,
+       "input_tokens_details": {
+        "text_tokens": 63
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 1551,
+        "text_tokens": 1560
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1781649391
+     },
+     {
+      "content": "Aquí tienes una traducción al \"español de la calle\" de 30 términos clave de la Declaración de la Renta, explicados de forma extrema, sencilla y sin ningún tipo de jerga burocrática, cubriendo todo el proceso desde que entras en la web hasta que te cobran o te pagan.\n\n### **1. El inicio y el acceso**\n1. **Declaración de la Renta (IRPF):** El \"ajuste de cuentas\" anual con el Estado para ver si te han quitado demasiado dinero o demasiado poco durante el año.\n2. **Hacienda (Agencia Tributaria):** El \"cobrador del frac\" del Estado; la oficina que lleva la cuenta de lo que ganas y lo que debes.\n3. **Contribuyente:** Tú. La persona que tiene que rellenar el papeleo y, al final, soltar la pasta o pedir que se la devuelvan.\n4. **Certificado Digital / Cl@ve PIN:** Tu \"llave maestra\" o DNI digital. Es la forma de demostrarle a la web de Hacienda que eres tú y no un hacker.\n5. **Número de referencia:** El código secreto de un solo uso que Hacienda te manda al móvil para dejarte entrar. Es como el código del banco.\n6. **Datos fiscales:** El \"expediente\" o el \"cotilleo\" que Hacienda ya tiene sobre ti: tu sueldo, tu casa, tus hipotecas y tus coches.\n\n### **2. El documento y el borrador**\n7. **Modelo 100:** El \"formulario madre\". Es el documento oficial con todos los cuadraditos donde se pone la información.\n8. **Borrador de la declaración:** La \"pre-cuenta\" que Hacienda hace por ti. Es un avance, pero **ojo**: casi siempre tiene errores o le faltan cosas, así que hay que revisarlo.\n9. **Casilla:** Cada uno de los cuadraditos o apartados del formulario donde tienes que escribir un número.\n10. **Presentación telemática:** Hacer todo el trámite desde el sofá con el ordenador o el móvil, sin tener que ir físicamente a una oficina a que te miren mal.\n\n### **3. Lo que ganas (Ingresos)**\n11. **Rendimientos del trabajo:** Tu sueldo. Todo lo que te da tu jefe: nóminas, pagas extra y horas extra.\n12. **Rendimientos del capital mobiliario:** Lo que te da tu dinero por estar quieto. Por ejemplo, los intereses que te da el banco o los dividendos de acciones.\n13. **Rendimientos del capital inmobiliario:** El dinero que sacas de tener ladrillos, normalmente lo que cobras por alquilar un piso o un local.\n14. **Ganancias y pérdidas patrimoniales:** Lo que ganas o pierdes al vender cosas caras. Si vendes un piso más caro de lo que te costó, ganas; si lo vendes más barato, pierdes.\n15. **Imputación de rentas:** Un \"impuesto fantasma\". Hacienda te cobra un poco por tener un segundo piso vacío, porque asume que, en teoría, podrías estar ganando dinero alquilándolo.\n\n### **4. Lo que te quitas de en medio (Restas)**\n16. **Base imponible:** Todo el dinero que has ganado en el año en bruto, antes de que te apliquen ningún descuento.\n17. **Reducciones:** Los primeros \"descuentos\" que te aplica la ley antes de calcular el impuesto (por ejemplo, por cotizar a la Seguridad Social).\n18. **Base liquidable:** El dinero que *realmente* cuenta para Hacienda después de restar todos los gastos y descuentos legales. Es la cifra sobre la que te van a calcular el impuesto.\n19. **Mínimo personal y familiar:** La cantidad de dinero que Hacienda considera que necesitas solo para sobrevivir (y más si tienes hijos, nietos o padres mayores a tu cargo). Por esa cantidad, no te cobran impuestos.\n20. **Deducciones:** Los \"cupones de descuento\" oficiales. Cosas como la hipoteca de tu primera vivienda, donaciones a ONG o gastos de guardería que te permiten pagar menos.\n\n### **5. El cálculo final (La hora de la verdad)**\n21. **Tipo impositivo:** El porcentaje de \"mordida\" que te aplica Hacienda. Cuanto más ganas, más alto es este porcentaje (es lo que llaman \"progresivo\").\n22. **Cuota íntegra:** Lo que te tocaría pagar en teoría, calculado sobre tu base liquidable, pero *antes* de tener en cuenta lo que ya has pagado durante el año.\n23. **Retenciones:** El dinero que ya te han quitado de la nómina mes a mes. Es un \"pago a cuenta\" que hiciste sin darte cuenta.\n24. **Regularización:** El momento de la verdad. Es la operación matemática final: (Lo que deberías pagar) menos (Lo que ya te han quitado en las nóminas).\n\n### **6. El resultado y el pago**\n25. **Resultado a devolver:** ¡Fiesta! Significa que te han quitado más dinero del que debías durante el año. Hacienda te tiene que devolver la diferencia.\n26. **Resultado a ingresar:** Malas noticias. Significa que no te han quitado suficiente dinero durante el año y ahora te toca pagar la diferencia de tu bolsillo.\n27. **Domiciliación bancaria:** La orden que le das a tu banco: \"Oye, deja que Hacienda me cobre esto de mi cuenta\" o \"Oye, ingresa la devolución aquí\".\n28. **Fraccionamiento del pago:** Pedirle a Hacienda, por favor, que te deje pagar la deuda en dos plazos (por ejemplo, el 60% en junio y el 40% en noviembre) porque no tienes todo el dinero junto.\n\n### **7. Los números de procedimiento y los problemas**\n29. **Número de justificante / Número de presentación:** El \"ticket de compra\" o resguardo. Es el número largo que te dan al final. **Guárdalo**, es la única prueba de que hiciste el trámite.\n30. **Requerimiento:** La \"carta amarilla\" o aviso de que a Hacienda le huele algo raro en tus cuentas y te exigen explicaciones o papeles extra. Si te llega esto, no lo ignores.\n\n---\n**Resumen del proceso en una frase:** Entras con tu **llave (3/4)**, revisas el **borrador (8)** del **formulario (7)**, sumas tu **sueldo (11)**, le restas los **descuentos (20)**, y al hacer la **cuenta final (24)** descubres si te toca **celebrar (25)** o **pagar (26)**, guardando siempre el **ticket final (29)** por si acaso.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "e0e9eaad-983c-40f9-990f-9eb3d8c19d2c",
+      "usage": {
+       "input_tokens": 63,
+       "output_tokens": 3084,
+       "characters": 0,
+       "total_tokens": 3147,
+       "input_tokens_details": {
+        "text_tokens": 63
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 1551,
+        "text_tokens": 3084
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1781649419
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1781649419.8126082
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1781649362
+   },
+   {
+    "id": "18234dd4-fea4-449f-8a0a-0bb56392f119",
+    "role": "user",
+    "content": "imagínate que estás en el móvil y estás intentando hacerlo entonces vas a explicar paso a paso cómo se hace la declaración de la renta de una persona que tuvo un empleo y entonces eh oh bueno tú cuáles son la cuenta ajena no sé cuáles son todos los tipos explicar el paso a paso para hacer será declaración del año en la página web y traduciendo los términos y explicando que son cada cosa los números de los eh documentos en fin",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "e0e9eaad-983c-40f9-990f-9eb3d8c19d2c",
+    "turn_id": null,
+    "childrenIds": [
+     "b410b8b5-81cc-4f96-9f48-0fdff616a77c"
+    ],
+    "files": [],
+    "timestamp": 1781649460
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "b410b8b5-81cc-4f96-9f48-0fdff616a77c",
+    "parentId": "18234dd4-fea4-449f-8a0a-0bb56392f119",
+    "childrenIds": [
+     "19dfe60d-2a34-4a78-bdc3-dce23ada353c",
+     "df54c2ca-6784-4582-a1a3-35ffd600d812"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Iniciando la declaración de la renta desde el móvil con enfoque en empleo por cuenta ajena",
+         "Simular paso a paso el acceso a la web de la Agencia Tributaria desde un móvil"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "Estoy guiando paso a paso el proceso como si estuviera realizándolo en tiempo real, centrado en la experiencia del usuario.  \nAseguro que cada acción sea clara y natural, adaptando el flujo a un entorno móvil sin perder precisión ni coherencia.  \nMi objetivo es transmitir confianza y simplicidad, haciendo que el procedimiento se sienta fluido y accesible.",
+         "Estoy imaginando cada interacción como si estuviera deslizando el dedo por la pantalla, deteniéndome en cada botón y texto clave.  \nVoy traduciendo los términos al español cotidiano, señalando números de documentos o casillas que aparecen en pantalla, como si los estuviera señalando con el dedo.  \nTodo está pensado para que parezca una guía real, clara y práctica, como si alguien me explicara desde su teléfono."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "b410b8b5-81cc-4f96-9f48-0fdff616a77c",
+      "usage": {
+       "input_tokens": 6761,
+       "output_tokens": 196,
+       "characters": 0,
+       "total_tokens": 6957,
+       "input_tokens_details": {
+        "text_tokens": 6761
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 194,
+        "text_tokens": 196
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 2176
+       }
+      },
+      "timestamp": 1781649468
+     },
+     {
+      "content": "",
+      "phase": "web_search",
+      "status": "finished",
+      "extra": {
+       "display_position": "think",
+       "web_search_info": [
+        {
+         "url": "https://asesoresumbrella.com/la-importancia-de-las-casillas-en-la-declaracion-de-la-renta/",
+         "title": "La importancia de las casillas en la Declaración de la Renta",
+         "snippet": "Si eres trabajador por cuenta ajena tus ingresos son declarados en la casilla correspondiente a rendimientos de trabajo. En el caso de los autónomos la",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://www.rtve.es/noticias/20240404/declaracion-renta-2024-casillas-fijarme-autonomo-trabajo-empresa/16040058.shtml",
+         "title": "Declaración de la renta 2024 | Consejos para autónomos y ",
+         "snippet": "Te explicamos qué casillas debes mirar con más atencion antes de presentar la Declaración de la renta 2024 si trabajas para una empresa o si",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2024-04-04)"
+        },
+        {
+         "url": "https://transparencia.ayto-humanesdemadrid.es/storage/uploads/1761812714Mart%C3%ADn%20Renta%202024_censurado.pdf",
+         "title": "[PDF] Modelo 100 Ejercicio 2024",
+         "snippet": "RETENCIONES Y DEMÁS PAGOS A CUENTA. Por rendimientos del trabajo. 6.994,86 0596. Por rendimientos del capital mobiliario. 152,29 0597. Total",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2025-11-05)"
+        },
+        {
+         "url": "https://declarando.es/modelo-100",
+         "title": "Modelo 100: guía 2026 para ahorrar en tu renta de autónomo",
+         "snippet": "¿Trabajas en casa? Puedes deducir el alquiler en esta casilla (0192), con el límite de la superficie que usas para trabajar. Por ejemplo, si",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2025-04-11)"
+        },
+        {
+         "url": "https://sede.agenciatributaria.gob.es/Sede/Ayuda/24Presentacion/100.html",
+         "title": "Modelo 100. Declaración del Impuesto sobre la Renta de las ",
+         "snippet": "Modelo 100. Declaración del Impuesto sobre la Renta de las Personas Físicas 2024 · 1. Introducción · 2. Obligación de declarar · 3. Cuestiones",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2026-05-06)"
+        },
+        {
+         "url": "https://www.fiscal-impuestos.com/files-fiscal/modelo-100.pdf",
+         "title": "[PDF] modelo-100.pdf - Fiscal Impuestos",
+         "snippet": "Rendimientos procedentes de rentas que tengan por causa la imposición de capitales y otros rendimientos del capital mobiliario a integrar en la base imponible",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://grupoeas.com/casillas-declaracion-renta-2024/",
+         "title": "Casillas clave en la Declaración de la Renta 2024: Guía - Grupo EAS",
+         "snippet": "Casilla 0012: Recoge el total de los rendimientos íntegros del trabajo. Incluye sueldos, salarios, prestaciones por desempleo o pensiones.",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2025-05-29)"
+        },
+        {
+         "url": "https://quaderno.io/es/articulos/declaracion-renta-autonomos-paso-a-paso/",
+         "title": "Cómo hacer la declaración de la Renta para autónomos, paso a paso",
+         "snippet": "Casilla 166 a 168: Estas casillas se reservan para especificar si tu estimación de ingresos es directa u objetiva (módulos), y si es directa, si",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2024-08-09)"
+        },
+        {
+         "url": "https://taxdown.es/casilla-renta",
+         "title": "Casillas de la Declaración de la Renta 2026 - Guía Completa",
+         "snippet": "Rendimientos del Trabajo: Casillas 11-100: Estas casillas recogen los ingresos por salarios, pensiones, prestaciones, y otros beneficios, así como",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://www.larazon.es/tecnologia-consumo/como-hacer-declaracion-renta-2024-movil-guia-paso-paso-app-agencia-tributaria_2025040467effcc4eec2d3000145eba1.html",
+         "title": "Cómo hacer la declaración de la Renta 2024 desde el móvil",
+         "snippet": "Cómo hacer la declaración de la Renta 2024 desde el móvil: guía paso a paso con la app de la Agencia Tributaria · Trámite telemático con la",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://taxdown.es/como-hacer-declaracion-renta",
+         "title": "Cómo hacer la Declaración de la Renta 2025/2026",
+         "snippet": "1. Accede a la página web de Hacienda y busca el apartado correspondiente a la «Renta 2024» en la web de la Agencia Tributaria. 2. Identifícate",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://www.facebook.com/Cibervoluntarios/videos/sab%C3%ADas-que-ya-puedes-hacer-tu-declaraci%C3%B3n-de-la-renta-desde-el-m%C3%B3vilen-este-cibe/670965142345293/",
+         "title": "📱¿Sabías que ya puedes hacer tu declaración de la Renta ",
+         "snippet": "Solo necesitas tu móvil, revisar el borrador, aplicar las deducciones que te correspondan (así te ahorras un dinerito) y presentarla. Todo sin",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://www.facebook.com/groups/2997995050253141/posts/26797989083160404/",
+         "title": "Cuál es la forma correcta de presentar mi declaración de 2024 y ",
+         "snippet": "Para declaraciones del año 2024 y anteriores es necesario solicitar devolución manual mediante el formato de devoluciones FED, para ello se",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2026-04-23)"
+        },
+        {
+         "url": "https://profact.com.mx/declaracion-anual-2024-todo-lo-que-necesitas-saber/",
+         "title": "Declaración Anual 2024: Todo lo que Necesitas Saber | ProFact",
+         "snippet": "La Declaración Anual del Impuesto sobre la Renta (ISR) del año 2024 es un informe anual que detalla los ingresos y gastos derivados de la actividad",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/consultas-informaticas/renta-ayuda-tecnica/presentar-borrador-declaracion-mediante-renta-pin.html",
+         "title": "Cómo presentar borrador o declaración mediante Renta ",
+         "snippet": "Será necesario introducir también el factor de autenticación establecido para el dispositivo móvil (huella, PIN, patrón, reconocimiento facial,",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://www.gob.mx/sat/articulos/declaracion-anual-2024-de-personas",
+         "title": "Declaración Anual 2024 de personas - Gob MX",
+         "snippet": "Conoce los beneficios, mejoras y toda la información necesaria para presentar tu Declaración Anual 2024 de personas.",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://www.bbva.com/es/salud-financiera/los-cinco-primeros-pasos-la-declaracion-la-renta-internet/",
+         "title": "Los cinco primeros pasos para hacer la declaración de ",
+         "snippet": "Los cinco primeros pasos para hacer la declaración de la renta por internet · 1. Acceso a la web de Hacienda · 2. Identificación y acceso al",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://www.siigo.com/mx/blog/obligaciones-fiscales/como-hacer-mi-declaracion-anual-de-impuestos/?srsltid=AfmBOorNHXdD5UuaBk6xBGbxITksKw881djHCn7VJaN0g2Msdllz9P0K",
+         "title": "Guía para hacer tu Declaración Anual 2026 en México | Siigo Aspel",
+         "snippet": "Paso a paso: ¿cómo hacer la Declaración Anual de impuestos? · 1. Ingresa al portal del SAT y dirígete a “Declaraciones para personas”. · 2. Despliega las opciones",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://www.dailymotion.com/video/x8w7t4c",
+         "title": "Cómo conseguir el número de referencia para hacer la declaración ",
+         "snippet": "Este miércoles 3 de abril de 2024 comienza el plazo para presentar online la declaración de Renta correspondiente al ejercicio 2023,",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2024-04-03)"
+        },
+        {
+         "url": "https://english.beijing.gov.cn/workinginbeijing/individualincometax/",
+         "title": "Declaration of Individual Income Tax - Beijing - 北京市人民政府",
+         "snippet": "Basic Documents: Two copies of\"Individual Income Tax Annual Self-Declaration Return\". Required documents may differ on a case-by-case basis. +. Where taxpayers",
+         "hostname": "中国政府网",
+         "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01uVLQQ51guZF6NjXhP_!!6000000004202-55-tps-32-32.svg",
+         "date": ""
+        },
+        {
+         "url": "https://www.ciat.org/pre-prepared-tax-statements-an-instrument-of-facilitation-and-control/?lang=en",
+         "title": "Pre-prepared Tax Statements: An Instrument of Facilitation and Control",
+         "snippet": "The draft declarations represent the culmination of the strategy of many TAs that focus on increasing the levels of “voluntary” compliance of taxpayers.",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2021-05-28)"
+        },
+        {
+         "url": "https://www.bajajlifeinsurance.com/life-insurance-guide/tax/income-tax-declaration-form.html",
+         "title": "Income Tax Declaration Form: Filing Process, Benefits & Importance",
+         "snippet": "An income tax declaration is a document employees submit to their employer that details their total income, expenses, and eligible tax-saving",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2025-04-23)"
+        },
+        {
+         "url": "https://teamsystem.es/magazine/consultar-declaraciones-renta-anteriores/",
+         "title": "▷ ¿Cómo consultar las declaraciones de la renta anteriores?",
+         "snippet": "Entra en la página de trámites del modelo 100 · Clave PIN: es imprescindible solicitarla a través de la página web. · Número de referencia: cuando",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2024-03-04)"
+        },
+        {
+         "url": "https://www.tataaig.com/health-insurance/income-tax-declaration",
+         "title": "Complete Guide to Income Tax Declaration (ITD) | Tata AIG",
+         "snippet": "This declaration is crucial for determining the amount of taxes owed or refundable to the taxpayer. It serves as a means for taxpayers to comply with tax laws",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://dostupnyadvokat.cz/en/blog/income-tax-declaration",
+         "title": "How to fill in the income tax declaration - Dostupný advokát",
+         "snippet": "This declaration is used to determine how income tax is paid. After all, it is also in their interest as it allows them to benefit from tax",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2024-05-21)"
+        },
+        {
+         "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/consultas-informaticas/renta-ayuda-tecnica/copia-declaracion/obtencion-copia-consulta-declaraciones-presentadas-renta.html",
+         "title": "Cómo obtener una copia de la declaración presentada",
+         "snippet": "En \"Gestiones destacadas\" de Renta, accede a \"Todas las gestiones\" y pulsa \"Consulta de declaraciones presentadas\". Consulta de declaraciones",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2026-06-01)"
+        },
+        {
+         "url": "https://akriviahcm.com/resources/hr-glossary/it-declaration",
+         "title": "What is Income Tax Declaration? | Meaning & Definition | Akrivia HCM",
+         "snippet": "Income tax declaration is a form that an individual must fill in to declare their income and taxes paid during the year.",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://www.camerfirma.com/modelo-100-que-es-como-presentarlo/",
+         "title": "Modelo 100 IRPF ¿qué es y quién tiene que presentarlo?",
+         "snippet": "El modelo 100 permite hacer la devolución o ingreso del IRPF; es el modelo conocido como \"Declaración de la Renta\". Te ayudamos con tus dudas.",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        }
+       ],
+       "tool_result": {
+        "docs": [
+         {
+          "url": "https://asesoresumbrella.com/la-importancia-de-las-casillas-en-la-declaracion-de-la-renta/",
+          "title": "La importancia de las casillas en la Declaración de la Renta",
+          "snippet": "Si eres trabajador por cuenta ajena tus ingresos son declarados en la casilla correspondiente a rendimientos de trabajo. En el caso de los autónomos la",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.rtve.es/noticias/20240404/declaracion-renta-2024-casillas-fijarme-autonomo-trabajo-empresa/16040058.shtml",
+          "title": "Declaración de la renta 2024 | Consejos para autónomos y ",
+          "snippet": "Te explicamos qué casillas debes mirar con más atencion antes de presentar la Declaración de la renta 2024 si trabajas para una empresa o si",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2024-04-04)"
+         },
+         {
+          "url": "https://transparencia.ayto-humanesdemadrid.es/storage/uploads/1761812714Mart%C3%ADn%20Renta%202024_censurado.pdf",
+          "title": "[PDF] Modelo 100 Ejercicio 2024",
+          "snippet": "RETENCIONES Y DEMÁS PAGOS A CUENTA. Por rendimientos del trabajo. 6.994,86 0596. Por rendimientos del capital mobiliario. 152,29 0597. Total",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2025-11-05)"
+         },
+         {
+          "url": "https://declarando.es/modelo-100",
+          "title": "Modelo 100: guía 2026 para ahorrar en tu renta de autónomo",
+          "snippet": "¿Trabajas en casa? Puedes deducir el alquiler en esta casilla (0192), con el límite de la superficie que usas para trabajar. Por ejemplo, si",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2025-04-11)"
+         },
+         {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/Ayuda/24Presentacion/100.html",
+          "title": "Modelo 100. Declaración del Impuesto sobre la Renta de las ",
+          "snippet": "Modelo 100. Declaración del Impuesto sobre la Renta de las Personas Físicas 2024 · 1. Introducción · 2. Obligación de declarar · 3. Cuestiones",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-05-06)"
+         },
+         {
+          "url": "https://www.fiscal-impuestos.com/files-fiscal/modelo-100.pdf",
+          "title": "[PDF] modelo-100.pdf - Fiscal Impuestos",
+          "snippet": "Rendimientos procedentes de rentas que tengan por causa la imposición de capitales y otros rendimientos del capital mobiliario a integrar en la base imponible",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://grupoeas.com/casillas-declaracion-renta-2024/",
+          "title": "Casillas clave en la Declaración de la Renta 2024: Guía - Grupo EAS",
+          "snippet": "Casilla 0012: Recoge el total de los rendimientos íntegros del trabajo. Incluye sueldos, salarios, prestaciones por desempleo o pensiones.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2025-05-29)"
+         },
+         {
+          "url": "https://quaderno.io/es/articulos/declaracion-renta-autonomos-paso-a-paso/",
+          "title": "Cómo hacer la declaración de la Renta para autónomos, paso a paso",
+          "snippet": "Casilla 166 a 168: Estas casillas se reservan para especificar si tu estimación de ingresos es directa u objetiva (módulos), y si es directa, si",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2024-08-09)"
+         },
+         {
+          "url": "https://taxdown.es/casilla-renta",
+          "title": "Casillas de la Declaración de la Renta 2026 - Guía Completa",
+          "snippet": "Rendimientos del Trabajo: Casillas 11-100: Estas casillas recogen los ingresos por salarios, pensiones, prestaciones, y otros beneficios, así como",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.larazon.es/tecnologia-consumo/como-hacer-declaracion-renta-2024-movil-guia-paso-paso-app-agencia-tributaria_2025040467effcc4eec2d3000145eba1.html",
+          "title": "Cómo hacer la declaración de la Renta 2024 desde el móvil",
+          "snippet": "Cómo hacer la declaración de la Renta 2024 desde el móvil: guía paso a paso con la app de la Agencia Tributaria · Trámite telemático con la",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://taxdown.es/como-hacer-declaracion-renta",
+          "title": "Cómo hacer la Declaración de la Renta 2025/2026",
+          "snippet": "1. Accede a la página web de Hacienda y busca el apartado correspondiente a la «Renta 2024» en la web de la Agencia Tributaria. 2. Identifícate",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.facebook.com/Cibervoluntarios/videos/sab%C3%ADas-que-ya-puedes-hacer-tu-declaraci%C3%B3n-de-la-renta-desde-el-m%C3%B3vilen-este-cibe/670965142345293/",
+          "title": "📱¿Sabías que ya puedes hacer tu declaración de la Renta ",
+          "snippet": "Solo necesitas tu móvil, revisar el borrador, aplicar las deducciones que te correspondan (así te ahorras un dinerito) y presentarla. Todo sin",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.facebook.com/groups/2997995050253141/posts/26797989083160404/",
+          "title": "Cuál es la forma correcta de presentar mi declaración de 2024 y ",
+          "snippet": "Para declaraciones del año 2024 y anteriores es necesario solicitar devolución manual mediante el formato de devoluciones FED, para ello se",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-04-23)"
+         },
+         {
+          "url": "https://profact.com.mx/declaracion-anual-2024-todo-lo-que-necesitas-saber/",
+          "title": "Declaración Anual 2024: Todo lo que Necesitas Saber | ProFact",
+          "snippet": "La Declaración Anual del Impuesto sobre la Renta (ISR) del año 2024 es un informe anual que detalla los ingresos y gastos derivados de la actividad",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/consultas-informaticas/renta-ayuda-tecnica/presentar-borrador-declaracion-mediante-renta-pin.html",
+          "title": "Cómo presentar borrador o declaración mediante Renta ",
+          "snippet": "Será necesario introducir también el factor de autenticación establecido para el dispositivo móvil (huella, PIN, patrón, reconocimiento facial,",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.gob.mx/sat/articulos/declaracion-anual-2024-de-personas",
+          "title": "Declaración Anual 2024 de personas - Gob MX",
+          "snippet": "Conoce los beneficios, mejoras y toda la información necesaria para presentar tu Declaración Anual 2024 de personas.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.bbva.com/es/salud-financiera/los-cinco-primeros-pasos-la-declaracion-la-renta-internet/",
+          "title": "Los cinco primeros pasos para hacer la declaración de ",
+          "snippet": "Los cinco primeros pasos para hacer la declaración de la renta por internet · 1. Acceso a la web de Hacienda · 2. Identificación y acceso al",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.siigo.com/mx/blog/obligaciones-fiscales/como-hacer-mi-declaracion-anual-de-impuestos/?srsltid=AfmBOorNHXdD5UuaBk6xBGbxITksKw881djHCn7VJaN0g2Msdllz9P0K",
+          "title": "Guía para hacer tu Declaración Anual 2026 en México | Siigo Aspel",
+          "snippet": "Paso a paso: ¿cómo hacer la Declaración Anual de impuestos? · 1. Ingresa al portal del SAT y dirígete a “Declaraciones para personas”. · 2. Despliega las opciones",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.dailymotion.com/video/x8w7t4c",
+          "title": "Cómo conseguir el número de referencia para hacer la declaración ",
+          "snippet": "Este miércoles 3 de abril de 2024 comienza el plazo para presentar online la declaración de Renta correspondiente al ejercicio 2023,",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2024-04-03)"
+         },
+         {
+          "url": "https://english.beijing.gov.cn/workinginbeijing/individualincometax/",
+          "title": "Declaration of Individual Income Tax - Beijing - 北京市人民政府",
+          "snippet": "Basic Documents: Two copies of\"Individual Income Tax Annual Self-Declaration Return\". Required documents may differ on a case-by-case basis. +. Where taxpayers",
+          "hostname": "中国政府网",
+          "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01uVLQQ51guZF6NjXhP_!!6000000004202-55-tps-32-32.svg",
+          "date": ""
+         },
+         {
+          "url": "https://www.ciat.org/pre-prepared-tax-statements-an-instrument-of-facilitation-and-control/?lang=en",
+          "title": "Pre-prepared Tax Statements: An Instrument of Facilitation and Control",
+          "snippet": "The draft declarations represent the culmination of the strategy of many TAs that focus on increasing the levels of “voluntary” compliance of taxpayers.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2021-05-28)"
+         },
+         {
+          "url": "https://www.bajajlifeinsurance.com/life-insurance-guide/tax/income-tax-declaration-form.html",
+          "title": "Income Tax Declaration Form: Filing Process, Benefits & Importance",
+          "snippet": "An income tax declaration is a document employees submit to their employer that details their total income, expenses, and eligible tax-saving",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2025-04-23)"
+         },
+         {
+          "url": "https://teamsystem.es/magazine/consultar-declaraciones-renta-anteriores/",
+          "title": "▷ ¿Cómo consultar las declaraciones de la renta anteriores?",
+          "snippet": "Entra en la página de trámites del modelo 100 · Clave PIN: es imprescindible solicitarla a través de la página web. · Número de referencia: cuando",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2024-03-04)"
+         },
+         {
+          "url": "https://www.tataaig.com/health-insurance/income-tax-declaration",
+          "title": "Complete Guide to Income Tax Declaration (ITD) | Tata AIG",
+          "snippet": "This declaration is crucial for determining the amount of taxes owed or refundable to the taxpayer. It serves as a means for taxpayers to comply with tax laws",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://dostupnyadvokat.cz/en/blog/income-tax-declaration",
+          "title": "How to fill in the income tax declaration - Dostupný advokát",
+          "snippet": "This declaration is used to determine how income tax is paid. After all, it is also in their interest as it allows them to benefit from tax",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2024-05-21)"
+         },
+         {
+          "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/consultas-informaticas/renta-ayuda-tecnica/copia-declaracion/obtencion-copia-consulta-declaraciones-presentadas-renta.html",
+          "title": "Cómo obtener una copia de la declaración presentada",
+          "snippet": "En \"Gestiones destacadas\" de Renta, accede a \"Todas las gestiones\" y pulsa \"Consulta de declaraciones presentadas\". Consulta de declaraciones",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-06-01)"
+         },
+         {
+          "url": "https://akriviahcm.com/resources/hr-glossary/it-declaration",
+          "title": "What is Income Tax Declaration? | Meaning & Definition | Akrivia HCM",
+          "snippet": "Income tax declaration is a form that an individual must fill in to declare their income and taxes paid during the year.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.camerfirma.com/modelo-100-que-es-como-presentarlo/",
+          "title": "Modelo 100 IRPF ¿qué es y quién tiene que presentarlo?",
+          "snippet": "El modelo 100 permite hacer la devolución o ingreso del IRPF; es el modelo conocido como \"Declaración de la Renta\". Te ayudamos con tus dudas.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         }
+        ],
+        "used_id": 29,
+        "tool_call_metrics": {
+         "success": [
+          1,
+          1,
+          1
+         ]
+        },
+        "tool_observation": "```\n[1] https://asesoresumbrella.com/la-importancia-de-las-casillas-en-la-declaracion-de-la-renta/ \"La importancia de las casillas en la Declaración de la Renta\nSi eres trabajador por cuenta ajena tus ingresos son declarados en la casilla correspondiente a rendimientos de trabajo. En el caso de los autónomos la\" \n\n[2] https://www.rtve.es/noticias/20240404/declaracion-renta-2024-casillas-fijarme-autonomo-trabajo-empresa/16040058.shtml \"Declaración de la renta 2024 | Consejos para autónomos y \nTe explicamos qué casillas debes mirar con más atencion antes de presentar la Declaración de la renta 2024 si trabajas para una empresa o si\"  (2024-04-04)\n\n[3] https://transparencia.ayto-humanesdemadrid.es/storage/uploads/1761812714Mart%C3%ADn%20Renta%202024_censurado.pdf \"[PDF] Modelo 100 Ejercicio 2024\nRETENCIONES Y DEMÁS PAGOS A CUENTA. Por rendimientos del trabajo. 6.994,86 0596. Por rendimientos del capital mobiliario. 152,29 0597. Total\"  (2025-11-05)\n\n[4] https://declarando.es/modelo-100 \"Modelo 100: guía 2026 para ahorrar en tu renta de autónomo\n¿Trabajas en casa? Puedes deducir el alquiler en esta casilla (0192), con el límite de la superficie que usas para trabajar. Por ejemplo, si\"  (2025-04-11)\n\n[5] https://sede.agenciatributaria.gob.es/Sede/Ayuda/24Presentacion/100.html \"Modelo 100. Declaración del Impuesto sobre la Renta de las \nModelo 100. Declaración del Impuesto sobre la Renta de las Personas Físicas 2024 · 1. Introducción · 2. Obligación de declarar · 3. Cuestiones\"  (2026-05-06)\n\n[6] https://www.fiscal-impuestos.com/files-fiscal/modelo-100.pdf \"[PDF] modelo-100.pdf - Fiscal Impuestos\nRendimientos procedentes de rentas que tengan por causa la imposición de capitales y otros rendimientos del capital mobiliario a integrar en la base imponible\" \n\n[7] https://grupoeas.com/casillas-declaracion-renta-2024/ \"Casillas clave en la Declaración de la Renta 2024: Guía - Grupo EAS\nCasilla 0012: Recoge el total de los rendimientos íntegros del trabajo. Incluye sueldos, salarios, prestaciones por desempleo o pensiones.\"  (2025-05-29)\n\n[8] https://quaderno.io/es/articulos/declaracion-renta-autonomos-paso-a-paso/ \"Cómo hacer la declaración de la Renta para autónomos, paso a paso\nCasilla 166 a 168: Estas casillas se reservan para especificar si tu estimación de ingresos es directa u objetiva (módulos), y si es directa, si\"  (2024-08-09)\n\n[9] https://taxdown.es/casilla-renta \"Casillas de la Declaración de la Renta 2026 - Guía Completa\nRendimientos del Trabajo: Casillas 11-100: Estas casillas recogen los ingresos por salarios, pensiones, prestaciones, y otros beneficios, así como\" \n\n[10] https://www.larazon.es/tecnologia-consumo/como-hacer-declaracion-renta-2024-movil-guia-paso-paso-app-agencia-tributaria_2025040467effcc4eec2d3000145eba1.html \"Cómo hacer la declaración de la Renta 2024 desde el móvil\nCómo hacer la declaración de la Renta 2024 desde el móvil: guía paso a paso con la app de la Agencia Tributaria · Trámite telemático con la\" \n\n[11] https://taxdown.es/como-hacer-declaracion-renta \"Cómo hacer la Declaración de la Renta 2025/2026\n1. Accede a la página web de Hacienda y busca el apartado correspondiente a la «Renta 2024» en la web de la Agencia Tributaria. 2. Identifícate\" \n\n[12] https://www.facebook.com/Cibervoluntarios/videos/sab%C3%ADas-que-ya-puedes-hacer-tu-declaraci%C3%B3n-de-la-renta-desde-el-m%C3%B3vilen-este-cibe/670965142345293/ \"📱¿Sabías que ya puedes hacer tu declaración de la Renta \nSolo necesitas tu móvil, revisar el borrador, aplicar las deducciones que te correspondan (así te ahorras un dinerito) y presentarla. Todo sin\" \n\n[13] https://www.facebook.com/groups/2997995050253141/posts/26797989083160404/ \"Cuál es la forma correcta de presentar mi declaración de 2024 y \nPara declaraciones del año 2024 y anteriores es necesario solicitar devolución manual mediante el formato de devoluciones FED, para ello se\"  (2026-04-23)\n\n[14] https://profact.com.mx/declaracion-anual-2024-todo-lo-que-necesitas-saber/ \"Declaración Anual 2024: Todo lo que Necesitas Saber | ProFact\nLa Declaración Anual del Impuesto sobre la Renta (ISR) del año 2024 es un informe anual que detalla los ingresos y gastos derivados de la actividad\" \n\n[15] https://sede.agenciatributaria.gob.es/Sede/ayuda/consultas-informaticas/renta-ayuda-tecnica/presentar-borrador-declaracion-mediante-renta-pin.html \"Cómo presentar borrador o declaración mediante Renta \nSerá necesario introducir también el factor de autenticación establecido para el dispositivo móvil (huella, PIN, patrón, reconocimiento facial,\" \n\n[16] https://www.gob.mx/sat/articulos/declaracion-anual-2024-de-personas \"Declaración Anual 2024 de personas - Gob MX\nConoce los beneficios, mejoras y toda la información necesaria para presentar tu Declaración Anual 2024 de personas.\" \n\n[17] https://www.bbva.com/es/salud-financiera/los-cinco-primeros-pasos-la-declaracion-la-renta-internet/ \"Los cinco primeros pasos para hacer la declaración de \nLos cinco primeros pasos para hacer la declaración de la renta por internet · 1. Acceso a la web de Hacienda · 2. Identificación y acceso al\" \n\n[18] https://www.siigo.com/mx/blog/obligaciones-fiscales/como-hacer-mi-declaracion-anual-de-impuestos/?srsltid=AfmBOorNHXdD5UuaBk6xBGbxITksKw881djHCn7VJaN0g2Msdllz9P0K \"Guía para hacer tu Declaración Anual 2026 en México | Siigo Aspel\nPaso a paso: ¿cómo hacer la Declaración Anual de impuestos? · 1. Ingresa al portal del SAT y dirígete a “Declaraciones para personas”. · 2. Despliega las opciones\" \n\n[19] https://www.dailymotion.com/video/x8w7t4c \"Cómo conseguir el número de referencia para hacer la declaración \nEste miércoles 3 de abril de 2024 comienza el plazo para presentar online la declaración de Renta correspondiente al ejercicio 2023,\"  (2024-04-03)\n\n[20] https://english.beijing.gov.cn/workinginbeijing/individualincometax/ \"Declaration of Individual Income Tax - Beijing - 北京市人民政府\nBasic Documents: Two copies of\"Individual Income Tax Annual Self-Declaration Return\". Required documents may differ on a case-by-case basis. +. Where taxpayers\" \n\n[21] https://www.ciat.org/pre-prepared-tax-statements-an-instrument-of-facilitation-and-control/?lang=en \"Pre-prepared Tax Statements: An Instrument of Facilitation and Control\nThe draft declarations represent the culmination of the strategy of many TAs that focus on increasing the levels of “voluntary” compliance of taxpayers.\"  (2021-05-28)\n\n[22] https://www.bajajlifeinsurance.com/life-insurance-guide/tax/income-tax-declaration-form.html \"Income Tax Declaration Form: Filing Process, Benefits & Importance\nAn income tax declaration is a document employees submit to their employer that details their total income, expenses, and eligible tax-saving\"  (2025-04-23)\n\n[23] https://teamsystem.es/magazine/consultar-declaraciones-renta-anteriores/ \"▷ ¿Cómo consultar las declaraciones de la renta anteriores?\nEntra en la página de trámites del modelo 100 · Clave PIN: es imprescindible solicitarla a través de la página web. · Número de referencia: cuando\"  (2024-03-04)\n\n[24] https://www.tataaig.com/health-insurance/income-tax-declaration \"Complete Guide to Income Tax Declaration (ITD) | Tata AIG\nThis declaration is crucial for determining the amount of taxes owed or refundable to the taxpayer. It serves as a means for taxpayers to comply with tax laws\" \n\n[25] https://dostupnyadvokat.cz/en/blog/income-tax-declaration \"How to fill in the income tax declaration - Dostupný advokát\nThis declaration is used to determine how income tax is paid. After all, it is also in their interest as it allows them to benefit from tax\"  (2024-05-21)\n\n[26] https://sede.agenciatributaria.gob.es/Sede/ayuda/consultas-informaticas/renta-ayuda-tecnica/copia-declaracion/obtencion-copia-consulta-declaraciones-presentadas-renta.html \"Cómo obtener una copia de la declaración presentada\nEn \"Gestiones destacadas\" de Renta, accede a \"Todas las gestiones\" y pulsa \"Consulta de declaraciones presentadas\". Consulta de declaraciones\"  (2026-06-01)\n\n[27] https://akriviahcm.com/resources/hr-glossary/it-declaration \"What is Income Tax Declaration? | Meaning & Definition | Akrivia HCM\nIncome tax declaration is a form that an individual must fill in to declare their income and taxes paid during the year.\" \n\n[28] https://www.camerfirma.com/modelo-100-que-es-como-presentarlo/ \"Modelo 100 IRPF ¿qué es y quién tiene que presentarlo?\nEl modelo 100 permite hacer la devolución o ingreso del IRPF; es el modelo conocido como \"Declaración de la Renta\". Te ayudamos con tus dudas.\" \n```"
+       }
+      },
+      "role": "function",
+      "name": "web_search",
+      "function_id": "round_0_call_f7c35c0cd286407187e0d338",
+      "function_call": {
+       "name": "web_search",
+       "arguments": "{\"queries\": \n[\n  \"casillas modelo 100 renta 2024 trabajador por cuenta ajena explicadas\",\n  \"paso a paso declaración de la renta 2024 móvil sede agencia tributaria\",\n  \"números justificante presentación declaración de la renta\"\n]\n\n}"
+      },
+      "response_id": "b410b8b5-81cc-4f96-9f48-0fdff616a77c",
+      "usage": {}
+     },
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Simulando la declaración de la renta desde un dispositivo móvil como trabajador por cuenta ajena"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "Estoy organizando la información necesaria para guiar paso a paso el proceso de declaración, centrándome en las casillas clave del modelo oficial.  \nAseguro que cada dato se interpreta correctamente dentro del contexto de los rendimientos y retenciones del trabajo, respetando las relaciones entre base liquidable, cuotas estatales y autonómicas.  \nFinalmente, calculo el resultado neto con precisión, asegurando que el usuario entienda claramente su situación fiscal al final del proceso."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "b410b8b5-81cc-4f96-9f48-0fdff616a77c",
+      "usage": {
+       "input_tokens": 6761,
+       "output_tokens": 240,
+       "characters": 0,
+       "total_tokens": 7001,
+       "input_tokens_details": {
+        "text_tokens": 6761
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 233,
+        "text_tokens": 240
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 2176
+       }
+      },
+      "timestamp": 1781649484
+     },
+     {
+      "content": "# 📱 **Guía paso a paso: Haciendo la Renta en el móvil (Trabajador por cuenta ajena)**\n\n*Imagina que estás sentado en el sofá, con el móvil en la mano, y vamos a hacer la declaración juntos. Te voy a decir exactamente qué tocar y qué significa cada cosa.*\n\n---\n\n## **PASO 1: Entrar en la web de Hacienda**\n\nAbres el navegador de tu móvil (Chrome, Safari, etc.) y escribes:\n👉 **sede.agenciatributaria.gob.es**\n\nVerás la página principal de la Sede Electrónica. Busca el banner grande que pone:\n🔹 **\"Renta 2024\"** (o el año que toque)\n\nPulsas ahí y te lleva a la página principal de la campaña de la Renta.\n\n---\n\n## **PASO 2: Identificarte (demostrar que eres tú)**\n\nTe aparecen tres opciones grandes para entrar:\n\n### **Opción A: Con Cl@ve PIN o Cl@ve Permanente** (la más cómoda)\n- Si ya la tienes activada, pulsas \"Cl@ve PIN\"\n- Te pide tu DNI y la contraseña\n- Si es Cl@ve PIN, te mandan un SMS con un código de 6 dígitos que metes en el móvil\n\n### **Opción B: Con Certificado Digital**\n- Si lo tienes instalado en el móvil, te reconoce automáticamente\n\n### **Opción C: Con Número de Referencia** (si no tienes nada de lo anterior)\n- Pulsas \"Número de referencia\"\n- Te pide:\n  - **Casilla 505** de la declaración del año anterior (el \"código secreto\" que te guardaste)\n  - Tu DNI\n  - La fecha de validez del DNI\n- Te mandan un SMS con un código de 42 caracteres (el \"número de referencia\") que te deja entrar solo una vez\n\n**🎯 En lenguaje llano:** Es como cuando entras en el banco. Tienes que demostrar que eres tú y no otra persona.\n\n---\n\n## **PASO 3: Acceder al servicio \"Renta WEB\"**\n\nUna vez dentro, te aparece un menú con opciones. Buscas y pulsas:\n🔹 **\"Acceder a Renta WEB\"**\n\nSe carga la aplicación web de Hacienda. Arriba verás:\n- **Tus datos personales** (nombre, DNI, dirección)\n- **El año del ejercicio** (por ejemplo, \"Ejercicio 2024\")\n- **Un menú lateral** con todas las secciones\n\n---\n\n## **PASO 4: Revisar el Borrador (la \"pre-cuenta\")**\n\nHacienda ya te ha hecho los deberes. Te aparece el **borrador de tu declaración**.\n\n⚠️ **IMPORTANTE:** No le des a \"Presentar\" todavía. Tienes que revisar TODO.\n\n### **Lo primero que ves: \"Datos identificativos\"**\n- Tu nombre, DNI, dirección, estado civil\n- **Comprueba que todo esté correcto**\n\n---\n\n## **PASO 5: Revisar tus Ingresos (lo que ganaste)**\n\nVas al menú lateral y pulsas:\n🔹 **\"Rendimientos del trabajo\"**\n\nAquí es donde está tu sueldo. Verás una tabla con:\n\n### **Casilla 0001: \"Rendimientos íntegros del trabajo\"**\n- Es tu **sueldo bruto total** del año\n- Incluye: nóminas, pagas extra, horas extra, bonos\n- **Ejemplo:** Si ganaste 28.000€ brutos al año, aquí pone 28.000\n\n### **Casilla 0002: \"Gastos deducibles\"**\n- Son los gastos que Hacienda te deja restar automáticamente\n- Normalmente son **2.000€ fijos** (por \"otros gastos\")\n- Si tienes discapacidad, pueden ser más\n\n### **Casilla 0012: \"Rendimientos netos del trabajo\"**\n- Es la resta: **Casilla 0001 - Casilla 0002**\n- **Ejemplo:** 28.000 - 2.000 = 26.000€\n- Esta es la cifra sobre la que te van a calcular el impuesto\n\n### **Casilla 0596: \"Retenciones del trabajo\"**\n- Es el dinero que **ya te han quitado** de la nómina mes a mes\n- **Ejemplo:** Si en cada nómina te quitaron 400€ de IRPF, aquí pondrá: 400 x 12 = 4.800€\n- **🎯 En lenguaje llano:** Es el \"pago a cuenta\" que ya hiciste durante el año\n\n---\n\n## **PASO 6: Revisar otros ingresos (si los tienes)**\n\nSi solo tuviste un empleo por cuenta ajena, puedes saltarte esto. Pero si tienes:\n\n### **\"Rendimientos del capital mobiliario\"**\n- Intereses de cuentas bancarias\n- Dividendos de acciones\n- **Casilla 0027:** Importe total\n\n### **\"Ganancias patrimoniales\"**\n- Si vendiste acciones, fondos de inversión, criptomonedas\n- **Casilla 0267:** Ganancias\n- **Casilla 0277:** Pérdidas\n\n### **\"Imputación de rentas\"**\n- Si tienes un segundo piso vacío (no tu vivienda habitual)\n- Hacienda te cobra un \"impuesto fantasma\" por tenerlo\n- **Casilla 0092:** Importe imputado\n\n---\n\n## **PASO 7: Revisar las Deducciones (los \"cupones descuento\")**\n\nVas al menú lateral y pulsas:\n🔹 **\"Deducciones\"**\n\nAquí es donde puedes **ahorrar dinero**. Las más comunes:\n\n### **Deducción por vivienda habitual**\n- Solo si compraste tu casa **antes del 1 de enero de 2013**\n- **Casilla 0698:** Importe deducible\n- Te puedes deducir el **15%** de lo que pagaste de hipoteca (capital + intereses)\n- **Máximo:** 1.356€ al año\n\n### **Deducción por donativos**\n- Si donaste a ONGs, iglesias, etc.\n- **Casilla 0703:** Importe donado\n- Te deducen el **80%** de los primeros 150€ y el **40%** del resto\n\n### **Deducción por maternidad**\n- Si tienes hijos menores de 3 años y trabajas\n- **Casilla 0715:** Importe a deducir\n- Son **1.200€ al año** por hijo\n\n### **Deducciones autonómicas**\n- Cada comunidad autónoma tiene las suyas\n- **Ejemplos en Cataluña:**\n  - Deducción por alquiler de vivienda\n  - Deducción por gastos de educación\n  - Deducción por cuidado de hijos\n- **Casilla 0720 y siguientes:** Importe de cada deducción\n\n---\n\n## **PASO 8: Revisar los Datos personales y familiares**\n\nVas al menú y pulsas:\n🔹 **\"Datos personales y familiares\"**\n\nAquí es donde metes:\n\n### **Mínimo personal**\n- **Casilla 0515:** 5.550€ (para todos)\n- Si tienes más de 65 años: +1.150€\n- Si tienes más de 75 años: +1.400€\n\n### **Mínimo por hijos**\n- **Casilla 0517:** Por cada hijo\n  - Primer hijo: 2.400€\n  - Segundo hijo: 2.700€\n  - Tercer hijo: 4.000€\n  - Cuarto y siguientes: 4.500€\n- Si el hijo es menor de 3 años: +2.800€ adicionales\n\n### **Mínimo por descendientes o ascendientes con discapacidad**\n- Cantidades adicionales según el grado de discapacidad\n\n---\n\n## **PASO 9: Ver el Resultado (la \"hora de la verdad\")**\n\nVuelves a la pantalla principal de Renta WEB y bajas hasta el final.\n\nVerás un resumen con estos números:\n\n### **Casilla 0505: \"Base liquidable general\"**\n- Es todo lo que has ganado, menos los gastos y deducciones\n- **Ejemplo:** 26.000€ (rendimientos netos del trabajo)\n\n### **Casilla 0595: \"Cuota íntegra estatal\"**\n- Es lo que te tocaría pagar **antes** de aplicar retenciones ni deducciones\n- Se calcula aplicando el **tipo impositivo** (el porcentaje) a tu base liquidable\n- **Ejemplo:** Si tu tipo es del 20%, serían 5.200€\n\n### **Casilla 0597: \"Cuota íntegra autonómica\"**\n- Lo mismo, pero para la comunidad autónoma\n- **Ejemplo:** 2.600€\n\n### **Casilla 0598: \"Cuota líquida\"**\n- Es la suma: **Casilla 0595 + Casilla 0597**\n- **Ejemplo:** 5.200 + 2.600 = 7.800€\n\n### **Casilla 0698: \"Total de deducciones\"**\n- Todos los \"cupones descuento\" que has aplicado\n- **Ejemplo:** 1.356€ (por vivienda habitual)\n\n### **Casilla 0699: \"Cuota diferencial\"**\n- Es la resta: **Casilla 0598 - Casilla 0698**\n- **Ejemplo:** 7.800 - 1.356 = 6.444€\n- **Esto es lo que deberías pagar en total**\n\n### **Casilla 0697: \"Retenciones y pagos a cuenta\"**\n- Es el dinero que **ya te han quitado** durante el año\n- **Ejemplo:** 4.800€ (casilla 0596)\n\n### **Casilla 0700: \"Resultado de la declaración\"**\n- Es la resta final: **Casilla 0699 - Casilla 0697**\n- **Ejemplo:** 6.444 - 4.800 = **1.644€**\n\n---\n\n## **PASO 10: Ver si te toca pagar o te devuelven**\n\nArriba a la derecha, verás un recuadro grande con el resultado:\n\n### **Si pone \"A DEVOLVER\" (en verde)**\n- 🎉 **¡Fiesta!** Hacienda te debe dinero\n- Te ingresan la diferencia en tu cuenta bancaria\n- **Ejemplo:** \"A devolver: 350€\"\n\n### **Si pone \"A INGRESAR\" (en rojo)**\n- 💸 Te toca pagar\n- **Ejemplo:** \"A ingresar: 1.644€\"\n\n### **Si pone \"Resultado cero\"**\n- Estás en equilibrio: ni te deben ni debes\n\n---\n\n## **PASO 11: Presentar la declaración**\n\nSi todo está correcto, pulsas el botón:\n🔹 **\"Presentar declaración\"**\n\nTe pide:\n1. **Domiciliación bancaria:** El IBAN de tu cuenta (para que te ingresen o te cobren)\n2. **Si te toca pagar:** Puedes elegir:\n   - **Pago único:** Te cobran todo de una vez\n   - **Fraccionamiento:** Pagas el 60% ahora y el 40% en noviembre\n\nPulsas **\"Confirmar\"** y te pide que firmes electrónicamente (con Cl@ve, certificado o código SMS).\n\n---\n\n## **PASO 12: El Justificante (el \"ticket de compra\")**\n\nUna vez presentada, te aparece una pantalla con:\n\n### **Número de Justificante**\n- Es un código largo (ejemplo: **123456789012345**)\n- **🎯 GUÁRDALO:** Es la única prueba de que presentaste la declaración\n\n### **CSV (Código Seguro de Verificación)**\n- Otro código para verificar que el documento es auténtico\n\n### **Fecha y hora de presentación**\n- **Ejemplo:** \"Presentada el 15/06/2026 a las 18:45\"\n\n### **Resultado**\n- \"A devolver: 350€\" o \"A ingresar: 1.644€\"\n\nPuedes:\n- **Descargar el PDF** del justificante\n- **Enviarlo por email** a tu correo\n\n---\n\n## **PASO 13: ¿Y ahora qué?**\n\n### **Si te toca devolución:**\n- Hacienda tiene **6 meses** para ingresarte el dinero\n- Normalmente lo hacen en **1-3 semanas**\n- Te llega un SMS/email avisando: \"Su devolución ha sido ordenada\"\n\n### **Si te toca pagar:**\n- Te cobran en la fecha que elegiste\n- Te llega un SMS/email: \"Se ha efectuado el cargo\"\n\n### **Si te llega un Requerimiento:**\n- ⚠️ **No te asustes**\n- Es una carta de Hacienda pidiendo aclaraciones\n- Puedes responder desde Renta WEB, en el apartado **\"Contestar requerimientos\"**\n\n---\n\n## **🎯 Resumen visual del proceso en el móvil:**\n\n```\n1. sede.agenciatributaria.gob.es → \"Renta 2024\"\n2. Identificarte (Cl@ve / Referencia / Certificado)\n3. Acceder a \"Renta WEB\"\n4. Revisar \"Datos identificativos\"\n5. Revisar \"Rendimientos del trabajo\" (tu sueldo)\n6. Revisar \"Deducciones\" (tus descuentos)\n7. Revisar \"Datos personales y familiares\"\n8. Ver el \"Resultado\" (¿a devolver o a ingresar?)\n9. Pulsar \"Presentar declaración\"\n10. Meter el IBAN y confirmar\n11. Guardar el \"Número de Justificante\"\n12. ¡Listo!\n```\n\n---\n\n## **💡 Consejos finales:**\n\n✅ **Revisa TODO** antes de presentar. El borrador puede tener errores.\n✅ **Guarda el justificante** (el número largo) por si acaso.\n✅ **No presentes fuera de plazo** (normalmente abril-junio).\n✅ **Si te toca pagar y no puedes**, pide el fraccionamiento.\n✅ **Si tienes dudas**, puedes pedir cita previa con Hacienda para que te ayuden.\n\n---\n\n**¿Quieres que te explique alguna casilla o paso en más detalle?** 📱",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "b410b8b5-81cc-4f96-9f48-0fdff616a77c",
+      "usage": {
+       "input_tokens": 6761,
+       "output_tokens": 3617,
+       "characters": 0,
+       "total_tokens": 10378,
+       "input_tokens_details": {
+        "text_tokens": 6761
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 233,
+        "text_tokens": 3617
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 2176
+       }
+      },
+      "timestamp": 1781649544
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1781649544.2186332
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1781649460
+   },
+   {
+    "id": "19dfe60d-2a34-4a78-bdc3-dce23ada353c",
+    "role": "user",
+    "content": "vuelve a explicarlos conceptos complicados y solos de tiente detente cuando creas que hayas explicado todos",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "b410b8b5-81cc-4f96-9f48-0fdff616a77c",
+    "turn_id": null,
+    "childrenIds": [
+     "d673ec2a-1c70-4373-ae5a-f8663b56137d",
+     "b6e29412-72d7-4f8f-83c3-7c780118dd7d"
+    ],
+    "files": [],
+    "timestamp": 1781652261
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "d673ec2a-1c70-4373-ae5a-f8663b56137d",
+    "parentId": "19dfe60d-2a34-4a78-bdc3-dce23ada353c",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Revisiting the intricate aspects of the Spanish tax return explanation",
+         "Explicando los conceptos clave de forma clara y cercana",
+         "Navigating complex tax terminology with clarity and precision",
+         "Refining explanations to make complex concepts accessible",
+         "Clarifying complex tax concepts through vivid, everyday analogies",
+         "Simplificando lo complejo para entender mejor el sistema fiscal",
+         "Simplifying complex tax concepts through vivid everyday analogies"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am focusing on clarifying the more complex elements from the prior discussion, ensuring they are conveyed with precision and clarity.  \nMy aim is to simplify nuanced concepts without losing their essential meaning.  \nI am refining my explanation to enhance understanding through thoughtful phrasing and logical flow.",
+         "Estoy enfocado en aclarar solo las ideas más complejas, sin rodeos ni tecnicismos.  \nMi objetivo es que entiendas cada parte como si te la explicara un amigo de confianza.  \nCuando sientas que ya tienes todo claro, detengo la explicación.",
+         "I am carefully distinguishing between nuanced concepts like taxable income and actual tax liability, ensuring each term is explained in a way that reflects its real-world impact.  \nI focus on clarifying the layered calculations involved in tax bills, from initial assessments to final payments, while highlighting safeguards such as personal and family allowances.  \nI also differentiate between advance withholdings and eligible reductions, making sure the user understands how each element shapes their overall tax obligation.",
+         "I am simplifying intricate financial and tax ideas by transforming them into vivid, everyday metaphors that resonate intuitively.  \nEach concept is being distilled into a clear image—like a funnel or a sack—to reveal how money flows and what remains after deductions.  \nThe goal is to turn abstract rules into tangible stories that anyone can grasp.",
+         "I am translating abstract fiscal mechanisms into relatable scenarios that mirror real-life experiences  \nEach concept is unpacked with a street-level metaphor to reveal its underlying logic and emotional weight  \nThe goal is to demystify bureaucratic language by anchoring it in tangible, human truths",
+         "Estoy transformando conceptos fiscales abstractos en metáforas cotidianas que resuenan con la experiencia real de las personas.  \nUtilizo analogías como escudos de supervivencia, adelantos y cupones para desentrañar confusión entre retenciones y deducciones.  \nMi objetivo es hacer accesible el lenguaje de Hacienda, mostrando cómo cada regla afecta directamente la vida diaria.",
+         "I am distilling intricate financial terminology into relatable, intuitive ideas using metaphors like a funnel, shield, coupons, and ghost tax to make them accessible.  \nEach concept—whether about income sources or capital gains—is framed as a familiar experience, helping clarify how money moves and is taxed in real life.  \nThe focus remains on clarity and relevance, ensuring only the most confusing elements are addressed with precision and grace."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "d673ec2a-1c70-4373-ae5a-f8663b56137d",
+      "usage": {
+       "input_tokens": 5630,
+       "output_tokens": 1577,
+       "total_tokens": 7207,
+       "output_tokens_details": {
+        "reasoning_tokens": 1569
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1781652292
+     },
+     {
+      "content": "Aquí tienes la \"traducción extrema\" solo de los conceptos que de verdad lían a la gente. Los he aislado y explicado con ejemplos de la vida real para que no quede ni una sola duda. \n\nCuando termines de leer esto, pararé.\n\n---\n\n### 1. El \"Embudo\" de Hacienda: Base Imponible vs. Base Liquidable\nLa gente siempre las confunde, pero es muy fácil si imaginas un embudo:\n*   **Base Imponible (La boca del embudo):** Es el saco gigante donde metes **TODO** lo que has ganado en el año (tu sueldo bruto, lo que te pagó el inquilino, los intereses del banco). Es la cifra bruta, sin filtros.\n*   **Base Liquidable (La salida del embudo):** Es lo que cae al final después de que Hacienda te deje \"colar\" algunos gastos obligatorios (como lo que pagaste a la Seguridad Social). **Sobre esta cifra es sobre la que te van a calcular el impuesto real.**\n\n### 2. La Sopa de Letras de las \"Cuotas\" (El cálculo de la factura)\nEs la cascada matemática que hace el sistema para llegar a la factura final.\n*   **Cuota Íntegra (La factura teórica):** Hacienda mira tu *Base Liquidable* y dice: *\"Por ganar esto, según mis tablas, me debes 5.000€\"*. Es el precio de etiqueta antes de cualquier rebaja.\n*   **Cuota Líquida (La factura con rebajas):** Aquí aplican tus circunstancias personales. *\"Como tienes familia numerosa o discapacidad, te aplico un descuento directo y la factura baja a 4.000€\"*.\n*   **Cuota Diferencial (El ajuste de cuentas):** Es la resta final. *\"La factura real era de 4.000€, pero tu jefe ya me adelantó 4.500€ de tu nómina durante el año. Resultado: te tengo que devolver 500€\"*. \n\n### 3. La \"Imputación de Rentas\" (El impuesto fantasma)\nEste es el que más cabrea a la gente porque te cobran por algo que no has cobrado.\n*   **¿Qué es?** Si tienes una segunda vivienda (el piso de la playa, la casa del pueblo) y **está vacía** (no la alquilas ni vives en ella), Hacienda te castiga. \n*   **La lógica de Hacienda:** *\"Ese piso podría estar dándote dinero si lo alquilaras. Como lo tienes parado, me invento un ingreso ficticio (un 1% o 2% del valor catastral) y te cobro impuestos por ese dinero imaginario\"*. Es un impuesto a tener el ladrillo improductivo.\n\n### 4. El \"Mínimo Personal y Familiar\" (El escudo de supervivencia)\nNo es un descuento, es una **zona libre de impuestos**.\n*   **¿Qué es?** Hacienda asume que hay una cantidad de dinero que necesitas SÍ O SÍ para sobrevivir (comer, pagar la luz, vestirte). A ese dinero **no le meten mano**.\n*   **Cómo funciona:** Si eres soltero y sin hijos, tu escudo es de 5.550€. Si ganas 20.000€, Hacienda solo te calculará impuestos sobre 14.450€. Si tienes 3 hijos, el escudo se hace gigante, porque Hacienda entiende que necesitas más dinero solo para que tu familia sobreviva, por lo que te cobrarán muchísimo menos.\n\n### 5. Retenciones vs. Deducciones (El adelanto vs. El cupón)\nParecen lo mismo, pero son conceptos opuestos:\n*   **Retención (El adelanto):** Es dinero **tuyo** que tu jefe le ingresa a Hacienda cada mes en tu nombre. Es como si le dijeras al Estado: *\"Toma, quédate 200€ de mi sueldo cada mes guardados en un cajón, para ir pagando la factura final de la Renta\"*.\n*   **Deducción (El cupón descuento):** Es un regalo del Estado por hacer cosas buenas. Si donas sangre, te haces un plan de pensiones o rehabilitas tu casa, Hacienda te dice: *\"Como has hecho esto, te perdono pagar 300€ de tu factura final\"*. La retención es dinero que ya pagaste; la deducción es dinero que te ahorras.\n\n### 6. Rendimientos del Capital (Mobiliario vs. Inmobiliario)\nEs simplemente la forma en la que tu patrimonio te da dinero sin que tengas que ir a una oficina a trabajar:\n*   **Mobiliario (Tu dinero trabajando):** Los céntimos que te da el banco por tener la nómina ahí, o los dividendos que te paga Apple por tener acciones suyas.\n*   **Inmobiliario (Tus ladrillos trabajando):** El dinero que te ingresa tu inquilino el día 5 de cada mes por alquilarle tu piso.\n\n### 7. Ganancias y Pérdidas Patrimoniales (El \"pelotazo\" o el \"sablazo\")\nEsto no tiene nada que ver con tu sueldo ni con tus alquileres. Se activa **solo cuando te deshaces de algo**.\n*   **Ganancia:** Compraste unas acciones de Amazon por 1.000€ y las vendes por 3.000€. Esos 2.000€ de beneficio son una ganancia patrimonial. Hacienda quiere su mordida.\n*   **Pérdida:** Compraste un piso por 200.000€ y, con la crisis, lo tienes que vender por 150.000€. Has perdido 50.000€. **Ojo:** A Hacienda le tienes que avisar de esta pérdida, porque te sirve para \"compensar\" y pagar menos impuestos por otras ganancias que hayas tenido.\n\n---\n\nCon estos 7 conceptos dominas el 99% de la jerga incomprensible de la Declaración de la Renta. Si los entiendes, puedes enfrentarte a cualquier página de la web de Hacienda sin que te tiemble el pulso.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "d673ec2a-1c70-4373-ae5a-f8663b56137d",
+      "usage": {
+       "input_tokens": 5630,
+       "output_tokens": 2940,
+       "total_tokens": 8570,
+       "output_tokens_details": {
+        "reasoning_tokens": 1569
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1781652316
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1781652316.7852395
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1781652261
+   }
+  ]
+ },
+ "updated_at": 1781652261,
+ "created_at": 1781649362,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1781649361093
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "b6e29412-72d7-4f8f-83c3-7c780118dd7d",
+  "d673ec2a-1c70-4373-ae5a-f8663b56137d"
+ ],
+ "currentId": "d673ec2a-1c70-4373-ae5a-f8663b56137d",
+ "chat_type": "t2t",
+ "models": null,
+ "project_id": "",
+ "data_source": null
+}

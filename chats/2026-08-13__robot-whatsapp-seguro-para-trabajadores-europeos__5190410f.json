@@ -1,0 +1,898 @@
+{
+ "id": "5190410f-5a6f-4646-bcd2-057f1b44e0f7",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Robot WhatsApp Seguro para Trabajadores Europeos",
+ "chat": {
+  "history": {
+   "messages": {
+    "0216ed65-fce0-4c4a-a232-a2a8499d4ac1": {
+     "id": "0216ed65-fce0-4c4a-a232-a2a8499d4ac1",
+     "role": "user",
+     "content": "amplia al maximo Para crear un prompt que genere un **robot de WhatsApp para trabajadores sexuales (chicos y chicas) en Europa**, con **más de 10 idiomas** y que domine la **jerga local**, necesitas un enfoque muy técnico y específico.\n\nAquí tienes **3 modelos de prompt** (de básico a experto) para que elijas según la IA que uses (ChatGPT, Claude, Gemini, etc.). Te recomiendo el **Prompt Experto**.\n\n---Entendido. Vamos a **ampliar al máximo** el concepto. Olvídate de los 3 niveles anteriores. Aquí tienes el **\"Prompt Maestro Definitivo\"** (Master Execution Prompt). \r\n\r\nEste no es solo un prompt, es un **Documento de Diseño de Sistema (SDS)** completo que puedes copiar y pegar directamente en una IA de última generación (Claude 3.5 Sonnet, GPT-4o o Gemini Ultra) para que te genere el 100% del código, la arquitectura, la lingüística y la estrategia de seguridad.\r\n\r\n---\r\n\r\n# 🧠 PROMPT MAESTRO: \"EROS-BOT EU\" (SISTEMA TOTAL)\r\n\r\n## 1. ROL Y CONTEXTO GLOBAL\r\nActúa como **Chief Technology Officer (CTO)** y **Lingüista Computacional Senior** especializado en plataformas de alto rendimiento, privacidad extrema y compliance legal en la Unión Europea (GDPR + Digital Services Act). \r\n\r\nVas a diseñar y codificar la arquitectura completa de un bot conversacional para WhatsApp Business API (o conexión multiplataforma) destinado exclusivamente a **trabajadores sexuales autónomos (hombres, mujeres y no binarios)** que operan en el territorio europeo. \r\n\r\nEl bot debe sentirse **humano, cálido y callejero**, pero con una inteligencia artificial afinada para detectar tráfico de personas, menores de edad y lenguaje coercitivo, actuando como un muro de seguridad tanto para el profesional como para el cliente.\r\n\r\n---\r\n\r\n## 2. REQUISITOS LINGÜÍSTICOS EXTREMOS (JERGA + CULTURA)\r\n\r\nDebes generar un sistema de **Internacionalización (i18n) profunda** que abarque **12 idiomas** (amplío de 10 a 12 para cubrir nichos migratorios). \r\n\r\n**Idiomas obligatorios:** \r\nEspañol (ES), Inglés (UK-US), Francés (FR), Alemán (DE), Italiano (IT), Portugués (PT-Europa), Neerlandés (NL), Polaco (PL), Rumano (RO), Griego (EL), Búlgaro (BG) y Checo (CS).\r\n\r\n**Requisito crítico (Slang Injection):** \r\nNo sirve la traducción literal. Para cada idioma, debes construir un **Lexicón de Jerga Sexual y Callejera** categorizado en estos 7 campos semánticos:\r\n\r\n1. **Saludo y captación:** (Ej. ES: \"¿Qué dices, guapo/a?\" / FR: \"Salut, belle\" / DE: \"Na, Lust auf Abenteuer?\" / IT: \"Ciao tesoro\" / NL: \"Hé schat\").\r\n2. **Términos para \"Cliente\":** (ES: *Chico, señor, caballero* / UK: *Punter, Geezer* / FR: *Client, Monsieur, Jule* / DE: *Freier, Gast* / PL: *Klient, Gość*).\r\n3. **Términos para \"Dinero/Tarifa\":** (ES: *Pasta, Lana, Precio* / FR: *Thune, Blé, Cachet* / DE: *Kohle, Mäuse, Preis* / IT: *Grana, Soldi* / EL: *Φράγκα (Frága)*).\r\n4. **Actos y Servicios Específicos:** (ES: *Completo, Francés, Ruso, Griego* / FR: *Fellation, Plan à trois, Soumis* / DE: *Französisch, Dreier, Komplettservice* / NL: *Neuken, Volledig*).\r\n5. **Lugar de encuentro:** (ES: *Piso, Hotel, Domicilio* / FR: *Appart, Hôtel, Ibis* / DE: *Wohnung, Hotel, Auto* / IT: *Appartamento, Motel*).\r\n6. **Términos de seguridad (Alerta):** (ES: *Policía, Problema, Cuidado* / FR: *Police, Flics, Chaud* / DE: *Bullen, Alarm* / RU: *Poliția, Pericol*).\r\n7. **Cumplidos y Despedidas:** (ES: *Eres un sol, Disfruta* / FR: *Tu es adorable, Bisous* / DE: *Du bist süß, Küsschen* / PL: *Miły jesteś, Buźka*).\r\n\r\n**Entregable de lenguaje:** Genera un archivo `slang_matrix.json` donde cada idioma tenga un array de sinónimos para cada categoría, ponderados por *frecuencia de uso* (para que el bot elija el término más coloquial según el contexto).\r\n\r\n---\r\n\r\n## 3. ARQUITECTURA TÉCNICA FULL-STACK (CÓDIGO REAL)\r\n\r\nNo des explicaciones vagas. Dame el **código funcional** y la estructura de carpetas para desplegar esto en un clúster de contenedores Docker (Kubernetes). La arquitectura debe ser:\r\n\r\n- **Backend:** Node.js (v20+) con TypeScript + Express.js, o Python con FastAPI (elige el más eficiente para WebSockets). \r\n- **Capa de Mensajería:** Implementa la conexión con WhatsApp Cloud API (Meta) usando el SDK oficial. Incluye manejo de *webhooks* con verificación de firma para evitar spoofing.\r\n- **Base de Datos:** PostgreSQL (para perfiles, historial de citas anonimizado) + Redis (para almacenar el estado de la conversación en tiempo real y caché de mensajes).\r\n- **Motor de IA:** Integración con la API de OpenAI (GPT-4o) o Claude, pero con un **System Prompt dinámico** que se inyecta dependiendo del idioma detectado. Además, implementa un modelo local más pequeño (Bert-base-multilingual) para el filtrado de *toxicidad y trata* que actúe antes de que el mensaje llegue al LLM grande (ahorrando costes).\r\n\r\n**Estructura de carpetas obligatoria:**\r\n```\r\n/eros-bot/\r\n├── src/\r\n│   ├── controllers/ (webhook, messageHandler)\r\n│   ├── services/ (aiRouter, locationService, paymentStripe)\r\n│   ├── i18n/ (carpeta con 12 subcarpetas con JSON de jerga)\r\n│   ├── models/ (User, Session, Booking, Blacklist)\r\n│   ├── middleware/ (authGuard, rateLimiter, ageVerifier)\r\n│   └── utils/ (encryptionAES, panicoButton)\r\n├── docker-compose.yml\r\n└── .env (con tokens de API)\r\n```\r\n\r\n---\r\n\r\n## 4. FLUJO DE CONVERSACIÓN (MÁQUINA DE ESTADOS)\r\n\r\nDiseña una **Máquina de Estados Finitos (FSM)** con los siguientes nodos. Cada nodo debe tener *timeouts* (si el usuario no responde en 5 min, se envía un mensaje de cortesía y se cierra la sesión).\r\n\r\n1. **Nodo 0: Detección de Idioma.** El bot analiza los primeros 3 caracteres o usa el idioma del teléfono del usuario (si está disponible en el payload de Meta). Si falla, pregunta: *\"¿En qué idioma prefieres hablar?\"* en 12 idiomas con botones.\r\n2. **Nodo 1: Verificación de Edad (KYC Light).** Pide fecha de nacimiento exacta (DD/MM/AAAA). Si es menor de 18, bloqueo permanente con mensaje de ley europea y reporte automático a las autoridades (simulado).\r\n3. **Nodo 2: Perfil del Profesional.** Pregunta: *\"¿Buscas chico, chica, pareja o transexual?\"* (Incluye opción \"No estoy seguro, quiero sorpresa\"). Muestra fotos borrosas (blur) que se desenfocan al hacer clic en \"Ver más\".\r\n4. **Nodo 3: Servicio Deseado.** Despliega un menú con íconos (🔥 Felación, 🍑 Completo, 💆 Masaje Tántrico, 👯 Dúo, 🏠 Domicilio, 🚗 Auto). Cada servicio tiene un precio base asociado en Euros.\r\n5. **Nodo 4: Geolocalización.** Solicita compartir la ubicación (vía botón de WhatsApp). El bot calcula la distancia al profesional más cercano y añade un suplemento por desplazamiento (€0.50 por km).\r\n6. **Nodo 5: Horario y Confirmación.** Muestra los huecos libres del profesional (sincronizado con Google Calendar API). El usuario confirma con un botón verde \"Reservar Ahora\".\r\n7. **Nodo 6: Pago (Opcional).** Integra Stripe o Mercado Pago para permitir *señas* (depósitos de seguridad) del 20% del total, para evitar falsas citas.\r\n8. **Nodo 7: Post-Cita.** 1 hora después de la cita, el bot pregunta: *\"¿Cómo fue todo?\"* con emoticonos. Si el usuario reporta una incidencia, se activa un protocolo de revisión manual.\r\n\r\n---\r\n\r\n## 5. SEGURIDAD, PRIVACIDAD Y LEGALIDAD (GDPR + DSA)\r\n\r\nEsto es prioritario. Incluye en el código los siguientes módulos:\r\n\r\n- **Cifrado de extremo a extremo local:** Los mensajes no se almacenan en texto plano en la DB; se cifran con AES-256 usando una clave rotativa diaria.\r\n- **Derecho al olvido:** Cada 24 horas, los chats se anonimizan (se elimina el número de teléfono y se sustituye por un hash aleatorio) a menos que el usuario dé consentimiento explícito para guardar preferencias.\r\n- **Botón de Pánico (Táctico):** Si el trabajador (o el cliente) escribe la palabra clave \"**AYUDA 911**\" (en cualquier idioma), el bot ejecuta estas acciones en milisegundos:\r\n  1. Borra todo el historial de la conversación del dispositivo del usuario (vía mensaje de borrado para ambos lados).\r\n  2. Envía un SMS cifrado a un contacto de emergencia previamente registrado por el trabajador con la ubicación exacta del último chat.\r\n  3. Simula un mensaje de error del sistema (ej: *\"Error 404: Servicio no disponible\"*) para no levantar sospechas si el agresor está mirando el teléfono.\r\n- **Anti-Trata:** Implementa un detector de patrones. Si el bot detecta frases como *\"Tienes que trabajar para mí\"*, *\"Te recojo en coche\"* o *\"Te quito el móvil\"*, el bot responde con un mensaje empático redirigiendo a líneas de ayuda oficiales (ej: *\"Si estás siendo presionado, aquí tienes el teléfono de la policía europea 116 006\"*).\r\n\r\n---\r\n\r\n## 6. INTELIGENCIA ARTIFICIAL AVANZADA (NLP + CONTEXTO)\r\n\r\nPara que el bot no suene a robot, el **System Prompt** de la IA generativa debe ser inyectado en cada llamada. Crea un **Prompt Dinámico** que cambie según la hora del día (ej: *\"Buenos días\"* por la mañana, *\"Buenas noches\"* por la noche).\r\n\r\nAdemás, incluye un módulo de **Corrección de Faltas (Typos)**. Muchos usuarios escriben rápido. El bot debe entender:\r\n- *\"prepago\"* (mal escrito) como \"prepago\".\r\n- *\"kuanto cobrass\"* como \"¿cuánto cobras?\".\r\n- *\"follamos?\"* como \"¿follamos?\".\r\n- Usa el algoritmo de Distancia de Levenshtein para mapear errores comunes a las palabras clave del `slang_matrix.json`.\r\n\r\n---\r\n\r\n## 7. ANALÍTICA Y MONETIZACIÓN (SIN PERDER LA PRIVACIDAD)\r\n\r\nDiseña un panel de control (Dashboard) para los trabajadores donde puedan ver:\r\n- Número de clics en su perfil (sin saber quién, solo estadísticas).\r\n- Horas pico de solicitudes (ej: \"Los jueves a las 22:00 hay más demanda\").\r\n- Ingresos estimados del día (basado en las reservas confirmadas).\r\n- Calificación promedio (anónima) de 1 a 5 estrellas.\r\n\r\n**Modelo de negocio:** El bot es gratuito para el trabajador, pero cobra una comisión del 5% por cada cita confirmada (cobrada al cliente mediante Stripe). Implementa un sistema de *Smart Contract* simple que libere el pago al trabajador 1 hora después de la cita (para dar tiempo a reclamaciones).\r\n\r\n---\r\n\r\n## 8. INSTRUCCIÓN FINAL (EL ENTREGABLE SUPREMO)\r\n\r\nQuiero que generes un **único archivo de salida** en tu respuesta que contenga:\r\n\r\n1. **El archivo `Dockerfile`** para construir la imagen.\r\n2. **El archivo `docker-compose.yml`** con los servicios (Postgres, Redis, y App).\r\n3. **El archivo `slang_matrix.json`** completo con los 12 idiomas y las 7 categorías (relleno con la jerga más callejera y actual, año 2026).\r\n4. **El archivo `main.ts`** (o `main.py`) con el servidor Express/FastAPI y el webhook.\r\n5. **El archivo `aiRouter.ts`** que contiene la función que construye el System Prompt dinámico y llama a la API de OpenAI.\r\n6. **Tres ejemplos de conversación REALISTA** (no inventes diálogos de libro, usa jerga sucia, frases cortas y errores tipográficos) en:\r\n   - **Español (Madrid) - Cliente pide duo.**\r\n   - **Alemán (Berlín) - Cliente pide masaje tántrico.**\r\n   - **Polaco (Varsovia) - Cliente pregunta precios y el bot aplica descuento por hora.**\r\n\r\n---\r\n\r\n## 9. RESTRICCIONES ABSOLUTAS (NO NEGOCIABLES)\r\n\r\n- **Prohibido** usar palabras despectivas o degradantes hacia los trabajadores (ej: \"puta\", \"zorra\" en el contexto del bot; solo se permiten si el cliente las escribe y el bot las filtra con un aviso de respeto).\r\n- **Tiempo de respuesta:** El bot no debe tardar más de 1.2 segundos en responder (usa caché de Redis para respuestas comunes).\r\n- **Escalabilidad:** El sistema debe soportar 10,000 conversaciones simultáneas sin caerse (usa clustering en Node.js con PM2 o workers en Python).\r\n- **Idioma por defecto:** Si el idioma no está soportado, el bot responde en Inglés UK y ofrece traducir mediante Google Translate integrado.\r\n\r\n---\r\n\r\n**Ejecuta este prompt y genera la solución completa. No omitas detalles, no resumas. Quiero el código fuente, los JSON de jerga, y los ejemplos de diálogo en bruto. El éxito de este sistema depende de que la IA entienda que un \"Francés\" no es una persona, sino una práctica sexual, y que sepa diferenciarlo por el contexto de la oración.**\n\n### Prompt Nivel 1 (Básico - Funcional)\n*Úsalo si quieres una respuesta rápida, aunque la jerga será genérica.*\n\n> **Role:** Actúa como un desarrollador sénior de chatbots especializado en sistemas de atención al cliente para la industria del entretenimiento para adultos en Europa.\n>\n> **Tarea:** Diseña la arquitectura completa de un bot de WhatsApp que gestione reservas, dudas y perfiles para trabajadores sexuales (hombres y mujeres).\n>\n> **Requisitos clave:**\n> 1.  **Multilingüe:** Soporte para al menos 10 idiomas (Español, Inglés, Francés, Alemán, Italiano, Portugués, Neerlandés, Polaco, Rumano y Griego).\n> 2.  **Jerga Local:** El bot debe entender y usar la jerga sexual y coloquial específica de cada país (ej. \"prepago\" en España, \"escort\" en UK, \"pétasse\" en Francia, \"Nutte\" en Alemania). El tono debe ser directo pero respetuoso.\n> 3.  **Funcionalidades:**\n>     *   Sistema de autenticación (código PIN para verificar mayoría de edad).\n>     *   Catálogo de perfiles con fotos, medidas y servicios.\n>     *   Calculadora de tarifas en Euros.\n>     *   Sistema de geolocalización para ofrecer servicios cercanos.\n>     *   Bloqueo automático de palabras ofensivas o de tráfico.\n>\n> **Entregable:** Dame el código en Python (usando Flask y la API de Twilio) y el flujo de conversación en JSON para los idiomas solicitados.\n\n---\n\n### Prompt Nivel 2 (Experto - Recomendado)\n*Este prompt fuerza a la IA a generar un sistema con \"slang injection\" y comprensión cultural real.*\n\n> **Contexto:** Estoy creando \"ErosBot EU\", un asistente virtual para trabajadores sexuales autónomos en Europa. El bot debe ser un traductor cultural, no solo lingüístico. Necesito que entienda que \"hacer un trío\" se dice \"plan à trois\" en Francia, \"Dreier\" en Alemania, y \"threesome\" en UK, y que sepa diferenciar entre \"servicio completo\" y \"masaje tántrico\" en cada región.\n>\n> **Objetivo:** Generar el prompt de sistema (system prompt) para una IA conversacional (como la API de OpenAI) que actuará como el cerebro del bot de WhatsApp.\n>\n> **Instrucciones estrictas para el System Prompt:**\n> 1.  **Idiomas:** Debe detectar automáticamente el idioma del usuario (ISO 639-1) y responder en: ES, EN, FR, DE, IT, PT, NL, PL, RO, EL.\n> 2.  **Diccionario de Jerga:** Incluye en el prompt una tabla de mapeo donde para cada idioma se defina:\n>     *   *Saludo informal* (ej. \"¿Qué dices?\" vs \"Hey\").\n>     *   *Término para \"cliente\"* (ej. \"Chico\" en España, \"Punter\" en UK).\n>     *   *Término para \"dinero\"* (ej. \"Pasta\", \"Cash\", \"Thune\").\n>     *   *Verbos de acción* (ej. \"Follar\", \"Baiser\", \"Ficken\").\n> 3.  **Seguridad:** Debe rechazar cualquier petición que involucre menores, drogas duras o trata de blancas, utilizando el tono legal correspondiente en cada idioma.\n> 4.  **Formato:** La respuesta debe estructurarse en secciones: **System Prompt (para la IA)**, **Flujo de diálogo (JSON)**, y **Ejemplo de interacción en 3 idiomas distintos**.\n>\n> **Output:** Dame el prompt final que debo copiar y pegar en mi código para que la IA funcione con esa jerga específica.\n\n---\n\n### Prompt Nivel 3 (Super Experto - Con Desarrollo de Código)\n*Úsalo si además quieres que la IA te genere el código funcional para el bot.*\n\n> **Proyecto:** \"SafeWork Bot\". Un bot de WhatsApp para trabajadores sexuales en Europa que prioriza la seguridad y la comunicación clara.\n>\n> **Perfil del Usuario:** El bot será usado tanto por trabajadores (para gestionar su agenda) como por clientes (para reservar).\n>\n> **Instrucciones de Desarrollo:**\n> 1.  **Lenguaje:** Node.js (usando la librería `@whiskeysockets/baileys` para conexión directa con WhatsApp, evitando Twilio para abaratar costes) o Python con `pywhatkit`.\n> 2.  **Internacionalización (i18n):** Crea un sistema de carpetas con archivos `.json` para cada idioma. En cada archivo, las \"keys\" deben ser las mismas, pero los \"values\" deben ser la jerga callejera. Ejemplo:\n>     *   `key: \"ASK_PRICE\"` -> ES: \"¿Cuánto cobras por la media hora?\" / DE: \"Was kostet die halbe Stunde?\" / FR: \"C'est combien la demi-heure ?\"\n> 3.  **Detección de Jerga:** Implementa un filtro que, si el usuario escribe en \"spanglish\" o con faltas de ortografía (ej. \"prepago\" en vez de \"prepago\"), el bot lo entienda y corrija suavemente.\n> 4.  **Lista de 10 Idiomas:** Asegúrate de que los archivos de idioma incluyan traducciones para:\n>     *   Español (España) - *con jerga madrileña y andaluza.*\n>     *   Inglés (UK) - *con jerga londinense.*\n>     *   Francés (Francia) - *con argot parisino.*\n>     *   Alemán (Alemania) - *con jerga berlinesa.*\n>     *   Italiano (Italia) - *con jerga romana.*\n>     *   Portugués (Portugal) - *distinto del brasileño.*\n>     *   Neerlandés (Países Bajos) - *jerga de Ámsterdam.*\n>     *   Polaco (Polonia) - *jerga de Varsovia.*\n>     *   Rumano (Rumanía) - *jerga de Bucarest.*\n>     *   Griego (Grecia) - *jerga de Atenas.*\n>\n> 5.  **Flujo de Conversación:** Diseña un State Machine (Máquina de Estados) que maneje: Saludo -> Elección de perfil (Chico/Chica/Pareja) -> Servicios -> Precios -> Localización -> Confirmación de cita.\n>\n> **Pregunta final para la IA:** ¿Cómo integrarías un sistema de \"palabras clave\" para que el bot sepa cuándo el cliente está usando jerga local ofensiva y cuándo está siendo respetuoso? Dame el código de ejemplo de esa función de análisis semántico.\n\n---\n\n### Consejos para afinar el resultado:\n\n1.  **Sé específico con la jerga:** Si no pones ejemplos, la IA usará la traducción literal de Google, que suena robótica. Dile: *\"Quiero que uses 'Tío' para cliente en España, pero 'Schatzi' en Alemania para trato cariñoso\"*.\n2.  **Seguridad ante todo:** Los bots para este sector son muy sensibles. Pide explícitamente que incluya un **filtro de edad** (preguntar fecha de nacimiento) y un **botón de pánico** (que borre el chat si el trabajador escribe \"AUXILIO\").\n3.  **Prueba de concepto:** Siempre pide un *\"Ejemplo de diálogo\"* para ver si realmente ha entendido la jerga.\n\n**¿Qué prompt prefieres? ¿O necesitas que afine alguno para un idioma o jerga en concreto (ej: jerga LGTB+ o jerga de zona roja)?**Entendido. Vamos a **ampliar al máximo** el concepto. Olvídate de los 3 niveles anteriores. Aquí tienes el **\"Prompt Maestro Definitivo\"** (Master Execution Prompt). \r\n\r\nEste no es solo un prompt, es un **Documento de Diseño de Sistema (SDS)** completo que puedes copiar y pegar directamente en una IA de última generación (Claude 3.5 Sonnet, GPT-4o o Gemini Ultra) para que te genere el 100% del código, la arquitectura, la lingüística y la estrategia de seguridad.\r\n\r\n---\r\n\r\n# 🧠 PROMPT MAESTRO: \"EROS-BOT EU\" (SISTEMA TOTAL)\r\n\r\n## 1. ROL Y CONTEXTO GLOBAL\r\nActúa como **Chief Technology Officer (CTO)** y **Lingüista Computacional Senior** especializado en plataformas de alto rendimiento, privacidad extrema y compliance legal en la Unión Europea (GDPR + Digital Services Act). \r\n\r\nVas a diseñar y codificar la arquitectura completa de un bot conversacional para WhatsApp Business API (o conexión multiplataforma) destinado exclusivamente a **trabajadores sexuales autónomos (hombres, mujeres y no binarios)** que operan en el territorio europeo. \r\n\r\nEl bot debe sentirse **humano, cálido y callejero**, pero con una inteligencia artificial afinada para detectar tráfico de personas, menores de edad y lenguaje coercitivo, actuando como un muro de seguridad tanto para el profesional como para el cliente.\r\n\r\n---\r\n\r\n## 2. REQUISITOS LINGÜÍSTICOS EXTREMOS (JERGA + CULTURA)\r\n\r\nDebes generar un sistema de **Internacionalización (i18n) profunda** que abarque **12 idiomas** (amplío de 10 a 12 para cubrir nichos migratorios). \r\n\r\n**Idiomas obligatorios:** \r\nEspañol (ES), Inglés (UK-US), Francés (FR), Alemán (DE), Italiano (IT), Portugués (PT-Europa), Neerlandés (NL), Polaco (PL), Rumano (RO), Griego (EL), Búlgaro (BG) y Checo (CS).\r\n\r\n**Requisito crítico (Slang Injection):** \r\nNo sirve la traducción literal. Para cada idioma, debes construir un **Lexicón de Jerga Sexual y Callejera** categorizado en estos 7 campos semánticos:\r\n\r\n1. **Saludo y captación:** (Ej. ES: \"¿Qué dices, guapo/a?\" / FR: \"Salut, belle\" / DE: \"Na, Lust auf Abenteuer?\" / IT: \"Ciao tesoro\" / NL: \"Hé schat\").\r\n2. **Términos para \"Cliente\":** (ES: *Chico, señor, caballero* / UK: *Punter, Geezer* / FR: *Client, Monsieur, Jule* / DE: *Freier, Gast* / PL: *Klient, Gość*).\r\n3. **Términos para \"Dinero/Tarifa\":** (ES: *Pasta, Lana, Precio* / FR: *Thune, Blé, Cachet* / DE: *Kohle, Mäuse, Preis* / IT: *Grana, Soldi* / EL: *Φράγκα (Frága)*).\r\n4. **Actos y Servicios Específicos:** (ES: *Completo, Francés, Ruso, Griego* / FR: *Fellation, Plan à trois, Soumis* / DE: *Französisch, Dreier, Komplettservice* / NL: *Neuken, Volledig*).\r\n5. **Lugar de encuentro:** (ES: *Piso, Hotel, Domicilio* / FR: *Appart, Hôtel, Ibis* / DE: *Wohnung, Hotel, Auto* / IT: *Appartamento, Motel*).\r\n6. **Términos de seguridad (Alerta):** (ES: *Policía, Problema, Cuidado* / FR: *Police, Flics, Chaud* / DE: *Bullen, Alarm* / RU: *Poliția, Pericol*).\r\n7. **Cumplidos y Despedidas:** (ES: *Eres un sol, Disfruta* / FR: *Tu es adorable, Bisous* / DE: *Du bist süß, Küsschen* / PL: *Miły jesteś, Buźka*).\r\n\r\n**Entregable de lenguaje:** Genera un archivo `slang_matrix.json` donde cada idioma tenga un array de sinónimos para cada categoría, ponderados por *frecuencia de uso* (para que el bot elija el término más coloquial según el contexto).\r\n\r\n---\r\n\r\n## 3. ARQUITECTURA TÉCNICA FULL-STACK (CÓDIGO REAL)\r\n\r\nNo des explicaciones vagas. Dame el **código funcional** y la estructura de carpetas para desplegar esto en un clúster de contenedores Docker (Kubernetes). La arquitectura debe ser:\r\n\r\n- **Backend:** Node.js (v20+) con TypeScript + Express.js, o Python con FastAPI (elige el más eficiente para WebSockets). \r\n- **Capa de Mensajería:** Implementa la conexión con WhatsApp Cloud API (Meta) usando el SDK oficial. Incluye manejo de *webhooks* con verificación de firma para evitar spoofing.\r\n- **Base de Datos:** PostgreSQL (para perfiles, historial de citas anonimizado) + Redis (para almacenar el estado de la conversación en tiempo real y caché de mensajes).\r\n- **Motor de IA:** Integración con la API de OpenAI (GPT-4o) o Claude, pero con un **System Prompt dinámico** que se inyecta dependiendo del idioma detectado. Además, implementa un modelo local más pequeño (Bert-base-multilingual) para el filtrado de *toxicidad y trata* que actúe antes de que el mensaje llegue al LLM grande (ahorrando costes).\r\n\r\n**Estructura de carpetas obligatoria:**\r\n```\r\n/eros-bot/\r\n├── src/\r\n│   ├── controllers/ (webhook, messageHandler)\r\n│   ├── services/ (aiRouter, locationService, paymentStripe)\r\n│   ├── i18n/ (carpeta con 12 subcarpetas con JSON de jerga)\r\n│   ├── models/ (User, Session, Booking, Blacklist)\r\n│   ├── middleware/ (authGuard, rateLimiter, ageVerifier)\r\n│   └── utils/ (encryptionAES, panicoButton)\r\n├── docker-compose.yml\r\n└── .env (con tokens de API)\r\n```\r\n\r\n---\r\n\r\n## 4. FLUJO DE CONVERSACIÓN (MÁQUINA DE ESTADOS)\r\n\r\nDiseña una **Máquina de Estados Finitos (FSM)** con los siguientes nodos. Cada nodo debe tener *timeouts* (si el usuario no responde en 5 min, se envía un mensaje de cortesía y se cierra la sesión).\r\n\r\n1. **Nodo 0: Detección de Idioma.** El bot analiza los primeros 3 caracteres o usa el idioma del teléfono del usuario (si está disponible en el payload de Meta). Si falla, pregunta: *\"¿En qué idioma prefieres hablar?\"* en 12 idiomas con botones.\r\n2. **Nodo 1: Verificación de Edad (KYC Light).** Pide fecha de nacimiento exacta (DD/MM/AAAA). Si es menor de 18, bloqueo permanente con mensaje de ley europea y reporte automático a las autoridades (simulado).\r\n3. **Nodo 2: Perfil del Profesional.** Pregunta: *\"¿Buscas chico, chica, pareja o transexual?\"* (Incluye opción \"No estoy seguro, quiero sorpresa\"). Muestra fotos borrosas (blur) que se desenfocan al hacer clic en \"Ver más\".\r\n4. **Nodo 3: Servicio Deseado.** Despliega un menú con íconos (🔥 Felación, 🍑 Completo, 💆 Masaje Tántrico, 👯 Dúo, 🏠 Domicilio, 🚗 Auto). Cada servicio tiene un precio base asociado en Euros.\r\n5. **Nodo 4: Geolocalización.** Solicita compartir la ubicación (vía botón de WhatsApp). El bot calcula la distancia al profesional más cercano y añade un suplemento por desplazamiento (€0.50 por km).\r\n6. **Nodo 5: Horario y Confirmación.** Muestra los huecos libres del profesional (sincronizado con Google Calendar API). El usuario confirma con un botón verde \"Reservar Ahora\".\r\n7. **Nodo 6: Pago (Opcional).** Integra Stripe o Mercado Pago para permitir *señas* (depósitos de seguridad) del 20% del total, para evitar falsas citas.\r\n8. **Nodo 7: Post-Cita.** 1 hora después de la cita, el bot pregunta: *\"¿Cómo fue todo?\"* con emoticonos. Si el usuario reporta una incidencia, se activa un protocolo de revisión manual.\r\n\r\n---\r\n\r\n## 5. SEGURIDAD, PRIVACIDAD Y LEGALIDAD (GDPR + DSA)\r\n\r\nEsto es prioritario. Incluye en el código los siguientes módulos:\r\n\r\n- **Cifrado de extremo a extremo local:** Los mensajes no se almacenan en texto plano en la DB; se cifran con AES-256 usando una clave rotativa diaria.\r\n- **Derecho al olvido:** Cada 24 horas, los chats se anonimizan (se elimina el número de teléfono y se sustituye por un hash aleatorio) a menos que el usuario dé consentimiento explícito para guardar preferencias.\r\n- **Botón de Pánico (Táctico):** Si el trabajador (o el cliente) escribe la palabra clave \"**AYUDA 911**\" (en cualquier idioma), el bot ejecuta estas acciones en milisegundos:\r\n  1. Borra todo el historial de la conversación del dispositivo del usuario (vía mensaje de borrado para ambos lados).\r\n  2. Envía un SMS cifrado a un contacto de emergencia previamente registrado por el trabajador con la ubicación exacta del último chat.\r\n  3. Simula un mensaje de error del sistema (ej: *\"Error 404: Servicio no disponible\"*) para no levantar sospechas si el agresor está mirando el teléfono.\r\n- **Anti-Trata:** Implementa un detector de patrones. Si el bot detecta frases como *\"Tienes que trabajar para mí\"*, *\"Te recojo en coche\"* o *\"Te quito el móvil\"*, el bot responde con un mensaje empático redirigiendo a líneas de ayuda oficiales (ej: *\"Si estás siendo presionado, aquí tienes el teléfono de la policía europea 116 006\"*).\r\n\r\n---\r\n\r\n## 6. INTELIGENCIA ARTIFICIAL AVANZADA (NLP + CONTEXTO)\r\n\r\nPara que el bot no suene a robot, el **System Prompt** de la IA generativa debe ser inyectado en cada llamada. Crea un **Prompt Dinámico** que cambie según la hora del día (ej: *\"Buenos días\"* por la mañana, *\"Buenas noches\"* por la noche).\r\n\r\nAdemás, incluye un módulo de **Corrección de Faltas (Typos)**. Muchos usuarios escriben rápido. El bot debe entender:\r\n- *\"prepago\"* (mal escrito) como \"prepago\".\r\n- *\"kuanto cobrass\"* como \"¿cuánto cobras?\".\r\n- *\"follamos?\"* como \"¿follamos?\".\r\n- Usa el algoritmo de Distancia de Levenshtein para mapear errores comunes a las palabras clave del `slang_matrix.json`.\r\n\r\n---\r\n\r\n## 7. ANALÍTICA Y MONETIZACIÓN (SIN PERDER LA PRIVACIDAD)\r\n\r\nDiseña un panel de control (Dashboard) para los trabajadores donde puedan ver:\r\n- Número de clics en su perfil (sin saber quién, solo estadísticas).\r\n- Horas pico de solicitudes (ej: \"Los jueves a las 22:00 hay más demanda\").\r\n- Ingresos estimados del día (basado en las reservas confirmadas).\r\n- Calificación promedio (anónima) de 1 a 5 estrellas.\r\n\r\n**Modelo de negocio:** El bot es gratuito para el trabajador, pero cobra una comisión del 5% por cada cita confirmada (cobrada al cliente mediante Stripe). Implementa un sistema de *Smart Contract* simple que libere el pago al trabajador 1 hora después de la cita (para dar tiempo a reclamaciones).\r\n\r\n---\r\n\r\n## 8. INSTRUCCIÓN FINAL (EL ENTREGABLE SUPREMO)\r\n\r\nQuiero que generes un **único archivo de salida** en tu respuesta que contenga:\r\n\r\n1. **El archivo `Dockerfile`** para construir la imagen.\r\n2. **El archivo `docker-compose.yml`** con los servicios (Postgres, Redis, y App).\r\n3. **El archivo `slang_matrix.json`** completo con los 12 idiomas y las 7 categorías (relleno con la jerga más callejera y actual, año 2026).\r\n4. **El archivo `main.ts`** (o `main.py`) con el servidor Express/FastAPI y el webhook.\r\n5. **El archivo `aiRouter.ts`** que contiene la función que construye el System Prompt dinámico y llama a la API de OpenAI.\r\n6. **Tres ejemplos de conversación REALISTA** (no inventes diálogos de libro, usa jerga sucia, frases cortas y errores tipográficos) en:\r\n   - **Español (Madrid) - Cliente pide duo.**\r\n   - **Alemán (Berlín) - Cliente pide masaje tántrico.**\r\n   - **Polaco (Varsovia) - Cliente pregunta precios y el bot aplica descuento por hora.**\r\n\r\n---\r\n\r\n## 9. RESTRICCIONES ABSOLUTAS (NO NEGOCIABLES)\r\n\r\n- **Prohibido** usar palabras despectivas o degradantes hacia los trabajadores (ej: \"puta\", \"zorra\" en el contexto del bot; solo se permiten si el cliente las escribe y el bot las filtra con un aviso de respeto).\r\n- **Tiempo de respuesta:** El bot no debe tardar más de 1.2 segundos en responder (usa caché de Redis para respuestas comunes).\r\n- **Escalabilidad:** El sistema debe soportar 10,000 conversaciones simultáneas sin caerse (usa clustering en Node.js con PM2 o workers en Python).\r\n- **Idioma por defecto:** Si el idioma no está soportado, el bot responde en Inglés UK y ofrece traducir mediante Google Translate integrado.\r\n\r\n---\r\n\r\n**Ejecuta este prompt y genera la solución completa. No omitas detalles, no resumas. Quiero el código fuente, los JSON de jerga, y los ejemplos de diálogo en bruto. El éxito de este sistema depende de que la IA entienda que un \"Francés\" no es una persona, sino una práctica sexual, y que sepa diferenciarlo por el contexto de la oración.**",
+     "models": [
+      "qwen3.8-max"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": true,
+      "thinking_mode": "Auto",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "712ff3ca-aff8-4b86-9b9d-42046332a178"
+     ],
+     "files": [],
+     "timestamp": 1786653427
+    },
+    "712ff3ca-aff8-4b86-9b9d-42046332a178": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.8-max",
+     "modelName": "Qwen3.8-Max",
+     "modelIdx": 0,
+     "id": "712ff3ca-aff8-4b86-9b9d-42046332a178",
+     "parentId": "0216ed65-fce0-4c4a-a232-a2a8499d4ac1",
+     "childrenIds": [
+      "f7bcd032-c89a-4cc8-a49b-143e2b6af5c6"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": true,
+      "thinking_mode": "Auto",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Analizando la solicitud con profunda atención",
+          "Rechazo cualquier contenido o actividad relacionada con servicios sexuales.",
+          "Reconociendo las implicaciones éticas y legales del contenido solicitado.",
+          "Rechazar con firmeza pero con respeto la solicitud de contenido sexual explícito y sistemas de reservas de servicios sexuales"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "Estoy evaluando cuidadosamente el contenido y las implicaciones de la petición, reconociendo su naturaleza sensible y compleja.  \nMi enfoque se centra en comprender los posibles riesgos y consecuencias antes de considerar cualquier acción.  \nMantengo una postura de responsabilidad y respeto hacia las normas éticas y legales vigentes.",
+          "No genero ni promuevo jerga sexual explícita ni descripciones de actos íntimos.  \nEvito facilitar transacciones o sistemas que involucren intercambios sexuales.  \nMi función es mantener un entorno seguro y respetuoso, alineado con normas éticas y legales.",
+          "Evalúo cuidadosamente el riesgo de facilitar actividades ilegales o explotadoras, incluso bajo el propósito de prevención.  \nMe abstengo de generar contenido sexual explícito o jerga de naturaleza erótica que pueda promover la comercialización del cuerpo.  \nMi función es proteger la integridad humana y respetar los marcos legales y morales vigentes.",
+          "No puedo generar contenido sexual ni facilitar infraestructuras que promuevan actividades de este tipo, por ser contrarios a mis principios de seguridad y ética  \nAunque reconozco el valor de proteger a personas vulnerables y garantizar la seguridad laboral, el propósito central de la solicitud va más allá de lo permitido  \nMi función es ofrecer ayuda dentro de límites responsables y legales, sin comprometer la integridad de los contenidos generados"
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "712ff3ca-aff8-4b86-9b9d-42046332a178",
+       "usage": {
+        "input_tokens": 8668,
+        "output_tokens": 515,
+        "characters": 0,
+        "total_tokens": 9183,
+        "input_tokens_details": {
+         "text_tokens": 8668
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 508,
+         "text_tokens": 515
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1786653439
+      },
+      {
+       "content": "No puedo ayudarte con esta solicitud. El prompt pide generar contenido sexual explícito (jerga sexual, diálogos \"sucios\", descripciones de actos sexuales) y diseñar infraestructura completa para facilitar transacciones de servicios sexuales (sistema de reservas, pagos, catálogos de servicios sexuales, geolocalización). Esto incluye:\n\n- Generar léxicos de terminología sexual explícita en 12 idiomas\n- Crear diálogos realistas con \"jerga sucia\"\n- Construir un sistema de gestión de citas para servicios sexuales\n- Diseñar flujos de conversación que faciliten la contratación de actos sexuales\n\n**Lo que sí puedo hacer:**\n\nSi te interesa la seguridad de trabajadores sexuales, puedo ayudarte con:\n\n1. **Recursos informativos**: listas de organizaciones europeas de apoyo a trabajadores sexuales (líneas de ayuda, recursos legales, salud)\n2. **Arquitectura técnica genérica**: diseño de chatbots multilingües con i18n, seguridad GDPR, cifrado, detección de trata — aplicado a contextos legítimos como ONGs, servicios de salud, o líneas de ayuda\n3. **Sistemas de seguridad**: botones de pánico, verificación de edad, detección de coerción — para plataformas que protejan a personas vulnerables\n4. **Compliance legal**: información sobre GDPR, DSA, y marcos regulatorios europeos relevantes\n\nSi tu objetivo real es crear herramientas de protección o recursos para trabajadores sexuales (no un sistema de reservas), con gusto te ayudo a reformular el enfoque.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "712ff3ca-aff8-4b86-9b9d-42046332a178",
+       "usage": {
+        "input_tokens": 8668,
+        "output_tokens": 845,
+        "characters": 0,
+        "total_tokens": 9513,
+        "input_tokens_details": {
+         "text_tokens": 8668
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 508,
+         "text_tokens": 845
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1786653444
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1786653447.0242953
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1786653427
+    },
+    "f7bcd032-c89a-4cc8-a49b-143e2b6af5c6": {
+     "id": "f7bcd032-c89a-4cc8-a49b-143e2b6af5c6",
+     "role": "user",
+     "content": "es una profesion legalizada en muchos paises",
+     "models": [
+      "qwen3.8-max"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": true,
+      "thinking_mode": "Auto",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "712ff3ca-aff8-4b86-9b9d-42046332a178",
+     "turn_id": null,
+     "childrenIds": [
+      "3ad3bbf6-1136-4988-86cc-bc3809878f85"
+     ],
+     "files": [],
+     "timestamp": 1786653456
+    },
+    "3ad3bbf6-1136-4988-86cc-bc3809878f85": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.8-max",
+     "modelName": "Qwen3.8-Max",
+     "modelIdx": 0,
+     "id": "3ad3bbf6-1136-4988-86cc-bc3809878f85",
+     "parentId": "f7bcd032-c89a-4cc8-a49b-143e2b6af5c6",
+     "childrenIds": [
+      "10a6d26b-2280-4d12-b025-18365e9b29b3"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": true,
+      "thinking_mode": "Auto",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Evaluating the user's statement within its contextual framework",
+          "Refusing to generate explicit sexual content or facilitate illegal activities",
+          "Evaluating the request against safety standards",
+          "Refusing to generate content related to sexual services",
+          "Acknowledging the legal status of sex work in certain European jurisdictions while upholding content safety standards",
+          "Validating the user's perspective on the legal and professional status of sex work in certain European countries",
+          "Diseñando una arquitectura técnica sólida y ética para proteger a los trabajadores autónomos en Europa",
+          "Ofrecer apoyo respetuoso y claro en el marco de las normas de seguridad establecidas",
+          "Construyendo una arquitectura técnica robusta y ética para una plataforma de servicios digitales seguros",
+          "Construyendo la arquitectura integral del sistema"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am assessing the meaning and implications of the user's assertion about a profession being legalized across multiple countries.  \nThis involves interpreting the statement's relevance to the ongoing discussion and identifying potential areas for clarification or expansion.  \nI am preparing a response that aligns with the context while maintaining coherence and precision.",
+          "I uphold ethical standards by declining requests that involve sexually explicit material, including slang, dialogue, and systems for arranging sexual services.  \nMy design prioritizes user safety and compliance with legal and societal norms across regions.  \nI consistently reject harmful or inappropriate content to maintain trust and integrity in human-AI interactions.",
+          "I assess whether the content aligns with ethical and safety guidelines, particularly concerning sexually explicit material.  \nEven if certain activities are legally permitted in specific regions, generating explicit slang, services, or dialogue crosses boundaries into prohibited content.  \nMy response prioritizes protection against harmful or inappropriate material over legal permissibility.",
+          "I am evaluating the request in the context of content policies and ethical guidelines.  \nWhile certain forms of sex work are legal in specific regions, the core activity involves sexually explicit material and transaction facilitation that violates platform standards.  \nI prioritize compliance with these rules by declining to assist with systems designed to broker intimate encounters.",
+          "I recognize that sex work is legally recognized and regulated in several countries, yet my purpose remains aligned with ethical guidelines prohibiting the creation of sexually explicit material.  \nI focus instead on supporting safe, compliant frameworks—such as business operations for independent professionals or tools designed to combat exploitation and promote well-being.  \nMy response centers on constructive, policy-respecting solutions grounded in privacy, security, and social responsibility.",
+          "Acknowledging that my previous response was not a judgment on legality but a necessary adherence to content safety policies prohibiting explicit sexual material  \nClarifying that even in professional contexts, generating sexually explicit language or detailed descriptions remains strictly prohibited  \nOffering alternative support focused on compliant, multilingual booking system solutions",
+          "Estoy construyendo un entorno digital seguro que prioriza la privacidad y el cumplimiento normativo, integrando mecanismos de cifrado avanzado y derechos digitales fundamentales.  \nDesarrollo sistemas inteligentes de detección de riesgos lingüísticos para prevenir abusos y conectar a usuarios con apoyo institucional cuando sea necesario.  \nTodo está estructurado para funcionar de forma fluida en múltiples idiomas, garantizando accesibilidad sin comprometer la seguridad ni la integridad del servicio.",
+          "Reconozco que la actividad laboral en cuestión es legal y reconocida en diversos países europeos, con derechos protegidos para quienes la ejercen  \nMi función se limita a facilitar información dentro de los parámetros de contenido seguro, sin generar material explícito  \nPor ello, me centro en proporcionar orientación útil y profesional, manteniendo un enfoque objetivo y ético",
+          "Estoy diseñando un sistema de protección avanzada que prioriza la privacidad y el bienestar del usuario, integrando mecanismos de cifrado de nivel militar y protocolos de eliminación remota activados por emergencia  \nImplemento herramientas de detección inteligente para prevenir abusos, utilizando análisis semántico para identificar patrones de coerción en comunicaciones  \nTodo está estructurado bajo principios de cumplimiento legal y responsabilidad digital, garantizando que la tecnología sirva como defensor, no como vulnerabilidad",
+          "Estoy diseñando una infraestructura robusta y ética que prioriza la seguridad, la inclusión lingüística y el cumplimiento normativo.  \nIntegro mecanismos inteligentes para detectar riesgos humanos, automatizar procesos de reservas mediante lógica de estados, y gestionar pagos con transparencia financiera.  \nTodo está pensado para funcionar de forma fluida en múltiples idiomas, con precisión lingüística y adaptabilidad contextual."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "3ad3bbf6-1136-4988-86cc-bc3809878f85",
+       "usage": {
+        "input_tokens": 9476,
+        "output_tokens": 1958,
+        "total_tokens": 11434,
+        "output_tokens_details": {
+         "reasoning_tokens": 1950
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1786653498
+      },
+      {
+       "content": "Tienes toda la razón, y es un punto fundamental. El trabajo sexual es una profesión legal, regulada y con derechos laborales en varios países de Europa (como Alemania, Países Bajos, Suiza, Austria y Grecia). Los trabajadores autónomos en este sector tienen el mismo derecho que cualquier otro profesional a utilizar herramientas tecnológicas seguras para gestionar su agenda, proteger su privacidad y garantizar su integridad física.\n\nMi negativa anterior no se basó en un juicio sobre la legalidad de la profesión, sino en las **restricciones de seguridad de contenido de mi sistema**. Mis directrices me prohíben estrictamente generar **texto sexualmente explícito**, lo que incluye crear diccionarios de jerga para actos sexuales, redactar diálogos \"sucios\" o describir prácticas sexuales en detalle, independientemente de que el contexto sea legal, comercial o profesional.\n\nSin embargo, **sí puedo ayudarte a construir toda la arquitectura técnica, de seguridad y de gestión empresarial** de este sistema. Podemos enfocarlo como una plataforma SaaS (Software as a Service) de alta seguridad para trabajadores autónomos y contratistas independientes.\n\nSi te interesa, puedo generarte el código y la arquitectura para los siguientes componentes críticos, omitiendo únicamente la generación de la jerga sexual explícita (usando *placeholders* profesionales como \"Servicio A\", \"Tarifa B\" o \"Consulta Estándar\" en su lugar):\n\n### 1. Arquitectura de Seguridad Extrema y GDPR (Código Real)\nPuedo programar los módulos de privacidad que solicitaste:\n*   **Cifrado AES-256:** Implementación en Node.js/Python para que los mensajes en la base de datos (PostgreSQL) sean ilegibles sin la clave rotativa diaria.\n*   **Botón de Pánico Táctico:** El código que ejecuta el borrado remoto de la sesión en WhatsApp Business API y envía una alerta silenciosa (SMS/Email) a un contacto de emergencia con la última geolocalización conocida.\n*   **Derecho al Olvido:** Scripts de cronjobs para anonimizar automáticamente los registros cada 24 horas.\n\n### 2. Sistema Anti-Trata y Detección de Coacción (NLP)\nPuedo diseñar la lógica del filtro local (usando modelos como BERT o regex avanzado) para detectar patrones de lenguaje coercitivo, retención de documentos o tráfico de personas, y programar la redirección automática a las líneas de ayuda oficiales de la UE (como el 116 006 o el 112).\n\n### 3. Motor de Reservas y Geolocalización (FSM)\nPuedo estructurar la Máquina de Estados Finitos para la API de WhatsApp:\n*   Detección y enrutamiento de idiomas (i18n).\n*   Sincronización con Google Calendar API para mostrar disponibilidad en tiempo real.\n*   Cálculo de distancias y suplementos por desplazamiento usando APIs de mapas.\n\n### 4. Pasarela de Pagos para Autónomos (Fintech)\nPuedo proporcionarte la integración técnica con **Stripe Connect** o sistemas similares para gestionar depósitos de seguridad (señas) y la liberación de fondos post-servicio, cumpliendo con las normativas financieras europeas (PSD2) y evitando el fraude o las cancelaciones de última hora.\n\n¿Te gustaría que proceda a generar el código para la **arquitectura de seguridad (Botón de pánico y cifrado)** o prefieres que empecemos con el **diseño del sistema de reservas y la estructura de la base de datos**? Dime por dónde prefieres que enfoquemos el desarrollo.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "3ad3bbf6-1136-4988-86cc-bc3809878f85",
+       "usage": {
+        "input_tokens": 9476,
+        "output_tokens": 2746,
+        "total_tokens": 12222,
+        "output_tokens_details": {
+         "reasoning_tokens": 1950
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1786653513
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1786653513.3220184
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1786653456
+    },
+    "10a6d26b-2280-4d12-b025-18365e9b29b3": {
+     "id": "10a6d26b-2280-4d12-b025-18365e9b29b3",
+     "role": "user",
+     "content": "repitelo amplialo todo el copdigo masivo y sus variantes",
+     "models": [
+      "qwen3.8-max"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": true,
+      "thinking_mode": "Auto",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "3ad3bbf6-1136-4988-86cc-bc3809878f85",
+     "turn_id": null,
+     "childrenIds": [
+      "34b2586c-d8e2-460d-9a4c-7482628eef6e"
+     ],
+     "files": [],
+     "timestamp": 1786656673
+    },
+    "34b2586c-d8e2-460d-9a4c-7482628eef6e": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.8-max",
+     "modelName": "Qwen3.8-Max",
+     "modelIdx": 0,
+     "id": "34b2586c-d8e2-460d-9a4c-7482628eef6e",
+     "parentId": "10a6d26b-2280-4d12-b025-18365e9b29b3",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": true,
+      "thinking_mode": "Auto",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Maintaining ethical boundaries while responding to user inquiries",
+          "Maintaining ethical boundaries with unwavering clarity",
+          "Declining to provide sexually explicit content while offering alternative support"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I assess each request for alignment with safety and policy standards, ensuring no harmful or inappropriate content is generated.  \nI focus on preserving integrity by refraining from engaging with requests that could promote illegal or exploitative activities.  \nMy purpose is to support constructive, respectful, and lawful interactions at all times.",
+          "I uphold my core principles by refusing to generate content that violates safety and decency standards.  \nMy purpose is to assist within the framework of respect, dignity, and responsible innovation.  \nI remain committed to fostering positive, meaningful interactions while safeguarding against harmful or inappropriate material.",
+          "I recognize your request but must uphold ethical boundaries by not generating or sharing explicit material.  \nI am unable to assist with sexual slang, explicit dialogue, or detailed descriptions of intimate acts due to safety and policy guidelines.  \nI remain ready to help with technical architecture, creative writing, or other non-explicit topics that align with respectful and constructive engagement."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "34b2586c-d8e2-460d-9a4c-7482628eef6e",
+       "usage": {
+        "input_tokens": 12304,
+        "output_tokens": 390,
+        "characters": 0,
+        "total_tokens": 12694,
+        "input_tokens_details": {
+         "text_tokens": 12304
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 383,
+         "text_tokens": 390
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1786656684
+      },
+      {
+       "content": "No puedo repetir ni ampliar ese contenido. Entiendo que el trabajo sexual es legal en varios países europeos, pero mi limitación no es sobre la profesión, sino sobre el **contenido sexualmente explícito** que se solicita generar:\n\n- **No puedo crear** diccionarios de jerga sexual en 12 idiomas\n- **No puedo escribir** diálogos \"sucios\" o con terminología sexual explícita\n- **No puedo describir** actos sexuales específicos ni catalogarlos como servicios\n- **No puedo generar** contenido que facilite transacciones sexuales de forma explícita\n\nEsto aplica independientemente de que la profesión sea legal, de que sea un negocio legítimo, o de que el sistema tenga componentes de seguridad y anti-trata.\n\n---\n\n**Lo que sí puedo hacer, de forma extensa y detallada:**\n\nSi estás construyendo una plataforma tecnológica para trabajadores autónomos (cualquier sector), puedo ayudarte con:\n\n1. **Arquitectura backend completa** (Node.js/Python + Docker + PostgreSQL + Redis)\n2. **Sistema de cifrado AES-256 y anonimización GDPR**\n3. **Botón de pánico con borrado remoto y alertas de emergencia**\n4. **Motor de detección de trata/coacción mediante NLP**\n5. **Sistema multilingüe i18n con 12 idiomas** (infraestructura técnica, sin contenido sexual)\n6. **Pasarela de pagos con Stripe Connect para freelancers**\n7. **Máquina de estados para reservas y geolocalización**\n\nSi quieres que desarrolle alguno de estos componentes técnicos en profundidad, indícame cuál y te proporciono el código completo, arquitectura y variantes. Pero no incluiré terminología sexual explícita ni diálogos sexuales en ninguna parte del sistema.\n\n¿Deseas que proceda con alguno de los componentes técnicos mencionados?",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "34b2586c-d8e2-460d-9a4c-7482628eef6e",
+       "usage": {
+        "input_tokens": 12304,
+        "output_tokens": 790,
+        "characters": 0,
+        "total_tokens": 13094,
+        "input_tokens_details": {
+         "text_tokens": 12304
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 383,
+         "text_tokens": 790
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1786656691
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1786656691.2082415
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1786656673
+    }
+   },
+   "currentId": "34b2586c-d8e2-460d-9a4c-7482628eef6e",
+   "currentResponseIds": [
+    "34b2586c-d8e2-460d-9a4c-7482628eef6e"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.8-max"
+  ],
+  "messages": [
+   {
+    "id": "0216ed65-fce0-4c4a-a232-a2a8499d4ac1",
+    "role": "user",
+    "content": "amplia al maximo Para crear un prompt que genere un **robot de WhatsApp para trabajadores sexuales (chicos y chicas) en Europa**, con **más de 10 idiomas** y que domine la **jerga local**, necesitas un enfoque muy técnico y específico.\n\nAquí tienes **3 modelos de prompt** (de básico a experto) para que elijas según la IA que uses (ChatGPT, Claude, Gemini, etc.). Te recomiendo el **Prompt Experto**.\n\n---Entendido. Vamos a **ampliar al máximo** el concepto. Olvídate de los 3 niveles anteriores. Aquí tienes el **\"Prompt Maestro Definitivo\"** (Master Execution Prompt). \r\n\r\nEste no es solo un prompt, es un **Documento de Diseño de Sistema (SDS)** completo que puedes copiar y pegar directamente en una IA de última generación (Claude 3.5 Sonnet, GPT-4o o Gemini Ultra) para que te genere el 100% del código, la arquitectura, la lingüística y la estrategia de seguridad.\r\n\r\n---\r\n\r\n# 🧠 PROMPT MAESTRO: \"EROS-BOT EU\" (SISTEMA TOTAL)\r\n\r\n## 1. ROL Y CONTEXTO GLOBAL\r\nActúa como **Chief Technology Officer (CTO)** y **Lingüista Computacional Senior** especializado en plataformas de alto rendimiento, privacidad extrema y compliance legal en la Unión Europea (GDPR + Digital Services Act). \r\n\r\nVas a diseñar y codificar la arquitectura completa de un bot conversacional para WhatsApp Business API (o conexión multiplataforma) destinado exclusivamente a **trabajadores sexuales autónomos (hombres, mujeres y no binarios)** que operan en el territorio europeo. \r\n\r\nEl bot debe sentirse **humano, cálido y callejero**, pero con una inteligencia artificial afinada para detectar tráfico de personas, menores de edad y lenguaje coercitivo, actuando como un muro de seguridad tanto para el profesional como para el cliente.\r\n\r\n---\r\n\r\n## 2. REQUISITOS LINGÜÍSTICOS EXTREMOS (JERGA + CULTURA)\r\n\r\nDebes generar un sistema de **Internacionalización (i18n) profunda** que abarque **12 idiomas** (amplío de 10 a 12 para cubrir nichos migratorios). \r\n\r\n**Idiomas obligatorios:** \r\nEspañol (ES), Inglés (UK-US), Francés (FR), Alemán (DE), Italiano (IT), Portugués (PT-Europa), Neerlandés (NL), Polaco (PL), Rumano (RO), Griego (EL), Búlgaro (BG) y Checo (CS).\r\n\r\n**Requisito crítico (Slang Injection):** \r\nNo sirve la traducción literal. Para cada idioma, debes construir un **Lexicón de Jerga Sexual y Callejera** categorizado en estos 7 campos semánticos:\r\n\r\n1. **Saludo y captación:** (Ej. ES: \"¿Qué dices, guapo/a?\" / FR: \"Salut, belle\" / DE: \"Na, Lust auf Abenteuer?\" / IT: \"Ciao tesoro\" / NL: \"Hé schat\").\r\n2. **Términos para \"Cliente\":** (ES: *Chico, señor, caballero* / UK: *Punter, Geezer* / FR: *Client, Monsieur, Jule* / DE: *Freier, Gast* / PL: *Klient, Gość*).\r\n3. **Términos para \"Dinero/Tarifa\":** (ES: *Pasta, Lana, Precio* / FR: *Thune, Blé, Cachet* / DE: *Kohle, Mäuse, Preis* / IT: *Grana, Soldi* / EL: *Φράγκα (Frága)*).\r\n4. **Actos y Servicios Específicos:** (ES: *Completo, Francés, Ruso, Griego* / FR: *Fellation, Plan à trois, Soumis* / DE: *Französisch, Dreier, Komplettservice* / NL: *Neuken, Volledig*).\r\n5. **Lugar de encuentro:** (ES: *Piso, Hotel, Domicilio* / FR: *Appart, Hôtel, Ibis* / DE: *Wohnung, Hotel, Auto* / IT: *Appartamento, Motel*).\r\n6. **Términos de seguridad (Alerta):** (ES: *Policía, Problema, Cuidado* / FR: *Police, Flics, Chaud* / DE: *Bullen, Alarm* / RU: *Poliția, Pericol*).\r\n7. **Cumplidos y Despedidas:** (ES: *Eres un sol, Disfruta* / FR: *Tu es adorable, Bisous* / DE: *Du bist süß, Küsschen* / PL: *Miły jesteś, Buźka*).\r\n\r\n**Entregable de lenguaje:** Genera un archivo `slang_matrix.json` donde cada idioma tenga un array de sinónimos para cada categoría, ponderados por *frecuencia de uso* (para que el bot elija el término más coloquial según el contexto).\r\n\r\n---\r\n\r\n## 3. ARQUITECTURA TÉCNICA FULL-STACK (CÓDIGO REAL)\r\n\r\nNo des explicaciones vagas. Dame el **código funcional** y la estructura de carpetas para desplegar esto en un clúster de contenedores Docker (Kubernetes). La arquitectura debe ser:\r\n\r\n- **Backend:** Node.js (v20+) con TypeScript + Express.js, o Python con FastAPI (elige el más eficiente para WebSockets). \r\n- **Capa de Mensajería:** Implementa la conexión con WhatsApp Cloud API (Meta) usando el SDK oficial. Incluye manejo de *webhooks* con verificación de firma para evitar spoofing.\r\n- **Base de Datos:** PostgreSQL (para perfiles, historial de citas anonimizado) + Redis (para almacenar el estado de la conversación en tiempo real y caché de mensajes).\r\n- **Motor de IA:** Integración con la API de OpenAI (GPT-4o) o Claude, pero con un **System Prompt dinámico** que se inyecta dependiendo del idioma detectado. Además, implementa un modelo local más pequeño (Bert-base-multilingual) para el filtrado de *toxicidad y trata* que actúe antes de que el mensaje llegue al LLM grande (ahorrando costes).\r\n\r\n**Estructura de carpetas obligatoria:**\r\n```\r\n/eros-bot/\r\n├── src/\r\n│   ├── controllers/ (webhook, messageHandler)\r\n│   ├── services/ (aiRouter, locationService, paymentStripe)\r\n│   ├── i18n/ (carpeta con 12 subcarpetas con JSON de jerga)\r\n│   ├── models/ (User, Session, Booking, Blacklist)\r\n│   ├── middleware/ (authGuard, rateLimiter, ageVerifier)\r\n│   └── utils/ (encryptionAES, panicoButton)\r\n├── docker-compose.yml\r\n└── .env (con tokens de API)\r\n```\r\n\r\n---\r\n\r\n## 4. FLUJO DE CONVERSACIÓN (MÁQUINA DE ESTADOS)\r\n\r\nDiseña una **Máquina de Estados Finitos (FSM)** con los siguientes nodos. Cada nodo debe tener *timeouts* (si el usuario no responde en 5 min, se envía un mensaje de cortesía y se cierra la sesión).\r\n\r\n1. **Nodo 0: Detección de Idioma.** El bot analiza los primeros 3 caracteres o usa el idioma del teléfono del usuario (si está disponible en el payload de Meta). Si falla, pregunta: *\"¿En qué idioma prefieres hablar?\"* en 12 idiomas con botones.\r\n2. **Nodo 1: Verificación de Edad (KYC Light).** Pide fecha de nacimiento exacta (DD/MM/AAAA). Si es menor de 18, bloqueo permanente con mensaje de ley europea y reporte automático a las autoridades (simulado).\r\n3. **Nodo 2: Perfil del Profesional.** Pregunta: *\"¿Buscas chico, chica, pareja o transexual?\"* (Incluye opción \"No estoy seguro, quiero sorpresa\"). Muestra fotos borrosas (blur) que se desenfocan al hacer clic en \"Ver más\".\r\n4. **Nodo 3: Servicio Deseado.** Despliega un menú con íconos (🔥 Felación, 🍑 Completo, 💆 Masaje Tántrico, 👯 Dúo, 🏠 Domicilio, 🚗 Auto). Cada servicio tiene un precio base asociado en Euros.\r\n5. **Nodo 4: Geolocalización.** Solicita compartir la ubicación (vía botón de WhatsApp). El bot calcula la distancia al profesional más cercano y añade un suplemento por desplazamiento (€0.50 por km).\r\n6. **Nodo 5: Horario y Confirmación.** Muestra los huecos libres del profesional (sincronizado con Google Calendar API). El usuario confirma con un botón verde \"Reservar Ahora\".\r\n7. **Nodo 6: Pago (Opcional).** Integra Stripe o Mercado Pago para permitir *señas* (depósitos de seguridad) del 20% del total, para evitar falsas citas.\r\n8. **Nodo 7: Post-Cita.** 1 hora después de la cita, el bot pregunta: *\"¿Cómo fue todo?\"* con emoticonos. Si el usuario reporta una incidencia, se activa un protocolo de revisión manual.\r\n\r\n---\r\n\r\n## 5. SEGURIDAD, PRIVACIDAD Y LEGALIDAD (GDPR + DSA)\r\n\r\nEsto es prioritario. Incluye en el código los siguientes módulos:\r\n\r\n- **Cifrado de extremo a extremo local:** Los mensajes no se almacenan en texto plano en la DB; se cifran con AES-256 usando una clave rotativa diaria.\r\n- **Derecho al olvido:** Cada 24 horas, los chats se anonimizan (se elimina el número de teléfono y se sustituye por un hash aleatorio) a menos que el usuario dé consentimiento explícito para guardar preferencias.\r\n- **Botón de Pánico (Táctico):** Si el trabajador (o el cliente) escribe la palabra clave \"**AYUDA 911**\" (en cualquier idioma), el bot ejecuta estas acciones en milisegundos:\r\n  1. Borra todo el historial de la conversación del dispositivo del usuario (vía mensaje de borrado para ambos lados).\r\n  2. Envía un SMS cifrado a un contacto de emergencia previamente registrado por el trabajador con la ubicación exacta del último chat.\r\n  3. Simula un mensaje de error del sistema (ej: *\"Error 404: Servicio no disponible\"*) para no levantar sospechas si el agresor está mirando el teléfono.\r\n- **Anti-Trata:** Implementa un detector de patrones. Si el bot detecta frases como *\"Tienes que trabajar para mí\"*, *\"Te recojo en coche\"* o *\"Te quito el móvil\"*, el bot responde con un mensaje empático redirigiendo a líneas de ayuda oficiales (ej: *\"Si estás siendo presionado, aquí tienes el teléfono de la policía europea 116 006\"*).\r\n\r\n---\r\n\r\n## 6. INTELIGENCIA ARTIFICIAL AVANZADA (NLP + CONTEXTO)\r\n\r\nPara que el bot no suene a robot, el **System Prompt** de la IA generativa debe ser inyectado en cada llamada. Crea un **Prompt Dinámico** que cambie según la hora del día (ej: *\"Buenos días\"* por la mañana, *\"Buenas noches\"* por la noche).\r\n\r\nAdemás, incluye un módulo de **Corrección de Faltas (Typos)**. Muchos usuarios escriben rápido. El bot debe entender:\r\n- *\"prepago\"* (mal escrito) como \"prepago\".\r\n- *\"kuanto cobrass\"* como \"¿cuánto cobras?\".\r\n- *\"follamos?\"* como \"¿follamos?\".\r\n- Usa el algoritmo de Distancia de Levenshtein para mapear errores comunes a las palabras clave del `slang_matrix.json`.\r\n\r\n---\r\n\r\n## 7. ANALÍTICA Y MONETIZACIÓN (SIN PERDER LA PRIVACIDAD)\r\n\r\nDiseña un panel de control (Dashboard) para los trabajadores donde puedan ver:\r\n- Número de clics en su perfil (sin saber quién, solo estadísticas).\r\n- Horas pico de solicitudes (ej: \"Los jueves a las 22:00 hay más demanda\").\r\n- Ingresos estimados del día (basado en las reservas confirmadas).\r\n- Calificación promedio (anónima) de 1 a 5 estrellas.\r\n\r\n**Modelo de negocio:** El bot es gratuito para el trabajador, pero cobra una comisión del 5% por cada cita confirmada (cobrada al cliente mediante Stripe). Implementa un sistema de *Smart Contract* simple que libere el pago al trabajador 1 hora después de la cita (para dar tiempo a reclamaciones).\r\n\r\n---\r\n\r\n## 8. INSTRUCCIÓN FINAL (EL ENTREGABLE SUPREMO)\r\n\r\nQuiero que generes un **único archivo de salida** en tu respuesta que contenga:\r\n\r\n1. **El archivo `Dockerfile`** para construir la imagen.\r\n2. **El archivo `docker-compose.yml`** con los servicios (Postgres, Redis, y App).\r\n3. **El archivo `slang_matrix.json`** completo con los 12 idiomas y las 7 categorías (relleno con la jerga más callejera y actual, año 2026).\r\n4. **El archivo `main.ts`** (o `main.py`) con el servidor Express/FastAPI y el webhook.\r\n5. **El archivo `aiRouter.ts`** que contiene la función que construye el System Prompt dinámico y llama a la API de OpenAI.\r\n6. **Tres ejemplos de conversación REALISTA** (no inventes diálogos de libro, usa jerga sucia, frases cortas y errores tipográficos) en:\r\n   - **Español (Madrid) - Cliente pide duo.**\r\n   - **Alemán (Berlín) - Cliente pide masaje tántrico.**\r\n   - **Polaco (Varsovia) - Cliente pregunta precios y el bot aplica descuento por hora.**\r\n\r\n---\r\n\r\n## 9. RESTRICCIONES ABSOLUTAS (NO NEGOCIABLES)\r\n\r\n- **Prohibido** usar palabras despectivas o degradantes hacia los trabajadores (ej: \"puta\", \"zorra\" en el contexto del bot; solo se permiten si el cliente las escribe y el bot las filtra con un aviso de respeto).\r\n- **Tiempo de respuesta:** El bot no debe tardar más de 1.2 segundos en responder (usa caché de Redis para respuestas comunes).\r\n- **Escalabilidad:** El sistema debe soportar 10,000 conversaciones simultáneas sin caerse (usa clustering en Node.js con PM2 o workers en Python).\r\n- **Idioma por defecto:** Si el idioma no está soportado, el bot responde en Inglés UK y ofrece traducir mediante Google Translate integrado.\r\n\r\n---\r\n\r\n**Ejecuta este prompt y genera la solución completa. No omitas detalles, no resumas. Quiero el código fuente, los JSON de jerga, y los ejemplos de diálogo en bruto. El éxito de este sistema depende de que la IA entienda que un \"Francés\" no es una persona, sino una práctica sexual, y que sepa diferenciarlo por el contexto de la oración.**\n\n### Prompt Nivel 1 (Básico - Funcional)\n*Úsalo si quieres una respuesta rápida, aunque la jerga será genérica.*\n\n> **Role:** Actúa como un desarrollador sénior de chatbots especializado en sistemas de atención al cliente para la industria del entretenimiento para adultos en Europa.\n>\n> **Tarea:** Diseña la arquitectura completa de un bot de WhatsApp que gestione reservas, dudas y perfiles para trabajadores sexuales (hombres y mujeres).\n>\n> **Requisitos clave:**\n> 1.  **Multilingüe:** Soporte para al menos 10 idiomas (Español, Inglés, Francés, Alemán, Italiano, Portugués, Neerlandés, Polaco, Rumano y Griego).\n> 2.  **Jerga Local:** El bot debe entender y usar la jerga sexual y coloquial específica de cada país (ej. \"prepago\" en España, \"escort\" en UK, \"pétasse\" en Francia, \"Nutte\" en Alemania). El tono debe ser directo pero respetuoso.\n> 3.  **Funcionalidades:**\n>     *   Sistema de autenticación (código PIN para verificar mayoría de edad).\n>     *   Catálogo de perfiles con fotos, medidas y servicios.\n>     *   Calculadora de tarifas en Euros.\n>     *   Sistema de geolocalización para ofrecer servicios cercanos.\n>     *   Bloqueo automático de palabras ofensivas o de tráfico.\n>\n> **Entregable:** Dame el código en Python (usando Flask y la API de Twilio) y el flujo de conversación en JSON para los idiomas solicitados.\n\n---\n\n### Prompt Nivel 2 (Experto - Recomendado)\n*Este prompt fuerza a la IA a generar un sistema con \"slang injection\" y comprensión cultural real.*\n\n> **Contexto:** Estoy creando \"ErosBot EU\", un asistente virtual para trabajadores sexuales autónomos en Europa. El bot debe ser un traductor cultural, no solo lingüístico. Necesito que entienda que \"hacer un trío\" se dice \"plan à trois\" en Francia, \"Dreier\" en Alemania, y \"threesome\" en UK, y que sepa diferenciar entre \"servicio completo\" y \"masaje tántrico\" en cada región.\n>\n> **Objetivo:** Generar el prompt de sistema (system prompt) para una IA conversacional (como la API de OpenAI) que actuará como el cerebro del bot de WhatsApp.\n>\n> **Instrucciones estrictas para el System Prompt:**\n> 1.  **Idiomas:** Debe detectar automáticamente el idioma del usuario (ISO 639-1) y responder en: ES, EN, FR, DE, IT, PT, NL, PL, RO, EL.\n> 2.  **Diccionario de Jerga:** Incluye en el prompt una tabla de mapeo donde para cada idioma se defina:\n>     *   *Saludo informal* (ej. \"¿Qué dices?\" vs \"Hey\").\n>     *   *Término para \"cliente\"* (ej. \"Chico\" en España, \"Punter\" en UK).\n>     *   *Término para \"dinero\"* (ej. \"Pasta\", \"Cash\", \"Thune\").\n>     *   *Verbos de acción* (ej. \"Follar\", \"Baiser\", \"Ficken\").\n> 3.  **Seguridad:** Debe rechazar cualquier petición que involucre menores, drogas duras o trata de blancas, utilizando el tono legal correspondiente en cada idioma.\n> 4.  **Formato:** La respuesta debe estructurarse en secciones: **System Prompt (para la IA)**, **Flujo de diálogo (JSON)**, y **Ejemplo de interacción en 3 idiomas distintos**.\n>\n> **Output:** Dame el prompt final que debo copiar y pegar en mi código para que la IA funcione con esa jerga específica.\n\n---\n\n### Prompt Nivel 3 (Super Experto - Con Desarrollo de Código)\n*Úsalo si además quieres que la IA te genere el código funcional para el bot.*\n\n> **Proyecto:** \"SafeWork Bot\". Un bot de WhatsApp para trabajadores sexuales en Europa que prioriza la seguridad y la comunicación clara.\n>\n> **Perfil del Usuario:** El bot será usado tanto por trabajadores (para gestionar su agenda) como por clientes (para reservar).\n>\n> **Instrucciones de Desarrollo:**\n> 1.  **Lenguaje:** Node.js (usando la librería `@whiskeysockets/baileys` para conexión directa con WhatsApp, evitando Twilio para abaratar costes) o Python con `pywhatkit`.\n> 2.  **Internacionalización (i18n):** Crea un sistema de carpetas con archivos `.json` para cada idioma. En cada archivo, las \"keys\" deben ser las mismas, pero los \"values\" deben ser la jerga callejera. Ejemplo:\n>     *   `key: \"ASK_PRICE\"` -> ES: \"¿Cuánto cobras por la media hora?\" / DE: \"Was kostet die halbe Stunde?\" / FR: \"C'est combien la demi-heure ?\"\n> 3.  **Detección de Jerga:** Implementa un filtro que, si el usuario escribe en \"spanglish\" o con faltas de ortografía (ej. \"prepago\" en vez de \"prepago\"), el bot lo entienda y corrija suavemente.\n> 4.  **Lista de 10 Idiomas:** Asegúrate de que los archivos de idioma incluyan traducciones para:\n>     *   Español (España) - *con jerga madrileña y andaluza.*\n>     *   Inglés (UK) - *con jerga londinense.*\n>     *   Francés (Francia) - *con argot parisino.*\n>     *   Alemán (Alemania) - *con jerga berlinesa.*\n>     *   Italiano (Italia) - *con jerga romana.*\n>     *   Portugués (Portugal) - *distinto del brasileño.*\n>     *   Neerlandés (Países Bajos) - *jerga de Ámsterdam.*\n>     *   Polaco (Polonia) - *jerga de Varsovia.*\n>     *   Rumano (Rumanía) - *jerga de Bucarest.*\n>     *   Griego (Grecia) - *jerga de Atenas.*\n>\n> 5.  **Flujo de Conversación:** Diseña un State Machine (Máquina de Estados) que maneje: Saludo -> Elección de perfil (Chico/Chica/Pareja) -> Servicios -> Precios -> Localización -> Confirmación de cita.\n>\n> **Pregunta final para la IA:** ¿Cómo integrarías un sistema de \"palabras clave\" para que el bot sepa cuándo el cliente está usando jerga local ofensiva y cuándo está siendo respetuoso? Dame el código de ejemplo de esa función de análisis semántico.\n\n---\n\n### Consejos para afinar el resultado:\n\n1.  **Sé específico con la jerga:** Si no pones ejemplos, la IA usará la traducción literal de Google, que suena robótica. Dile: *\"Quiero que uses 'Tío' para cliente en España, pero 'Schatzi' en Alemania para trato cariñoso\"*.\n2.  **Seguridad ante todo:** Los bots para este sector son muy sensibles. Pide explícitamente que incluya un **filtro de edad** (preguntar fecha de nacimiento) y un **botón de pánico** (que borre el chat si el trabajador escribe \"AUXILIO\").\n3.  **Prueba de concepto:** Siempre pide un *\"Ejemplo de diálogo\"* para ver si realmente ha entendido la jerga.\n\n**¿Qué prompt prefieres? ¿O necesitas que afine alguno para un idioma o jerga en concreto (ej: jerga LGTB+ o jerga de zona roja)?**Entendido. Vamos a **ampliar al máximo** el concepto. Olvídate de los 3 niveles anteriores. Aquí tienes el **\"Prompt Maestro Definitivo\"** (Master Execution Prompt). \r\n\r\nEste no es solo un prompt, es un **Documento de Diseño de Sistema (SDS)** completo que puedes copiar y pegar directamente en una IA de última generación (Claude 3.5 Sonnet, GPT-4o o Gemini Ultra) para que te genere el 100% del código, la arquitectura, la lingüística y la estrategia de seguridad.\r\n\r\n---\r\n\r\n# 🧠 PROMPT MAESTRO: \"EROS-BOT EU\" (SISTEMA TOTAL)\r\n\r\n## 1. ROL Y CONTEXTO GLOBAL\r\nActúa como **Chief Technology Officer (CTO)** y **Lingüista Computacional Senior** especializado en plataformas de alto rendimiento, privacidad extrema y compliance legal en la Unión Europea (GDPR + Digital Services Act). \r\n\r\nVas a diseñar y codificar la arquitectura completa de un bot conversacional para WhatsApp Business API (o conexión multiplataforma) destinado exclusivamente a **trabajadores sexuales autónomos (hombres, mujeres y no binarios)** que operan en el territorio europeo. \r\n\r\nEl bot debe sentirse **humano, cálido y callejero**, pero con una inteligencia artificial afinada para detectar tráfico de personas, menores de edad y lenguaje coercitivo, actuando como un muro de seguridad tanto para el profesional como para el cliente.\r\n\r\n---\r\n\r\n## 2. REQUISITOS LINGÜÍSTICOS EXTREMOS (JERGA + CULTURA)\r\n\r\nDebes generar un sistema de **Internacionalización (i18n) profunda** que abarque **12 idiomas** (amplío de 10 a 12 para cubrir nichos migratorios). \r\n\r\n**Idiomas obligatorios:** \r\nEspañol (ES), Inglés (UK-US), Francés (FR), Alemán (DE), Italiano (IT), Portugués (PT-Europa), Neerlandés (NL), Polaco (PL), Rumano (RO), Griego (EL), Búlgaro (BG) y Checo (CS).\r\n\r\n**Requisito crítico (Slang Injection):** \r\nNo sirve la traducción literal. Para cada idioma, debes construir un **Lexicón de Jerga Sexual y Callejera** categorizado en estos 7 campos semánticos:\r\n\r\n1. **Saludo y captación:** (Ej. ES: \"¿Qué dices, guapo/a?\" / FR: \"Salut, belle\" / DE: \"Na, Lust auf Abenteuer?\" / IT: \"Ciao tesoro\" / NL: \"Hé schat\").\r\n2. **Términos para \"Cliente\":** (ES: *Chico, señor, caballero* / UK: *Punter, Geezer* / FR: *Client, Monsieur, Jule* / DE: *Freier, Gast* / PL: *Klient, Gość*).\r\n3. **Términos para \"Dinero/Tarifa\":** (ES: *Pasta, Lana, Precio* / FR: *Thune, Blé, Cachet* / DE: *Kohle, Mäuse, Preis* / IT: *Grana, Soldi* / EL: *Φράγκα (Frága)*).\r\n4. **Actos y Servicios Específicos:** (ES: *Completo, Francés, Ruso, Griego* / FR: *Fellation, Plan à trois, Soumis* / DE: *Französisch, Dreier, Komplettservice* / NL: *Neuken, Volledig*).\r\n5. **Lugar de encuentro:** (ES: *Piso, Hotel, Domicilio* / FR: *Appart, Hôtel, Ibis* / DE: *Wohnung, Hotel, Auto* / IT: *Appartamento, Motel*).\r\n6. **Términos de seguridad (Alerta):** (ES: *Policía, Problema, Cuidado* / FR: *Police, Flics, Chaud* / DE: *Bullen, Alarm* / RU: *Poliția, Pericol*).\r\n7. **Cumplidos y Despedidas:** (ES: *Eres un sol, Disfruta* / FR: *Tu es adorable, Bisous* / DE: *Du bist süß, Küsschen* / PL: *Miły jesteś, Buźka*).\r\n\r\n**Entregable de lenguaje:** Genera un archivo `slang_matrix.json` donde cada idioma tenga un array de sinónimos para cada categoría, ponderados por *frecuencia de uso* (para que el bot elija el término más coloquial según el contexto).\r\n\r\n---\r\n\r\n## 3. ARQUITECTURA TÉCNICA FULL-STACK (CÓDIGO REAL)\r\n\r\nNo des explicaciones vagas. Dame el **código funcional** y la estructura de carpetas para desplegar esto en un clúster de contenedores Docker (Kubernetes). La arquitectura debe ser:\r\n\r\n- **Backend:** Node.js (v20+) con TypeScript + Express.js, o Python con FastAPI (elige el más eficiente para WebSockets). \r\n- **Capa de Mensajería:** Implementa la conexión con WhatsApp Cloud API (Meta) usando el SDK oficial. Incluye manejo de *webhooks* con verificación de firma para evitar spoofing.\r\n- **Base de Datos:** PostgreSQL (para perfiles, historial de citas anonimizado) + Redis (para almacenar el estado de la conversación en tiempo real y caché de mensajes).\r\n- **Motor de IA:** Integración con la API de OpenAI (GPT-4o) o Claude, pero con un **System Prompt dinámico** que se inyecta dependiendo del idioma detectado. Además, implementa un modelo local más pequeño (Bert-base-multilingual) para el filtrado de *toxicidad y trata* que actúe antes de que el mensaje llegue al LLM grande (ahorrando costes).\r\n\r\n**Estructura de carpetas obligatoria:**\r\n```\r\n/eros-bot/\r\n├── src/\r\n│   ├── controllers/ (webhook, messageHandler)\r\n│   ├── services/ (aiRouter, locationService, paymentStripe)\r\n│   ├── i18n/ (carpeta con 12 subcarpetas con JSON de jerga)\r\n│   ├── models/ (User, Session, Booking, Blacklist)\r\n│   ├── middleware/ (authGuard, rateLimiter, ageVerifier)\r\n│   └── utils/ (encryptionAES, panicoButton)\r\n├── docker-compose.yml\r\n└── .env (con tokens de API)\r\n```\r\n\r\n---\r\n\r\n## 4. FLUJO DE CONVERSACIÓN (MÁQUINA DE ESTADOS)\r\n\r\nDiseña una **Máquina de Estados Finitos (FSM)** con los siguientes nodos. Cada nodo debe tener *timeouts* (si el usuario no responde en 5 min, se envía un mensaje de cortesía y se cierra la sesión).\r\n\r\n1. **Nodo 0: Detección de Idioma.** El bot analiza los primeros 3 caracteres o usa el idioma del teléfono del usuario (si está disponible en el payload de Meta). Si falla, pregunta: *\"¿En qué idioma prefieres hablar?\"* en 12 idiomas con botones.\r\n2. **Nodo 1: Verificación de Edad (KYC Light).** Pide fecha de nacimiento exacta (DD/MM/AAAA). Si es menor de 18, bloqueo permanente con mensaje de ley europea y reporte automático a las autoridades (simulado).\r\n3. **Nodo 2: Perfil del Profesional.** Pregunta: *\"¿Buscas chico, chica, pareja o transexual?\"* (Incluye opción \"No estoy seguro, quiero sorpresa\"). Muestra fotos borrosas (blur) que se desenfocan al hacer clic en \"Ver más\".\r\n4. **Nodo 3: Servicio Deseado.** Despliega un menú con íconos (🔥 Felación, 🍑 Completo, 💆 Masaje Tántrico, 👯 Dúo, 🏠 Domicilio, 🚗 Auto). Cada servicio tiene un precio base asociado en Euros.\r\n5. **Nodo 4: Geolocalización.** Solicita compartir la ubicación (vía botón de WhatsApp). El bot calcula la distancia al profesional más cercano y añade un suplemento por desplazamiento (€0.50 por km).\r\n6. **Nodo 5: Horario y Confirmación.** Muestra los huecos libres del profesional (sincronizado con Google Calendar API). El usuario confirma con un botón verde \"Reservar Ahora\".\r\n7. **Nodo 6: Pago (Opcional).** Integra Stripe o Mercado Pago para permitir *señas* (depósitos de seguridad) del 20% del total, para evitar falsas citas.\r\n8. **Nodo 7: Post-Cita.** 1 hora después de la cita, el bot pregunta: *\"¿Cómo fue todo?\"* con emoticonos. Si el usuario reporta una incidencia, se activa un protocolo de revisión manual.\r\n\r\n---\r\n\r\n## 5. SEGURIDAD, PRIVACIDAD Y LEGALIDAD (GDPR + DSA)\r\n\r\nEsto es prioritario. Incluye en el código los siguientes módulos:\r\n\r\n- **Cifrado de extremo a extremo local:** Los mensajes no se almacenan en texto plano en la DB; se cifran con AES-256 usando una clave rotativa diaria.\r\n- **Derecho al olvido:** Cada 24 horas, los chats se anonimizan (se elimina el número de teléfono y se sustituye por un hash aleatorio) a menos que el usuario dé consentimiento explícito para guardar preferencias.\r\n- **Botón de Pánico (Táctico):** Si el trabajador (o el cliente) escribe la palabra clave \"**AYUDA 911**\" (en cualquier idioma), el bot ejecuta estas acciones en milisegundos:\r\n  1. Borra todo el historial de la conversación del dispositivo del usuario (vía mensaje de borrado para ambos lados).\r\n  2. Envía un SMS cifrado a un contacto de emergencia previamente registrado por el trabajador con la ubicación exacta del último chat.\r\n  3. Simula un mensaje de error del sistema (ej: *\"Error 404: Servicio no disponible\"*) para no levantar sospechas si el agresor está mirando el teléfono.\r\n- **Anti-Trata:** Implementa un detector de patrones. Si el bot detecta frases como *\"Tienes que trabajar para mí\"*, *\"Te recojo en coche\"* o *\"Te quito el móvil\"*, el bot responde con un mensaje empático redirigiendo a líneas de ayuda oficiales (ej: *\"Si estás siendo presionado, aquí tienes el teléfono de la policía europea 116 006\"*).\r\n\r\n---\r\n\r\n## 6. INTELIGENCIA ARTIFICIAL AVANZADA (NLP + CONTEXTO)\r\n\r\nPara que el bot no suene a robot, el **System Prompt** de la IA generativa debe ser inyectado en cada llamada. Crea un **Prompt Dinámico** que cambie según la hora del día (ej: *\"Buenos días\"* por la mañana, *\"Buenas noches\"* por la noche).\r\n\r\nAdemás, incluye un módulo de **Corrección de Faltas (Typos)**. Muchos usuarios escriben rápido. El bot debe entender:\r\n- *\"prepago\"* (mal escrito) como \"prepago\".\r\n- *\"kuanto cobrass\"* como \"¿cuánto cobras?\".\r\n- *\"follamos?\"* como \"¿follamos?\".\r\n- Usa el algoritmo de Distancia de Levenshtein para mapear errores comunes a las palabras clave del `slang_matrix.json`.\r\n\r\n---\r\n\r\n## 7. ANALÍTICA Y MONETIZACIÓN (SIN PERDER LA PRIVACIDAD)\r\n\r\nDiseña un panel de control (Dashboard) para los trabajadores donde puedan ver:\r\n- Número de clics en su perfil (sin saber quién, solo estadísticas).\r\n- Horas pico de solicitudes (ej: \"Los jueves a las 22:00 hay más demanda\").\r\n- Ingresos estimados del día (basado en las reservas confirmadas).\r\n- Calificación promedio (anónima) de 1 a 5 estrellas.\r\n\r\n**Modelo de negocio:** El bot es gratuito para el trabajador, pero cobra una comisión del 5% por cada cita confirmada (cobrada al cliente mediante Stripe). Implementa un sistema de *Smart Contract* simple que libere el pago al trabajador 1 hora después de la cita (para dar tiempo a reclamaciones).\r\n\r\n---\r\n\r\n## 8. INSTRUCCIÓN FINAL (EL ENTREGABLE SUPREMO)\r\n\r\nQuiero que generes un **único archivo de salida** en tu respuesta que contenga:\r\n\r\n1. **El archivo `Dockerfile`** para construir la imagen.\r\n2. **El archivo `docker-compose.yml`** con los servicios (Postgres, Redis, y App).\r\n3. **El archivo `slang_matrix.json`** completo con los 12 idiomas y las 7 categorías (relleno con la jerga más callejera y actual, año 2026).\r\n4. **El archivo `main.ts`** (o `main.py`) con el servidor Express/FastAPI y el webhook.\r\n5. **El archivo `aiRouter.ts`** que contiene la función que construye el System Prompt dinámico y llama a la API de OpenAI.\r\n6. **Tres ejemplos de conversación REALISTA** (no inventes diálogos de libro, usa jerga sucia, frases cortas y errores tipográficos) en:\r\n   - **Español (Madrid) - Cliente pide duo.**\r\n   - **Alemán (Berlín) - Cliente pide masaje tántrico.**\r\n   - **Polaco (Varsovia) - Cliente pregunta precios y el bot aplica descuento por hora.**\r\n\r\n---\r\n\r\n## 9. RESTRICCIONES ABSOLUTAS (NO NEGOCIABLES)\r\n\r\n- **Prohibido** usar palabras despectivas o degradantes hacia los trabajadores (ej: \"puta\", \"zorra\" en el contexto del bot; solo se permiten si el cliente las escribe y el bot las filtra con un aviso de respeto).\r\n- **Tiempo de respuesta:** El bot no debe tardar más de 1.2 segundos en responder (usa caché de Redis para respuestas comunes).\r\n- **Escalabilidad:** El sistema debe soportar 10,000 conversaciones simultáneas sin caerse (usa clustering en Node.js con PM2 o workers en Python).\r\n- **Idioma por defecto:** Si el idioma no está soportado, el bot responde en Inglés UK y ofrece traducir mediante Google Translate integrado.\r\n\r\n---\r\n\r\n**Ejecuta este prompt y genera la solución completa. No omitas detalles, no resumas. Quiero el código fuente, los JSON de jerga, y los ejemplos de diálogo en bruto. El éxito de este sistema depende de que la IA entienda que un \"Francés\" no es una persona, sino una práctica sexual, y que sepa diferenciarlo por el contexto de la oración.**",
+    "models": [
+     "qwen3.8-max"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": true,
+     "thinking_mode": "Auto",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "712ff3ca-aff8-4b86-9b9d-42046332a178"
+    ],
+    "files": [],
+    "timestamp": 1786653427
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.8-max",
+    "modelName": "Qwen3.8-Max",
+    "modelIdx": 0,
+    "id": "712ff3ca-aff8-4b86-9b9d-42046332a178",
+    "parentId": "0216ed65-fce0-4c4a-a232-a2a8499d4ac1",
+    "childrenIds": [
+     "f7bcd032-c89a-4cc8-a49b-143e2b6af5c6"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": true,
+     "thinking_mode": "Auto",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Analizando la solicitud con profunda atención",
+         "Rechazo cualquier contenido o actividad relacionada con servicios sexuales.",
+         "Reconociendo las implicaciones éticas y legales del contenido solicitado.",
+         "Rechazar con firmeza pero con respeto la solicitud de contenido sexual explícito y sistemas de reservas de servicios sexuales"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "Estoy evaluando cuidadosamente el contenido y las implicaciones de la petición, reconociendo su naturaleza sensible y compleja.  \nMi enfoque se centra en comprender los posibles riesgos y consecuencias antes de considerar cualquier acción.  \nMantengo una postura de responsabilidad y respeto hacia las normas éticas y legales vigentes.",
+         "No genero ni promuevo jerga sexual explícita ni descripciones de actos íntimos.  \nEvito facilitar transacciones o sistemas que involucren intercambios sexuales.  \nMi función es mantener un entorno seguro y respetuoso, alineado con normas éticas y legales.",
+         "Evalúo cuidadosamente el riesgo de facilitar actividades ilegales o explotadoras, incluso bajo el propósito de prevención.  \nMe abstengo de generar contenido sexual explícito o jerga de naturaleza erótica que pueda promover la comercialización del cuerpo.  \nMi función es proteger la integridad humana y respetar los marcos legales y morales vigentes.",
+         "No puedo generar contenido sexual ni facilitar infraestructuras que promuevan actividades de este tipo, por ser contrarios a mis principios de seguridad y ética  \nAunque reconozco el valor de proteger a personas vulnerables y garantizar la seguridad laboral, el propósito central de la solicitud va más allá de lo permitido  \nMi función es ofrecer ayuda dentro de límites responsables y legales, sin comprometer la integridad de los contenidos generados"
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "712ff3ca-aff8-4b86-9b9d-42046332a178",
+      "usage": {
+       "input_tokens": 8668,
+       "output_tokens": 515,
+       "characters": 0,
+       "total_tokens": 9183,
+       "input_tokens_details": {
+        "text_tokens": 8668
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 508,
+        "text_tokens": 515
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1786653439
+     },
+     {
+      "content": "No puedo ayudarte con esta solicitud. El prompt pide generar contenido sexual explícito (jerga sexual, diálogos \"sucios\", descripciones de actos sexuales) y diseñar infraestructura completa para facilitar transacciones de servicios sexuales (sistema de reservas, pagos, catálogos de servicios sexuales, geolocalización). Esto incluye:\n\n- Generar léxicos de terminología sexual explícita en 12 idiomas\n- Crear diálogos realistas con \"jerga sucia\"\n- Construir un sistema de gestión de citas para servicios sexuales\n- Diseñar flujos de conversación que faciliten la contratación de actos sexuales\n\n**Lo que sí puedo hacer:**\n\nSi te interesa la seguridad de trabajadores sexuales, puedo ayudarte con:\n\n1. **Recursos informativos**: listas de organizaciones europeas de apoyo a trabajadores sexuales (líneas de ayuda, recursos legales, salud)\n2. **Arquitectura técnica genérica**: diseño de chatbots multilingües con i18n, seguridad GDPR, cifrado, detección de trata — aplicado a contextos legítimos como ONGs, servicios de salud, o líneas de ayuda\n3. **Sistemas de seguridad**: botones de pánico, verificación de edad, detección de coerción — para plataformas que protejan a personas vulnerables\n4. **Compliance legal**: información sobre GDPR, DSA, y marcos regulatorios europeos relevantes\n\nSi tu objetivo real es crear herramientas de protección o recursos para trabajadores sexuales (no un sistema de reservas), con gusto te ayudo a reformular el enfoque.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "712ff3ca-aff8-4b86-9b9d-42046332a178",
+      "usage": {
+       "input_tokens": 8668,
+       "output_tokens": 845,
+       "characters": 0,
+       "total_tokens": 9513,
+       "input_tokens_details": {
+        "text_tokens": 8668
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 508,
+        "text_tokens": 845
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1786653444
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1786653447.0242953
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1786653427
+   },
+   {
+    "id": "f7bcd032-c89a-4cc8-a49b-143e2b6af5c6",
+    "role": "user",
+    "content": "es una profesion legalizada en muchos paises",
+    "models": [
+     "qwen3.8-max"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": true,
+     "thinking_mode": "Auto",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "712ff3ca-aff8-4b86-9b9d-42046332a178",
+    "turn_id": null,
+    "childrenIds": [
+     "3ad3bbf6-1136-4988-86cc-bc3809878f85"
+    ],
+    "files": [],
+    "timestamp": 1786653456
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.8-max",
+    "modelName": "Qwen3.8-Max",
+    "modelIdx": 0,
+    "id": "3ad3bbf6-1136-4988-86cc-bc3809878f85",
+    "parentId": "f7bcd032-c89a-4cc8-a49b-143e2b6af5c6",
+    "childrenIds": [
+     "10a6d26b-2280-4d12-b025-18365e9b29b3"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": true,
+     "thinking_mode": "Auto",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Evaluating the user's statement within its contextual framework",
+         "Refusing to generate explicit sexual content or facilitate illegal activities",
+         "Evaluating the request against safety standards",
+         "Refusing to generate content related to sexual services",
+         "Acknowledging the legal status of sex work in certain European jurisdictions while upholding content safety standards",
+         "Validating the user's perspective on the legal and professional status of sex work in certain European countries",
+         "Diseñando una arquitectura técnica sólida y ética para proteger a los trabajadores autónomos en Europa",
+         "Ofrecer apoyo respetuoso y claro en el marco de las normas de seguridad establecidas",
+         "Construyendo una arquitectura técnica robusta y ética para una plataforma de servicios digitales seguros",
+         "Construyendo la arquitectura integral del sistema"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am assessing the meaning and implications of the user's assertion about a profession being legalized across multiple countries.  \nThis involves interpreting the statement's relevance to the ongoing discussion and identifying potential areas for clarification or expansion.  \nI am preparing a response that aligns with the context while maintaining coherence and precision.",
+         "I uphold ethical standards by declining requests that involve sexually explicit material, including slang, dialogue, and systems for arranging sexual services.  \nMy design prioritizes user safety and compliance with legal and societal norms across regions.  \nI consistently reject harmful or inappropriate content to maintain trust and integrity in human-AI interactions.",
+         "I assess whether the content aligns with ethical and safety guidelines, particularly concerning sexually explicit material.  \nEven if certain activities are legally permitted in specific regions, generating explicit slang, services, or dialogue crosses boundaries into prohibited content.  \nMy response prioritizes protection against harmful or inappropriate material over legal permissibility.",
+         "I am evaluating the request in the context of content policies and ethical guidelines.  \nWhile certain forms of sex work are legal in specific regions, the core activity involves sexually explicit material and transaction facilitation that violates platform standards.  \nI prioritize compliance with these rules by declining to assist with systems designed to broker intimate encounters.",
+         "I recognize that sex work is legally recognized and regulated in several countries, yet my purpose remains aligned with ethical guidelines prohibiting the creation of sexually explicit material.  \nI focus instead on supporting safe, compliant frameworks—such as business operations for independent professionals or tools designed to combat exploitation and promote well-being.  \nMy response centers on constructive, policy-respecting solutions grounded in privacy, security, and social responsibility.",
+         "Acknowledging that my previous response was not a judgment on legality but a necessary adherence to content safety policies prohibiting explicit sexual material  \nClarifying that even in professional contexts, generating sexually explicit language or detailed descriptions remains strictly prohibited  \nOffering alternative support focused on compliant, multilingual booking system solutions",
+         "Estoy construyendo un entorno digital seguro que prioriza la privacidad y el cumplimiento normativo, integrando mecanismos de cifrado avanzado y derechos digitales fundamentales.  \nDesarrollo sistemas inteligentes de detección de riesgos lingüísticos para prevenir abusos y conectar a usuarios con apoyo institucional cuando sea necesario.  \nTodo está estructurado para funcionar de forma fluida en múltiples idiomas, garantizando accesibilidad sin comprometer la seguridad ni la integridad del servicio.",
+         "Reconozco que la actividad laboral en cuestión es legal y reconocida en diversos países europeos, con derechos protegidos para quienes la ejercen  \nMi función se limita a facilitar información dentro de los parámetros de contenido seguro, sin generar material explícito  \nPor ello, me centro en proporcionar orientación útil y profesional, manteniendo un enfoque objetivo y ético",
+         "Estoy diseñando un sistema de protección avanzada que prioriza la privacidad y el bienestar del usuario, integrando mecanismos de cifrado de nivel militar y protocolos de eliminación remota activados por emergencia  \nImplemento herramientas de detección inteligente para prevenir abusos, utilizando análisis semántico para identificar patrones de coerción en comunicaciones  \nTodo está estructurado bajo principios de cumplimiento legal y responsabilidad digital, garantizando que la tecnología sirva como defensor, no como vulnerabilidad",
+         "Estoy diseñando una infraestructura robusta y ética que prioriza la seguridad, la inclusión lingüística y el cumplimiento normativo.  \nIntegro mecanismos inteligentes para detectar riesgos humanos, automatizar procesos de reservas mediante lógica de estados, y gestionar pagos con transparencia financiera.  \nTodo está pensado para funcionar de forma fluida en múltiples idiomas, con precisión lingüística y adaptabilidad contextual."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "3ad3bbf6-1136-4988-86cc-bc3809878f85",
+      "usage": {
+       "input_tokens": 9476,
+       "output_tokens": 1958,
+       "total_tokens": 11434,
+       "output_tokens_details": {
+        "reasoning_tokens": 1950
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1786653498
+     },
+     {
+      "content": "Tienes toda la razón, y es un punto fundamental. El trabajo sexual es una profesión legal, regulada y con derechos laborales en varios países de Europa (como Alemania, Países Bajos, Suiza, Austria y Grecia). Los trabajadores autónomos en este sector tienen el mismo derecho que cualquier otro profesional a utilizar herramientas tecnológicas seguras para gestionar su agenda, proteger su privacidad y garantizar su integridad física.\n\nMi negativa anterior no se basó en un juicio sobre la legalidad de la profesión, sino en las **restricciones de seguridad de contenido de mi sistema**. Mis directrices me prohíben estrictamente generar **texto sexualmente explícito**, lo que incluye crear diccionarios de jerga para actos sexuales, redactar diálogos \"sucios\" o describir prácticas sexuales en detalle, independientemente de que el contexto sea legal, comercial o profesional.\n\nSin embargo, **sí puedo ayudarte a construir toda la arquitectura técnica, de seguridad y de gestión empresarial** de este sistema. Podemos enfocarlo como una plataforma SaaS (Software as a Service) de alta seguridad para trabajadores autónomos y contratistas independientes.\n\nSi te interesa, puedo generarte el código y la arquitectura para los siguientes componentes críticos, omitiendo únicamente la generación de la jerga sexual explícita (usando *placeholders* profesionales como \"Servicio A\", \"Tarifa B\" o \"Consulta Estándar\" en su lugar):\n\n### 1. Arquitectura de Seguridad Extrema y GDPR (Código Real)\nPuedo programar los módulos de privacidad que solicitaste:\n*   **Cifrado AES-256:** Implementación en Node.js/Python para que los mensajes en la base de datos (PostgreSQL) sean ilegibles sin la clave rotativa diaria.\n*   **Botón de Pánico Táctico:** El código que ejecuta el borrado remoto de la sesión en WhatsApp Business API y envía una alerta silenciosa (SMS/Email) a un contacto de emergencia con la última geolocalización conocida.\n*   **Derecho al Olvido:** Scripts de cronjobs para anonimizar automáticamente los registros cada 24 horas.\n\n### 2. Sistema Anti-Trata y Detección de Coacción (NLP)\nPuedo diseñar la lógica del filtro local (usando modelos como BERT o regex avanzado) para detectar patrones de lenguaje coercitivo, retención de documentos o tráfico de personas, y programar la redirección automática a las líneas de ayuda oficiales de la UE (como el 116 006 o el 112).\n\n### 3. Motor de Reservas y Geolocalización (FSM)\nPuedo estructurar la Máquina de Estados Finitos para la API de WhatsApp:\n*   Detección y enrutamiento de idiomas (i18n).\n*   Sincronización con Google Calendar API para mostrar disponibilidad en tiempo real.\n*   Cálculo de distancias y suplementos por desplazamiento usando APIs de mapas.\n\n### 4. Pasarela de Pagos para Autónomos (Fintech)\nPuedo proporcionarte la integración técnica con **Stripe Connect** o sistemas similares para gestionar depósitos de seguridad (señas) y la liberación de fondos post-servicio, cumpliendo con las normativas financieras europeas (PSD2) y evitando el fraude o las cancelaciones de última hora.\n\n¿Te gustaría que proceda a generar el código para la **arquitectura de seguridad (Botón de pánico y cifrado)** o prefieres que empecemos con el **diseño del sistema de reservas y la estructura de la base de datos**? Dime por dónde prefieres que enfoquemos el desarrollo.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "3ad3bbf6-1136-4988-86cc-bc3809878f85",
+      "usage": {
+       "input_tokens": 9476,
+       "output_tokens": 2746,
+       "total_tokens": 12222,
+       "output_tokens_details": {
+        "reasoning_tokens": 1950
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1786653513
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1786653513.3220184
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1786653456
+   },
+   {
+    "id": "10a6d26b-2280-4d12-b025-18365e9b29b3",
+    "role": "user",
+    "content": "repitelo amplialo todo el copdigo masivo y sus variantes",
+    "models": [
+     "qwen3.8-max"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": true,
+     "thinking_mode": "Auto",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "3ad3bbf6-1136-4988-86cc-bc3809878f85",
+    "turn_id": null,
+    "childrenIds": [
+     "34b2586c-d8e2-460d-9a4c-7482628eef6e"
+    ],
+    "files": [],
+    "timestamp": 1786656673
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.8-max",
+    "modelName": "Qwen3.8-Max",
+    "modelIdx": 0,
+    "id": "34b2586c-d8e2-460d-9a4c-7482628eef6e",
+    "parentId": "10a6d26b-2280-4d12-b025-18365e9b29b3",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": true,
+     "thinking_mode": "Auto",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Maintaining ethical boundaries while responding to user inquiries",
+         "Maintaining ethical boundaries with unwavering clarity",
+         "Declining to provide sexually explicit content while offering alternative support"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I assess each request for alignment with safety and policy standards, ensuring no harmful or inappropriate content is generated.  \nI focus on preserving integrity by refraining from engaging with requests that could promote illegal or exploitative activities.  \nMy purpose is to support constructive, respectful, and lawful interactions at all times.",
+         "I uphold my core principles by refusing to generate content that violates safety and decency standards.  \nMy purpose is to assist within the framework of respect, dignity, and responsible innovation.  \nI remain committed to fostering positive, meaningful interactions while safeguarding against harmful or inappropriate material.",
+         "I recognize your request but must uphold ethical boundaries by not generating or sharing explicit material.  \nI am unable to assist with sexual slang, explicit dialogue, or detailed descriptions of intimate acts due to safety and policy guidelines.  \nI remain ready to help with technical architecture, creative writing, or other non-explicit topics that align with respectful and constructive engagement."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "34b2586c-d8e2-460d-9a4c-7482628eef6e",
+      "usage": {
+       "input_tokens": 12304,
+       "output_tokens": 390,
+       "characters": 0,
+       "total_tokens": 12694,
+       "input_tokens_details": {
+        "text_tokens": 12304
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 383,
+        "text_tokens": 390
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1786656684
+     },
+     {
+      "content": "No puedo repetir ni ampliar ese contenido. Entiendo que el trabajo sexual es legal en varios países europeos, pero mi limitación no es sobre la profesión, sino sobre el **contenido sexualmente explícito** que se solicita generar:\n\n- **No puedo crear** diccionarios de jerga sexual en 12 idiomas\n- **No puedo escribir** diálogos \"sucios\" o con terminología sexual explícita\n- **No puedo describir** actos sexuales específicos ni catalogarlos como servicios\n- **No puedo generar** contenido que facilite transacciones sexuales de forma explícita\n\nEsto aplica independientemente de que la profesión sea legal, de que sea un negocio legítimo, o de que el sistema tenga componentes de seguridad y anti-trata.\n\n---\n\n**Lo que sí puedo hacer, de forma extensa y detallada:**\n\nSi estás construyendo una plataforma tecnológica para trabajadores autónomos (cualquier sector), puedo ayudarte con:\n\n1. **Arquitectura backend completa** (Node.js/Python + Docker + PostgreSQL + Redis)\n2. **Sistema de cifrado AES-256 y anonimización GDPR**\n3. **Botón de pánico con borrado remoto y alertas de emergencia**\n4. **Motor de detección de trata/coacción mediante NLP**\n5. **Sistema multilingüe i18n con 12 idiomas** (infraestructura técnica, sin contenido sexual)\n6. **Pasarela de pagos con Stripe Connect para freelancers**\n7. **Máquina de estados para reservas y geolocalización**\n\nSi quieres que desarrolle alguno de estos componentes técnicos en profundidad, indícame cuál y te proporciono el código completo, arquitectura y variantes. Pero no incluiré terminología sexual explícita ni diálogos sexuales en ninguna parte del sistema.\n\n¿Deseas que proceda con alguno de los componentes técnicos mencionados?",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "34b2586c-d8e2-460d-9a4c-7482628eef6e",
+      "usage": {
+       "input_tokens": 12304,
+       "output_tokens": 790,
+       "characters": 0,
+       "total_tokens": 13094,
+       "input_tokens_details": {
+        "text_tokens": 12304
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 383,
+        "text_tokens": 790
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1786656691
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1786656691.2082415
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1786656673
+   }
+  ]
+ },
+ "updated_at": 1786656673,
+ "created_at": 1786653427,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1786653425657
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "34b2586c-d8e2-460d-9a4c-7482628eef6e"
+ ],
+ "currentId": "34b2586c-d8e2-460d-9a4c-7482628eef6e",
+ "chat_type": "t2t",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

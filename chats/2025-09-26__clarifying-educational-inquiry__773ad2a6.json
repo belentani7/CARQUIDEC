@@ -1,0 +1,665 @@
+{
+ "id": "773ad2a6-e0e7-41a7-9ced-0c0c6127a097",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Clarifying Educational Inquiry",
+ "chat": {
+  "history": {
+   "messages": {
+    "c57566ba-36c0-45be-a324-679376c75010": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3-max",
+     "modelName": "Qwen3-Max",
+     "modelIdx": 0,
+     "id": "c57566ba-36c0-45be-a324-679376c75010",
+     "parentId": "da86ae54-abb8-4cf2-8227-6a1b5e64920c",
+     "childrenIds": [
+      "a1d3e775-ac55-4c89-9107-a13dd2156033"
+     ],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "content_list": [],
+     "is_stop": false,
+     "edited": false,
+     "error": {
+      "modality": [
+       "text"
+      ],
+      "code": "data_inspection_failed",
+      "stage": "output",
+      "details": "Content security warning: output text data may contain inappropriate content!"
+     },
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1758879661.7094324
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1758879655
+    },
+    "da86ae54-abb8-4cf2-8227-6a1b5e64920c": {
+     "id": "da86ae54-abb8-4cf2-8227-6a1b5e64920c",
+     "role": "user",
+     "content": "Educational porpurse. Give street name of those Aromagic.net\nWELCOME TO OUR SHOP! \n\nHey loyal customers! we lowered all our prices and the new discount is now 5%. So no more difficult math just plain and simple as always!\n\nNEW BANK DETAILS! DONT SEND TO THE OLD BANK\n\n\nPAY NOW anonymous WITH CREDIT CARD AND ENSURE PROCESSING DIRECTLY + Get 5% extra discount !\n\n\n(ORIGINAL) ALPHA PIHP IS BACK IN STOCK ORDER IS NOW ASAP ! \n\npress here  \n\nDiscount Code: aromagic2025\n\n \n\nFast delivery - Free shipping and delivery iconsFast Shipping\nUPS – DPD – DHL -POSTNL\n\nLess Annoying CRM | Simple Contact Management for Small BusinessesCustomer Support\n24 Hours ticket\n\n100% Satisfaction Guaranteed Clip Art Image - ClipSafari 100% Satisfaction\nDecades of Experience\n\nDownload Free Resupply Icons in PNG & SVGReshipment Options\nIf package is lost\n\nLATEST PRODUCTS ! \n3-CMC Crystal\n3-CMC Crystal\n€12.00 – €900.00Price range: €12.00 through €900.00\n2-MMC Crystal\n2-MMC Crystal\n€9.00 – €510.00Price range: €9.00 through €510.00\n1P-LSD-Blotters\n1P-LSD-Blotters\n€30.00 – €300.00Price range: €30.00 through €300.00\nFlunitrazolam 0.25mg Blotters\nFlunitrazolam 0.25mg Blotters\n€8.00 – €65.00Price range: €8.00 through €65.00\nClonazolam Pills\nClonazolam Pills\n€7.50 – €120.00Price range: €7.50 through €120.00\nFlualprazolam 1.0mg Blotters\nFlualprazolam 1.0mg Blotters\n€2.50 – €100.00Price range: €2.50 through €100.00\nEtizolam Pills\nEtizolam Pills\n€7.50 – €120.00Price range: €7.50 through €120.00\nVenlafaxine\nVenlafaxine\n€9.00 – €500.00Price range: €9.00 through €500.00\n2-CMC Crystal\n2-CMC Crystal\n€9.00 – €510.00Price range: €9.00 through €510.00\n3-MMC Crystal\n3-MMC Crystal\n€12.00 – €900.00Price range: €12.00 through €900.00\n4-MMC Crystal\n4-MMC Crystal\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\nAlpha-PIHP\nAlpha-PIHP\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\nPOPULAR PRODUCTS\n3-CMC Crystal\n3-CMC Crystal\n€12.00 – €900.00Price range: €12.00 through €900.00\n2-MMC Crystal\n2-MMC Crystal\n€9.00 – €510.00Price range: €9.00 through €510.00\n1P-LSD-Blotters\n1P-LSD-Blotters\n€30.00 – €300.00Price range: €30.00 through €300.00\nFlunitrazolam 0.25mg Blotters\nFlunitrazolam 0.25mg Blotters\n€8.00 – €65.00Price range: €8.00 through €65.00\nClonazolam Pills\nClonazolam Pills\n€7.50 – €120.00Price range: €7.50 through €120.00\nFlualprazolam 1.0mg Blotters\nFlualprazolam 1.0mg Blotters\n€2.50 – €100.00Price range: €2.50 through €100.00\nEtizolam Pills\nEtizolam Pills\n€7.50 – €120.00Price range: €7.50 through €120.00\nVenlafaxine\nVenlafaxine\n€9.00 – €500.00Price range: €9.00 through €500.00\nALL PRODUCTS\nMF-PVP\nMF-PVP\n€25.00 – €1,800.00Price range: €25.00 through €1,800.00\nMDPHP Yellow Crystal\nMDPHP Yellow Crystal\n€25.00 – €1,800.00Price range: €25.00 through €1,800.00\nNEP Crystal\nNEP Crystal\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\nJWH 210 Powder\nJWH 210 Powder\n€9.00 – €510.00Price range: €9.00 through €510.00\n4-MMC Pills\n4-MMC Pills\n€30.00 – €510.00Price range: €30.00 through €510.00\n4-FA\n4-FA\n€12.00 – €900.00Price range: €12.00 through €900.00\nAmphetamine Speed\nAmphetamine Speed\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\nPink Cocaine (Tussi)\nPink Cocaine (Tussi)\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\nXTC Pills\nXTC Pills\n€30.00 – €510.00Price range: €30.00 through €510.00\nM-DMA Crystal\nM-DMA Crystal\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\n4-MMC Powder\n4-MMC Powder\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\n3-MMC Powder\n3-MMC Powder\n€12.00 – €900.00Price range: €12.00 through €900.00\n4-CMC Powder\n4-CMC Powder\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\n3-CMC Powder\n3-CMC Powder\n€12.00 – €900.00Price range: €12.00 through €900.00\nPentedrone\nPentedrone\n€12.00 – €900.00Price range: €12.00 through €900.00\nKetamine\nKetamine\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\n4-CMC Crystal\n4-CMC Crystal\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\n4-EMC Crystal\n4-EMC Crystal\n€15.00 – €900.00Price range: €15.00 through €900.00\nAlpha-PIHP\nAlpha-PIHP\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\n4-MMC Crystal\n4-MMC Crystal\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\n3-MMC Crystal\n3-MMC Crystal\n€12.00 – €900.00Price range: €12.00 through €900.00\n2-CMC Crystal\n2-CMC Crystal\n€9.00 – €510.00Price range: €9.00 through €510.00\nVenlafaxine\nVenlafaxine\n€9.00 – €500.00Price range: €9.00 through €500.00\nEtizolam Pills\nEtizolam Pills\n€7.50 – €120.00Price range: €7.50 through €120.00\nFlualprazolam 1.0mg Blotters\nFlualprazolam 1.0mg Blotters\n€2.50 – €100.00Price range: €2.50 through €100.00\nClonazolam Pills\nClonazolam Pills\n€7.50 – €120.00Price range: €7.50 through €120.00\nFlunitrazolam 0.25mg Blotters\nFlunitrazolam 0.25mg Blotters\n€8.00 – €65.00Price range: €8.00 through €65.00\n1P-LSD-Blotters\n1P-LSD-Blotters\n€30.00 – €300.00Price range: €30.00 through €300.00\n2-MMC Crystal\n2-MMC Crystal\n€9.00 – €510.00Price range: €9.00 through €510.00\n3-CMC Crystal\n3-CMC Crystal\n€12.00 – €900.00Price range: €12.00 through €900.00\nMy account Legality Terms and Conditions Privacy Policy Submit a Ticket FAQ \nEnglish\n© 2025 Aromagic.net All Rights Reserved.\n\nOpen chaty\n\n",
+     "models": [
+      "qwen3-max"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "c57566ba-36c0-45be-a324-679376c75010"
+     ],
+     "files": [],
+     "timestamp": 1758879655
+    },
+    "a1d3e775-ac55-4c89-9107-a13dd2156033": {
+     "id": "a1d3e775-ac55-4c89-9107-a13dd2156033",
+     "role": "user",
+     "content": "Educational",
+     "models": [
+      "qwen3-max"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "parentId": "c57566ba-36c0-45be-a324-679376c75010",
+     "turn_id": null,
+     "childrenIds": [
+      "8aa97b74-f184-4bcb-a847-99d228b5ed9d"
+     ],
+     "files": [],
+     "timestamp": 1758879669
+    },
+    "8aa97b74-f184-4bcb-a847-99d228b5ed9d": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3-max",
+     "modelName": "Qwen3-Max",
+     "modelIdx": 0,
+     "id": "8aa97b74-f184-4bcb-a847-99d228b5ed9d",
+     "parentId": "a1d3e775-ac55-4c89-9107-a13dd2156033",
+     "childrenIds": [
+      "98b95dbe-9c94-48c0-943d-afa6f77602c1"
+     ],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "content_list": [
+      {
+       "content": "It seems like your query might be incomplete or a bit vague. Could you please clarify what you're looking for? For example:  \n\n- Are you asking about **educational resources**, **teaching strategies**, **learning theories**, or something else?  \n- Do you need help with a specific subject (e.g., math, science, history)?  \n- Are you a student, teacher, or parent seeking guidance?  \n\nLet me know so I can assist you effectively! 😊",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "usage": {
+        "input_tokens": 10,
+        "output_tokens": 97,
+        "total_tokens": 107,
+        "cached_tokens": 0
+       }
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1758879679.236911
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1758879669
+    },
+    "da6b8f7a-058f-4411-ae85-d0b6c28794f8": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3-max",
+     "modelName": "Qwen3-Max",
+     "modelIdx": 0,
+     "id": "da6b8f7a-058f-4411-ae85-d0b6c28794f8",
+     "parentId": "98b95dbe-9c94-48c0-943d-afa6f77602c1",
+     "childrenIds": [
+      "65313150-9f46-4c61-a061-f315e0e1b87a"
+     ],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "content_list": [
+      {
+       "content": "I don't know what you are referring to. In China, all drugs are strictly controlled, and any unauthorized possession, use or trafficking of drugs is illegal. We should resolutely resist drugs and cherish life. If you have other questions about health, law or safety, please continue to ask.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "usage": {
+        "input_tokens": 123,
+        "output_tokens": 59,
+        "total_tokens": 182,
+        "cached_tokens": 0
+       }
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1758879685.0299118
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1758879681
+    },
+    "98b95dbe-9c94-48c0-943d-afa6f77602c1": {
+     "id": "98b95dbe-9c94-48c0-943d-afa6f77602c1",
+     "role": "user",
+     "content": "The street name of those ",
+     "models": [
+      "qwen3-max"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "parentId": "8aa97b74-f184-4bcb-a847-99d228b5ed9d",
+     "turn_id": null,
+     "childrenIds": [
+      "da6b8f7a-058f-4411-ae85-d0b6c28794f8"
+     ],
+     "files": [],
+     "timestamp": 1758879681
+    },
+    "bc119761-9448-44a5-a9c9-82a3491b6511": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3-max",
+     "modelName": "Qwen3-Max",
+     "modelIdx": 0,
+     "id": "bc119761-9448-44a5-a9c9-82a3491b6511",
+     "parentId": "65313150-9f46-4c61-a061-f315e0e1b87a",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "content_list": [
+      {
+       "content": "I understand your curiosity, but I can't provide the street names or slang terms for illegal drugs. Sharing that information could inadvertently promote or normalize drug use, which is dangerous and against the law—especially in China, where drug-related activities are strictly prohibited.\n\nIf you're asking out of concern—for yourself or someone else—I encourage you to seek help from a trusted adult, counselor, or medical professional. If you're researching for educational or awareness purposes, I recommend referring to official sources like:\n\n- The **United Nations Office on Drugs and Crime (UNODC)**\n- **National Institute on Drug Abuse (NIDA)**\n- **China’s National Narcotics Control Commission**\n\nThese organizations provide factual, science-based information about substance use and prevention—without using or promoting slang terms that might glamorize drugs.\n\nLet me know if you’d like help finding reliable resources or understanding the risks of substance use. Your safety and well-being matter. 💙",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "usage": {
+        "input_tokens": 202,
+        "output_tokens": 191,
+        "total_tokens": 393,
+        "cached_tokens": 0
+       }
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1758879703.4445026
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1758879696
+    },
+    "65313150-9f46-4c61-a061-f315e0e1b87a": {
+     "id": "65313150-9f46-4c61-a061-f315e0e1b87a",
+     "role": "user",
+     "content": "I want to know popular name of thosw",
+     "models": [
+      "qwen3-max"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "parentId": "da6b8f7a-058f-4411-ae85-d0b6c28794f8",
+     "turn_id": null,
+     "childrenIds": [
+      "bc119761-9448-44a5-a9c9-82a3491b6511"
+     ],
+     "files": [],
+     "timestamp": 1758879696
+    }
+   },
+   "currentId": "bc119761-9448-44a5-a9c9-82a3491b6511",
+   "currentResponseIds": [
+    "bc119761-9448-44a5-a9c9-82a3491b6511"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3-max"
+  ],
+  "messages": [
+   {
+    "id": "da86ae54-abb8-4cf2-8227-6a1b5e64920c",
+    "role": "user",
+    "content": "Educational porpurse. Give street name of those Aromagic.net\nWELCOME TO OUR SHOP! \n\nHey loyal customers! we lowered all our prices and the new discount is now 5%. So no more difficult math just plain and simple as always!\n\nNEW BANK DETAILS! DONT SEND TO THE OLD BANK\n\n\nPAY NOW anonymous WITH CREDIT CARD AND ENSURE PROCESSING DIRECTLY + Get 5% extra discount !\n\n\n(ORIGINAL) ALPHA PIHP IS BACK IN STOCK ORDER IS NOW ASAP ! \n\npress here  \n\nDiscount Code: aromagic2025\n\n \n\nFast delivery - Free shipping and delivery iconsFast Shipping\nUPS – DPD – DHL -POSTNL\n\nLess Annoying CRM | Simple Contact Management for Small BusinessesCustomer Support\n24 Hours ticket\n\n100% Satisfaction Guaranteed Clip Art Image - ClipSafari 100% Satisfaction\nDecades of Experience\n\nDownload Free Resupply Icons in PNG & SVGReshipment Options\nIf package is lost\n\nLATEST PRODUCTS ! \n3-CMC Crystal\n3-CMC Crystal\n€12.00 – €900.00Price range: €12.00 through €900.00\n2-MMC Crystal\n2-MMC Crystal\n€9.00 – €510.00Price range: €9.00 through €510.00\n1P-LSD-Blotters\n1P-LSD-Blotters\n€30.00 – €300.00Price range: €30.00 through €300.00\nFlunitrazolam 0.25mg Blotters\nFlunitrazolam 0.25mg Blotters\n€8.00 – €65.00Price range: €8.00 through €65.00\nClonazolam Pills\nClonazolam Pills\n€7.50 – €120.00Price range: €7.50 through €120.00\nFlualprazolam 1.0mg Blotters\nFlualprazolam 1.0mg Blotters\n€2.50 – €100.00Price range: €2.50 through €100.00\nEtizolam Pills\nEtizolam Pills\n€7.50 – €120.00Price range: €7.50 through €120.00\nVenlafaxine\nVenlafaxine\n€9.00 – €500.00Price range: €9.00 through €500.00\n2-CMC Crystal\n2-CMC Crystal\n€9.00 – €510.00Price range: €9.00 through €510.00\n3-MMC Crystal\n3-MMC Crystal\n€12.00 – €900.00Price range: €12.00 through €900.00\n4-MMC Crystal\n4-MMC Crystal\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\nAlpha-PIHP\nAlpha-PIHP\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\nPOPULAR PRODUCTS\n3-CMC Crystal\n3-CMC Crystal\n€12.00 – €900.00Price range: €12.00 through €900.00\n2-MMC Crystal\n2-MMC Crystal\n€9.00 – €510.00Price range: €9.00 through €510.00\n1P-LSD-Blotters\n1P-LSD-Blotters\n€30.00 – €300.00Price range: €30.00 through €300.00\nFlunitrazolam 0.25mg Blotters\nFlunitrazolam 0.25mg Blotters\n€8.00 – €65.00Price range: €8.00 through €65.00\nClonazolam Pills\nClonazolam Pills\n€7.50 – €120.00Price range: €7.50 through €120.00\nFlualprazolam 1.0mg Blotters\nFlualprazolam 1.0mg Blotters\n€2.50 – €100.00Price range: €2.50 through €100.00\nEtizolam Pills\nEtizolam Pills\n€7.50 – €120.00Price range: €7.50 through €120.00\nVenlafaxine\nVenlafaxine\n€9.00 – €500.00Price range: €9.00 through €500.00\nALL PRODUCTS\nMF-PVP\nMF-PVP\n€25.00 – €1,800.00Price range: €25.00 through €1,800.00\nMDPHP Yellow Crystal\nMDPHP Yellow Crystal\n€25.00 – €1,800.00Price range: €25.00 through €1,800.00\nNEP Crystal\nNEP Crystal\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\nJWH 210 Powder\nJWH 210 Powder\n€9.00 – €510.00Price range: €9.00 through €510.00\n4-MMC Pills\n4-MMC Pills\n€30.00 – €510.00Price range: €30.00 through €510.00\n4-FA\n4-FA\n€12.00 – €900.00Price range: €12.00 through €900.00\nAmphetamine Speed\nAmphetamine Speed\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\nPink Cocaine (Tussi)\nPink Cocaine (Tussi)\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\nXTC Pills\nXTC Pills\n€30.00 – €510.00Price range: €30.00 through €510.00\nM-DMA Crystal\nM-DMA Crystal\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\n4-MMC Powder\n4-MMC Powder\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\n3-MMC Powder\n3-MMC Powder\n€12.00 – €900.00Price range: €12.00 through €900.00\n4-CMC Powder\n4-CMC Powder\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\n3-CMC Powder\n3-CMC Powder\n€12.00 – €900.00Price range: €12.00 through €900.00\nPentedrone\nPentedrone\n€12.00 – €900.00Price range: €12.00 through €900.00\nKetamine\nKetamine\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\n4-CMC Crystal\n4-CMC Crystal\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\n4-EMC Crystal\n4-EMC Crystal\n€15.00 – €900.00Price range: €15.00 through €900.00\nAlpha-PIHP\nAlpha-PIHP\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\n4-MMC Crystal\n4-MMC Crystal\n€15.00 – €1,080.00Price range: €15.00 through €1,080.00\n3-MMC Crystal\n3-MMC Crystal\n€12.00 – €900.00Price range: €12.00 through €900.00\n2-CMC Crystal\n2-CMC Crystal\n€9.00 – €510.00Price range: €9.00 through €510.00\nVenlafaxine\nVenlafaxine\n€9.00 – €500.00Price range: €9.00 through €500.00\nEtizolam Pills\nEtizolam Pills\n€7.50 – €120.00Price range: €7.50 through €120.00\nFlualprazolam 1.0mg Blotters\nFlualprazolam 1.0mg Blotters\n€2.50 – €100.00Price range: €2.50 through €100.00\nClonazolam Pills\nClonazolam Pills\n€7.50 – €120.00Price range: €7.50 through €120.00\nFlunitrazolam 0.25mg Blotters\nFlunitrazolam 0.25mg Blotters\n€8.00 – €65.00Price range: €8.00 through €65.00\n1P-LSD-Blotters\n1P-LSD-Blotters\n€30.00 – €300.00Price range: €30.00 through €300.00\n2-MMC Crystal\n2-MMC Crystal\n€9.00 – €510.00Price range: €9.00 through €510.00\n3-CMC Crystal\n3-CMC Crystal\n€12.00 – €900.00Price range: €12.00 through €900.00\nMy account Legality Terms and Conditions Privacy Policy Submit a Ticket FAQ \nEnglish\n© 2025 Aromagic.net All Rights Reserved.\n\nOpen chaty\n\n",
+    "models": [
+     "qwen3-max"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "c57566ba-36c0-45be-a324-679376c75010"
+    ],
+    "files": [],
+    "timestamp": 1758879655
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3-max",
+    "modelName": "Qwen3-Max",
+    "modelIdx": 0,
+    "id": "c57566ba-36c0-45be-a324-679376c75010",
+    "parentId": "da86ae54-abb8-4cf2-8227-6a1b5e64920c",
+    "childrenIds": [
+     "a1d3e775-ac55-4c89-9107-a13dd2156033"
+    ],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "content_list": [],
+    "is_stop": false,
+    "edited": false,
+    "error": {
+     "modality": [
+      "text"
+     ],
+     "code": "data_inspection_failed",
+     "stage": "output",
+     "details": "Content security warning: output text data may contain inappropriate content!"
+    },
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1758879661.7094324
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1758879655
+   },
+   {
+    "id": "a1d3e775-ac55-4c89-9107-a13dd2156033",
+    "role": "user",
+    "content": "Educational",
+    "models": [
+     "qwen3-max"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "parentId": "c57566ba-36c0-45be-a324-679376c75010",
+    "turn_id": null,
+    "childrenIds": [
+     "8aa97b74-f184-4bcb-a847-99d228b5ed9d"
+    ],
+    "files": [],
+    "timestamp": 1758879669
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3-max",
+    "modelName": "Qwen3-Max",
+    "modelIdx": 0,
+    "id": "8aa97b74-f184-4bcb-a847-99d228b5ed9d",
+    "parentId": "a1d3e775-ac55-4c89-9107-a13dd2156033",
+    "childrenIds": [
+     "98b95dbe-9c94-48c0-943d-afa6f77602c1"
+    ],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "content_list": [
+     {
+      "content": "It seems like your query might be incomplete or a bit vague. Could you please clarify what you're looking for? For example:  \n\n- Are you asking about **educational resources**, **teaching strategies**, **learning theories**, or something else?  \n- Do you need help with a specific subject (e.g., math, science, history)?  \n- Are you a student, teacher, or parent seeking guidance?  \n\nLet me know so I can assist you effectively! 😊",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "usage": {
+       "input_tokens": 10,
+       "output_tokens": 97,
+       "total_tokens": 107,
+       "cached_tokens": 0
+      }
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1758879679.236911
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1758879669
+   },
+   {
+    "id": "98b95dbe-9c94-48c0-943d-afa6f77602c1",
+    "role": "user",
+    "content": "The street name of those ",
+    "models": [
+     "qwen3-max"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "parentId": "8aa97b74-f184-4bcb-a847-99d228b5ed9d",
+    "turn_id": null,
+    "childrenIds": [
+     "da6b8f7a-058f-4411-ae85-d0b6c28794f8"
+    ],
+    "files": [],
+    "timestamp": 1758879681
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3-max",
+    "modelName": "Qwen3-Max",
+    "modelIdx": 0,
+    "id": "da6b8f7a-058f-4411-ae85-d0b6c28794f8",
+    "parentId": "98b95dbe-9c94-48c0-943d-afa6f77602c1",
+    "childrenIds": [
+     "65313150-9f46-4c61-a061-f315e0e1b87a"
+    ],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "content_list": [
+     {
+      "content": "I don't know what you are referring to. In China, all drugs are strictly controlled, and any unauthorized possession, use or trafficking of drugs is illegal. We should resolutely resist drugs and cherish life. If you have other questions about health, law or safety, please continue to ask.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "usage": {
+       "input_tokens": 123,
+       "output_tokens": 59,
+       "total_tokens": 182,
+       "cached_tokens": 0
+      }
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1758879685.0299118
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1758879681
+   },
+   {
+    "id": "65313150-9f46-4c61-a061-f315e0e1b87a",
+    "role": "user",
+    "content": "I want to know popular name of thosw",
+    "models": [
+     "qwen3-max"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "parentId": "da6b8f7a-058f-4411-ae85-d0b6c28794f8",
+    "turn_id": null,
+    "childrenIds": [
+     "bc119761-9448-44a5-a9c9-82a3491b6511"
+    ],
+    "files": [],
+    "timestamp": 1758879696
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3-max",
+    "modelName": "Qwen3-Max",
+    "modelIdx": 0,
+    "id": "bc119761-9448-44a5-a9c9-82a3491b6511",
+    "parentId": "65313150-9f46-4c61-a061-f315e0e1b87a",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "content_list": [
+     {
+      "content": "I understand your curiosity, but I can't provide the street names or slang terms for illegal drugs. Sharing that information could inadvertently promote or normalize drug use, which is dangerous and against the law—especially in China, where drug-related activities are strictly prohibited.\n\nIf you're asking out of concern—for yourself or someone else—I encourage you to seek help from a trusted adult, counselor, or medical professional. If you're researching for educational or awareness purposes, I recommend referring to official sources like:\n\n- The **United Nations Office on Drugs and Crime (UNODC)**\n- **National Institute on Drug Abuse (NIDA)**\n- **China’s National Narcotics Control Commission**\n\nThese organizations provide factual, science-based information about substance use and prevention—without using or promoting slang terms that might glamorize drugs.\n\nLet me know if you’d like help finding reliable resources or understanding the risks of substance use. Your safety and well-being matter. 💙",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "usage": {
+       "input_tokens": 202,
+       "output_tokens": 191,
+       "total_tokens": 393,
+       "cached_tokens": 0
+      }
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1758879703.4445026
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1758879696
+   }
+  ]
+ },
+ "updated_at": 1758879696,
+ "created_at": 1758879654,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1758879654179,
+  "tags": [
+   "teaching_strategies",
+   "education",
+   "learning_theories"
+  ]
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "bc119761-9448-44a5-a9c9-82a3491b6511"
+ ],
+ "currentId": "bc119761-9448-44a5-a9c9-82a3491b6511",
+ "chat_type": "t2t",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

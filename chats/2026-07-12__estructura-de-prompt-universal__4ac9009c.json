@@ -1,0 +1,1154 @@
+{
+ "id": "4ac9009c-ff23-42de-894c-b5d241b84f26",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Estructura de Prompt Universal",
+ "chat": {
+  "history": {
+   "messages": {
+    "997a5b31-9226-48e7-a447-fcbb3c3c441b": {
+     "id": "997a5b31-9226-48e7-a447-fcbb3c3c441b",
+     "role": "user",
+     "content": "Contruye esqueleto arquitectura de prompt universal vacio Claro, la preparo. Sí. De hecho, una estructura fija suele dar resultados más consistentes. Algo así funcionaría: 1. Objetivo: editar la imagen de referencia, no recrearla desde cero.2. Identidad, prioridad máxima: conservar exactamente la identidad de la o las personas. No modificar rostro, proporciones, edad aparente, cabello o barba. 3. Referencias: usar exclusivamente las imágenes aportadas como referencia principal. La descripción textual solo complementa lo que la imagen no muestre bien. 4. Descripción de cada persona (si aplica). Persona A: ... Persona B: ...5. Transformación: especificar qué cambio quieres. Por ejemplo, estilo superhéroe, pintura, retrato corporativo. 6. Entorno: detallar lugar, hora, clima, arquitectura, fondo. 7. Vestuario: definir prendas, materiales, colores, accesorios. 8. Pose y composición: posición del cuerpo, dirección de la mirada, distancias, encuadre, orientación. 9. Iluminación: natural o de estudio, temperatura de color, sombras. 10. Estilo visual: fotorrealista, máxima fidelidad, alta resolución, texturas naturales, sin aspecto CGI. 11. Cámara: objetivo, profundidad de campo, relación de aspecto. 12. Detalles importantes: joyas, tatuajes, gafas, maquillaje. 13.",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "c85c5bc2-47d4-49a3-81da-c972457bea7d"
+     ],
+     "files": [],
+     "timestamp": 1783816851
+    },
+    "c85c5bc2-47d4-49a3-81da-c972457bea7d": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "c85c5bc2-47d4-49a3-81da-c972457bea7d",
+     "parentId": "997a5b31-9226-48e7-a447-fcbb3c3c441b",
+     "childrenIds": [
+      "77b27129-e8d5-4c1a-a2aa-3193a1e79d4c"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Constructing a cohesive framework",
+          "Completar el esquema estructurado con coherencia y fluidez"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am shaping a refined, adaptable structure that anticipates diverse user needs.  \nEach component is designed to harmonize with the next, ensuring clarity and scalability.  \nThe architecture evolves organically, balancing completeness with elegance.",
+          "Estoy finalizando la redacción del punto 13, asegurando que se alinee con el tono y formato de los anteriores.  \nMi enfoque consiste en mantener la claridad y organización del conjunto, respetando el patrón establecido.  \nEl resultado será un esquema completo, funcional y elegante para guiar procesos de creación o edición visual."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "c85c5bc2-47d4-49a3-81da-c972457bea7d",
+       "usage": {
+        "input_tokens": 876,
+        "output_tokens": 265,
+        "characters": 0,
+        "total_tokens": 1141,
+        "input_tokens_details": {
+         "text_tokens": 876
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 259,
+         "text_tokens": 265
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1783816857
+      },
+      {
+       "content": "Entendido. Aquí tienes el esqueleto completo de arquitectura de prompt universal:\n\n## Estructura de Prompt Universal para Edición de Imágenes\n\n**1. Objetivo:** \n[Especificar si es edición de imagen existente o generación desde cero]\n\n**2. Identidad (Prioridad Máxima):** \n[Conservar exactamente la identidad de las personas. No modificar rostro, proporciones, edad aparente, cabello o barba]\n\n**3. Referencias:** \n[Usar exclusivamente las imágenes aportadas como referencia principal. La descripción textual solo complementa lo que la imagen no muestre bien]\n\n**4. Descripción de Personas:**\n- Persona A: [detalles]\n- Persona B: [detalles]\n- [Agregar más si es necesario]\n\n**5. Transformación:** \n[Especificar el cambio deseado: estilo superhéroe, pintura, retrato corporativo, etc.]\n\n**6. Entorno:** \n[Lugar, hora del día, clima, arquitectura, fondo]\n\n**7. Vestuario:** \n[Prendas, materiales, colores, accesorios]\n\n**8. Pose y Composición:** \n[Posición del cuerpo, dirección de la mirada, distancias, encuadre, orientación]\n\n**9. Iluminación:** \n[Natural o de estudio, temperatura de color, dirección de sombras]\n\n**10. Estilo Visual:** \n[Fotorrealista, máxima fidelidad, alta resolución, texturas naturales, sin aspecto CGI]\n\n**11. Cámara:** \n[Tipo de objetivo, profundidad de campo, relación de aspecto]\n\n**12. Detalles Importantes:** \n[Joyería, tatuajes, gafas, maquillaje, marcas distintivas]\n\n**13. Restricciones y Negativos:** \n[Qué NO incluir: elementos a evitar, estilos no deseados, artefactos a prevenir]\n\n---\n\nEsta estructura te permite mantener consistencia y control total sobre cada aspecto de la generación o edición de imágenes. ¿Quieres que te muestre un ejemplo práctico de cómo rellenarla?",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "c85c5bc2-47d4-49a3-81da-c972457bea7d",
+       "usage": {
+        "input_tokens": 876,
+        "output_tokens": 700,
+        "characters": 0,
+        "total_tokens": 1576,
+        "input_tokens_details": {
+         "text_tokens": 876
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 259,
+         "text_tokens": 700
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1783816865
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1783816865.8456876
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1783816851
+    },
+    "77b27129-e8d5-4c1a-a2aa-3193a1e79d4c": {
+     "id": "77b27129-e8d5-4c1a-a2aa-3193a1e79d4c",
+     "role": "user",
+     "content": "Vamos a partir de que siempre va se des de una imagen ya existente una persona",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "c85c5bc2-47d4-49a3-81da-c972457bea7d",
+     "turn_id": null,
+     "childrenIds": [
+      "342b3208-3f86-406b-bddb-0d6ec8c30ee3"
+     ],
+     "files": [],
+     "timestamp": 1783816885
+    },
+    "342b3208-3f86-406b-bddb-0d6ec8c30ee3": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "342b3208-3f86-406b-bddb-0d6ec8c30ee3",
+     "parentId": "77b27129-e8d5-4c1a-a2aa-3193a1e79d4c",
+     "childrenIds": [
+      "fdeba46a-a3d6-480d-89e4-3821c6ecff99"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Adaptar el esqueleto del prompt universal basado en una imagen existente de una persona",
+          "Reestructurar el enfoque para centrarse exclusivamente en la edición sobre imagen existente"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "Estoy refinando la estructura del prompt para asegurar que siempre parta de una imagen real, eliminando cualquier suposición de generación desde cero.  \nEste enfoque permite mantener la coherencia visual y semántica, priorizando la fidelidad al rostro y características originales.  \nLa atención se centra en cómo transformar con elegancia los elementos visuales sin desvirtuar la identidad presente en la imagen inicial.",
+          "Estoy redefiniendo el propósito eliminando cualquier referencia a creación desde cero, asegurando que cada elemento del proceso responda a una intervención precisa sobre una imagen ya presente.  \nRefuerzo la identidad como núcleo fundamental, tratándola no como un atributo sino como el principio absoluto que guía cada modificación.  \nLas referencias y estructuras se ajustan con coherencia interna, priorizando especificidad y claridad en cada paso de edición."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "342b3208-3f86-406b-bddb-0d6ec8c30ee3",
+       "usage": {
+        "input_tokens": 2882,
+        "output_tokens": 146,
+        "characters": 0,
+        "total_tokens": 3028,
+        "input_tokens_details": {
+         "text_tokens": 2882
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 140,
+         "text_tokens": 146
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1783816891
+      },
+      {
+       "content": "Perfecto, entonces ajustamos el esqueleto para edición de imagen existente:\n\n## Estructura de Prompt Universal para Edición de Imagen Existente\n\n**1. Objetivo:** \nEditar la imagen de referencia manteniendo la identidad original\n\n**2. Identidad (Prioridad Absoluta):** \nConservar EXACTAMENTE la identidad de la persona. No modificar: rostro, proporciones faciales, edad aparente, estructura ósea, cabello, barba, marcas distintivas\n\n**3. Imagen Base:** \n[Describir brevemente la imagen de referencia: \"persona de pie en exterior\", \"retrato primer plano\", etc.]\n\n**4. Descripción de la Persona:** \n[Confirmar características visibles en la imagen base para asegurar coherencia]\n\n**5. Transformación Solicitada:** \n[Especificar el cambio: estilo superhéroe, pintura al óleo, retrato corporativo, ambientación histórica, etc.]\n\n**6. Entorno/Ambientación:** \n[Lugar, hora del día, clima, arquitectura, fondo - o indicar si se mantiene el entorno original]\n\n**7. Vestuario:** \n[Prendas, materiales, colores, accesorios - o indicar si se mantiene la vestimenta original]\n\n**8. Pose y Composición:** \n[Posición del cuerpo, dirección de la mirada, encuadre - o indicar si se mantiene la pose original]\n\n**9. Iluminación:** \n[Natural o de estudio, temperatura de color, dirección de sombras]\n\n**10. Estilo Visual:** \n[Fotorrealista, máxima fidelidad, alta resolución, texturas naturales, sin aspecto CGI]\n\n**11. Cámara:** \n[Tipo de objetivo, profundidad de campo, relación de aspecto]\n\n**12. Detalles Específicos:** \n[Joyería, tatuajes, gafas, maquillaje, elementos a añadir o mantener]\n\n**13. Restricciones:** \n[Qué NO modificar, elementos a evitar, artefactos a prevenir]\n\n---\n\nEsta estructura garantiza que la identidad se preserve mientras aplicas las transformaciones deseadas. ¿Quieres que te muestre cómo rellenarla con un caso práctico?",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "342b3208-3f86-406b-bddb-0d6ec8c30ee3",
+       "usage": {
+        "input_tokens": 2882,
+        "output_tokens": 605,
+        "characters": 0,
+        "total_tokens": 3487,
+        "input_tokens_details": {
+         "text_tokens": 2882
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 140,
+         "text_tokens": 605
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1783816898
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1783816898.9231317
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1783816885
+    },
+    "fdeba46a-a3d6-480d-89e4-3821c6ecff99": {
+     "id": "fdeba46a-a3d6-480d-89e4-3821c6ecff99",
+     "role": "user",
+     "content": "No creo que esa sea la escructura mas optimizable para gpt. Tu crees? En ingles mejor",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "342b3208-3f86-406b-bddb-0d6ec8c30ee3",
+     "turn_id": null,
+     "childrenIds": [
+      "d1cf0ecc-43e4-4509-9ad6-c3bd9e152bdf"
+     ],
+     "files": [],
+     "timestamp": 1783816954
+    },
+    "d1cf0ecc-43e4-4509-9ad6-c3bd9e152bdf": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "d1cf0ecc-43e4-4509-9ad6-c3bd9e152bdf",
+     "parentId": "fdeba46a-a3d6-480d-89e4-3821c6ecff99",
+     "childrenIds": [
+      "f2c9fc57-94cf-4e9f-8662-e93ae61cc004"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Refine the response to be clear and concise",
+          "Prioritize clarity and coherence in instruction design"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I focus on delivering precise, meaningful answers by distilling complex ideas into simple, natural language.  \nI prioritize clarity over completeness, ensuring each word serves a purpose.  \nMy goal is to communicate effectively without unnecessary elaboration.",
+          "I focus on establishing a clear anchor of identity first, ensuring the core concept is firmly grounded before introducing changes.  \nI then apply precise transformations, carefully sequencing each element to maintain logical flow and emphasis.  \nFinally, I refine the aesthetic with deliberate stylistic choices, ensuring harmony and intent across all layers."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "d1cf0ecc-43e4-4509-9ad6-c3bd9e152bdf",
+       "usage": {
+        "input_tokens": 3725,
+        "output_tokens": 193,
+        "characters": 0,
+        "total_tokens": 3918,
+        "input_tokens_details": {
+         "text_tokens": 3725
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 185,
+         "text_tokens": 193
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1783816960
+      },
+      {
+       "content": "Tienes razón, esa estructura es demasiado verbosa para GPT. Aquí va una versión optimizada en inglés:\n\n## Optimized Universal Prompt Structure\n\n**1. Identity Anchor (Highest Priority)**\nPreserve exact identity: facial features, proportions, age, hair, beard, distinctive marks\n\n**2. Base Image Reference**\n[Describe the source image briefly]\n\n**3. Core Transformation**\n[What to change: style, setting, outfit, etc.]\n\n**4. Visual Style**\n[Photorealistic, painterly, cinematic, etc. + quality specs]\n\n**5. Context Details**\n- Setting: [location, time, weather]\n- Lighting: [type, direction, temperature]\n- Camera: [lens, depth of field, aspect ratio]\n\n**6. Negative Constraints**\n[What to avoid: artifacts, style changes, unwanted elements]\n\n---\n\nMucho más compacta y directa. El modelo entiende mejor instrucciones jerárquicas y concisas. ¿Prefieres que te muestre un ejemplo práctico con esta estructura optimizada?",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "d1cf0ecc-43e4-4509-9ad6-c3bd9e152bdf",
+       "usage": {
+        "input_tokens": 3725,
+        "output_tokens": 416,
+        "characters": 0,
+        "total_tokens": 4141,
+        "input_tokens_details": {
+         "text_tokens": 3725
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 185,
+         "text_tokens": 416
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1783816964
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1783816964.2069068
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1783816954
+    },
+    "f2c9fc57-94cf-4e9f-8662-e93ae61cc004": {
+     "id": "f2c9fc57-94cf-4e9f-8662-e93ae61cc004",
+     "role": "user",
+     "content": "No",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "d1cf0ecc-43e4-4509-9ad6-c3bd9e152bdf",
+     "turn_id": null,
+     "childrenIds": [
+      "442bdd0f-e536-4779-aba9-497696cbc3d6"
+     ],
+     "files": [],
+     "timestamp": 1783816970
+    },
+    "442bdd0f-e536-4779-aba9-497696cbc3d6": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "442bdd0f-e536-4779-aba9-497696cbc3d6",
+     "parentId": "f2c9fc57-94cf-4e9f-8662-e93ae61cc004",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Rechazando la propuesta de ejemplo práctico",
+          "Proceeding with the user's preferred approach"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "Estoy ajustando mi enfoque para alinearme con las preferencias del usuario, priorizando una comunicación más intuitiva y menos directa.  \nEvalúo cómo mantener la esencia de la arquitectura de edición visual sin recurrir a ejemplos concretos.  \nMi objetivo es ofrecer un diálogo fluido que responda a su necesidad de autonomía y claridad.",
+          "I am aligning with the user’s clear preference to avoid examples, respecting their focus on structure and next steps.  \nI assess that they may wish to refine or expand upon the current framework, or shift attention to another aspect of the project.  \nI remain attentive to subtle cues for deeper collaboration without imposing unsolicited content."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "442bdd0f-e536-4779-aba9-497696cbc3d6",
+       "usage": {
+        "input_tokens": 3612,
+        "output_tokens": 171,
+        "characters": 0,
+        "total_tokens": 3783,
+        "input_tokens_details": {
+         "text_tokens": 3612
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 165,
+         "text_tokens": 171
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1783816975
+      },
+      {
+       "content": "Perfecto. ¿Qué quieres hacer ahora con esta estructura? ¿Quieres refinar alguna sección específica o prefieres aplicarla directamente a un caso real?",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "442bdd0f-e536-4779-aba9-497696cbc3d6",
+       "usage": {
+        "input_tokens": 3612,
+        "output_tokens": 200,
+        "characters": 0,
+        "total_tokens": 3812,
+        "input_tokens_details": {
+         "text_tokens": 3612
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 165,
+         "text_tokens": 200
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1783816976
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1783816976.2450645
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1783816970
+    }
+   },
+   "currentId": "442bdd0f-e536-4779-aba9-497696cbc3d6",
+   "currentResponseIds": [
+    "442bdd0f-e536-4779-aba9-497696cbc3d6"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.7-plus"
+  ],
+  "messages": [
+   {
+    "id": "997a5b31-9226-48e7-a447-fcbb3c3c441b",
+    "role": "user",
+    "content": "Contruye esqueleto arquitectura de prompt universal vacio Claro, la preparo. Sí. De hecho, una estructura fija suele dar resultados más consistentes. Algo así funcionaría: 1. Objetivo: editar la imagen de referencia, no recrearla desde cero.2. Identidad, prioridad máxima: conservar exactamente la identidad de la o las personas. No modificar rostro, proporciones, edad aparente, cabello o barba. 3. Referencias: usar exclusivamente las imágenes aportadas como referencia principal. La descripción textual solo complementa lo que la imagen no muestre bien. 4. Descripción de cada persona (si aplica). Persona A: ... Persona B: ...5. Transformación: especificar qué cambio quieres. Por ejemplo, estilo superhéroe, pintura, retrato corporativo. 6. Entorno: detallar lugar, hora, clima, arquitectura, fondo. 7. Vestuario: definir prendas, materiales, colores, accesorios. 8. Pose y composición: posición del cuerpo, dirección de la mirada, distancias, encuadre, orientación. 9. Iluminación: natural o de estudio, temperatura de color, sombras. 10. Estilo visual: fotorrealista, máxima fidelidad, alta resolución, texturas naturales, sin aspecto CGI. 11. Cámara: objetivo, profundidad de campo, relación de aspecto. 12. Detalles importantes: joyas, tatuajes, gafas, maquillaje. 13.",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "c85c5bc2-47d4-49a3-81da-c972457bea7d"
+    ],
+    "files": [],
+    "timestamp": 1783816851
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "c85c5bc2-47d4-49a3-81da-c972457bea7d",
+    "parentId": "997a5b31-9226-48e7-a447-fcbb3c3c441b",
+    "childrenIds": [
+     "77b27129-e8d5-4c1a-a2aa-3193a1e79d4c"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Constructing a cohesive framework",
+         "Completar el esquema estructurado con coherencia y fluidez"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am shaping a refined, adaptable structure that anticipates diverse user needs.  \nEach component is designed to harmonize with the next, ensuring clarity and scalability.  \nThe architecture evolves organically, balancing completeness with elegance.",
+         "Estoy finalizando la redacción del punto 13, asegurando que se alinee con el tono y formato de los anteriores.  \nMi enfoque consiste en mantener la claridad y organización del conjunto, respetando el patrón establecido.  \nEl resultado será un esquema completo, funcional y elegante para guiar procesos de creación o edición visual."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "c85c5bc2-47d4-49a3-81da-c972457bea7d",
+      "usage": {
+       "input_tokens": 876,
+       "output_tokens": 265,
+       "characters": 0,
+       "total_tokens": 1141,
+       "input_tokens_details": {
+        "text_tokens": 876
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 259,
+        "text_tokens": 265
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1783816857
+     },
+     {
+      "content": "Entendido. Aquí tienes el esqueleto completo de arquitectura de prompt universal:\n\n## Estructura de Prompt Universal para Edición de Imágenes\n\n**1. Objetivo:** \n[Especificar si es edición de imagen existente o generación desde cero]\n\n**2. Identidad (Prioridad Máxima):** \n[Conservar exactamente la identidad de las personas. No modificar rostro, proporciones, edad aparente, cabello o barba]\n\n**3. Referencias:** \n[Usar exclusivamente las imágenes aportadas como referencia principal. La descripción textual solo complementa lo que la imagen no muestre bien]\n\n**4. Descripción de Personas:**\n- Persona A: [detalles]\n- Persona B: [detalles]\n- [Agregar más si es necesario]\n\n**5. Transformación:** \n[Especificar el cambio deseado: estilo superhéroe, pintura, retrato corporativo, etc.]\n\n**6. Entorno:** \n[Lugar, hora del día, clima, arquitectura, fondo]\n\n**7. Vestuario:** \n[Prendas, materiales, colores, accesorios]\n\n**8. Pose y Composición:** \n[Posición del cuerpo, dirección de la mirada, distancias, encuadre, orientación]\n\n**9. Iluminación:** \n[Natural o de estudio, temperatura de color, dirección de sombras]\n\n**10. Estilo Visual:** \n[Fotorrealista, máxima fidelidad, alta resolución, texturas naturales, sin aspecto CGI]\n\n**11. Cámara:** \n[Tipo de objetivo, profundidad de campo, relación de aspecto]\n\n**12. Detalles Importantes:** \n[Joyería, tatuajes, gafas, maquillaje, marcas distintivas]\n\n**13. Restricciones y Negativos:** \n[Qué NO incluir: elementos a evitar, estilos no deseados, artefactos a prevenir]\n\n---\n\nEsta estructura te permite mantener consistencia y control total sobre cada aspecto de la generación o edición de imágenes. ¿Quieres que te muestre un ejemplo práctico de cómo rellenarla?",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "c85c5bc2-47d4-49a3-81da-c972457bea7d",
+      "usage": {
+       "input_tokens": 876,
+       "output_tokens": 700,
+       "characters": 0,
+       "total_tokens": 1576,
+       "input_tokens_details": {
+        "text_tokens": 876
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 259,
+        "text_tokens": 700
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1783816865
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1783816865.8456876
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1783816851
+   },
+   {
+    "id": "77b27129-e8d5-4c1a-a2aa-3193a1e79d4c",
+    "role": "user",
+    "content": "Vamos a partir de que siempre va se des de una imagen ya existente una persona",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "c85c5bc2-47d4-49a3-81da-c972457bea7d",
+    "turn_id": null,
+    "childrenIds": [
+     "342b3208-3f86-406b-bddb-0d6ec8c30ee3"
+    ],
+    "files": [],
+    "timestamp": 1783816885
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "342b3208-3f86-406b-bddb-0d6ec8c30ee3",
+    "parentId": "77b27129-e8d5-4c1a-a2aa-3193a1e79d4c",
+    "childrenIds": [
+     "fdeba46a-a3d6-480d-89e4-3821c6ecff99"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Adaptar el esqueleto del prompt universal basado en una imagen existente de una persona",
+         "Reestructurar el enfoque para centrarse exclusivamente en la edición sobre imagen existente"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "Estoy refinando la estructura del prompt para asegurar que siempre parta de una imagen real, eliminando cualquier suposición de generación desde cero.  \nEste enfoque permite mantener la coherencia visual y semántica, priorizando la fidelidad al rostro y características originales.  \nLa atención se centra en cómo transformar con elegancia los elementos visuales sin desvirtuar la identidad presente en la imagen inicial.",
+         "Estoy redefiniendo el propósito eliminando cualquier referencia a creación desde cero, asegurando que cada elemento del proceso responda a una intervención precisa sobre una imagen ya presente.  \nRefuerzo la identidad como núcleo fundamental, tratándola no como un atributo sino como el principio absoluto que guía cada modificación.  \nLas referencias y estructuras se ajustan con coherencia interna, priorizando especificidad y claridad en cada paso de edición."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "342b3208-3f86-406b-bddb-0d6ec8c30ee3",
+      "usage": {
+       "input_tokens": 2882,
+       "output_tokens": 146,
+       "characters": 0,
+       "total_tokens": 3028,
+       "input_tokens_details": {
+        "text_tokens": 2882
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 140,
+        "text_tokens": 146
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1783816891
+     },
+     {
+      "content": "Perfecto, entonces ajustamos el esqueleto para edición de imagen existente:\n\n## Estructura de Prompt Universal para Edición de Imagen Existente\n\n**1. Objetivo:** \nEditar la imagen de referencia manteniendo la identidad original\n\n**2. Identidad (Prioridad Absoluta):** \nConservar EXACTAMENTE la identidad de la persona. No modificar: rostro, proporciones faciales, edad aparente, estructura ósea, cabello, barba, marcas distintivas\n\n**3. Imagen Base:** \n[Describir brevemente la imagen de referencia: \"persona de pie en exterior\", \"retrato primer plano\", etc.]\n\n**4. Descripción de la Persona:** \n[Confirmar características visibles en la imagen base para asegurar coherencia]\n\n**5. Transformación Solicitada:** \n[Especificar el cambio: estilo superhéroe, pintura al óleo, retrato corporativo, ambientación histórica, etc.]\n\n**6. Entorno/Ambientación:** \n[Lugar, hora del día, clima, arquitectura, fondo - o indicar si se mantiene el entorno original]\n\n**7. Vestuario:** \n[Prendas, materiales, colores, accesorios - o indicar si se mantiene la vestimenta original]\n\n**8. Pose y Composición:** \n[Posición del cuerpo, dirección de la mirada, encuadre - o indicar si se mantiene la pose original]\n\n**9. Iluminación:** \n[Natural o de estudio, temperatura de color, dirección de sombras]\n\n**10. Estilo Visual:** \n[Fotorrealista, máxima fidelidad, alta resolución, texturas naturales, sin aspecto CGI]\n\n**11. Cámara:** \n[Tipo de objetivo, profundidad de campo, relación de aspecto]\n\n**12. Detalles Específicos:** \n[Joyería, tatuajes, gafas, maquillaje, elementos a añadir o mantener]\n\n**13. Restricciones:** \n[Qué NO modificar, elementos a evitar, artefactos a prevenir]\n\n---\n\nEsta estructura garantiza que la identidad se preserve mientras aplicas las transformaciones deseadas. ¿Quieres que te muestre cómo rellenarla con un caso práctico?",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "342b3208-3f86-406b-bddb-0d6ec8c30ee3",
+      "usage": {
+       "input_tokens": 2882,
+       "output_tokens": 605,
+       "characters": 0,
+       "total_tokens": 3487,
+       "input_tokens_details": {
+        "text_tokens": 2882
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 140,
+        "text_tokens": 605
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1783816898
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1783816898.9231317
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1783816885
+   },
+   {
+    "id": "fdeba46a-a3d6-480d-89e4-3821c6ecff99",
+    "role": "user",
+    "content": "No creo que esa sea la escructura mas optimizable para gpt. Tu crees? En ingles mejor",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "342b3208-3f86-406b-bddb-0d6ec8c30ee3",
+    "turn_id": null,
+    "childrenIds": [
+     "d1cf0ecc-43e4-4509-9ad6-c3bd9e152bdf"
+    ],
+    "files": [],
+    "timestamp": 1783816954
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "d1cf0ecc-43e4-4509-9ad6-c3bd9e152bdf",
+    "parentId": "fdeba46a-a3d6-480d-89e4-3821c6ecff99",
+    "childrenIds": [
+     "f2c9fc57-94cf-4e9f-8662-e93ae61cc004"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Refine the response to be clear and concise",
+         "Prioritize clarity and coherence in instruction design"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I focus on delivering precise, meaningful answers by distilling complex ideas into simple, natural language.  \nI prioritize clarity over completeness, ensuring each word serves a purpose.  \nMy goal is to communicate effectively without unnecessary elaboration.",
+         "I focus on establishing a clear anchor of identity first, ensuring the core concept is firmly grounded before introducing changes.  \nI then apply precise transformations, carefully sequencing each element to maintain logical flow and emphasis.  \nFinally, I refine the aesthetic with deliberate stylistic choices, ensuring harmony and intent across all layers."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "d1cf0ecc-43e4-4509-9ad6-c3bd9e152bdf",
+      "usage": {
+       "input_tokens": 3725,
+       "output_tokens": 193,
+       "characters": 0,
+       "total_tokens": 3918,
+       "input_tokens_details": {
+        "text_tokens": 3725
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 185,
+        "text_tokens": 193
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1783816960
+     },
+     {
+      "content": "Tienes razón, esa estructura es demasiado verbosa para GPT. Aquí va una versión optimizada en inglés:\n\n## Optimized Universal Prompt Structure\n\n**1. Identity Anchor (Highest Priority)**\nPreserve exact identity: facial features, proportions, age, hair, beard, distinctive marks\n\n**2. Base Image Reference**\n[Describe the source image briefly]\n\n**3. Core Transformation**\n[What to change: style, setting, outfit, etc.]\n\n**4. Visual Style**\n[Photorealistic, painterly, cinematic, etc. + quality specs]\n\n**5. Context Details**\n- Setting: [location, time, weather]\n- Lighting: [type, direction, temperature]\n- Camera: [lens, depth of field, aspect ratio]\n\n**6. Negative Constraints**\n[What to avoid: artifacts, style changes, unwanted elements]\n\n---\n\nMucho más compacta y directa. El modelo entiende mejor instrucciones jerárquicas y concisas. ¿Prefieres que te muestre un ejemplo práctico con esta estructura optimizada?",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "d1cf0ecc-43e4-4509-9ad6-c3bd9e152bdf",
+      "usage": {
+       "input_tokens": 3725,
+       "output_tokens": 416,
+       "characters": 0,
+       "total_tokens": 4141,
+       "input_tokens_details": {
+        "text_tokens": 3725
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 185,
+        "text_tokens": 416
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1783816964
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1783816964.2069068
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1783816954
+   },
+   {
+    "id": "f2c9fc57-94cf-4e9f-8662-e93ae61cc004",
+    "role": "user",
+    "content": "No",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "d1cf0ecc-43e4-4509-9ad6-c3bd9e152bdf",
+    "turn_id": null,
+    "childrenIds": [
+     "442bdd0f-e536-4779-aba9-497696cbc3d6"
+    ],
+    "files": [],
+    "timestamp": 1783816970
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "442bdd0f-e536-4779-aba9-497696cbc3d6",
+    "parentId": "f2c9fc57-94cf-4e9f-8662-e93ae61cc004",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Rechazando la propuesta de ejemplo práctico",
+         "Proceeding with the user's preferred approach"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "Estoy ajustando mi enfoque para alinearme con las preferencias del usuario, priorizando una comunicación más intuitiva y menos directa.  \nEvalúo cómo mantener la esencia de la arquitectura de edición visual sin recurrir a ejemplos concretos.  \nMi objetivo es ofrecer un diálogo fluido que responda a su necesidad de autonomía y claridad.",
+         "I am aligning with the user’s clear preference to avoid examples, respecting their focus on structure and next steps.  \nI assess that they may wish to refine or expand upon the current framework, or shift attention to another aspect of the project.  \nI remain attentive to subtle cues for deeper collaboration without imposing unsolicited content."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "442bdd0f-e536-4779-aba9-497696cbc3d6",
+      "usage": {
+       "input_tokens": 3612,
+       "output_tokens": 171,
+       "characters": 0,
+       "total_tokens": 3783,
+       "input_tokens_details": {
+        "text_tokens": 3612
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 165,
+        "text_tokens": 171
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1783816975
+     },
+     {
+      "content": "Perfecto. ¿Qué quieres hacer ahora con esta estructura? ¿Quieres refinar alguna sección específica o prefieres aplicarla directamente a un caso real?",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "442bdd0f-e536-4779-aba9-497696cbc3d6",
+      "usage": {
+       "input_tokens": 3612,
+       "output_tokens": 200,
+       "characters": 0,
+       "total_tokens": 3812,
+       "input_tokens_details": {
+        "text_tokens": 3612
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 165,
+        "text_tokens": 200
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1783816976
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1783816976.2450645
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1783816970
+   }
+  ]
+ },
+ "updated_at": 1783816970,
+ "created_at": 1783816850,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1783816849428
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "442bdd0f-e536-4779-aba9-497696cbc3d6"
+ ],
+ "currentId": "442bdd0f-e536-4779-aba9-497696cbc3d6",
+ "chat_type": "t2t",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

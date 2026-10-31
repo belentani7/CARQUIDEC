@@ -1,0 +1,736 @@
+{
+ "id": "614e3ed0-6002-46a1-a25d-e69d62651639",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Generador de Escenas Multiplano",
+ "chat": {
+  "history": {
+   "messages": {
+    "53b3688b-f9d9-4883-b902-942c4f22fd40": {
+     "id": "53b3688b-f9d9-4883-b902-942c4f22fd40",
+     "role": "user",
+     "content": "Yo me estoy planteando la siguiente cosa es muy difícil de generar escenas con EH en en en con ella porque primero que se generan escenas de 5 a 8 segundos y digamos que yo queremos eh ejecutar una escena de yo que sé 30 segundos 20 segundos y poco en planos diferentes entonces eh como es un poco complicado quisiera eh eh eh crear una herramienta completa pero al mes al mismo tiempo muy fácil que generara a la vez eh digamos así con un guión eh y todavía no está desarrollada la idea pero inténtalo tú que ponemos digamos así una foto una descripción de los diferentes escenarios o sea escenas eh eh planos que habrá no enfoques y que cada una a la vez al mismo tiempo pues genere esas escenas al mismo tiempo en la misma plataforma que yo me imagino que se puede simplemente abrir varias páginas y generar ahí a la vez esas edades escenas que luego se van a juntar y va a ser o va a tener una contraseña continuidad para comprar una escena digamos yo que sé de entre 30 segundos de un golpe",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "f844c15a-91ac-4ab9-be60-a44bf73a9c7b"
+     ],
+     "files": [],
+     "timestamp": 1783814740
+    },
+    "f844c15a-91ac-4ab9-be60-a44bf73a9c7b": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "f844c15a-91ac-4ab9-be60-a44bf73a9c7b",
+     "parentId": "53b3688b-f9d9-4883-b902-942c4f22fd40",
+     "childrenIds": [
+      "398ea913-e66a-4942-90a5-9250b2b3359a"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Generating video content with AI involves navigating inherent constraints in clip duration while striving to compose longer, cohesive scenes.",
+          "Explorando la concepción de una herramienta narrativa integrada"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am assessing how to seamlessly integrate multiple short clips into a unified narrative flow.  \nI consider transitions, visual continuity, and spatial coherence across different camera angles and shots.  \nMy goal is to craft a natural, immersive experience despite the limitations of individual segments.",
+          "Estoy conceptualizando un entorno creativo donde las ideas se transforman en secuencias visuales coherentes, partiendo de un guion estructurado como base.  \nImagine un flujo natural que genera múltiples planos simultáneamente, manteniendo el hilo narrativo y emocional entre escenas.  \nTodo converge en una sola pieza cinematográfica fluida, donde la continuidad no es una exigencia sino una consecuencia orgánica del diseño."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "f844c15a-91ac-4ab9-be60-a44bf73a9c7b",
+       "usage": {
+        "input_tokens": 790,
+        "output_tokens": 222,
+        "characters": 0,
+        "total_tokens": 1012,
+        "input_tokens_details": {
+         "text_tokens": 790
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 214,
+         "text_tokens": 222
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1783814746
+      },
+      {
+       "content": "Entiendo perfectamente tu desafío. Quieres crear una herramienta que automatice la generación de videos más largos manteniendo continuidad visual y narrativa, trabajando con las limitaciones actuales de 5-8 segundos por clip.\n\nTe propongo esta estructura conceptual para tu herramienta:\n\n## **Arquitectura de la Herramienta**\n\n**1. Módulo de Guión Visual**\n- Editor de escenas donde defines:\n  - Duración total del video (ej: 30 segundos)\n  - Lista de planos/escenas con duración específica\n  - Transiciones entre planos\n  - Descripción detallada de cada escena\n\n**2. Sistema de Generación Paralela**\n- Genera simultáneamente todos los clips necesarios\n- Mantiene un \"style seed\" o referencia visual compartida\n- Usa la misma imagen de referencia/personaje para todos los clips\n\n**3. Control de Continuidad**\n- Base de datos de prompts optimizados\n- Sistema de \"character sheets\" (hojas de personaje)\n- Referencias de entorno/escenario consistentes\n- Paleta de colores y estilo visual unificado\n\n**4. Flujo de Trabajo Propuesto**\n```\nGuión → Desglose de planos → Generación paralela → Edición automática → Exportación\n```\n\n## **Implementación Práctica**\n\n¿Te gustaría que te ayude a:\n1. Diseñar la interfaz de usuario para el editor de guión?\n2. Crear un sistema de prompts optimizados para mantener continuidad?\n3. Definir el flujo técnico de generación paralela?\n\n¿Qué aspecto quieres que desarrollemos primero?",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "f844c15a-91ac-4ab9-be60-a44bf73a9c7b",
+       "usage": {
+        "input_tokens": 790,
+        "output_tokens": 565,
+        "characters": 0,
+        "total_tokens": 1355,
+        "input_tokens_details": {
+         "text_tokens": 790
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 214,
+         "text_tokens": 565
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1783814752
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1783814753.3130414
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1783814740
+    },
+    "398ea913-e66a-4942-90a5-9250b2b3359a": {
+     "id": "398ea913-e66a-4942-90a5-9250b2b3359a",
+     "role": "user",
+     "content": "Vale la foto de las siluetas yo necesito que la siluetas sean diversas porque habrán hombres mujeres de cabello largo en fin de todos los estilos y luego en el medio estaré yo si visual y hay que haber un burbuja mega super detalle en lo que es la estética de esos mensajes y lo que dice y adaptado a mi intención me entiendes y en fin yo quiero ahora solamente el proms de la foto de los eh maniquís",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "f844c15a-91ac-4ab9-be60-a44bf73a9c7b",
+     "turn_id": null,
+     "childrenIds": [
+      "03aa508a-f458-40d0-973b-316a20455edb"
+     ],
+     "files": [],
+     "timestamp": 1783814824
+    },
+    "03aa508a-f458-40d0-973b-316a20455edb": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "03aa508a-f458-40d0-973b-316a20455edb",
+     "parentId": "398ea913-e66a-4942-90a5-9250b2b3359a",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Creating a visual representation that reflects diversity through silhouettes and mannequins",
+          "Crafting a visual representation that centers the user’s presence through symbolic silhouettes",
+          "Generate a visual composition centered on the user, framed by diverse silhouettes representing varied identities and styles."
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am envisioning a composition where figures of varied genders, hair lengths, and stylistic expressions are rendered in silhouette form  \nEach shape carries subtle distinctions in posture and outline to convey individuality while maintaining a unified aesthetic  \nThe overall scene aims to celebrate human variety through minimalist yet expressive forms",
+          "I am envisioning a composition where the user's identity is subtly yet powerfully affirmed through stylized mannequins or silhouettes positioned at the core  \nEach figure is rendered with meticulous attention to form and atmosphere, reflecting a narrative depth tied to their expressed intention  \nThe aesthetic of the scene emerges as a layered, immersive bubble—rich in tone, texture, and meaning—anchored in their inner vision",
+          "I envision a dynamic arrangement of mannequins in distinct postures and forms, each embodying unique expressions of gender, hair length, and cultural flair.  \nAt the core, the user stands as a focal point, surrounded by these silhouettes that reflect inclusivity and individuality.  \nA detailed, floating bubble emerges near the center, intricately detailing the aesthetic principles behind message design and visual communication."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "03aa508a-f458-40d0-973b-316a20455edb",
+       "usage": {
+        "input_tokens": 3275,
+        "output_tokens": 104,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 1510,
+         "text_tokens": 1765
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        },
+        "total_tokens": 3379,
+        "output_tokens_details": {
+         "reasoning_tokens": 91,
+         "text_tokens": 13
+        },
+        "image_tokens": 1510
+       },
+       "timestamp": 1783814831
+      },
+      {
+       "content": "",
+       "phase": "image_gen_tool",
+       "status": "finished",
+       "extra": {
+        "display_position": "answer",
+        "image_list": [
+         {
+          "image": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/image_gen/03aa508a-f458-40d0-973b-316a20455edb/1783814839.png?key=[SECRETO_REDACTADO]"
+         }
+        ],
+        "tool_result": [
+         {
+          "image": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/614e3ed0-6002-46a1-a25d-e69d62651639/12345135c-93f7-404a-9d1b-9c19f943f6d6.png?key=[SECRETO_REDACTADO]"
+         }
+        ]
+       },
+       "role": "function",
+       "name": "image_gen",
+       "function_id": "round_0_call_247cd804217749648cb30cd3",
+       "function_call": {
+        "name": "image_gen",
+        "arguments": "{\"prompt\": \"A diverse group of mannequin silhouettes arranged in a semicircle, including men, women, people with long hair, short hair, different body types and styles, all as elegant dark silhouettes against a gradient background. In the center stands a highlighted figure representing the creator/user, slightly more detailed and illuminated. Above the group, there is a large detailed speech bubble or infographic bubble with intricate design showing aesthetic elements of messaging, typography, visual communication symbols, and creative design elements. The overall composition is modern, artistic, and professional with a dark sophisticated color palette with accent colors highlighting the central figure.\"}"
+       },
+       "response_id": "03aa508a-f458-40d0-973b-316a20455edb",
+       "usage": {}
+      },
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Image generated as requested"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I have successfully created the visual based on your prompt, featuring diverse silhouettes centered around a detailed bubble that captures message aesthetics.  \nThe composition reflects your vision with careful attention to form and symbolic detail.  \nWould you like to refine any elements or proceed with additional features for your tool?"
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "03aa508a-f458-40d0-973b-316a20455edb",
+       "timestamp": 1783814844,
+       "usage": {
+        "input_tokens": 3275,
+        "output_tokens": 104,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 1510,
+         "text_tokens": 1765
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        },
+        "total_tokens": 3379,
+        "output_tokens_details": {
+         "reasoning_tokens": 91,
+         "text_tokens": 13
+        },
+        "image_tokens": 1510
+       }
+      },
+      {
+       "content": "¡Listo! Aquí tienes la imagen generada con las siluetas diversas de maniquíes representando diferentes tipos de personas (hombres, mujeres, diferentes estilos de cabello y cuerpos), con la figura central destacada e iluminada, y la burbuja detallada con elementos estéticos de mensajería y comunicación visual.\n\n¿Qué te parece el resultado? ¿Quieres que ajuste algo en la imagen o prefieres que avancemos con otro aspecto de tu herramienta de generación de video?",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "03aa508a-f458-40d0-973b-316a20455edb",
+       "usage": {
+        "input_tokens": 3275,
+        "output_tokens": 197,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 1510,
+         "text_tokens": 1765
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        },
+        "total_tokens": 3472,
+        "output_tokens_details": {
+         "reasoning_tokens": 91,
+         "text_tokens": 106
+        },
+        "image_tokens": 1510
+       },
+       "timestamp": 1783814845
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1783814846.022801
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1783814824
+    }
+   },
+   "currentId": "03aa508a-f458-40d0-973b-316a20455edb",
+   "currentResponseIds": [
+    "03aa508a-f458-40d0-973b-316a20455edb"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.7-plus"
+  ],
+  "messages": [
+   {
+    "id": "53b3688b-f9d9-4883-b902-942c4f22fd40",
+    "role": "user",
+    "content": "Yo me estoy planteando la siguiente cosa es muy difícil de generar escenas con EH en en en con ella porque primero que se generan escenas de 5 a 8 segundos y digamos que yo queremos eh ejecutar una escena de yo que sé 30 segundos 20 segundos y poco en planos diferentes entonces eh como es un poco complicado quisiera eh eh eh crear una herramienta completa pero al mes al mismo tiempo muy fácil que generara a la vez eh digamos así con un guión eh y todavía no está desarrollada la idea pero inténtalo tú que ponemos digamos así una foto una descripción de los diferentes escenarios o sea escenas eh eh planos que habrá no enfoques y que cada una a la vez al mismo tiempo pues genere esas escenas al mismo tiempo en la misma plataforma que yo me imagino que se puede simplemente abrir varias páginas y generar ahí a la vez esas edades escenas que luego se van a juntar y va a ser o va a tener una contraseña continuidad para comprar una escena digamos yo que sé de entre 30 segundos de un golpe",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "f844c15a-91ac-4ab9-be60-a44bf73a9c7b"
+    ],
+    "files": [],
+    "timestamp": 1783814740
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "f844c15a-91ac-4ab9-be60-a44bf73a9c7b",
+    "parentId": "53b3688b-f9d9-4883-b902-942c4f22fd40",
+    "childrenIds": [
+     "398ea913-e66a-4942-90a5-9250b2b3359a"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Generating video content with AI involves navigating inherent constraints in clip duration while striving to compose longer, cohesive scenes.",
+         "Explorando la concepción de una herramienta narrativa integrada"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am assessing how to seamlessly integrate multiple short clips into a unified narrative flow.  \nI consider transitions, visual continuity, and spatial coherence across different camera angles and shots.  \nMy goal is to craft a natural, immersive experience despite the limitations of individual segments.",
+         "Estoy conceptualizando un entorno creativo donde las ideas se transforman en secuencias visuales coherentes, partiendo de un guion estructurado como base.  \nImagine un flujo natural que genera múltiples planos simultáneamente, manteniendo el hilo narrativo y emocional entre escenas.  \nTodo converge en una sola pieza cinematográfica fluida, donde la continuidad no es una exigencia sino una consecuencia orgánica del diseño."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "f844c15a-91ac-4ab9-be60-a44bf73a9c7b",
+      "usage": {
+       "input_tokens": 790,
+       "output_tokens": 222,
+       "characters": 0,
+       "total_tokens": 1012,
+       "input_tokens_details": {
+        "text_tokens": 790
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 214,
+        "text_tokens": 222
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1783814746
+     },
+     {
+      "content": "Entiendo perfectamente tu desafío. Quieres crear una herramienta que automatice la generación de videos más largos manteniendo continuidad visual y narrativa, trabajando con las limitaciones actuales de 5-8 segundos por clip.\n\nTe propongo esta estructura conceptual para tu herramienta:\n\n## **Arquitectura de la Herramienta**\n\n**1. Módulo de Guión Visual**\n- Editor de escenas donde defines:\n  - Duración total del video (ej: 30 segundos)\n  - Lista de planos/escenas con duración específica\n  - Transiciones entre planos\n  - Descripción detallada de cada escena\n\n**2. Sistema de Generación Paralela**\n- Genera simultáneamente todos los clips necesarios\n- Mantiene un \"style seed\" o referencia visual compartida\n- Usa la misma imagen de referencia/personaje para todos los clips\n\n**3. Control de Continuidad**\n- Base de datos de prompts optimizados\n- Sistema de \"character sheets\" (hojas de personaje)\n- Referencias de entorno/escenario consistentes\n- Paleta de colores y estilo visual unificado\n\n**4. Flujo de Trabajo Propuesto**\n```\nGuión → Desglose de planos → Generación paralela → Edición automática → Exportación\n```\n\n## **Implementación Práctica**\n\n¿Te gustaría que te ayude a:\n1. Diseñar la interfaz de usuario para el editor de guión?\n2. Crear un sistema de prompts optimizados para mantener continuidad?\n3. Definir el flujo técnico de generación paralela?\n\n¿Qué aspecto quieres que desarrollemos primero?",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "f844c15a-91ac-4ab9-be60-a44bf73a9c7b",
+      "usage": {
+       "input_tokens": 790,
+       "output_tokens": 565,
+       "characters": 0,
+       "total_tokens": 1355,
+       "input_tokens_details": {
+        "text_tokens": 790
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 214,
+        "text_tokens": 565
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1783814752
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1783814753.3130414
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1783814740
+   },
+   {
+    "id": "398ea913-e66a-4942-90a5-9250b2b3359a",
+    "role": "user",
+    "content": "Vale la foto de las siluetas yo necesito que la siluetas sean diversas porque habrán hombres mujeres de cabello largo en fin de todos los estilos y luego en el medio estaré yo si visual y hay que haber un burbuja mega super detalle en lo que es la estética de esos mensajes y lo que dice y adaptado a mi intención me entiendes y en fin yo quiero ahora solamente el proms de la foto de los eh maniquís",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "f844c15a-91ac-4ab9-be60-a44bf73a9c7b",
+    "turn_id": null,
+    "childrenIds": [
+     "03aa508a-f458-40d0-973b-316a20455edb"
+    ],
+    "files": [],
+    "timestamp": 1783814824
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "03aa508a-f458-40d0-973b-316a20455edb",
+    "parentId": "398ea913-e66a-4942-90a5-9250b2b3359a",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Creating a visual representation that reflects diversity through silhouettes and mannequins",
+         "Crafting a visual representation that centers the user’s presence through symbolic silhouettes",
+         "Generate a visual composition centered on the user, framed by diverse silhouettes representing varied identities and styles."
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am envisioning a composition where figures of varied genders, hair lengths, and stylistic expressions are rendered in silhouette form  \nEach shape carries subtle distinctions in posture and outline to convey individuality while maintaining a unified aesthetic  \nThe overall scene aims to celebrate human variety through minimalist yet expressive forms",
+         "I am envisioning a composition where the user's identity is subtly yet powerfully affirmed through stylized mannequins or silhouettes positioned at the core  \nEach figure is rendered with meticulous attention to form and atmosphere, reflecting a narrative depth tied to their expressed intention  \nThe aesthetic of the scene emerges as a layered, immersive bubble—rich in tone, texture, and meaning—anchored in their inner vision",
+         "I envision a dynamic arrangement of mannequins in distinct postures and forms, each embodying unique expressions of gender, hair length, and cultural flair.  \nAt the core, the user stands as a focal point, surrounded by these silhouettes that reflect inclusivity and individuality.  \nA detailed, floating bubble emerges near the center, intricately detailing the aesthetic principles behind message design and visual communication."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "03aa508a-f458-40d0-973b-316a20455edb",
+      "usage": {
+       "input_tokens": 3275,
+       "output_tokens": 104,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 1510,
+        "text_tokens": 1765
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       },
+       "total_tokens": 3379,
+       "output_tokens_details": {
+        "reasoning_tokens": 91,
+        "text_tokens": 13
+       },
+       "image_tokens": 1510
+      },
+      "timestamp": 1783814831
+     },
+     {
+      "content": "",
+      "phase": "image_gen_tool",
+      "status": "finished",
+      "extra": {
+       "display_position": "answer",
+       "image_list": [
+        {
+         "image": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/image_gen/03aa508a-f458-40d0-973b-316a20455edb/1783814839.png?key=[SECRETO_REDACTADO]"
+        }
+       ],
+       "tool_result": [
+        {
+         "image": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/614e3ed0-6002-46a1-a25d-e69d62651639/12345135c-93f7-404a-9d1b-9c19f943f6d6.png?key=[SECRETO_REDACTADO]"
+        }
+       ]
+      },
+      "role": "function",
+      "name": "image_gen",
+      "function_id": "round_0_call_247cd804217749648cb30cd3",
+      "function_call": {
+       "name": "image_gen",
+       "arguments": "{\"prompt\": \"A diverse group of mannequin silhouettes arranged in a semicircle, including men, women, people with long hair, short hair, different body types and styles, all as elegant dark silhouettes against a gradient background. In the center stands a highlighted figure representing the creator/user, slightly more detailed and illuminated. Above the group, there is a large detailed speech bubble or infographic bubble with intricate design showing aesthetic elements of messaging, typography, visual communication symbols, and creative design elements. The overall composition is modern, artistic, and professional with a dark sophisticated color palette with accent colors highlighting the central figure.\"}"
+      },
+      "response_id": "03aa508a-f458-40d0-973b-316a20455edb",
+      "usage": {}
+     },
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Image generated as requested"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I have successfully created the visual based on your prompt, featuring diverse silhouettes centered around a detailed bubble that captures message aesthetics.  \nThe composition reflects your vision with careful attention to form and symbolic detail.  \nWould you like to refine any elements or proceed with additional features for your tool?"
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "03aa508a-f458-40d0-973b-316a20455edb",
+      "timestamp": 1783814844,
+      "usage": {
+       "input_tokens": 3275,
+       "output_tokens": 104,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 1510,
+        "text_tokens": 1765
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       },
+       "total_tokens": 3379,
+       "output_tokens_details": {
+        "reasoning_tokens": 91,
+        "text_tokens": 13
+       },
+       "image_tokens": 1510
+      }
+     },
+     {
+      "content": "¡Listo! Aquí tienes la imagen generada con las siluetas diversas de maniquíes representando diferentes tipos de personas (hombres, mujeres, diferentes estilos de cabello y cuerpos), con la figura central destacada e iluminada, y la burbuja detallada con elementos estéticos de mensajería y comunicación visual.\n\n¿Qué te parece el resultado? ¿Quieres que ajuste algo en la imagen o prefieres que avancemos con otro aspecto de tu herramienta de generación de video?",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "03aa508a-f458-40d0-973b-316a20455edb",
+      "usage": {
+       "input_tokens": 3275,
+       "output_tokens": 197,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 1510,
+        "text_tokens": 1765
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       },
+       "total_tokens": 3472,
+       "output_tokens_details": {
+        "reasoning_tokens": 91,
+        "text_tokens": 106
+       },
+       "image_tokens": 1510
+      },
+      "timestamp": 1783814845
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1783814846.022801
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1783814824
+   }
+  ]
+ },
+ "updated_at": 1783814824,
+ "created_at": 1783814740,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1783814738576
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "03aa508a-f458-40d0-973b-316a20455edb"
+ ],
+ "currentId": "03aa508a-f458-40d0-973b-316a20455edb",
+ "chat_type": "t2t",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

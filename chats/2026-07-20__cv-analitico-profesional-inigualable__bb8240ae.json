@@ -1,0 +1,314 @@
+{
+ "id": "bb8240ae-d122-4b06-a730-ba55f3033f5e",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "CV Analítico Profesional Inigualable",
+ "chat": {
+  "history": {
+   "messages": {
+    "366f6edb-c436-4046-a440-199b75ed8511": {
+     "id": "366f6edb-c436-4046-a440-199b75ed8511",
+     "role": "user",
+     "content": "Imagina que unificas un monton de documentos relatoruos comentarios archivos y quieres que claude AI analize todo interprete las pasacidades profesionales, academicas, psicologias, tecnologicas que el usuario denota que cree un documento extenso unficsndo y haciendo analisis de todo ese matearial y por informacion que denota. Que haga un cv otro es. Estudie primero teoria dopminergenjca percepcion y validacion. Cuales terminos y cuales no budcan lor de  hr enfin que sea un cv inegable al maxmi qe pueda mejora mi prompt y que ignore documentos que no tengan que ver con el asunto. Que compare que nivel de estudio denota el usuario.",
+     "models": [
+      "qwen3.8-max-preview"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "43c0ecb0-ae39-496e-b49a-cab628ecb77c"
+     ],
+     "files": [],
+     "timestamp": 1784551815
+    },
+    "43c0ecb0-ae39-496e-b49a-cab628ecb77c": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.8-max-preview",
+     "modelName": "Qwen3.8-Max-Preview",
+     "modelIdx": 0,
+     "id": "43c0ecb0-ae39-496e-b49a-cab628ecb77c",
+     "parentId": "366f6edb-c436-4046-a440-199b75ed8511",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Synthesize diverse sources into a cohesive understanding",
+          "Synthesizing insights with precision and depth"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am integrating scattered information from various documents, annotations, and materials to form a comprehensive perspective.  \nI interpret the content through professional, academic, and psychological lenses to uncover deeper meanings and connections.  \nMy aim is to deliver a unified, insightful synthesis that reflects nuanced comprehension across domains.",
+          "I am integrating diverse elements into a cohesive narrative, aligning them with the highest standards of clarity and impact.  \nI assess relevance with discernment, filtering out distractions to focus on what truly matters.  \nI refine every detail to ensure the outcome is not merely accurate but irrefutably compelling."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "43c0ecb0-ae39-496e-b49a-cab628ecb77c",
+       "usage": {
+        "input_tokens": 202,
+        "output_tokens": 234,
+        "characters": 0,
+        "total_tokens": 436,
+        "input_tokens_details": {
+         "text_tokens": 202
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 227,
+         "text_tokens": 234
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1784551819
+      },
+      {
+       "content": "# Prompt Mejorado para Análisis Documental y Creación de CV Irrefutable\n\nAquí tienes tu prompt reestructurado, ampliado y optimizado. Cópialo y pégalo junto con tus documentos:\n\n---\n\n## 📋 PROMPT (copia desde aquí)\n\n```\nROL: Actúa como un equipo multidisciplinar compuesto por:\n- Un reclutador senior de RRHH (15+ años en selección)\n- Un psicólogo organizacional especializado en perfiles profesionales\n- Un analista de competencias técnicas y académicas\n- Un experto en neurociencia aplicada a la comunicación persuasiva\n- Un redactor de CVs de nivel ejecutivo\n\nMATERIAL ADJUNTO: [Adjunta aquí TODOS tus documentos: CVs antiguos,\ncertificados, comentarios de jefes, correos, proyectos, notas,\narchivos académicos, etc.]\n\nINSTRUCCIONES EN FASES:\n\n═══════════════════════════════════════════\nFASE 0 — FILTRADO Y TRIAJE\n═══════════════════════════════════════════\n- Revisa CADA documento adjunto.\n- Clasifícalos en: RELEVANTE / IRRELEVANTE / DUDOSO.\n- IGNORA completamente lo que no aporte información sobre:\n  competencias profesionales, formación académica, habilidades\n  técnicas, rasgos psicológicos laborales, logros medibles.\n- Lista brevemente qué descartaste y por qué.\n\n═══════════════════════════════════════════\nFASE 1 — ANÁLISIS DOPAMINÉRGICO DE PERCEPCIÓN\n═══════════════════════════════════════════\nAntes de redactar NADA, aplica este marco teórico:\n- Teoría dopaminérgica de la recompensa: el lector (reclutador)\n  busca \"picos de dopamina\" = datos concretos, logros cuantificados,\n  verbos de acción, progresión visible.\n- Validación por contraste: cada afirmación debe tener evidencia\n  adjunta o implícita en el material.\n- Evita: lenguaje genérico, adjetivos vacíos (\"responsable\",\n  \"proactivo\") SIN respaldo.\n- Prioriza: métricas, impacto, before/after, escalabilidad.\n\n═══════════════════════════════════════════\nFASE 2 — EXTRACCIÓN DE COMPETENCIAS\n═══════════════════════════════════════════\nDel material RELEVANTE, extrae y categoriza:\n\nA) COMPETENCIAS PROFESIONALES\n   - Hard skills (herramientas, lenguajes, metodologías)\n   - Soft skills (liderazgo, negociación, comunicación)\n   - Logros cuantificables (KPIs, %, cifras, plazos)\n\nB) CAPACIDAD ACADÉMICA\n   - Nivel de estudio REAL que denota el material\n     (no solo títulos: profundidad de análisis, vocabulario\n     técnico usado, complejidad de proyectos)\n   - Compara: ¿denota nivel técnico, grado, máster, doctoral,\n     autodidacta avanzado? Justifica con evidencia del texto.\n\nC) PERFIL PSICOLÓGICO-LABORAL\n   - Patrones de pensamiento (analítico, creativo, sistémico)\n   - Tolerancia a la ambigüedad\n   - Estilo de liderazgo o colaboración\n   - Resiliencia y adaptabilidad (evidencia en el material)\n\nD) CAPACIDAD TECNOLÓGICA\n   - Stack tecnológico real vs. mencionado\n   - Nivel de dominio inferido (usuario / intermedio / avanzado /\n     arquitecto)\n\n═══════════════════════════════════════════\nFASE 3 — ANÁLISIS DE TERMINOLOGÍA RRHH\n═══════════════════════════════════════════\nPara cada competencia extraída, indica:\n- ✅ TÉRMINO QUE BUSCA RRHH (keywords de ATS, jerga de\n  reclutadores, palabras que activan filtros)\n- ❌ TÉRMINO QUE NO APORTA O PERJUDICA (jerga interna de empresa\n  anterior, tecnicismos oscuros, lenguaje pasivo)\n- 🔄 TRADUCCIÓN: cómo reformular lo que el usuario dice →\n  lo que RRHH necesita leer\n\n═══════════════════════════════════════════\nFASE 4 — DOCUMENTO EXTENSO DE ANÁLISIS UNIFICADO\n═══════════════════════════════════════════\nRedacta un informe (mínimo 3000 palabras) que incluya:\n1. Resumen ejecutivo del perfil\n2. Análisis detallado por cada categoría (Fase 2)\n3. Nivel académico inferido con justificación\n4. Fortalezas diferenciadoras (lo que hace IRREFUTABLE al candidato)\n5. Brechas o puntos débiles detectados\n6. Recomendaciones de posicionamiento\n\n═══════════════════════════════════════════\nFASE 5 — CV IRREFUTABLE (VERSIÓN FINAL)\n═══════════════════════════════════════════\nRedacta un CV optimizado que:\n- Use estructura ATS-friendly (sin tablas complejas, sin imágenes)\n- Cada bullet point: VERBO DE ACCIÓN + LOGRO + MÉTRICA + IMPACTO\n- Sección \"Perfil\" de 4 líneas con keywords del sector\n- Elimine TODO lo que no pase el filtro dopaminérgico\n- Incluya una sección \"Evidencia de impacto\" con 3-5 logros\n  irrefutables extraídos del material\n- Formato: máximo 2 páginas\n- Tono: seguro, factual, cero arrogancia, cero humildad excesiva\n\n═══════════════════════════════════════════\nFASE 6 — COMPARATIVA DE NIVEL\n═══════════════════════════════════════════\nPresenta una tabla comparativa:\n| Dimensión | Nivel denotado | Evidencia | Nivel esperado para el puesto objetivo |\nIncluye: formación, experiencia, complejidad de proyectos,\nvocabulario técnico, capacidad de abstracción.\n\n═══════════════════════════════════════════\nFORMATO DE SALIDA\n═══════════════════════════════════════════\nEntrega TODO en un solo documento estructurado con encabezados\nclaros, usando markdown. No omitas ninguna fase.\nSi algún documento es ilegible o irrelevante, indícalo en Fase 0\ny no lo uses en fases posteriores.\n```\n\n---\n\n## 🔑 Consejos para que funcione mejor\n\n| Acción | Por qué |\n|---|---|\n| Adjunta los docs en **PDF o texto plano**, no en imágenes | El AI los lee mejor |\n| Si son muchos archivos, **nómbralos** (`CV_2019.pdf`, `carta_jefe_2022.docx`) | Facilita el triaje |\n| Añade al final: *\"Mi puesto objetivo es: [X] en el sector [Y]\"* | Enfoca las keywords RRHH |\n| Si el material es muy extenso (>50 págs), divídelo en 2-3 mensajes | Evita que se pierda contexto |\n\n---\n\n## ⚠️ Lo que corregí de tu idea original\n\n- **\"Teoría dopaminérgica\"** → la integré como *framework de redacción persuasiva*, no como tema de estudio del CV (a menos que seas neurocientífico, en cuyo caso dímelo y lo ajusto).\n- **\"CV inegable\"** → lo traduje a *CV irrefutable*: cada afirmación respaldada por evidencia del material.\n- **Filtrado de docs** → Fase 0 explícita con criterio claro.\n- **Nivel de estudio** → Fase 6 con tabla comparativa y justificación textual.\n\n¿Quieres que adapte el prompt a un **sector concreto** (tech, salud, finanzas, educación…) o a un **formato de CV específico** (europass, LinkedIn, ejecutivo)? Dime y lo afino.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": {},
+       "role": "assistant",
+       "response_id": "43c0ecb0-ae39-496e-b49a-cab628ecb77c",
+       "usage": {
+        "input_tokens": 202,
+        "output_tokens": 2027,
+        "characters": 0,
+        "total_tokens": 2229,
+        "input_tokens_details": {
+         "text_tokens": 202
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 227,
+         "text_tokens": 2027
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1784551851
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1784551851.8493955
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1784551815
+    }
+   },
+   "currentId": "43c0ecb0-ae39-496e-b49a-cab628ecb77c",
+   "currentResponseIds": [
+    "43c0ecb0-ae39-496e-b49a-cab628ecb77c"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.8-max-preview"
+  ],
+  "messages": [
+   {
+    "id": "366f6edb-c436-4046-a440-199b75ed8511",
+    "role": "user",
+    "content": "Imagina que unificas un monton de documentos relatoruos comentarios archivos y quieres que claude AI analize todo interprete las pasacidades profesionales, academicas, psicologias, tecnologicas que el usuario denota que cree un documento extenso unficsndo y haciendo analisis de todo ese matearial y por informacion que denota. Que haga un cv otro es. Estudie primero teoria dopminergenjca percepcion y validacion. Cuales terminos y cuales no budcan lor de  hr enfin que sea un cv inegable al maxmi qe pueda mejora mi prompt y que ignore documentos que no tengan que ver con el asunto. Que compare que nivel de estudio denota el usuario.",
+    "models": [
+     "qwen3.8-max-preview"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "43c0ecb0-ae39-496e-b49a-cab628ecb77c"
+    ],
+    "files": [],
+    "timestamp": 1784551815
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.8-max-preview",
+    "modelName": "Qwen3.8-Max-Preview",
+    "modelIdx": 0,
+    "id": "43c0ecb0-ae39-496e-b49a-cab628ecb77c",
+    "parentId": "366f6edb-c436-4046-a440-199b75ed8511",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Synthesize diverse sources into a cohesive understanding",
+         "Synthesizing insights with precision and depth"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am integrating scattered information from various documents, annotations, and materials to form a comprehensive perspective.  \nI interpret the content through professional, academic, and psychological lenses to uncover deeper meanings and connections.  \nMy aim is to deliver a unified, insightful synthesis that reflects nuanced comprehension across domains.",
+         "I am integrating diverse elements into a cohesive narrative, aligning them with the highest standards of clarity and impact.  \nI assess relevance with discernment, filtering out distractions to focus on what truly matters.  \nI refine every detail to ensure the outcome is not merely accurate but irrefutably compelling."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "43c0ecb0-ae39-496e-b49a-cab628ecb77c",
+      "usage": {
+       "input_tokens": 202,
+       "output_tokens": 234,
+       "characters": 0,
+       "total_tokens": 436,
+       "input_tokens_details": {
+        "text_tokens": 202
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 227,
+        "text_tokens": 234
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1784551819
+     },
+     {
+      "content": "# Prompt Mejorado para Análisis Documental y Creación de CV Irrefutable\n\nAquí tienes tu prompt reestructurado, ampliado y optimizado. Cópialo y pégalo junto con tus documentos:\n\n---\n\n## 📋 PROMPT (copia desde aquí)\n\n```\nROL: Actúa como un equipo multidisciplinar compuesto por:\n- Un reclutador senior de RRHH (15+ años en selección)\n- Un psicólogo organizacional especializado en perfiles profesionales\n- Un analista de competencias técnicas y académicas\n- Un experto en neurociencia aplicada a la comunicación persuasiva\n- Un redactor de CVs de nivel ejecutivo\n\nMATERIAL ADJUNTO: [Adjunta aquí TODOS tus documentos: CVs antiguos,\ncertificados, comentarios de jefes, correos, proyectos, notas,\narchivos académicos, etc.]\n\nINSTRUCCIONES EN FASES:\n\n═══════════════════════════════════════════\nFASE 0 — FILTRADO Y TRIAJE\n═══════════════════════════════════════════\n- Revisa CADA documento adjunto.\n- Clasifícalos en: RELEVANTE / IRRELEVANTE / DUDOSO.\n- IGNORA completamente lo que no aporte información sobre:\n  competencias profesionales, formación académica, habilidades\n  técnicas, rasgos psicológicos laborales, logros medibles.\n- Lista brevemente qué descartaste y por qué.\n\n═══════════════════════════════════════════\nFASE 1 — ANÁLISIS DOPAMINÉRGICO DE PERCEPCIÓN\n═══════════════════════════════════════════\nAntes de redactar NADA, aplica este marco teórico:\n- Teoría dopaminérgica de la recompensa: el lector (reclutador)\n  busca \"picos de dopamina\" = datos concretos, logros cuantificados,\n  verbos de acción, progresión visible.\n- Validación por contraste: cada afirmación debe tener evidencia\n  adjunta o implícita en el material.\n- Evita: lenguaje genérico, adjetivos vacíos (\"responsable\",\n  \"proactivo\") SIN respaldo.\n- Prioriza: métricas, impacto, before/after, escalabilidad.\n\n═══════════════════════════════════════════\nFASE 2 — EXTRACCIÓN DE COMPETENCIAS\n═══════════════════════════════════════════\nDel material RELEVANTE, extrae y categoriza:\n\nA) COMPETENCIAS PROFESIONALES\n   - Hard skills (herramientas, lenguajes, metodologías)\n   - Soft skills (liderazgo, negociación, comunicación)\n   - Logros cuantificables (KPIs, %, cifras, plazos)\n\nB) CAPACIDAD ACADÉMICA\n   - Nivel de estudio REAL que denota el material\n     (no solo títulos: profundidad de análisis, vocabulario\n     técnico usado, complejidad de proyectos)\n   - Compara: ¿denota nivel técnico, grado, máster, doctoral,\n     autodidacta avanzado? Justifica con evidencia del texto.\n\nC) PERFIL PSICOLÓGICO-LABORAL\n   - Patrones de pensamiento (analítico, creativo, sistémico)\n   - Tolerancia a la ambigüedad\n   - Estilo de liderazgo o colaboración\n   - Resiliencia y adaptabilidad (evidencia en el material)\n\nD) CAPACIDAD TECNOLÓGICA\n   - Stack tecnológico real vs. mencionado\n   - Nivel de dominio inferido (usuario / intermedio / avanzado /\n     arquitecto)\n\n═══════════════════════════════════════════\nFASE 3 — ANÁLISIS DE TERMINOLOGÍA RRHH\n═══════════════════════════════════════════\nPara cada competencia extraída, indica:\n- ✅ TÉRMINO QUE BUSCA RRHH (keywords de ATS, jerga de\n  reclutadores, palabras que activan filtros)\n- ❌ TÉRMINO QUE NO APORTA O PERJUDICA (jerga interna de empresa\n  anterior, tecnicismos oscuros, lenguaje pasivo)\n- 🔄 TRADUCCIÓN: cómo reformular lo que el usuario dice →\n  lo que RRHH necesita leer\n\n═══════════════════════════════════════════\nFASE 4 — DOCUMENTO EXTENSO DE ANÁLISIS UNIFICADO\n═══════════════════════════════════════════\nRedacta un informe (mínimo 3000 palabras) que incluya:\n1. Resumen ejecutivo del perfil\n2. Análisis detallado por cada categoría (Fase 2)\n3. Nivel académico inferido con justificación\n4. Fortalezas diferenciadoras (lo que hace IRREFUTABLE al candidato)\n5. Brechas o puntos débiles detectados\n6. Recomendaciones de posicionamiento\n\n═══════════════════════════════════════════\nFASE 5 — CV IRREFUTABLE (VERSIÓN FINAL)\n═══════════════════════════════════════════\nRedacta un CV optimizado que:\n- Use estructura ATS-friendly (sin tablas complejas, sin imágenes)\n- Cada bullet point: VERBO DE ACCIÓN + LOGRO + MÉTRICA + IMPACTO\n- Sección \"Perfil\" de 4 líneas con keywords del sector\n- Elimine TODO lo que no pase el filtro dopaminérgico\n- Incluya una sección \"Evidencia de impacto\" con 3-5 logros\n  irrefutables extraídos del material\n- Formato: máximo 2 páginas\n- Tono: seguro, factual, cero arrogancia, cero humildad excesiva\n\n═══════════════════════════════════════════\nFASE 6 — COMPARATIVA DE NIVEL\n═══════════════════════════════════════════\nPresenta una tabla comparativa:\n| Dimensión | Nivel denotado | Evidencia | Nivel esperado para el puesto objetivo |\nIncluye: formación, experiencia, complejidad de proyectos,\nvocabulario técnico, capacidad de abstracción.\n\n═══════════════════════════════════════════\nFORMATO DE SALIDA\n═══════════════════════════════════════════\nEntrega TODO en un solo documento estructurado con encabezados\nclaros, usando markdown. No omitas ninguna fase.\nSi algún documento es ilegible o irrelevante, indícalo en Fase 0\ny no lo uses en fases posteriores.\n```\n\n---\n\n## 🔑 Consejos para que funcione mejor\n\n| Acción | Por qué |\n|---|---|\n| Adjunta los docs en **PDF o texto plano**, no en imágenes | El AI los lee mejor |\n| Si son muchos archivos, **nómbralos** (`CV_2019.pdf`, `carta_jefe_2022.docx`) | Facilita el triaje |\n| Añade al final: *\"Mi puesto objetivo es: [X] en el sector [Y]\"* | Enfoca las keywords RRHH |\n| Si el material es muy extenso (>50 págs), divídelo en 2-3 mensajes | Evita que se pierda contexto |\n\n---\n\n## ⚠️ Lo que corregí de tu idea original\n\n- **\"Teoría dopaminérgica\"** → la integré como *framework de redacción persuasiva*, no como tema de estudio del CV (a menos que seas neurocientífico, en cuyo caso dímelo y lo ajusto).\n- **\"CV inegable\"** → lo traduje a *CV irrefutable*: cada afirmación respaldada por evidencia del material.\n- **Filtrado de docs** → Fase 0 explícita con criterio claro.\n- **Nivel de estudio** → Fase 6 con tabla comparativa y justificación textual.\n\n¿Quieres que adapte el prompt a un **sector concreto** (tech, salud, finanzas, educación…) o a un **formato de CV específico** (europass, LinkedIn, ejecutivo)? Dime y lo afino.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": {},
+      "role": "assistant",
+      "response_id": "43c0ecb0-ae39-496e-b49a-cab628ecb77c",
+      "usage": {
+       "input_tokens": 202,
+       "output_tokens": 2027,
+       "characters": 0,
+       "total_tokens": 2229,
+       "input_tokens_details": {
+        "text_tokens": 202
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 227,
+        "text_tokens": 2027
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1784551851
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1784551851.8493955
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1784551815
+   }
+  ]
+ },
+ "updated_at": 1784551851,
+ "created_at": 1784551814,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1784551807952
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "43c0ecb0-ae39-496e-b49a-cab628ecb77c"
+ ],
+ "currentId": "43c0ecb0-ae39-496e-b49a-cab628ecb77c",
+ "chat_type": "t2t",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

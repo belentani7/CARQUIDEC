@@ -1,0 +1,689 @@
+{
+ "id": "39356309-4987-4c50-a7eb-90fce9d963d1",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Imagen Cinematográfica Futurista",
+ "chat": {
+  "history": {
+   "messages": {
+    "fcdacbcb-0a97-4074-8eec-b3b7ef9fb04c": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3-235b-a22b",
+     "modelName": "Qwen3-235B-A22B-2507",
+     "modelIdx": 0,
+     "id": "fcdacbcb-0a97-4074-8eec-b3b7ef9fb04c",
+     "parentId": "1917e4be-2de1-42ff-a5ac-2b2c5a7551e5",
+     "childrenIds": [
+      "d18ddbc4-bd95-4fa2-9c3e-8ac0ae21f1f3"
+     ],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "content_list": [
+      {
+       "content": "Perfecto, gracias por la claridad y el contexto. Basándome en las imágenes proporcionadas y tu descripción actualizada (sin casco, cabello largo rizado oscuro, barba, falda con slips de superhéroe debajo, estilo Kodak, reflejo de flash, cámara real), aquí tienes un **prompt perfecto, extremadamente detallado y técnico**, diseñado para que otra IA genere una imagen idéntica o muy cercana a lo que deseas —como si fuera una foto real tomada con una cámara profesional en un estudio cinematográfico:\n\n---\n\n**Prompt (Ultra-detalles, fotorrealista, estilo Kodak):**\n\n> \"Fotografía ultra-realista, estilo Kodak filmic, 35mm, con grano sutil y tonos cálidos saturados, capturada con cámara réflex profesional (Canon EOS R5 o Nikon Z8) en modo RAW, efecto de flash frontal intenso con reflejos metálicos y brillos en los ojos y superficies. La escena es un retrato medio-cuerpo de un hombre joven con complexión atlética pero natural, no excesivamente musculoso, con piel clara y textura realista, sudor ligero en la frente y mejillas.  \n>\n> Su cabello es largo, rizado, oscuro (negro azabache con reflejos marrones), cae sobre los hombros y tiene volumen natural, ligeramente despeinado como si hubiera estado en acción. Tiene una barba espesa, cuidada, color castaño oscuro con toques rojizos, bien definida, que cubre mandíbula, mentón y mejillas.  \n>\n> Viste una falda corta tipo *skirt* de superhéroe, color rosa intenso (cereza), con pliegues dinámicos y tela brillante, ligeramente arrugada por movimiento. Debajo de la falda se observan **slips de superhéroe** de diseño futurista: ajustados, con detalles metálicos dorados y bordes reflectantes, color rojo sangre con patrones geométricos sutiles, que sugieren armadura interna. Las piernas son fuertes, velludas, con pelo oscuro y denso visible en los muslos y pantorrillas, realistas y con sombras naturales.  \n>\n> El torso está cubierto por una armadura metálica alta, combinación de acero pulido y placas doradas, con detalles ornamentales en forma de estrellas y líneas angulares. Los hombros tienen protecciones anchas y curvadas, y los brazos llevan guantes blancos de cuero sintético con dedos separados.  \n>\n> En su mano derecha sostiene una espada láser de energía, emitiendo luz rosa brillante, con mango dorado en forma de garra o púa, que atraviesa diagonalmente la imagen desde la esquina superior izquierda. La espada proyecta un resplandor intenso con halos de luz y reflejos en la armadura y la falda.  \n>\n> El fondo es un espacio cósmico oscuro con estrellas dispersas, nebulosas rosadas y azules, y grandes letras japonesas estilizadas en rosa fluorescente (tipo 'katakana') que parecen flotar en el aire, con efecto de movimiento y destellos.  \n>\n> Iluminación dramática: flash frontal directo con rebote lateral, creando alto contraste, sombras profundas y reflejos en la piel, metal y tela. Se aprecian imperfecciones reales: pequeñas arrugas en la ropa, partículas de polvo en el aire, textura de la piel, poros, vello facial y corporal, y lentes de contacto en los ojos.  \n>\n> Estilo visual: fotorealismo cinematográfico, inspirado en películas de ciencia ficción de los 80s-90s (como *Tron*, *Akira*, *The Matrix*), con estética retro-futurista, tonos cálidos y fríos contrastantes, y un aura de poder sobrenatural. No hay elementos animados ni dibujados; todo debe ser fotorrealista, como si fuera una fotografía de sesión profesional.  \n>\n> Sin casco. Cabeza completamente visible. Vista frontal, mirada directa al espectador, expresión seria, confiada, con una leve tensión muscular en el cuello y hombros.  \n>\n> **Formato:** 4:5 vertical, como póster de cine. Resolución 8K. No usar arte digital ni anime. Solo fotorrealismo.\"\n\n---\n\nEste prompt está optimizado para modelos de generación de imágenes avanzados como **MidJourney v6**, **DALL·E 3**, **Stable Diffusion XL**, o **Leonardo AI**, especialmente si usas un modelo entrenado en fotorealismo.\n\n¿Te gustaría que generara esta imagen ahora usando este prompt? Puedo ayudarte a adaptarlo a una plataforma específica si lo deseas.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "usage": {
+        "input_tokens": 2541,
+        "output_tokens": 1142,
+        "total_tokens": 3683,
+        "input_tokens_details": {
+         "image_tokens": 2116,
+         "text_tokens": 425
+        },
+        "output_tokens_details": {
+         "text_tokens": 1142
+        },
+        "image_tokens": 2116
+       }
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1756523066.663325
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1756523040
+    },
+    "1917e4be-2de1-42ff-a5ac-2b2c5a7551e5": {
+     "id": "1917e4be-2de1-42ff-a5ac-2b2c5a7551e5",
+     "role": "user",
+     "content": "Crea prompt perfecto de la imagen para que una otra ai pueda recrearla de zero. Todos los detalles. Como si fuera una sola foto. Pero en este nuevo prompt la persona esta con la cabeza a vista, sin casco. Cabello largo rizado oscuro, barba. Falda, piernas peludas fuertes, usa un tipo de slips pero de super heroe debajo de falda. Kodak style, reflejo de flash, camara real.Entendido, he ajustado el prompt para eliminar cualquier referencia a \"bear\" como animal y he modificado el ángulo y la descripción del cuerpo. Aquí tienes el nuevo prompt:\nPrompt: \"Fotografía cinematográfica ultra-realista de Belentani, tomada desde un ángulo que realza su presencia y poder, evocando una energía de superhéroe. Tiene cabello largo, rizado y voluminoso, y una barba roja y tupida. Sus muslos fuertes y velludos son visibles bajo un traje futurista. Su cuerpo es de complexión normal, atlética pero no excesivamente musculosa. El traje está hecho de un material metálico altamente reflectante, parcialmente translúcido, con secciones de cristal que brillan bajo la luz. El traje irradia tonos rojo sangre intensos, misteriosos y amenazantes. De su cabeza se elevan dos cuernos cristalinos, como púas de diamante, deslumbrantes con luz. La escena es oscura, misteriosa y futurista, iluminada por efectos de flash intensos y texturas dramáticas de cámara real. Piel, tela y reflejos metálicos fotorrealistas e hiperdetallados, con un aura surrealista de poder sobrenatural.\"\n¿Te gustaría que generara esta imagen ahora?\n",
+     "models": [
+      "qwen3-235b-a22b"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "fcdacbcb-0a97-4074-8eec-b3b7ef9fb04c"
+     ],
+     "files": [
+      {
+       "id": "e2b4e6ed-9de9-47d7-a6af-050d01253acd",
+       "name": "1756512660 (1).png",
+       "file_type": "image/png",
+       "type": "image",
+       "file_class": "vision",
+       "size": 1215551,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/e2b4e6ed-9de9-47d7-a6af-050d01253acd_1756512660 (1).png?key=[SECRETO_REDACTADO]",
+       "file": {
+        "created_at": 1756522906070,
+        "data": {},
+        "filename": "1756512660 (1).png",
+        "hash": null,
+        "id": "e2b4e6ed-9de9-47d7-a6af-050d01253acd",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "1756512660 (1).png",
+         "size": 1215551,
+         "content_type": "image/png"
+        },
+        "update_at": 1756522906070
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "65ebc646-aa85-4f3a-8606-aa8e38fd58d0",
+       "showType": "image",
+       "uploadTaskId": "885abe93-3be3-4b99-b488-d5a853987b89"
+      },
+      {
+       "id": "6ec06836-6e4f-4026-b6b4-b4cf5b9be67d",
+       "name": "Screenshot_20250829_180013_com.instagram.android.jpg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 474062,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/6ec06836-6e4f-4026-b6b4-b4cf5b9be67d_Screenshot_20250829_180013_com.instagram.android.jpg?key=[SECRETO_REDACTADO]",
+       "file": {
+        "created_at": 1756522935740,
+        "data": {},
+        "filename": "Screenshot_20250829_180013_com.instagram.android.jpg",
+        "hash": null,
+        "id": "6ec06836-6e4f-4026-b6b4-b4cf5b9be67d",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "Screenshot_20250829_180013_com.instagram.android.jpg",
+         "size": 474062,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1756522935740
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "a861262f-5092-4fc0-974f-c5ab728e3156",
+       "showType": "image",
+       "uploadTaskId": "bbfb6774-4717-4e67-a0fe-1d757bfa4fc7"
+      }
+     ],
+     "timestamp": 1756523040
+    },
+    "d18ddbc4-bd95-4fa2-9c3e-8ac0ae21f1f3": {
+     "id": "d18ddbc4-bd95-4fa2-9c3e-8ac0ae21f1f3",
+     "role": "user",
+     "content": "Creala",
+     "models": [
+      "qwen3-235b-a22b"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "parentId": "fcdacbcb-0a97-4074-8eec-b3b7ef9fb04c",
+     "turn_id": null,
+     "childrenIds": [
+      "fb1e353d-be7a-4959-94c8-8a8cd0500543"
+     ],
+     "files": [],
+     "timestamp": 1756523078
+    },
+    "fb1e353d-be7a-4959-94c8-8a8cd0500543": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3-235b-a22b",
+     "modelName": "Qwen3-235B-A22B-2507",
+     "modelIdx": 0,
+     "id": "fb1e353d-be7a-4959-94c8-8a8cd0500543",
+     "parentId": "d18ddbc4-bd95-4fa2-9c3e-8ac0ae21f1f3",
+     "childrenIds": [
+      "33d9be24-f58e-449d-88f2-d80ca522ae40"
+     ],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "content_list": [
+      {
+       "content": "¡Perfecto! Aunque no puedo generar imágenes directamente aquí (ya que soy un modelo de texto), **puedo ayudarte a crearla paso a paso** usando herramientas de IA disponibles. Vamos a hacerlo de forma práctica y efectiva.\n\n---\n\n### ✅ **Paso 1: Usa este prompt en una plataforma de generación de imágenes**\n\n#### 📌 **Plataforma recomendada:**  \n👉 **[MidJourney](https://www.midjourney.com/)** (mejor para fotorrealismo cinematográfico)  \nO alternativas:  \n- **DALL·E 3** (a través de ChatGPT Plus o Bing Image Creator)  \n- **Stable Diffusion WebUI** (con modelos como `Realistic Vision`, `DreamShaper`, o `CounterfeitXL`)  \n- **Leonardo AI** (bueno para estilos retro-futuristas)\n\n---\n\n### 🔧 **Prompt optimizado para MidJourney (versión v6):**\n\n```text\n/imagine prompt: ultra-realistic cinematic photograph, Kodak film style, 35mm, grainy texture, warm tones, professional DSLR camera (Canon EOS R5), RAW mode, intense flash lighting with metallic reflections and eye highlights, medium close-up of a man with long, dark curly hair falling over shoulders, thick red-brown beard, athletic but natural build, skin with pores, sweat on forehead, wearing a short pink superhero skirt with dynamic folds, underneath visible superhero-style briefs in deep crimson with gold geometric details and reflective edges, hairy legs with dense dark hair on thighs and calves, wearing metallic armor chest plate with polished steel and gold accents, shoulder pauldrons, white leather gloves, holding a glowing pink energy sword diagonally across frame from top-left, hilt shaped like a claw, emitting bright light with lens flares, background: cosmic space with stars, pink and blue nebulae, large stylized Japanese katakana letters in neon pink floating in the air, dramatic lighting with high contrast, shadows, dust particles in air, realistic textures on skin, fabric, metal, no helmet, face fully visible, direct gaze at viewer, serious expression, tense neck muscles, retro-futuristic aesthetic inspired by Tron, Akira, The Matrix, 80s sci-fi movie poster, hyper-detailed, 8K resolution, vertical 4:5 aspect ratio --ar 4:5 --v 6 --style raw --quality 2\n```\n\n> ✅ Este prompt está listo para copiar y pegar en **MidJourney** (en Discord) o en **Bing Image Creator** (si usas DALL·E 3).\n\n---\n\n### 💡 ¿Quieres que te lo adapte a otra plataforma?\n\nPor ejemplo:\n\n#### 🔹 Para **DALL·E 3 (ChatGPT/Bing):**\nSimplifica un poco el lenguaje, pero mantén los elementos clave:\n```text\nA highly realistic photo of a man with long dark curly hair and a thick red-brown beard, wearing a pink superhero skirt and red superhero briefs with gold details underneath, showing hairy legs. He has a metallic armored chestplate, white gloves, and holds a glowing pink energy sword. No helmet — face fully visible. Dramatic flash lighting, Kodak film look, cosmic background with Japanese text, 80s sci-fi aesthetic, ultra-detailed, cinematic, 8K.\n```\n\n#### 🔹 Para **Stable Diffusion (WebUI):**\nUsa este prompt con negativos:\n```prompt\nprompt: \nultra-realistic, cinematic photography, Kodak film, 35mm, flash lighting, long dark curly hair, thick red-brown beard, athletic build, pink superhero skirt, superhero briefs under skirt, red with gold details, hairy legs, metallic armor, glowing pink energy sword, diagonal pose, cosmic background, Japanese katakana text, retro-futuristic, 80s sci-fi, detailed skin texture, pores, sweat, real fabric folds, no helmet, full face visible, direct gaze, serious expression\n\nnegative_prompt:\nanime, cartoon, drawing, illustration, plastic, low detail, blurry, soft focus, unrealistic proportions, animal features, bear, monster, fantasy creature, childlike, cartoonish, exaggerated muscles, CGI, fake lighting\n```\n\n---\n\n### 🎯 ¿Qué obtendrás?\nUna imagen **fotorrealista**, como si fuera una foto tomada en un set de cine de ciencia ficción de los 80s, con:\n- Cabello largo rizado oscuro\n- Barba espesa rojiza\n- Falda rosa con slips de superhéroe visibles\n- Piernas peludas fuertes\n- Espada láser rosa\n- Iluminación de flash\n- Estilo Kodak, grano sutil, tonos cálidos\n- Fondo cósmico con letras japonesas\n- Sin casco, cara completamente visible\n\n---\n\n### ✅ ¿Te gustaría que te recomiende una herramienta específica gratuita o de pago para generarla ahora?\n\nPor ejemplo:\n- **Gratis**: Bing Image Creator (DALL·E 3)\n- **Pago**: MidJourney (más calidad)\n- **Open Source**: Stable Diffusion con WebUI (totalmente personalizable)\n\n¿Prefieres usar alguna de estas? Puedo guiarte paso a paso para generarla.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "usage": {
+        "input_tokens": 3694,
+        "output_tokens": 1145,
+        "total_tokens": 4839,
+        "input_tokens_details": {
+         "image_tokens": 2116,
+         "text_tokens": 1578
+        },
+        "output_tokens_details": {
+         "text_tokens": 1145
+        },
+        "image_tokens": 2116
+       }
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1756523095.9862795
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1756523078
+    },
+    "ecc7a2a5-094d-4cb1-9ec3-284cd4273bc9": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2i",
+     "sub_chat_type": "t2i",
+     "model": "qwen3-235b-a22b",
+     "modelName": "Qwen3-235B-A22B-2507",
+     "modelIdx": 0,
+     "id": "ecc7a2a5-094d-4cb1-9ec3-284cd4273bc9",
+     "parentId": "33d9be24-f58e-449d-88f2-d80ca522ae40",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "content_list": [
+      {
+       "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/ecc7a2a5-094d-4cb1-9ec3-284cd4273bc9/1756523240.png?key=[SECRETO_REDACTADO]",
+       "phase": "image_gen",
+       "status": "finished",
+       "extra": {
+        "output_image_hw": [
+         [
+          1504,
+          704
+         ]
+        ]
+       },
+       "role": "assistant",
+       "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "width": 704,
+        "image_count": 1,
+        "height": 1504
+       }
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2i"
+      },
+      "endTime": 1756523241.5708802
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1756523152
+    },
+    "33d9be24-f58e-449d-88f2-d80ca522ae40": {
+     "id": "33d9be24-f58e-449d-88f2-d80ca522ae40",
+     "role": "user",
+     "content": "Perfecto, gracias por la claridad y el contexto. Basándome en las imágenes proporcionadas y tu descripción actualizada (sin casco, cabello largo rizado oscuro, barba, falda con slips de superhéroe debajo, estilo Kodak, reflejo de flash, cámara real), aquí tienes un **prompt perfecto, extremadamente detallado y técnico**, diseñado para que otra IA genere una imagen idéntica o muy cercana a lo que deseas —como si fuera una foto real tomada con una cámara profesional en un estudio cinematográfico:\n\n---\n\n**Prompt (Ultra-detalles, fotorrealista, estilo Kodak):**\n\n> \"Fotografía ultra-realista, estilo Kodak filmic, 35mm, con grano sutil y tonos cálidos saturados, capturada con cámara réflex profesional (Canon EOS R5 o Nikon Z8) en modo RAW, efecto de flash frontal intenso con reflejos metálicos y brillos en los ojos y superficies. La escena es un retrato medio-cuerpo de un hombre joven con complexión atlética pero natural, no excesivamente musculoso, con piel clara y textura realista, sudor ligero en la frente y mejillas.  \n>\n> Su cabello es largo, rizado, oscuro (negro azabache con reflejos marrones), cae sobre los hombros y tiene volumen natural, ligeramente despeinado como si hubiera estado en acción. Tiene una barba espesa, cuidada, color castaño oscuro con toques rojizos, bien definida, que cubre mandíbula, mentón y mejillas.  \n>\n> Viste una falda corta tipo *skirt* de superhéroe, color rosa intenso (cereza), con pliegues dinámicos y tela brillante, ligeramente arrugada por movimiento. Debajo de la falda se observan **slips de superhéroe** de diseño futurista: ajustados, con detalles metálicos dorados y bordes reflectantes, color rojo sangre con patrones geométricos sutiles, que sugieren armadura interna. Las piernas son fuertes, velludas, con pelo oscuro y denso visible en los muslos y pantorrillas, realistas y con sombras naturales.  \n>\n> El torso está cubierto por una armadura metálica alta, combinación de acero pulido y placas doradas, con detalles ornamentales en forma de estrellas y líneas angulares. Los hombros tienen protecciones anchas y curvadas, y los brazos llevan guantes blancos de cuero sintético con dedos separados.  \n>\n> En su mano derecha sostiene una espada láser de energía, emitiendo luz rosa brillante, con mango dorado en forma de garra o púa, que atraviesa diagonalmente la imagen desde la esquina superior izquierda. La espada proyecta un resplandor intenso con halos de luz y reflejos en la armadura y la falda.  \n>\n> El fondo es un espacio cósmico oscuro con estrellas dispersas, nebulosas rosadas y azules, y grandes letras japonesas estilizadas en rosa fluorescente (tipo 'katakana') que parecen flotar en el aire, con efecto de movimiento y destellos.  \n>\n> Iluminación dramática: flash frontal directo con rebote lateral, creando alto contraste, sombras profundas y reflejos en la piel, metal y tela. Se aprecian imperfecciones reales: pequeñas arrugas en la ropa, partículas de polvo en el aire, textura de la piel, poros, vello facial y corporal, y lentes de contacto en los ojos.  \n>\n> Estilo visual: fotorealismo cinematográfico, inspirado en películas de ciencia ficción de los 80s-90s (como *Tron*, *Akira*, *The Matrix*), con estética retro-futurista, tonos cálidos y fríos contrastantes, y un aura de poder sobrenatural. No hay elementos animados ni dibujados; todo debe ser fotorrealista, como si fuera una fotografía de sesión profesional.  \n>\n> Sin casco. Cabeza completamente visible. Vista frontal, mirada directa al espectador, expresión seria, confiada, con una leve tensión muscular en el cuello y hombros.  \n>\n> **Formato:** 4:5 vertical, como póster de cine. Resolución 8K. No usar arte digital ni anime. Solo fotorrealismo.\"\n\n---\n\nEste prompt está optimizado para modelos de generación de imágenes avanzados como **MidJourney v6**, **DALL·E 3**, **Stable Diffusion XL**, o **Leonardo AI**, especialmente si usas un modelo entrenado en fotorealismo.\n\n¿Te gustaría que generara esta imagen ahora usando este prompt? Puedo ayudarte a adaptarlo a una plataforma específica si lo deseas.",
+     "models": [
+      "qwen3-235b-a22b"
+     ],
+     "chat_type": "t2i",
+     "sub_chat_type": "t2i",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2i"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "parentId": "fb1e353d-be7a-4959-94c8-8a8cd0500543",
+     "turn_id": null,
+     "childrenIds": [
+      "ecc7a2a5-094d-4cb1-9ec3-284cd4273bc9"
+     ],
+     "files": [],
+     "timestamp": 1756523152
+    }
+   },
+   "currentId": "ecc7a2a5-094d-4cb1-9ec3-284cd4273bc9",
+   "currentResponseIds": [
+    "ecc7a2a5-094d-4cb1-9ec3-284cd4273bc9"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3-235b-a22b"
+  ],
+  "messages": [
+   {
+    "id": "1917e4be-2de1-42ff-a5ac-2b2c5a7551e5",
+    "role": "user",
+    "content": "Crea prompt perfecto de la imagen para que una otra ai pueda recrearla de zero. Todos los detalles. Como si fuera una sola foto. Pero en este nuevo prompt la persona esta con la cabeza a vista, sin casco. Cabello largo rizado oscuro, barba. Falda, piernas peludas fuertes, usa un tipo de slips pero de super heroe debajo de falda. Kodak style, reflejo de flash, camara real.Entendido, he ajustado el prompt para eliminar cualquier referencia a \"bear\" como animal y he modificado el ángulo y la descripción del cuerpo. Aquí tienes el nuevo prompt:\nPrompt: \"Fotografía cinematográfica ultra-realista de Belentani, tomada desde un ángulo que realza su presencia y poder, evocando una energía de superhéroe. Tiene cabello largo, rizado y voluminoso, y una barba roja y tupida. Sus muslos fuertes y velludos son visibles bajo un traje futurista. Su cuerpo es de complexión normal, atlética pero no excesivamente musculosa. El traje está hecho de un material metálico altamente reflectante, parcialmente translúcido, con secciones de cristal que brillan bajo la luz. El traje irradia tonos rojo sangre intensos, misteriosos y amenazantes. De su cabeza se elevan dos cuernos cristalinos, como púas de diamante, deslumbrantes con luz. La escena es oscura, misteriosa y futurista, iluminada por efectos de flash intensos y texturas dramáticas de cámara real. Piel, tela y reflejos metálicos fotorrealistas e hiperdetallados, con un aura surrealista de poder sobrenatural.\"\n¿Te gustaría que generara esta imagen ahora?\n",
+    "models": [
+     "qwen3-235b-a22b"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "fcdacbcb-0a97-4074-8eec-b3b7ef9fb04c"
+    ],
+    "files": [
+     {
+      "id": "e2b4e6ed-9de9-47d7-a6af-050d01253acd",
+      "name": "1756512660 (1).png",
+      "file_type": "image/png",
+      "type": "image",
+      "file_class": "vision",
+      "size": 1215551,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/e2b4e6ed-9de9-47d7-a6af-050d01253acd_1756512660 (1).png?key=[SECRETO_REDACTADO]",
+      "file": {
+       "created_at": 1756522906070,
+       "data": {},
+       "filename": "1756512660 (1).png",
+       "hash": null,
+       "id": "e2b4e6ed-9de9-47d7-a6af-050d01253acd",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "1756512660 (1).png",
+        "size": 1215551,
+        "content_type": "image/png"
+       },
+       "update_at": 1756522906070
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "65ebc646-aa85-4f3a-8606-aa8e38fd58d0",
+      "showType": "image",
+      "uploadTaskId": "885abe93-3be3-4b99-b488-d5a853987b89"
+     },
+     {
+      "id": "6ec06836-6e4f-4026-b6b4-b4cf5b9be67d",
+      "name": "Screenshot_20250829_180013_com.instagram.android.jpg",
+      "file_type": "image/jpeg",
+      "type": "image",
+      "file_class": "vision",
+      "size": 474062,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/6ec06836-6e4f-4026-b6b4-b4cf5b9be67d_Screenshot_20250829_180013_com.instagram.android.jpg?key=[SECRETO_REDACTADO]",
+      "file": {
+       "created_at": 1756522935740,
+       "data": {},
+       "filename": "Screenshot_20250829_180013_com.instagram.android.jpg",
+       "hash": null,
+       "id": "6ec06836-6e4f-4026-b6b4-b4cf5b9be67d",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "Screenshot_20250829_180013_com.instagram.android.jpg",
+        "size": 474062,
+        "content_type": "image/jpeg"
+       },
+       "update_at": 1756522935740
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "a861262f-5092-4fc0-974f-c5ab728e3156",
+      "showType": "image",
+      "uploadTaskId": "bbfb6774-4717-4e67-a0fe-1d757bfa4fc7"
+     }
+    ],
+    "timestamp": 1756523040
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3-235b-a22b",
+    "modelName": "Qwen3-235B-A22B-2507",
+    "modelIdx": 0,
+    "id": "fcdacbcb-0a97-4074-8eec-b3b7ef9fb04c",
+    "parentId": "1917e4be-2de1-42ff-a5ac-2b2c5a7551e5",
+    "childrenIds": [
+     "d18ddbc4-bd95-4fa2-9c3e-8ac0ae21f1f3"
+    ],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "content_list": [
+     {
+      "content": "Perfecto, gracias por la claridad y el contexto. Basándome en las imágenes proporcionadas y tu descripción actualizada (sin casco, cabello largo rizado oscuro, barba, falda con slips de superhéroe debajo, estilo Kodak, reflejo de flash, cámara real), aquí tienes un **prompt perfecto, extremadamente detallado y técnico**, diseñado para que otra IA genere una imagen idéntica o muy cercana a lo que deseas —como si fuera una foto real tomada con una cámara profesional en un estudio cinematográfico:\n\n---\n\n**Prompt (Ultra-detalles, fotorrealista, estilo Kodak):**\n\n> \"Fotografía ultra-realista, estilo Kodak filmic, 35mm, con grano sutil y tonos cálidos saturados, capturada con cámara réflex profesional (Canon EOS R5 o Nikon Z8) en modo RAW, efecto de flash frontal intenso con reflejos metálicos y brillos en los ojos y superficies. La escena es un retrato medio-cuerpo de un hombre joven con complexión atlética pero natural, no excesivamente musculoso, con piel clara y textura realista, sudor ligero en la frente y mejillas.  \n>\n> Su cabello es largo, rizado, oscuro (negro azabache con reflejos marrones), cae sobre los hombros y tiene volumen natural, ligeramente despeinado como si hubiera estado en acción. Tiene una barba espesa, cuidada, color castaño oscuro con toques rojizos, bien definida, que cubre mandíbula, mentón y mejillas.  \n>\n> Viste una falda corta tipo *skirt* de superhéroe, color rosa intenso (cereza), con pliegues dinámicos y tela brillante, ligeramente arrugada por movimiento. Debajo de la falda se observan **slips de superhéroe** de diseño futurista: ajustados, con detalles metálicos dorados y bordes reflectantes, color rojo sangre con patrones geométricos sutiles, que sugieren armadura interna. Las piernas son fuertes, velludas, con pelo oscuro y denso visible en los muslos y pantorrillas, realistas y con sombras naturales.  \n>\n> El torso está cubierto por una armadura metálica alta, combinación de acero pulido y placas doradas, con detalles ornamentales en forma de estrellas y líneas angulares. Los hombros tienen protecciones anchas y curvadas, y los brazos llevan guantes blancos de cuero sintético con dedos separados.  \n>\n> En su mano derecha sostiene una espada láser de energía, emitiendo luz rosa brillante, con mango dorado en forma de garra o púa, que atraviesa diagonalmente la imagen desde la esquina superior izquierda. La espada proyecta un resplandor intenso con halos de luz y reflejos en la armadura y la falda.  \n>\n> El fondo es un espacio cósmico oscuro con estrellas dispersas, nebulosas rosadas y azules, y grandes letras japonesas estilizadas en rosa fluorescente (tipo 'katakana') que parecen flotar en el aire, con efecto de movimiento y destellos.  \n>\n> Iluminación dramática: flash frontal directo con rebote lateral, creando alto contraste, sombras profundas y reflejos en la piel, metal y tela. Se aprecian imperfecciones reales: pequeñas arrugas en la ropa, partículas de polvo en el aire, textura de la piel, poros, vello facial y corporal, y lentes de contacto en los ojos.  \n>\n> Estilo visual: fotorealismo cinematográfico, inspirado en películas de ciencia ficción de los 80s-90s (como *Tron*, *Akira*, *The Matrix*), con estética retro-futurista, tonos cálidos y fríos contrastantes, y un aura de poder sobrenatural. No hay elementos animados ni dibujados; todo debe ser fotorrealista, como si fuera una fotografía de sesión profesional.  \n>\n> Sin casco. Cabeza completamente visible. Vista frontal, mirada directa al espectador, expresión seria, confiada, con una leve tensión muscular en el cuello y hombros.  \n>\n> **Formato:** 4:5 vertical, como póster de cine. Resolución 8K. No usar arte digital ni anime. Solo fotorrealismo.\"\n\n---\n\nEste prompt está optimizado para modelos de generación de imágenes avanzados como **MidJourney v6**, **DALL·E 3**, **Stable Diffusion XL**, o **Leonardo AI**, especialmente si usas un modelo entrenado en fotorealismo.\n\n¿Te gustaría que generara esta imagen ahora usando este prompt? Puedo ayudarte a adaptarlo a una plataforma específica si lo deseas.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "usage": {
+       "input_tokens": 2541,
+       "output_tokens": 1142,
+       "total_tokens": 3683,
+       "input_tokens_details": {
+        "image_tokens": 2116,
+        "text_tokens": 425
+       },
+       "output_tokens_details": {
+        "text_tokens": 1142
+       },
+       "image_tokens": 2116
+      }
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1756523066.663325
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1756523040
+   },
+   {
+    "id": "d18ddbc4-bd95-4fa2-9c3e-8ac0ae21f1f3",
+    "role": "user",
+    "content": "Creala",
+    "models": [
+     "qwen3-235b-a22b"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "parentId": "fcdacbcb-0a97-4074-8eec-b3b7ef9fb04c",
+    "turn_id": null,
+    "childrenIds": [
+     "fb1e353d-be7a-4959-94c8-8a8cd0500543"
+    ],
+    "files": [],
+    "timestamp": 1756523078
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3-235b-a22b",
+    "modelName": "Qwen3-235B-A22B-2507",
+    "modelIdx": 0,
+    "id": "fb1e353d-be7a-4959-94c8-8a8cd0500543",
+    "parentId": "d18ddbc4-bd95-4fa2-9c3e-8ac0ae21f1f3",
+    "childrenIds": [
+     "33d9be24-f58e-449d-88f2-d80ca522ae40"
+    ],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "content_list": [
+     {
+      "content": "¡Perfecto! Aunque no puedo generar imágenes directamente aquí (ya que soy un modelo de texto), **puedo ayudarte a crearla paso a paso** usando herramientas de IA disponibles. Vamos a hacerlo de forma práctica y efectiva.\n\n---\n\n### ✅ **Paso 1: Usa este prompt en una plataforma de generación de imágenes**\n\n#### 📌 **Plataforma recomendada:**  \n👉 **[MidJourney](https://www.midjourney.com/)** (mejor para fotorrealismo cinematográfico)  \nO alternativas:  \n- **DALL·E 3** (a través de ChatGPT Plus o Bing Image Creator)  \n- **Stable Diffusion WebUI** (con modelos como `Realistic Vision`, `DreamShaper`, o `CounterfeitXL`)  \n- **Leonardo AI** (bueno para estilos retro-futuristas)\n\n---\n\n### 🔧 **Prompt optimizado para MidJourney (versión v6):**\n\n```text\n/imagine prompt: ultra-realistic cinematic photograph, Kodak film style, 35mm, grainy texture, warm tones, professional DSLR camera (Canon EOS R5), RAW mode, intense flash lighting with metallic reflections and eye highlights, medium close-up of a man with long, dark curly hair falling over shoulders, thick red-brown beard, athletic but natural build, skin with pores, sweat on forehead, wearing a short pink superhero skirt with dynamic folds, underneath visible superhero-style briefs in deep crimson with gold geometric details and reflective edges, hairy legs with dense dark hair on thighs and calves, wearing metallic armor chest plate with polished steel and gold accents, shoulder pauldrons, white leather gloves, holding a glowing pink energy sword diagonally across frame from top-left, hilt shaped like a claw, emitting bright light with lens flares, background: cosmic space with stars, pink and blue nebulae, large stylized Japanese katakana letters in neon pink floating in the air, dramatic lighting with high contrast, shadows, dust particles in air, realistic textures on skin, fabric, metal, no helmet, face fully visible, direct gaze at viewer, serious expression, tense neck muscles, retro-futuristic aesthetic inspired by Tron, Akira, The Matrix, 80s sci-fi movie poster, hyper-detailed, 8K resolution, vertical 4:5 aspect ratio --ar 4:5 --v 6 --style raw --quality 2\n```\n\n> ✅ Este prompt está listo para copiar y pegar en **MidJourney** (en Discord) o en **Bing Image Creator** (si usas DALL·E 3).\n\n---\n\n### 💡 ¿Quieres que te lo adapte a otra plataforma?\n\nPor ejemplo:\n\n#### 🔹 Para **DALL·E 3 (ChatGPT/Bing):**\nSimplifica un poco el lenguaje, pero mantén los elementos clave:\n```text\nA highly realistic photo of a man with long dark curly hair and a thick red-brown beard, wearing a pink superhero skirt and red superhero briefs with gold details underneath, showing hairy legs. He has a metallic armored chestplate, white gloves, and holds a glowing pink energy sword. No helmet — face fully visible. Dramatic flash lighting, Kodak film look, cosmic background with Japanese text, 80s sci-fi aesthetic, ultra-detailed, cinematic, 8K.\n```\n\n#### 🔹 Para **Stable Diffusion (WebUI):**\nUsa este prompt con negativos:\n```prompt\nprompt: \nultra-realistic, cinematic photography, Kodak film, 35mm, flash lighting, long dark curly hair, thick red-brown beard, athletic build, pink superhero skirt, superhero briefs under skirt, red with gold details, hairy legs, metallic armor, glowing pink energy sword, diagonal pose, cosmic background, Japanese katakana text, retro-futuristic, 80s sci-fi, detailed skin texture, pores, sweat, real fabric folds, no helmet, full face visible, direct gaze, serious expression\n\nnegative_prompt:\nanime, cartoon, drawing, illustration, plastic, low detail, blurry, soft focus, unrealistic proportions, animal features, bear, monster, fantasy creature, childlike, cartoonish, exaggerated muscles, CGI, fake lighting\n```\n\n---\n\n### 🎯 ¿Qué obtendrás?\nUna imagen **fotorrealista**, como si fuera una foto tomada en un set de cine de ciencia ficción de los 80s, con:\n- Cabello largo rizado oscuro\n- Barba espesa rojiza\n- Falda rosa con slips de superhéroe visibles\n- Piernas peludas fuertes\n- Espada láser rosa\n- Iluminación de flash\n- Estilo Kodak, grano sutil, tonos cálidos\n- Fondo cósmico con letras japonesas\n- Sin casco, cara completamente visible\n\n---\n\n### ✅ ¿Te gustaría que te recomiende una herramienta específica gratuita o de pago para generarla ahora?\n\nPor ejemplo:\n- **Gratis**: Bing Image Creator (DALL·E 3)\n- **Pago**: MidJourney (más calidad)\n- **Open Source**: Stable Diffusion con WebUI (totalmente personalizable)\n\n¿Prefieres usar alguna de estas? Puedo guiarte paso a paso para generarla.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "usage": {
+       "input_tokens": 3694,
+       "output_tokens": 1145,
+       "total_tokens": 4839,
+       "input_tokens_details": {
+        "image_tokens": 2116,
+        "text_tokens": 1578
+       },
+       "output_tokens_details": {
+        "text_tokens": 1145
+       },
+       "image_tokens": 2116
+      }
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1756523095.9862795
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1756523078
+   },
+   {
+    "id": "33d9be24-f58e-449d-88f2-d80ca522ae40",
+    "role": "user",
+    "content": "Perfecto, gracias por la claridad y el contexto. Basándome en las imágenes proporcionadas y tu descripción actualizada (sin casco, cabello largo rizado oscuro, barba, falda con slips de superhéroe debajo, estilo Kodak, reflejo de flash, cámara real), aquí tienes un **prompt perfecto, extremadamente detallado y técnico**, diseñado para que otra IA genere una imagen idéntica o muy cercana a lo que deseas —como si fuera una foto real tomada con una cámara profesional en un estudio cinematográfico:\n\n---\n\n**Prompt (Ultra-detalles, fotorrealista, estilo Kodak):**\n\n> \"Fotografía ultra-realista, estilo Kodak filmic, 35mm, con grano sutil y tonos cálidos saturados, capturada con cámara réflex profesional (Canon EOS R5 o Nikon Z8) en modo RAW, efecto de flash frontal intenso con reflejos metálicos y brillos en los ojos y superficies. La escena es un retrato medio-cuerpo de un hombre joven con complexión atlética pero natural, no excesivamente musculoso, con piel clara y textura realista, sudor ligero en la frente y mejillas.  \n>\n> Su cabello es largo, rizado, oscuro (negro azabache con reflejos marrones), cae sobre los hombros y tiene volumen natural, ligeramente despeinado como si hubiera estado en acción. Tiene una barba espesa, cuidada, color castaño oscuro con toques rojizos, bien definida, que cubre mandíbula, mentón y mejillas.  \n>\n> Viste una falda corta tipo *skirt* de superhéroe, color rosa intenso (cereza), con pliegues dinámicos y tela brillante, ligeramente arrugada por movimiento. Debajo de la falda se observan **slips de superhéroe** de diseño futurista: ajustados, con detalles metálicos dorados y bordes reflectantes, color rojo sangre con patrones geométricos sutiles, que sugieren armadura interna. Las piernas son fuertes, velludas, con pelo oscuro y denso visible en los muslos y pantorrillas, realistas y con sombras naturales.  \n>\n> El torso está cubierto por una armadura metálica alta, combinación de acero pulido y placas doradas, con detalles ornamentales en forma de estrellas y líneas angulares. Los hombros tienen protecciones anchas y curvadas, y los brazos llevan guantes blancos de cuero sintético con dedos separados.  \n>\n> En su mano derecha sostiene una espada láser de energía, emitiendo luz rosa brillante, con mango dorado en forma de garra o púa, que atraviesa diagonalmente la imagen desde la esquina superior izquierda. La espada proyecta un resplandor intenso con halos de luz y reflejos en la armadura y la falda.  \n>\n> El fondo es un espacio cósmico oscuro con estrellas dispersas, nebulosas rosadas y azules, y grandes letras japonesas estilizadas en rosa fluorescente (tipo 'katakana') que parecen flotar en el aire, con efecto de movimiento y destellos.  \n>\n> Iluminación dramática: flash frontal directo con rebote lateral, creando alto contraste, sombras profundas y reflejos en la piel, metal y tela. Se aprecian imperfecciones reales: pequeñas arrugas en la ropa, partículas de polvo en el aire, textura de la piel, poros, vello facial y corporal, y lentes de contacto en los ojos.  \n>\n> Estilo visual: fotorealismo cinematográfico, inspirado en películas de ciencia ficción de los 80s-90s (como *Tron*, *Akira*, *The Matrix*), con estética retro-futurista, tonos cálidos y fríos contrastantes, y un aura de poder sobrenatural. No hay elementos animados ni dibujados; todo debe ser fotorrealista, como si fuera una fotografía de sesión profesional.  \n>\n> Sin casco. Cabeza completamente visible. Vista frontal, mirada directa al espectador, expresión seria, confiada, con una leve tensión muscular en el cuello y hombros.  \n>\n> **Formato:** 4:5 vertical, como póster de cine. Resolución 8K. No usar arte digital ni anime. Solo fotorrealismo.\"\n\n---\n\nEste prompt está optimizado para modelos de generación de imágenes avanzados como **MidJourney v6**, **DALL·E 3**, **Stable Diffusion XL**, o **Leonardo AI**, especialmente si usas un modelo entrenado en fotorealismo.\n\n¿Te gustaría que generara esta imagen ahora usando este prompt? Puedo ayudarte a adaptarlo a una plataforma específica si lo deseas.",
+    "models": [
+     "qwen3-235b-a22b"
+    ],
+    "chat_type": "t2i",
+    "sub_chat_type": "t2i",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2i"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "parentId": "fb1e353d-be7a-4959-94c8-8a8cd0500543",
+    "turn_id": null,
+    "childrenIds": [
+     "ecc7a2a5-094d-4cb1-9ec3-284cd4273bc9"
+    ],
+    "files": [],
+    "timestamp": 1756523152
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2i",
+    "sub_chat_type": "t2i",
+    "model": "qwen3-235b-a22b",
+    "modelName": "Qwen3-235B-A22B-2507",
+    "modelIdx": 0,
+    "id": "ecc7a2a5-094d-4cb1-9ec3-284cd4273bc9",
+    "parentId": "33d9be24-f58e-449d-88f2-d80ca522ae40",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "content_list": [
+     {
+      "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/ecc7a2a5-094d-4cb1-9ec3-284cd4273bc9/1756523240.png?key=[SECRETO_REDACTADO]",
+      "phase": "image_gen",
+      "status": "finished",
+      "extra": {
+       "output_image_hw": [
+        [
+         1504,
+         704
+        ]
+       ]
+      },
+      "role": "assistant",
+      "usage": {
+       "input_tokens": 0,
+       "output_tokens": 0,
+       "width": 704,
+       "image_count": 1,
+       "height": 1504
+      }
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2i"
+     },
+     "endTime": 1756523241.5708802
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1756523152
+   }
+  ]
+ },
+ "updated_at": 1756523152,
+ "created_at": 1756523040,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1756523039871,
+  "tags": [
+   "technology",
+   "arts",
+   "entertainment"
+  ]
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "ecc7a2a5-094d-4cb1-9ec3-284cd4273bc9"
+ ],
+ "currentId": "ecc7a2a5-094d-4cb1-9ec3-284cd4273bc9",
+ "chat_type": "t2i",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

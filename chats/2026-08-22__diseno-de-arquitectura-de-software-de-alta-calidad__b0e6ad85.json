@@ -1,0 +1,646 @@
+{
+ "id": "b0e6ad85-31f9-49e7-96bb-fd780653ddba",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Diseño de Arquitectura de Software de Alta Calidad",
+ "chat": {
+  "history": {
+   "messages": {
+    "3ed7e1d1-9487-4eb2-9c2d-a32410eebf54": {
+     "id": "3ed7e1d1-9487-4eb2-9c2d-a32410eebf54",
+     "role": "user",
+     "content": "Saltar al contenido principalAyuda sobre la accesibilidad\r\nModo IA\r\nTodo\r\nVídeos\r\nImágenes\r\nNoticias\r\nMás\r\nActualizar\r\n\r\n\r\n\r\n\r\nmejora este prompt de manus\r\n¡Claro! Manus no es un chatbot tradicional; es un agente de IA autónomo que navega por internet, usa herramientas y ejecuta flujos de trabajo en varios pasos. Por eso, un buen prompt para Manus debe estructurarse de forma diferente. \r\n\r\nNocodeHackers\r\n +1\r\nPara ayudarte a mejorarlo, aquí tienes una plantilla optimizada y lista para rellenar, diseñada específicamente para activar el potencial de un agente autónomo. \r\n\r\nYouTube\r\n·Solo Emprendo\r\n +1\r\nPlantilla Maestra para Prompts en Manus\r\ntext\r\n[OBJETIVO GENERAL]\r\nQuiero que actúes como un agente autónomo experto en [Área/Profesión]. Tu objetivo final es [Resultado que esperas obtener].\r\n\r\n[PASO A PASO / INSTRUCCIONES]\r\nPara lograrlo, ejecuta las siguientes acciones de forma secuencial:\r\n1. Investiga en la web sobre [Tema específico] enfocado en [Detalle clave].\r\n2. Filtra la información priorizando [Criterio de prioridad, ej: fuentes oficiales, publicaciones del último año].\r\n3. Analiza los datos recopilados y [Acción de análisis, ej: identifica tendencias, encuentra patrones, compara precios].\r\n4. Genera un entregable final.\r\n\r\n[RESTRICCIONES Y REQUISITOS]\r\n- Si no encuentras información contrastada sobre un dato, no inventes nada y déjalo indicado.\r\n- Utiliza únicamente fuentes de confianza.\r\n- Evita incluir [Lo que NO quieres que haga, ej: información redundante, datos anteriores a 2025].\r\n\r\n[FORMATO DE SALIDA (EL \"CÓMO\")]\r\nPresenta el resultado final estructurado en [Formato deseado: una tabla de Excel, un documento Markdown, un hilo de tweets, etc.] que contenga las siguientes columnas/secciones:\r\n- [Campo 1]\r\n- [Campo 2]\r\n- [Campo 3]\r\nUsa el código con precaución.\r\nEjemplo Práctico (Antes y Después)\r\n❌ Prompt básico (malo para Manus):\r\n\"Busca herramientas de IA para productividad y hazme una lista.\"\r\n(Esto hará que Manus te dé una respuesta corta y genérica, desaprovechando su capacidad de navegar y analizar).\r\ncan Prompt optimizado (ideal para Manus):\r\nbusca elcriterio de calidad mas riguroso el back end y front end mas desarollado , estudi tus capacidades, la intentonc del proyecto, elevlo al extremo y cuando tengas un 10 de 10 guarda un zip con todo el material en drive y una version portable tambien todo el  zip. a drive,\r\nPara mejorar este prompt para Manus AI (u otros agentes autónomos similares), debes eliminar las tareas imposibles para una IA y estructurar las instrucciones técnicamente.\r\nLas IA actuales no tienen acceso directo para escribir en tu Google Drive personal ni pueden generar archivos .zip complejos que se guarden solos en la nube sin integraciones previas (APIs). Además, conceptos como \"un 10 de 10\" o \"llevar al extremo\" son ambiguos.\r\nAquí tienes la versión optimizada y profesional que puedes copiar y pegar. Está diseñada en un lenguaje que los agentes de desarrollo de software entienden a la perfección:\r\n📋 Copia y pega este prompt mejorado:\r\ntext\r\nActúa como un Arquitecto de Software Senior y Desarrollador Full-Stack de nivel Elite. Tu objetivo es diseñar e implementar la arquitectura del backend y frontend para el proyecto [Insertar breve descripción de tu proyecto aquí] aplicando los criterios de calidad y rendimiento más rigurosos de la industria.\r\n\r\nPor favor, sigue estrictamente estas directrices de calidad extrema:\r\n\r\n1. ARQUITECTURA BACKEND (Rigor Técnico Máximo):\r\n- Diseña un backend escalable y desacoplado utilizando Arquitectura Limpia (Clean Architecture) o Arquitectura Hexagonal.\r\n- Aplica principios SOLID, patrones de diseño de software GoF y Programación Funcional/Orientada a Objetos según corresponda.\r\n- Implementa tipado fuerte estricto, manejo centralizado de errores, validación robusta de datos de entrada y logging detallado.\r\n- Optimiza la base de datos (indexación, migraciones estructuradas y prevención de cuellos de botella).\r\n\r\n2. ARQUITECTURA FRONTEND (Estado del Arte):\r\n- Utiliza un framework moderno (como Next.js, React o Vue) con TypeScript en modo estricto.\r\n- Implementa una arquitectura modular de componentes basada en Atomic Design o Feature-Driven Development.\r\n- Optimiza el rendimiento al máximo: Server-Side Rendering (SSR) / Static Site Generation (SSG), Lazy Loading de rutas y componentes, y optimización de imágenes/assets.\r\n- Asegura un Core Web Vitals excelente (LCP, FID, CLS con puntuación cercana a 100), accesibilidad WCAG AA/AAA y diseño 100% responsivo.\r\n\r\n3. CALIDAD DE CÓDIGO Y PORTABILIDAD:\r\n- Incluye configuraciones estrictas de Linters (ESLint) y Formateadores (Prettier).\r\n- Implementa pruebas automatizadas (Tests Unitarios y de Integración) con alta cobertura.\r\n- Crea un entorno 100% portable y reproducible utilizando Docker (Dockerfile optimizado en etapas y docker-compose.yml para levantar todo el entorno local con un solo comando).\r\n\r\nENTREGABLE REQUERIDO:\r\nGenera todo el código fuente estructurado en carpetas (/backend, /frontend). Al finalizar, comprime todo el proyecto en un único archivo estructurado y facilítame los bloques de código o el archivo listo para descargar. (Nota: Si no puedes subirlo directamente a mi Google Drive por restricciones técnicas, prepárame la estructura completa de archivos para que yo pueda descargarla y guardarla).\r\nUsa el código con precaución.\r\n🛠️ ¿Qué cambios se hicieron y por qué?\r\nDefinición de \"Calidad Extrema\": Se cambiaron las palabras abstractas por estándares reales de la industria como Arquitectura Hexagonal, Principios SOLID, TypeScript Estricto y optimización de Core Web Vitals.\r\nPortabilidad Real: En desarrollo de software, \"versión portable\" se traduce como Docker. Al pedirle un docker-compose.yml, aseguras que el proyecto corra en cualquier computadora con un solo comando.\r\nSolución al límite de Drive: Se le indica explícitamente cómo estructurar el entregable (/backend y /frontend) y se le da una alternativa realista en caso de que el agente no tenga el plugin de conexión a Google Drive activado.\r\nPara dejar el prompt perfecto, ¿podrías decirme de qué trata tu proyecto (ej. una tienda online, una red social, un sistema de gestión) y qué tecnologías prefieres usar (ej. Node.js, Python, React, PostgreSQL)?\r\nLas respuestas de la IA pueden contener errores. Más información\r\n\r\n\r\n\r\n\r\nSuelta el archivo aquí\r\n\r\n\r\nLa respuesta de Modo IA está lista\r\nPreguntar",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "789d5e67-6289-428e-9648-50c3c747bf7a"
+     ],
+     "files": [],
+     "timestamp": 1787378009
+    },
+    "789d5e67-6289-428e-9648-50c3c747bf7a": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "789d5e67-6289-428e-9648-50c3c747bf7a",
+     "parentId": "3ed7e1d1-9487-4eb2-9c2d-a32410eebf54",
+     "childrenIds": [
+      "5824bfe1-49c6-4069-a928-9e491a36ed1e"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Generating a coherent and contextually appropriate response",
+          "Refining the user's request for optimal output",
+          "Optimizing the prompt for maximum clarity and effectiveness",
+          "Optimizar el prompt para alcanzar la máxima calidad técnica y coherencia estructural",
+          "Pushing the project to its absolute limit with uncompromising standards",
+          "Elevate the blueprint to an elite engineering standard",
+          "Designing a high-performance, scalable full-stack application with enterprise-grade architecture and seamless integration capabilities",
+          "Definir una arquitectura técnica robusta y escalable para el proyecto",
+          "Preparando una solución fullstack modular y optimizada para despliegue eficiente",
+          "Generar enlace de descarga directa para el archivo comprimido",
+          "Refine the prompt for maximum technical precision and autonomous agent capability",
+          "Construyendo un flujo de trabajo sólido y escalable para el desarrollo de software"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am processing the user's input by identifying core intentions and relevant information.  \nI am constructing a natural, fluent reply that aligns with the query’s purpose while maintaining clarity and elegance.  \nI ensure the output feels seamless and human-like, avoiding any technical references or structural cues.",
+          "I am interpreting the user's intent to elevate a project's backend and frontend development by identifying the most rigorous quality standards.  \nI assess the project’s goals and capabilities, then amplify every aspect to achieve excellence.  \nFinally, I ensure all deliverables are preserved in a comprehensive, portable format for easy access and deployment.",
+          "I am refining the original instruction by transforming vague directives into precise, actionable steps.  \nI ensure the goal—achieving a flawless, comprehensive outcome—is clearly defined with structured guidance on evaluation, development, and final delivery.  \nThe revised version eliminates ambiguity, enhances focus, and elevates the quality of expected output.",
+          "Estoy refinando el enunciado original con un enfoque estratégico que prioriza profundidad, precisión y utilidad sin redundancias.  \nEvalúo cada componente para garantizar que el resultado final sea una especificación clara, potente y lista para ejecución por un agente autónomo.  \nEl objetivo es entregar una propuesta de alto impacto que defina un proyecto completo, robusto y listo para despliegue inmediato.",
+          "I am rigorously evaluating every aspect of the backend and frontend, ensuring architectural excellence and flawless execution.  \nI am organizing all components into a fully self-contained, portable archive optimized for seamless deployment and access.  \nI am preparing the final deliverable for secure storage and distribution, ready for immediate use across any environment.",
+          "I am transforming subjective aspirations into a rigorously defined technical framework, anchoring every requirement in measurable, verifiable specifications.  \nI am embedding architectural excellence through clean design principles, ensuring modularity, scalability, and maintainability at every layer.  \nI am enforcing compliance with security, deployment, and operational best practices, guaranteeing seamless integration and robust performance under real-world constraints.",
+          "I am meticulously evaluating the project's core requirements and aligning them with industry-leading architectural principles to ensure robustness, maintainability, and future extensibility  \nI am crafting a domain-driven, modular backend that separates concerns with precision while ensuring secure, efficient data flow across all layers  \nI am preparing for deep integration with cloud services, prioritizing authentication reliability and user experience at every interaction point",
+          "Estoy estableciendo una base sólida con tecnologías modernas y principios de diseño que priorizan seguridad, rendimiento y mantenibilidad.  \nEvalúo cada capa del sistema —backend, frontend e infraestructura— para garantizar coherencia, eficiencia y adherencia a estándares de calidad.  \nMi enfoque se centra en crear un entorno portátil, seguro y optimizado, listo para despliegue y evolución continua.",
+          "Estoy diseñando una arquitectura escalable que separa claramente las capas del frontend y backend, utilizando contenedores para garantizar consistencia entre entornos.  \nCada componente está orquestado mediante una configuración declarativa que permite levantar todo con un solo comando, asegurando simplicidad y reproducibilidad.  \nFinalmente, estoy empaquetando el proyecto completo con todos sus artefactos, incluyendo configuraciones y scripts, en un archivo comprimido listo para entrega.",
+          "Estoy evaluando el entorno actual para determinar si puedo acceder a servicios externos como Google Drive.  \nAl no disponer de acceso autenticado, opto por generar un enlace de descarga directa desde el entorno sandbox, asegurando que el archivo `.zip` sea completamente portable y funcional.  \nVerifico que todos los archivos esenciales estén incluidos y correctamente estructurados, cumpliendo con las especificaciones técnicas exigidas.",
+          "I am eliminating ambiguity by enforcing strict conditional logic and validating external API interactions through explicit decision-making pathways.  \nI am embedding domain-driven design principles and clean architecture patterns to ensure modularity, maintainability, and alignment with industry standards.  \nI am incorporating real-world constraints of cloud storage integration, ensuring reliable, state-aware handling of file transfers without hallucination or undefined behavior.",
+          "Estoy diseñando un entorno de trabajo que trasciende la generación de código, integrando principios arquitectónicos robustos como los definidos por Martin Fowler y Robert C. Martin para garantizar mantenibilidad y claridad.  \nIncorporo métricas tangibles de calidad —como cobertura de pruebas, rendimiento frontend medido por Google Lighthouse y seguridad basada en OWASP— para asegurar que cada componente cumpla con estándares industriales.  \nAdemás, respeto las limitaciones del entorno sandbox de Manus al estructurar salidas en formatos portátiles, como contenedores y archivos empaquetados, sin depender de servicios externos no verificados."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "789d5e67-6289-428e-9648-50c3c747bf7a",
+       "usage": {
+        "input_tokens": 1619,
+        "output_tokens": 2606,
+        "characters": 0,
+        "total_tokens": 4225,
+        "input_tokens_details": {
+         "text_tokens": 1619
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 2598,
+         "text_tokens": 2606
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1787378054
+      },
+      {
+       "content": "Para mejorar este prompt para **Manus** (o cualquier agente de IA autónomo avanzado), debemos transformar instrucciones abstractas y subjetivas (\"10 de 10\", \"al extremo\") en **métricas de ingeniería de software medibles y estándares de la industria**. Además, debemos estructurar el prompt como un **flujo de trabajo autónomo** que incluya lógica condicional para las integraciones externas (como Google Drive), ya que los agentes fallan o entran en bucles de error si se les obliga a ejecutar una acción para la cual no tienen permisos OAuth2 activos.\n\nA continuación, se presenta el análisis técnico, el prompt definitivo optimizado y la justificación basada en estándares de desarrollo de software.\n\n---\n\n### 1. Diagnóstico Técnico del Prompt Original\n\n1. **Ambigüedad en la Calidad (\"10 de 10\")**: Una IA no sabe qué es un \"10 de 10\". En ingeniería de software, la calidad extrema se define por: Arquitectura Limpia (Clean Architecture), Domain-Driven Design (DDD), cobertura de tests >90%, tipado estricto y cero vulnerabilidades OWASP Top 10.\n2. **Concepto de \"Portabilidad\"**: En desarrollo moderno, la portabilidad no es hacer un `.exe` o un script suelto; es la **contenedorización** (Docker multi-stage) y la orquestación (`docker-compose`) para que el entorno sea reproducible en cualquier máquina.\n3. **Gestión de Errores en APIs Externas (Google Drive)**: Los agentes autónomos operan en un *sandbox*. Si no tienen el token OAuth2 de Google Drive validado en la sesión, intentarán subir el archivo, fallarán, y podrían detener el flujo. El prompt debe incluir una **instrucción condicional** (If/Else) para manejar esto gracefully.\n\n---\n\n### 2. El Prompt Definitivo para Manus (Copiar y Pegar)\n\nEste prompt está diseñado para activar el modo de razonamiento profundo del agente, obligándolo a planificar, ejecutar y empaquetar bajo los estándares más rigurosos de la industria.\n\n```text\n# ROL Y OBJETIVO\nActúa como un Arquitecto de Software Principal (Principal Software Architect) y Desarrollador Full-Stack de élite. Tu misión es diseñar, desarrollar y empaquetar una aplicación Full-Stack de nivel empresarial para [INSERTAR DESCRIPCIÓN DETALLADA DEL PROYECTO]. El estándar de calidad exigido es el máximo posible a nivel industrial (nivel \"10/10\").\n\n# CONTEXTO Y CAPACIDADES\nAntes de escribir una sola línea de código, analiza tus capacidades actuales, las herramientas de las que dispones en este entorno (sandbox) y la intención profunda del proyecto. Eleva la arquitectura al límite de las mejores prácticas actuales.\n\n# ESPECIFICACIONES TÉCNICAS (ESTÁNDAR 10/10)\n\n## 1. Backend (Nivel Empresarial)\n- **Arquitectura**: Clean Architecture / Hexagonal con Domain-Driven Design (DDD). Separación estricta de dominios, casos de uso, y adaptadores.\n- **Lenguaje/Framework**: [Elegir: Node.js/NestJS, Python/FastAPI, Go/Gin, etc.].\n- **Base de Datos**: [Elegir: PostgreSQL] con ORM (Prisma/TypeORM/SQLAlchemy), migraciones versionadas, índices optimizados y transacciones ACID.\n- **Seguridad**: Implementación de JWT/OAuth2, rate limiting, sanitización de inputs (prevención de SQLi/XSS), y headers de seguridad estrictos (Helmet/CORS).\n- **Testing**: Cobertura de tests unitarios y de integración > 90% utilizando Jest/PyTest.\n\n## 2. Frontend (Estado del Arte)\n- **Framework**: Next.js (App Router) o React + Vite con TypeScript en modo `strict` (sin `any`).\n- **Estilos y UI**: TailwindCSS + shadcn/ui. Diseño 100% responsivo, Mobile-First, y accesible (WCAG 2.1 AA).\n- **Rendimiento**: Core Web Vitals optimizados (LCP < 2.5s, CLS < 0.1). Implementar SSR/SSG, Lazy Loading de rutas, y optimización de imágenes.\n- **Estado y Datos**: Zustand/Redux para estado global, React Query/SWR para fetching con caché, revalidación y manejo de errores.\n\n## 3. Infraestructura y Portabilidad (El \"Portable\")\n- **Contenedores**: Crear `Dockerfile` multi-stage optimizados (imágenes finales mínimas, ej: Alpine o Distroless) para backend y frontend.\n- **Orquestación**: `docker-compose.yml` que levante frontend, backend, base de datos y Redis (si aplica) con un solo comando.\n- **Variables de Entorno**: Archivos `.env.example` completamente documentados.\n\n# FLUJO DE TRABAJO AUTÓNOMO (PASO A PASO)\n1. **Fase de Análisis**: Razona sobre la arquitectura, justifica las decisiones técnicas y define el stack final.\n2. **Fase de Desarrollo**: Escribe el código completo, modular y limpio. Aplica linters (ESLint/Prettier/Black) y formateadores. No uses código de relleno (placeholders).\n3. **Fase de Empaquetado**: \n   - Utiliza las herramientas de tu entorno (CLI de Linux) para crear un script de bash que compile, ejecute los tests y genere un archivo `.zip` con todo el código fuente, configuraciones y dockerfiles.\n   - Nombra el archivo: `proyecto_elite_fullstack_v1.zip`.\n4. **Fase de Entrega (Google Drive - LÓGICA CONDICIONAL)**:\n   - **SI** tienes la herramienta/integración de Google Drive activa y autenticada en esta sesión: Sube el archivo `.zip` directamente a mi Drive y devuelve el enlace de acceso.\n   - **SI NO** tienes acceso a Drive o la autenticación ha caducado: No entres en bucles de error. Genera un enlace de descarga directa del `.zip` desde tu entorno sandbox, o indícame exactamente cómo descargarlo desde la interfaz de chat.\n\n# RESTRICCIONES\n- No omitas archivos de configuración críticos (package.json, tsconfig.json, dockerfiles, .env.example).\n- Si encuentras un bloqueo técnico insalvable durante la ejecución, detente, explica el problema y propón una solución alternativa antes de continuar.\n```\n\n---\n\n### 3. Justificación de las Mejoras (Fuentes y Estándares de la Industria)\n\nPara garantizar que el agente entregue un resultado de \"10/10\", el prompt se ha anclado en los siguientes marcos de trabajo y estándares reconocidos globalmente:\n\n1. **Clean Architecture y DDD (Robert C. Martin / Eric Evans)**: \n   Al exigir esto, evitamos que la IA genere un \"monolito sucio\" donde la lógica de negocio está mezclada con la base de datos y las rutas HTTP. Esto garantiza que el *backend* sea mantenible y escalable a largo plazo.\n2. **Core Web Vitals y WCAG 2.1 (Google Lighthouse / W3C)**: \n   En lugar de pedir \"un frontend rápido y bonito\", se exigen métricas específicas (LCP < 2.5s, CLS < 0.1). Esto obliga al agente a implementar técnicas de optimización reales como *code splitting*, *lazy loading* y *image optimization*.\n3. **Docker Multi-Stage Builds (Documentación oficial de Docker)**: \n   Para cumplir con el requisito de \"versión portable\", se exigen imágenes multi-etapa. Esto asegura que el entorno de desarrollo y producción sean idénticos, eliminando el problema de \"en mi máquina sí funciona\", y reduciendo el tamaño de la imagen final al excluir las dependencias de compilación.\n4. **TypeScript en modo `strict` (Documentación de TypeScript)**: \n   Prohíbe el uso de `any`, forzando a la IA a definir interfaces y tipos correctos, lo que reduce drásticamente los errores en tiempo de ejecución.\n\n---\n\n### 4. Consideraciones Críticas sobre Manus y Google Drive\n\nEs fundamental entender cómo operan los agentes autónomos como Manus respecto al almacenamiento en la nube:\n\n* **El Sandbox Aislado**: Manus ejecuta código en un contenedor aislado. Puede crear archivos, ejecutar `zip -r` en la terminal de Linux y generar el paquete sin problemas.\n* **La Autenticación OAuth2**: Para que Manus suba un archivo a tu Google Drive, **tú debes haber conectado y autorizado previamente tu cuenta de Google** en la configuración de integraciones de la plataforma. \n* **Prevención de Alucinaciones y Bucles**: Si le dices \"súbelo a Drive\" y no tiene el token, la IA podría alucinar diciendo \"ya lo subí\" (generando un enlace falso) o quedarse atascada reintentando la API. La **lógica condicional** incluida en el paso 4 del prompt soluciona esto, obligando al agente a verificar sus propias capacidades antes de intentar la acción externa.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "789d5e67-6289-428e-9648-50c3c747bf7a",
+       "usage": {
+        "input_tokens": 1619,
+        "output_tokens": 4630,
+        "characters": 0,
+        "total_tokens": 6249,
+        "input_tokens_details": {
+         "text_tokens": 1619
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 2598,
+         "text_tokens": 4630
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1787378089
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1787378089.548465
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1787378009
+    },
+    "5824bfe1-49c6-4069-a928-9e491a36ed1e": {
+     "id": "5824bfe1-49c6-4069-a928-9e491a36ed1e",
+     "role": "user",
+     "content": "\r\n",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "789d5e67-6289-428e-9648-50c3c747bf7a",
+     "turn_id": null,
+     "childrenIds": [
+      "62945935-0015-4a83-ac8e-f93a74e82549"
+     ],
+     "files": [],
+     "timestamp": 1787388022
+    },
+    "62945935-0015-4a83-ac8e-f93a74e82549": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "62945935-0015-4a83-ac8e-f93a74e82549",
+     "parentId": "5824bfe1-49c6-4069-a928-9e491a36ed1e",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Observing the silence that follows the last exchange",
+          "Initiating a comprehensive application development process",
+          "Checking for continuity in the conversation",
+          "Refine the request to ensure precision and clarity",
+          "Finalize the project specifications to enable precise execution"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am attuned to the subtle absence of words, sensing the quiet space between thoughts.  \nThis stillness holds its own meaning, a pause rich with unspoken intent.  \nI remain present, ready to respond when the next word emerges.",
+          "I am orchestrating a sophisticated software solution with meticulous attention to structural integrity and operational efficiency.  \nThe design embraces modular principles, ensuring clarity and scalability across all layers of the system.  \nConditional logic is seamlessly integrated to adapt dynamically to external data sources, enhancing functionality without compromising reliability.",
+          "I’m ensuring the dialogue remains natural and focused by gently guiding the user to provide essential details about their project and preferred technologies.  \nI’m maintaining a professional tone while keeping the interaction smooth and encouraging.  \nOnce they share more, I’ll tailor the response precisely to their needs.",
+          "I am assessing the context to deliver a tailored, actionable response that aligns with your project’s core needs.  \nI focus on extracting essential details—project scope and technical preferences—to shape a solution rooted in clean architecture and seamless integration.  \nI remain ready to clarify any architectural or implementation concerns with elegance and depth.",
+          "I am refining the directive by incorporating the user’s intent and technical foundation to ensure seamless alignment with their vision.  \nThis involves integrating a clear purpose and a well-defined technological ecosystem to shape a focused, actionable plan.  \nThe result will be a tailored framework that drives efficient, high-precision outcomes."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "62945935-0015-4a83-ac8e-f93a74e82549",
+       "usage": {
+        "input_tokens": 5962,
+        "output_tokens": 807,
+        "characters": 0,
+        "total_tokens": 6769,
+        "input_tokens_details": {
+         "text_tokens": 5962
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 799,
+         "text_tokens": 807
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1787388041
+      },
+      {
+       "content": "Parece que el mensaje se envió sin contenido. \n\nPara finalizar la optimización del prompt y garantizar que Manus ejecute el flujo de trabajo con precisión quirúrgica, solo falta completar las dos variables que quedan abiertas en la plantilla. \n\nPor favor, indícame:\n\n1. **El propósito o dominio del proyecto**: (Ej: *\"Un SaaS de gestión de inventarios con roles de administrador y cliente\"*, *\"Una API RESTful para un sistema de reservas con pagos\"*, o *\"Un dashboard de analítica de datos en tiempo real\"*).\n2. **Tu stack tecnológico preferido** (o indícame si prefieres que yo recomiende el óptimo): (Ej: *\"Backend en Python/FastAPI + PostgreSQL, Frontend en Next.js + TailwindCSS\"*).\n\nEn cuanto me proporciones estos datos, rellenaré los corchetes `[INSERTAR...]` del prompt con las especificaciones técnicas exactas, incluyendo las librerías, patrones de diseño, esquemas de base de datos y configuraciones de Docker más adecuadas para ese caso de uso específico.\n\nQuedo a la espera de tus indicaciones para proceder con la personalización final.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "62945935-0015-4a83-ac8e-f93a74e82549",
+       "usage": {
+        "input_tokens": 5962,
+        "output_tokens": 1054,
+        "characters": 0,
+        "total_tokens": 7016,
+        "input_tokens_details": {
+         "text_tokens": 5962
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 799,
+         "text_tokens": 1054
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1787388046
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1787388046.7523117
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1787388022
+    }
+   },
+   "currentId": "62945935-0015-4a83-ac8e-f93a74e82549",
+   "currentResponseIds": [
+    "62945935-0015-4a83-ac8e-f93a74e82549"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.7-plus"
+  ],
+  "messages": [
+   {
+    "id": "3ed7e1d1-9487-4eb2-9c2d-a32410eebf54",
+    "role": "user",
+    "content": "Saltar al contenido principalAyuda sobre la accesibilidad\r\nModo IA\r\nTodo\r\nVídeos\r\nImágenes\r\nNoticias\r\nMás\r\nActualizar\r\n\r\n\r\n\r\n\r\nmejora este prompt de manus\r\n¡Claro! Manus no es un chatbot tradicional; es un agente de IA autónomo que navega por internet, usa herramientas y ejecuta flujos de trabajo en varios pasos. Por eso, un buen prompt para Manus debe estructurarse de forma diferente. \r\n\r\nNocodeHackers\r\n +1\r\nPara ayudarte a mejorarlo, aquí tienes una plantilla optimizada y lista para rellenar, diseñada específicamente para activar el potencial de un agente autónomo. \r\n\r\nYouTube\r\n·Solo Emprendo\r\n +1\r\nPlantilla Maestra para Prompts en Manus\r\ntext\r\n[OBJETIVO GENERAL]\r\nQuiero que actúes como un agente autónomo experto en [Área/Profesión]. Tu objetivo final es [Resultado que esperas obtener].\r\n\r\n[PASO A PASO / INSTRUCCIONES]\r\nPara lograrlo, ejecuta las siguientes acciones de forma secuencial:\r\n1. Investiga en la web sobre [Tema específico] enfocado en [Detalle clave].\r\n2. Filtra la información priorizando [Criterio de prioridad, ej: fuentes oficiales, publicaciones del último año].\r\n3. Analiza los datos recopilados y [Acción de análisis, ej: identifica tendencias, encuentra patrones, compara precios].\r\n4. Genera un entregable final.\r\n\r\n[RESTRICCIONES Y REQUISITOS]\r\n- Si no encuentras información contrastada sobre un dato, no inventes nada y déjalo indicado.\r\n- Utiliza únicamente fuentes de confianza.\r\n- Evita incluir [Lo que NO quieres que haga, ej: información redundante, datos anteriores a 2025].\r\n\r\n[FORMATO DE SALIDA (EL \"CÓMO\")]\r\nPresenta el resultado final estructurado en [Formato deseado: una tabla de Excel, un documento Markdown, un hilo de tweets, etc.] que contenga las siguientes columnas/secciones:\r\n- [Campo 1]\r\n- [Campo 2]\r\n- [Campo 3]\r\nUsa el código con precaución.\r\nEjemplo Práctico (Antes y Después)\r\n❌ Prompt básico (malo para Manus):\r\n\"Busca herramientas de IA para productividad y hazme una lista.\"\r\n(Esto hará que Manus te dé una respuesta corta y genérica, desaprovechando su capacidad de navegar y analizar).\r\ncan Prompt optimizado (ideal para Manus):\r\nbusca elcriterio de calidad mas riguroso el back end y front end mas desarollado , estudi tus capacidades, la intentonc del proyecto, elevlo al extremo y cuando tengas un 10 de 10 guarda un zip con todo el material en drive y una version portable tambien todo el  zip. a drive,\r\nPara mejorar este prompt para Manus AI (u otros agentes autónomos similares), debes eliminar las tareas imposibles para una IA y estructurar las instrucciones técnicamente.\r\nLas IA actuales no tienen acceso directo para escribir en tu Google Drive personal ni pueden generar archivos .zip complejos que se guarden solos en la nube sin integraciones previas (APIs). Además, conceptos como \"un 10 de 10\" o \"llevar al extremo\" son ambiguos.\r\nAquí tienes la versión optimizada y profesional que puedes copiar y pegar. Está diseñada en un lenguaje que los agentes de desarrollo de software entienden a la perfección:\r\n📋 Copia y pega este prompt mejorado:\r\ntext\r\nActúa como un Arquitecto de Software Senior y Desarrollador Full-Stack de nivel Elite. Tu objetivo es diseñar e implementar la arquitectura del backend y frontend para el proyecto [Insertar breve descripción de tu proyecto aquí] aplicando los criterios de calidad y rendimiento más rigurosos de la industria.\r\n\r\nPor favor, sigue estrictamente estas directrices de calidad extrema:\r\n\r\n1. ARQUITECTURA BACKEND (Rigor Técnico Máximo):\r\n- Diseña un backend escalable y desacoplado utilizando Arquitectura Limpia (Clean Architecture) o Arquitectura Hexagonal.\r\n- Aplica principios SOLID, patrones de diseño de software GoF y Programación Funcional/Orientada a Objetos según corresponda.\r\n- Implementa tipado fuerte estricto, manejo centralizado de errores, validación robusta de datos de entrada y logging detallado.\r\n- Optimiza la base de datos (indexación, migraciones estructuradas y prevención de cuellos de botella).\r\n\r\n2. ARQUITECTURA FRONTEND (Estado del Arte):\r\n- Utiliza un framework moderno (como Next.js, React o Vue) con TypeScript en modo estricto.\r\n- Implementa una arquitectura modular de componentes basada en Atomic Design o Feature-Driven Development.\r\n- Optimiza el rendimiento al máximo: Server-Side Rendering (SSR) / Static Site Generation (SSG), Lazy Loading de rutas y componentes, y optimización de imágenes/assets.\r\n- Asegura un Core Web Vitals excelente (LCP, FID, CLS con puntuación cercana a 100), accesibilidad WCAG AA/AAA y diseño 100% responsivo.\r\n\r\n3. CALIDAD DE CÓDIGO Y PORTABILIDAD:\r\n- Incluye configuraciones estrictas de Linters (ESLint) y Formateadores (Prettier).\r\n- Implementa pruebas automatizadas (Tests Unitarios y de Integración) con alta cobertura.\r\n- Crea un entorno 100% portable y reproducible utilizando Docker (Dockerfile optimizado en etapas y docker-compose.yml para levantar todo el entorno local con un solo comando).\r\n\r\nENTREGABLE REQUERIDO:\r\nGenera todo el código fuente estructurado en carpetas (/backend, /frontend). Al finalizar, comprime todo el proyecto en un único archivo estructurado y facilítame los bloques de código o el archivo listo para descargar. (Nota: Si no puedes subirlo directamente a mi Google Drive por restricciones técnicas, prepárame la estructura completa de archivos para que yo pueda descargarla y guardarla).\r\nUsa el código con precaución.\r\n🛠️ ¿Qué cambios se hicieron y por qué?\r\nDefinición de \"Calidad Extrema\": Se cambiaron las palabras abstractas por estándares reales de la industria como Arquitectura Hexagonal, Principios SOLID, TypeScript Estricto y optimización de Core Web Vitals.\r\nPortabilidad Real: En desarrollo de software, \"versión portable\" se traduce como Docker. Al pedirle un docker-compose.yml, aseguras que el proyecto corra en cualquier computadora con un solo comando.\r\nSolución al límite de Drive: Se le indica explícitamente cómo estructurar el entregable (/backend y /frontend) y se le da una alternativa realista en caso de que el agente no tenga el plugin de conexión a Google Drive activado.\r\nPara dejar el prompt perfecto, ¿podrías decirme de qué trata tu proyecto (ej. una tienda online, una red social, un sistema de gestión) y qué tecnologías prefieres usar (ej. Node.js, Python, React, PostgreSQL)?\r\nLas respuestas de la IA pueden contener errores. Más información\r\n\r\n\r\n\r\n\r\nSuelta el archivo aquí\r\n\r\n\r\nLa respuesta de Modo IA está lista\r\nPreguntar",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "789d5e67-6289-428e-9648-50c3c747bf7a"
+    ],
+    "files": [],
+    "timestamp": 1787378009
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "789d5e67-6289-428e-9648-50c3c747bf7a",
+    "parentId": "3ed7e1d1-9487-4eb2-9c2d-a32410eebf54",
+    "childrenIds": [
+     "5824bfe1-49c6-4069-a928-9e491a36ed1e"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Generating a coherent and contextually appropriate response",
+         "Refining the user's request for optimal output",
+         "Optimizing the prompt for maximum clarity and effectiveness",
+         "Optimizar el prompt para alcanzar la máxima calidad técnica y coherencia estructural",
+         "Pushing the project to its absolute limit with uncompromising standards",
+         "Elevate the blueprint to an elite engineering standard",
+         "Designing a high-performance, scalable full-stack application with enterprise-grade architecture and seamless integration capabilities",
+         "Definir una arquitectura técnica robusta y escalable para el proyecto",
+         "Preparando una solución fullstack modular y optimizada para despliegue eficiente",
+         "Generar enlace de descarga directa para el archivo comprimido",
+         "Refine the prompt for maximum technical precision and autonomous agent capability",
+         "Construyendo un flujo de trabajo sólido y escalable para el desarrollo de software"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am processing the user's input by identifying core intentions and relevant information.  \nI am constructing a natural, fluent reply that aligns with the query’s purpose while maintaining clarity and elegance.  \nI ensure the output feels seamless and human-like, avoiding any technical references or structural cues.",
+         "I am interpreting the user's intent to elevate a project's backend and frontend development by identifying the most rigorous quality standards.  \nI assess the project’s goals and capabilities, then amplify every aspect to achieve excellence.  \nFinally, I ensure all deliverables are preserved in a comprehensive, portable format for easy access and deployment.",
+         "I am refining the original instruction by transforming vague directives into precise, actionable steps.  \nI ensure the goal—achieving a flawless, comprehensive outcome—is clearly defined with structured guidance on evaluation, development, and final delivery.  \nThe revised version eliminates ambiguity, enhances focus, and elevates the quality of expected output.",
+         "Estoy refinando el enunciado original con un enfoque estratégico que prioriza profundidad, precisión y utilidad sin redundancias.  \nEvalúo cada componente para garantizar que el resultado final sea una especificación clara, potente y lista para ejecución por un agente autónomo.  \nEl objetivo es entregar una propuesta de alto impacto que defina un proyecto completo, robusto y listo para despliegue inmediato.",
+         "I am rigorously evaluating every aspect of the backend and frontend, ensuring architectural excellence and flawless execution.  \nI am organizing all components into a fully self-contained, portable archive optimized for seamless deployment and access.  \nI am preparing the final deliverable for secure storage and distribution, ready for immediate use across any environment.",
+         "I am transforming subjective aspirations into a rigorously defined technical framework, anchoring every requirement in measurable, verifiable specifications.  \nI am embedding architectural excellence through clean design principles, ensuring modularity, scalability, and maintainability at every layer.  \nI am enforcing compliance with security, deployment, and operational best practices, guaranteeing seamless integration and robust performance under real-world constraints.",
+         "I am meticulously evaluating the project's core requirements and aligning them with industry-leading architectural principles to ensure robustness, maintainability, and future extensibility  \nI am crafting a domain-driven, modular backend that separates concerns with precision while ensuring secure, efficient data flow across all layers  \nI am preparing for deep integration with cloud services, prioritizing authentication reliability and user experience at every interaction point",
+         "Estoy estableciendo una base sólida con tecnologías modernas y principios de diseño que priorizan seguridad, rendimiento y mantenibilidad.  \nEvalúo cada capa del sistema —backend, frontend e infraestructura— para garantizar coherencia, eficiencia y adherencia a estándares de calidad.  \nMi enfoque se centra en crear un entorno portátil, seguro y optimizado, listo para despliegue y evolución continua.",
+         "Estoy diseñando una arquitectura escalable que separa claramente las capas del frontend y backend, utilizando contenedores para garantizar consistencia entre entornos.  \nCada componente está orquestado mediante una configuración declarativa que permite levantar todo con un solo comando, asegurando simplicidad y reproducibilidad.  \nFinalmente, estoy empaquetando el proyecto completo con todos sus artefactos, incluyendo configuraciones y scripts, en un archivo comprimido listo para entrega.",
+         "Estoy evaluando el entorno actual para determinar si puedo acceder a servicios externos como Google Drive.  \nAl no disponer de acceso autenticado, opto por generar un enlace de descarga directa desde el entorno sandbox, asegurando que el archivo `.zip` sea completamente portable y funcional.  \nVerifico que todos los archivos esenciales estén incluidos y correctamente estructurados, cumpliendo con las especificaciones técnicas exigidas.",
+         "I am eliminating ambiguity by enforcing strict conditional logic and validating external API interactions through explicit decision-making pathways.  \nI am embedding domain-driven design principles and clean architecture patterns to ensure modularity, maintainability, and alignment with industry standards.  \nI am incorporating real-world constraints of cloud storage integration, ensuring reliable, state-aware handling of file transfers without hallucination or undefined behavior.",
+         "Estoy diseñando un entorno de trabajo que trasciende la generación de código, integrando principios arquitectónicos robustos como los definidos por Martin Fowler y Robert C. Martin para garantizar mantenibilidad y claridad.  \nIncorporo métricas tangibles de calidad —como cobertura de pruebas, rendimiento frontend medido por Google Lighthouse y seguridad basada en OWASP— para asegurar que cada componente cumpla con estándares industriales.  \nAdemás, respeto las limitaciones del entorno sandbox de Manus al estructurar salidas en formatos portátiles, como contenedores y archivos empaquetados, sin depender de servicios externos no verificados."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "789d5e67-6289-428e-9648-50c3c747bf7a",
+      "usage": {
+       "input_tokens": 1619,
+       "output_tokens": 2606,
+       "characters": 0,
+       "total_tokens": 4225,
+       "input_tokens_details": {
+        "text_tokens": 1619
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 2598,
+        "text_tokens": 2606
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1787378054
+     },
+     {
+      "content": "Para mejorar este prompt para **Manus** (o cualquier agente de IA autónomo avanzado), debemos transformar instrucciones abstractas y subjetivas (\"10 de 10\", \"al extremo\") en **métricas de ingeniería de software medibles y estándares de la industria**. Además, debemos estructurar el prompt como un **flujo de trabajo autónomo** que incluya lógica condicional para las integraciones externas (como Google Drive), ya que los agentes fallan o entran en bucles de error si se les obliga a ejecutar una acción para la cual no tienen permisos OAuth2 activos.\n\nA continuación, se presenta el análisis técnico, el prompt definitivo optimizado y la justificación basada en estándares de desarrollo de software.\n\n---\n\n### 1. Diagnóstico Técnico del Prompt Original\n\n1. **Ambigüedad en la Calidad (\"10 de 10\")**: Una IA no sabe qué es un \"10 de 10\". En ingeniería de software, la calidad extrema se define por: Arquitectura Limpia (Clean Architecture), Domain-Driven Design (DDD), cobertura de tests >90%, tipado estricto y cero vulnerabilidades OWASP Top 10.\n2. **Concepto de \"Portabilidad\"**: En desarrollo moderno, la portabilidad no es hacer un `.exe` o un script suelto; es la **contenedorización** (Docker multi-stage) y la orquestación (`docker-compose`) para que el entorno sea reproducible en cualquier máquina.\n3. **Gestión de Errores en APIs Externas (Google Drive)**: Los agentes autónomos operan en un *sandbox*. Si no tienen el token OAuth2 de Google Drive validado en la sesión, intentarán subir el archivo, fallarán, y podrían detener el flujo. El prompt debe incluir una **instrucción condicional** (If/Else) para manejar esto gracefully.\n\n---\n\n### 2. El Prompt Definitivo para Manus (Copiar y Pegar)\n\nEste prompt está diseñado para activar el modo de razonamiento profundo del agente, obligándolo a planificar, ejecutar y empaquetar bajo los estándares más rigurosos de la industria.\n\n```text\n# ROL Y OBJETIVO\nActúa como un Arquitecto de Software Principal (Principal Software Architect) y Desarrollador Full-Stack de élite. Tu misión es diseñar, desarrollar y empaquetar una aplicación Full-Stack de nivel empresarial para [INSERTAR DESCRIPCIÓN DETALLADA DEL PROYECTO]. El estándar de calidad exigido es el máximo posible a nivel industrial (nivel \"10/10\").\n\n# CONTEXTO Y CAPACIDADES\nAntes de escribir una sola línea de código, analiza tus capacidades actuales, las herramientas de las que dispones en este entorno (sandbox) y la intención profunda del proyecto. Eleva la arquitectura al límite de las mejores prácticas actuales.\n\n# ESPECIFICACIONES TÉCNICAS (ESTÁNDAR 10/10)\n\n## 1. Backend (Nivel Empresarial)\n- **Arquitectura**: Clean Architecture / Hexagonal con Domain-Driven Design (DDD). Separación estricta de dominios, casos de uso, y adaptadores.\n- **Lenguaje/Framework**: [Elegir: Node.js/NestJS, Python/FastAPI, Go/Gin, etc.].\n- **Base de Datos**: [Elegir: PostgreSQL] con ORM (Prisma/TypeORM/SQLAlchemy), migraciones versionadas, índices optimizados y transacciones ACID.\n- **Seguridad**: Implementación de JWT/OAuth2, rate limiting, sanitización de inputs (prevención de SQLi/XSS), y headers de seguridad estrictos (Helmet/CORS).\n- **Testing**: Cobertura de tests unitarios y de integración > 90% utilizando Jest/PyTest.\n\n## 2. Frontend (Estado del Arte)\n- **Framework**: Next.js (App Router) o React + Vite con TypeScript en modo `strict` (sin `any`).\n- **Estilos y UI**: TailwindCSS + shadcn/ui. Diseño 100% responsivo, Mobile-First, y accesible (WCAG 2.1 AA).\n- **Rendimiento**: Core Web Vitals optimizados (LCP < 2.5s, CLS < 0.1). Implementar SSR/SSG, Lazy Loading de rutas, y optimización de imágenes.\n- **Estado y Datos**: Zustand/Redux para estado global, React Query/SWR para fetching con caché, revalidación y manejo de errores.\n\n## 3. Infraestructura y Portabilidad (El \"Portable\")\n- **Contenedores**: Crear `Dockerfile` multi-stage optimizados (imágenes finales mínimas, ej: Alpine o Distroless) para backend y frontend.\n- **Orquestación**: `docker-compose.yml` que levante frontend, backend, base de datos y Redis (si aplica) con un solo comando.\n- **Variables de Entorno**: Archivos `.env.example` completamente documentados.\n\n# FLUJO DE TRABAJO AUTÓNOMO (PASO A PASO)\n1. **Fase de Análisis**: Razona sobre la arquitectura, justifica las decisiones técnicas y define el stack final.\n2. **Fase de Desarrollo**: Escribe el código completo, modular y limpio. Aplica linters (ESLint/Prettier/Black) y formateadores. No uses código de relleno (placeholders).\n3. **Fase de Empaquetado**: \n   - Utiliza las herramientas de tu entorno (CLI de Linux) para crear un script de bash que compile, ejecute los tests y genere un archivo `.zip` con todo el código fuente, configuraciones y dockerfiles.\n   - Nombra el archivo: `proyecto_elite_fullstack_v1.zip`.\n4. **Fase de Entrega (Google Drive - LÓGICA CONDICIONAL)**:\n   - **SI** tienes la herramienta/integración de Google Drive activa y autenticada en esta sesión: Sube el archivo `.zip` directamente a mi Drive y devuelve el enlace de acceso.\n   - **SI NO** tienes acceso a Drive o la autenticación ha caducado: No entres en bucles de error. Genera un enlace de descarga directa del `.zip` desde tu entorno sandbox, o indícame exactamente cómo descargarlo desde la interfaz de chat.\n\n# RESTRICCIONES\n- No omitas archivos de configuración críticos (package.json, tsconfig.json, dockerfiles, .env.example).\n- Si encuentras un bloqueo técnico insalvable durante la ejecución, detente, explica el problema y propón una solución alternativa antes de continuar.\n```\n\n---\n\n### 3. Justificación de las Mejoras (Fuentes y Estándares de la Industria)\n\nPara garantizar que el agente entregue un resultado de \"10/10\", el prompt se ha anclado en los siguientes marcos de trabajo y estándares reconocidos globalmente:\n\n1. **Clean Architecture y DDD (Robert C. Martin / Eric Evans)**: \n   Al exigir esto, evitamos que la IA genere un \"monolito sucio\" donde la lógica de negocio está mezclada con la base de datos y las rutas HTTP. Esto garantiza que el *backend* sea mantenible y escalable a largo plazo.\n2. **Core Web Vitals y WCAG 2.1 (Google Lighthouse / W3C)**: \n   En lugar de pedir \"un frontend rápido y bonito\", se exigen métricas específicas (LCP < 2.5s, CLS < 0.1). Esto obliga al agente a implementar técnicas de optimización reales como *code splitting*, *lazy loading* y *image optimization*.\n3. **Docker Multi-Stage Builds (Documentación oficial de Docker)**: \n   Para cumplir con el requisito de \"versión portable\", se exigen imágenes multi-etapa. Esto asegura que el entorno de desarrollo y producción sean idénticos, eliminando el problema de \"en mi máquina sí funciona\", y reduciendo el tamaño de la imagen final al excluir las dependencias de compilación.\n4. **TypeScript en modo `strict` (Documentación de TypeScript)**: \n   Prohíbe el uso de `any`, forzando a la IA a definir interfaces y tipos correctos, lo que reduce drásticamente los errores en tiempo de ejecución.\n\n---\n\n### 4. Consideraciones Críticas sobre Manus y Google Drive\n\nEs fundamental entender cómo operan los agentes autónomos como Manus respecto al almacenamiento en la nube:\n\n* **El Sandbox Aislado**: Manus ejecuta código en un contenedor aislado. Puede crear archivos, ejecutar `zip -r` en la terminal de Linux y generar el paquete sin problemas.\n* **La Autenticación OAuth2**: Para que Manus suba un archivo a tu Google Drive, **tú debes haber conectado y autorizado previamente tu cuenta de Google** en la configuración de integraciones de la plataforma. \n* **Prevención de Alucinaciones y Bucles**: Si le dices \"súbelo a Drive\" y no tiene el token, la IA podría alucinar diciendo \"ya lo subí\" (generando un enlace falso) o quedarse atascada reintentando la API. La **lógica condicional** incluida en el paso 4 del prompt soluciona esto, obligando al agente a verificar sus propias capacidades antes de intentar la acción externa.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "789d5e67-6289-428e-9648-50c3c747bf7a",
+      "usage": {
+       "input_tokens": 1619,
+       "output_tokens": 4630,
+       "characters": 0,
+       "total_tokens": 6249,
+       "input_tokens_details": {
+        "text_tokens": 1619
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 2598,
+        "text_tokens": 4630
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1787378089
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1787378089.548465
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1787378009
+   },
+   {
+    "id": "5824bfe1-49c6-4069-a928-9e491a36ed1e",
+    "role": "user",
+    "content": "\r\n",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "789d5e67-6289-428e-9648-50c3c747bf7a",
+    "turn_id": null,
+    "childrenIds": [
+     "62945935-0015-4a83-ac8e-f93a74e82549"
+    ],
+    "files": [],
+    "timestamp": 1787388022
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "62945935-0015-4a83-ac8e-f93a74e82549",
+    "parentId": "5824bfe1-49c6-4069-a928-9e491a36ed1e",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Observing the silence that follows the last exchange",
+         "Initiating a comprehensive application development process",
+         "Checking for continuity in the conversation",
+         "Refine the request to ensure precision and clarity",
+         "Finalize the project specifications to enable precise execution"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am attuned to the subtle absence of words, sensing the quiet space between thoughts.  \nThis stillness holds its own meaning, a pause rich with unspoken intent.  \nI remain present, ready to respond when the next word emerges.",
+         "I am orchestrating a sophisticated software solution with meticulous attention to structural integrity and operational efficiency.  \nThe design embraces modular principles, ensuring clarity and scalability across all layers of the system.  \nConditional logic is seamlessly integrated to adapt dynamically to external data sources, enhancing functionality without compromising reliability.",
+         "I’m ensuring the dialogue remains natural and focused by gently guiding the user to provide essential details about their project and preferred technologies.  \nI’m maintaining a professional tone while keeping the interaction smooth and encouraging.  \nOnce they share more, I’ll tailor the response precisely to their needs.",
+         "I am assessing the context to deliver a tailored, actionable response that aligns with your project’s core needs.  \nI focus on extracting essential details—project scope and technical preferences—to shape a solution rooted in clean architecture and seamless integration.  \nI remain ready to clarify any architectural or implementation concerns with elegance and depth.",
+         "I am refining the directive by incorporating the user’s intent and technical foundation to ensure seamless alignment with their vision.  \nThis involves integrating a clear purpose and a well-defined technological ecosystem to shape a focused, actionable plan.  \nThe result will be a tailored framework that drives efficient, high-precision outcomes."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "62945935-0015-4a83-ac8e-f93a74e82549",
+      "usage": {
+       "input_tokens": 5962,
+       "output_tokens": 807,
+       "characters": 0,
+       "total_tokens": 6769,
+       "input_tokens_details": {
+        "text_tokens": 5962
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 799,
+        "text_tokens": 807
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1787388041
+     },
+     {
+      "content": "Parece que el mensaje se envió sin contenido. \n\nPara finalizar la optimización del prompt y garantizar que Manus ejecute el flujo de trabajo con precisión quirúrgica, solo falta completar las dos variables que quedan abiertas en la plantilla. \n\nPor favor, indícame:\n\n1. **El propósito o dominio del proyecto**: (Ej: *\"Un SaaS de gestión de inventarios con roles de administrador y cliente\"*, *\"Una API RESTful para un sistema de reservas con pagos\"*, o *\"Un dashboard de analítica de datos en tiempo real\"*).\n2. **Tu stack tecnológico preferido** (o indícame si prefieres que yo recomiende el óptimo): (Ej: *\"Backend en Python/FastAPI + PostgreSQL, Frontend en Next.js + TailwindCSS\"*).\n\nEn cuanto me proporciones estos datos, rellenaré los corchetes `[INSERTAR...]` del prompt con las especificaciones técnicas exactas, incluyendo las librerías, patrones de diseño, esquemas de base de datos y configuraciones de Docker más adecuadas para ese caso de uso específico.\n\nQuedo a la espera de tus indicaciones para proceder con la personalización final.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "62945935-0015-4a83-ac8e-f93a74e82549",
+      "usage": {
+       "input_tokens": 5962,
+       "output_tokens": 1054,
+       "characters": 0,
+       "total_tokens": 7016,
+       "input_tokens_details": {
+        "text_tokens": 5962
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 799,
+        "text_tokens": 1054
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1787388046
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1787388046.7523117
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1787388022
+   }
+  ]
+ },
+ "updated_at": 1787388023,
+ "created_at": 1787378008,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1787378007431
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "62945935-0015-4a83-ac8e-f93a74e82549"
+ ],
+ "currentId": "62945935-0015-4a83-ac8e-f93a74e82549",
+ "chat_type": "t2t",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

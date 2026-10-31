@@ -1,0 +1,312 @@
+{
+ "id": "bf7646b2-f320-4788-a76e-f3152d51d397",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "New chat",
+ "chat": {
+  "history": {
+   "messages": {
+    "cd126048-3271-49ad-9f36-e85e7d777206": {
+     "id": "cd126048-3271-49ad-9f36-e85e7d777206",
+     "role": "user",
+     "content": "Voy a investigar quién es Michelle para entender el contexto correctamente antes de generar contenido.\nEso es solo sobre Vercel. Necesito buscar \"Michelle\" específicamente. Déjame intentar acceder al sitio o buscar quién es Michelle en este contexto.\nPerfecto. Ahora tengo claridad. Michelle Relayze es una modelo de moda, reina de belleza, activista transgénero y Miss Trans Star España 2019, nacida en Lima, Perú  (Blogger) . Actualmente tiene 35K seguidores en Instagram y es directora artística del Believe Group Barcelona  (Instagram) . Vive en Barcelona y se describe como presentadora, modelo y \"donadora de serpientes\"  (X) .\nAhora crearé una autobiografía de ficción de ~500 páginas construida desde lo obvio y lo que podría ser creíble para alguien de su perfil. Será un archivo que pueda descargarse como ZIP.\nNow I'll create the autobiography as a comprehensive document. Given it needs to be ~500 pages, I'll create a structured, detailed narrative that weaves her known facts with plausible backstory, emotional depth, and industry insights. Crea imagen del libro portada clara en dorado grusoo hojas se ven doracadas por fuera en breves",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2i",
+     "sub_chat_type": "t2i",
+     "edited": false,
+     "error": {
+      "status_code": 400,
+      "detail": {
+       "modality": [
+        "image"
+       ],
+       "code": "data_inspection_failed",
+       "stage": "input",
+       "image_idx": [
+        0
+       ],
+       "details": "Advertencia de seguridad del contenido: ¡los datos introducidos pueden contener contenido inapropiado!"
+      }
+     },
+     "extra": {
+      "meta": {
+       "subChatType": "t2i",
+       "size": "9:16",
+       "model": "qwen-image-3.0-pro"
+      },
+      "endTime": 1788048908.4724464
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "6d870c5c-e58e-4422-95d1-ab08e6eb844c"
+     ],
+     "files": [
+      {
+       "id": "08a4f14b-9969-41ca-8e8f-44eaa15f0782",
+       "name": "Screenshot_20260830_020420_com.instagram.android.jpg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 902298,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/08a4f14b-9969-41ca-8e8f-44eaa15f0782_Screenshot_20260830_020420_com.instagram.android.jpg?key=[SECRETO_REDACTADO]",
+       "file": {
+        "created_at": 1788048766099,
+        "data": {},
+        "filename": "Screenshot_20260830_020420_com.instagram.android.jpg",
+        "hash": null,
+        "id": "08a4f14b-9969-41ca-8e8f-44eaa15f0782",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "Screenshot_20260830_020420_com.instagram.android.jpg",
+         "size": 902298,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1788048766099,
+        "lastModified": 1788048260490,
+        "name": "Screenshot_20260830_020420_com.instagram.android.jpg",
+        "webkitRelativePath": "",
+        "size": 902298,
+        "type": "image/jpeg"
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "d3fb7717-0110-46f5-9e15-e97a9d68e6a0",
+       "showType": "image",
+       "uploadTaskId": "2baa8a92-5ce3-46b4-9eaf-f9c2c679e7e3"
+      }
+     ],
+     "timestamp": 1788048776
+    },
+    "6d870c5c-e58e-4422-95d1-ab08e6eb844c": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2i",
+     "sub_chat_type": "t2i",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "6d870c5c-e58e-4422-95d1-ab08e6eb844c",
+     "parentId": "cd126048-3271-49ad-9f36-e85e7d777206",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "content_list": [],
+     "is_stop": false,
+     "edited": false,
+     "error": {
+      "modality": [
+       "image"
+      ],
+      "code": "data_inspection_failed",
+      "stage": "input",
+      "image_idx": [
+       0
+      ],
+      "details": "Advertencia de seguridad del contenido: ¡los datos introducidos pueden contener contenido inapropiado!"
+     },
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2i",
+       "size": "9:16",
+       "model": "qwen-image-3.0-pro"
+      },
+      "endTime": 1788048908.5274153
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1788048776
+    }
+   },
+   "currentId": "6d870c5c-e58e-4422-95d1-ab08e6eb844c",
+   "currentResponseIds": [
+    "6d870c5c-e58e-4422-95d1-ab08e6eb844c"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.7-plus"
+  ],
+  "messages": [
+   {
+    "id": "cd126048-3271-49ad-9f36-e85e7d777206",
+    "role": "user",
+    "content": "Voy a investigar quién es Michelle para entender el contexto correctamente antes de generar contenido.\nEso es solo sobre Vercel. Necesito buscar \"Michelle\" específicamente. Déjame intentar acceder al sitio o buscar quién es Michelle en este contexto.\nPerfecto. Ahora tengo claridad. Michelle Relayze es una modelo de moda, reina de belleza, activista transgénero y Miss Trans Star España 2019, nacida en Lima, Perú  (Blogger) . Actualmente tiene 35K seguidores en Instagram y es directora artística del Believe Group Barcelona  (Instagram) . Vive en Barcelona y se describe como presentadora, modelo y \"donadora de serpientes\"  (X) .\nAhora crearé una autobiografía de ficción de ~500 páginas construida desde lo obvio y lo que podría ser creíble para alguien de su perfil. Será un archivo que pueda descargarse como ZIP.\nNow I'll create the autobiography as a comprehensive document. Given it needs to be ~500 pages, I'll create a structured, detailed narrative that weaves her known facts with plausible backstory, emotional depth, and industry insights. Crea imagen del libro portada clara en dorado grusoo hojas se ven doracadas por fuera en breves",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2i",
+    "sub_chat_type": "t2i",
+    "edited": false,
+    "error": {
+     "status_code": 400,
+     "detail": {
+      "modality": [
+       "image"
+      ],
+      "code": "data_inspection_failed",
+      "stage": "input",
+      "image_idx": [
+       0
+      ],
+      "details": "Advertencia de seguridad del contenido: ¡los datos introducidos pueden contener contenido inapropiado!"
+     }
+    },
+    "extra": {
+     "meta": {
+      "subChatType": "t2i",
+      "size": "9:16",
+      "model": "qwen-image-3.0-pro"
+     },
+     "endTime": 1788048908.4724464
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "6d870c5c-e58e-4422-95d1-ab08e6eb844c"
+    ],
+    "files": [
+     {
+      "id": "08a4f14b-9969-41ca-8e8f-44eaa15f0782",
+      "name": "Screenshot_20260830_020420_com.instagram.android.jpg",
+      "file_type": "image/jpeg",
+      "type": "image",
+      "file_class": "vision",
+      "size": 902298,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/08a4f14b-9969-41ca-8e8f-44eaa15f0782_Screenshot_20260830_020420_com.instagram.android.jpg?key=[SECRETO_REDACTADO]",
+      "file": {
+       "created_at": 1788048766099,
+       "data": {},
+       "filename": "Screenshot_20260830_020420_com.instagram.android.jpg",
+       "hash": null,
+       "id": "08a4f14b-9969-41ca-8e8f-44eaa15f0782",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "Screenshot_20260830_020420_com.instagram.android.jpg",
+        "size": 902298,
+        "content_type": "image/jpeg"
+       },
+       "update_at": 1788048766099,
+       "lastModified": 1788048260490,
+       "name": "Screenshot_20260830_020420_com.instagram.android.jpg",
+       "webkitRelativePath": "",
+       "size": 902298,
+       "type": "image/jpeg"
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "d3fb7717-0110-46f5-9e15-e97a9d68e6a0",
+      "showType": "image",
+      "uploadTaskId": "2baa8a92-5ce3-46b4-9eaf-f9c2c679e7e3"
+     }
+    ],
+    "timestamp": 1788048776
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2i",
+    "sub_chat_type": "t2i",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "6d870c5c-e58e-4422-95d1-ab08e6eb844c",
+    "parentId": "cd126048-3271-49ad-9f36-e85e7d777206",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "content_list": [],
+    "is_stop": false,
+    "edited": false,
+    "error": {
+     "modality": [
+      "image"
+     ],
+     "code": "data_inspection_failed",
+     "stage": "input",
+     "image_idx": [
+      0
+     ],
+     "details": "Advertencia de seguridad del contenido: ¡los datos introducidos pueden contener contenido inapropiado!"
+    },
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2i",
+      "size": "9:16",
+      "model": "qwen-image-3.0-pro"
+     },
+     "endTime": 1788048908.5274153
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1788048776
+   }
+  ]
+ },
+ "updated_at": 1788048775,
+ "created_at": 1788048775,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1788048774140
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "6d870c5c-e58e-4422-95d1-ab08e6eb844c"
+ ],
+ "currentId": "6d870c5c-e58e-4422-95d1-ab08e6eb844c",
+ "chat_type": "t2i",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

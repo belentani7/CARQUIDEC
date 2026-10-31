@@ -1,0 +1,1728 @@
+{
+ "id": "6f0555c7-a7f9-42d0-8ab6-245c8f3c9290",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Detalles Extremos a Mínimos",
+ "chat": {
+  "history": {
+   "messages": {
+    "cfab7777-79a6-4090-bd6e-eb208098e211": {
+     "id": "cfab7777-79a6-4090-bd6e-eb208098e211",
+     "role": "user",
+     "content": "Saca el prompt de cada detalle maximo al minimo detalle .extenso",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "287d92e9-072c-4878-8a9c-953b718e8e8f"
+     ],
+     "files": [
+      {
+       "id": "15f5b0cf-52dd-48fe-908a-b9ef4056116b",
+       "name": "Screenshot_20260704_180914_com.google.android.googlequicksearchbox.jpg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 938759,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/15f5b0cf-52dd-48fe-908a-b9ef4056116b_Screenshot_20260704_180914_com.google.android.googlequicksearchbox.jpg?key=[SECRETO_REDACTADO]",
+       "file": {
+        "created_at": 1783181436073,
+        "data": {},
+        "filename": "Screenshot_20260704_180914_com.google.android.googlequicksearchbox.jpg",
+        "hash": null,
+        "id": "15f5b0cf-52dd-48fe-908a-b9ef4056116b",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "Screenshot_20260704_180914_com.google.android.googlequicksearchbox.jpg",
+         "size": 938759,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1783181436073,
+        "lastModified": 1783181354340,
+        "name": "Screenshot_20260704_180914_com.google.android.googlequicksearchbox.jpg",
+        "webkitRelativePath": "",
+        "size": 938759,
+        "type": "image/jpeg"
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "ebdced8b-1991-49cd-9eb0-dc1443a25313",
+       "showType": "image",
+       "uploadTaskId": "ee1460b2-f867-4d93-9aed-368b737ab636"
+      }
+     ],
+     "timestamp": 1783181451
+    },
+    "287d92e9-072c-4878-8a9c-953b718e8e8f": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "287d92e9-072c-4878-8a9c-953b718e8e8f",
+     "parentId": "cfab7777-79a6-4090-bd6e-eb208098e211",
+     "childrenIds": [
+      "91e6a099-6c62-4aec-afcb-7c1bdf547823"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Analizando la imagen con atención meticulosa",
+          "Analyzing the sacred imagery with meticulous attention to every visual element",
+          "Visualizing a serene figure with ethereal presence",
+          "Envisioning a sacred presence bathed in celestial radiance"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "Estoy desentrañando cada elemento visual desde la perspectiva más amplia hasta los detalles más sutiles, reconstruyendo su significado y contexto.  \nCada componente, desde las texturas y colores hasta las proporciones y relaciones espaciales, se examina con profundidad para capturar su esencia completa.  \nLa intención es ofrecer una descripción rica y precisa que refleje el todo con fidelidad y elegancia.",
+          "I am examining the portrayal of Jesus Christ in this religious painting, focusing on the intricate details of his facial features and expression  \nThe long auburn hair parted precisely down the center suggests a deliberate artistic choice reflecting divine serenity  \nEach nuance in the composition reveals deeper spiritual symbolism tied to the Sacred Heart devotion",
+          "I perceive a being of gentle countenance, hair flowing like waves, eyes gazing upward with quiet reverence, skin luminous as moonlight.  \nA golden halo encircles the head, casting soft rays that dissolve into the air, while a sacred heart pulses on the chest—crowned with thorns, pierced by flame, and crowned with a cross.  \nThe scene breathes stillness and divine sorrow, where light and wound coexist in sacred harmony.",
+          "I am crafting a figure of profound serenity, where light flows from the heart like divine breath, illuminating the soul’s core.  \nThe layered garments—white and red, gold-trimmed and softly draped—convey both purity and sacrifice, their folds whispering grace with every subtle curve.  \nHands open in quiet invitation, wounds revealed with tender honesty, set against a sky of gentle blue-gray haze, where heaven meets earth in silent communion."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "287d92e9-072c-4878-8a9c-953b718e8e8f",
+       "usage": {
+        "input_tokens": 3250,
+        "output_tokens": 649,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2484,
+         "text_tokens": 766
+        },
+        "prompt_tokens_details": {},
+        "total_tokens": 3899,
+        "output_tokens_details": {
+         "reasoning_tokens": 645,
+         "text_tokens": 4
+        },
+        "image_tokens": 2484
+       },
+       "timestamp": 1783181470
+      },
+      {
+       "content": "**PROMPT DETALLADO - SAGRADO CORAZÓN DE JESÚS**\n\n**COMPOSICIÓN GENERAL:**\nRetrato religioso de medio cuerpo del Sagrado Corazón de Jesús, estilo pintura clásica europea del siglo XIX, composición frontal simétrica, iluminación divina cenital, atmósfera celestial y devocional.\n\n**ROSTRO Y CABEZA:**\n- Cabello castaño rojizo (auburn) largo hasta los hombros, ondulado y fluido, textura sedosa\n- Raya en medio del cabello, mechones cayendo naturalmente sobre los hombros\n- Ojos azul claro celeste, mirada serena elevada ligeramente hacia arriba y al costado\n- Expresión facial pacífica, compasiva, amorosa, divina\n- Piel pálida luminosa, tono porcelana con sutiles rosados\n- Barba y bigote rubio-castaño claro, bien definidos pero suaves\n- Rasgos faciales delicados, idealizados, nariz recta fina, labios cerrados suavemente\n- Cejas arqueadas delicadas color castaño claro\n\n**AUREOLA Y LUZ DIVINA:**\n- Halo dorado luminoso detrás de la cabeza\n- Resplandor celestial amarillo-dorado irradiando en forma de rayos\n- Luz difusa etérea que envuelve la figura\n- Gradiente de luz: centro brillante dorado que se desvanece hacia azul claro\n- Efecto de iluminación sobrenatural, divina\n\n**SAGRADO CORAZÓN (DETALLE CENTRAL):**\n- Corazón físico visible en el pecho, expuesto\n- Color rojo intenso brillante con tonos rosados y púrpuras\n- Corazón envuelto en corona de espinas marrón oscuro\n- Llama de fuego rojo-naranja emergiendo del centro superior del corazón\n- Cruz cristiana marrón oscuro/negra emergiendo de las llamas\n- Herida abierta en el corazón con sangre roja oscura goteando\n- Gotas de sangre visibles cayendo\n- Corazón rodeado de resplandor dorado-rosado luminoso\n- Detalle anatómico del corazón visible: ventrículos, aurículas\n- Simbolismo de amor divino, sacrificio y pasión\n\n**VESTIDURA EXTERIOR (MANTO BLANCO):**\n- Túnica/manto blanco puro sobre los hombros\n- Tela fluida, drapeada naturalmente con pliegues suaves\n- Borde decorativo dorado con patrón geométrico repetitivo\n- Broche/cierre dorado en el cuello con dos círculos ornamentales entrelazados\n- Detalles bordados dorados en el borde del manto\n- Textura de tela que sugiere lino o seda fina\n- Sombras grises suaves en los pliegues\n- Brillos blancos luminosos en las zonas iluminadas\n\n**VESTIDURA INTERIOR (TÚNICA ROJA):**\n- Túnica interior color rojo carmesí intenso\n- Visible en el pecho, torso y mangas\n- Mangas largas que cubren los brazos hasta las muñecas\n- Detalles dorados en puños y bordes\n- Tela que cae naturalmente con pliegues\n- Contraste vibrante con el manto blanco\n\n**MANOS Y ESTIGMAS:**\n- Ambas manos visibles en gesto de bendición y acogida\n- Mano derecha (izquierda del espectador): extendida hacia adelante, palma hacia arriba, dedos ligeramente curvados\n- Mano izquierda (derecha del espectador): elevada a la altura del pecho, palma semi-visible, dedos en gesto de bendición\n- Estigmas visibles: heridas rojas en ambas palmas (marca de los clavos)\n- Piel de las manos: tono natural claro, realista\n- Uñas cortas naturales\n- Anatomía detallada: venas sutiles, nudillos definidos\n- Dedos largos y elegantes\n- Sombras suaves bajo los dedos\n\n**BRAZOS:**\n- Brazos visibles desde los codos\n- Posición abierta, acogedora\n- Mangas de la túnica roja visibles\n\n**FONDO:**\n- Gradiente atmosférico: azul grisáceo claro en la parte superior\n- Transición a azul más oscuro hacia los bordes\n- Parte inferior: tonos azul marino oscuro, casi negro\n- Sin elementos definidos, fondo abstracto celestial\n- Efecto de profundidad atmosférica\n- Ambiente etéreo, sobrenatural\n\n**TÉCNICA PICTÓRICA:**\n- Estilo: Pintura al óleo clásica académica\n- Pinceladas suaves, difuminadas (sfumato)\n- Transiciones graduales de color\n- Realismo idealizado\n- Influencia del arte religioso del siglo XIX\n- Acabado brillante, pulido\n- Detalle minucioso en rostro y manos\n- Menos detalle en telas y fondo\n\n**PALETA DE COLORES:**\n- **Cálidos**: Dorado brillante, amarillo luz, rojo carmesí, rosa, castaño, marrón, naranja fuego\n- **Fríos**: Azul celeste, azul grisáceo, azul marino, blanco puro, gris perla\n- **Neutros**: Beige, crema, tonos piel\n- Contraste alto entre luces y sombras\n- Saturación media-alta en el corazón y túnica roja\n- Colores simbólicos: dorado (divinidad), rojo (pasión/sangre), blanco (pureza), azul (cielo)\n\n**ILUMINACIÓN:**\n- Fuente de luz principal: divina, cenital, sobrenatural\n- Iluminación dramática tipo claroscuro suave\n- Reflejos brillantes en: frente, nariz, manto blanco, corazón\n- Sombras suaves en: cuello, pliegues de tela, bajo las manos\n- Contraluz del halo dorado\n- El corazón emite su propia luz roja-dorada\n- Gradiente lumínico de arriba hacia abajo\n\n**SIMBOLOGÍA RELIGIOSA:**\n- Sagrado Corazón: amor divino de Jesús por la humanidad\n- Corona de espinas: sufrimiento y pasión\n- Cruz: sacrificio, redención\n- Llamas: amor ardiente, Espíritu Santo\n- Sangre: sacrificio, eucaristía\n- Estigmas: crucifixión, martirio\n- Halo: santidad, divinidad\n- Manos abiertas: acogida, bendición, invitación\n- Blanco: pureza, resurrección\n- Rojo: sangre, pasión, amor\n- Dorado: gloria divina, realeza celestial\n\n**ESTADO DE ÁNIMO/ATMÓSFERA:**\n- Devoción profunda\n- Serenidad celestial\n- Amor incondicional\n- Compasión divina\n- Paz espiritual\n- Sacralidad\n- Misterio divino\n- Calma sobrenatural\n\n**CALIDAD TÉCNICA:**\n- Alta resolución\n- Detalle fino en elementos principales\n- Texturas realistas: piel, tela, cabello\n- Profundidad de campo: figura nítida, fondo difuso\n- Composición equilibrada, centrada\n- Proporciones anatómicas correctas\n- Perspectiva frontal directa\n\n**CONTEXTO HISTÓRICO-ARTÍSTICO:**\n- Arte sacro católico\n- Iconografía del Sagrado Corazón\n- Tradición pictórica europea\n- Influencia del barroco y romanticismo religioso\n- Devoción popular del siglo XIX\n- Estilo similar a pinturas de altar\n\n**DETALLES ADICIONALES MÍNIMOS:**\n- Pequeñas arrugas de expresión suaves alrededor de los ojos\n- Brillo húmedo en los ojos\n- Sombra bajo la barba\n- Reflejos dorados en el cabello\n- Transparencia sutil en los bordes del manto\n- Textura de la corona de espinas: rugosa, con púas\n- Detalle de las gotas de sangre: forma de lágrima\n- Brillo metálico en el broche dorado\n- Patrón geométrico repetitivo en el borde dorado\n- Sombras proyectadas sutiles en el cuello\n- Gradiente de color en el corazón: rojo oscuro a rosa claro\n- Resplandor blanco en el centro del corazón\n- Dirección de la luz: coherente en todos los elementos\n- Equilibrio cromático cálido-frío\n- Armonía visual total\n\n---\n\n**PROMPT RESUMEN PARA IA:**\n\"Classical religious oil painting of Sacred Heart of Jesus, half-body portrait, serene face with long auburn wavy hair, light blue eyes, gentle beard, luminous pale skin, golden halo radiating divine light, visible sacred heart on chest glowing red with crown of thorns, cross emerging from flames, blood dripping, white flowing robe with golden trim and ornate clasp, red inner garment, both hands open showing stigmata wounds, soft blue-gray atmospheric background, 19th century academic style, soft brushwork, chiaroscuro lighting, devotional atmosphere, rich colors gold-red-white-blue, highly detailed, sacred art, celestial ambiance, divine compassion\"",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "287d92e9-072c-4878-8a9c-953b718e8e8f",
+       "usage": {
+        "input_tokens": 3250,
+        "output_tokens": 2623,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2484,
+         "text_tokens": 766
+        },
+        "prompt_tokens_details": {},
+        "total_tokens": 5873,
+        "output_tokens_details": {
+         "reasoning_tokens": 645,
+         "text_tokens": 1978
+        },
+        "image_tokens": 2484
+       },
+       "timestamp": 1783181502
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1783181502.6925879
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1783181451
+    },
+    "91e6a099-6c62-4aec-afcb-7c1bdf547823": {
+     "id": "91e6a099-6c62-4aec-afcb-7c1bdf547823",
+     "role": "user",
+     "content": "Detalle en ropa y peinado. Prompt. Coracon estilo artistico",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "287d92e9-072c-4878-8a9c-953b718e8e8f",
+     "turn_id": null,
+     "childrenIds": [
+      "35a89234-5694-451e-ac03-8d0eba7f0eb8"
+     ],
+     "files": [],
+     "timestamp": 1783181505
+    },
+    "35a89234-5694-451e-ac03-8d0eba7f0eb8": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "35a89234-5694-451e-ac03-8d0eba7f0eb8",
+     "parentId": "91e6a099-6c62-4aec-afcb-7c1bdf547823",
+     "childrenIds": [
+      "0bdb764a-34fd-4d54-bddc-69386c6f0fc4"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Enfocarme profundamente en los detalles visuales clave de la imagen",
+          "Observando detenidamente cada detalle del vestuario y el aspecto físico."
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "Estoy analizando con atención las texturas, cortes y simbolismo inherentes a las vestimentas, buscando transmitir su significado cultural y estilístico con precisión.  \nEvalúo cada rasgo del peinado, desde el flujo de los cabellos hasta los elementos ornamentales, para capturar su originalidad y expresividad.  \nFinalmente, interpreto el corazón como un elemento artístico, explorando su forma, color y contexto dentro del diseño para resaltar su impacto emocional y estético.",
+          "Estoy analizando con precisión la combinación de tonos y texturas en la vestimenta, destacando el contraste entre el manto blanco con bordes dorados y la túnica interior roja.  \nEvalúo meticulosamente el peinado, desde la raya central hasta la caída ondulada del cabello castaño rojizo sobre los hombros.  \nCada elemento se considera en su contexto visual para ofrecer una descripción coherente y evocadora."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "35a89234-5694-451e-ac03-8d0eba7f0eb8",
+       "usage": {
+        "input_tokens": 5073,
+        "output_tokens": 266,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2484,
+         "text_tokens": 2589
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        },
+        "total_tokens": 5339,
+        "output_tokens_details": {
+         "reasoning_tokens": 258,
+         "text_tokens": 8
+        },
+        "image_tokens": 2484
+       },
+       "timestamp": 1783181517
+      },
+      {
+       "content": "**PROMPT EXTENSO - DETALLES DE ROPA, PEINADO Y CORAZÓN ARTÍSTICO**\n\n---\n\n## **PEINADO - DESCRIPCIÓN MÁXIMA**\n\n**ESTRUCTURA GENERAL DEL CABELLO:**\n- Cabello largo hasta los hombros, longitud media-larga\n- Color castaño rojizo (auburn) con reflejos cobrizos y dorados\n- Tono base marrón cálido con matices rojizos intensos\n- Brillo natural sedoso, reflejos luminosos en las zonas iluminadas\n- Textura ondulada suave, ondas amplias y fluidas\n- Volumen moderado, ni muy lacio ni muy rizado\n\n**DIVISIÓN Y DIRECCIÓN:**\n- Raya central perfectamente definida en medio de la cabeza\n- Cabello dividido simétricamente en dos secciones\n- Mechones cayendo naturalmente hacia ambos lados\n- Flujo del cabello: desde la coronilla hacia los hombros\n- Dirección de las ondas: curvas suaves en forma de \"S\"\n\n**MECHONES FRONTALES:**\n- Mechones que enmarcan el rostro\n- Caída natural sobre la frente y sienes\n- Algunos mechones ligeramente separados del rostro\n- Longitud hasta la línea de la mandíbula en los frontales\n- Integración suave con el resto del cabello\n\n**ZONA DE LOS HOMBROS:**\n- Cabello descansando sobre ambos hombros\n- Ondas más pronunciadas en las puntas\n- Volumen en las zonas de contacto con los hombros\n- Algunos mechones cayendo por delante del pecho\n- Otros mechones cayendo por detrás de los hombros\n- Textura que sugiere movimiento natural\n\n**DETALLES DE TEXTURA:**\n- Hebras individuales visibles en zonas iluminadas\n- Reflejos dorados en las crestas de las ondas\n- Sombras más oscuras en los valles de las ondas\n- Brillo satinado en la zona superior (coronilla)\n- Transición de tono: más claro en puntas, más oscuro en raíces\n- Aspecto saludable, sedoso, bien cuidado\n- Sin frizz, ondas definidas y controladas\n\n**VOLUMEN Y FORMA:**\n- Volumen en la zona superior de la cabeza\n- Cabello con cuerpo, no aplastado\n- Forma ovalada natural siguiendo la cabeza\n- Ampliación gradual hacia los hombros\n- Punta del cabello con ligera curvatura hacia adentro\n\n**INTERACCIÓN CON LA LUZ:**\n- Reflejos brillantes en la parte superior (iluminación cenital)\n- Zonas de sombra en los mechones traseros\n- Contraste entre luces doradas y sombras castañas\n- Brillo especular en las ondas frontales\n- Transparencia sutil en los bordes de los mechones\n\n---\n\n## **ROPA - DESCRIPCIÓN MÁXIMA**\n\n### **MANTO BLANCO EXTERIOR**\n\n**TELA Y MATERIAL:**\n- Tela blanca pura, color blanco inmaculado\n- Material que sugiere lino fino o seda de alta calidad\n- Textura suave con caída natural\n- Grosor medio: ni muy fino ni muy grueso\n- Opacidad total, no transparente\n- Brillo sutil mate con reflejos suaves\n\n**DRAPADO Y PLIEGUES:**\n- Manto drapeado sobre ambos hombros\n- Caída natural desde los hombros hacia abajo\n- Pliegues amplios y suaves en el pecho\n- Pliegues verticales en los brazos\n- Pliegues diagonales en la zona del torso\n- Arrugas naturales en las zonas de movimiento\n- Pliegues profundos en la zona de la cintura\n- Sombras grises suaves en los valles de los pliegues\n- Luces blancas brillantes en las crestas de los pliegues\n\n**BORDE DECORATIVO DORADO:**\n- Borde ancho de aproximadamente 3-4 cm\n- Color dorado brillante, oro metálico\n- Patrón geométrico repetitivo: círculos entrelazados\n- Diseño de cadenas o eslabones ornamentales\n- Borde cosido al edge del manto\n- Detalle bordado con hilo dorado\n- Brillo metálico en el dorado\n- Contraste alto entre blanco y dorado\n\n**BROCHE/CIERRE DEL CUELLO:**\n- Broche ornamental en el centro del cuello\n- Dos círculos dorados entrelazados\n- Diseño simétrico, forma de ocho horizontal\n- Tamaño mediano, aproximadamente 5-6 cm de ancho\n- Posición central, punto focal del cuello\n- Detalle grabado en el metal dorado\n- Función decorativa y de sujeción del manto\n- Reflejos brillantes en la superficie metálica\n\n**MANGAS DEL MANTO:**\n- Mangas amplias y fluidas\n- Caída natural desde los hombros\n- Pliegues verticales en los brazos\n- Terminación en puños con borde dorado\n- Cobertura completa de los brazos\n- Movimiento sugerido en las mangas\n\n**ZONA DEL PECHO:**\n- Manto abierto en el centro del pecho\n- Revela la túnica roja interior\n- Bordes del manto cayendo a ambos lados\n- Pliegues que convergen hacia el corazón\n- Simetría en la apertura del manto\n\n### **TÚNICA ROJA INTERIOR**\n\n**TELA Y MATERIAL:**\n- Color rojo carmesí intenso, rojo profundo\n- Material que sugiere terciopelo o seda rica\n- Textura más densa que el manto blanco\n- Brillo sutil con reflejos rojos\n- Opacidad total\n- Peso visual mayor que el manto blanco\n\n**CORTE Y FORMA:**\n- Túnica de cuerpo entero (solo visible hasta la cintura)\n- Cuello redondo o en V suave\n- Mangas largas ajustadas en los brazos\n- Puños en las muñecas con detalle dorado\n- Ajuste al cuerpo en el torso\n- Caída natural desde la cintura\n\n**DETALLES DORADOS:**\n- Borde dorado en el cuello de la túnica\n- Puños dorados en las mangas\n- Posible cinturón o faja dorada en la cintura\n- Detalles ornamentales en costuras\n- Contraste vibrante rojo-dorado\n\n**PLIEGUES Y TEXTURA:**\n- Pliegues suaves en el torso\n- Arrugas naturales en los codos\n- Pliegues verticales en las mangas\n- Sombras rojas oscuras en los pliegues\n- Reflejos rojos brillantes en zonas iluminadas\n- Transición de tono: rojo claro en luces, rojo oscuro en sombras\n\n**ZONA VISIBLE:**\n- Pecho central visible (donde está el corazón)\n- Mangas completas visibles\n- Parte superior del torso\n- Hombros cubiertos por el manto blanco\n- Contraste cromático blanco-rojo dominante\n\n---\n\n## **SAGRADO CORAZÓN - ESTILO ARTÍSTICO**\n\n### **FORMA Y ESTRUCTURA DEL CORAZÓN**\n\n**ANATOMÍA ARTÍSTICA:**\n- Corazón humano estilizado, forma anatómica idealizada\n- Tamaño prominente, aproximadamente 15-20 cm de alto\n- Posición central en el pecho, ligeramente a la izquierda\n- Forma de corazón clásico con dos lóbulos superiores y punta inferior\n- Proporciones exageradas para énfasis simbólico\n- Volumen tridimensional sugerido con sombras y luces\n\n**COLOR Y TONO:**\n- Color base: rojo carmesí intenso\n- Gradiente de color: rojo oscuro en bordes, rojo brillante en centro\n- Tonos rosados en zonas de luz\n- Sombras púrpura-marrón en zonas oscuras\n- Reflejos blancos en el centro (brillo divino)\n- Saturación alta, color vibrante y luminoso\n\n**TEXTURA SUPERFICIAL:**\n- Superficie lisa pero con volumen\n- Brillo húmedo sugerido (como órgano vivo)\n- Reflejos luminosos en la superficie\n- Transiciones suaves de color\n- Aspecto carnoso pero idealizado\n\n### **CORONA DE ESPINAS**\n\n**ESTRUCTURA:**\n- Corona circular envolviendo la parte media del corazón\n- Formada por ramas entrelazadas de color marrón oscuro\n- Espinas puntiagudas distribuidas uniformemente\n- Aproximadamente 12-16 espinas visibles\n- Longitud de espinas: 2-3 cm cada una\n- Dirección de espinas: hacia afuera en todos los ángulos\n\n**DETALLES:**\n- Color marrón oscuro, casi negro en sombras\n- Textura rugosa de madera seca\n- Ramas finas entrelazadas formando círculo\n- Algunas hojas secas pequeñas visibles\n- Sombra proyectada sobre el corazón\n- Contraste oscuro contra el rojo brillante\n\n**SIMBOLISMO VISUAL:**\n- Presión visible sobre el corazón (ligera deformación)\n- Puntos de contacto marcados con sangre\n- Integración orgánica con el corazón\n- No flota, está incrustada\n\n### **LLAMAS DE FUEGO**\n\n**FORMA Y MOVIMIENTO:**\n- Llamas emergiendo del centro superior del corazón\n- Forma de lengua de fuego estilizada\n- Altura de llamas: 5-8 cm sobre el corazón\n- Dirección: hacia arriba con movimiento ondulante\n- Múltiples lenguas de fuego: 5-7 llamas individuales\n- Base ancha que se estrecha hacia las puntas\n\n**COLOR Y GRADIENTE:**\n- Base de llamas: rojo intenso\n- Centro de llamas: naranja brillante\n- Puntas de llamas: amarillo dorado\n- Transición suave entre colores\n- Brillo luminoso en el centro de cada llama\n- Efecto de calor radiante\n\n**TEXTURA Y EFECTOS:**\n- Bordes difusos y ondulantes\n- Transparencia en las puntas\n- Brillo interno en cada llama\n- Sugerencia de movimiento (formas dinámicas)\n- Resplandor que ilumina el área circundante\n- Efecto de calor visible\n\n### **CRUZ**\n\n**FORMA Y POSICIÓN:**\n- Cruz cristiana latina emergiendo del centro de las llamas\n- Posición vertical centrada sobre el corazón\n- Tamaño: aproximadamente 8-10 cm de alto\n- Brazo horizontal en el tercio superior\n- Proporciones clásicas de cruz cristiana\n\n**MATERIAL Y COLOR:**\n- Color marrón oscuro, madera oscura\n- Posiblemente negro en sombras\n- Textura de madera sugerida\n- Sólida y definida\n- Contraste fuerte contra las llamas brillantes\n\n**DETALLES:**\n- Bordes definidos y rectos\n- Sombra proyectada sobre las llamas\n- Punto focal vertical de la composición\n- Simbolismo de sacrificio y redención\n- Integración con las llamas (emergen juntas)\n\n### **HERIDA Y SANGRE**\n\n**HERIDA PRINCIPAL:**\n- Herida abierta en el centro del corazón\n- Forma ovalada o de corte\n- Tamaño: aproximadamente 3-4 cm de largo\n- Posición: centro del corazón, debajo de la corona de espinas\n- Bordes de la herida: rojo oscuro, carne expuesta\n- Profundidad sugerida con sombras internas\n\n**SANGRE:**\n- Color rojo oscuro, casi burdeos\n- Flujo de sangre descendente desde la herida\n- Gota principal formada en la parte inferior\n- Gotas más pequeñas cayendo\n- Longitud del flujo: 5-7 cm hacia abajo\n- Forma de lágrima en las gotas\n- Brillo húmedo en la sangre\n- Transparencia sutil en los bordes de las gotas\n\n**DETALLES DE SANGRE:**\n- Gota principal en formación (no caída aún)\n- Gotas secundarias más pequeñas\n- Rastro de sangre en el corazón\n- Color más oscuro que el corazón (contraste)\n- Efecto de líquido viscoso\n- Reflejos brillantes en la superficie de la sangre\n\n### **RESPLANDOR Y LUZ DIVINA**\n\n**AUREOLA DEL CORAZÓN:**\n- Halo de luz alrededor del corazón\n- Color dorado-rosado luminoso\n- Forma circular o elíptica\n- Tamaño: 25-30 cm de diámetro (incluyendo el corazón)\n- Intensidad máxima cerca del corazón, difuminándose hacia afuera\n- Efecto de glow o resplandor\n\n**RAYOS DE LUZ:**\n- Rayos luminosos emanando del corazón\n- Dirección: radial en todas direcciones\n- Color: dorado suave, amarillo pálido\n- Transparencia: semi-transparente\n- Longitud: 10-15 cm desde el corazón\n- Número: 8-12 rayos principales\n- Anchura variable: más anchos en la base\n\n**EFECTO LUMINOSO:**\n- El corazón emite su propia luz\n- Iluminación del área circundante\n- Reflejos en la túnica roja cercana\n- Contraste con el fondo más oscuro\n- Atmósfera sobrenatural y divina\n- Efecto de sacralidad visual\n\n### **ESTILO ARTÍSTICO DEL CORAZÓN**\n\n**TÉCNICA DE REPRESENTACIÓN:**\n- Estilo realista idealizado\n- Influencia del arte barroco religioso\n- Pinceladas suaves y difuminadas\n- Transiciones graduales de color (sfumato)\n- Detalle anatómico pero estilizado\n- Simbolismo sobre realismo puro\n\n**INFLUENCIAS ARTÍSTICAS:**\n- Iconografía católica tradicional\n- Arte sacro del siglo XIX\n- Pintura académica europea\n- Devocionario popular\n- Estampas religiosas clásicas\n\n**COMPOSICIÓN DEL CORAZÓN:**\n- Elementos superpuestos en capas:\n  1. Corazón base (rojo)\n  2. Corona de espinas (marrón)\n  3. Herida y sangre (rojo oscuro)\n  4. Llamas (naranja-amarillo)\n  5. Cruz (marrón oscuro)\n  6. Resplandor (dorado)\n- Integración armoniosa de todos los elementos\n- Jerarquía visual clara\n- Punto focal central dominante\n\n**EXPRESIÓN EMOCIONAL:**\n- Dolor y sacrificio (corona, sangre)\n- Amor ardiente (llamas)\n- Divinidad (resplandor, cruz)\n- Compasión (corazón expuesto)\n- Entrega total (corazón abierto)\n\n---\n\n**PROMPT CONSOLIDADO PARA IA:**\n\n\"Detailed religious painting focusing on three elements: (1) HAIR: long auburn wavy hair to shoulders, center part, silky texture with golden highlights, soft waves flowing naturally, warm brown-red tones with copper reflections, luminous sheen on illuminated areas; (2) CLOTHING: white flowing mantle with ornate golden border featuring interlocking circle pattern, golden decorative clasp at neck, draped with soft folds and natural fabric movement, over crimson red inner robe with golden trim at cuffs and collar, rich velvet texture, deep red with purple shadows and bright red highlights; (3) SACRED HEART in artistic style: anatomically stylized heart in vibrant crimson red with gradient from dark red edges to bright red center, wrapped with dark brown crown of thorns with sharp spines, open wound with dark blood dripping in teardrop shapes, flames emerging from top in orange-yellow gradient with dynamic movement, dark wooden cross rising from flames, surrounded by golden-pink divine radiance with luminous rays, baroque religious art style, soft sfumato technique, symbolic and idealized representation, 19th century sacred art aesthetic, high detail, rich colors, devotional atmosphere\"",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "35a89234-5694-451e-ac03-8d0eba7f0eb8",
+       "usage": {
+        "input_tokens": 5073,
+        "output_tokens": 3775,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2484,
+         "text_tokens": 2589
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        },
+        "total_tokens": 8848,
+        "output_tokens_details": {
+         "reasoning_tokens": 258,
+         "text_tokens": 3517
+        },
+        "image_tokens": 2484
+       },
+       "timestamp": 1783181611
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1783181611.5778258
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1783181505
+    },
+    "0bdb764a-34fd-4d54-bddc-69386c6f0fc4": {
+     "id": "0bdb764a-34fd-4d54-bddc-69386c6f0fc4",
+     "role": "user",
+     "content": "*ahora transforma todos aspectos qje denotan epoca entigua al mas moderno equivaliente al que vestiria um un hombre de su grupo ahora en nuentra epoca. Los simbolos de corazones, actualizado slguna pegatinaz estampa o eed o bien mejor proyeccion tipo olograma que viene de qbajo. Lqs midmas podiciones de manos cabello pieinado hacia atras?lleno de gel*PROMPT DETALLADO - SAGRADO CORAZÓN DE JESÚS**\n\n**COMPOSICIÓN GENERAL:**\nRetrato religioso de medio cuerpo del Sagrado Corazón de Jesús, estilo pintura clásica europea del siglo XIX, composición frontal simétrica, iluminación divina cenital, atmósfera celestial y devocional.\n\n**ROSTRO Y CABEZA:**\n- Cabello castaño rojizo (auburn) largo hasta los hombros, ondulado y fluido, textura sedosa\n- Raya en medio del cabello, mechones cayendo naturalmente sobre los hombros\n- Ojos azul claro celeste, mirada serena elevada ligeramente hacia arriba y al costado\n- Expresión facial pacífica, compasiva, amorosa, divina\n- Piel pálida luminosa, tono porcelana con sutiles rosados\n- Barba y bigote rubio-castaño claro, bien definidos pero suaves\n- Rasgos faciales delicados, idealizados, nariz recta fina, labios cerrados suavemente\n- Cejas arqueadas delicadas color castaño claro\n\n**AUREOLA Y LUZ DIVINA:**\n- Halo dorado luminoso detrás de la cabeza\n- Resplandor celestial amarillo-dorado irradiando en forma de rayos\n- Luz difusa etérea que envuelve la figura\n- Gradiente de luz: centro brillante dorado que se desvanece hacia azul claro\n- Efecto de iluminación sobrenatural, divina\n\n**SAGRADO CORAZÓN (DETALLE CENTRAL):**\n- Corazón físico visible en el pecho, expuesto\n- Color rojo intenso brillante con tonos rosados y púrpuras\n- Corazón envuelto en corona de espinas marrón oscuro\n- Llama de fuego rojo-naranja emergiendo del centro superior del corazón\n- Cruz cristiana marrón oscuro/negra emergiendo de las llamas\n- Herida abierta en el corazón con sangre roja oscura goteando\n- Gotas de sangre visibles cayendo\n- Corazón rodeado de resplandor dorado-rosado luminoso\n- Detalle anatómico del corazón visible: ventrículos, aurículas\n- Simbolismo de amor divino, sacrificio y pasión\n\n**VESTIDURA EXTERIOR (MANTO BLANCO):**\n- Túnica/manto blanco puro sobre los hombros\n- Tela fluida, drapeada naturalmente con pliegues suaves\n- Borde decorativo dorado con patrón geométrico repetitivo\n- Broche/cierre dorado en el cuello con dos círculos ornamentales entrelazados\n- Detalles bordados dorados en el borde del manto\n- Textura de tela que sugiere lino o seda fina\n- Sombras grises suaves en los pliegues\n- Brillos blancos luminosos en las zonas iluminadas\n\n**VESTIDURA INTERIOR (TÚNICA ROJA):**\n- Túnica interior color rojo carmesí intenso\n- Visible en el pecho, torso y mangas\n- Mangas largas que cubren los brazos hasta las muñecas\n- Detalles dorados en puños y bordes\n- Tela que cae naturalmente con pliegues\n- Contraste vibrante con el manto blanco\n\n**MANOS Y ESTIGMAS:**\n- Ambas manos visibles en gesto de bendición y acogida\n- Mano derecha (izquierda del espectador): extendida hacia adelante, palma hacia arriba, dedos ligeramente curvados\n- Mano izquierda (derecha del espectador): elevada a la altura del pecho, palma semi-visible, dedos en gesto de bendición\n- Estigmas visibles: heridas rojas en ambas palmas (marca de los clavos)\n- Piel de las manos: tono natural claro, realista\n- Uñas cortas naturales\n- Anatomía detallada: venas sutiles, nudillos definidos\n- Dedos largos y elegantes\n- Sombras suaves bajo los dedos\n\n**BRAZOS:**\n- Brazos visibles desde los codos\n- Posición abierta, acogedora\n- Mangas de la túnica roja visibles\n\n**FONDO:**\n- Gradiente atmosférico: azul grisáceo claro en la parte superior\n- Transición a azul más oscuro hacia los bordes\n- Parte inferior: tonos azul marino oscuro, casi negro\n- Sin elementos definidos, fondo abstracto celestial\n- Efecto de profundidad atmosférica\n- Ambiente etéreo, sobrenatural\n\n**TÉCNICA PICTÓRICA:**\n- Estilo: Pintura al óleo clásica académica\n- Pinceladas suaves, difuminadas (sfumato)\n- Transiciones graduales de color\n- Realismo idealizado\n- Influencia del arte religioso del siglo XIX\n- Acabado brillante, pulido\n- Detalle minucioso en rostro y manos\n- Menos detalle en telas y fondo\n\n**PALETA DE COLORES:**\n- **Cálidos**: Dorado brillante, amarillo luz, rojo carmesí, rosa, castaño, marrón, naranja fuego\n- **Fríos**: Azul celeste, azul grisáceo, azul marino, blanco puro, gris perla\n- **Neutros**: Beige, crema, tonos piel\n- Contraste alto entre luces y sombras\n- Saturación media-alta en el corazón y túnica roja\n- Colores simbólicos: dorado (divinidad), rojo (pasión/sangre), blanco (pureza), azul (cielo)\n\n**ILUMINACIÓN:**\n- Fuente de luz principal: divina, cenital, sobrenatural\n- Iluminación dramática tipo claroscuro suave\n- Reflejos brillantes en: frente, nariz, manto blanco, corazón\n- Sombras suaves en: cuello, pliegues de tela, bajo las manos\n- Contraluz del halo dorado\n- El corazón emite su propia luz roja-dorada\n- Gradiente lumínico de arriba hacia abajo\n\n**SIMBOLOGÍA RELIGIOSA:**\n- Sagrado Corazón: amor divino de Jesús por la humanidad\n- Corona de espinas: sufrimiento y pasión\n- Cruz: sacrificio, redención\n- Llamas: amor ardiente, Espíritu Santo\n- Sangre: sacrificio, eucaristía\n- Estigmas: crucifixión, martirio\n- Halo: santidad, divinidad\n- Manos abiertas: acogida, bendición, invitación\n- Blanco: pureza, resurrección\n- Rojo: sangre, pasión, amor\n- Dorado: gloria divina, realeza celestial\n\n**ESTADO DE ÁNIMO/ATMÓSFERA:**\n- Devoción profunda\n- Serenidad celestial\n- Amor incondicional\n- Compasión divina\n- Paz espiritual\n- Sacralidad\n- Misterio divino\n- Calma sobrenatural\n\n**CALIDAD TÉCNICA:**\n- Alta resolución\n- Detalle fino en elementos principales\n- Texturas realistas: piel, tela, cabello\n- Profundidad de campo: figura nítida, fondo difuso\n- Composición equilibrada, centrada\n- Proporciones anatómicas correctas\n- Perspectiva frontal directa\n\n**CONTEXTO HISTÓRICO-ARTÍSTICO:**\n- Arte sacro católico\n- Iconografía del Sagrado Corazón\n- Tradición pictórica europea\n- Influencia del barroco y romanticismo religioso\n- Devoción popular del siglo XIX\n- Estilo similar a pinturas de altar\n\n**DETALLES ADICIONALES MÍNIMOS:**\n- Pequeñas arrugas de expresión suaves alrededor de los ojos\n- Brillo húmedo en los ojos\n- Sombra bajo la barba\n- Reflejos dorados en el cabello\n- Transparencia sutil en los bordes del manto\n- Textura de la corona de espinas: rugosa, con púas\n- Detalle de las gotas de sangre: forma de lágrima\n- Brillo metálico en el broche dorado\n- Patrón geométrico repetitivo en el borde dorado\n- Sombras proyectadas sutiles en el cuello\n- Gradiente de color en el corazón: rojo oscuro a rosa claro\n- Resplandor blanco en el centro del corazón\n- Dirección de la luz: coherente en todos los elementos\n- Equilibrio cromático cálido-frío\n- Armonía visual total\n\n---\n\n**PROMPT RESUMEN PARA IA:**\n\"Classical religious oil painting of Sacred Heart of Jesus, half-body portrait, serene face with long auburn wavy hair, light blue eyes, gentle beard, luminous pale skin, golden halo radiating divine light, visible sacred heart on chest glowing red with crown of thorns, cross emerging from flames, blood dripping, white flowing robe with golden trim and ornate clasp, red inner garment, both hands open showing stigmata wounds, soft blue-gray atmospheric background, 19th century academic style, soft brushwork, chiaroscuro lighting, devotional atmosphere, rich colors gold-red-white-blue, highly detailed, sacred art, celestial ambiance, divine compassion\"",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "35a89234-5694-451e-ac03-8d0eba7f0eb8",
+     "turn_id": null,
+     "childrenIds": [
+      "46903979-f975-45bc-98f7-4d4f2f9e1bb6"
+     ],
+     "files": [],
+     "timestamp": 1783181733
+    },
+    "46903979-f975-45bc-98f7-4d4f2f9e1bb6": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "46903979-f975-45bc-98f7-4d4f2f9e1bb6",
+     "parentId": "0bdb764a-34fd-4d54-bddc-69386c6f0fc4",
+     "childrenIds": [
+      "a4b3edbd-52f2-4def-ac73-e707f1773c6d"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Reimagining the Sacred Heart of Jesus with contemporary attire",
+          "Visualizing a modern spiritual figure with contemporary urban elegance",
+          "Reimaginar con elegancia los símbolos ancestrales en un lenguaje visual contemporáneo"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am envisioning a modern interpretation where the figure wears clothing reflective of today’s cultural and social context, aligning with the identity and lifestyle of a spiritual leader in the present era.  \nThis transformation preserves the essence of reverence and compassion while grounding it in current aesthetics and symbolism.  \nThe result is a harmonious blend of timeless devotion and contemporary expression.",
+          "I am crafting an image of a serene yet stylish presence, blending casual streetwear with subtle spiritual symbolism through dynamic visual elements  \nThe heart motif is reimagined as a holographic projection rising from below, symbolizing inner light and connection  \nMy focus remains on the poised gestures of blessing and welcome, framed by a sleek, modern hairstyle that enhances the overall aura",
+          "Estoy concebiendo una figura moderna que honra la esencia de lealtad y liderazgo comunitario, representada por un joven urbano con estilo streetwear refinado y actitud auténtica  \nEl corazón holográfico se materializa como una proyección tridimensional que surge desde el pecho, envuelta en luces digitales pulsantes, efectos glitch sutiles y tonos neón que evocan vida tecnológica sin perder profundidad emocional  \nTodo está diseñado para mantener la carga simbólica original, ahora expresada a través de una estética futurista pero humana"
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "46903979-f975-45bc-98f7-4d4f2f9e1bb6",
+       "usage": {
+        "input_tokens": 10660,
+        "output_tokens": 358,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2484,
+         "text_tokens": 8176
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        },
+        "total_tokens": 11018,
+        "output_tokens_details": {
+         "reasoning_tokens": 346,
+         "text_tokens": 12
+        },
+        "image_tokens": 2484
+       },
+       "timestamp": 1783181748
+      },
+      {
+       "content": "Voy a generar la imagen modernizada con todos los elementos que describes:\n\n",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "46903979-f975-45bc-98f7-4d4f2f9e1bb6",
+       "usage": {
+        "input_tokens": 13780,
+        "output_tokens": 161,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 3994,
+         "text_tokens": 9786
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        },
+        "total_tokens": 13941,
+        "output_tokens_details": {
+         "reasoning_tokens": 160,
+         "text_tokens": 1
+        },
+        "image_tokens": 3994
+       },
+       "timestamp": 1783181748
+      },
+      {
+       "content": "",
+       "phase": "image_gen_tool",
+       "status": "finished",
+       "extra": {
+        "display_position": "answer",
+        "image_list": [
+         {
+          "image": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/image_gen/46903979-f975-45bc-98f7-4d4f2f9e1bb6/1783181788.png?key=[SECRETO_REDACTADO]"
+         }
+        ],
+        "tool_result": [
+         {
+          "image": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/6f0555c7-a7f9-42d0-8ab6-245c8f3c9290/16af7f544-020e-442d-816e-233214fe209b.png?key=[SECRETO_REDACTADO]"
+         }
+        ]
+       },
+       "role": "function",
+       "name": "image_gen",
+       "function_id": "round_0_call_06a4a9cb5ce349b5ac528a4b",
+       "function_call": {
+        "name": "image_gen",
+        "arguments": "{\"prompt\": \"Ultra-modern contemporary portrait of a young man representing a modern sacred heart figure, half-body shot, front-facing symmetrical composition. \\n\\n**FACE AND HAIR:**\\n- Hair slicked back with gel, wet look, dark brown with subtle reddish tones, undercut sides, voluminous on top, perfectly styled back\\n- Light blue eyes, serene gaze slightly elevated upward and to the side\\n- Peaceful, compassionate, loving expression\\n- Pale luminous skin with subtle rosy tones\\n- Well-groomed light brown-blonde beard and mustache, trimmed modern style\\n- Delicate facial features, straight nose, softly closed lips\\n- Arched light brown eyebrows\\n\\n**MODERN CLOTHING (contemporary urban streetwear equivalent of apostolic group):**\\n- Black oversized hoodie with white drawstrings, premium cotton fabric\\n- Underneath: white crew-neck t-shirt visible at neckline\\n- Silver chain necklace with small cross pendant\\n- Dark slim-fit jeans visible at waist\\n- Modern urban streetwear aesthetic, casual but dignified\\n- Hoodie has subtle geometric patterns on sleeves\\n- Fabric texture: soft cotton with natural folds\\n- Color palette: black, white, gray with subtle accents\\n\\n**HOLOGRAPHIC SACRED HEART PROJECTION (coming from below):**\\n- Holographic 3D projection emanating from below the chest area, projecting upward\\n- Digital hologram effect with scan lines, pixel glow, and light particles\\n- Heart shape formed by holographic light: neon red and pink glowing lines\\n- Crown of thorns represented as digital wireframe mesh in dark red holographic lines\\n- Flames depicted as animated holographic fire particles in orange-yellow neon\\n- Cross symbol as glowing holographic outline in golden light beams\\n- Blood drops shown as red holographic droplets with digital trail effects\\n- Hologram has slight glitch effects, transparency, and light refraction\\n- Projection base: circular holographic emitter at lower chest with blue-white light ring\\n- Hologram extends upward approximately 20cm from chest\\n- Digital particles floating around the hologram\\n- Neon glow effect: red, pink, orange, gold colors\\n- Futuristic cyberpunk-meets-sacred aesthetic\\n- Hologram appears semi-transparent with depth\\n\\n**HANDS AND STIGMATA:**\\n- Both hands visible in blessing and welcoming gesture\\n- Right hand (viewer's left): extended forward, palm up, fingers slightly curved\\n- Left hand (viewer's right): raised to chest height, palm semi-visible, blessing gesture\\n- Stigmata wounds: small red glowing marks on both palms (holographic red dots)\\n- Natural skin tone, realistic hands\\n- Short clean nails\\n- Detailed anatomy: subtle veins, defined knuckles\\n- Long elegant fingers\\n- Soft shadows under fingers\\n\\n**ARMS:**\\n- Arms visible from elbows\\n- Open, welcoming position\\n- Hoodie sleeves covering arms\\n\\n**HALO AND DIVINE LIGHT (modernized):**\\n- Holographic ring of light behind the head, circular neon glow\\n- Digital light rays emanating outward in golden-yellow holographic beams\\n- Ethereal diffuse light surrounding the figure\\n- Light gradient: bright golden center fading to soft blue\\n- Supernatural divine lighting effect with modern digital aesthetic\\n- Subtle lens flare effects\\n\\n**BACKGROUND:**\\n- Dark urban gradient: deep blue-gray at top\\n- Transition to darker navy blue toward edges\\n- Bottom: almost black with subtle digital grid pattern\\n- Abstract modern background with faint holographic particles\\n- Atmospheric depth effect\\n- Ethereal supernatural ambiance with contemporary feel\\n\\n**LIGHTING:**\\n- Main light source: divine holographic, from above and below (from heart projection)\\n- Dramatic soft chiaroscuro lighting\\n- Bright reflections on: forehead, nose, hoodie fabric, hologram\\n- Soft shadows on: neck, fabric folds, under hands\\n- Backlight from holographic halo ring\\n- Heart hologram emits its own red-golden light\\n- Light gradient from top to bottom with holographic accents\\n\\n**MOOD/ATMOSPHERE:**\\n- Deep devotion with modern aesthetic\\n- Celestial serenity\\n- Unconditional love\\n- Divine compassion\\n- Spiritual peace\\n- Sacredness\\n- Divine mystery\\n- Supernatural calm\\n- Contemporary urban spiritual vibe\\n\\n**TECHNICAL QUALITY:**\\n- High resolution, photorealistic\\n- Fine detail on face and hands\\n- Realistic textures: skin, fabric, hair\\n- Depth of field: sharp figure, soft background\\n- Balanced centered composition\\n- Correct anatomical proportions\\n- Direct frontal perspective\\n- Modern digital art style mixed with photorealism\\n- Cyberpunk-sacred fusion aesthetic\\n- Neon glow effects\\n- Holographic transparency and light refraction\\n- Color palette: black, white, neon red, pink, orange, gold, blue\\n\\n**SYMBOLISM:**\\n- Sacred Heart: divine love in modern digital form\\n- Crown of thorns: suffering represented as digital wireframe\\n- Cross: sacrifice as holographic light symbol\\n- Flames: ardent love as particle effects\\n- Blood: sacrifice as glowing digital droplets\\n- Stigmata: modern glowing marks\\n- Halo: holographic ring of light\\n- Open hands: welcome, blessing, invitation\\n- Black hoodie: modern humility\\n- White t-shirt: purity\\n- Gold accents: divine glory\\n\\nPhotorealistic modern portrait, contemporary sacred art, holographic projection effects, neon glow, urban spiritual aesthetic, high detail, cinematic lighting, 8k quality\"}"
+       },
+       "response_id": "46903979-f975-45bc-98f7-4d4f2f9e1bb6",
+       "usage": {}
+      },
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Visualizando la transformación solicitada con precisión y sensibilidad artística"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "Estoy imaginando una representación contemporánea del Sagrado Corazón de Jesús, integrando elementos modernos sin perder la esencia espiritual.  \nEl rostro refleja un joven de cabello castaño rojizo peinado hacia atrás con volumen natural, barba definida y ojos azules claros, vestido con una sudadera negra y camiseta blanca, acompañado de una cadena con cruz.  \nLa proyección holográfica del corazón late con luz suave, fusionando lo sagrado con lo tecnológico en una imagen que trasciende el tiempo."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "46903979-f975-45bc-98f7-4d4f2f9e1bb6",
+       "usage": {
+        "input_tokens": 13780,
+        "output_tokens": 260,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 3994,
+         "text_tokens": 9786
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        },
+        "total_tokens": 14040,
+        "output_tokens_details": {
+         "reasoning_tokens": 255,
+         "text_tokens": 5
+        },
+        "image_tokens": 3994
+       },
+       "timestamp": 1783181797
+      },
+      {
+       "content": "¡Imagen generada exitosamente! Aquí está la transformación moderna del Sagrado Corazón:\n\n## **RESULTADO - SAGRADO CORAZÓN CONTEMPORÁNEO**\n\nLa imagen muestra una reinterpretación moderna y futurista con los siguientes elementos transformados:\n\n### **PEINADO MODERNO**\n- Cabello castaño rojizo peinado hacia atrás con volumen\n- Efecto de gel/wet look en la parte superior\n- Laterales más cortos (undercut sutil)\n- Estilo urbano contemporáneo\n\n### **ROPA MODERNA (equivalente streetwear)**\n- **Hoodie negro oversized** con cordones blancos (reemplaza el manto blanco)\n- **Camiseta blanca** de cuello redondo visible (reemplaza la túnica roja interior)\n- **Cadena de plata** con pequeña cruz (detalle moderno)\n- **Jeans oscuros** slim-fit visibles en la cintura\n- Estética urbana casual pero digna\n\n### **CORAZÓN HOLOGRÁFICO (proyección desde abajo)**\n- **Proyección 3D holográfica** emergiendo desde la base del pecho\n- **Anillo emisor holográfico** en la parte inferior con luz azul-blanca\n- **Corazón en neón rojo-rosa** con líneas de luz brillantes\n- **Corona de espinas** en formato wireframe/malla digital oscura\n- **Llamas** como partículas holográficas naranja-amarillas animadas\n- **Cruz** como contorno holográfico dorado brillante\n- **Gotas de sangre** como gotas neón rojas con efectos digitales\n- **Efectos glitch** y partículas flotantes digitales\n- Transparencia y refracción de luz holográfica\n\n### **HALO MODERNIZADO**\n- **Anillo de luz holográfico** detrás de la cabeza\n- **Rayos de luz** en formato de haces dorados-azules\n- Efecto de lente flare moderno\n- Estética neón/cyberpunk\n\n### **MANOS Y ESTIGMAS**\n- Misma posición de bendición y acogida\n- **Estigmas como puntos rojos brillantes** en las palmas\n- Efecto de luz neón en las heridas\n\n### **FONDO**\n- Gradiente azul oscuro profundo\n- **Grid digital** sutil en la parte inferior (estética retro-futurista)\n- Partículas holográficas flotantes\n- Ambiente cyberpunk-sagrado\n\n### **ESTÉTICA GENERAL**\n- Fusión **cyberpunk + arte sacro**\n- Efectos de **luz neón** (rojo, rosa, naranja, dorado, azul)\n- **Proyección holográfica** como elemento central\n- Fotografía realista con efectos digitales\n- Calidad cinematográfica 8K\n\nLa imagen mantiene toda la simbología religiosa original pero traducida a un lenguaje visual contemporáneo con tecnología holográfica, neón y estética urbana moderna.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "46903979-f975-45bc-98f7-4d4f2f9e1bb6",
+       "usage": {
+        "input_tokens": 13780,
+        "output_tokens": 913,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 3994,
+         "text_tokens": 9786
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        },
+        "total_tokens": 14693,
+        "output_tokens_details": {
+         "reasoning_tokens": 255,
+         "text_tokens": 658
+        },
+        "image_tokens": 3994
+       },
+       "timestamp": 1783181813
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1783181813.6704538
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1783181733
+    },
+    "a4b3edbd-52f2-4def-ac73-e707f1773c6d": {
+     "id": "a4b3edbd-52f2-4def-ac73-e707f1773c6d",
+     "role": "user",
+     "content": "Cabello largo la ropa tiene que ser moderna en estilo de diseño pro atemporal.aumrnts detalles coherentrs",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "46903979-f975-45bc-98f7-4d4f2f9e1bb6",
+     "turn_id": null,
+     "childrenIds": [
+      "79b344d7-30d5-407c-90ed-ca73d498687b"
+     ],
+     "files": [],
+     "timestamp": 1783184310
+    },
+    "79b344d7-30d5-407c-90ed-ca73d498687b": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "79b344d7-30d5-407c-90ed-ca73d498687b",
+     "parentId": "a4b3edbd-52f2-4def-ac73-e707f1773c6d",
+     "childrenIds": [
+      "64669822-bed1-4e5a-b110-f3ff1ac48b2e"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Reimagining the character with flowing locks and refined attire",
+          "Refine the visual concept with timeless elegance"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am envisioning a figure whose long hair cascades like a river of midnight, framing a face that speaks of quiet elegance.  \nHer modern ensemble is stitched with timeless grace—each line deliberate, each fabric chosen for its quiet sophistication.  \nThe look feels both current and eternal, as if fashion itself has paused to honor her presence.",
+          "I am reimagining the figure by preserving the flowing, long hair styled with modern precision using subtle grooming products to maintain a natural yet polished look.  \nThe attire is being transformed into a refined, high-end contemporary ensemble—featuring a sharply tailored coat from a renowned designer that exudes sophistication and enduring style.  \nEvery element is harmonized to evoke classic grace while reflecting current fashion sensibilities, ensuring coherence and depth in the overall aesthetic."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "79b344d7-30d5-407c-90ed-ca73d498687b",
+       "usage": {
+        "input_tokens": 13400,
+        "output_tokens": 191,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 3994,
+         "text_tokens": 9406
+        },
+        "prompt_tokens_details": {},
+        "total_tokens": 13591,
+        "output_tokens_details": {
+         "reasoning_tokens": 187,
+         "text_tokens": 4
+        },
+        "image_tokens": 3994
+       },
+       "timestamp": 1783184319
+      },
+      {
+       "content": "**PROMPT ACTUALIZADO - SAGRADO CORAZÓN CONTEMPORÁNEO TIMELESS**\n\n---\n\n## **COMPOSICIÓN GENERAL:**\nRetrato fotográfico de medio cuerpo, estilo contemporáneo de alta costura, composición frontal simétrica, iluminación cinematográfica dramática, atmósfera sagrada fusionada con estética moderna sofisticada.\n\n## **ROSTRO Y CABEZA:**\n\n**CABELLO LARGO MODERNO:**\n- Cabello castaño rojizo (auburn) largo hasta mitad del pecho\n- Longitud: 30-40 cm desde la coronilla\n- Estilo moderno: peinado hacia atrás con volumen en la parte superior\n- Producto fijador: efecto wet-look sutil con textura definida\n- Raya lateral discreta o ligeramente desplazada del centro\n- Mechones frontales peinados hacia atrás pero con movimiento natural\n- Laterales con ligero fade o degradado moderno (undercut discreto)\n- Capas largas que caen sobre los hombros y espalda\n- Textura: ondas suaves definidas con producto, no rizos\n- Brillo saludable con reflejos cobrizos y dorados\n- Raíces ligeramente más oscuras, puntas con mechas californianas sutiles\n- Aspecto cuidado, peinado profesionalmente\n- Algunos mechones sueltos intencionales para look natural\n- Volumen en la coronilla, aplastado en laterales\n\n**ROSTRO:**\n- Ojos azul claro celeste, mirada serena elevada 15 grados\n- Expresión: paz interior, compasión, fuerza tranquila\n- Piel tono claro luminoso con subtonos cálidos\n- Barba completa pero bien arreglada estilo moderno\n- Barba: longitud media (2-3 cm), contornos definidos\n- Bigote conectado a la barba, recortado con precisión\n- Cejas pobladas naturales color castaño\n- Rasgos faciales definidos: pómulos altos, mandíbula marcada\n- Labios naturales tono rosado, ligeramente entreabiertos\n- Piel con textura realista: poros visibles, sin exceso de retoque\n\n**HALO/AUREOLA MODERNA:**\n- Anillo de luz holográfico flotante detrás de la cabeza\n- Diámetro: 40-50 cm\n- Color: gradiente de blanco-azul eléctrico a dorado neón\n- Efecto: luz LED circular con rayos emanando radialmente\n- 12-16 rayos de luz dorada-azulada en patrón simétrico\n- Grosor del anillo: 3-4 cm\n- Brillo intenso con efecto lens flare cinematográfico\n- Transparencia: semi-transparente con núcleo brillante\n- Animación sutil sugerida: pulso de luz rítmico\n- Tecnología: apariencia de luz láser/fibra óptica\n\n## **VESTIMENTA MODERNA TIMELESS:**\n\n**CAPA EXTERIOR (REEMPLAZA MANTO BLANCO):**\n- Abrigo largo tipo trench coat o overcoat de diseño\n- Color: blanco hueso o crema marfil (equivalente al blanco puro)\n- Material: lana-cachemir de alta calidad o gabardina premium\n- Largo: hasta mitad del muslo (90-100 cm)\n- Corte: slim fit moderno, entallado en cintura\n- Solapas anchas estilo clásico contemporáneo (8-10 cm)\n- Cuello tipo solapa con muesca\n- Botones: doble botonadura o cruzado, botones ocultos\n- Cinturón del mismo tejido atado elegantemente a la cintura\n- Bolsillos con solapa visibles\n- Mangas largas con puños y hebillas decorativas\n- Forro interior: seda color champagne visible en aperturas\n- Caída natural con pliegues verticales elegantes\n- Textura: tejido premium con brillo sutil mate\n- Detalles: costuras visibles, acabados de alta costura\n- Marca: apariencia de diseñador de lujo (estilo minimalista)\n\n**PRENDA INTERIOR (REEMPLAZA TÚNICA ROJA):**\n- Camisa de vestir premium o polo de cuello alto\n- Color: rojo borgoña/vino tinto profundo (equivalente al carmesí)\n- Material: seda o algodón egipcio de lujo\n- Cuello: tipo mao/cuello alto moderno o camisa clásica abierta\n- Si es camisa: primeros 2-3 botones desabrochados\n- Si es polo: cuello alto ajustado estilo turtleneck moderno\n- Ajuste: slim fit, entallado al torso\n- Mangas largas visibles bajo el abrigo\n- Puños con botones decorativos\n- Textura: brillo sutil de seda o mate de algodón premium\n- Pliegues naturales en torso y mangas\n- Contraste vibrante: rojo intenso contra blanco hueso\n\n**DETALLES DE ACCESORIOS:**\n- Cadena de plata esterlina o platino visible en el cuello\n- Colgante: cruz minimalista moderna (3-4 cm)\n- Tipo de cadena: cable chain o box chain fina\n- Anillo simple en dedo anular derecho (opcional)\n- Reloj de pulsera minimalista en muñeca izquierda (opcional)\n- Sin otros accesorios visibles, estética limpia\n\n**PARTE INFERIOR:**\n- Pantalones de vestir slim fit o jeans oscuros premium\n- Color: negro carbón o azul marino oscuro\n- Material: lana fina o denim de alta calidad\n- Corte: moderno, entallado pero no ajustado\n- Cintura visible parcialmente\n- Zapatos: botas Chelsea negras o zapatos Oxford (si son visibles)\n\n## **CORAZÓN HOLOGRÁFICO PROYECTADO:**\n\n**SISTEMA DE PROYECCIÓN:**\n- Proyección holográfica 3D emergiendo desde el pecho\n- Base emisora: anillo holográfico flotante a 10 cm del pecho\n- Diámetro del anillo emisor: 20-25 cm\n- Color del anillo base: azul cian brillante con patrones digitales\n- Efecto: tecnología futurista tipo \"holodeck\" o AR avanzado\n- Partículas de luz ascendentes desde el anillo base\n- Líneas de escaneo verticales sutiles (efecto construcción holográfica)\n\n**CORAZÓN HOLOGRÁFICO:**\n**Forma y Estructura:**\n- Corazón anatómico estilizado en 3D holográfico\n- Tamaño: 25-30 cm de alto, 20 cm de ancho\n- Posición: centrado en el pecho, flotando 5-10 cm sobre la tela\n- Volumen tridimensional realista con profundidad\n- Rotación sutil sugerida (2-3 grados sobre eje vertical)\n\n**Color y Material Holográfico:**\n- Color base: rojo neón intenso (#FF0040)\n- Gradiente: rojo brillante en centro, magenta en bordes\n- Transparencia: 60-70% transparente con núcleo sólido\n- Brillo: emisión de luz propia, glow effect intenso\n- Textura: malla de luz/wireframe con relleno translúcido\n- Reflejos: especulares blancos en superficie curva\n- Efecto \"glassmorphism\": apariencia de cristal luminoso\n\n**Corona de Espinas Digital:**\n- Corona formada por líneas de luz oscura entrelazadas\n- Color: negro con borde rojo neón (#8B0000)\n- Estilo: wireframe 3D o malla poligonal baja\n- Espinas: 16-20 espinas puntiagudas distribuidas uniformemente\n- Longitud de espinas: 3-4 cm cada una\n- Dirección: radial hacia afuera\n- Integración: envuelve el corazón a 2/3 de altura\n- Efecto: partículas oscuras flotando desde la corona\n- Animación sugerida: leve rotación independiente\n\n**Llamas Holográficas:**\n- Llamas emergiendo del centro superior del corazón\n- Forma: partículas de fuego digital estilizadas\n- Color gradiente: rojo base → naranja medio → amarillo dorado puntas\n- Altura: 10-15 cm sobre el corazón\n- Número: 7-9 lenguas de fuego individuales\n- Efecto: sistema de partículas con movimiento ascendente\n- Transparencia: 50% transparente, bordes difusos\n- Brillo: emisión de luz cálida que ilumina alrededores\n- Trayectorias: curvas orgánicas con turbulencia\n- Chispas: partículas doradas pequeñas flotando hacia arriba\n\n**Cruz Digital:**\n- Cruz latina emergiendo del centro de las llamas\n- Tamaño: 12-15 cm de alto\n- Estilo: contorno de luz sólida o wireframe brillante\n- Color: dorado neón intenso (#FFD700)\n- Grosor de líneas: 5-8 mm\n- Brillo: intensidad máxima, bloom effect\n- Posición: vertical centrada, 5 cm sobre el corazón\n- Efecto: rayos de luz emanando de la cruz\n- Integración: parece flotar sobre las llamas\n\n**Herida y Sangre Digital:**\n- Herida: abertura brillante en centro del corazón\n- Forma: corte vertical de 6-8 cm\n- Color: rojo oscuro brillante con núcleo negro\n- Sangre: gotas holográficas cayendo\n- Color de gotas: rojo neón oscuro (#8B0000)\n- Número: 5-7 gotas principales en diferentes alturas\n- Forma: lágrimas alargadas de 2-4 cm\n- Efecto: gravedad simulada, movimiento descendente\n- Rastro: estela brillante detrás de cada gota\n- Destino: gotas se desvanecen antes de caer completamente\n- Brillo: cada gota emite luz roja sutil\n\n**Resplandor y Efectos:**\n- Aura circular alrededor del corazón completo\n- Diámetro total: 40-45 cm incluyendo efectos\n- Color: gradiente rosa-magenta-dorado\n- Intensidad: máxima cerca del corazón, fade hacia bordes\n- Rayos de luz: 12-16 rayos emanando radialmente\n- Longitud de rayos: 15-20 cm\n- Color de rayos: dorado-rosa semitransparente\n- Partículas flotantes: 20-30 partículas de luz dispersas\n- Tamaño de partículas: 2-5 mm\n- Movimiento: flotación lenta aleatoria\n- Efecto glitch: distorsión digital sutil intermitente\n- Líneas de datos: trazos horizontales finos tipo \"scan lines\"\n- Códigos binarios: números/símbolos flotantes sutiles (opcional)\n\n**Anillo Base de Proyección:**\n- Plataforma circular holográfica flotante\n- Posición: 15-20 cm debajo del corazón\n- Diámetro: 30 cm\n- Color: azul cian eléctrico (#00FFFF)\n- Patrón: círculos concéntricos con segmentos digitales\n- Efecto: interfaz tipo \"Iron Man\" o HUD futurista\n- Rotación: giro lento antihorario sugerido\n- Símbolos: iconos geométricos o runas digitales en el borde\n- Luz: proyección ascendente desde el anillo\n- Haz de luz: columnas verticales de luz azul conectando anillo con corazón\n\n## **MANOS Y ESTIGMAS MODERNOS:**\n\n**POSICIÓN DE MANOS:**\n- Misma pose clásica de bendición y acogida\n- Mano derecha (izquierda del espectador):\n  - Extendida hacia adelante a la altura del pecho\n  - Palma hacia arriba en gesto de ofrenda\n  - Dedos ligeramente curvados, relajados\n  - Ángulo: 45 grados desde el cuerpo\n  \n- Mano izquierda (derecha del espectador):\n  - Elevada a la altura del hombro\n  - Palma semi-visible, dedos extendidos\n  - Gesto de bendición: índice y medio extendidos\n  - Pulgar cruzando anular y meñique\n\n**ESTIGMAS DIGITALES:**\n- Marcas en palmas: puntos de luz roja neón brillante\n- Tamaño: 1.5-2 cm de diámetro\n- Color: rojo intenso (#FF0000) con glow effect\n- Forma: círculo perfecto o cruz pequeña\n- Intensidad: brillo pulsante sutil (animación sugerida)\n- Efecto: rayos de luz emanando de cada estigma\n- Longitud de rayos: 3-4 cm\n- Número de rayos: 4-6 por estigma\n- Ubicación: centro exacto de cada palma\n\n**DETALLES DE MANOS:**\n- Piel: tono natural claro con textura realista\n- Uñas: cortas, limpias, sin esmalte\n- Venas: sutiles visibles en dorso de manos\n- Anatomía: dedos largos proporcionados, nudillos definidos\n- Sombras: proyección de luz holográfica sobre manos\n- Reflexión: luz roja del corazón reflejada en piel\n\n## **BRAZOS:**\n- Brazos visibles desde codos hacia abajo\n- Mangas del abrigo blanco visibles\n- Puños de camisa roja asomando 2-3 cm\n- Postura: abierta, acogedora, simétrica\n- Tensión muscular: relajada pero presente\n\n## **FONDO:**\n\n**COMPOSICIÓN:**\n- Gradiente atmosférico profundo\n- Parte superior: azul marino oscuro (#1a237e)\n- Centro: azul eléctrico medio (#0d47a1)\n- Parte inferior: azul casi negro (#0a1628)\n\n**ELEMENTOS DIGITALES:**\n- Grid digital sutil en tercio inferior\n- Líneas de perspectiva: patrón isométrico\n- Color de grid: azul cian muy sutil (#00ffff, 10% opacidad)\n- Tamaño de celdas: 5-10 cm en perspectiva\n- Efecto: suelo virtual tipo \"tron\" o realidad virtual\n\n**PARTÍCULAS Y EFECTOS:**\n- Partículas de luz flotantes dispersas\n- Número: 30-50 partículas\n- Tamaño: 1-8 mm\n- Color: dorado, azul, blanco\n- Movimiento: flotación lenta aleatoria\n- Profundidad: diferentes planos (algunas desenfocadas)\n\n**LUMINOSIDAD:**\n- Viñeteado suave en bordes (oscurecimiento 20%)\n- Brillo central enfocado en la figura\n- Nebulosa digital: nubes de luz difusa azul-rosa\n- Profundidad de campo: fondo ligeramente desenfocado\n\n## **ILUMINACIÓN GENERAL:**\n\n**FUENTES DE LUZ:**\n1. **Luz principal cenital**: blanca fría (5600K), intensidad media-alta\n2. **Luz del corazón**: roja-dorada, emisión propia, intensidad alta\n3. **Luz del halo**: dorado-azul, contraluz, intensidad media\n4. **Luz de relleno**: azul suave desde abajo, intensidad baja\n5. **Rim light**: blanca desde atrás, separa figura del fondo\n\n**EFECTOS DE ILUMINACIÓN:**\n- Reflejos especulares en: frente, nariz, pómulos, cabello\n- Luz del corazón ilumina: barbilla, cuello, manos, pecho\n- Sombras suaves en: lado derecho del rostro, pliegues de ropa\n- Color bleeding: luz roja del corazón se refleja en tela blanca\n- Bloom effect: en fuentes de luz intensa (corazón, halo, estigmas)\n- Lens flare: destellos de lente en luces brillantes\n- God rays: haces de luz volumétrica desde el halo\n\n## **ESTILO Y TÉCNICA:**\n\n**ESTÉTICA VISUAL:**\n- Fotografía digital de alta gama\n- Estilo: fusión cyberpunk-sacro, futurismo devocional\n- Influencias: arte sacro clásico + diseño sci-fi moderno\n- Referencias visuales: Blade Runner 2049, arte conceptual de videojuegos AAA\n\n**CALIDAD TÉCNICA:**\n- Resolución: 8K ultra HD (7680x4320)\n- Profundidad de color: 16-bit\n- Formato: proporción 3:4 o 9:16 (vertical)\n- Enfoque: nítido en rostro y corazón, ligero bokeh en fondo\n- Ruido: mínimo, aspecto limpio digital\n- HDR: alto rango dinámico, detalles en sombras y luces\n\n**POST-PRODUCCIÓN:**\n- Color grading: tonos fríos dominantes con acentos cálidos\n- Contraste: alto pero equilibrado\n- Saturación: media-alta en elementos clave (corazón, halo)\n- Claridad: alta en detalles principales\n- Efectos digitales: holograma, partículas, glow, bloom\n\n## **PALETA DE COLORES:**\n\n**COLORES PRIMARIOS:**\n- **Blanco hueso/marfil**: #F5F5DC (abrigo)\n- **Rojo borgoña**: #800020 (camisa interior)\n- **Rojo neón corazón**: #FF0040 (holograma principal)\n- **Azul marino**: #1a237e (fondo superior)\n- **Dorado neón**: #FFD700 (cruz, halo, rayos)\n\n**COLORES SECUNDARIOS:**\n- **Azul cian**: #00FFFF (anillo base, grid)\n- **Magenta**: #FF00FF (reflejos corazón)\n- **Naranja fuego**: #FF6600 (llamas)\n- **Castño rojizo**: #A0522D (cabello)\n- **Negro digital**: #0a0a0a (corona, sombras profundas)\n\n**COLORES DE ACENTO:**\n- **Rosa neón**: #FF69B4 (resplandor corazón)\n- **Amarillo brillante**: #FFFF00 (puntas de llamas)\n- **Púrpura**: #800080 (sombras corazón)\n- **Plata**: #C0C0C0 (cadena, accesorios)\n\n**TEMPERATURA DE COLOR:**\n- Dominante: fría (azules 60%)\n- Acentos: cálidos (rojos/dorados 40%)\n- Contraste térmico: alto (frío vs cálido)\n\n## **SIMBOLOGÍA ACTUALIZADA:**\n\n**ELEMENTOS TRADICIONALES → VERSIÓN MODERNA:**\n- Manto blanco → Abrigo designer blanco (pureza, elegancia atemporal)\n- Túnica roja → Camisa roja premium (pasión, amor intenso)\n- Corona de espinas → Corona digital wireframe (sufrimiento moderno, tecnología)\n- Llamas físicas → Partículas de fuego holográfico (amor ardiente digital)\n- Sangre física → Gotas de luz roja neón (sacrificio virtual)\n- Halo dorado → Anillo de luz LED/láser (divinidad tecnológica)\n- Estigmas físicos → Puntos de luz neón (marcas digitales sagradas)\n- Corazón físico → Proyección holográfica 3D (amor trascendente)\n\n**SIGNIFICADO CONTEMPORÁNEO:**\n- Fusión de espiritualidad y tecnología\n- Amor divino en la era digital\n- Sacrificio y compasión en mundo moderno\n- Fe adaptada al siglo XXI\n- Sagrado en contexto urbano-contemporáneo\n\n## **ESTADO DE ÁNIMO/ATMÓSFERA:**\n\n**EMOCIONES TRANSMITIDAS:**\n- Serenidad tecnológica\n- Compasión futurista\n- Amor incondicional digital\n- Paz interior con estética moderna\n- Misterio sagrado contemporáneo\n- Esperanza en la era digital\n- Fuerza tranquila\n- Conexión divino-humano-tecnológica\n\n**AMBIENTE:**\n- Cyberpunk espiritual\n- Futurismo devocional\n- Minimalismo sagrado\n- Elegancia atemporal\n- Sofisticación moderna\n- Misticismo digital\n\n## **DETALLES ADICIONALES COHERENTES:**\n\n**COHERENCIA VISUAL:**\n- Todos los elementos holográficos usan misma paleta de luz\n- Reflejos de luz coherentes en todas las superficies\n- Sombras proyectadas consistentes con fuentes de luz\n- Perspectiva y escala proporcionales\n- Estilo unificado: realismo fotográfico + efectos digitales\n\n**DETALLES DE TEXTURA:**\n- Cabello: hebras individuales visibles, brillo especular\n- Piel: poros, textura realista, sub-surface scattering\n- Tela abrigo: tejido de lana visible, fibras sutiles\n- Tela camisa: brillo de seda, pliegues naturales\n- Holograma: malla digital, transparencia, glow\n- Partículas: desenfoque de movimiento sutil\n\n**DETALLES DE ILUMINACIÓN AVANZADA:**\n- Sub-surface scattering en piel (translucidez)\n- Reflexiones especulares en cabello (strand-based)\n- Iluminación global (GI) en escena\n- Oclusión ambiental en pliegues de ropa\n- Volumetric lighting en rayos de luz\n- Chromatic aberration sutil en bordes de luz\n\n**DETALLES DE COMPOSICIÓN:**\n- Regla de tercios: rostro en tercio superior\n- Punto focal: corazón holográfico (centro visual)\n- Líneas guía: brazos forman triángulo sagrado\n- Balance simétrico con variaciones sutiles\n- Espacio negativo equilibrado\n- Profundidad en capas (fondo, figura, holograma, primer plano)\n\n**DETALLES DE EXPRESIÓN:**\n- Micro-expresiones faciales sutiles\n- Arrugas de expresión suaves (frente, ojos)\n- Tensión muscular relajada pero presente\n- Respiración sugerida (pecho ligeramente expandido)\n- Vida en la mirada (brillo en ojos)\n\n**DETALLES DE MOVIMIENTO SUGERIDO:**\n- Cabello: ligero movimiento por brisa sutil\n- Llamas: animación ascendente congelada\n- Partículas: trayectoria de flotación\n- Luz del halo: pulso rítmico\n- Gota de sangre: caída en progreso\n- Rotación de anillo base: giro lento\n\n---\n\n**PROMPT FINAL RESUMEN PARA IA (INGLÉS):**\n\n\"Ultra-realistic contemporary photography of modern Sacred Heart figure, half-body portrait, young man with long auburn hair 30-40cm styled back with wet-look gel product, modern undercut sides, beard groomed, light blue eyes serene expression looking upward. Wearing timeless designer white ivory wool overcoat trench coat belted at waist, deep burgundy red silk shirt underneath, minimalist silver cross necklace. HOLOGRAPHIC SACRED HEART: 3D hologram projection emerging from chest, glowing neon red anatomical heart with wireframe dark crown of thorns, holographic flames in orange-yellow particles rising upward, golden digital cross emerging from flames, neon red blood drops falling, cyan blue holographic emitter ring at base projecting upward, glowing particles and digital glitch effects, pink-magenta-gold radiance aura. NEON HALO: circular LED light ring behind head with golden-blue light rays emanating, lens flare effect. HANDS: open blessing pose, glowing red stigmata light points on palms. BACKGROUND: deep blue gradient with subtle digital grid pattern, floating light particles, cyberpunk spiritual atmosphere. LIGHTING: cinematic dramatic, volumetric god rays, bloom effects, neon glow, rim lighting. STYLE: fusion of sacred art and cyberpunk futurism, high fashion timeless design, 8K resolution, photorealistic with digital holographic effects, color grading cool tones with warm neon accents, devotional atmosphere meets modern technology, sophisticated elegant aesthetic, divine compassion in digital age\"\n\n**PROMPT EN ESPAÑOL (RESUMEN):**\n\n\"Fotografía ultra-realista contemporánea de figura moderna del Sagrado Corazón, retrato medio cuerpo, hombre joven con cabello largo castaño rojizo 30-40cm peinado hacia atrás con efecto gel, laterales degradados modernos, barba arreglada, ojos azul claro expresión serena mirando hacia arriba. Vistiendo atemporal abrigo designer blanco marfil lana entallado con cinturón, camisa seda roja borgoña profunda debajo, cadena plata minimalista con cruz. CORAZÓN HOLOGRÁFICO: proyección 3D holograma emergiendo del pecho, corazón anatómico neón rojo brillante con corona de espinas wireframe oscura, llamas holográficas partículas naranja-amarillo ascendentes, cruz digital dorada emergiendo de llamas, gotas sangre neón rojo cayendo, anillo emisor holográfico azul cian en base proyectando hacia arriba, partículas brillantes y efectos glitch digital, aura resplandor rosa-magenta-dorado. HALO NEÓN: anillo luz LED circular detrás cabeza con rayos luz dorado-azul emanando, efecto lens flare. MANOS: pose bendición abiertas, puntos luz estigmas rojos brillantes en palmas. FONDO: gradiente azul profundo con patrón grid digital sutil, partículas luz flotantes, atmósfera cyberpunk espiritual. ILUMINACIÓN: cinematográfica dramática, rayos volumétricos, efectos bloom, glow neón, luz de borde. ESTILO: fusión arte sacro y futurismo cyberpunk, diseño atemporal alta costura, resolución 8K, fotorrealista con efectos holográficos digitales, color grading tonos fríos con acentos neón cálidos, atmósfera devocional encuentra tecnología moderna, estética sofisticada elegante, compasión divina en era digital\"",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "79b344d7-30d5-407c-90ed-ca73d498687b",
+       "usage": {
+        "input_tokens": 13400,
+        "output_tokens": 5916,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 3994,
+         "text_tokens": 9406
+        },
+        "prompt_tokens_details": {},
+        "total_tokens": 19316,
+        "output_tokens_details": {
+         "reasoning_tokens": 187,
+         "text_tokens": 5729
+        },
+        "image_tokens": 3994
+       },
+       "timestamp": 1783184422
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1783184423.1173685
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1783184310
+    },
+    "64669822-bed1-4e5a-b110-f3ff1ac48b2e": {
+     "id": "64669822-bed1-4e5a-b110-f3ff1ac48b2e",
+     "role": "user",
+     "content": "Ahora esto son los elementos crea elmprompt de la escena el texto continuo. English",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "79b344d7-30d5-407c-90ed-ca73d498687b",
+     "turn_id": null,
+     "childrenIds": [
+      "33c2b012-20c2-403f-82cd-1fff29f04133"
+     ],
+     "files": [],
+     "timestamp": 1783184485
+    },
+    "33c2b012-20c2-403f-82cd-1fff29f04133": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "33c2b012-20c2-403f-82cd-1fff29f04133",
+     "parentId": "64669822-bed1-4e5a-b110-f3ff1ac48b2e",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Crafting a seamless narrative from layered details",
+          "Visualizing the modernized Sacred Heart embodiment"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am synthesizing interconnected elements into a unified, fluid expression that captures depth and continuity.  \nEach component is woven with intention, ensuring coherence and resonance throughout.  \nThe result emerges as a natural, immersive flow shaped by precision and purpose.",
+          "I am crafting a serene yet futuristic image of sacred presence, where long hair is elegantly swept back with a glossy finish, framing a face illuminated by inner light. A white overcoat drapes with timeless grace over a burgundy shirt, grounding the figure in quiet dignity, while a holographic heart pulses from below, casting ethereal glow across the scene. A neon halo hovers above, its radiant ring humming with subtle energy, and delicate stigmata appear as glowing points along both hands, mirroring ancient devotion through modern luminosity. Every element harmonizes—form, light, and symbolism—converging into a single moment of transcendent stillness."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "33c2b012-20c2-403f-82cd-1fff29f04133",
+       "usage": {
+        "input_tokens": 19157,
+        "output_tokens": 146,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 3994,
+         "text_tokens": 15163
+        },
+        "prompt_tokens_details": {},
+        "total_tokens": 19303,
+        "output_tokens_details": {
+         "reasoning_tokens": 141,
+         "text_tokens": 5
+        },
+        "image_tokens": 3994
+       },
+       "timestamp": 1783184496
+      },
+      {
+       "content": "**CONTINUOUS PROMPT:**\n\nUltra-realistic contemporary photographic portrait of a modern Sacred Heart figure, half-body composition, young man with long auburn hair extending 30-40cm to mid-chest, styled back with wet-look gel product creating defined texture and volume on top, subtle side part, modern undercut fade on sides, layered lengths flowing over shoulders, soft defined waves with healthy shine and copper-gold highlights, slightly darker roots with subtle balayage on ends, professionally groomed appearance with intentional loose strands for natural look, volume at crown, flattened sides. Face features light blue celestial eyes with serene expression elevated 15 degrees upward, expression showing inner peace and compassion and quiet strength, luminous fair skin with warm undertones, full well-groomed modern beard 2-3cm length with defined contours, connected mustache precisely trimmed, natural full brown eyebrows, defined facial features with high cheekbones and marked jawline, natural pink lips slightly parted, realistic skin texture with visible pores without excessive retouching. Wearing timeless designer white ivory wool-cashmere overcoat trench coat 90-100cm length to mid-thigh, slim fit modern cut tailored at waist, wide classic contemporary lapels 8-10cm, notch lapel collar, double-breasted or crossed style with hidden buttons, matching fabric belt tied elegantly at waist, flap pockets visible, long sleeves with decorative cuffs and buckles, champagne silk lining visible in openings, natural fall with elegant vertical pleats, premium fabric texture with subtle matte shine, visible stitching and haute couture finishes, minimalist luxury designer appearance. Deep burgundy wine red premium silk or Egyptian cotton shirt underneath, Mandarin collar or classic shirt open with first 2-3 buttons unbuttoned, slim fit tailored to torso, long sleeves visible under coat, decorative cuff buttons, subtle silk shine or premium cotton matte texture, natural pleats on torso and sleeves, vibrant contrast intense red against ivory white. Sterling silver or platinum chain necklace visible at neck, minimalist modern cross pendant 3-4cm, cable chain or fine box chain type, simple ring on right ring finger optional, minimalist wristwatch on left wrist optional, clean aesthetic without other accessories. Dark charcoal black or navy blue premium slim fit dress pants or high-quality denim, fine wool or high-quality denim material, modern tailored but not tight cut, waist partially visible, black Chelsea boots or Oxford shoes if visible. HOLOGRAPHIC SACRED HEART PROJECTION: Three-dimensional hologram emerging from chest, base emitter holographic ring floating 10cm from chest 20-25cm diameter, cyan blue bright ring with digital patterns, futuristic holodeck or advanced AR technology appearance, ascending light particles from base ring, subtle vertical scan lines showing holographic construction effect. Anatomical stylized heart in 3D hologram 25-30cm high 20cm wide, centered on chest floating 5-10cm above fabric, realistic three-dimensional volume with depth, subtle rotation suggested 2-3 degrees on vertical axis. Intense neon red base color #FF0040, gradient bright red center to magenta edges, 60-70% transparent with solid nucleus, own light emission intense glow effect, wireframe mesh light with translucent fill, specular white reflections on curved surface, glassmorphism appearance like luminous crystal. Dark light wireframe crown formed by intertwined lines, black with neon red edge #8B0000, 3D wireframe or low polygon mesh style, 16-20 sharp spines uniformly distributed, 3-4cm length each spine, radial direction outward, integration wraps heart at 2/3 height, dark floating particles from crown, subtle independent rotation suggested. Flames emerging from upper center of heart, stylized digital fire particles, gradient red base to orange middle to golden yellow tips, 10-15cm height above heart, 7-9 individual flame tongues, upward movement particle system, 50% transparent diffuse edges, warm light emission illuminating surroundings, organic curved trajectories with turbulence, small golden sparks floating upward. Latin cross emerging from center of flames, 12-15cm high, solid light contour or bright wireframe style, intense neon gold #FFD700, 5-8mm line thickness, maximum intensity bloom effect, vertical position centered 5cm above heart, light rays emanating from cross, appears floating over flames. Shining opening in heart center, 6-8cm vertical cut, dark red shine with black nucleus, holographic falling drops, dark neon red drops #8B0000, 5-7 main drops at different heights, 2-4cm elongated teardrop shape, simulated gravity descending movement, bright trail behind each drop, drops fade before falling completely, each drop emits subtle red light. Circular aura around complete heart, 40-45cm total diameter including effects, pink-magenta-gold gradient, maximum intensity near heart fading to edges, 12-16 rays emanating radially, 15-20cm ray length, semi-transparent gold-pink color, 20-30 scattered light particles, 2-5mm particle size, slow random floating movement, subtle intermittent digital glitch distortion, thin horizontal scan lines, subtle floating numbers/symbols optional. Circular holographic platform floating, position 15-20cm below heart, 30cm diameter, electric cyan blue #00FFFF, concentric circles with digital segments, Iron Man or futuristic HUD interface type, slow counterclockwise rotation suggested, geometric icons or digital runes on edge, upward projection from ring, vertical blue light columns connecting ring to heart. NEON HALO: Circular LED light ring floating behind head, 40-50cm diameter, white-blue electric to neon gold gradient, LED circular light with radially emanating rays, 12-16 golden-blue light rays in symmetrical pattern, 3-4cm ring thickness, intense shine with cinematographic lens flare effect, semi-transparent with bright nucleus, subtle rhythmic light pulse animation suggested, laser or fiber optic light appearance. HANDS AND STIGMATA: Same classical blessing and welcoming pose, right hand extended forward at chest height, palm up in offering gesture, fingers slightly curved relaxed, 45-degree angle from body, left hand elevated at shoulder height, semi-visible palm extended fingers, blessing gesture index and middle fingers extended, thumb crossing ring and pinky fingers. Palm marks bright neon red light points, 1.5-2cm diameter, intense red #FF0000 with glow effect, perfect circle or small cross shape, subtle pulsing shine animation suggested, light rays emanating from each stigma, 3-4cm ray length, 4-6 rays per stigma, exact center of each palm. Natural fair skin tone with realistic texture, short clean nails without polish, subtle veins visible on hand back, long proportioned fingers defined knuckles, holographic light projection shadows on hands, red heart light reflection on skin. Arms visible from elbows down, white coat sleeves visible, red shirt cuffs showing 2-3cm, open welcoming symmetrical posture, relaxed but present muscle tension. BACKGROUND: Deep atmospheric gradient, navy blue dark #1a237e upper part, medium electric blue #0d47a1 center, almost black blue #0a1628 lower part. Subtle digital grid in lower third, isometric perspective lines, very subtle cyan grid #00ffff 10% opacity, 5-10cm cell size in perspective, virtual tron or virtual reality floor effect. 30-50 floating light particles scattered, 1-8mm size, gold blue white colors, slow random floating movement, different planes some defocused. Soft vignetting on edges 20% darkening, central brightness focused on figure, blue-pink diffuse light nebula clouds, slightly defocused background depth of field. LIGHTING: Cinematic dramatic lighting, white cold 5600K main cenital light medium-high intensity, red-gold heart own emission high intensity, golden-blue halo backlight medium intensity, soft blue fill light from below low intensity, white rim light from behind separating figure from background. Specular reflections on forehead nose cheekbones hair, heart light illuminates chin neck hands chest, soft shadows on right side of face clothing pleats, red heart light bleeding on white fabric, bloom effect on intense light sources heart halo stigmata, lens flare on bright lights, volumetric god rays from halo. STYLE AND TECHNIQUE: Ultra-high-end digital photography, cyberpunk-sacred fusion style futuristic devotionalism, classical sacred art plus modern sci-fi design influences, Blade Runner 2049 AAA video game conceptual art references. 8K ultra HD resolution 7680x4320, 16-bit color depth, 3:4 or 9:16 vertical proportion, sharp focus on face and heart slight bokeh on background, minimal clean digital appearance, HDR high dynamic range details in shadows and lights. Cool dominant tones with warm accents color grading, high but balanced contrast, medium-high saturation on key elements heart halo, high clarity on main details, digital effects hologram particles glow bloom. COLOR PALETTE: Ivory white #F5F5DC coat, burgundy red #800020 inner shirt, neon red heart #FF0040 main hologram, navy blue #1a237e upper background, neon gold #FFD700 cross halo rays, cyan blue #00FFFF base ring grid, magenta #FF00FF heart reflections, fire orange #FF6600 flames, auburn brown #A0522D hair, digital black #0a0a0a crown deep shadows, neon pink #FF69B4 heart glow, bright yellow #FFFF00 flame tips, purple #800080 heart shadows, silver #C0C0C0 chain accessories. 60% cool dominant blues, 40% warm red-gold accents, high thermal contrast cool versus warm. SYMBOLISM: White designer coat purity timeless elegance, red premium shirt passion intense love, wireframe digital crown modern suffering technology, holographic fire particles burning love digital, neon red light drops virtual sacrifice, LED laser light ring technological divinity, neon light points digital sacred marks, 3D hologram projection transcendent love. Contemporary meaning fusion of spirituality and technology, divine love in digital age, sacrifice and compassion in modern world, faith adapted to 21st century, sacred in urban-contemporary context. MOOD ATMOSPHERE: Technological serenity, futuristic compassion, unconditional digital love, inner peace with modern aesthetics, contemporary sacred mystery, hope in digital age, quiet strength, divine-human-technological connection. Cyberpunk spiritual, futuristic devotionalism, sacred minimalism, timeless elegance, modern sophistication, digital mysticism. COHERENT DETAILS: All holographic elements use same light palette, coherent light reflections on all surfaces, consistent shadows with light sources, proportional perspective and scale, unified style photorealism plus digital effects. Individual visible hair strands specular shine, realistic skin texture sub-surface scattering, visible wool fabric subtle fibers, silk shine natural pleats, digital mesh transparency glow, subtle motion blur particles. Sub-surface scattering on skin translucency, strand-based hair specular reflections, global illumination in scene, ambient occlusion in clothing pleats, volumetric lighting in light rays, subtle chromatic aberration on light edges. Rule of thirds face in upper third, holographic heart focal point visual center, arms form sacred triangle guide lines, symmetrical balance with subtle variations, balanced negative space, depth in layers background figure hologram foreground. Subtle facial micro-expressions, soft expression wrinkles forehead eyes, relaxed but present muscle tension, suggested breathing chest slightly expanded, life in gaze eyes shine. Subtle breeze hair movement, frozen ascending flame animation, floating particle trajectory, halo light rhythmic pulse, blood drop fall in progress, base ring slow rotation. Ultra-detailed coherent contemporary sacred heart portrait, photorealistic with advanced holographic digital effects, cinematic quality 8K resolution, timeless fashion design meets cyberpunk futurism, devotional atmosphere meets modern technology, sophisticated elegant aesthetic, divine compassion in digital age.\"",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "33c2b012-20c2-403f-82cd-1fff29f04133",
+       "usage": {
+        "input_tokens": 19157,
+        "output_tokens": 2711,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 3994,
+         "text_tokens": 15163
+        },
+        "prompt_tokens_details": {},
+        "total_tokens": 21868,
+        "output_tokens_details": {
+         "reasoning_tokens": 141,
+         "text_tokens": 2570
+        },
+        "image_tokens": 3994
+       },
+       "timestamp": 1783184541
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1783184541.6460803
+     },
+     "feedbackId": "90714759-3dac-4e9a-a443-a6815aa98f92",
+     "turn_id": null,
+     "annotation": {
+      "rating": 1,
+      "comment": null,
+      "reason": null
+     },
+     "done": true,
+     "info": null,
+     "timestamp": 1783184485
+    }
+   },
+   "currentId": "33c2b012-20c2-403f-82cd-1fff29f04133",
+   "currentResponseIds": [
+    "33c2b012-20c2-403f-82cd-1fff29f04133"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.7-plus"
+  ],
+  "messages": [
+   {
+    "id": "cfab7777-79a6-4090-bd6e-eb208098e211",
+    "role": "user",
+    "content": "Saca el prompt de cada detalle maximo al minimo detalle .extenso",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "287d92e9-072c-4878-8a9c-953b718e8e8f"
+    ],
+    "files": [
+     {
+      "id": "15f5b0cf-52dd-48fe-908a-b9ef4056116b",
+      "name": "Screenshot_20260704_180914_com.google.android.googlequicksearchbox.jpg",
+      "file_type": "image/jpeg",
+      "type": "image",
+      "file_class": "vision",
+      "size": 938759,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/15f5b0cf-52dd-48fe-908a-b9ef4056116b_Screenshot_20260704_180914_com.google.android.googlequicksearchbox.jpg?key=[SECRETO_REDACTADO]",
+      "file": {
+       "created_at": 1783181436073,
+       "data": {},
+       "filename": "Screenshot_20260704_180914_com.google.android.googlequicksearchbox.jpg",
+       "hash": null,
+       "id": "15f5b0cf-52dd-48fe-908a-b9ef4056116b",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "Screenshot_20260704_180914_com.google.android.googlequicksearchbox.jpg",
+        "size": 938759,
+        "content_type": "image/jpeg"
+       },
+       "update_at": 1783181436073,
+       "lastModified": 1783181354340,
+       "name": "Screenshot_20260704_180914_com.google.android.googlequicksearchbox.jpg",
+       "webkitRelativePath": "",
+       "size": 938759,
+       "type": "image/jpeg"
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "ebdced8b-1991-49cd-9eb0-dc1443a25313",
+      "showType": "image",
+      "uploadTaskId": "ee1460b2-f867-4d93-9aed-368b737ab636"
+     }
+    ],
+    "timestamp": 1783181451
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "287d92e9-072c-4878-8a9c-953b718e8e8f",
+    "parentId": "cfab7777-79a6-4090-bd6e-eb208098e211",
+    "childrenIds": [
+     "91e6a099-6c62-4aec-afcb-7c1bdf547823"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Analizando la imagen con atención meticulosa",
+         "Analyzing the sacred imagery with meticulous attention to every visual element",
+         "Visualizing a serene figure with ethereal presence",
+         "Envisioning a sacred presence bathed in celestial radiance"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "Estoy desentrañando cada elemento visual desde la perspectiva más amplia hasta los detalles más sutiles, reconstruyendo su significado y contexto.  \nCada componente, desde las texturas y colores hasta las proporciones y relaciones espaciales, se examina con profundidad para capturar su esencia completa.  \nLa intención es ofrecer una descripción rica y precisa que refleje el todo con fidelidad y elegancia.",
+         "I am examining the portrayal of Jesus Christ in this religious painting, focusing on the intricate details of his facial features and expression  \nThe long auburn hair parted precisely down the center suggests a deliberate artistic choice reflecting divine serenity  \nEach nuance in the composition reveals deeper spiritual symbolism tied to the Sacred Heart devotion",
+         "I perceive a being of gentle countenance, hair flowing like waves, eyes gazing upward with quiet reverence, skin luminous as moonlight.  \nA golden halo encircles the head, casting soft rays that dissolve into the air, while a sacred heart pulses on the chest—crowned with thorns, pierced by flame, and crowned with a cross.  \nThe scene breathes stillness and divine sorrow, where light and wound coexist in sacred harmony.",
+         "I am crafting a figure of profound serenity, where light flows from the heart like divine breath, illuminating the soul’s core.  \nThe layered garments—white and red, gold-trimmed and softly draped—convey both purity and sacrifice, their folds whispering grace with every subtle curve.  \nHands open in quiet invitation, wounds revealed with tender honesty, set against a sky of gentle blue-gray haze, where heaven meets earth in silent communion."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "287d92e9-072c-4878-8a9c-953b718e8e8f",
+      "usage": {
+       "input_tokens": 3250,
+       "output_tokens": 649,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2484,
+        "text_tokens": 766
+       },
+       "prompt_tokens_details": {},
+       "total_tokens": 3899,
+       "output_tokens_details": {
+        "reasoning_tokens": 645,
+        "text_tokens": 4
+       },
+       "image_tokens": 2484
+      },
+      "timestamp": 1783181470
+     },
+     {
+      "content": "**PROMPT DETALLADO - SAGRADO CORAZÓN DE JESÚS**\n\n**COMPOSICIÓN GENERAL:**\nRetrato religioso de medio cuerpo del Sagrado Corazón de Jesús, estilo pintura clásica europea del siglo XIX, composición frontal simétrica, iluminación divina cenital, atmósfera celestial y devocional.\n\n**ROSTRO Y CABEZA:**\n- Cabello castaño rojizo (auburn) largo hasta los hombros, ondulado y fluido, textura sedosa\n- Raya en medio del cabello, mechones cayendo naturalmente sobre los hombros\n- Ojos azul claro celeste, mirada serena elevada ligeramente hacia arriba y al costado\n- Expresión facial pacífica, compasiva, amorosa, divina\n- Piel pálida luminosa, tono porcelana con sutiles rosados\n- Barba y bigote rubio-castaño claro, bien definidos pero suaves\n- Rasgos faciales delicados, idealizados, nariz recta fina, labios cerrados suavemente\n- Cejas arqueadas delicadas color castaño claro\n\n**AUREOLA Y LUZ DIVINA:**\n- Halo dorado luminoso detrás de la cabeza\n- Resplandor celestial amarillo-dorado irradiando en forma de rayos\n- Luz difusa etérea que envuelve la figura\n- Gradiente de luz: centro brillante dorado que se desvanece hacia azul claro\n- Efecto de iluminación sobrenatural, divina\n\n**SAGRADO CORAZÓN (DETALLE CENTRAL):**\n- Corazón físico visible en el pecho, expuesto\n- Color rojo intenso brillante con tonos rosados y púrpuras\n- Corazón envuelto en corona de espinas marrón oscuro\n- Llama de fuego rojo-naranja emergiendo del centro superior del corazón\n- Cruz cristiana marrón oscuro/negra emergiendo de las llamas\n- Herida abierta en el corazón con sangre roja oscura goteando\n- Gotas de sangre visibles cayendo\n- Corazón rodeado de resplandor dorado-rosado luminoso\n- Detalle anatómico del corazón visible: ventrículos, aurículas\n- Simbolismo de amor divino, sacrificio y pasión\n\n**VESTIDURA EXTERIOR (MANTO BLANCO):**\n- Túnica/manto blanco puro sobre los hombros\n- Tela fluida, drapeada naturalmente con pliegues suaves\n- Borde decorativo dorado con patrón geométrico repetitivo\n- Broche/cierre dorado en el cuello con dos círculos ornamentales entrelazados\n- Detalles bordados dorados en el borde del manto\n- Textura de tela que sugiere lino o seda fina\n- Sombras grises suaves en los pliegues\n- Brillos blancos luminosos en las zonas iluminadas\n\n**VESTIDURA INTERIOR (TÚNICA ROJA):**\n- Túnica interior color rojo carmesí intenso\n- Visible en el pecho, torso y mangas\n- Mangas largas que cubren los brazos hasta las muñecas\n- Detalles dorados en puños y bordes\n- Tela que cae naturalmente con pliegues\n- Contraste vibrante con el manto blanco\n\n**MANOS Y ESTIGMAS:**\n- Ambas manos visibles en gesto de bendición y acogida\n- Mano derecha (izquierda del espectador): extendida hacia adelante, palma hacia arriba, dedos ligeramente curvados\n- Mano izquierda (derecha del espectador): elevada a la altura del pecho, palma semi-visible, dedos en gesto de bendición\n- Estigmas visibles: heridas rojas en ambas palmas (marca de los clavos)\n- Piel de las manos: tono natural claro, realista\n- Uñas cortas naturales\n- Anatomía detallada: venas sutiles, nudillos definidos\n- Dedos largos y elegantes\n- Sombras suaves bajo los dedos\n\n**BRAZOS:**\n- Brazos visibles desde los codos\n- Posición abierta, acogedora\n- Mangas de la túnica roja visibles\n\n**FONDO:**\n- Gradiente atmosférico: azul grisáceo claro en la parte superior\n- Transición a azul más oscuro hacia los bordes\n- Parte inferior: tonos azul marino oscuro, casi negro\n- Sin elementos definidos, fondo abstracto celestial\n- Efecto de profundidad atmosférica\n- Ambiente etéreo, sobrenatural\n\n**TÉCNICA PICTÓRICA:**\n- Estilo: Pintura al óleo clásica académica\n- Pinceladas suaves, difuminadas (sfumato)\n- Transiciones graduales de color\n- Realismo idealizado\n- Influencia del arte religioso del siglo XIX\n- Acabado brillante, pulido\n- Detalle minucioso en rostro y manos\n- Menos detalle en telas y fondo\n\n**PALETA DE COLORES:**\n- **Cálidos**: Dorado brillante, amarillo luz, rojo carmesí, rosa, castaño, marrón, naranja fuego\n- **Fríos**: Azul celeste, azul grisáceo, azul marino, blanco puro, gris perla\n- **Neutros**: Beige, crema, tonos piel\n- Contraste alto entre luces y sombras\n- Saturación media-alta en el corazón y túnica roja\n- Colores simbólicos: dorado (divinidad), rojo (pasión/sangre), blanco (pureza), azul (cielo)\n\n**ILUMINACIÓN:**\n- Fuente de luz principal: divina, cenital, sobrenatural\n- Iluminación dramática tipo claroscuro suave\n- Reflejos brillantes en: frente, nariz, manto blanco, corazón\n- Sombras suaves en: cuello, pliegues de tela, bajo las manos\n- Contraluz del halo dorado\n- El corazón emite su propia luz roja-dorada\n- Gradiente lumínico de arriba hacia abajo\n\n**SIMBOLOGÍA RELIGIOSA:**\n- Sagrado Corazón: amor divino de Jesús por la humanidad\n- Corona de espinas: sufrimiento y pasión\n- Cruz: sacrificio, redención\n- Llamas: amor ardiente, Espíritu Santo\n- Sangre: sacrificio, eucaristía\n- Estigmas: crucifixión, martirio\n- Halo: santidad, divinidad\n- Manos abiertas: acogida, bendición, invitación\n- Blanco: pureza, resurrección\n- Rojo: sangre, pasión, amor\n- Dorado: gloria divina, realeza celestial\n\n**ESTADO DE ÁNIMO/ATMÓSFERA:**\n- Devoción profunda\n- Serenidad celestial\n- Amor incondicional\n- Compasión divina\n- Paz espiritual\n- Sacralidad\n- Misterio divino\n- Calma sobrenatural\n\n**CALIDAD TÉCNICA:**\n- Alta resolución\n- Detalle fino en elementos principales\n- Texturas realistas: piel, tela, cabello\n- Profundidad de campo: figura nítida, fondo difuso\n- Composición equilibrada, centrada\n- Proporciones anatómicas correctas\n- Perspectiva frontal directa\n\n**CONTEXTO HISTÓRICO-ARTÍSTICO:**\n- Arte sacro católico\n- Iconografía del Sagrado Corazón\n- Tradición pictórica europea\n- Influencia del barroco y romanticismo religioso\n- Devoción popular del siglo XIX\n- Estilo similar a pinturas de altar\n\n**DETALLES ADICIONALES MÍNIMOS:**\n- Pequeñas arrugas de expresión suaves alrededor de los ojos\n- Brillo húmedo en los ojos\n- Sombra bajo la barba\n- Reflejos dorados en el cabello\n- Transparencia sutil en los bordes del manto\n- Textura de la corona de espinas: rugosa, con púas\n- Detalle de las gotas de sangre: forma de lágrima\n- Brillo metálico en el broche dorado\n- Patrón geométrico repetitivo en el borde dorado\n- Sombras proyectadas sutiles en el cuello\n- Gradiente de color en el corazón: rojo oscuro a rosa claro\n- Resplandor blanco en el centro del corazón\n- Dirección de la luz: coherente en todos los elementos\n- Equilibrio cromático cálido-frío\n- Armonía visual total\n\n---\n\n**PROMPT RESUMEN PARA IA:**\n\"Classical religious oil painting of Sacred Heart of Jesus, half-body portrait, serene face with long auburn wavy hair, light blue eyes, gentle beard, luminous pale skin, golden halo radiating divine light, visible sacred heart on chest glowing red with crown of thorns, cross emerging from flames, blood dripping, white flowing robe with golden trim and ornate clasp, red inner garment, both hands open showing stigmata wounds, soft blue-gray atmospheric background, 19th century academic style, soft brushwork, chiaroscuro lighting, devotional atmosphere, rich colors gold-red-white-blue, highly detailed, sacred art, celestial ambiance, divine compassion\"",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "287d92e9-072c-4878-8a9c-953b718e8e8f",
+      "usage": {
+       "input_tokens": 3250,
+       "output_tokens": 2623,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2484,
+        "text_tokens": 766
+       },
+       "prompt_tokens_details": {},
+       "total_tokens": 5873,
+       "output_tokens_details": {
+        "reasoning_tokens": 645,
+        "text_tokens": 1978
+       },
+       "image_tokens": 2484
+      },
+      "timestamp": 1783181502
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1783181502.6925879
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1783181451
+   },
+   {
+    "id": "91e6a099-6c62-4aec-afcb-7c1bdf547823",
+    "role": "user",
+    "content": "Detalle en ropa y peinado. Prompt. Coracon estilo artistico",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "287d92e9-072c-4878-8a9c-953b718e8e8f",
+    "turn_id": null,
+    "childrenIds": [
+     "35a89234-5694-451e-ac03-8d0eba7f0eb8"
+    ],
+    "files": [],
+    "timestamp": 1783181505
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "35a89234-5694-451e-ac03-8d0eba7f0eb8",
+    "parentId": "91e6a099-6c62-4aec-afcb-7c1bdf547823",
+    "childrenIds": [
+     "0bdb764a-34fd-4d54-bddc-69386c6f0fc4"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Enfocarme profundamente en los detalles visuales clave de la imagen",
+         "Observando detenidamente cada detalle del vestuario y el aspecto físico."
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "Estoy analizando con atención las texturas, cortes y simbolismo inherentes a las vestimentas, buscando transmitir su significado cultural y estilístico con precisión.  \nEvalúo cada rasgo del peinado, desde el flujo de los cabellos hasta los elementos ornamentales, para capturar su originalidad y expresividad.  \nFinalmente, interpreto el corazón como un elemento artístico, explorando su forma, color y contexto dentro del diseño para resaltar su impacto emocional y estético.",
+         "Estoy analizando con precisión la combinación de tonos y texturas en la vestimenta, destacando el contraste entre el manto blanco con bordes dorados y la túnica interior roja.  \nEvalúo meticulosamente el peinado, desde la raya central hasta la caída ondulada del cabello castaño rojizo sobre los hombros.  \nCada elemento se considera en su contexto visual para ofrecer una descripción coherente y evocadora."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "35a89234-5694-451e-ac03-8d0eba7f0eb8",
+      "usage": {
+       "input_tokens": 5073,
+       "output_tokens": 266,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2484,
+        "text_tokens": 2589
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       },
+       "total_tokens": 5339,
+       "output_tokens_details": {
+        "reasoning_tokens": 258,
+        "text_tokens": 8
+       },
+       "image_tokens": 2484
+      },
+      "timestamp": 1783181517
+     },
+     {
+      "content": "**PROMPT EXTENSO - DETALLES DE ROPA, PEINADO Y CORAZÓN ARTÍSTICO**\n\n---\n\n## **PEINADO - DESCRIPCIÓN MÁXIMA**\n\n**ESTRUCTURA GENERAL DEL CABELLO:**\n- Cabello largo hasta los hombros, longitud media-larga\n- Color castaño rojizo (auburn) con reflejos cobrizos y dorados\n- Tono base marrón cálido con matices rojizos intensos\n- Brillo natural sedoso, reflejos luminosos en las zonas iluminadas\n- Textura ondulada suave, ondas amplias y fluidas\n- Volumen moderado, ni muy lacio ni muy rizado\n\n**DIVISIÓN Y DIRECCIÓN:**\n- Raya central perfectamente definida en medio de la cabeza\n- Cabello dividido simétricamente en dos secciones\n- Mechones cayendo naturalmente hacia ambos lados\n- Flujo del cabello: desde la coronilla hacia los hombros\n- Dirección de las ondas: curvas suaves en forma de \"S\"\n\n**MECHONES FRONTALES:**\n- Mechones que enmarcan el rostro\n- Caída natural sobre la frente y sienes\n- Algunos mechones ligeramente separados del rostro\n- Longitud hasta la línea de la mandíbula en los frontales\n- Integración suave con el resto del cabello\n\n**ZONA DE LOS HOMBROS:**\n- Cabello descansando sobre ambos hombros\n- Ondas más pronunciadas en las puntas\n- Volumen en las zonas de contacto con los hombros\n- Algunos mechones cayendo por delante del pecho\n- Otros mechones cayendo por detrás de los hombros\n- Textura que sugiere movimiento natural\n\n**DETALLES DE TEXTURA:**\n- Hebras individuales visibles en zonas iluminadas\n- Reflejos dorados en las crestas de las ondas\n- Sombras más oscuras en los valles de las ondas\n- Brillo satinado en la zona superior (coronilla)\n- Transición de tono: más claro en puntas, más oscuro en raíces\n- Aspecto saludable, sedoso, bien cuidado\n- Sin frizz, ondas definidas y controladas\n\n**VOLUMEN Y FORMA:**\n- Volumen en la zona superior de la cabeza\n- Cabello con cuerpo, no aplastado\n- Forma ovalada natural siguiendo la cabeza\n- Ampliación gradual hacia los hombros\n- Punta del cabello con ligera curvatura hacia adentro\n\n**INTERACCIÓN CON LA LUZ:**\n- Reflejos brillantes en la parte superior (iluminación cenital)\n- Zonas de sombra en los mechones traseros\n- Contraste entre luces doradas y sombras castañas\n- Brillo especular en las ondas frontales\n- Transparencia sutil en los bordes de los mechones\n\n---\n\n## **ROPA - DESCRIPCIÓN MÁXIMA**\n\n### **MANTO BLANCO EXTERIOR**\n\n**TELA Y MATERIAL:**\n- Tela blanca pura, color blanco inmaculado\n- Material que sugiere lino fino o seda de alta calidad\n- Textura suave con caída natural\n- Grosor medio: ni muy fino ni muy grueso\n- Opacidad total, no transparente\n- Brillo sutil mate con reflejos suaves\n\n**DRAPADO Y PLIEGUES:**\n- Manto drapeado sobre ambos hombros\n- Caída natural desde los hombros hacia abajo\n- Pliegues amplios y suaves en el pecho\n- Pliegues verticales en los brazos\n- Pliegues diagonales en la zona del torso\n- Arrugas naturales en las zonas de movimiento\n- Pliegues profundos en la zona de la cintura\n- Sombras grises suaves en los valles de los pliegues\n- Luces blancas brillantes en las crestas de los pliegues\n\n**BORDE DECORATIVO DORADO:**\n- Borde ancho de aproximadamente 3-4 cm\n- Color dorado brillante, oro metálico\n- Patrón geométrico repetitivo: círculos entrelazados\n- Diseño de cadenas o eslabones ornamentales\n- Borde cosido al edge del manto\n- Detalle bordado con hilo dorado\n- Brillo metálico en el dorado\n- Contraste alto entre blanco y dorado\n\n**BROCHE/CIERRE DEL CUELLO:**\n- Broche ornamental en el centro del cuello\n- Dos círculos dorados entrelazados\n- Diseño simétrico, forma de ocho horizontal\n- Tamaño mediano, aproximadamente 5-6 cm de ancho\n- Posición central, punto focal del cuello\n- Detalle grabado en el metal dorado\n- Función decorativa y de sujeción del manto\n- Reflejos brillantes en la superficie metálica\n\n**MANGAS DEL MANTO:**\n- Mangas amplias y fluidas\n- Caída natural desde los hombros\n- Pliegues verticales en los brazos\n- Terminación en puños con borde dorado\n- Cobertura completa de los brazos\n- Movimiento sugerido en las mangas\n\n**ZONA DEL PECHO:**\n- Manto abierto en el centro del pecho\n- Revela la túnica roja interior\n- Bordes del manto cayendo a ambos lados\n- Pliegues que convergen hacia el corazón\n- Simetría en la apertura del manto\n\n### **TÚNICA ROJA INTERIOR**\n\n**TELA Y MATERIAL:**\n- Color rojo carmesí intenso, rojo profundo\n- Material que sugiere terciopelo o seda rica\n- Textura más densa que el manto blanco\n- Brillo sutil con reflejos rojos\n- Opacidad total\n- Peso visual mayor que el manto blanco\n\n**CORTE Y FORMA:**\n- Túnica de cuerpo entero (solo visible hasta la cintura)\n- Cuello redondo o en V suave\n- Mangas largas ajustadas en los brazos\n- Puños en las muñecas con detalle dorado\n- Ajuste al cuerpo en el torso\n- Caída natural desde la cintura\n\n**DETALLES DORADOS:**\n- Borde dorado en el cuello de la túnica\n- Puños dorados en las mangas\n- Posible cinturón o faja dorada en la cintura\n- Detalles ornamentales en costuras\n- Contraste vibrante rojo-dorado\n\n**PLIEGUES Y TEXTURA:**\n- Pliegues suaves en el torso\n- Arrugas naturales en los codos\n- Pliegues verticales en las mangas\n- Sombras rojas oscuras en los pliegues\n- Reflejos rojos brillantes en zonas iluminadas\n- Transición de tono: rojo claro en luces, rojo oscuro en sombras\n\n**ZONA VISIBLE:**\n- Pecho central visible (donde está el corazón)\n- Mangas completas visibles\n- Parte superior del torso\n- Hombros cubiertos por el manto blanco\n- Contraste cromático blanco-rojo dominante\n\n---\n\n## **SAGRADO CORAZÓN - ESTILO ARTÍSTICO**\n\n### **FORMA Y ESTRUCTURA DEL CORAZÓN**\n\n**ANATOMÍA ARTÍSTICA:**\n- Corazón humano estilizado, forma anatómica idealizada\n- Tamaño prominente, aproximadamente 15-20 cm de alto\n- Posición central en el pecho, ligeramente a la izquierda\n- Forma de corazón clásico con dos lóbulos superiores y punta inferior\n- Proporciones exageradas para énfasis simbólico\n- Volumen tridimensional sugerido con sombras y luces\n\n**COLOR Y TONO:**\n- Color base: rojo carmesí intenso\n- Gradiente de color: rojo oscuro en bordes, rojo brillante en centro\n- Tonos rosados en zonas de luz\n- Sombras púrpura-marrón en zonas oscuras\n- Reflejos blancos en el centro (brillo divino)\n- Saturación alta, color vibrante y luminoso\n\n**TEXTURA SUPERFICIAL:**\n- Superficie lisa pero con volumen\n- Brillo húmedo sugerido (como órgano vivo)\n- Reflejos luminosos en la superficie\n- Transiciones suaves de color\n- Aspecto carnoso pero idealizado\n\n### **CORONA DE ESPINAS**\n\n**ESTRUCTURA:**\n- Corona circular envolviendo la parte media del corazón\n- Formada por ramas entrelazadas de color marrón oscuro\n- Espinas puntiagudas distribuidas uniformemente\n- Aproximadamente 12-16 espinas visibles\n- Longitud de espinas: 2-3 cm cada una\n- Dirección de espinas: hacia afuera en todos los ángulos\n\n**DETALLES:**\n- Color marrón oscuro, casi negro en sombras\n- Textura rugosa de madera seca\n- Ramas finas entrelazadas formando círculo\n- Algunas hojas secas pequeñas visibles\n- Sombra proyectada sobre el corazón\n- Contraste oscuro contra el rojo brillante\n\n**SIMBOLISMO VISUAL:**\n- Presión visible sobre el corazón (ligera deformación)\n- Puntos de contacto marcados con sangre\n- Integración orgánica con el corazón\n- No flota, está incrustada\n\n### **LLAMAS DE FUEGO**\n\n**FORMA Y MOVIMIENTO:**\n- Llamas emergiendo del centro superior del corazón\n- Forma de lengua de fuego estilizada\n- Altura de llamas: 5-8 cm sobre el corazón\n- Dirección: hacia arriba con movimiento ondulante\n- Múltiples lenguas de fuego: 5-7 llamas individuales\n- Base ancha que se estrecha hacia las puntas\n\n**COLOR Y GRADIENTE:**\n- Base de llamas: rojo intenso\n- Centro de llamas: naranja brillante\n- Puntas de llamas: amarillo dorado\n- Transición suave entre colores\n- Brillo luminoso en el centro de cada llama\n- Efecto de calor radiante\n\n**TEXTURA Y EFECTOS:**\n- Bordes difusos y ondulantes\n- Transparencia en las puntas\n- Brillo interno en cada llama\n- Sugerencia de movimiento (formas dinámicas)\n- Resplandor que ilumina el área circundante\n- Efecto de calor visible\n\n### **CRUZ**\n\n**FORMA Y POSICIÓN:**\n- Cruz cristiana latina emergiendo del centro de las llamas\n- Posición vertical centrada sobre el corazón\n- Tamaño: aproximadamente 8-10 cm de alto\n- Brazo horizontal en el tercio superior\n- Proporciones clásicas de cruz cristiana\n\n**MATERIAL Y COLOR:**\n- Color marrón oscuro, madera oscura\n- Posiblemente negro en sombras\n- Textura de madera sugerida\n- Sólida y definida\n- Contraste fuerte contra las llamas brillantes\n\n**DETALLES:**\n- Bordes definidos y rectos\n- Sombra proyectada sobre las llamas\n- Punto focal vertical de la composición\n- Simbolismo de sacrificio y redención\n- Integración con las llamas (emergen juntas)\n\n### **HERIDA Y SANGRE**\n\n**HERIDA PRINCIPAL:**\n- Herida abierta en el centro del corazón\n- Forma ovalada o de corte\n- Tamaño: aproximadamente 3-4 cm de largo\n- Posición: centro del corazón, debajo de la corona de espinas\n- Bordes de la herida: rojo oscuro, carne expuesta\n- Profundidad sugerida con sombras internas\n\n**SANGRE:**\n- Color rojo oscuro, casi burdeos\n- Flujo de sangre descendente desde la herida\n- Gota principal formada en la parte inferior\n- Gotas más pequeñas cayendo\n- Longitud del flujo: 5-7 cm hacia abajo\n- Forma de lágrima en las gotas\n- Brillo húmedo en la sangre\n- Transparencia sutil en los bordes de las gotas\n\n**DETALLES DE SANGRE:**\n- Gota principal en formación (no caída aún)\n- Gotas secundarias más pequeñas\n- Rastro de sangre en el corazón\n- Color más oscuro que el corazón (contraste)\n- Efecto de líquido viscoso\n- Reflejos brillantes en la superficie de la sangre\n\n### **RESPLANDOR Y LUZ DIVINA**\n\n**AUREOLA DEL CORAZÓN:**\n- Halo de luz alrededor del corazón\n- Color dorado-rosado luminoso\n- Forma circular o elíptica\n- Tamaño: 25-30 cm de diámetro (incluyendo el corazón)\n- Intensidad máxima cerca del corazón, difuminándose hacia afuera\n- Efecto de glow o resplandor\n\n**RAYOS DE LUZ:**\n- Rayos luminosos emanando del corazón\n- Dirección: radial en todas direcciones\n- Color: dorado suave, amarillo pálido\n- Transparencia: semi-transparente\n- Longitud: 10-15 cm desde el corazón\n- Número: 8-12 rayos principales\n- Anchura variable: más anchos en la base\n\n**EFECTO LUMINOSO:**\n- El corazón emite su propia luz\n- Iluminación del área circundante\n- Reflejos en la túnica roja cercana\n- Contraste con el fondo más oscuro\n- Atmósfera sobrenatural y divina\n- Efecto de sacralidad visual\n\n### **ESTILO ARTÍSTICO DEL CORAZÓN**\n\n**TÉCNICA DE REPRESENTACIÓN:**\n- Estilo realista idealizado\n- Influencia del arte barroco religioso\n- Pinceladas suaves y difuminadas\n- Transiciones graduales de color (sfumato)\n- Detalle anatómico pero estilizado\n- Simbolismo sobre realismo puro\n\n**INFLUENCIAS ARTÍSTICAS:**\n- Iconografía católica tradicional\n- Arte sacro del siglo XIX\n- Pintura académica europea\n- Devocionario popular\n- Estampas religiosas clásicas\n\n**COMPOSICIÓN DEL CORAZÓN:**\n- Elementos superpuestos en capas:\n  1. Corazón base (rojo)\n  2. Corona de espinas (marrón)\n  3. Herida y sangre (rojo oscuro)\n  4. Llamas (naranja-amarillo)\n  5. Cruz (marrón oscuro)\n  6. Resplandor (dorado)\n- Integración armoniosa de todos los elementos\n- Jerarquía visual clara\n- Punto focal central dominante\n\n**EXPRESIÓN EMOCIONAL:**\n- Dolor y sacrificio (corona, sangre)\n- Amor ardiente (llamas)\n- Divinidad (resplandor, cruz)\n- Compasión (corazón expuesto)\n- Entrega total (corazón abierto)\n\n---\n\n**PROMPT CONSOLIDADO PARA IA:**\n\n\"Detailed religious painting focusing on three elements: (1) HAIR: long auburn wavy hair to shoulders, center part, silky texture with golden highlights, soft waves flowing naturally, warm brown-red tones with copper reflections, luminous sheen on illuminated areas; (2) CLOTHING: white flowing mantle with ornate golden border featuring interlocking circle pattern, golden decorative clasp at neck, draped with soft folds and natural fabric movement, over crimson red inner robe with golden trim at cuffs and collar, rich velvet texture, deep red with purple shadows and bright red highlights; (3) SACRED HEART in artistic style: anatomically stylized heart in vibrant crimson red with gradient from dark red edges to bright red center, wrapped with dark brown crown of thorns with sharp spines, open wound with dark blood dripping in teardrop shapes, flames emerging from top in orange-yellow gradient with dynamic movement, dark wooden cross rising from flames, surrounded by golden-pink divine radiance with luminous rays, baroque religious art style, soft sfumato technique, symbolic and idealized representation, 19th century sacred art aesthetic, high detail, rich colors, devotional atmosphere\"",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "35a89234-5694-451e-ac03-8d0eba7f0eb8",
+      "usage": {
+       "input_tokens": 5073,
+       "output_tokens": 3775,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2484,
+        "text_tokens": 2589
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       },
+       "total_tokens": 8848,
+       "output_tokens_details": {
+        "reasoning_tokens": 258,
+        "text_tokens": 3517
+       },
+       "image_tokens": 2484
+      },
+      "timestamp": 1783181611
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1783181611.5778258
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1783181505
+   },
+   {
+    "id": "0bdb764a-34fd-4d54-bddc-69386c6f0fc4",
+    "role": "user",
+    "content": "*ahora transforma todos aspectos qje denotan epoca entigua al mas moderno equivaliente al que vestiria um un hombre de su grupo ahora en nuentra epoca. Los simbolos de corazones, actualizado slguna pegatinaz estampa o eed o bien mejor proyeccion tipo olograma que viene de qbajo. Lqs midmas podiciones de manos cabello pieinado hacia atras?lleno de gel*PROMPT DETALLADO - SAGRADO CORAZÓN DE JESÚS**\n\n**COMPOSICIÓN GENERAL:**\nRetrato religioso de medio cuerpo del Sagrado Corazón de Jesús, estilo pintura clásica europea del siglo XIX, composición frontal simétrica, iluminación divina cenital, atmósfera celestial y devocional.\n\n**ROSTRO Y CABEZA:**\n- Cabello castaño rojizo (auburn) largo hasta los hombros, ondulado y fluido, textura sedosa\n- Raya en medio del cabello, mechones cayendo naturalmente sobre los hombros\n- Ojos azul claro celeste, mirada serena elevada ligeramente hacia arriba y al costado\n- Expresión facial pacífica, compasiva, amorosa, divina\n- Piel pálida luminosa, tono porcelana con sutiles rosados\n- Barba y bigote rubio-castaño claro, bien definidos pero suaves\n- Rasgos faciales delicados, idealizados, nariz recta fina, labios cerrados suavemente\n- Cejas arqueadas delicadas color castaño claro\n\n**AUREOLA Y LUZ DIVINA:**\n- Halo dorado luminoso detrás de la cabeza\n- Resplandor celestial amarillo-dorado irradiando en forma de rayos\n- Luz difusa etérea que envuelve la figura\n- Gradiente de luz: centro brillante dorado que se desvanece hacia azul claro\n- Efecto de iluminación sobrenatural, divina\n\n**SAGRADO CORAZÓN (DETALLE CENTRAL):**\n- Corazón físico visible en el pecho, expuesto\n- Color rojo intenso brillante con tonos rosados y púrpuras\n- Corazón envuelto en corona de espinas marrón oscuro\n- Llama de fuego rojo-naranja emergiendo del centro superior del corazón\n- Cruz cristiana marrón oscuro/negra emergiendo de las llamas\n- Herida abierta en el corazón con sangre roja oscura goteando\n- Gotas de sangre visibles cayendo\n- Corazón rodeado de resplandor dorado-rosado luminoso\n- Detalle anatómico del corazón visible: ventrículos, aurículas\n- Simbolismo de amor divino, sacrificio y pasión\n\n**VESTIDURA EXTERIOR (MANTO BLANCO):**\n- Túnica/manto blanco puro sobre los hombros\n- Tela fluida, drapeada naturalmente con pliegues suaves\n- Borde decorativo dorado con patrón geométrico repetitivo\n- Broche/cierre dorado en el cuello con dos círculos ornamentales entrelazados\n- Detalles bordados dorados en el borde del manto\n- Textura de tela que sugiere lino o seda fina\n- Sombras grises suaves en los pliegues\n- Brillos blancos luminosos en las zonas iluminadas\n\n**VESTIDURA INTERIOR (TÚNICA ROJA):**\n- Túnica interior color rojo carmesí intenso\n- Visible en el pecho, torso y mangas\n- Mangas largas que cubren los brazos hasta las muñecas\n- Detalles dorados en puños y bordes\n- Tela que cae naturalmente con pliegues\n- Contraste vibrante con el manto blanco\n\n**MANOS Y ESTIGMAS:**\n- Ambas manos visibles en gesto de bendición y acogida\n- Mano derecha (izquierda del espectador): extendida hacia adelante, palma hacia arriba, dedos ligeramente curvados\n- Mano izquierda (derecha del espectador): elevada a la altura del pecho, palma semi-visible, dedos en gesto de bendición\n- Estigmas visibles: heridas rojas en ambas palmas (marca de los clavos)\n- Piel de las manos: tono natural claro, realista\n- Uñas cortas naturales\n- Anatomía detallada: venas sutiles, nudillos definidos\n- Dedos largos y elegantes\n- Sombras suaves bajo los dedos\n\n**BRAZOS:**\n- Brazos visibles desde los codos\n- Posición abierta, acogedora\n- Mangas de la túnica roja visibles\n\n**FONDO:**\n- Gradiente atmosférico: azul grisáceo claro en la parte superior\n- Transición a azul más oscuro hacia los bordes\n- Parte inferior: tonos azul marino oscuro, casi negro\n- Sin elementos definidos, fondo abstracto celestial\n- Efecto de profundidad atmosférica\n- Ambiente etéreo, sobrenatural\n\n**TÉCNICA PICTÓRICA:**\n- Estilo: Pintura al óleo clásica académica\n- Pinceladas suaves, difuminadas (sfumato)\n- Transiciones graduales de color\n- Realismo idealizado\n- Influencia del arte religioso del siglo XIX\n- Acabado brillante, pulido\n- Detalle minucioso en rostro y manos\n- Menos detalle en telas y fondo\n\n**PALETA DE COLORES:**\n- **Cálidos**: Dorado brillante, amarillo luz, rojo carmesí, rosa, castaño, marrón, naranja fuego\n- **Fríos**: Azul celeste, azul grisáceo, azul marino, blanco puro, gris perla\n- **Neutros**: Beige, crema, tonos piel\n- Contraste alto entre luces y sombras\n- Saturación media-alta en el corazón y túnica roja\n- Colores simbólicos: dorado (divinidad), rojo (pasión/sangre), blanco (pureza), azul (cielo)\n\n**ILUMINACIÓN:**\n- Fuente de luz principal: divina, cenital, sobrenatural\n- Iluminación dramática tipo claroscuro suave\n- Reflejos brillantes en: frente, nariz, manto blanco, corazón\n- Sombras suaves en: cuello, pliegues de tela, bajo las manos\n- Contraluz del halo dorado\n- El corazón emite su propia luz roja-dorada\n- Gradiente lumínico de arriba hacia abajo\n\n**SIMBOLOGÍA RELIGIOSA:**\n- Sagrado Corazón: amor divino de Jesús por la humanidad\n- Corona de espinas: sufrimiento y pasión\n- Cruz: sacrificio, redención\n- Llamas: amor ardiente, Espíritu Santo\n- Sangre: sacrificio, eucaristía\n- Estigmas: crucifixión, martirio\n- Halo: santidad, divinidad\n- Manos abiertas: acogida, bendición, invitación\n- Blanco: pureza, resurrección\n- Rojo: sangre, pasión, amor\n- Dorado: gloria divina, realeza celestial\n\n**ESTADO DE ÁNIMO/ATMÓSFERA:**\n- Devoción profunda\n- Serenidad celestial\n- Amor incondicional\n- Compasión divina\n- Paz espiritual\n- Sacralidad\n- Misterio divino\n- Calma sobrenatural\n\n**CALIDAD TÉCNICA:**\n- Alta resolución\n- Detalle fino en elementos principales\n- Texturas realistas: piel, tela, cabello\n- Profundidad de campo: figura nítida, fondo difuso\n- Composición equilibrada, centrada\n- Proporciones anatómicas correctas\n- Perspectiva frontal directa\n\n**CONTEXTO HISTÓRICO-ARTÍSTICO:**\n- Arte sacro católico\n- Iconografía del Sagrado Corazón\n- Tradición pictórica europea\n- Influencia del barroco y romanticismo religioso\n- Devoción popular del siglo XIX\n- Estilo similar a pinturas de altar\n\n**DETALLES ADICIONALES MÍNIMOS:**\n- Pequeñas arrugas de expresión suaves alrededor de los ojos\n- Brillo húmedo en los ojos\n- Sombra bajo la barba\n- Reflejos dorados en el cabello\n- Transparencia sutil en los bordes del manto\n- Textura de la corona de espinas: rugosa, con púas\n- Detalle de las gotas de sangre: forma de lágrima\n- Brillo metálico en el broche dorado\n- Patrón geométrico repetitivo en el borde dorado\n- Sombras proyectadas sutiles en el cuello\n- Gradiente de color en el corazón: rojo oscuro a rosa claro\n- Resplandor blanco en el centro del corazón\n- Dirección de la luz: coherente en todos los elementos\n- Equilibrio cromático cálido-frío\n- Armonía visual total\n\n---\n\n**PROMPT RESUMEN PARA IA:**\n\"Classical religious oil painting of Sacred Heart of Jesus, half-body portrait, serene face with long auburn wavy hair, light blue eyes, gentle beard, luminous pale skin, golden halo radiating divine light, visible sacred heart on chest glowing red with crown of thorns, cross emerging from flames, blood dripping, white flowing robe with golden trim and ornate clasp, red inner garment, both hands open showing stigmata wounds, soft blue-gray atmospheric background, 19th century academic style, soft brushwork, chiaroscuro lighting, devotional atmosphere, rich colors gold-red-white-blue, highly detailed, sacred art, celestial ambiance, divine compassion\"",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "35a89234-5694-451e-ac03-8d0eba7f0eb8",
+    "turn_id": null,
+    "childrenIds": [
+     "46903979-f975-45bc-98f7-4d4f2f9e1bb6"
+    ],
+    "files": [],
+    "timestamp": 1783181733
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "46903979-f975-45bc-98f7-4d4f2f9e1bb6",
+    "parentId": "0bdb764a-34fd-4d54-bddc-69386c6f0fc4",
+    "childrenIds": [
+     "a4b3edbd-52f2-4def-ac73-e707f1773c6d"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Reimagining the Sacred Heart of Jesus with contemporary attire",
+         "Visualizing a modern spiritual figure with contemporary urban elegance",
+         "Reimaginar con elegancia los símbolos ancestrales en un lenguaje visual contemporáneo"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am envisioning a modern interpretation where the figure wears clothing reflective of today’s cultural and social context, aligning with the identity and lifestyle of a spiritual leader in the present era.  \nThis transformation preserves the essence of reverence and compassion while grounding it in current aesthetics and symbolism.  \nThe result is a harmonious blend of timeless devotion and contemporary expression.",
+         "I am crafting an image of a serene yet stylish presence, blending casual streetwear with subtle spiritual symbolism through dynamic visual elements  \nThe heart motif is reimagined as a holographic projection rising from below, symbolizing inner light and connection  \nMy focus remains on the poised gestures of blessing and welcome, framed by a sleek, modern hairstyle that enhances the overall aura",
+         "Estoy concebiendo una figura moderna que honra la esencia de lealtad y liderazgo comunitario, representada por un joven urbano con estilo streetwear refinado y actitud auténtica  \nEl corazón holográfico se materializa como una proyección tridimensional que surge desde el pecho, envuelta en luces digitales pulsantes, efectos glitch sutiles y tonos neón que evocan vida tecnológica sin perder profundidad emocional  \nTodo está diseñado para mantener la carga simbólica original, ahora expresada a través de una estética futurista pero humana"
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "46903979-f975-45bc-98f7-4d4f2f9e1bb6",
+      "usage": {
+       "input_tokens": 10660,
+       "output_tokens": 358,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2484,
+        "text_tokens": 8176
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       },
+       "total_tokens": 11018,
+       "output_tokens_details": {
+        "reasoning_tokens": 346,
+        "text_tokens": 12
+       },
+       "image_tokens": 2484
+      },
+      "timestamp": 1783181748
+     },
+     {
+      "content": "Voy a generar la imagen modernizada con todos los elementos que describes:\n\n",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "46903979-f975-45bc-98f7-4d4f2f9e1bb6",
+      "usage": {
+       "input_tokens": 13780,
+       "output_tokens": 161,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 3994,
+        "text_tokens": 9786
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       },
+       "total_tokens": 13941,
+       "output_tokens_details": {
+        "reasoning_tokens": 160,
+        "text_tokens": 1
+       },
+       "image_tokens": 3994
+      },
+      "timestamp": 1783181748
+     },
+     {
+      "content": "",
+      "phase": "image_gen_tool",
+      "status": "finished",
+      "extra": {
+       "display_position": "answer",
+       "image_list": [
+        {
+         "image": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/image_gen/46903979-f975-45bc-98f7-4d4f2f9e1bb6/1783181788.png?key=[SECRETO_REDACTADO]"
+        }
+       ],
+       "tool_result": [
+        {
+         "image": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/6f0555c7-a7f9-42d0-8ab6-245c8f3c9290/16af7f544-020e-442d-816e-233214fe209b.png?key=[SECRETO_REDACTADO]"
+        }
+       ]
+      },
+      "role": "function",
+      "name": "image_gen",
+      "function_id": "round_0_call_06a4a9cb5ce349b5ac528a4b",
+      "function_call": {
+       "name": "image_gen",
+       "arguments": "{\"prompt\": \"Ultra-modern contemporary portrait of a young man representing a modern sacred heart figure, half-body shot, front-facing symmetrical composition. \\n\\n**FACE AND HAIR:**\\n- Hair slicked back with gel, wet look, dark brown with subtle reddish tones, undercut sides, voluminous on top, perfectly styled back\\n- Light blue eyes, serene gaze slightly elevated upward and to the side\\n- Peaceful, compassionate, loving expression\\n- Pale luminous skin with subtle rosy tones\\n- Well-groomed light brown-blonde beard and mustache, trimmed modern style\\n- Delicate facial features, straight nose, softly closed lips\\n- Arched light brown eyebrows\\n\\n**MODERN CLOTHING (contemporary urban streetwear equivalent of apostolic group):**\\n- Black oversized hoodie with white drawstrings, premium cotton fabric\\n- Underneath: white crew-neck t-shirt visible at neckline\\n- Silver chain necklace with small cross pendant\\n- Dark slim-fit jeans visible at waist\\n- Modern urban streetwear aesthetic, casual but dignified\\n- Hoodie has subtle geometric patterns on sleeves\\n- Fabric texture: soft cotton with natural folds\\n- Color palette: black, white, gray with subtle accents\\n\\n**HOLOGRAPHIC SACRED HEART PROJECTION (coming from below):**\\n- Holographic 3D projection emanating from below the chest area, projecting upward\\n- Digital hologram effect with scan lines, pixel glow, and light particles\\n- Heart shape formed by holographic light: neon red and pink glowing lines\\n- Crown of thorns represented as digital wireframe mesh in dark red holographic lines\\n- Flames depicted as animated holographic fire particles in orange-yellow neon\\n- Cross symbol as glowing holographic outline in golden light beams\\n- Blood drops shown as red holographic droplets with digital trail effects\\n- Hologram has slight glitch effects, transparency, and light refraction\\n- Projection base: circular holographic emitter at lower chest with blue-white light ring\\n- Hologram extends upward approximately 20cm from chest\\n- Digital particles floating around the hologram\\n- Neon glow effect: red, pink, orange, gold colors\\n- Futuristic cyberpunk-meets-sacred aesthetic\\n- Hologram appears semi-transparent with depth\\n\\n**HANDS AND STIGMATA:**\\n- Both hands visible in blessing and welcoming gesture\\n- Right hand (viewer's left): extended forward, palm up, fingers slightly curved\\n- Left hand (viewer's right): raised to chest height, palm semi-visible, blessing gesture\\n- Stigmata wounds: small red glowing marks on both palms (holographic red dots)\\n- Natural skin tone, realistic hands\\n- Short clean nails\\n- Detailed anatomy: subtle veins, defined knuckles\\n- Long elegant fingers\\n- Soft shadows under fingers\\n\\n**ARMS:**\\n- Arms visible from elbows\\n- Open, welcoming position\\n- Hoodie sleeves covering arms\\n\\n**HALO AND DIVINE LIGHT (modernized):**\\n- Holographic ring of light behind the head, circular neon glow\\n- Digital light rays emanating outward in golden-yellow holographic beams\\n- Ethereal diffuse light surrounding the figure\\n- Light gradient: bright golden center fading to soft blue\\n- Supernatural divine lighting effect with modern digital aesthetic\\n- Subtle lens flare effects\\n\\n**BACKGROUND:**\\n- Dark urban gradient: deep blue-gray at top\\n- Transition to darker navy blue toward edges\\n- Bottom: almost black with subtle digital grid pattern\\n- Abstract modern background with faint holographic particles\\n- Atmospheric depth effect\\n- Ethereal supernatural ambiance with contemporary feel\\n\\n**LIGHTING:**\\n- Main light source: divine holographic, from above and below (from heart projection)\\n- Dramatic soft chiaroscuro lighting\\n- Bright reflections on: forehead, nose, hoodie fabric, hologram\\n- Soft shadows on: neck, fabric folds, under hands\\n- Backlight from holographic halo ring\\n- Heart hologram emits its own red-golden light\\n- Light gradient from top to bottom with holographic accents\\n\\n**MOOD/ATMOSPHERE:**\\n- Deep devotion with modern aesthetic\\n- Celestial serenity\\n- Unconditional love\\n- Divine compassion\\n- Spiritual peace\\n- Sacredness\\n- Divine mystery\\n- Supernatural calm\\n- Contemporary urban spiritual vibe\\n\\n**TECHNICAL QUALITY:**\\n- High resolution, photorealistic\\n- Fine detail on face and hands\\n- Realistic textures: skin, fabric, hair\\n- Depth of field: sharp figure, soft background\\n- Balanced centered composition\\n- Correct anatomical proportions\\n- Direct frontal perspective\\n- Modern digital art style mixed with photorealism\\n- Cyberpunk-sacred fusion aesthetic\\n- Neon glow effects\\n- Holographic transparency and light refraction\\n- Color palette: black, white, neon red, pink, orange, gold, blue\\n\\n**SYMBOLISM:**\\n- Sacred Heart: divine love in modern digital form\\n- Crown of thorns: suffering represented as digital wireframe\\n- Cross: sacrifice as holographic light symbol\\n- Flames: ardent love as particle effects\\n- Blood: sacrifice as glowing digital droplets\\n- Stigmata: modern glowing marks\\n- Halo: holographic ring of light\\n- Open hands: welcome, blessing, invitation\\n- Black hoodie: modern humility\\n- White t-shirt: purity\\n- Gold accents: divine glory\\n\\nPhotorealistic modern portrait, contemporary sacred art, holographic projection effects, neon glow, urban spiritual aesthetic, high detail, cinematic lighting, 8k quality\"}"
+      },
+      "response_id": "46903979-f975-45bc-98f7-4d4f2f9e1bb6",
+      "usage": {}
+     },
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Visualizando la transformación solicitada con precisión y sensibilidad artística"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "Estoy imaginando una representación contemporánea del Sagrado Corazón de Jesús, integrando elementos modernos sin perder la esencia espiritual.  \nEl rostro refleja un joven de cabello castaño rojizo peinado hacia atrás con volumen natural, barba definida y ojos azules claros, vestido con una sudadera negra y camiseta blanca, acompañado de una cadena con cruz.  \nLa proyección holográfica del corazón late con luz suave, fusionando lo sagrado con lo tecnológico en una imagen que trasciende el tiempo."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "46903979-f975-45bc-98f7-4d4f2f9e1bb6",
+      "usage": {
+       "input_tokens": 13780,
+       "output_tokens": 260,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 3994,
+        "text_tokens": 9786
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       },
+       "total_tokens": 14040,
+       "output_tokens_details": {
+        "reasoning_tokens": 255,
+        "text_tokens": 5
+       },
+       "image_tokens": 3994
+      },
+      "timestamp": 1783181797
+     },
+     {
+      "content": "¡Imagen generada exitosamente! Aquí está la transformación moderna del Sagrado Corazón:\n\n## **RESULTADO - SAGRADO CORAZÓN CONTEMPORÁNEO**\n\nLa imagen muestra una reinterpretación moderna y futurista con los siguientes elementos transformados:\n\n### **PEINADO MODERNO**\n- Cabello castaño rojizo peinado hacia atrás con volumen\n- Efecto de gel/wet look en la parte superior\n- Laterales más cortos (undercut sutil)\n- Estilo urbano contemporáneo\n\n### **ROPA MODERNA (equivalente streetwear)**\n- **Hoodie negro oversized** con cordones blancos (reemplaza el manto blanco)\n- **Camiseta blanca** de cuello redondo visible (reemplaza la túnica roja interior)\n- **Cadena de plata** con pequeña cruz (detalle moderno)\n- **Jeans oscuros** slim-fit visibles en la cintura\n- Estética urbana casual pero digna\n\n### **CORAZÓN HOLOGRÁFICO (proyección desde abajo)**\n- **Proyección 3D holográfica** emergiendo desde la base del pecho\n- **Anillo emisor holográfico** en la parte inferior con luz azul-blanca\n- **Corazón en neón rojo-rosa** con líneas de luz brillantes\n- **Corona de espinas** en formato wireframe/malla digital oscura\n- **Llamas** como partículas holográficas naranja-amarillas animadas\n- **Cruz** como contorno holográfico dorado brillante\n- **Gotas de sangre** como gotas neón rojas con efectos digitales\n- **Efectos glitch** y partículas flotantes digitales\n- Transparencia y refracción de luz holográfica\n\n### **HALO MODERNIZADO**\n- **Anillo de luz holográfico** detrás de la cabeza\n- **Rayos de luz** en formato de haces dorados-azules\n- Efecto de lente flare moderno\n- Estética neón/cyberpunk\n\n### **MANOS Y ESTIGMAS**\n- Misma posición de bendición y acogida\n- **Estigmas como puntos rojos brillantes** en las palmas\n- Efecto de luz neón en las heridas\n\n### **FONDO**\n- Gradiente azul oscuro profundo\n- **Grid digital** sutil en la parte inferior (estética retro-futurista)\n- Partículas holográficas flotantes\n- Ambiente cyberpunk-sagrado\n\n### **ESTÉTICA GENERAL**\n- Fusión **cyberpunk + arte sacro**\n- Efectos de **luz neón** (rojo, rosa, naranja, dorado, azul)\n- **Proyección holográfica** como elemento central\n- Fotografía realista con efectos digitales\n- Calidad cinematográfica 8K\n\nLa imagen mantiene toda la simbología religiosa original pero traducida a un lenguaje visual contemporáneo con tecnología holográfica, neón y estética urbana moderna.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "46903979-f975-45bc-98f7-4d4f2f9e1bb6",
+      "usage": {
+       "input_tokens": 13780,
+       "output_tokens": 913,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 3994,
+        "text_tokens": 9786
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       },
+       "total_tokens": 14693,
+       "output_tokens_details": {
+        "reasoning_tokens": 255,
+        "text_tokens": 658
+       },
+       "image_tokens": 3994
+      },
+      "timestamp": 1783181813
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1783181813.6704538
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1783181733
+   },
+   {
+    "id": "a4b3edbd-52f2-4def-ac73-e707f1773c6d",
+    "role": "user",
+    "content": "Cabello largo la ropa tiene que ser moderna en estilo de diseño pro atemporal.aumrnts detalles coherentrs",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "46903979-f975-45bc-98f7-4d4f2f9e1bb6",
+    "turn_id": null,
+    "childrenIds": [
+     "79b344d7-30d5-407c-90ed-ca73d498687b"
+    ],
+    "files": [],
+    "timestamp": 1783184310
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "79b344d7-30d5-407c-90ed-ca73d498687b",
+    "parentId": "a4b3edbd-52f2-4def-ac73-e707f1773c6d",
+    "childrenIds": [
+     "64669822-bed1-4e5a-b110-f3ff1ac48b2e"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Reimagining the character with flowing locks and refined attire",
+         "Refine the visual concept with timeless elegance"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am envisioning a figure whose long hair cascades like a river of midnight, framing a face that speaks of quiet elegance.  \nHer modern ensemble is stitched with timeless grace—each line deliberate, each fabric chosen for its quiet sophistication.  \nThe look feels both current and eternal, as if fashion itself has paused to honor her presence.",
+         "I am reimagining the figure by preserving the flowing, long hair styled with modern precision using subtle grooming products to maintain a natural yet polished look.  \nThe attire is being transformed into a refined, high-end contemporary ensemble—featuring a sharply tailored coat from a renowned designer that exudes sophistication and enduring style.  \nEvery element is harmonized to evoke classic grace while reflecting current fashion sensibilities, ensuring coherence and depth in the overall aesthetic."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "79b344d7-30d5-407c-90ed-ca73d498687b",
+      "usage": {
+       "input_tokens": 13400,
+       "output_tokens": 191,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 3994,
+        "text_tokens": 9406
+       },
+       "prompt_tokens_details": {},
+       "total_tokens": 13591,
+       "output_tokens_details": {
+        "reasoning_tokens": 187,
+        "text_tokens": 4
+       },
+       "image_tokens": 3994
+      },
+      "timestamp": 1783184319
+     },
+     {
+      "content": "**PROMPT ACTUALIZADO - SAGRADO CORAZÓN CONTEMPORÁNEO TIMELESS**\n\n---\n\n## **COMPOSICIÓN GENERAL:**\nRetrato fotográfico de medio cuerpo, estilo contemporáneo de alta costura, composición frontal simétrica, iluminación cinematográfica dramática, atmósfera sagrada fusionada con estética moderna sofisticada.\n\n## **ROSTRO Y CABEZA:**\n\n**CABELLO LARGO MODERNO:**\n- Cabello castaño rojizo (auburn) largo hasta mitad del pecho\n- Longitud: 30-40 cm desde la coronilla\n- Estilo moderno: peinado hacia atrás con volumen en la parte superior\n- Producto fijador: efecto wet-look sutil con textura definida\n- Raya lateral discreta o ligeramente desplazada del centro\n- Mechones frontales peinados hacia atrás pero con movimiento natural\n- Laterales con ligero fade o degradado moderno (undercut discreto)\n- Capas largas que caen sobre los hombros y espalda\n- Textura: ondas suaves definidas con producto, no rizos\n- Brillo saludable con reflejos cobrizos y dorados\n- Raíces ligeramente más oscuras, puntas con mechas californianas sutiles\n- Aspecto cuidado, peinado profesionalmente\n- Algunos mechones sueltos intencionales para look natural\n- Volumen en la coronilla, aplastado en laterales\n\n**ROSTRO:**\n- Ojos azul claro celeste, mirada serena elevada 15 grados\n- Expresión: paz interior, compasión, fuerza tranquila\n- Piel tono claro luminoso con subtonos cálidos\n- Barba completa pero bien arreglada estilo moderno\n- Barba: longitud media (2-3 cm), contornos definidos\n- Bigote conectado a la barba, recortado con precisión\n- Cejas pobladas naturales color castaño\n- Rasgos faciales definidos: pómulos altos, mandíbula marcada\n- Labios naturales tono rosado, ligeramente entreabiertos\n- Piel con textura realista: poros visibles, sin exceso de retoque\n\n**HALO/AUREOLA MODERNA:**\n- Anillo de luz holográfico flotante detrás de la cabeza\n- Diámetro: 40-50 cm\n- Color: gradiente de blanco-azul eléctrico a dorado neón\n- Efecto: luz LED circular con rayos emanando radialmente\n- 12-16 rayos de luz dorada-azulada en patrón simétrico\n- Grosor del anillo: 3-4 cm\n- Brillo intenso con efecto lens flare cinematográfico\n- Transparencia: semi-transparente con núcleo brillante\n- Animación sutil sugerida: pulso de luz rítmico\n- Tecnología: apariencia de luz láser/fibra óptica\n\n## **VESTIMENTA MODERNA TIMELESS:**\n\n**CAPA EXTERIOR (REEMPLAZA MANTO BLANCO):**\n- Abrigo largo tipo trench coat o overcoat de diseño\n- Color: blanco hueso o crema marfil (equivalente al blanco puro)\n- Material: lana-cachemir de alta calidad o gabardina premium\n- Largo: hasta mitad del muslo (90-100 cm)\n- Corte: slim fit moderno, entallado en cintura\n- Solapas anchas estilo clásico contemporáneo (8-10 cm)\n- Cuello tipo solapa con muesca\n- Botones: doble botonadura o cruzado, botones ocultos\n- Cinturón del mismo tejido atado elegantemente a la cintura\n- Bolsillos con solapa visibles\n- Mangas largas con puños y hebillas decorativas\n- Forro interior: seda color champagne visible en aperturas\n- Caída natural con pliegues verticales elegantes\n- Textura: tejido premium con brillo sutil mate\n- Detalles: costuras visibles, acabados de alta costura\n- Marca: apariencia de diseñador de lujo (estilo minimalista)\n\n**PRENDA INTERIOR (REEMPLAZA TÚNICA ROJA):**\n- Camisa de vestir premium o polo de cuello alto\n- Color: rojo borgoña/vino tinto profundo (equivalente al carmesí)\n- Material: seda o algodón egipcio de lujo\n- Cuello: tipo mao/cuello alto moderno o camisa clásica abierta\n- Si es camisa: primeros 2-3 botones desabrochados\n- Si es polo: cuello alto ajustado estilo turtleneck moderno\n- Ajuste: slim fit, entallado al torso\n- Mangas largas visibles bajo el abrigo\n- Puños con botones decorativos\n- Textura: brillo sutil de seda o mate de algodón premium\n- Pliegues naturales en torso y mangas\n- Contraste vibrante: rojo intenso contra blanco hueso\n\n**DETALLES DE ACCESORIOS:**\n- Cadena de plata esterlina o platino visible en el cuello\n- Colgante: cruz minimalista moderna (3-4 cm)\n- Tipo de cadena: cable chain o box chain fina\n- Anillo simple en dedo anular derecho (opcional)\n- Reloj de pulsera minimalista en muñeca izquierda (opcional)\n- Sin otros accesorios visibles, estética limpia\n\n**PARTE INFERIOR:**\n- Pantalones de vestir slim fit o jeans oscuros premium\n- Color: negro carbón o azul marino oscuro\n- Material: lana fina o denim de alta calidad\n- Corte: moderno, entallado pero no ajustado\n- Cintura visible parcialmente\n- Zapatos: botas Chelsea negras o zapatos Oxford (si son visibles)\n\n## **CORAZÓN HOLOGRÁFICO PROYECTADO:**\n\n**SISTEMA DE PROYECCIÓN:**\n- Proyección holográfica 3D emergiendo desde el pecho\n- Base emisora: anillo holográfico flotante a 10 cm del pecho\n- Diámetro del anillo emisor: 20-25 cm\n- Color del anillo base: azul cian brillante con patrones digitales\n- Efecto: tecnología futurista tipo \"holodeck\" o AR avanzado\n- Partículas de luz ascendentes desde el anillo base\n- Líneas de escaneo verticales sutiles (efecto construcción holográfica)\n\n**CORAZÓN HOLOGRÁFICO:**\n**Forma y Estructura:**\n- Corazón anatómico estilizado en 3D holográfico\n- Tamaño: 25-30 cm de alto, 20 cm de ancho\n- Posición: centrado en el pecho, flotando 5-10 cm sobre la tela\n- Volumen tridimensional realista con profundidad\n- Rotación sutil sugerida (2-3 grados sobre eje vertical)\n\n**Color y Material Holográfico:**\n- Color base: rojo neón intenso (#FF0040)\n- Gradiente: rojo brillante en centro, magenta en bordes\n- Transparencia: 60-70% transparente con núcleo sólido\n- Brillo: emisión de luz propia, glow effect intenso\n- Textura: malla de luz/wireframe con relleno translúcido\n- Reflejos: especulares blancos en superficie curva\n- Efecto \"glassmorphism\": apariencia de cristal luminoso\n\n**Corona de Espinas Digital:**\n- Corona formada por líneas de luz oscura entrelazadas\n- Color: negro con borde rojo neón (#8B0000)\n- Estilo: wireframe 3D o malla poligonal baja\n- Espinas: 16-20 espinas puntiagudas distribuidas uniformemente\n- Longitud de espinas: 3-4 cm cada una\n- Dirección: radial hacia afuera\n- Integración: envuelve el corazón a 2/3 de altura\n- Efecto: partículas oscuras flotando desde la corona\n- Animación sugerida: leve rotación independiente\n\n**Llamas Holográficas:**\n- Llamas emergiendo del centro superior del corazón\n- Forma: partículas de fuego digital estilizadas\n- Color gradiente: rojo base → naranja medio → amarillo dorado puntas\n- Altura: 10-15 cm sobre el corazón\n- Número: 7-9 lenguas de fuego individuales\n- Efecto: sistema de partículas con movimiento ascendente\n- Transparencia: 50% transparente, bordes difusos\n- Brillo: emisión de luz cálida que ilumina alrededores\n- Trayectorias: curvas orgánicas con turbulencia\n- Chispas: partículas doradas pequeñas flotando hacia arriba\n\n**Cruz Digital:**\n- Cruz latina emergiendo del centro de las llamas\n- Tamaño: 12-15 cm de alto\n- Estilo: contorno de luz sólida o wireframe brillante\n- Color: dorado neón intenso (#FFD700)\n- Grosor de líneas: 5-8 mm\n- Brillo: intensidad máxima, bloom effect\n- Posición: vertical centrada, 5 cm sobre el corazón\n- Efecto: rayos de luz emanando de la cruz\n- Integración: parece flotar sobre las llamas\n\n**Herida y Sangre Digital:**\n- Herida: abertura brillante en centro del corazón\n- Forma: corte vertical de 6-8 cm\n- Color: rojo oscuro brillante con núcleo negro\n- Sangre: gotas holográficas cayendo\n- Color de gotas: rojo neón oscuro (#8B0000)\n- Número: 5-7 gotas principales en diferentes alturas\n- Forma: lágrimas alargadas de 2-4 cm\n- Efecto: gravedad simulada, movimiento descendente\n- Rastro: estela brillante detrás de cada gota\n- Destino: gotas se desvanecen antes de caer completamente\n- Brillo: cada gota emite luz roja sutil\n\n**Resplandor y Efectos:**\n- Aura circular alrededor del corazón completo\n- Diámetro total: 40-45 cm incluyendo efectos\n- Color: gradiente rosa-magenta-dorado\n- Intensidad: máxima cerca del corazón, fade hacia bordes\n- Rayos de luz: 12-16 rayos emanando radialmente\n- Longitud de rayos: 15-20 cm\n- Color de rayos: dorado-rosa semitransparente\n- Partículas flotantes: 20-30 partículas de luz dispersas\n- Tamaño de partículas: 2-5 mm\n- Movimiento: flotación lenta aleatoria\n- Efecto glitch: distorsión digital sutil intermitente\n- Líneas de datos: trazos horizontales finos tipo \"scan lines\"\n- Códigos binarios: números/símbolos flotantes sutiles (opcional)\n\n**Anillo Base de Proyección:**\n- Plataforma circular holográfica flotante\n- Posición: 15-20 cm debajo del corazón\n- Diámetro: 30 cm\n- Color: azul cian eléctrico (#00FFFF)\n- Patrón: círculos concéntricos con segmentos digitales\n- Efecto: interfaz tipo \"Iron Man\" o HUD futurista\n- Rotación: giro lento antihorario sugerido\n- Símbolos: iconos geométricos o runas digitales en el borde\n- Luz: proyección ascendente desde el anillo\n- Haz de luz: columnas verticales de luz azul conectando anillo con corazón\n\n## **MANOS Y ESTIGMAS MODERNOS:**\n\n**POSICIÓN DE MANOS:**\n- Misma pose clásica de bendición y acogida\n- Mano derecha (izquierda del espectador):\n  - Extendida hacia adelante a la altura del pecho\n  - Palma hacia arriba en gesto de ofrenda\n  - Dedos ligeramente curvados, relajados\n  - Ángulo: 45 grados desde el cuerpo\n  \n- Mano izquierda (derecha del espectador):\n  - Elevada a la altura del hombro\n  - Palma semi-visible, dedos extendidos\n  - Gesto de bendición: índice y medio extendidos\n  - Pulgar cruzando anular y meñique\n\n**ESTIGMAS DIGITALES:**\n- Marcas en palmas: puntos de luz roja neón brillante\n- Tamaño: 1.5-2 cm de diámetro\n- Color: rojo intenso (#FF0000) con glow effect\n- Forma: círculo perfecto o cruz pequeña\n- Intensidad: brillo pulsante sutil (animación sugerida)\n- Efecto: rayos de luz emanando de cada estigma\n- Longitud de rayos: 3-4 cm\n- Número de rayos: 4-6 por estigma\n- Ubicación: centro exacto de cada palma\n\n**DETALLES DE MANOS:**\n- Piel: tono natural claro con textura realista\n- Uñas: cortas, limpias, sin esmalte\n- Venas: sutiles visibles en dorso de manos\n- Anatomía: dedos largos proporcionados, nudillos definidos\n- Sombras: proyección de luz holográfica sobre manos\n- Reflexión: luz roja del corazón reflejada en piel\n\n## **BRAZOS:**\n- Brazos visibles desde codos hacia abajo\n- Mangas del abrigo blanco visibles\n- Puños de camisa roja asomando 2-3 cm\n- Postura: abierta, acogedora, simétrica\n- Tensión muscular: relajada pero presente\n\n## **FONDO:**\n\n**COMPOSICIÓN:**\n- Gradiente atmosférico profundo\n- Parte superior: azul marino oscuro (#1a237e)\n- Centro: azul eléctrico medio (#0d47a1)\n- Parte inferior: azul casi negro (#0a1628)\n\n**ELEMENTOS DIGITALES:**\n- Grid digital sutil en tercio inferior\n- Líneas de perspectiva: patrón isométrico\n- Color de grid: azul cian muy sutil (#00ffff, 10% opacidad)\n- Tamaño de celdas: 5-10 cm en perspectiva\n- Efecto: suelo virtual tipo \"tron\" o realidad virtual\n\n**PARTÍCULAS Y EFECTOS:**\n- Partículas de luz flotantes dispersas\n- Número: 30-50 partículas\n- Tamaño: 1-8 mm\n- Color: dorado, azul, blanco\n- Movimiento: flotación lenta aleatoria\n- Profundidad: diferentes planos (algunas desenfocadas)\n\n**LUMINOSIDAD:**\n- Viñeteado suave en bordes (oscurecimiento 20%)\n- Brillo central enfocado en la figura\n- Nebulosa digital: nubes de luz difusa azul-rosa\n- Profundidad de campo: fondo ligeramente desenfocado\n\n## **ILUMINACIÓN GENERAL:**\n\n**FUENTES DE LUZ:**\n1. **Luz principal cenital**: blanca fría (5600K), intensidad media-alta\n2. **Luz del corazón**: roja-dorada, emisión propia, intensidad alta\n3. **Luz del halo**: dorado-azul, contraluz, intensidad media\n4. **Luz de relleno**: azul suave desde abajo, intensidad baja\n5. **Rim light**: blanca desde atrás, separa figura del fondo\n\n**EFECTOS DE ILUMINACIÓN:**\n- Reflejos especulares en: frente, nariz, pómulos, cabello\n- Luz del corazón ilumina: barbilla, cuello, manos, pecho\n- Sombras suaves en: lado derecho del rostro, pliegues de ropa\n- Color bleeding: luz roja del corazón se refleja en tela blanca\n- Bloom effect: en fuentes de luz intensa (corazón, halo, estigmas)\n- Lens flare: destellos de lente en luces brillantes\n- God rays: haces de luz volumétrica desde el halo\n\n## **ESTILO Y TÉCNICA:**\n\n**ESTÉTICA VISUAL:**\n- Fotografía digital de alta gama\n- Estilo: fusión cyberpunk-sacro, futurismo devocional\n- Influencias: arte sacro clásico + diseño sci-fi moderno\n- Referencias visuales: Blade Runner 2049, arte conceptual de videojuegos AAA\n\n**CALIDAD TÉCNICA:**\n- Resolución: 8K ultra HD (7680x4320)\n- Profundidad de color: 16-bit\n- Formato: proporción 3:4 o 9:16 (vertical)\n- Enfoque: nítido en rostro y corazón, ligero bokeh en fondo\n- Ruido: mínimo, aspecto limpio digital\n- HDR: alto rango dinámico, detalles en sombras y luces\n\n**POST-PRODUCCIÓN:**\n- Color grading: tonos fríos dominantes con acentos cálidos\n- Contraste: alto pero equilibrado\n- Saturación: media-alta en elementos clave (corazón, halo)\n- Claridad: alta en detalles principales\n- Efectos digitales: holograma, partículas, glow, bloom\n\n## **PALETA DE COLORES:**\n\n**COLORES PRIMARIOS:**\n- **Blanco hueso/marfil**: #F5F5DC (abrigo)\n- **Rojo borgoña**: #800020 (camisa interior)\n- **Rojo neón corazón**: #FF0040 (holograma principal)\n- **Azul marino**: #1a237e (fondo superior)\n- **Dorado neón**: #FFD700 (cruz, halo, rayos)\n\n**COLORES SECUNDARIOS:**\n- **Azul cian**: #00FFFF (anillo base, grid)\n- **Magenta**: #FF00FF (reflejos corazón)\n- **Naranja fuego**: #FF6600 (llamas)\n- **Castño rojizo**: #A0522D (cabello)\n- **Negro digital**: #0a0a0a (corona, sombras profundas)\n\n**COLORES DE ACENTO:**\n- **Rosa neón**: #FF69B4 (resplandor corazón)\n- **Amarillo brillante**: #FFFF00 (puntas de llamas)\n- **Púrpura**: #800080 (sombras corazón)\n- **Plata**: #C0C0C0 (cadena, accesorios)\n\n**TEMPERATURA DE COLOR:**\n- Dominante: fría (azules 60%)\n- Acentos: cálidos (rojos/dorados 40%)\n- Contraste térmico: alto (frío vs cálido)\n\n## **SIMBOLOGÍA ACTUALIZADA:**\n\n**ELEMENTOS TRADICIONALES → VERSIÓN MODERNA:**\n- Manto blanco → Abrigo designer blanco (pureza, elegancia atemporal)\n- Túnica roja → Camisa roja premium (pasión, amor intenso)\n- Corona de espinas → Corona digital wireframe (sufrimiento moderno, tecnología)\n- Llamas físicas → Partículas de fuego holográfico (amor ardiente digital)\n- Sangre física → Gotas de luz roja neón (sacrificio virtual)\n- Halo dorado → Anillo de luz LED/láser (divinidad tecnológica)\n- Estigmas físicos → Puntos de luz neón (marcas digitales sagradas)\n- Corazón físico → Proyección holográfica 3D (amor trascendente)\n\n**SIGNIFICADO CONTEMPORÁNEO:**\n- Fusión de espiritualidad y tecnología\n- Amor divino en la era digital\n- Sacrificio y compasión en mundo moderno\n- Fe adaptada al siglo XXI\n- Sagrado en contexto urbano-contemporáneo\n\n## **ESTADO DE ÁNIMO/ATMÓSFERA:**\n\n**EMOCIONES TRANSMITIDAS:**\n- Serenidad tecnológica\n- Compasión futurista\n- Amor incondicional digital\n- Paz interior con estética moderna\n- Misterio sagrado contemporáneo\n- Esperanza en la era digital\n- Fuerza tranquila\n- Conexión divino-humano-tecnológica\n\n**AMBIENTE:**\n- Cyberpunk espiritual\n- Futurismo devocional\n- Minimalismo sagrado\n- Elegancia atemporal\n- Sofisticación moderna\n- Misticismo digital\n\n## **DETALLES ADICIONALES COHERENTES:**\n\n**COHERENCIA VISUAL:**\n- Todos los elementos holográficos usan misma paleta de luz\n- Reflejos de luz coherentes en todas las superficies\n- Sombras proyectadas consistentes con fuentes de luz\n- Perspectiva y escala proporcionales\n- Estilo unificado: realismo fotográfico + efectos digitales\n\n**DETALLES DE TEXTURA:**\n- Cabello: hebras individuales visibles, brillo especular\n- Piel: poros, textura realista, sub-surface scattering\n- Tela abrigo: tejido de lana visible, fibras sutiles\n- Tela camisa: brillo de seda, pliegues naturales\n- Holograma: malla digital, transparencia, glow\n- Partículas: desenfoque de movimiento sutil\n\n**DETALLES DE ILUMINACIÓN AVANZADA:**\n- Sub-surface scattering en piel (translucidez)\n- Reflexiones especulares en cabello (strand-based)\n- Iluminación global (GI) en escena\n- Oclusión ambiental en pliegues de ropa\n- Volumetric lighting en rayos de luz\n- Chromatic aberration sutil en bordes de luz\n\n**DETALLES DE COMPOSICIÓN:**\n- Regla de tercios: rostro en tercio superior\n- Punto focal: corazón holográfico (centro visual)\n- Líneas guía: brazos forman triángulo sagrado\n- Balance simétrico con variaciones sutiles\n- Espacio negativo equilibrado\n- Profundidad en capas (fondo, figura, holograma, primer plano)\n\n**DETALLES DE EXPRESIÓN:**\n- Micro-expresiones faciales sutiles\n- Arrugas de expresión suaves (frente, ojos)\n- Tensión muscular relajada pero presente\n- Respiración sugerida (pecho ligeramente expandido)\n- Vida en la mirada (brillo en ojos)\n\n**DETALLES DE MOVIMIENTO SUGERIDO:**\n- Cabello: ligero movimiento por brisa sutil\n- Llamas: animación ascendente congelada\n- Partículas: trayectoria de flotación\n- Luz del halo: pulso rítmico\n- Gota de sangre: caída en progreso\n- Rotación de anillo base: giro lento\n\n---\n\n**PROMPT FINAL RESUMEN PARA IA (INGLÉS):**\n\n\"Ultra-realistic contemporary photography of modern Sacred Heart figure, half-body portrait, young man with long auburn hair 30-40cm styled back with wet-look gel product, modern undercut sides, beard groomed, light blue eyes serene expression looking upward. Wearing timeless designer white ivory wool overcoat trench coat belted at waist, deep burgundy red silk shirt underneath, minimalist silver cross necklace. HOLOGRAPHIC SACRED HEART: 3D hologram projection emerging from chest, glowing neon red anatomical heart with wireframe dark crown of thorns, holographic flames in orange-yellow particles rising upward, golden digital cross emerging from flames, neon red blood drops falling, cyan blue holographic emitter ring at base projecting upward, glowing particles and digital glitch effects, pink-magenta-gold radiance aura. NEON HALO: circular LED light ring behind head with golden-blue light rays emanating, lens flare effect. HANDS: open blessing pose, glowing red stigmata light points on palms. BACKGROUND: deep blue gradient with subtle digital grid pattern, floating light particles, cyberpunk spiritual atmosphere. LIGHTING: cinematic dramatic, volumetric god rays, bloom effects, neon glow, rim lighting. STYLE: fusion of sacred art and cyberpunk futurism, high fashion timeless design, 8K resolution, photorealistic with digital holographic effects, color grading cool tones with warm neon accents, devotional atmosphere meets modern technology, sophisticated elegant aesthetic, divine compassion in digital age\"\n\n**PROMPT EN ESPAÑOL (RESUMEN):**\n\n\"Fotografía ultra-realista contemporánea de figura moderna del Sagrado Corazón, retrato medio cuerpo, hombre joven con cabello largo castaño rojizo 30-40cm peinado hacia atrás con efecto gel, laterales degradados modernos, barba arreglada, ojos azul claro expresión serena mirando hacia arriba. Vistiendo atemporal abrigo designer blanco marfil lana entallado con cinturón, camisa seda roja borgoña profunda debajo, cadena plata minimalista con cruz. CORAZÓN HOLOGRÁFICO: proyección 3D holograma emergiendo del pecho, corazón anatómico neón rojo brillante con corona de espinas wireframe oscura, llamas holográficas partículas naranja-amarillo ascendentes, cruz digital dorada emergiendo de llamas, gotas sangre neón rojo cayendo, anillo emisor holográfico azul cian en base proyectando hacia arriba, partículas brillantes y efectos glitch digital, aura resplandor rosa-magenta-dorado. HALO NEÓN: anillo luz LED circular detrás cabeza con rayos luz dorado-azul emanando, efecto lens flare. MANOS: pose bendición abiertas, puntos luz estigmas rojos brillantes en palmas. FONDO: gradiente azul profundo con patrón grid digital sutil, partículas luz flotantes, atmósfera cyberpunk espiritual. ILUMINACIÓN: cinematográfica dramática, rayos volumétricos, efectos bloom, glow neón, luz de borde. ESTILO: fusión arte sacro y futurismo cyberpunk, diseño atemporal alta costura, resolución 8K, fotorrealista con efectos holográficos digitales, color grading tonos fríos con acentos neón cálidos, atmósfera devocional encuentra tecnología moderna, estética sofisticada elegante, compasión divina en era digital\"",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "79b344d7-30d5-407c-90ed-ca73d498687b",
+      "usage": {
+       "input_tokens": 13400,
+       "output_tokens": 5916,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 3994,
+        "text_tokens": 9406
+       },
+       "prompt_tokens_details": {},
+       "total_tokens": 19316,
+       "output_tokens_details": {
+        "reasoning_tokens": 187,
+        "text_tokens": 5729
+       },
+       "image_tokens": 3994
+      },
+      "timestamp": 1783184422
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1783184423.1173685
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1783184310
+   },
+   {
+    "id": "64669822-bed1-4e5a-b110-f3ff1ac48b2e",
+    "role": "user",
+    "content": "Ahora esto son los elementos crea elmprompt de la escena el texto continuo. English",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "79b344d7-30d5-407c-90ed-ca73d498687b",
+    "turn_id": null,
+    "childrenIds": [
+     "33c2b012-20c2-403f-82cd-1fff29f04133"
+    ],
+    "files": [],
+    "timestamp": 1783184485
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "33c2b012-20c2-403f-82cd-1fff29f04133",
+    "parentId": "64669822-bed1-4e5a-b110-f3ff1ac48b2e",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Crafting a seamless narrative from layered details",
+         "Visualizing the modernized Sacred Heart embodiment"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am synthesizing interconnected elements into a unified, fluid expression that captures depth and continuity.  \nEach component is woven with intention, ensuring coherence and resonance throughout.  \nThe result emerges as a natural, immersive flow shaped by precision and purpose.",
+         "I am crafting a serene yet futuristic image of sacred presence, where long hair is elegantly swept back with a glossy finish, framing a face illuminated by inner light. A white overcoat drapes with timeless grace over a burgundy shirt, grounding the figure in quiet dignity, while a holographic heart pulses from below, casting ethereal glow across the scene. A neon halo hovers above, its radiant ring humming with subtle energy, and delicate stigmata appear as glowing points along both hands, mirroring ancient devotion through modern luminosity. Every element harmonizes—form, light, and symbolism—converging into a single moment of transcendent stillness."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "33c2b012-20c2-403f-82cd-1fff29f04133",
+      "usage": {
+       "input_tokens": 19157,
+       "output_tokens": 146,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 3994,
+        "text_tokens": 15163
+       },
+       "prompt_tokens_details": {},
+       "total_tokens": 19303,
+       "output_tokens_details": {
+        "reasoning_tokens": 141,
+        "text_tokens": 5
+       },
+       "image_tokens": 3994
+      },
+      "timestamp": 1783184496
+     },
+     {
+      "content": "**CONTINUOUS PROMPT:**\n\nUltra-realistic contemporary photographic portrait of a modern Sacred Heart figure, half-body composition, young man with long auburn hair extending 30-40cm to mid-chest, styled back with wet-look gel product creating defined texture and volume on top, subtle side part, modern undercut fade on sides, layered lengths flowing over shoulders, soft defined waves with healthy shine and copper-gold highlights, slightly darker roots with subtle balayage on ends, professionally groomed appearance with intentional loose strands for natural look, volume at crown, flattened sides. Face features light blue celestial eyes with serene expression elevated 15 degrees upward, expression showing inner peace and compassion and quiet strength, luminous fair skin with warm undertones, full well-groomed modern beard 2-3cm length with defined contours, connected mustache precisely trimmed, natural full brown eyebrows, defined facial features with high cheekbones and marked jawline, natural pink lips slightly parted, realistic skin texture with visible pores without excessive retouching. Wearing timeless designer white ivory wool-cashmere overcoat trench coat 90-100cm length to mid-thigh, slim fit modern cut tailored at waist, wide classic contemporary lapels 8-10cm, notch lapel collar, double-breasted or crossed style with hidden buttons, matching fabric belt tied elegantly at waist, flap pockets visible, long sleeves with decorative cuffs and buckles, champagne silk lining visible in openings, natural fall with elegant vertical pleats, premium fabric texture with subtle matte shine, visible stitching and haute couture finishes, minimalist luxury designer appearance. Deep burgundy wine red premium silk or Egyptian cotton shirt underneath, Mandarin collar or classic shirt open with first 2-3 buttons unbuttoned, slim fit tailored to torso, long sleeves visible under coat, decorative cuff buttons, subtle silk shine or premium cotton matte texture, natural pleats on torso and sleeves, vibrant contrast intense red against ivory white. Sterling silver or platinum chain necklace visible at neck, minimalist modern cross pendant 3-4cm, cable chain or fine box chain type, simple ring on right ring finger optional, minimalist wristwatch on left wrist optional, clean aesthetic without other accessories. Dark charcoal black or navy blue premium slim fit dress pants or high-quality denim, fine wool or high-quality denim material, modern tailored but not tight cut, waist partially visible, black Chelsea boots or Oxford shoes if visible. HOLOGRAPHIC SACRED HEART PROJECTION: Three-dimensional hologram emerging from chest, base emitter holographic ring floating 10cm from chest 20-25cm diameter, cyan blue bright ring with digital patterns, futuristic holodeck or advanced AR technology appearance, ascending light particles from base ring, subtle vertical scan lines showing holographic construction effect. Anatomical stylized heart in 3D hologram 25-30cm high 20cm wide, centered on chest floating 5-10cm above fabric, realistic three-dimensional volume with depth, subtle rotation suggested 2-3 degrees on vertical axis. Intense neon red base color #FF0040, gradient bright red center to magenta edges, 60-70% transparent with solid nucleus, own light emission intense glow effect, wireframe mesh light with translucent fill, specular white reflections on curved surface, glassmorphism appearance like luminous crystal. Dark light wireframe crown formed by intertwined lines, black with neon red edge #8B0000, 3D wireframe or low polygon mesh style, 16-20 sharp spines uniformly distributed, 3-4cm length each spine, radial direction outward, integration wraps heart at 2/3 height, dark floating particles from crown, subtle independent rotation suggested. Flames emerging from upper center of heart, stylized digital fire particles, gradient red base to orange middle to golden yellow tips, 10-15cm height above heart, 7-9 individual flame tongues, upward movement particle system, 50% transparent diffuse edges, warm light emission illuminating surroundings, organic curved trajectories with turbulence, small golden sparks floating upward. Latin cross emerging from center of flames, 12-15cm high, solid light contour or bright wireframe style, intense neon gold #FFD700, 5-8mm line thickness, maximum intensity bloom effect, vertical position centered 5cm above heart, light rays emanating from cross, appears floating over flames. Shining opening in heart center, 6-8cm vertical cut, dark red shine with black nucleus, holographic falling drops, dark neon red drops #8B0000, 5-7 main drops at different heights, 2-4cm elongated teardrop shape, simulated gravity descending movement, bright trail behind each drop, drops fade before falling completely, each drop emits subtle red light. Circular aura around complete heart, 40-45cm total diameter including effects, pink-magenta-gold gradient, maximum intensity near heart fading to edges, 12-16 rays emanating radially, 15-20cm ray length, semi-transparent gold-pink color, 20-30 scattered light particles, 2-5mm particle size, slow random floating movement, subtle intermittent digital glitch distortion, thin horizontal scan lines, subtle floating numbers/symbols optional. Circular holographic platform floating, position 15-20cm below heart, 30cm diameter, electric cyan blue #00FFFF, concentric circles with digital segments, Iron Man or futuristic HUD interface type, slow counterclockwise rotation suggested, geometric icons or digital runes on edge, upward projection from ring, vertical blue light columns connecting ring to heart. NEON HALO: Circular LED light ring floating behind head, 40-50cm diameter, white-blue electric to neon gold gradient, LED circular light with radially emanating rays, 12-16 golden-blue light rays in symmetrical pattern, 3-4cm ring thickness, intense shine with cinematographic lens flare effect, semi-transparent with bright nucleus, subtle rhythmic light pulse animation suggested, laser or fiber optic light appearance. HANDS AND STIGMATA: Same classical blessing and welcoming pose, right hand extended forward at chest height, palm up in offering gesture, fingers slightly curved relaxed, 45-degree angle from body, left hand elevated at shoulder height, semi-visible palm extended fingers, blessing gesture index and middle fingers extended, thumb crossing ring and pinky fingers. Palm marks bright neon red light points, 1.5-2cm diameter, intense red #FF0000 with glow effect, perfect circle or small cross shape, subtle pulsing shine animation suggested, light rays emanating from each stigma, 3-4cm ray length, 4-6 rays per stigma, exact center of each palm. Natural fair skin tone with realistic texture, short clean nails without polish, subtle veins visible on hand back, long proportioned fingers defined knuckles, holographic light projection shadows on hands, red heart light reflection on skin. Arms visible from elbows down, white coat sleeves visible, red shirt cuffs showing 2-3cm, open welcoming symmetrical posture, relaxed but present muscle tension. BACKGROUND: Deep atmospheric gradient, navy blue dark #1a237e upper part, medium electric blue #0d47a1 center, almost black blue #0a1628 lower part. Subtle digital grid in lower third, isometric perspective lines, very subtle cyan grid #00ffff 10% opacity, 5-10cm cell size in perspective, virtual tron or virtual reality floor effect. 30-50 floating light particles scattered, 1-8mm size, gold blue white colors, slow random floating movement, different planes some defocused. Soft vignetting on edges 20% darkening, central brightness focused on figure, blue-pink diffuse light nebula clouds, slightly defocused background depth of field. LIGHTING: Cinematic dramatic lighting, white cold 5600K main cenital light medium-high intensity, red-gold heart own emission high intensity, golden-blue halo backlight medium intensity, soft blue fill light from below low intensity, white rim light from behind separating figure from background. Specular reflections on forehead nose cheekbones hair, heart light illuminates chin neck hands chest, soft shadows on right side of face clothing pleats, red heart light bleeding on white fabric, bloom effect on intense light sources heart halo stigmata, lens flare on bright lights, volumetric god rays from halo. STYLE AND TECHNIQUE: Ultra-high-end digital photography, cyberpunk-sacred fusion style futuristic devotionalism, classical sacred art plus modern sci-fi design influences, Blade Runner 2049 AAA video game conceptual art references. 8K ultra HD resolution 7680x4320, 16-bit color depth, 3:4 or 9:16 vertical proportion, sharp focus on face and heart slight bokeh on background, minimal clean digital appearance, HDR high dynamic range details in shadows and lights. Cool dominant tones with warm accents color grading, high but balanced contrast, medium-high saturation on key elements heart halo, high clarity on main details, digital effects hologram particles glow bloom. COLOR PALETTE: Ivory white #F5F5DC coat, burgundy red #800020 inner shirt, neon red heart #FF0040 main hologram, navy blue #1a237e upper background, neon gold #FFD700 cross halo rays, cyan blue #00FFFF base ring grid, magenta #FF00FF heart reflections, fire orange #FF6600 flames, auburn brown #A0522D hair, digital black #0a0a0a crown deep shadows, neon pink #FF69B4 heart glow, bright yellow #FFFF00 flame tips, purple #800080 heart shadows, silver #C0C0C0 chain accessories. 60% cool dominant blues, 40% warm red-gold accents, high thermal contrast cool versus warm. SYMBOLISM: White designer coat purity timeless elegance, red premium shirt passion intense love, wireframe digital crown modern suffering technology, holographic fire particles burning love digital, neon red light drops virtual sacrifice, LED laser light ring technological divinity, neon light points digital sacred marks, 3D hologram projection transcendent love. Contemporary meaning fusion of spirituality and technology, divine love in digital age, sacrifice and compassion in modern world, faith adapted to 21st century, sacred in urban-contemporary context. MOOD ATMOSPHERE: Technological serenity, futuristic compassion, unconditional digital love, inner peace with modern aesthetics, contemporary sacred mystery, hope in digital age, quiet strength, divine-human-technological connection. Cyberpunk spiritual, futuristic devotionalism, sacred minimalism, timeless elegance, modern sophistication, digital mysticism. COHERENT DETAILS: All holographic elements use same light palette, coherent light reflections on all surfaces, consistent shadows with light sources, proportional perspective and scale, unified style photorealism plus digital effects. Individual visible hair strands specular shine, realistic skin texture sub-surface scattering, visible wool fabric subtle fibers, silk shine natural pleats, digital mesh transparency glow, subtle motion blur particles. Sub-surface scattering on skin translucency, strand-based hair specular reflections, global illumination in scene, ambient occlusion in clothing pleats, volumetric lighting in light rays, subtle chromatic aberration on light edges. Rule of thirds face in upper third, holographic heart focal point visual center, arms form sacred triangle guide lines, symmetrical balance with subtle variations, balanced negative space, depth in layers background figure hologram foreground. Subtle facial micro-expressions, soft expression wrinkles forehead eyes, relaxed but present muscle tension, suggested breathing chest slightly expanded, life in gaze eyes shine. Subtle breeze hair movement, frozen ascending flame animation, floating particle trajectory, halo light rhythmic pulse, blood drop fall in progress, base ring slow rotation. Ultra-detailed coherent contemporary sacred heart portrait, photorealistic with advanced holographic digital effects, cinematic quality 8K resolution, timeless fashion design meets cyberpunk futurism, devotional atmosphere meets modern technology, sophisticated elegant aesthetic, divine compassion in digital age.\"",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "33c2b012-20c2-403f-82cd-1fff29f04133",
+      "usage": {
+       "input_tokens": 19157,
+       "output_tokens": 2711,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 3994,
+        "text_tokens": 15163
+       },
+       "prompt_tokens_details": {},
+       "total_tokens": 21868,
+       "output_tokens_details": {
+        "reasoning_tokens": 141,
+        "text_tokens": 2570
+       },
+       "image_tokens": 3994
+      },
+      "timestamp": 1783184541
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1783184541.6460803
+    },
+    "feedbackId": "90714759-3dac-4e9a-a443-a6815aa98f92",
+    "turn_id": null,
+    "annotation": {
+     "rating": 1,
+     "comment": null,
+     "reason": null
+    },
+    "done": true,
+    "info": null,
+    "timestamp": 1783184485
+   }
+  ]
+ },
+ "updated_at": 1783184487,
+ "created_at": 1783181452,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1783181449570
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "33c2b012-20c2-403f-82cd-1fff29f04133"
+ ],
+ "currentId": "33c2b012-20c2-403f-82cd-1fff29f04133",
+ "chat_type": "t2t",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

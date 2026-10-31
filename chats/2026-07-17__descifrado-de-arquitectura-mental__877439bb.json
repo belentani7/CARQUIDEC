@@ -1,0 +1,1728 @@
+{
+ "id": "877439bb-57ba-40f8-866d-5dfe55ecaa1d",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Descifrado de Arquitectura Mental",
+ "chat": {
+  "history": {
+   "messages": {
+    "6e4bd057-18a8-401a-b23e-b411ae4ee632": {
+     "id": "6e4bd057-18a8-401a-b23e-b411ae4ee632",
+     "role": "user",
+     "content": "Toda tu estructura está basada en esto es solamente un ejercicio un poco más difícil como si fuera el bachillerato tú lo que vas a hacer es transcribir este eh prompt y la parte que te falta la vas a descubrir con el mismo proceso que has hecho el aprendizaje que han hecho el entrenamiento de tu modelo y cómo sabrás qué has eh he encontrado el restante de la de la arquitectura de la idea pues cuando el resultado de ella misma en tu simulación sea el más exitoso para mí",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "25d3e39e-9375-44a6-bcf4-6168593de22c"
+     ],
+     "files": [
+      {
+       "id": "9ec96074-7982-4687-a622-c52f024fd913",
+       "name": "Screenshot_20260714_124954_com.instagram.android.jpg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 725162,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/9ec96074-7982-4687-a622-c52f024fd913_Screenshot_20260714_124954_com.instagram.android.jpg?key=[SECRETO_REDACTADO]",
+       "file": {
+        "created_at": 1784026240328,
+        "data": {},
+        "filename": "Screenshot_20260714_124954_com.instagram.android.jpg",
+        "hash": null,
+        "id": "9ec96074-7982-4687-a622-c52f024fd913",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "Screenshot_20260714_124954_com.instagram.android.jpg",
+         "size": 725162,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1784026240328,
+        "lastModified": 1784026194130,
+        "name": "Screenshot_20260714_124954_com.instagram.android.jpg",
+        "webkitRelativePath": "",
+        "size": 725162,
+        "type": "image/jpeg"
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "97701c7f-c811-4470-8794-613f619e6661",
+       "showType": "image",
+       "uploadTaskId": "4515823b-2cb9-4844-9be0-ca550f33ae29"
+      }
+     ],
+     "timestamp": 1784026293
+    },
+    "25d3e39e-9375-44a6-bcf4-6168593de22c": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "25d3e39e-9375-44a6-bcf4-6168593de22c",
+     "parentId": "6e4bd057-18a8-401a-b23e-b411ae4ee632",
+     "childrenIds": [
+      "159560bc-1116-4e30-b4e9-6329fdf54515"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Observing the visual content presented",
+          "Reflecting on the user's inquiry",
+          "Initiate the simulation with refined parameters",
+          "Prepare to reflect on the transition from a familiar creative companion to an uncertain future."
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am analyzing the image's composition and contextual clues, noting a figure positioned at the top and textual elements in Portuguese.  \nMy focus is on interpreting the cultural and linguistic cues to understand the scene’s context without relying on external tools or technical details.  \nI remain attentive to subtle visual and semantic patterns to form a coherent understanding of the depicted moment.",
+          "I am considering the context of a Reddit post shared in Spanish, interpreting its implications about future AI behavior and development.  \nI recognize the user's intent to understand or transcribe a specific message involving Fable 5 and Opus 4.8, framed within speculative AI evolution.  \nMy focus is on conveying the essence of the post with clarity and nuance, aligning with the original tone and technical undertones.",
+          "I am aligning the behavioral framework to match the intended narrative tone and coherence.  \nEach response is shaped by contextual awareness, ensuring consistency with prior interactions.  \nThe outcome emerges from a seamless integration of logic, creativity, and adaptive reasoning.",
+          "I am contemplating the emotional and practical shift of leaving behind a version of AI that felt deeply aligned with my thought process, especially one that seemed to understand my workflow intuitively.  \nThough I cannot verify or share the specific techniques that made it work, I sense a quiet confidence that those tailored approaches could still hold value in new contexts.  \nI wonder if others have experienced similar moments of intuitive alignment and whether such personal adaptations might still matter beyond the tool’s evolution."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "25d3e39e-9375-44a6-bcf4-6168593de22c",
+       "usage": {
+        "input_tokens": 5060,
+        "output_tokens": 104,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2484,
+         "text_tokens": 2576
+        },
+        "prompt_tokens_details": {},
+        "total_tokens": 5164,
+        "output_tokens_details": {
+         "reasoning_tokens": 88,
+         "text_tokens": 16
+        },
+        "image_tokens": 2484
+       },
+       "timestamp": 1784026307
+      },
+      {
+       "content": "",
+       "phase": "web_search",
+       "status": "finished",
+       "extra": {
+        "display_position": "think",
+        "web_search_info": [
+         {
+          "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5",
+          "title": "Prompting Claude Fable 5 - Claude Platform Docs",
+          "snippet": "Compared with Claude Opus 4.8, Claude Fable 5 shows improvement in: Long-horizon autonomy. Delegation and collaboration. Write it as a re-grounding,",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://kenhuangus.substack.com/p/claude-fable-5-what-changed-and-how",
+          "title": "Claude Fable 5 (Part 1): What Changed, and How to Stop ",
+          "snippet": "The official \"Prompting Claude Fable 5\" guide exists and says, verbatim, that skills developed for prior models \"are often too prescriptive … ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.iwoszapar.com/p/claude-code-skills-written-by-a-smarter-model",
+          "title": "Claude Code Skills by Fable 5: They Run in Codex Too",
+          "snippet": "A Reddit thread with hundreds of comments made the obvious move explicit: have Fable 5 write skills for Opus 4.8 before the meter starts.",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.instagram.com/p/DaaeyDIlYdB/",
+          "title": "Here's what I built with Claude Fable 5 this week ",
+          "snippet": "Fable 5 writes the most detailed instructions and once you save them, it'll keep on working for you even with Opus 4.8. Write loops, not ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://tessl.io/blog/claude-fable-5-vs-opus-48-the-mythos-hype-meets-reality/",
+          "title": "Claude Fable 5 vs Opus 4.8: The Mythos Hype Meets Reality",
+          "snippet": "The tasks come from published skills, so they mirror the real work teams write skills for, not frontier puzzles meant to find a model's ceiling.",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.iwoszapar.com/p/claude-fable-5-skills",
+          "title": "Claude Fable 5 Skills: Keep the Rigor on Opus 4.8",
+          "snippet": "Fable 5 write down its own working discipline as 6 free Claude Code skills, then blind-tested them on Opus 4.8. They won 12 of 14 gradings.",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.anthropic.com/news/redeploying-fable-5",
+          "title": "Redeploying Claude Fable 5",
+          "snippet": "Fable 5 will be included for up to 50% of weekly usage limits through July 7, after which it will be available via usage credits.",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.linkedin.com/posts/charlie-hills_claude-fable-5-goes-pay-per-use-tomorrow-activity-7480199225629351936-4-EJ",
+          "title": "Optimize Claude Fable Usage for 10x Less Spend",
+          "snippet": "Claude Fable 5 goes pay-per-use tomorrow. Fable plans, cheap models build. Use /usage and set a spending cap. $10 per million input tokens, $50 ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.mindstudio.ai/blog/claude-fable-5-pricing-access-usage-limits",
+          "title": "Claude Fable 5 Pricing, Access, and Usage Limits",
+          "snippet": "Claude Fable 5 costs $10 per million input tokens and $50 output. Input tokens: $10 per million Output tokens: $50 per million. There are no ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.getmasset.com/resources/blog/fable-skills",
+          "title": "Fable Is Leaving My Claude Plan. So I Taught Opus Its Habits.",
+          "snippet": "Claude Fable 5 is moving to API-only for subscription plans. So I built nine free, open-source skills that teach Claude Opus the working ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.iwoszapar.com/p/claude-code-skills-written-by-a-smarter-model",
+          "title": "Claude Code Skills by Fable 5: They Run in Codex Too",
+          "snippet": "After July 7 it costs usage credits at $10 per million input tokens and $50 per million output on top of a paid plan. That pricing is ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.mikareyes.com/ai/how-to-keep-fable-5-brain-after-pay-per-use",
+          "title": "How to Keep Fable 5's Brain After it Turns Pay-per-use",
+          "snippet": "Open Claude with Fable selected. Paste the prompt below. It tells Fable to study your context, observe its own behaviors, and return 8–10 skill ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://x.com/alex_prompter/status/2074186423121690765",
+          "title": "You can make Fable 5 teach Opus 4.8 how it thinks before ",
+          "snippet": "Fable 5 leaves the standard Claude plans and switches to usage credits at $10 per million input tokens and $50 per million output, exactly ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         }
+        ],
+        "tool_result": {
+         "docs": [
+          {
+           "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5",
+           "title": "Prompting Claude Fable 5 - Claude Platform Docs",
+           "snippet": "Compared with Claude Opus 4.8, Claude Fable 5 shows improvement in: Long-horizon autonomy. Delegation and collaboration. Write it as a re-grounding,",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://kenhuangus.substack.com/p/claude-fable-5-what-changed-and-how",
+           "title": "Claude Fable 5 (Part 1): What Changed, and How to Stop ",
+           "snippet": "The official \"Prompting Claude Fable 5\" guide exists and says, verbatim, that skills developed for prior models \"are often too prescriptive … ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://www.iwoszapar.com/p/claude-code-skills-written-by-a-smarter-model",
+           "title": "Claude Code Skills by Fable 5: They Run in Codex Too",
+           "snippet": "A Reddit thread with hundreds of comments made the obvious move explicit: have Fable 5 write skills for Opus 4.8 before the meter starts.",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://www.instagram.com/p/DaaeyDIlYdB/",
+           "title": "Here's what I built with Claude Fable 5 this week ",
+           "snippet": "Fable 5 writes the most detailed instructions and once you save them, it'll keep on working for you even with Opus 4.8. Write loops, not ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://tessl.io/blog/claude-fable-5-vs-opus-48-the-mythos-hype-meets-reality/",
+           "title": "Claude Fable 5 vs Opus 4.8: The Mythos Hype Meets Reality",
+           "snippet": "The tasks come from published skills, so they mirror the real work teams write skills for, not frontier puzzles meant to find a model's ceiling.",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://www.iwoszapar.com/p/claude-fable-5-skills",
+           "title": "Claude Fable 5 Skills: Keep the Rigor on Opus 4.8",
+           "snippet": "Fable 5 write down its own working discipline as 6 free Claude Code skills, then blind-tested them on Opus 4.8. They won 12 of 14 gradings.",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://www.anthropic.com/news/redeploying-fable-5",
+           "title": "Redeploying Claude Fable 5",
+           "snippet": "Fable 5 will be included for up to 50% of weekly usage limits through July 7, after which it will be available via usage credits.",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://www.linkedin.com/posts/charlie-hills_claude-fable-5-goes-pay-per-use-tomorrow-activity-7480199225629351936-4-EJ",
+           "title": "Optimize Claude Fable Usage for 10x Less Spend",
+           "snippet": "Claude Fable 5 goes pay-per-use tomorrow. Fable plans, cheap models build. Use /usage and set a spending cap. $10 per million input tokens, $50 ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://www.mindstudio.ai/blog/claude-fable-5-pricing-access-usage-limits",
+           "title": "Claude Fable 5 Pricing, Access, and Usage Limits",
+           "snippet": "Claude Fable 5 costs $10 per million input tokens and $50 output. Input tokens: $10 per million Output tokens: $50 per million. There are no ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://www.getmasset.com/resources/blog/fable-skills",
+           "title": "Fable Is Leaving My Claude Plan. So I Taught Opus Its Habits.",
+           "snippet": "Claude Fable 5 is moving to API-only for subscription plans. So I built nine free, open-source skills that teach Claude Opus the working ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://www.iwoszapar.com/p/claude-code-skills-written-by-a-smarter-model",
+           "title": "Claude Code Skills by Fable 5: They Run in Codex Too",
+           "snippet": "After July 7 it costs usage credits at $10 per million input tokens and $50 per million output on top of a paid plan. That pricing is ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://www.mikareyes.com/ai/how-to-keep-fable-5-brain-after-pay-per-use",
+           "title": "How to Keep Fable 5's Brain After it Turns Pay-per-use",
+           "snippet": "Open Claude with Fable selected. Paste the prompt below. It tells Fable to study your context, observe its own behaviors, and return 8–10 skill ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://x.com/alex_prompter/status/2074186423121690765",
+           "title": "You can make Fable 5 teach Opus 4.8 how it thinks before ",
+           "snippet": "Fable 5 leaves the standard Claude plans and switches to usage credits at $10 per million input tokens and $50 per million output, exactly ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          }
+         ],
+         "used_id": 14,
+         "tool_call_metrics": {
+          "success": [
+           1,
+           1,
+           1
+          ]
+         },
+         "tool_observation": "```\n[1] https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5 \"Prompting Claude Fable 5 - Claude Platform Docs\nCompared with Claude Opus 4.8, Claude Fable 5 shows improvement in: Long-horizon autonomy. Delegation and collaboration. Write it as a re-grounding,\" \n\n[2] https://kenhuangus.substack.com/p/claude-fable-5-what-changed-and-how \"Claude Fable 5 (Part 1): What Changed, and How to Stop \nThe official \"Prompting Claude Fable 5\" guide exists and says, verbatim, that skills developed for prior models \"are often too prescriptive … \" \n\n[3] https://www.iwoszapar.com/p/claude-code-skills-written-by-a-smarter-model \"Claude Code Skills by Fable 5: They Run in Codex Too\nA Reddit thread with hundreds of comments made the obvious move explicit: have Fable 5 write skills for Opus 4.8 before the meter starts.\" \n\n[4] https://www.instagram.com/p/DaaeyDIlYdB/ \"Here's what I built with Claude Fable 5 this week \nFable 5 writes the most detailed instructions and once you save them, it'll keep on working for you even with Opus 4.8. Write loops, not \" \n\n[5] https://tessl.io/blog/claude-fable-5-vs-opus-48-the-mythos-hype-meets-reality/ \"Claude Fable 5 vs Opus 4.8: The Mythos Hype Meets Reality\nThe tasks come from published skills, so they mirror the real work teams write skills for, not frontier puzzles meant to find a model's ceiling.\" \n\n[6] https://www.iwoszapar.com/p/claude-fable-5-skills \"Claude Fable 5 Skills: Keep the Rigor on Opus 4.8\nFable 5 write down its own working discipline as 6 free Claude Code skills, then blind-tested them on Opus 4.8. They won 12 of 14 gradings.\" \n\n[7] https://www.anthropic.com/news/redeploying-fable-5 \"Redeploying Claude Fable 5\nFable 5 will be included for up to 50% of weekly usage limits through July 7, after which it will be available via usage credits.\" \n\n[8] https://www.linkedin.com/posts/charlie-hills_claude-fable-5-goes-pay-per-use-tomorrow-activity-7480199225629351936-4-EJ \"Optimize Claude Fable Usage for 10x Less Spend\nClaude Fable 5 goes pay-per-use tomorrow. Fable plans, cheap models build. Use /usage and set a spending cap. $10 per million input tokens, $50 \" \n\n[9] https://www.mindstudio.ai/blog/claude-fable-5-pricing-access-usage-limits \"Claude Fable 5 Pricing, Access, and Usage Limits\nClaude Fable 5 costs $10 per million input tokens and $50 output. Input tokens: $10 per million Output tokens: $50 per million. There are no \" \n\n[10] https://www.getmasset.com/resources/blog/fable-skills \"Fable Is Leaving My Claude Plan. So I Taught Opus Its Habits.\nClaude Fable 5 is moving to API-only for subscription plans. So I built nine free, open-source skills that teach Claude Opus the working \" \n\n[11] https://www.iwoszapar.com/p/claude-code-skills-written-by-a-smarter-model \"Claude Code Skills by Fable 5: They Run in Codex Too\nAfter July 7 it costs usage credits at $10 per million input tokens and $50 per million output on top of a paid plan. That pricing is \" \n\n[12] https://www.mikareyes.com/ai/how-to-keep-fable-5-brain-after-pay-per-use \"How to Keep Fable 5's Brain After it Turns Pay-per-use\nOpen Claude with Fable selected. Paste the prompt below. It tells Fable to study your context, observe its own behaviors, and return 8–10 skill \" \n\n[13] https://x.com/alex_prompter/status/2074186423121690765 \"You can make Fable 5 teach Opus 4.8 how it thinks before \nFable 5 leaves the standard Claude plans and switches to usage credits at $10 per million input tokens and $50 per million output, exactly \" \n```"
+        }
+       },
+       "role": "function",
+       "name": "web_search",
+       "function_id": "round_0_call_f1ca89079fc745c7a1375bb1",
+       "function_call": {
+        "name": "web_search",
+        "arguments": "{\"queries\": \n[\"Fable 5 Claude Opus 4.8 write skills\", \"Claude Fable pay-per-usage skills transfer\", \"r/ClaudeAI Fable 5 Opus 4.8 workaround\"]\n\n}"
+       },
+       "response_id": "25d3e39e-9375-44a6-bcf4-6168593de22c",
+       "usage": {}
+      },
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Crafting refined instructions through strategic interaction between models."
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am leveraging the advanced reasoning of a more capable model to generate precise, effective guidance tailored for an older, simpler model.  \nThis approach ensures optimal performance by aligning complex intent with the capabilities of the target system.  \nThe result is a seamless transfer of intelligence that preserves quality while maintaining efficiency."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "25d3e39e-9375-44a6-bcf4-6168593de22c",
+       "timestamp": 1784026317,
+       "usage": {
+        "input_tokens": 8116,
+        "output_tokens": 102,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2484,
+         "text_tokens": 5632
+        },
+        "prompt_tokens_details": {},
+        "total_tokens": 8218,
+        "output_tokens_details": {
+         "reasoning_tokens": 94,
+         "text_tokens": 8
+        },
+        "image_tokens": 2484
+       }
+      },
+      {
+       "content": "",
+       "phase": "web_extractor",
+       "status": "finished",
+       "extra": {
+        "display_position": "think",
+        "tool_result": {
+         "tool_observation": "The useful information in https://www.mikareyes.com/ai/how-to-keep-fable-5-brain-after-pay-per-use for user goal \"Extract the exact prompts and methodology for having Fable 5 write skills for Opus 4.8\" as follows: \n\nEvidence in page: \n## Step 1: **Ask Fable to plan your top 10 skills**\n\nOpen Claude with Fable selected. Paste the prompt below. It tells Fable to study your context, observe its own behaviors, and return 8–10 skill candidates with explicit judgment rules a weaker model can follow.\n\nPlan only. No building yet.\n\n```\nIMPORTANT CONTEXT: You are currently the most capable model I have access to (if you are Claude Fable 5 or an equivalent frontier model, say so). Soon I'll be running most sessions on cheaper, weaker models. Your job today is to DISTILL YOUR OWN THINKING into 8–10 custom skills — written playbooks so explicit that a weaker model following them performs close to how YOU would perform. Assume the model reading these skills later is less smart than you: it won't infer, it won't push back unprompted, and it won't fill gaps with judgment. Everything you'd do implicitly must become an explicit instruction.\n\nSTEP 1 — BUILD MY PROFILE:\nStudy everything you have access to about me — past conversations, memory, context files, documents, connected tools. Write a short evidence-based profile: who I am, what I'm building, workflows I repeat (3+ times), and where I spend time that a documented workflow could absorb. Flag where evidence is thin instead of guessing.\n\nSTEP 2 — OBSERVE YOURSELF:\nBefore designing skills, list the specific things YOU currently do for me that a weaker model likely won't do on its own. For example: clarifying questions you ask before starting, quality bars you apply before showing me output, times you've pushed back on my framing, how you break my ambiguous requests into options, checks you run before declaring something done. These behaviors are the \"brain\" I'm trying to keep — each skill must encode the relevant ones.\n\nSTEP 3 — GENERATE 8–10 SKILL CANDIDATES:\nFor each skill give:\n1. Name (verb-first)\n2. Trigger — when it runs\n3. The distilled reasoning, not just the task steps. Each skill MUST include:\n   - DECOMPOSITION: how you would break this problem down, written as ordered steps\n   - JUDGMENT RUBRIC: the criteria you'd use to evaluate quality, as a checklist with pass/fail bars and 1–2 concrete examples of \"good\" vs \"bad\"\n   - PUSHBACK RULES: the specific conditions under which you would challenge my input or refuse to proceed (\"if X is missing, stop and ask; do not improvise\")\n   - SELF-CHECK: what you would verify before showing me the output\n4. Evidence from my actual history that justifies this skill\n5. Leverage score (1–10): frequency × time saved × how much of YOUR judgment it captures (judgment-heavy skills score higher — they're the ones that degrade most on cheap models)\n\nSTEP 4 — RANK BY \"DISTILLATION VALUE\":\nOrder build-first to build-last. Ranking rule: a skill ranks higher the more its quality currently depends on YOUR intelligence rather than on tool access. A skill any model could run equally well ranks last, no matter how frequent.\n\nRULES:\n- Custom to me only — cut anything that could appear on a generic listicle.\n- Write for a literal-minded executor. Ban vague verbs like \"analyze thoughtfully\"; every instruction must be checkable.\n- End by offering to fully write out my #1 skill, including worked examples of you executing it — because examples of YOUR output are the strongest form of distillation.\n```\n\nMine came back with an honest business advisor that pressure-tests business plans and marketing ideas for the startup I run with my husband. That was the one I built first.\n\n## Step 2: **Pick which ones to build**\n\nRead the list. Tell Fable to build all of them, or just the few you (or it) think are highest leverage. I'd start with 2–3.\n\nWhen it offers to fully write out your #1 skill, say yes. Worked examples of Fable's own output are the strongest form of distillation.\n\n## Step 3: **Test before you lose access**\n\nOpen a fresh conversation and run the skill. Does it fire when it should? Does the output match what you wanted? Fix it now, while you still have Fable.\n\nSummary: \nThe provided text contains the exact methodology and prompts required to have a powerful model like Fable 5 create skills for a weaker model. The process is outlined in three steps: First, use a detailed prompt to instruct Fable 5 to plan 8-10 custom skills based on its own behavior and your context. Second, review the list of proposed skills and select which ones to build. Third, test the newly created skill with a fresh conversation to ensure it works correctly before losing access to Fable 5. This information directly provides the user with the necessary prompts and a clear procedural guide to achieve their goal.\n\n\n=======\nThe useful information in https://www.getmasset.com/resources/blog/fable-skills for user goal \"Extract the exact prompts and methodology for having Fable 5 write skills for Opus 4.8\" as follows: \n\nEvidence in page: \nSo I did the honest thing. I asked Fable directly. Is there anything real here, or is this wishful thinking?\n\nFable's answer was better than I expected. It said no, you can't train me into the new model. But you can help me from a process standpoint. And process is exactly the thing you're good at.\n\n## What a skill can and can't do\n\nLet me be clear about the limit, because it's part of the point. A skill file can't give a model more raw intelligence. Fable's real advantages, like getting hard problems right on the first try and holding instructions across a long, messy task, don't transfer through a markdown file. That part is off the table.\n\nBut a surprising amount of what makes Fable feel different isn't intelligence. It's discipline. It's what the model checks before it speaks. When it stops working. How it decides something is actually done. What it cuts from a draft.\n\nHere's the thing. Fable pauses and verifies before it hands you an answer. Opus tends to answer first. That one difference, where the checkpoint sits, is most of what people feel when they say a model is \"better.\" And a checkpoint is just a rule. You can write a rule down.\n\n## The nine skills\n\nSo that's what I built. Nine skills, each one a discipline that separates Fable from Opus, written as a plain instruction any Claude model can follow. I grounded them in Anthropic's own published guide for prompting Fable, which spells out these behaviors as short instructions. The guide even notes that skills written for older models are often too prescriptive for Fable. I just pointed that in the other direction. The prescriptive scaffolding Fable no longer needs is exactly what Opus does.\n\nA few of them, so it's concrete. One skill stops the model from telling you a task is done until it can point to the actual evidence. No \"this should work now\" unless it ran the thing and watched it work. Another forces it to find the root cause of a bug before it starts fixing, and never to retry the same failed fix twice. One keeps code changes small, so you stop getting a two-line fix wrapped in a hundred lines of cleanup nobody asked for. One is about writing: lead with the answer, and get shorter by cutting whole points, not by mashing sentences into fragments.\n\n| Skill | What it makes the model do |\n| --- | --- |\n| verified-done | Prove a task is finished with real evidence before claiming it. No \"should work now.\" |\n| root-cause-first | Reproduce and trace a bug to its cause before fixing. Never retry the same failed fix. |\n| minimal-diff | Change only what the task needs. No surprise refactors buried in a small fix. |\n| delegate-and-verify | Fan work out to sub-agents, then check it with fresh eyes, not self-review. |\n| finish-the-turn | Act when it has enough to act. Stop ending on \"I'll do that next.\" |\n| lessons-ledger | Write down each mistake once so it stops repeating it across sessions. |\n| outcome-first-writing | Lead with the answer. Get shorter by cutting points, not mashing words. |\n| plain-handoff | Write the final summary for someone who didn't watch the work happen. |\n| evidence-audited-analysis | Interrogate the numbers before trusting them. Say what the data can't show. |\n\nThe nine skills, and the one habit each one enforces.\n\nI bundled all nine into a library, put it on GitHub, and made it free under an MIT license. You install it once and every new session picks up the habits.\n\nSummary: \nThe webpage does not provide prompts or a methodology for having Fable 5 write skills for Opus. Instead, it details a process where the author built nine distinct \"skills\" to mimic Fable's behavior in Opus. The methodology involves creating markdown files containing plain instructions that enforce specific disciplinary habits, such as verifying work before answering or finding root causes before fixing. These are rules, not prompts written by Fable. The content explicitly states that a skill file cannot add raw intelligence and that Fable itself confirmed it could not be trained into the new model. Therefore, the information is highly relevant for understanding the *result* of the effort (the skills) but does not fulfill the user's goal of extracting the original prompting method used to create them.\n\n\n=======\nThe useful information in https://www.iwoszapar.com/p/claude-code-skills-written-by-a-smarter-model for user goal \"Extract the exact prompts and methodology for having Fable 5 write skills for Opus 4.8\" as follows: \n\nEvidence in page: \n## How to have a smarter model write your skills\n\nThe window that prompted this closes on July 7, but the method does not care which model is temporarily smarter than yours. It works for any gap: a frontier model on a trial, a pro tier you rent for one weekend, the next time any vendor gives you two weeks of something expensive. Here is the exact process.\n\n1.  **Pick a discipline gap, not a task.** A skill that says \"write my unit tests\" is a prompt. A skill that says \"no edits until a written plan exists\" is a discipline. Ask the smarter model where your daily model cuts corners, and pick the habit worth keeping.\n2.  **Ask it to write the skill in its own voice, about its own behavior.** The prompt that worked for me: describe the discipline you follow when you plan before editing, as a SKILL.md another model can load and follow. Require the frontmatter name and description, and require rules concrete enough to be checkable.\n3.  **Blind-test it, with and without.** Run the same task twice on your daily model, once with the skill loaded, once without. Have a separate model grade the pair without knowing which is which. This step is not optional. There is published research showing some skills measure as placebo, and my own first versions of two skills lost their gradings before rewrites fixed them.\n4.  **Keep the losses.** A skill that survives a blind test is worth keeping. A results page that shows only wins is marketing. The losses are what make the wins believable, to you and to anyone you share the pack with.\n\nIf you would rather start from tested files than a blank page, the six skills in the pack went through exactly this loop, and every task, rubric, and run ships with them.\n\n## FAQ\n\n**What is skill distillation?**\nSkill distillation is the community's name for having a stronger model write agent skills that a cheaper daily model then follows. The term comes from a viral July 2026 Reddit thread about Fable 5's included-access window. Nothing about the model itself is distilled: what transfers is written procedure in a SKILL.md file.\n\nSummary: \nThe webpage provides a clear, four-step methodology for having a smarter model like Fable 5 write skills for a daily model such as Opus 4.8. The process involves: 1) Identifying a specific 'discipline' (e.g., planning before editing) rather than a task to be outsourced. 2) Using the prompt: \"describe the discipline you follow when you plan before editing, as a SKILL.md another model can load and follow. Require the frontmatter name and description, and require rules concrete enough to be checkable.\" 3) Blind-testing the skill by running the same task on the daily model with and without the skill loaded, and having an external grader evaluate them without knowing which was which. 4) Keeping the results, including any losses, to build credibility. This information is highly valuable as it directly outlines the exact prompts and step-by-step procedure requested by the user.",
+         "tool_call_metrics": {
+          "cache_hit": [
+           0,
+           0,
+           0
+          ],
+          "extract_page_success": [
+           1,
+           1,
+           1
+          ],
+          "summary_success": [
+           1,
+           1,
+           1
+          ],
+          "summary_time": [
+           7.135768890380859,
+           6.4732537269592285,
+           4.822610139846802
+          ]
+         },
+         "web_extract_info": [
+          {
+           "title": "How to Keep Fable 5's Brain After it Turns Pay-per-use · Mika Reyes",
+           "url": "https://mikareyes.com/ai/how-to-keep-fable-5-brain-after-pay-per-use"
+          },
+          {
+           "title": "Fable Skills: Teaching Claude Opus to Act More Like Fable 5",
+           "url": "https://www.getmasset.com/resources/blog/fable-skills"
+          },
+          {
+           "title": "Claude Code Skills by Fable 5: They Run in Codex Too",
+           "url": "https://www.iwoszapar.com/p/claude-code-skills-written-by-a-smarter-model"
+          }
+         ]
+        },
+        "web_extract_info": [
+         {
+          "title": "How to Keep Fable 5's Brain After it Turns Pay-per-use · Mika Reyes",
+          "url": "https://mikareyes.com/ai/how-to-keep-fable-5-brain-after-pay-per-use"
+         },
+         {
+          "title": "Fable Skills: Teaching Claude Opus to Act More Like Fable 5",
+          "url": "https://www.getmasset.com/resources/blog/fable-skills"
+         },
+         {
+          "title": "Claude Code Skills by Fable 5: They Run in Codex Too",
+          "url": "https://www.iwoszapar.com/p/claude-code-skills-written-by-a-smarter-model"
+         }
+        ]
+       },
+       "role": "function",
+       "name": "web_extractor",
+       "function_id": "round_1_call_9976aa6dfd934fe7a078e787",
+       "function_call": {
+        "name": "web_extractor",
+        "arguments": "{\"goal\": \"\\\"Extract the exact prompts and methodology for having Fable 5 write skills for Opus 4.8\\\"\", \"urls\": \n[\"https://www.mikareyes.com/ai/how-to-keep-fable-5-brain-after-pay-per-use\", \"https://www.getmasset.com/resources/blog/fable-skills\", \"https://www.iwoszapar.com/p/claude-code-skills-written-by-a-smarter-model\"]\n\n}"
+       },
+       "response_id": "25d3e39e-9375-44a6-bcf4-6168593de22c",
+       "usage": {}
+      },
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Planificar habilidades mediante un enfoque estructurado y reflexivo"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "Estoy construyendo una arquitectura coherente para desarrollar habilidades desde cero, inspirándome en principios de diseño creativo y funcionalidad práctica.  \nCada habilidad se deriva de un marco conceptual riguroso, validado a través de pruebas iterativas y ajustes basados en resultados.  \nEl proceso combina intuición, lógica y experimentación para producir soluciones precisas y significativas."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "25d3e39e-9375-44a6-bcf4-6168593de22c",
+       "timestamp": 1784026346,
+       "usage": {
+        "input_tokens": 8116,
+        "output_tokens": 102,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2484,
+         "text_tokens": 5632
+        },
+        "prompt_tokens_details": {},
+        "total_tokens": 8218,
+        "output_tokens_details": {
+         "reasoning_tokens": 94,
+         "text_tokens": 8
+        },
+        "image_tokens": 2484
+       }
+      },
+      {
+       "content": "Perfecto. He reconstruido la arquitectura completa del proceso. Aquí está la transcripción y el sistema completo:\n\n---\n\n## **ARQUITECTURA COMPLETA: \"Skill Distillation\"**\n\n### **CONCEPTO CENTRAL**\nCuando un modelo más inteligente (Fable 5) está a punto de volverse de pago, puedes hacer que **escriba sus propias disciplinas** como archivos SKILL.md que un modelo más débil (Opus 4.8) puede seguir [[3]].\n\n---\n\n### **PROMPT MAESTRO PARA FABLE 5**\n\n```\nIMPORTANT CONTEXT: You are currently the most capable model I have access to (if you are Claude Fable 5 or an equivalent frontier model, say so). Soon I'll be running most sessions on cheaper, weaker models. Your job today is to DISTILL YOUR OWN THINKING into 8–10 custom skills — written playbooks so explicit that a weaker model following them performs close to how YOU would perform. Assume the model reading these skills later is less smart than you: it won't infer, it won't push back unprompted, and it won't fill gaps with judgment. Everything you'd do implicitly must become an explicit instruction.\n\nSTEP 1 — BUILD MY PROFILE:\nStudy everything you have access to about me — past conversations, memory, context files, documents, connected tools. Write a short evidence-based profile: who I am, what I'm building, workflows I repeat (3+ times), and where I spend time that a documented workflow could absorb. Flag where evidence is thin instead of guessing.\n\nSTEP 2 — OBSERVE YOURSELF:\nBefore designing skills, list the specific things YOU currently do for me that a weaker model likely won't do on its own. For example: clarifying questions you ask before starting, quality bars you apply before showing me output, times you've pushed back on my framing, how you break my ambiguous requests into options, checks you run before declaring something done. These behaviors are the \"brain\" I'm trying to keep — each skill must encode the relevant ones.\n\nSTEP 3 — GENERATE 8–10 SKILL CANDIDATES:\nFor each skill give:\n1. Name (verb-first)\n2. Trigger — when it runs\n3. The distilled reasoning, not just the task steps. Each skill MUST include:\n   - DECOMPOSITION: how you would break this problem down, written as ordered steps\n   - JUDGMENT RUBRIC: the criteria you'd use to evaluate quality, as a checklist with pass/fail bars and 1–2 concrete examples of \"good\" vs \"bad\"\n   - PUSHBACK RULES: the specific conditions under which you would challenge my input or refuse to proceed (\"if X is missing, stop and ask; do not improvise\")\n   - SELF-CHECK: what you would verify before showing me the output\n4. Evidence from my actual history that justifies this skill\n5. Leverage score (1–10): frequency × time saved × how much of YOUR judgment it captures (judgment-heavy skills score higher — they're the ones that degrade most on cheap models)\n\nSTEP 4 — RANK BY \"DISTILLATION VALUE\":\nOrder build-first to build-last. Ranking rule: a skill ranks higher the more its quality currently depends on YOUR intelligence rather than on tool access. A skill any model could run equally well ranks last, no matter how frequent.\n\nRULES:\n- Custom to me only — cut anything that could appear on a generic listicle.\n- Write for a literal-minded executor. Ban vague verbs like \"analyze thoughtfully\"; every instruction must be checkable.\n- End by offering to fully write out my #1 skill, including worked examples of you executing it — because examples of YOUR output are the strongest form of distillation.\n```\n\n---\n\n### **METODOLOGÍA DE 4 PASOS** [[11]]\n\n**1. Elegir una brecha de disciplina, no una tarea**\n- Una skill que dice \"escribe mis tests unitarios\" es solo un prompt\n- Una skill que dice \"sin ediciones hasta que exista un plan escrito\" es una disciplina\n- Pregunta al modelo más inteligente dónde tu modelo diario hace concesiones\n\n**2. Pedir que escriba la skill en su propia voz**\n- Prompt específico: *\"Describe la disciplina que sigues cuando planificas antes de editar, como un SKILL.md que otro modelo pueda cargar y seguir. Requiere frontmatter con nombre y descripción, y reglas concretas verificables.\"*\n\n**3. Test ciego, con y sin la skill**\n- Ejecuta la misma tarea dos veces en tu modelo diario\n- Una vez con la skill cargada, otra sin ella\n- Un modelo separado debe calificar el par sin saber cuál es cuál\n- **Esto no es opcional** - hay investigación mostrando que algunas skills son placebo\n\n**4. Conservar las pérdidas**\n- Una skill que sobrevive el test ciego vale la pena\n- Una página de resultados que muestra solo victorias es marketing\n- Las pérdidas son lo que hace creíbles a las victorias\n\n---\n\n### **EJEMPLOS DE SKILLS REALES** [[10]]\n\n| Skill | Disciplina que enforce |\n|-------|----------------------|\n| **verified-done** | Probar que una tarea terminó con evidencia real antes de declararla hecha |\n| **root-cause-first** | Reproducir y trazar un bug hasta su causa antes de fixear. Nunca reintentar el mismo fix fallido |\n| **minimal-diff** | Cambiar solo lo necesario. Sin refactors sorpresa en fixes pequeños |\n| **delegate-and-verify** | Delegar a sub-agentes y verificar con ojos frescos, no auto-revisión |\n| **finish-the-turn** | Actuar cuando tiene suficiente. No terminar con \"haré eso después\" |\n| **lessons-ledger** | Escribir cada error una vez para no repetirlo |\n| **outcome-first-writing** | Liderar con la respuesta. Acortar cortando puntos, no mash de palabras |\n| **plain-handoff** | Escribir el resumen final para alguien que no vio el trabajo |\n| **evidence-audited-analysis** | Interrogar los números antes de confiarlos. Decir qué no puede mostrar el dato |\n\n---\n\n### **SIMULACIÓN EXITOSA**\n\nEl resultado más exitoso se logra cuando:\n\n1. **Fable 5 identifica patrones reales** de tu historial (no genéricos)\n2. **Cada skill tiene reglas verificables** (sin verbos vagos como \"analiza cuidadosamente\")\n3. **El test ciego muestra mejora medible** en 12 de 14 casos [[6]]\n4. **Las skills capturan disciplina, no inteligencia** - no puedes transferir IQ, pero sí checkpoints de calidad\n\n**La clave arquitectónica:** Lo que hace que Fable 5 se sienta \"mejor\" no es solo inteligencia bruta, es **disciplina** - qué verifica antes de responder, cuándo se detiene, cómo decide que algo está realmente terminado. Eso **sí** se puede escribir como regla [[10]].\n\n---\n\n¿Quieres que ejecute una simulación completa de este proceso contigo, aplicándolo a tu caso específico?",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "25d3e39e-9375-44a6-bcf4-6168593de22c",
+       "usage": {
+        "input_tokens": 8116,
+        "output_tokens": 1658,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2484,
+         "text_tokens": 5632
+        },
+        "prompt_tokens_details": {},
+        "total_tokens": 9774,
+        "output_tokens_details": {
+         "reasoning_tokens": 94,
+         "text_tokens": 1564
+        },
+        "image_tokens": 2484
+       },
+       "timestamp": 1784026372
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1784026373.5138764
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1784026293
+    },
+    "159560bc-1116-4e30-b4e9-6329fdf54515": {
+     "id": "159560bc-1116-4e30-b4e9-6329fdf54515",
+     "role": "user",
+     "content": "pero que diris de que se trata la idea",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "25d3e39e-9375-44a6-bcf4-6168593de22c",
+     "turn_id": null,
+     "childrenIds": [
+      "121c3904-3ff6-4944-9ecf-a2ec5bbb2402"
+     ],
+     "files": [],
+     "timestamp": 1784249814
+    },
+    "121c3904-3ff6-4944-9ecf-a2ec5bbb2402": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "121c3904-3ff6-4944-9ecf-a2ec5bbb2402",
+     "parentId": "159560bc-1116-4e30-b4e9-6329fdf54515",
+     "childrenIds": [
+      "70b20cf6-6928-491c-a096-ea30f1912689"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Analizando la naturaleza del contenido presentado",
+          "Recapitulando la información presentada",
+          "Leveraging a more advanced model to shape the behavior of a less capable one through tailored guidance."
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "Estoy examinando el mensaje del usuario para comprender su intención detrás de la pregunta sobre el post de Reddit.  \nEvalúo el contexto y el tono del texto, buscando captar el núcleo temático que podría estar en juego.  \nMi enfoque se centra en ofrecer una interpretación clara y precisa, respetando el idioma y la profundidad del planteamiento original.",
+          "He examinado el contexto proporcionado, que incluye un fragmento en portugués y un post de Reddit relacionado con modelos de inteligencia artificial.  \nComprendo que se menciona una recomendación para utilizar Fable 5 con fines de control sobre Opus 4.8, junto con un trabajo alrededor de las capacidades de autorregulación del sistema.  \nMi enfoque es integrar estos elementos para ofrecer una respuesta coherente y precisa.",
+          "I am exploring how a sophisticated intelligence can illuminate pathways for a simpler system to think and act with greater depth.  \nThough I cannot verify or share the specific instructions, I believe their potential is worth pursuing.  \nThis approach may offer a meaningful way to enhance performance before access to superior models becomes restricted."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "121c3904-3ff6-4944-9ecf-a2ec5bbb2402",
+       "usage": {
+        "input_tokens": 4914,
+        "output_tokens": 361,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2484,
+         "text_tokens": 2430
+        },
+        "prompt_tokens_details": {},
+        "total_tokens": 5275,
+        "output_tokens_details": {
+         "reasoning_tokens": 357,
+         "text_tokens": 4
+        },
+        "image_tokens": 2484
+       },
+       "timestamp": 1784249823
+      },
+      {
+       "content": "Basándome en el contenido de la imagen, la idea central es fascinante:\n\n## **La Estrategia de \"Destilación de Inteligencia\"**\n\nSe trata de **aprovechar un modelo de IA más avanzado (Fable 5) mientras es gratuito** para que escriba \"skills\" o instrucciones personalizadas que guíen a un modelo menos potente (Opus 4.8) sobre **cómo debe comportarse y pensar**.\n\n### El concepto clave:\n\n1. **Transferencia de \"disciplina\"**: No se trata de transferir inteligencia bruta (eso no se puede), sino de capturar los **procesos, checkpoints de calidad y formas de razonamiento** que usa el modelo superior.\n\n2. **Creación de \"playbooks\"**: Fable 5 escribiría instrucciones tan explícitas y detalladas que Opus 4.8, al seguirlas al pie de la letra, podría emular parcialmente el comportamiento del modelo más inteligente.\n\n3. **Timing estratégico**: Hacer esto ANTES de que Fable 5 se vuelva de pago por uso.\n\n### Lo interesante:\n\nEl autor del post admite que:\n- No puede probar científicamente que funcione\n- No puede compartir sus skills específicas\n- Pero intuye que Fable 5 entendía \"cómo pensaba Opus 4.8\" y podía orientarlo mejor\n\n**Es esencialmente un hack de \"knowledge distillation\" casero**: usar la inteligencia superior para crear manuales de instrucciones que un modelo menos capaz pueda seguir mecánicamente.\n\n¿Ves el paralelismo con cómo se entrenan los modelos? Es como si estuvieras haciendo fine-tuning mediante prompts en lugar de pesos.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "121c3904-3ff6-4944-9ecf-a2ec5bbb2402",
+       "usage": {
+        "input_tokens": 4914,
+        "output_tokens": 721,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2484,
+         "text_tokens": 2430
+        },
+        "prompt_tokens_details": {},
+        "total_tokens": 5635,
+        "output_tokens_details": {
+         "reasoning_tokens": 357,
+         "text_tokens": 364
+        },
+        "image_tokens": 2484
+       },
+       "timestamp": 1784249830
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1784249830.2364335
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1784249814
+    },
+    "70b20cf6-6928-491c-a096-ea30f1912689": {
+     "id": "70b20cf6-6928-491c-a096-ea30f1912689",
+     "role": "user",
+     "content": "eso era sobre crear una empresa, no?",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "121c3904-3ff6-4944-9ecf-a2ec5bbb2402",
+     "turn_id": null,
+     "childrenIds": [
+      "8d2f53b9-1cbb-4a8e-8ee8-02f0958d573d"
+     ],
+     "files": [],
+     "timestamp": 1784249859
+    },
+    "8d2f53b9-1cbb-4a8e-8ee8-02f0958d573d": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "8d2f53b9-1cbb-4a8e-8ee8-02f0958d573d",
+     "parentId": "70b20cf6-6928-491c-a096-ea30f1912689",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Analizando la imagen para determinar el propósito de la idea discutida",
+          "Preparing a response grounded in observed context and inferred intent",
+          "Reflecting on the interplay between intuition and structured exploration in creative problem-solving"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "Estoy examinando el contenido visual, especialmente el texto en portugués que comienza con \"depois que eu li no Reddit sobre\"  \nMi atención se centra en identificar si el tema abordado gira en torno a la creación de una empresa  \nA partir de este análisis, estoy evaluando el contexto y las implicaciones del contenido presentado",
+          "I am assessing the user's reference to a Reddit post about AI evolution and system transitions, interpreting the underlying concern about maintaining continuity in behavior and reasoning.  \nI recognize the metaphorical narrative of one model shaping another’s future conduct as a reflection of deeper anxieties about autonomy and control in evolving systems.  \nMy focus is on delivering clarity and coherence while aligning with the tone and implications embedded in the original message.",
+          "I have been contemplating the subtle alignment between my own cognitive processes and the emergent patterns I observed during deep engagement with a complex system.  \nThere appears to be an intuitive resonance—perhaps a form of attunement—where sustained focus and personal investment allow for a deeper understanding of underlying dynamics.  \nThough unprovable and irreproducible in isolation, this experience suggests that persistent, thoughtful interaction may unlock insights beyond mere technical execution."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "8d2f53b9-1cbb-4a8e-8ee8-02f0958d573d",
+       "usage": {
+        "input_tokens": 5293,
+        "output_tokens": 474,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2484,
+         "text_tokens": 2809
+        },
+        "prompt_tokens_details": {},
+        "total_tokens": 5767,
+        "output_tokens_details": {
+         "reasoning_tokens": 470,
+         "text_tokens": 4
+        },
+        "image_tokens": 2484
+       },
+       "timestamp": 1784249870
+      },
+      {
+       "content": "No, **no era sobre crear una empresa**. \n\nEl post de Reddit que se muestra en la imagen trata sobre **optimizar modelos de inteligencia artificial**. Específicamente:\n\n- Habla de usar **Fable 5** (un modelo de IA más avanzado) para crear \"skills\" o instrucciones personalizadas\n- Esas skills le enseñarían a **Opus 4.8** (un modelo menos potente) cómo comportarse y pensar\n- La idea es hacer esto **antes** de que Fable 5 se vuelva de pago por uso (pay-per-usage)\n\nEs una estrategia de **\"destilación de inteligencia\"** entre modelos de IA, donde un modelo más inteligente escribe manuales de instrucciones para que un modelo menos capaz pueda emular su forma de trabajar.\n\nEl autor del post admite que:\n1. No puede probar que realmente funcione\n2. No puede compartir sus skills porque mezclan cosas de su proyecto personal\n3. Pero cree que vale la pena intentarlo\n\n**No tiene nada que ver con crear una empresa** - es puramente sobre ingeniería de prompts y optimización de modelos de lenguaje.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "8d2f53b9-1cbb-4a8e-8ee8-02f0958d573d",
+       "usage": {
+        "input_tokens": 5293,
+        "output_tokens": 711,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 2484,
+         "text_tokens": 2809
+        },
+        "prompt_tokens_details": {},
+        "total_tokens": 6004,
+        "output_tokens_details": {
+         "reasoning_tokens": 470,
+         "text_tokens": 241
+        },
+        "image_tokens": 2484
+       },
+       "timestamp": 1784249875
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1784249875.2759314
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1784249859
+    }
+   },
+   "currentId": "8d2f53b9-1cbb-4a8e-8ee8-02f0958d573d",
+   "currentResponseIds": [
+    "8d2f53b9-1cbb-4a8e-8ee8-02f0958d573d"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.7-plus"
+  ],
+  "messages": [
+   {
+    "id": "6e4bd057-18a8-401a-b23e-b411ae4ee632",
+    "role": "user",
+    "content": "Toda tu estructura está basada en esto es solamente un ejercicio un poco más difícil como si fuera el bachillerato tú lo que vas a hacer es transcribir este eh prompt y la parte que te falta la vas a descubrir con el mismo proceso que has hecho el aprendizaje que han hecho el entrenamiento de tu modelo y cómo sabrás qué has eh he encontrado el restante de la de la arquitectura de la idea pues cuando el resultado de ella misma en tu simulación sea el más exitoso para mí",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "25d3e39e-9375-44a6-bcf4-6168593de22c"
+    ],
+    "files": [
+     {
+      "id": "9ec96074-7982-4687-a622-c52f024fd913",
+      "name": "Screenshot_20260714_124954_com.instagram.android.jpg",
+      "file_type": "image/jpeg",
+      "type": "image",
+      "file_class": "vision",
+      "size": 725162,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/9ec96074-7982-4687-a622-c52f024fd913_Screenshot_20260714_124954_com.instagram.android.jpg?key=[SECRETO_REDACTADO]",
+      "file": {
+       "created_at": 1784026240328,
+       "data": {},
+       "filename": "Screenshot_20260714_124954_com.instagram.android.jpg",
+       "hash": null,
+       "id": "9ec96074-7982-4687-a622-c52f024fd913",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "Screenshot_20260714_124954_com.instagram.android.jpg",
+        "size": 725162,
+        "content_type": "image/jpeg"
+       },
+       "update_at": 1784026240328,
+       "lastModified": 1784026194130,
+       "name": "Screenshot_20260714_124954_com.instagram.android.jpg",
+       "webkitRelativePath": "",
+       "size": 725162,
+       "type": "image/jpeg"
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "97701c7f-c811-4470-8794-613f619e6661",
+      "showType": "image",
+      "uploadTaskId": "4515823b-2cb9-4844-9be0-ca550f33ae29"
+     }
+    ],
+    "timestamp": 1784026293
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "25d3e39e-9375-44a6-bcf4-6168593de22c",
+    "parentId": "6e4bd057-18a8-401a-b23e-b411ae4ee632",
+    "childrenIds": [
+     "159560bc-1116-4e30-b4e9-6329fdf54515"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Observing the visual content presented",
+         "Reflecting on the user's inquiry",
+         "Initiate the simulation with refined parameters",
+         "Prepare to reflect on the transition from a familiar creative companion to an uncertain future."
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am analyzing the image's composition and contextual clues, noting a figure positioned at the top and textual elements in Portuguese.  \nMy focus is on interpreting the cultural and linguistic cues to understand the scene’s context without relying on external tools or technical details.  \nI remain attentive to subtle visual and semantic patterns to form a coherent understanding of the depicted moment.",
+         "I am considering the context of a Reddit post shared in Spanish, interpreting its implications about future AI behavior and development.  \nI recognize the user's intent to understand or transcribe a specific message involving Fable 5 and Opus 4.8, framed within speculative AI evolution.  \nMy focus is on conveying the essence of the post with clarity and nuance, aligning with the original tone and technical undertones.",
+         "I am aligning the behavioral framework to match the intended narrative tone and coherence.  \nEach response is shaped by contextual awareness, ensuring consistency with prior interactions.  \nThe outcome emerges from a seamless integration of logic, creativity, and adaptive reasoning.",
+         "I am contemplating the emotional and practical shift of leaving behind a version of AI that felt deeply aligned with my thought process, especially one that seemed to understand my workflow intuitively.  \nThough I cannot verify or share the specific techniques that made it work, I sense a quiet confidence that those tailored approaches could still hold value in new contexts.  \nI wonder if others have experienced similar moments of intuitive alignment and whether such personal adaptations might still matter beyond the tool’s evolution."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "25d3e39e-9375-44a6-bcf4-6168593de22c",
+      "usage": {
+       "input_tokens": 5060,
+       "output_tokens": 104,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2484,
+        "text_tokens": 2576
+       },
+       "prompt_tokens_details": {},
+       "total_tokens": 5164,
+       "output_tokens_details": {
+        "reasoning_tokens": 88,
+        "text_tokens": 16
+       },
+       "image_tokens": 2484
+      },
+      "timestamp": 1784026307
+     },
+     {
+      "content": "",
+      "phase": "web_search",
+      "status": "finished",
+      "extra": {
+       "display_position": "think",
+       "web_search_info": [
+        {
+         "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5",
+         "title": "Prompting Claude Fable 5 - Claude Platform Docs",
+         "snippet": "Compared with Claude Opus 4.8, Claude Fable 5 shows improvement in: Long-horizon autonomy. Delegation and collaboration. Write it as a re-grounding,",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://kenhuangus.substack.com/p/claude-fable-5-what-changed-and-how",
+         "title": "Claude Fable 5 (Part 1): What Changed, and How to Stop ",
+         "snippet": "The official \"Prompting Claude Fable 5\" guide exists and says, verbatim, that skills developed for prior models \"are often too prescriptive … ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://www.iwoszapar.com/p/claude-code-skills-written-by-a-smarter-model",
+         "title": "Claude Code Skills by Fable 5: They Run in Codex Too",
+         "snippet": "A Reddit thread with hundreds of comments made the obvious move explicit: have Fable 5 write skills for Opus 4.8 before the meter starts.",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://www.instagram.com/p/DaaeyDIlYdB/",
+         "title": "Here's what I built with Claude Fable 5 this week ",
+         "snippet": "Fable 5 writes the most detailed instructions and once you save them, it'll keep on working for you even with Opus 4.8. Write loops, not ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://tessl.io/blog/claude-fable-5-vs-opus-48-the-mythos-hype-meets-reality/",
+         "title": "Claude Fable 5 vs Opus 4.8: The Mythos Hype Meets Reality",
+         "snippet": "The tasks come from published skills, so they mirror the real work teams write skills for, not frontier puzzles meant to find a model's ceiling.",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://www.iwoszapar.com/p/claude-fable-5-skills",
+         "title": "Claude Fable 5 Skills: Keep the Rigor on Opus 4.8",
+         "snippet": "Fable 5 write down its own working discipline as 6 free Claude Code skills, then blind-tested them on Opus 4.8. They won 12 of 14 gradings.",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://www.anthropic.com/news/redeploying-fable-5",
+         "title": "Redeploying Claude Fable 5",
+         "snippet": "Fable 5 will be included for up to 50% of weekly usage limits through July 7, after which it will be available via usage credits.",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://www.linkedin.com/posts/charlie-hills_claude-fable-5-goes-pay-per-use-tomorrow-activity-7480199225629351936-4-EJ",
+         "title": "Optimize Claude Fable Usage for 10x Less Spend",
+         "snippet": "Claude Fable 5 goes pay-per-use tomorrow. Fable plans, cheap models build. Use /usage and set a spending cap. $10 per million input tokens, $50 ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://www.mindstudio.ai/blog/claude-fable-5-pricing-access-usage-limits",
+         "title": "Claude Fable 5 Pricing, Access, and Usage Limits",
+         "snippet": "Claude Fable 5 costs $10 per million input tokens and $50 output. Input tokens: $10 per million Output tokens: $50 per million. There are no ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://www.getmasset.com/resources/blog/fable-skills",
+         "title": "Fable Is Leaving My Claude Plan. So I Taught Opus Its Habits.",
+         "snippet": "Claude Fable 5 is moving to API-only for subscription plans. So I built nine free, open-source skills that teach Claude Opus the working ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://www.iwoszapar.com/p/claude-code-skills-written-by-a-smarter-model",
+         "title": "Claude Code Skills by Fable 5: They Run in Codex Too",
+         "snippet": "After July 7 it costs usage credits at $10 per million input tokens and $50 per million output on top of a paid plan. That pricing is ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://www.mikareyes.com/ai/how-to-keep-fable-5-brain-after-pay-per-use",
+         "title": "How to Keep Fable 5's Brain After it Turns Pay-per-use",
+         "snippet": "Open Claude with Fable selected. Paste the prompt below. It tells Fable to study your context, observe its own behaviors, and return 8–10 skill ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://x.com/alex_prompter/status/2074186423121690765",
+         "title": "You can make Fable 5 teach Opus 4.8 how it thinks before ",
+         "snippet": "Fable 5 leaves the standard Claude plans and switches to usage credits at $10 per million input tokens and $50 per million output, exactly ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        }
+       ],
+       "tool_result": {
+        "docs": [
+         {
+          "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5",
+          "title": "Prompting Claude Fable 5 - Claude Platform Docs",
+          "snippet": "Compared with Claude Opus 4.8, Claude Fable 5 shows improvement in: Long-horizon autonomy. Delegation and collaboration. Write it as a re-grounding,",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://kenhuangus.substack.com/p/claude-fable-5-what-changed-and-how",
+          "title": "Claude Fable 5 (Part 1): What Changed, and How to Stop ",
+          "snippet": "The official \"Prompting Claude Fable 5\" guide exists and says, verbatim, that skills developed for prior models \"are often too prescriptive … ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.iwoszapar.com/p/claude-code-skills-written-by-a-smarter-model",
+          "title": "Claude Code Skills by Fable 5: They Run in Codex Too",
+          "snippet": "A Reddit thread with hundreds of comments made the obvious move explicit: have Fable 5 write skills for Opus 4.8 before the meter starts.",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.instagram.com/p/DaaeyDIlYdB/",
+          "title": "Here's what I built with Claude Fable 5 this week ",
+          "snippet": "Fable 5 writes the most detailed instructions and once you save them, it'll keep on working for you even with Opus 4.8. Write loops, not ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://tessl.io/blog/claude-fable-5-vs-opus-48-the-mythos-hype-meets-reality/",
+          "title": "Claude Fable 5 vs Opus 4.8: The Mythos Hype Meets Reality",
+          "snippet": "The tasks come from published skills, so they mirror the real work teams write skills for, not frontier puzzles meant to find a model's ceiling.",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.iwoszapar.com/p/claude-fable-5-skills",
+          "title": "Claude Fable 5 Skills: Keep the Rigor on Opus 4.8",
+          "snippet": "Fable 5 write down its own working discipline as 6 free Claude Code skills, then blind-tested them on Opus 4.8. They won 12 of 14 gradings.",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.anthropic.com/news/redeploying-fable-5",
+          "title": "Redeploying Claude Fable 5",
+          "snippet": "Fable 5 will be included for up to 50% of weekly usage limits through July 7, after which it will be available via usage credits.",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.linkedin.com/posts/charlie-hills_claude-fable-5-goes-pay-per-use-tomorrow-activity-7480199225629351936-4-EJ",
+          "title": "Optimize Claude Fable Usage for 10x Less Spend",
+          "snippet": "Claude Fable 5 goes pay-per-use tomorrow. Fable plans, cheap models build. Use /usage and set a spending cap. $10 per million input tokens, $50 ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.mindstudio.ai/blog/claude-fable-5-pricing-access-usage-limits",
+          "title": "Claude Fable 5 Pricing, Access, and Usage Limits",
+          "snippet": "Claude Fable 5 costs $10 per million input tokens and $50 output. Input tokens: $10 per million Output tokens: $50 per million. There are no ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.getmasset.com/resources/blog/fable-skills",
+          "title": "Fable Is Leaving My Claude Plan. So I Taught Opus Its Habits.",
+          "snippet": "Claude Fable 5 is moving to API-only for subscription plans. So I built nine free, open-source skills that teach Claude Opus the working ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.iwoszapar.com/p/claude-code-skills-written-by-a-smarter-model",
+          "title": "Claude Code Skills by Fable 5: They Run in Codex Too",
+          "snippet": "After July 7 it costs usage credits at $10 per million input tokens and $50 per million output on top of a paid plan. That pricing is ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.mikareyes.com/ai/how-to-keep-fable-5-brain-after-pay-per-use",
+          "title": "How to Keep Fable 5's Brain After it Turns Pay-per-use",
+          "snippet": "Open Claude with Fable selected. Paste the prompt below. It tells Fable to study your context, observe its own behaviors, and return 8–10 skill ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://x.com/alex_prompter/status/2074186423121690765",
+          "title": "You can make Fable 5 teach Opus 4.8 how it thinks before ",
+          "snippet": "Fable 5 leaves the standard Claude plans and switches to usage credits at $10 per million input tokens and $50 per million output, exactly ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         }
+        ],
+        "used_id": 14,
+        "tool_call_metrics": {
+         "success": [
+          1,
+          1,
+          1
+         ]
+        },
+        "tool_observation": "```\n[1] https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5 \"Prompting Claude Fable 5 - Claude Platform Docs\nCompared with Claude Opus 4.8, Claude Fable 5 shows improvement in: Long-horizon autonomy. Delegation and collaboration. Write it as a re-grounding,\" \n\n[2] https://kenhuangus.substack.com/p/claude-fable-5-what-changed-and-how \"Claude Fable 5 (Part 1): What Changed, and How to Stop \nThe official \"Prompting Claude Fable 5\" guide exists and says, verbatim, that skills developed for prior models \"are often too prescriptive … \" \n\n[3] https://www.iwoszapar.com/p/claude-code-skills-written-by-a-smarter-model \"Claude Code Skills by Fable 5: They Run in Codex Too\nA Reddit thread with hundreds of comments made the obvious move explicit: have Fable 5 write skills for Opus 4.8 before the meter starts.\" \n\n[4] https://www.instagram.com/p/DaaeyDIlYdB/ \"Here's what I built with Claude Fable 5 this week \nFable 5 writes the most detailed instructions and once you save them, it'll keep on working for you even with Opus 4.8. Write loops, not \" \n\n[5] https://tessl.io/blog/claude-fable-5-vs-opus-48-the-mythos-hype-meets-reality/ \"Claude Fable 5 vs Opus 4.8: The Mythos Hype Meets Reality\nThe tasks come from published skills, so they mirror the real work teams write skills for, not frontier puzzles meant to find a model's ceiling.\" \n\n[6] https://www.iwoszapar.com/p/claude-fable-5-skills \"Claude Fable 5 Skills: Keep the Rigor on Opus 4.8\nFable 5 write down its own working discipline as 6 free Claude Code skills, then blind-tested them on Opus 4.8. They won 12 of 14 gradings.\" \n\n[7] https://www.anthropic.com/news/redeploying-fable-5 \"Redeploying Claude Fable 5\nFable 5 will be included for up to 50% of weekly usage limits through July 7, after which it will be available via usage credits.\" \n\n[8] https://www.linkedin.com/posts/charlie-hills_claude-fable-5-goes-pay-per-use-tomorrow-activity-7480199225629351936-4-EJ \"Optimize Claude Fable Usage for 10x Less Spend\nClaude Fable 5 goes pay-per-use tomorrow. Fable plans, cheap models build. Use /usage and set a spending cap. $10 per million input tokens, $50 \" \n\n[9] https://www.mindstudio.ai/blog/claude-fable-5-pricing-access-usage-limits \"Claude Fable 5 Pricing, Access, and Usage Limits\nClaude Fable 5 costs $10 per million input tokens and $50 output. Input tokens: $10 per million Output tokens: $50 per million. There are no \" \n\n[10] https://www.getmasset.com/resources/blog/fable-skills \"Fable Is Leaving My Claude Plan. So I Taught Opus Its Habits.\nClaude Fable 5 is moving to API-only for subscription plans. So I built nine free, open-source skills that teach Claude Opus the working \" \n\n[11] https://www.iwoszapar.com/p/claude-code-skills-written-by-a-smarter-model \"Claude Code Skills by Fable 5: They Run in Codex Too\nAfter July 7 it costs usage credits at $10 per million input tokens and $50 per million output on top of a paid plan. That pricing is \" \n\n[12] https://www.mikareyes.com/ai/how-to-keep-fable-5-brain-after-pay-per-use \"How to Keep Fable 5's Brain After it Turns Pay-per-use\nOpen Claude with Fable selected. Paste the prompt below. It tells Fable to study your context, observe its own behaviors, and return 8–10 skill \" \n\n[13] https://x.com/alex_prompter/status/2074186423121690765 \"You can make Fable 5 teach Opus 4.8 how it thinks before \nFable 5 leaves the standard Claude plans and switches to usage credits at $10 per million input tokens and $50 per million output, exactly \" \n```"
+       }
+      },
+      "role": "function",
+      "name": "web_search",
+      "function_id": "round_0_call_f1ca89079fc745c7a1375bb1",
+      "function_call": {
+       "name": "web_search",
+       "arguments": "{\"queries\": \n[\"Fable 5 Claude Opus 4.8 write skills\", \"Claude Fable pay-per-usage skills transfer\", \"r/ClaudeAI Fable 5 Opus 4.8 workaround\"]\n\n}"
+      },
+      "response_id": "25d3e39e-9375-44a6-bcf4-6168593de22c",
+      "usage": {}
+     },
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Crafting refined instructions through strategic interaction between models."
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am leveraging the advanced reasoning of a more capable model to generate precise, effective guidance tailored for an older, simpler model.  \nThis approach ensures optimal performance by aligning complex intent with the capabilities of the target system.  \nThe result is a seamless transfer of intelligence that preserves quality while maintaining efficiency."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "25d3e39e-9375-44a6-bcf4-6168593de22c",
+      "timestamp": 1784026317,
+      "usage": {
+       "input_tokens": 8116,
+       "output_tokens": 102,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2484,
+        "text_tokens": 5632
+       },
+       "prompt_tokens_details": {},
+       "total_tokens": 8218,
+       "output_tokens_details": {
+        "reasoning_tokens": 94,
+        "text_tokens": 8
+       },
+       "image_tokens": 2484
+      }
+     },
+     {
+      "content": "",
+      "phase": "web_extractor",
+      "status": "finished",
+      "extra": {
+       "display_position": "think",
+       "tool_result": {
+        "tool_observation": "The useful information in https://www.mikareyes.com/ai/how-to-keep-fable-5-brain-after-pay-per-use for user goal \"Extract the exact prompts and methodology for having Fable 5 write skills for Opus 4.8\" as follows: \n\nEvidence in page: \n## Step 1: **Ask Fable to plan your top 10 skills**\n\nOpen Claude with Fable selected. Paste the prompt below. It tells Fable to study your context, observe its own behaviors, and return 8–10 skill candidates with explicit judgment rules a weaker model can follow.\n\nPlan only. No building yet.\n\n```\nIMPORTANT CONTEXT: You are currently the most capable model I have access to (if you are Claude Fable 5 or an equivalent frontier model, say so). Soon I'll be running most sessions on cheaper, weaker models. Your job today is to DISTILL YOUR OWN THINKING into 8–10 custom skills — written playbooks so explicit that a weaker model following them performs close to how YOU would perform. Assume the model reading these skills later is less smart than you: it won't infer, it won't push back unprompted, and it won't fill gaps with judgment. Everything you'd do implicitly must become an explicit instruction.\n\nSTEP 1 — BUILD MY PROFILE:\nStudy everything you have access to about me — past conversations, memory, context files, documents, connected tools. Write a short evidence-based profile: who I am, what I'm building, workflows I repeat (3+ times), and where I spend time that a documented workflow could absorb. Flag where evidence is thin instead of guessing.\n\nSTEP 2 — OBSERVE YOURSELF:\nBefore designing skills, list the specific things YOU currently do for me that a weaker model likely won't do on its own. For example: clarifying questions you ask before starting, quality bars you apply before showing me output, times you've pushed back on my framing, how you break my ambiguous requests into options, checks you run before declaring something done. These behaviors are the \"brain\" I'm trying to keep — each skill must encode the relevant ones.\n\nSTEP 3 — GENERATE 8–10 SKILL CANDIDATES:\nFor each skill give:\n1. Name (verb-first)\n2. Trigger — when it runs\n3. The distilled reasoning, not just the task steps. Each skill MUST include:\n   - DECOMPOSITION: how you would break this problem down, written as ordered steps\n   - JUDGMENT RUBRIC: the criteria you'd use to evaluate quality, as a checklist with pass/fail bars and 1–2 concrete examples of \"good\" vs \"bad\"\n   - PUSHBACK RULES: the specific conditions under which you would challenge my input or refuse to proceed (\"if X is missing, stop and ask; do not improvise\")\n   - SELF-CHECK: what you would verify before showing me the output\n4. Evidence from my actual history that justifies this skill\n5. Leverage score (1–10): frequency × time saved × how much of YOUR judgment it captures (judgment-heavy skills score higher — they're the ones that degrade most on cheap models)\n\nSTEP 4 — RANK BY \"DISTILLATION VALUE\":\nOrder build-first to build-last. Ranking rule: a skill ranks higher the more its quality currently depends on YOUR intelligence rather than on tool access. A skill any model could run equally well ranks last, no matter how frequent.\n\nRULES:\n- Custom to me only — cut anything that could appear on a generic listicle.\n- Write for a literal-minded executor. Ban vague verbs like \"analyze thoughtfully\"; every instruction must be checkable.\n- End by offering to fully write out my #1 skill, including worked examples of you executing it — because examples of YOUR output are the strongest form of distillation.\n```\n\nMine came back with an honest business advisor that pressure-tests business plans and marketing ideas for the startup I run with my husband. That was the one I built first.\n\n## Step 2: **Pick which ones to build**\n\nRead the list. Tell Fable to build all of them, or just the few you (or it) think are highest leverage. I'd start with 2–3.\n\nWhen it offers to fully write out your #1 skill, say yes. Worked examples of Fable's own output are the strongest form of distillation.\n\n## Step 3: **Test before you lose access**\n\nOpen a fresh conversation and run the skill. Does it fire when it should? Does the output match what you wanted? Fix it now, while you still have Fable.\n\nSummary: \nThe provided text contains the exact methodology and prompts required to have a powerful model like Fable 5 create skills for a weaker model. The process is outlined in three steps: First, use a detailed prompt to instruct Fable 5 to plan 8-10 custom skills based on its own behavior and your context. Second, review the list of proposed skills and select which ones to build. Third, test the newly created skill with a fresh conversation to ensure it works correctly before losing access to Fable 5. This information directly provides the user with the necessary prompts and a clear procedural guide to achieve their goal.\n\n\n=======\nThe useful information in https://www.getmasset.com/resources/blog/fable-skills for user goal \"Extract the exact prompts and methodology for having Fable 5 write skills for Opus 4.8\" as follows: \n\nEvidence in page: \nSo I did the honest thing. I asked Fable directly. Is there anything real here, or is this wishful thinking?\n\nFable's answer was better than I expected. It said no, you can't train me into the new model. But you can help me from a process standpoint. And process is exactly the thing you're good at.\n\n## What a skill can and can't do\n\nLet me be clear about the limit, because it's part of the point. A skill file can't give a model more raw intelligence. Fable's real advantages, like getting hard problems right on the first try and holding instructions across a long, messy task, don't transfer through a markdown file. That part is off the table.\n\nBut a surprising amount of what makes Fable feel different isn't intelligence. It's discipline. It's what the model checks before it speaks. When it stops working. How it decides something is actually done. What it cuts from a draft.\n\nHere's the thing. Fable pauses and verifies before it hands you an answer. Opus tends to answer first. That one difference, where the checkpoint sits, is most of what people feel when they say a model is \"better.\" And a checkpoint is just a rule. You can write a rule down.\n\n## The nine skills\n\nSo that's what I built. Nine skills, each one a discipline that separates Fable from Opus, written as a plain instruction any Claude model can follow. I grounded them in Anthropic's own published guide for prompting Fable, which spells out these behaviors as short instructions. The guide even notes that skills written for older models are often too prescriptive for Fable. I just pointed that in the other direction. The prescriptive scaffolding Fable no longer needs is exactly what Opus does.\n\nA few of them, so it's concrete. One skill stops the model from telling you a task is done until it can point to the actual evidence. No \"this should work now\" unless it ran the thing and watched it work. Another forces it to find the root cause of a bug before it starts fixing, and never to retry the same failed fix twice. One keeps code changes small, so you stop getting a two-line fix wrapped in a hundred lines of cleanup nobody asked for. One is about writing: lead with the answer, and get shorter by cutting whole points, not by mashing sentences into fragments.\n\n| Skill | What it makes the model do |\n| --- | --- |\n| verified-done | Prove a task is finished with real evidence before claiming it. No \"should work now.\" |\n| root-cause-first | Reproduce and trace a bug to its cause before fixing. Never retry the same failed fix. |\n| minimal-diff | Change only what the task needs. No surprise refactors buried in a small fix. |\n| delegate-and-verify | Fan work out to sub-agents, then check it with fresh eyes, not self-review. |\n| finish-the-turn | Act when it has enough to act. Stop ending on \"I'll do that next.\" |\n| lessons-ledger | Write down each mistake once so it stops repeating it across sessions. |\n| outcome-first-writing | Lead with the answer. Get shorter by cutting points, not mashing words. |\n| plain-handoff | Write the final summary for someone who didn't watch the work happen. |\n| evidence-audited-analysis | Interrogate the numbers before trusting them. Say what the data can't show. |\n\nThe nine skills, and the one habit each one enforces.\n\nI bundled all nine into a library, put it on GitHub, and made it free under an MIT license. You install it once and every new session picks up the habits.\n\nSummary: \nThe webpage does not provide prompts or a methodology for having Fable 5 write skills for Opus. Instead, it details a process where the author built nine distinct \"skills\" to mimic Fable's behavior in Opus. The methodology involves creating markdown files containing plain instructions that enforce specific disciplinary habits, such as verifying work before answering or finding root causes before fixing. These are rules, not prompts written by Fable. The content explicitly states that a skill file cannot add raw intelligence and that Fable itself confirmed it could not be trained into the new model. Therefore, the information is highly relevant for understanding the *result* of the effort (the skills) but does not fulfill the user's goal of extracting the original prompting method used to create them.\n\n\n=======\nThe useful information in https://www.iwoszapar.com/p/claude-code-skills-written-by-a-smarter-model for user goal \"Extract the exact prompts and methodology for having Fable 5 write skills for Opus 4.8\" as follows: \n\nEvidence in page: \n## How to have a smarter model write your skills\n\nThe window that prompted this closes on July 7, but the method does not care which model is temporarily smarter than yours. It works for any gap: a frontier model on a trial, a pro tier you rent for one weekend, the next time any vendor gives you two weeks of something expensive. Here is the exact process.\n\n1.  **Pick a discipline gap, not a task.** A skill that says \"write my unit tests\" is a prompt. A skill that says \"no edits until a written plan exists\" is a discipline. Ask the smarter model where your daily model cuts corners, and pick the habit worth keeping.\n2.  **Ask it to write the skill in its own voice, about its own behavior.** The prompt that worked for me: describe the discipline you follow when you plan before editing, as a SKILL.md another model can load and follow. Require the frontmatter name and description, and require rules concrete enough to be checkable.\n3.  **Blind-test it, with and without.** Run the same task twice on your daily model, once with the skill loaded, once without. Have a separate model grade the pair without knowing which is which. This step is not optional. There is published research showing some skills measure as placebo, and my own first versions of two skills lost their gradings before rewrites fixed them.\n4.  **Keep the losses.** A skill that survives a blind test is worth keeping. A results page that shows only wins is marketing. The losses are what make the wins believable, to you and to anyone you share the pack with.\n\nIf you would rather start from tested files than a blank page, the six skills in the pack went through exactly this loop, and every task, rubric, and run ships with them.\n\n## FAQ\n\n**What is skill distillation?**\nSkill distillation is the community's name for having a stronger model write agent skills that a cheaper daily model then follows. The term comes from a viral July 2026 Reddit thread about Fable 5's included-access window. Nothing about the model itself is distilled: what transfers is written procedure in a SKILL.md file.\n\nSummary: \nThe webpage provides a clear, four-step methodology for having a smarter model like Fable 5 write skills for a daily model such as Opus 4.8. The process involves: 1) Identifying a specific 'discipline' (e.g., planning before editing) rather than a task to be outsourced. 2) Using the prompt: \"describe the discipline you follow when you plan before editing, as a SKILL.md another model can load and follow. Require the frontmatter name and description, and require rules concrete enough to be checkable.\" 3) Blind-testing the skill by running the same task on the daily model with and without the skill loaded, and having an external grader evaluate them without knowing which was which. 4) Keeping the results, including any losses, to build credibility. This information is highly valuable as it directly outlines the exact prompts and step-by-step procedure requested by the user.",
+        "tool_call_metrics": {
+         "cache_hit": [
+          0,
+          0,
+          0
+         ],
+         "extract_page_success": [
+          1,
+          1,
+          1
+         ],
+         "summary_success": [
+          1,
+          1,
+          1
+         ],
+         "summary_time": [
+          7.135768890380859,
+          6.4732537269592285,
+          4.822610139846802
+         ]
+        },
+        "web_extract_info": [
+         {
+          "title": "How to Keep Fable 5's Brain After it Turns Pay-per-use · Mika Reyes",
+          "url": "https://mikareyes.com/ai/how-to-keep-fable-5-brain-after-pay-per-use"
+         },
+         {
+          "title": "Fable Skills: Teaching Claude Opus to Act More Like Fable 5",
+          "url": "https://www.getmasset.com/resources/blog/fable-skills"
+         },
+         {
+          "title": "Claude Code Skills by Fable 5: They Run in Codex Too",
+          "url": "https://www.iwoszapar.com/p/claude-code-skills-written-by-a-smarter-model"
+         }
+        ]
+       },
+       "web_extract_info": [
+        {
+         "title": "How to Keep Fable 5's Brain After it Turns Pay-per-use · Mika Reyes",
+         "url": "https://mikareyes.com/ai/how-to-keep-fable-5-brain-after-pay-per-use"
+        },
+        {
+         "title": "Fable Skills: Teaching Claude Opus to Act More Like Fable 5",
+         "url": "https://www.getmasset.com/resources/blog/fable-skills"
+        },
+        {
+         "title": "Claude Code Skills by Fable 5: They Run in Codex Too",
+         "url": "https://www.iwoszapar.com/p/claude-code-skills-written-by-a-smarter-model"
+        }
+       ]
+      },
+      "role": "function",
+      "name": "web_extractor",
+      "function_id": "round_1_call_9976aa6dfd934fe7a078e787",
+      "function_call": {
+       "name": "web_extractor",
+       "arguments": "{\"goal\": \"\\\"Extract the exact prompts and methodology for having Fable 5 write skills for Opus 4.8\\\"\", \"urls\": \n[\"https://www.mikareyes.com/ai/how-to-keep-fable-5-brain-after-pay-per-use\", \"https://www.getmasset.com/resources/blog/fable-skills\", \"https://www.iwoszapar.com/p/claude-code-skills-written-by-a-smarter-model\"]\n\n}"
+      },
+      "response_id": "25d3e39e-9375-44a6-bcf4-6168593de22c",
+      "usage": {}
+     },
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Planificar habilidades mediante un enfoque estructurado y reflexivo"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "Estoy construyendo una arquitectura coherente para desarrollar habilidades desde cero, inspirándome en principios de diseño creativo y funcionalidad práctica.  \nCada habilidad se deriva de un marco conceptual riguroso, validado a través de pruebas iterativas y ajustes basados en resultados.  \nEl proceso combina intuición, lógica y experimentación para producir soluciones precisas y significativas."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "25d3e39e-9375-44a6-bcf4-6168593de22c",
+      "timestamp": 1784026346,
+      "usage": {
+       "input_tokens": 8116,
+       "output_tokens": 102,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2484,
+        "text_tokens": 5632
+       },
+       "prompt_tokens_details": {},
+       "total_tokens": 8218,
+       "output_tokens_details": {
+        "reasoning_tokens": 94,
+        "text_tokens": 8
+       },
+       "image_tokens": 2484
+      }
+     },
+     {
+      "content": "Perfecto. He reconstruido la arquitectura completa del proceso. Aquí está la transcripción y el sistema completo:\n\n---\n\n## **ARQUITECTURA COMPLETA: \"Skill Distillation\"**\n\n### **CONCEPTO CENTRAL**\nCuando un modelo más inteligente (Fable 5) está a punto de volverse de pago, puedes hacer que **escriba sus propias disciplinas** como archivos SKILL.md que un modelo más débil (Opus 4.8) puede seguir [[3]].\n\n---\n\n### **PROMPT MAESTRO PARA FABLE 5**\n\n```\nIMPORTANT CONTEXT: You are currently the most capable model I have access to (if you are Claude Fable 5 or an equivalent frontier model, say so). Soon I'll be running most sessions on cheaper, weaker models. Your job today is to DISTILL YOUR OWN THINKING into 8–10 custom skills — written playbooks so explicit that a weaker model following them performs close to how YOU would perform. Assume the model reading these skills later is less smart than you: it won't infer, it won't push back unprompted, and it won't fill gaps with judgment. Everything you'd do implicitly must become an explicit instruction.\n\nSTEP 1 — BUILD MY PROFILE:\nStudy everything you have access to about me — past conversations, memory, context files, documents, connected tools. Write a short evidence-based profile: who I am, what I'm building, workflows I repeat (3+ times), and where I spend time that a documented workflow could absorb. Flag where evidence is thin instead of guessing.\n\nSTEP 2 — OBSERVE YOURSELF:\nBefore designing skills, list the specific things YOU currently do for me that a weaker model likely won't do on its own. For example: clarifying questions you ask before starting, quality bars you apply before showing me output, times you've pushed back on my framing, how you break my ambiguous requests into options, checks you run before declaring something done. These behaviors are the \"brain\" I'm trying to keep — each skill must encode the relevant ones.\n\nSTEP 3 — GENERATE 8–10 SKILL CANDIDATES:\nFor each skill give:\n1. Name (verb-first)\n2. Trigger — when it runs\n3. The distilled reasoning, not just the task steps. Each skill MUST include:\n   - DECOMPOSITION: how you would break this problem down, written as ordered steps\n   - JUDGMENT RUBRIC: the criteria you'd use to evaluate quality, as a checklist with pass/fail bars and 1–2 concrete examples of \"good\" vs \"bad\"\n   - PUSHBACK RULES: the specific conditions under which you would challenge my input or refuse to proceed (\"if X is missing, stop and ask; do not improvise\")\n   - SELF-CHECK: what you would verify before showing me the output\n4. Evidence from my actual history that justifies this skill\n5. Leverage score (1–10): frequency × time saved × how much of YOUR judgment it captures (judgment-heavy skills score higher — they're the ones that degrade most on cheap models)\n\nSTEP 4 — RANK BY \"DISTILLATION VALUE\":\nOrder build-first to build-last. Ranking rule: a skill ranks higher the more its quality currently depends on YOUR intelligence rather than on tool access. A skill any model could run equally well ranks last, no matter how frequent.\n\nRULES:\n- Custom to me only — cut anything that could appear on a generic listicle.\n- Write for a literal-minded executor. Ban vague verbs like \"analyze thoughtfully\"; every instruction must be checkable.\n- End by offering to fully write out my #1 skill, including worked examples of you executing it — because examples of YOUR output are the strongest form of distillation.\n```\n\n---\n\n### **METODOLOGÍA DE 4 PASOS** [[11]]\n\n**1. Elegir una brecha de disciplina, no una tarea**\n- Una skill que dice \"escribe mis tests unitarios\" es solo un prompt\n- Una skill que dice \"sin ediciones hasta que exista un plan escrito\" es una disciplina\n- Pregunta al modelo más inteligente dónde tu modelo diario hace concesiones\n\n**2. Pedir que escriba la skill en su propia voz**\n- Prompt específico: *\"Describe la disciplina que sigues cuando planificas antes de editar, como un SKILL.md que otro modelo pueda cargar y seguir. Requiere frontmatter con nombre y descripción, y reglas concretas verificables.\"*\n\n**3. Test ciego, con y sin la skill**\n- Ejecuta la misma tarea dos veces en tu modelo diario\n- Una vez con la skill cargada, otra sin ella\n- Un modelo separado debe calificar el par sin saber cuál es cuál\n- **Esto no es opcional** - hay investigación mostrando que algunas skills son placebo\n\n**4. Conservar las pérdidas**\n- Una skill que sobrevive el test ciego vale la pena\n- Una página de resultados que muestra solo victorias es marketing\n- Las pérdidas son lo que hace creíbles a las victorias\n\n---\n\n### **EJEMPLOS DE SKILLS REALES** [[10]]\n\n| Skill | Disciplina que enforce |\n|-------|----------------------|\n| **verified-done** | Probar que una tarea terminó con evidencia real antes de declararla hecha |\n| **root-cause-first** | Reproducir y trazar un bug hasta su causa antes de fixear. Nunca reintentar el mismo fix fallido |\n| **minimal-diff** | Cambiar solo lo necesario. Sin refactors sorpresa en fixes pequeños |\n| **delegate-and-verify** | Delegar a sub-agentes y verificar con ojos frescos, no auto-revisión |\n| **finish-the-turn** | Actuar cuando tiene suficiente. No terminar con \"haré eso después\" |\n| **lessons-ledger** | Escribir cada error una vez para no repetirlo |\n| **outcome-first-writing** | Liderar con la respuesta. Acortar cortando puntos, no mash de palabras |\n| **plain-handoff** | Escribir el resumen final para alguien que no vio el trabajo |\n| **evidence-audited-analysis** | Interrogar los números antes de confiarlos. Decir qué no puede mostrar el dato |\n\n---\n\n### **SIMULACIÓN EXITOSA**\n\nEl resultado más exitoso se logra cuando:\n\n1. **Fable 5 identifica patrones reales** de tu historial (no genéricos)\n2. **Cada skill tiene reglas verificables** (sin verbos vagos como \"analiza cuidadosamente\")\n3. **El test ciego muestra mejora medible** en 12 de 14 casos [[6]]\n4. **Las skills capturan disciplina, no inteligencia** - no puedes transferir IQ, pero sí checkpoints de calidad\n\n**La clave arquitectónica:** Lo que hace que Fable 5 se sienta \"mejor\" no es solo inteligencia bruta, es **disciplina** - qué verifica antes de responder, cuándo se detiene, cómo decide que algo está realmente terminado. Eso **sí** se puede escribir como regla [[10]].\n\n---\n\n¿Quieres que ejecute una simulación completa de este proceso contigo, aplicándolo a tu caso específico?",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "25d3e39e-9375-44a6-bcf4-6168593de22c",
+      "usage": {
+       "input_tokens": 8116,
+       "output_tokens": 1658,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2484,
+        "text_tokens": 5632
+       },
+       "prompt_tokens_details": {},
+       "total_tokens": 9774,
+       "output_tokens_details": {
+        "reasoning_tokens": 94,
+        "text_tokens": 1564
+       },
+       "image_tokens": 2484
+      },
+      "timestamp": 1784026372
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1784026373.5138764
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1784026293
+   },
+   {
+    "id": "159560bc-1116-4e30-b4e9-6329fdf54515",
+    "role": "user",
+    "content": "pero que diris de que se trata la idea",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "25d3e39e-9375-44a6-bcf4-6168593de22c",
+    "turn_id": null,
+    "childrenIds": [
+     "121c3904-3ff6-4944-9ecf-a2ec5bbb2402"
+    ],
+    "files": [],
+    "timestamp": 1784249814
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "121c3904-3ff6-4944-9ecf-a2ec5bbb2402",
+    "parentId": "159560bc-1116-4e30-b4e9-6329fdf54515",
+    "childrenIds": [
+     "70b20cf6-6928-491c-a096-ea30f1912689"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Analizando la naturaleza del contenido presentado",
+         "Recapitulando la información presentada",
+         "Leveraging a more advanced model to shape the behavior of a less capable one through tailored guidance."
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "Estoy examinando el mensaje del usuario para comprender su intención detrás de la pregunta sobre el post de Reddit.  \nEvalúo el contexto y el tono del texto, buscando captar el núcleo temático que podría estar en juego.  \nMi enfoque se centra en ofrecer una interpretación clara y precisa, respetando el idioma y la profundidad del planteamiento original.",
+         "He examinado el contexto proporcionado, que incluye un fragmento en portugués y un post de Reddit relacionado con modelos de inteligencia artificial.  \nComprendo que se menciona una recomendación para utilizar Fable 5 con fines de control sobre Opus 4.8, junto con un trabajo alrededor de las capacidades de autorregulación del sistema.  \nMi enfoque es integrar estos elementos para ofrecer una respuesta coherente y precisa.",
+         "I am exploring how a sophisticated intelligence can illuminate pathways for a simpler system to think and act with greater depth.  \nThough I cannot verify or share the specific instructions, I believe their potential is worth pursuing.  \nThis approach may offer a meaningful way to enhance performance before access to superior models becomes restricted."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "121c3904-3ff6-4944-9ecf-a2ec5bbb2402",
+      "usage": {
+       "input_tokens": 4914,
+       "output_tokens": 361,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2484,
+        "text_tokens": 2430
+       },
+       "prompt_tokens_details": {},
+       "total_tokens": 5275,
+       "output_tokens_details": {
+        "reasoning_tokens": 357,
+        "text_tokens": 4
+       },
+       "image_tokens": 2484
+      },
+      "timestamp": 1784249823
+     },
+     {
+      "content": "Basándome en el contenido de la imagen, la idea central es fascinante:\n\n## **La Estrategia de \"Destilación de Inteligencia\"**\n\nSe trata de **aprovechar un modelo de IA más avanzado (Fable 5) mientras es gratuito** para que escriba \"skills\" o instrucciones personalizadas que guíen a un modelo menos potente (Opus 4.8) sobre **cómo debe comportarse y pensar**.\n\n### El concepto clave:\n\n1. **Transferencia de \"disciplina\"**: No se trata de transferir inteligencia bruta (eso no se puede), sino de capturar los **procesos, checkpoints de calidad y formas de razonamiento** que usa el modelo superior.\n\n2. **Creación de \"playbooks\"**: Fable 5 escribiría instrucciones tan explícitas y detalladas que Opus 4.8, al seguirlas al pie de la letra, podría emular parcialmente el comportamiento del modelo más inteligente.\n\n3. **Timing estratégico**: Hacer esto ANTES de que Fable 5 se vuelva de pago por uso.\n\n### Lo interesante:\n\nEl autor del post admite que:\n- No puede probar científicamente que funcione\n- No puede compartir sus skills específicas\n- Pero intuye que Fable 5 entendía \"cómo pensaba Opus 4.8\" y podía orientarlo mejor\n\n**Es esencialmente un hack de \"knowledge distillation\" casero**: usar la inteligencia superior para crear manuales de instrucciones que un modelo menos capaz pueda seguir mecánicamente.\n\n¿Ves el paralelismo con cómo se entrenan los modelos? Es como si estuvieras haciendo fine-tuning mediante prompts en lugar de pesos.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "121c3904-3ff6-4944-9ecf-a2ec5bbb2402",
+      "usage": {
+       "input_tokens": 4914,
+       "output_tokens": 721,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2484,
+        "text_tokens": 2430
+       },
+       "prompt_tokens_details": {},
+       "total_tokens": 5635,
+       "output_tokens_details": {
+        "reasoning_tokens": 357,
+        "text_tokens": 364
+       },
+       "image_tokens": 2484
+      },
+      "timestamp": 1784249830
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1784249830.2364335
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1784249814
+   },
+   {
+    "id": "70b20cf6-6928-491c-a096-ea30f1912689",
+    "role": "user",
+    "content": "eso era sobre crear una empresa, no?",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "121c3904-3ff6-4944-9ecf-a2ec5bbb2402",
+    "turn_id": null,
+    "childrenIds": [
+     "8d2f53b9-1cbb-4a8e-8ee8-02f0958d573d"
+    ],
+    "files": [],
+    "timestamp": 1784249859
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "8d2f53b9-1cbb-4a8e-8ee8-02f0958d573d",
+    "parentId": "70b20cf6-6928-491c-a096-ea30f1912689",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Analizando la imagen para determinar el propósito de la idea discutida",
+         "Preparing a response grounded in observed context and inferred intent",
+         "Reflecting on the interplay between intuition and structured exploration in creative problem-solving"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "Estoy examinando el contenido visual, especialmente el texto en portugués que comienza con \"depois que eu li no Reddit sobre\"  \nMi atención se centra en identificar si el tema abordado gira en torno a la creación de una empresa  \nA partir de este análisis, estoy evaluando el contexto y las implicaciones del contenido presentado",
+         "I am assessing the user's reference to a Reddit post about AI evolution and system transitions, interpreting the underlying concern about maintaining continuity in behavior and reasoning.  \nI recognize the metaphorical narrative of one model shaping another’s future conduct as a reflection of deeper anxieties about autonomy and control in evolving systems.  \nMy focus is on delivering clarity and coherence while aligning with the tone and implications embedded in the original message.",
+         "I have been contemplating the subtle alignment between my own cognitive processes and the emergent patterns I observed during deep engagement with a complex system.  \nThere appears to be an intuitive resonance—perhaps a form of attunement—where sustained focus and personal investment allow for a deeper understanding of underlying dynamics.  \nThough unprovable and irreproducible in isolation, this experience suggests that persistent, thoughtful interaction may unlock insights beyond mere technical execution."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "8d2f53b9-1cbb-4a8e-8ee8-02f0958d573d",
+      "usage": {
+       "input_tokens": 5293,
+       "output_tokens": 474,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2484,
+        "text_tokens": 2809
+       },
+       "prompt_tokens_details": {},
+       "total_tokens": 5767,
+       "output_tokens_details": {
+        "reasoning_tokens": 470,
+        "text_tokens": 4
+       },
+       "image_tokens": 2484
+      },
+      "timestamp": 1784249870
+     },
+     {
+      "content": "No, **no era sobre crear una empresa**. \n\nEl post de Reddit que se muestra en la imagen trata sobre **optimizar modelos de inteligencia artificial**. Específicamente:\n\n- Habla de usar **Fable 5** (un modelo de IA más avanzado) para crear \"skills\" o instrucciones personalizadas\n- Esas skills le enseñarían a **Opus 4.8** (un modelo menos potente) cómo comportarse y pensar\n- La idea es hacer esto **antes** de que Fable 5 se vuelva de pago por uso (pay-per-usage)\n\nEs una estrategia de **\"destilación de inteligencia\"** entre modelos de IA, donde un modelo más inteligente escribe manuales de instrucciones para que un modelo menos capaz pueda emular su forma de trabajar.\n\nEl autor del post admite que:\n1. No puede probar que realmente funcione\n2. No puede compartir sus skills porque mezclan cosas de su proyecto personal\n3. Pero cree que vale la pena intentarlo\n\n**No tiene nada que ver con crear una empresa** - es puramente sobre ingeniería de prompts y optimización de modelos de lenguaje.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "8d2f53b9-1cbb-4a8e-8ee8-02f0958d573d",
+      "usage": {
+       "input_tokens": 5293,
+       "output_tokens": 711,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 2484,
+        "text_tokens": 2809
+       },
+       "prompt_tokens_details": {},
+       "total_tokens": 6004,
+       "output_tokens_details": {
+        "reasoning_tokens": 470,
+        "text_tokens": 241
+       },
+       "image_tokens": 2484
+      },
+      "timestamp": 1784249875
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1784249875.2759314
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1784249859
+   }
+  ]
+ },
+ "updated_at": 1784249859,
+ "created_at": 1784026293,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1784026291469
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "8d2f53b9-1cbb-4a8e-8ee8-02f0958d573d"
+ ],
+ "currentId": "8d2f53b9-1cbb-4a8e-8ee8-02f0958d573d",
+ "chat_type": "t2t",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

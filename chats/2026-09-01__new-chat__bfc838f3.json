@@ -1,0 +1,266 @@
+{
+ "id": "bfc838f3-0560-4770-ad73-c227480f80c1",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "New chat",
+ "chat": {
+  "history": {
+   "messages": {
+    "f2a47e1f-780c-4907-bf8e-fa7ce98677d9": {
+     "id": "f2a47e1f-780c-4907-bf8e-fa7ce98677d9",
+     "role": "user",
+     "content": "(Aeronave esta siendo atacada) main character Says; I need you delploy my protocol right now Aion!!!",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "i2v",
+       "size": "16:9"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "579e8796-4526-4901-8ac1-746ca11fff5d"
+     ],
+     "files": [
+      {
+       "id": "77fd2f5d-ab53-438c-853a-74c908a4f0a0",
+       "name": "Screenshot_20260901_132441_com.alensw.PicFolder.jpg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 1149666,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/77fd2f5d-ab53-438c-853a-74c908a4f0a0_Screenshot_20260901_132441_com.alensw.PicFolder.jpg?key=[SECRETO_REDACTADO]",
+       "file": {
+        "created_at": 1788261905071,
+        "data": {},
+        "filename": "Screenshot_20260901_132441_com.alensw.PicFolder.jpg",
+        "hash": null,
+        "id": "77fd2f5d-ab53-438c-853a-74c908a4f0a0",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "Screenshot_20260901_132441_com.alensw.PicFolder.jpg",
+         "size": 1149666,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1788261905071,
+        "lastModified": 1788261881000,
+        "name": "Screenshot_20260901_132441_com.alensw.PicFolder.jpg",
+        "webkitRelativePath": "",
+        "size": 1149666,
+        "type": "image/jpeg"
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "0d050726-8b02-4305-9824-2179dd3f0f13",
+       "showType": "image",
+       "uploadTaskId": "3348028a-9284-4da5-9f8d-0712e4def805"
+      }
+     ],
+     "timestamp": 1788261983
+    },
+    "579e8796-4526-4901-8ac1-746ca11fff5d": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "579e8796-4526-4901-8ac1-746ca11fff5d",
+     "parentId": "f2a47e1f-780c-4907-bf8e-fa7ce98677d9",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "content_list": [],
+     "is_stop": false,
+     "edited": false,
+     "error": {
+      "code": "internal_error",
+      "details": "Task queue limit exceeded, please try again later."
+     },
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "i2v",
+       "size": "16:9"
+      },
+      "endTime": 1788261983.8992684
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1788261983
+    }
+   },
+   "currentId": "579e8796-4526-4901-8ac1-746ca11fff5d",
+   "currentResponseIds": [
+    "579e8796-4526-4901-8ac1-746ca11fff5d"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.7-plus"
+  ],
+  "messages": [
+   {
+    "id": "f2a47e1f-780c-4907-bf8e-fa7ce98677d9",
+    "role": "user",
+    "content": "(Aeronave esta siendo atacada) main character Says; I need you delploy my protocol right now Aion!!!",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "i2v",
+    "sub_chat_type": "i2v",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "i2v",
+      "size": "16:9"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "579e8796-4526-4901-8ac1-746ca11fff5d"
+    ],
+    "files": [
+     {
+      "id": "77fd2f5d-ab53-438c-853a-74c908a4f0a0",
+      "name": "Screenshot_20260901_132441_com.alensw.PicFolder.jpg",
+      "file_type": "image/jpeg",
+      "type": "image",
+      "file_class": "vision",
+      "size": 1149666,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/77fd2f5d-ab53-438c-853a-74c908a4f0a0_Screenshot_20260901_132441_com.alensw.PicFolder.jpg?key=[SECRETO_REDACTADO]",
+      "file": {
+       "created_at": 1788261905071,
+       "data": {},
+       "filename": "Screenshot_20260901_132441_com.alensw.PicFolder.jpg",
+       "hash": null,
+       "id": "77fd2f5d-ab53-438c-853a-74c908a4f0a0",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "Screenshot_20260901_132441_com.alensw.PicFolder.jpg",
+        "size": 1149666,
+        "content_type": "image/jpeg"
+       },
+       "update_at": 1788261905071,
+       "lastModified": 1788261881000,
+       "name": "Screenshot_20260901_132441_com.alensw.PicFolder.jpg",
+       "webkitRelativePath": "",
+       "size": 1149666,
+       "type": "image/jpeg"
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "0d050726-8b02-4305-9824-2179dd3f0f13",
+      "showType": "image",
+      "uploadTaskId": "3348028a-9284-4da5-9f8d-0712e4def805"
+     }
+    ],
+    "timestamp": 1788261983
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "i2v",
+    "sub_chat_type": "i2v",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "579e8796-4526-4901-8ac1-746ca11fff5d",
+    "parentId": "f2a47e1f-780c-4907-bf8e-fa7ce98677d9",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "content_list": [],
+    "is_stop": false,
+    "edited": false,
+    "error": {
+     "code": "internal_error",
+     "details": "Task queue limit exceeded, please try again later."
+    },
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "i2v",
+      "size": "16:9"
+     },
+     "endTime": 1788261983.8992684
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1788261983
+   }
+  ]
+ },
+ "updated_at": 1788261983,
+ "created_at": 1788261983,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1788261982493
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "579e8796-4526-4901-8ac1-746ca11fff5d"
+ ],
+ "currentId": "579e8796-4526-4901-8ac1-746ca11fff5d",
+ "chat_type": "i2v",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}
