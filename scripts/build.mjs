@@ -128,7 +128,7 @@ const NOINDEX = [
   'revision.html', 'logo-3d.html', 'parallax-futurista.html',
   'CARQUIDEC-ARCHITECT-MASTER.html', 'curriculum.html',
   'curriculum-1HOJA.html', 'curriculum-1HOJA-v3.html', 'curriculum-1HOJA-v4.html',
-  'curriculum-1HOJA-v5.html', 'Business Pricing _ OpenAI.html'
+  'curriculum-1HOJA-v5.html'
 ];
 
 /* ---------------------------------------------------------------------------
