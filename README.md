@@ -26,7 +26,7 @@ JavaScript la web sigue siendo legible (el sistema de diseño contempla
 - **Medios del estudio** — `assets/media/video` y `assets/media/audio`.
 - **Librerías** — `assets/vendor/`: GSAP, ScrollTrigger y Lenis servidos en local.
 
-## Cómo trabajar
+## Instalación y Uso
 
 ```bash
 npm ci --prefix tools       # dependencias de desarrollo (sharp, auditores…)

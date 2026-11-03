@@ -333,7 +333,7 @@ beltani_jarvis/
 
 ```bash
 # APIs de IA
-DEEPSEEK_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxx
+DEEPSEEK_API_KEY=sk-[REDACTED-KEY]
 ANTHROPIC_API_KEY=[SECRETO_REDACTADO]
 
 # Email para notificaciones (Gmail App Password)
