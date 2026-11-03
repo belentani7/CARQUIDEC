@@ -1,0 +1,21 @@
+# This repository contains a public website AND unrelated working archives.
+# GitHub Pages/Jekyll must never attempt to publish or parse the chats.
+# Keep the public HTML pages and assets in the site output.
+title: CARQUIDEC
+markdown: kramdown
+exclude:
+  - chats
+  - docs
+  - .claude
+  - .github
+  - node_modules
+  - tools
+  - scripts
+  - tests
+  - "**/*.md"
+  - "**/*.zip"
+  - "**/*.docx"
+  - "**/*.pptx"
+  - "**/*.py"
+  - "**/*.ts"
+  - "**/*.tsx"
