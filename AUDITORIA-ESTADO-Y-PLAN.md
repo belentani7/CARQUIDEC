@@ -4,15 +4,15 @@ Generado 2026-11-03 por el pase de reglas del ecosistema (catálogo `_meta/regla
 Todo lo afirmado aquí sale de datos reales: base de consolidación, gate oficial y git.
 
 - **Categoría:** negocio · **Ruta:** `C:\Users\USER\belentani-ecosystem\negocio\CARQUIDEC`
-- **Remoto:** https://github.com/belentani7/CARQUIDEC.git · **Rama:** main · **HEAD:** 78daca3 (fix(web-rules): aplica catalogo oficial WEB-01..11, ACC, SEO-01 en 10 ficheros ()
-- **Lenguajes:** .jpg:115,.webp:78,.avif:67,.png:63,.mp4:30,.html:23 · **Commits (git real):** 12 · **Tamaño worktree:** 1247.2 MB
-- **Visibilidad GitHub:** public · **Homepage:** https://carquidec.vercel.app · **HTTP:** —
+- **Remoto:** https://github.com/belentani7/CARQUIDEC.git · **Rama:** main · **HEAD:** 06443ee (docs(auditoria): estado real del repo, comandos para arreglar/elevar y potencial)
+- **Lenguajes:** .jpg:115,.webp:78,.avif:67,.png:63,.mp4:30,.html:23 · **Commits (git real):** 13 · **Tamaño worktree:** 1247.2 MB
+- **Visibilidad GitHub:** public · **Homepage:** https://carquidec.vercel.app · **HTTP:** HTTP_200
 - **GitHub Pages:** no activo
 
 ## 1. Situación actual
 
 - **Consolidación:** familia `proyecto-carquidec` · acción survivor (estable).
-- **Git:** 2 ficheros sin commitear · 2 commits sin push · 1 commits del pase de reglas (desde 2026-11-02).
+- **Git:** 2 ficheros sin commitear · 3 commits sin push · 2 commits del pase de reglas (desde 2026-11-02).
 - **Reglas web (gate oficial):** 23 HTML · **0 hallazgos** · 0 títulos duplicados.
 - **Gobernanza GitHub (protocolo MS):** 10/11 reglas aplicadas · pendientes: GH-09
 - **Secretos (triaje):** sin hallazgos.
@@ -46,6 +46,7 @@ Todo lo afirmado aquí sale de datos reales: base de consolidación, gate oficia
 ## 3. Qué puede alcanzar este repositorio
 
 - **Repositorio público**: puede publicar gratis en GitHub Pages (`https://belentani7.github.io/CARQUIDEC/`) y mantener Vercel; hoy tiene Pages desactivado
+- Ya tiene despliegue Vercel vivo: siguiente nivel es dominio propio (`<producto>.belentani.es`) añadiendo CNAME en el registrador.
 - Sitio pequeño pero válido: con gobernanza GH-01..10 completa y CI quedaría listo como producto público.
 
 ---
