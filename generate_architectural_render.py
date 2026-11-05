@@ -3,8 +3,8 @@
 # Generates high-end architectural concept diagrams and visual textures
 # ==========================================
 
-import os
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw
+
 
 def generate_blueprint_texture():
     width, height = 1920, 1080

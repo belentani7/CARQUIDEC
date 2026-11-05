@@ -1,12 +1,16 @@
-import sys, io, os, re
+import io
+import os
+import re
+import sys
+
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
 from html.parser import HTMLParser
+
 from docx import Document
-from docx.shared import Pt, Inches, Cm, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.enum.table import WD_TABLE_ALIGNMENT
 from docx.oxml.ns import qn
+from docx.shared import Cm, Pt, RGBColor
 
 GOLD = RGBColor(0xB8, 0x95, 0x3A)
 DARK = RGBColor(0x1A, 0x1A, 0x1A)

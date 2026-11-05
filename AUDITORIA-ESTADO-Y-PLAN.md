@@ -1,4 +1,4 @@
-﻿# Auditoría, situación y plan de elevación — `CARQUIDEC`
+# Auditoría, situación y plan de elevación — `CARQUIDEC`
 
 Generado 2026-11-03 por el pase de reglas del ecosistema (catálogo `_meta/reglas-oficiales.md`).
 Todo lo afirmado aquí sale de datos reales: base de consolidación, gate oficial y git.
