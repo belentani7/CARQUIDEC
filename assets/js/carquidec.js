@@ -322,7 +322,9 @@
       });
 
       var action = form.getAttribute('action') || '';
-      var isPlaceholder = /YOUR_FORM_ID|ejemplo|example/i.test(action);
+      // Forms without an action (or with '#') do not have a delivery endpoint.
+      // Never POST an enquiry to the current HTML document by mistake.
+      var isPlaceholder = !action.trim() || action.trim() === '#' || /YOUR_FORM_ID|ejemplo|example/i.test(action);
 
       /* Sin endpoint configurado el formulario no puede quedarse inerte: se
          compone el mensaje y se ofrece enviarlo por correo (mailto) o por
