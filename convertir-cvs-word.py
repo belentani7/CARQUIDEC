@@ -48,7 +48,7 @@ def extract_text(html_file):
 
 def create_docx(texts, output_file, title_text=""):
     doc = Document()
-    
+
     # Set A4 page size
     section = doc.sections[0]
     section.page_width = Cm(21)
@@ -57,14 +57,14 @@ def create_docx(texts, output_file, title_text=""):
     section.bottom_margin = Cm(1.5)
     section.left_margin = Cm(1.5)
     section.right_margin = Cm(1.5)
-    
+
     # Set default font
     style = doc.styles['Normal']
     font = style.font
     font.name = 'Segoe UI'
     font.size = Pt(10)
     font.color.rgb = DARK
-    
+
     # Title
     if title_text:
         p = doc.add_paragraph()
@@ -74,9 +74,9 @@ def create_docx(texts, output_file, title_text=""):
         run.font.size = Pt(20)
         run.font.color.rgb = DARK
         p.space_after = Pt(4)
-    
+
     # Process text content
-    skip_patterns = ['margin:', 'padding:', 'box-sizing:', 'font-family:', 
+    skip_patterns = ['margin:', 'padding:', 'box-sizing:', 'font-family:',
                      'background', 'color:', 'border:', 'display:', 'position:',
                      'width:', 'height:', 'text-align:', 'text-transform:',
                      'letter-spacing:', 'line-height:', 'overflow:', 'z-index:',
@@ -93,15 +93,15 @@ def create_docx(texts, output_file, title_text=""):
                      'caption-side:', 'empty-cells:', 'quotes:', 'counter-',
                      'page-break', 'orphans:', 'widows:', 'marks:', 'size:',
                      'bleed:', 'marks:', 'cssText', 'getPropertyValue']
-    
-    section_keywords = ['CONTACTO', 'CONTACT', 'PERFIL', 'PROFILE', 'HABILIDADES', 
+
+    section_keywords = ['CONTACTO', 'CONTACT', 'PERFIL', 'PROFILE', 'HABILIDADES',
                        'SKILLS', 'EXPERIENCIA', 'EXPERIENCE', 'EDUCACION', 'EDUCATION',
                        'PROYECTOS', 'PROJECTS', 'PREMIOS', 'AWARDS', 'CERTIFICACIONES',
                        'CERTIFICATIONS', 'IDIOMAS', 'LANGUAGES', 'COMPETENCIAS',
                        'SPECIALTIES', 'LOGROS', 'ACHIEVEMENTS', 'SERVICIOS', 'SERVICES',
                        'METODOLOGIA', 'METHODOLOGY', 'PORTFOLIO', 'SOBRE', 'ABOUT',
                        'HITOS', 'TRAYECTORIA', 'FORMACION', 'ADN', 'ESTANCIAS']
-    
+
     for text in texts:
         # Skip CSS/technical content
         if any(p in text for p in skip_patterns):
@@ -112,19 +112,19 @@ def create_docx(texts, output_file, title_text=""):
             continue
         if re.match(r'^(#[0-9a-fA-F]{3,8}|rgb|rgba|hsl)', text):
             continue
-        
+
         # Clean text
         text = text.replace('\n', ' ').replace('\t', ' ').strip()
         text = re.sub(r'\s+', ' ', text)
-        
+
         if not text or len(text) < 2:
             continue
-            
+
         p = doc.add_paragraph()
-        
+
         # Check if it's a section header
         is_header = text.upper() in section_keywords or any(text.upper().startswith(k) for k in section_keywords)
-        
+
         if is_header:
             run = p.add_run(text.upper())
             run.bold = True
@@ -175,9 +175,9 @@ def create_docx(texts, output_file, title_text=""):
             run = p.add_run(text)
             run.font.size = Pt(10)
             run.font.color.rgb = DARK
-        
+
         p.space_after = Pt(2)
-    
+
     doc.save(output_file)
     print(f'Creado: {output_file} ({os.path.getsize(output_file)//1024}KB)')
 

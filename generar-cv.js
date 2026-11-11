@@ -69,7 +69,7 @@ const doc = new Document({
 
       // ===== TRAYECTORIA =====
       sectionTitle('TRAYECTORIA PROFESIONAL'),
-      
+
       // Job 1
       new Paragraph({
         spacing: { after: 20 },
